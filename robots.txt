@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://dierenkliniek.nl/sitemap.xml
