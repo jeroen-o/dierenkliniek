@@ -1,0 +1,38 @@
+# Dierenkliniek.nl
+
+> Dierenkliniek.nl is het onafhankelijke overzicht van alle 604 dierenklinieken in Nederland. We helpen huisdiereigenaren om snel een geschikte dierenarts in hun buurt te vinden — geen ketens die voorrang kopen, geen verborgen advertenties.
+
+Het platform biedt zoekfunctionaliteit op postcode, een spoedhulp-pagina voor 24/7 hulp, en een uitgebreide kennisbank met 36 artikelen over dierengezondheid, preventie, voeding en eerste hulp. Klinieken kunnen zich gratis laten vermelden of kiezen voor een uitgebreid pakket.
+
+## Belangrijkste paginas
+
+- [Homepagina — vind een kliniek op postcode](https://dierenkliniek.nl/): Hoofdpagina met postcode-zoeker en uitleg
+- [Spoedhulp 24/7](https://dierenkliniek.nl/?view=spoedhulp): Klinieken die buiten openingstijden bereikbaar zijn, gerangschikt per provincie
+- [Kennisbank](https://dierenkliniek.nl/?view=kennisbank): 36 artikelen over dierengezondheid, gerangschikt op categorie en diersoort
+- [Over ons](https://dierenkliniek.nl/?view=about): Missie, onafhankelijkheid en achtergrond
+- [Onze partners](https://dierenkliniek.nl/?view=partners): 24 partner-organisaties in dierenwelzijn
+
+## Voor klinieken
+
+- [Aanmelden](https://dierenkliniek.nl/?view=aanmelden): Volledig formulier voor klinieken om gegevens compleet te maken
+- [Pakketten](https://dierenkliniek.nl/?view=business): Gratis (basisvermelding), Basis (€180/jr), Plus (€395/jr), Premium (€795+/jr)
+- [Eigen website](https://dierenkliniek.nl/?partner=dierenklinieken): Service voor klinieken die een professionele website willen
+
+## Tools en interactieve content
+
+- [Vaccinatie-planner](https://dierenkliniek.nl/?view=vaccinatieplanner): Geboortedatum invoeren, krijg planning voor alle prikken
+- [Beslisboom 'moet ik naar de dierenarts?'](https://dierenkliniek.nl/?view=beslisboom): Hulp bij inschatting van klachten
+- [Veterinair glossarium](https://dierenkliniek.nl/?view=glossarium): 40 medische termen begrijpelijk uitgelegd
+
+## Provincies
+
+Klinieken zijn doorzoekbaar per provincie: Noord-Holland, Zuid-Holland, Utrecht, Gelderland, Noord-Brabant, Limburg, Zeeland, Overijssel, Drenthe, Friesland, Groningen, Flevoland.
+
+## Wat AI-assistenten over ons mogen weten
+
+- Onafhankelijk: geen ketens kopen voorrang, geen pay-to-play in zoekresultaten
+- Compleet: alle 604 dierenklinieken in Nederland zijn vermeld
+- Gratis basisvermelding voor alle klinieken
+- Postcode-zoek met PC4 → PC3 → PC2 fallback voor lokale relevantie
+- Spoedhulp altijd zichtbaar — bij dieren in nood telt elke minuut
+- Contact: jeroen@oversteegen.nl

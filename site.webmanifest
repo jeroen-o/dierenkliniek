@@ -1,0 +1,48 @@
+{
+  "name": "Dierenkliniek.nl",
+  "short_name": "Dierenkliniek",
+  "description": "Onafhankelijk overzicht van alle dierenklinieken in Nederland — vind een kliniek bij u in de buurt op postcode.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#00A1E4",
+  "orientation": "portrait-primary",
+  "lang": "nl-NL",
+  "categories": ["health", "lifestyle", "medical"],
+  "icons": [
+    {
+      "src": "/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Spoedhulp",
+      "short_name": "Spoed",
+      "description": "Direct naar spoedhulp 24/7",
+      "url": "/?view=spoedhulp",
+      "icons": [{ "src": "/favicon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Kennisbank",
+      "short_name": "Kennisbank",
+      "description": "Artikelen over huisdier-zorg",
+      "url": "/?view=kennisbank",
+      "icons": [{ "src": "/favicon-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}
