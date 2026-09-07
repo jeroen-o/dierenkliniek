@@ -2503,14 +2503,22 @@ body.has-compare-bar { padding-bottom: 90px; }
           Onafhankelijk · 604 klinieken in heel Nederland
         </div>
         <h1 class="hero-title">De juiste dierenarts vinden, <em>eenvoudig en betrouwbaar.</em></h1>
-        <p class="hero-sub">Vind alle dierenklinieken in Nederland op postcode. Volledig onafhankelijk — geen keten, geen verborgen advertenties.</p>
+        <p class="hero-sub">Vind alle dierenklinieken in Nederland op postcode, plaats of naam. Volledig onafhankelijk — geen keten, geen verborgen advertenties.</p>
 
         <form class="search-box" onsubmit="performSearch(event)">
           <div class="search-field">
-            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="14" rx="2"/><path d="M3 10h18"/><path d="M7 14h4"/></svg>
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
             <div class="search-field-content">
-              <label>Postcode</label>
-              <input type="text" id="searchPostcode" placeholder="bijv. 3511 AA" autocomplete="postal-code" maxlength="7" pattern="[0-9]{4}\s?[A-Za-z]{0,2}" inputmode="numeric">
+              <label>Postcode of plaats</label>
+              <input type="text" id="searchPostcode" placeholder="bijv. 3511 AA of Utrecht" autocomplete="postal-code" maxlength="40">
+            </div>
+          </div>
+          <div class="search-field-divider"></div>
+          <div class="search-field">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <div class="search-field-content">
+              <label>Naam kliniek (optioneel)</label>
+              <input type="text" id="searchKeywordHome" placeholder="bijv. AniCura" maxlength="40">
             </div>
           </div>
           <button type="submit" class="btn btn-primary btn-lg">
@@ -6067,54 +6075,91 @@ function haversineKm(lat1, lng1, lat2, lng2) {
 }
 
 function geocodeQuery(input) {
-  // Verwerkt alleen postcode (PC4 met optionele letters: "1234", "1234 AB", "1234AB")
+  // Verwerkt postcode OF plaatsnaam.
+  // Postcode: "1234", "1234 AB", "1234AB" → PC4 → PC3 → PC2 fallback
+  // Plaats: "Utrecht", "Den Haag", etc. → gemiddelde coords van alle klinieken in die plaats
   // Returns { lat, lng, label, accuracy, type } of null
   if (!input || !input.trim()) return null;
   const q = input.trim();
 
+  // Eerst proberen als postcode
   const pcMatch = q.match(/^(\d{4})\s*([A-Za-z]{0,2})$/);
-  if (!pcMatch) return null;
+  if (pcMatch) {
+    const pc4 = pcMatch[1];
+    let matches = CLINICS.filter(c => c.postcode.replace(/\s/g,'').slice(0,4) === pc4);
+    let accuracy = 'pc4';
+    // Onthoud welke postcode de gebruiker zocht — voor exact-match voorrang bij sortering
+    var _searchedPc4 = pc4;
+    if (matches.length === 0) {
+      matches = CLINICS.filter(c => c.postcode.replace(/\s/g,'').slice(0,3) === pc4.slice(0,3));
+      accuracy = 'pc3';
+    }
+    if (matches.length === 0) {
+      matches = CLINICS.filter(c => c.postcode.replace(/\s/g,'').slice(0,2) === pc4.slice(0,2));
+      accuracy = 'pc2';
+    }
+    if (matches.length > 0) {
+      const lat = matches.reduce((s,c) => s+c.lat, 0) / matches.length;
+      const lng = matches.reduce((s,c) => s+c.lng, 0) / matches.length;
+      const label = pcMatch[2] ? `${pc4} ${pcMatch[2].toUpperCase()}` : pc4;
+      return { lat, lng, label, accuracy, type: 'postcode', searchedPc4: pc4 };
+    }
+  }
 
-  const pc4 = pcMatch[1];
-  // Probeer exacte PC4-match (klinieken in dezelfde straten/buurt)
-  let matches = CLINICS.filter(c => c.postcode.replace(/\s/g,'').slice(0,4) === pc4);
-  let accuracy = 'pc4';
-  if (matches.length === 0) {
-    // Fallback PC3 — zelfde wijk/dorp
-    matches = CLINICS.filter(c => c.postcode.replace(/\s/g,'').slice(0,3) === pc4.slice(0,3));
-    accuracy = 'pc3';
+  // Anders proberen als plaats-naam (case-insensitive, met normalisatie voor diakritieken/apostroffen)
+  const normStr = (s) => (s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/['`]/g, '').trim();
+  const qNorm = normStr(q);
+
+  // 1. Exacte match op stadnaam
+  let matches = CLINICS.filter(c => normStr(c.city) === qNorm);
+  let accuracy = 'city-exact';
+
+  // 2. StartsWith match (bv. "Amsterd" → Amsterdam)
+  if (matches.length === 0 && qNorm.length >= 3) {
+    matches = CLINICS.filter(c => normStr(c.city).startsWith(qNorm));
+    accuracy = 'city-prefix';
   }
-  if (matches.length === 0) {
-    // Fallback PC2 — zelfde regio
-    matches = CLINICS.filter(c => c.postcode.replace(/\s/g,'').slice(0,2) === pc4.slice(0,2));
-    accuracy = 'pc2';
+
+  // 3. Substring match
+  if (matches.length === 0 && qNorm.length >= 3) {
+    matches = CLINICS.filter(c => normStr(c.city).includes(qNorm));
+    accuracy = 'city-partial';
   }
-  if (matches.length === 0) return null;
-  const lat = matches.reduce((s,c) => s+c.lat, 0) / matches.length;
-  const lng = matches.reduce((s,c) => s+c.lng, 0) / matches.length;
-  const label = pcMatch[2] ? `${pc4} ${pcMatch[2].toUpperCase()}` : pc4;
-  return { lat, lng, label, accuracy, type: 'postcode' };
+
+  if (matches.length > 0) {
+    const lat = matches.reduce((s,c) => s+c.lat, 0) / matches.length;
+    const lng = matches.reduce((s,c) => s+c.lng, 0) / matches.length;
+    // Toon de gevonden plaats netjes gekapitaliseerd (van eerste match)
+    return { lat, lng, label: matches[0].city, accuracy, type: 'city' };
+  }
+
+  return null;
 }
 
 function performSearch(e) {
   if (e) e.preventDefault();
 
-  // Lees postcode uit beide mogelijke formulieren (home hero + search bar)
+  // Lees waarden uit alle mogelijke velden (home hero + search bar)
   const fields = {
-    postcode:    document.getElementById('searchPostcode'),
-    postcodeAlt: document.getElementById('searchPostcode2'),
-    keyword:     document.getElementById('searchKeyword'),
+    postcode:      document.getElementById('searchPostcode'),
+    postcodeAlt:   document.getElementById('searchPostcode2'),
+    keywordHome:   document.getElementById('searchKeywordHome'),
+    keyword:       document.getElementById('searchKeyword'),
   };
 
-  const pcVal = (fields.postcode && fields.postcode.value.trim()) || (fields.postcodeAlt && fields.postcodeAlt.value.trim()) || '';
-  const keywordVal = fields.keyword ? fields.keyword.value.trim().toLowerCase() : '';
+  const pcVal = (fields.postcode && fields.postcode.value.trim()) ||
+                (fields.postcodeAlt && fields.postcodeAlt.value.trim()) || '';
+  const keywordVal = (fields.keywordHome && fields.keywordHome.value.trim()) ||
+                     (fields.keyword && fields.keyword.value.trim()) || '';
 
-  searchKeyword = keywordVal;
+  searchKeyword = keywordVal.toLowerCase();
   searchLocation = pcVal ? geocodeQuery(pcVal) : null;
 
-  // Synchroniseer postcode tussen home en search formulier
+  // Synchroniseer velden tussen home en search formulier zodat gebruiker ziet wat hij typte
   if (fields.postcode)    fields.postcode.value = pcVal;
   if (fields.postcodeAlt) fields.postcodeAlt.value = pcVal;
+  if (fields.keywordHome) fields.keywordHome.value = keywordVal;
+  if (fields.keyword)     fields.keyword.value = keywordVal;
 
   window._resultsShown = 50;
   navigate('search');
@@ -6151,10 +6196,24 @@ function renderSearchResults() {
     });
     // Filter to a reasonable radius (50km default — show all within that)
     results = results.filter(c => c._distance <= 50);
-    // Sort: top tier within 10km first, then plus within 10km, then everything by distance
+    // Sortering:
+    //  1) Exacte PC4-match wint ALTIJD (klinieken in dezelfde postcode als gezocht)
+    //  2) Binnen 10 km: tier (top → plus → basic → gratis) → dan afstand
+    //  3) Verder weg: alleen afstand
     const tierOrder = { top: 0, plus: 1, basic: 2, gratis: 3 };
+    const searchedPc4 = searchLocation && searchLocation.searchedPc4;
+    results.forEach(c => {
+      c._exactPc4 = searchedPc4 && c.postcode.replace(/\s/g,'').slice(0,4) === searchedPc4;
+    });
     results.sort((a, b) => {
-      // Within 10km, tier wins. Beyond 10km, distance wins.
+      // 1. Exacte PC4-match wint
+      if (a._exactPc4 && !b._exactPc4) return -1;
+      if (!a._exactPc4 && b._exactPc4) return 1;
+      if (a._exactPc4 && b._exactPc4) {
+        // Beide zelfde PC4: sorteer op afstand
+        return a._distance - b._distance;
+      }
+      // 2. Binnen 10 km: tier + afstand
       const aClose = a._distance <= 10;
       const bClose = b._distance <= 10;
       if (aClose && bClose) {
@@ -6164,6 +6223,7 @@ function renderSearchResults() {
       }
       if (aClose && !bClose) return -1;
       if (!aClose && bClose) return 1;
+      // 3. Verder weg: alleen afstand
       return a._distance - b._distance;
     });
   } else {
