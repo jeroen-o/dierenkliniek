@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E0F4FC"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="logo-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00A1E4"/>
+      <stop offset="100%" stop-color="#003E7E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Achtergrond -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Centraal logo + tekst -->
+  <g transform="translate(280, 230)">
+    <!-- Logo block -->
+    <rect x="0" y="0" width="120" height="120" rx="26" fill="url(#logo-bg)"/>
+    <g fill="white" transform="translate(60, 62)">
+      <ellipse cx="-22" cy="-17" rx="7" ry="9"/>
+      <ellipse cx="-7" cy="-25" rx="7" ry="9"/>
+      <ellipse cx="7" cy="-25" rx="7" ry="9"/>
+      <ellipse cx="22" cy="-17" rx="7" ry="9"/>
+      <path d="M -19 0 Q -22 15, -15 22 Q 0 30, 15 22 Q 22 15, 19 0 Q 15 -5, 0 -5 Q -15 -5, -19 0 Z"/>
+    </g>
+    <!-- Tekst -->
+    <text x="150" y="80"
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+          font-size="64" font-weight="800" letter-spacing="-2"
+          fill="#0a1628">Dierenkliniek<tspan fill="#00A1E4">.nl</tspan></text>
+  </g>
+
+  <!-- Subtitle -->
+  <text x="600" y="430" text-anchor="middle"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="28" font-weight="500"
+        fill="#4a5568">Vind alle Nederlandse dierenklinieken</text>
+
+  <!-- Tagline -->
+  <text x="600" y="475" text-anchor="middle"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="20" font-weight="400"
+        fill="#6b7280">Onafhankelijk · 604 klinieken · Spoedhulp 24/7</text>
+</svg>

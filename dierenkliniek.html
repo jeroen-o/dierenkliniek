@@ -5587,6 +5587,7 @@ const CLINICS = [
   { id: 602, name: "Van Stad tot Wad - Locatie Uithuizen", city: "Uithuizen", address: "Schoolstraat 16", postcode: "9981 AN", phone: "43 42 55", email: "", website: "https://www.vanstadtotwad.nl/", rating: 4.5, reviews: 0, specs: ["Honden", "Katten"], tags: [], lat: 53.403, lng: 6.6797, desc: "Veterinaire kliniek in Uithuizen.", tier: "gratis" },
   { id: 603, name: "Dierenkliniek De Band", city: "Stein", address: "Den Hoekstraat 3", postcode: "6171 VX", phone: "433 35 01", email: "", website: "https://www.dierenkliniekdeband.nl/", rating: 4.5, reviews: 0, specs: ["Honden", "Katten"], tags: [], lat: 50.9669, lng: 5.7654, desc: "Veterinaire kliniek in Stein.", tier: "gratis" },
   { id: 604, name: "Dierenkliniek Op de Diek - Locatie Geleen", city: "Geleen", address: "Kluis 28", postcode: "6365 EM", phone: "474 88 57", email: "", website: "http://www.opdediek.nl/", rating: 4.5, reviews: 0, specs: ["Honden", "Katten"], tags: [], lat: 50.9747, lng: 5.8267, desc: "Veterinaire kliniek in Geleen.", tier: "gratis" },
+  { id: 605, name: "Dierenarts Ark van Noach", city: "Den Haag", address: "Oder 20 Unit G9377", postcode: "2491 DC", phone: "+31 6 11599398", email: "info@dierenartsarkvannoach.nl", website: "https://www.dierenartsarkvannoach.nl/", rating: 0, reviews: 0, specs: ["Honden", "Katten"], tags: ["whatsapp"], lat: 52.0338, lng: 4.3922, desc: "Dierenarts in Den Haag. Bereikbaar via telefoon en WhatsApp op +31 6 11599398.", tier: "gratis", kvk: "95884378", whatsapp: "+31611599398" },
 ];
 
 // ============ STATE & ROUTING ============
@@ -7003,9 +7004,15 @@ window.addEventListener('DOMContentLoaded', () => {
 // ============ URL ROUTING ============
 // Maakt unieke leesbare URLs per kliniek (slug-based) en per view.
 
+const CLINIC_SLUG_OVERRIDES = {"60": "de-graafschap-dierenartsen-dierenarts-in-zutphen-2", "149": "dierenkliniek-t-hooy-velt-sterkliniek-emmen-dierenarts-in-emmen-2", "487": "dierenkliniek-heusden-dierenarts-in-heesbeen-2", "490": "dierenkliniek-de-langstraat-dierenarts-in-waalwijk-2"};
+
 function clinicSlug(c) {
-  // Helper: string → URL-safe slug
-  const slugify = (s) => s
+  // Check eerst voor collision-override
+  if (c && c.id != null && CLINIC_SLUG_OVERRIDES[String(c.id)]) {
+    return CLINIC_SLUG_OVERRIDES[String(c.id)];
+  }
+  // Standaard: naam-dierenarts-in-plaats
+  const norm = (s) => (s || '')
     .toLowerCase()
     .normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '')
@@ -7014,35 +7021,41 @@ function clinicSlug(c) {
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '')
     .replace(/--+/g, '-');
-
-  const nameSlug = slugify(c.name);
-  const citySlug = slugify(c.city);
-  // Als de plaats al in de naam zit, niet dupliceren
-  if (nameSlug === citySlug || nameSlug.endsWith('-' + citySlug)) {
-    return nameSlug;
-  }
-  return nameSlug + '-' + citySlug;
+  const nameSlug = norm(c.name);
+  const citySlug = norm(c.city);
+  return `${nameSlug}-dierenarts-in-${citySlug}`;
 }
 
 function findClinicBySlug(slug) {
   if (!slug) return null;
-  // First try exact slug match
-  const exact = CLINICS.find(c => clinicSlug(c) === slug);
-  if (exact) return exact;
-  // Fallback: legacy numeric ID
+  // Zoek eerst met nieuwe slug-formaat
+  let match = CLINICS.find(c => clinicSlug(c) === slug);
+  if (match) return match;
+  // Backwards compat: oude formaat 'naam-plaats' zonder '-dierenarts-in-'
+  // Reconstrueer oud slug-formaat en probeer opnieuw
+  const norm = (s) => (s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .replace(/['"`]/g, '').replace(/&/g, ' en ').replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '').replace(/--+/g, '-');
+  match = CLINICS.find(c => {
+    const nameSlug = norm(c.name);
+    const citySlug = norm(c.city);
+    const oldSlug = nameSlug.endsWith('-' + citySlug) || nameSlug === citySlug
+      ? nameSlug
+      : nameSlug + '-' + citySlug;
+    return oldSlug === slug;
+  });
+  if (match) return match;
+  // Fallback: numerieke ID
   const id = parseInt(slug, 10);
-  if (!isNaN(id)) {
-    return CLINICS.find(c => c.id === id);
-  }
+  if (!isNaN(id)) return CLINICS.find(c => c.id === id);
   return null;
 }
 
 function updateUrl(view, clinicOrSlug) {
   if (!window.history || !window.history.pushState) return;
-  let url = window.location.pathname;
-  const params = new URLSearchParams();
+  let newUrl;
   if (clinicOrSlug !== undefined && clinicOrSlug !== null) {
-    // Accept either a slug string, a numeric id, or a clinic object
+    // Nieuw formaat: pathname-based URL voor kliniek (SEO-vriendelijk)
     let slug = clinicOrSlug;
     if (typeof clinicOrSlug === 'object') {
       slug = clinicSlug(clinicOrSlug);
@@ -7050,32 +7063,41 @@ function updateUrl(view, clinicOrSlug) {
       const c = CLINICS.find(x => x.id === clinicOrSlug);
       if (c) slug = clinicSlug(c);
     }
-    params.set('clinic', slug);
+    newUrl = '/' + slug;
   } else if (view && view !== 'home') {
-    params.set('view', view);
+    newUrl = window.location.pathname + '?view=' + view;
+  } else {
+    newUrl = '/';
   }
-  const qs = params.toString();
-  const newUrl = qs ? `${url}?${qs}` : url;
   if (newUrl !== window.location.pathname + window.location.search) {
-    // Wrap in try/catch — pushState fails in sandboxed iframes (about:srcdoc)
-    // and some hosting setups. We don't want a routing failure to break the page.
     try {
       window.history.pushState({ view, clinicOrSlug }, '', newUrl);
     } catch (e) {
-      // Silently ignore — URL stays the same, but page navigation still works
       console.warn('updateUrl: pushState blocked', e.message);
     }
   }
 }
 
 function routeFromUrl() {
-  // Only support clinic deep-links via ?clinic=slug.
-  // View routing (?view=...) is intentionally disabled to avoid pushState issues
-  // in sandboxed iframes. Use the menu/click navigation for views.
+  // Ondersteunt zowel query-string URLs als pathname-based URLs voor klinieken
   const params = new URLSearchParams(window.location.search);
   const clinicParam = params.get('clinic');
   const articleParam = params.get('article');
   const view = params.get('view');
+
+  // NIEUW: pathname-based URLs voor klinieken (bijv. /a7-noord-dierenartsen-dierenarts-in-burgum)
+  const pathname = window.location.pathname;
+  const cleanPath = pathname.replace(/^\/+|\/+$/g, '').replace(/\.html$/, '');
+  if (cleanPath && cleanPath !== 'index' && !cleanPath.includes('/')) {
+    // Probeer pathname als kliniek-slug (moet met '-dierenarts-in-' bevatten)
+    if (cleanPath.includes('-dierenarts-in-')) {
+      const c = findClinicBySlug(cleanPath);
+      if (c) {
+        showClinic(c.id);
+        return;
+      }
+    }
+  }
 
   if (clinicParam !== null) {
     const c = findClinicBySlug(clinicParam);
@@ -7084,7 +7106,6 @@ function routeFromUrl() {
       return;
     }
   }
-  // Article deep-links: ?article=slug
   if (articleParam !== null) {
     const a = findArticleBySlug(articleParam);
     if (a) {
@@ -7092,19 +7113,11 @@ function routeFromUrl() {
       return;
     }
   }
-  // Partner deep-links: ?partner=slug
-  const partnerParam = params.get('partner');
-  if (partnerParam !== null && typeof navigatePartner === 'function') {
-    navigatePartner(partnerParam);
-    return;
-  }
-  // Backwards compatibility for views that used to be in ?view= param
   if (view) {
     if (view === 'spoedhulp') { showSpoedhulp(); return; }
     if (view === 'provincies') { showProvincesOverview(); return; }
     if (view === 'favorieten') { showFavorites(); return; }
     if (view === 'vergelijk') { showCompareView(); return; }
-    // Backwards compat: ?view=websites → dierenklinieken partner
     if (view === 'websites' && typeof navigatePartner === 'function') {
       navigatePartner('dierenklinieken');
       return;
@@ -7114,7 +7127,6 @@ function routeFromUrl() {
       return;
     }
   }
-  // Default: home view stays active (already set in HTML)
 }
 
 // Listen to browser back/forward
