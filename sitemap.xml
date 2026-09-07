@@ -672,4 +672,12 @@
   <url><loc>https://dierenkliniek.nl/?view=cookies</loc><priority>0.7</priority></url>
   <url><loc>https://dierenkliniek.nl/?view=partners</loc><priority>0.7</priority></url>
   <url><loc>https://dierenkliniek.nl/?view=favorieten</loc><priority>0.7</priority></url>
+  <url><loc>https://dierenkliniek.nl/?article=hoe-oud-wordt-mijn-hond-levensverwachting-per-grootte-en-ras</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://dierenkliniek.nl/?article=hoe-oud-wordt-mijn-kat-levensverwachting-en-verzorging-op-leeftijd</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://dierenkliniek.nl/?article=castreren-of-steriliseren-hond-wat-is-het-verschil</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://dierenkliniek.nl/?article=wat-kost-een-spoedvisite-bij-de-dierenarts</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://dierenkliniek.nl/?article=hond-geeft-over-wat-te-doen-wanneer-thuis-afwachten-en-wanneer-naar-de-dierenarts</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://dierenkliniek.nl/?article=kat-drinkt-veel-mogelijke-oorzaken-en-wanneer-u-moet-ingrijpen</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://dierenkliniek.nl/?article=diarree-bij-honden-huismiddel-of-dierenarts-praktische-gids</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://dierenkliniek.nl/?article=labrador-retriever-veelvoorkomende-gezondheidsproblemen-en-preventie</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
 </urlset>
