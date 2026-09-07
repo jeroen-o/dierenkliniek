@@ -4750,6 +4750,27 @@ body.has-compare-bar { padding-bottom: 90px; }
               <a href="#" class="val" id="dWebsite" target="_blank"></a>
             </div>
           </div>
+          <div class="contact-row" id="dWhatsappRow" style="display:none;">
+            <svg width="20" height="20" fill="none" stroke="#25D366" stroke-width="2" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+            <div>
+              <div class="lbl">WhatsApp</div>
+              <a href="#" class="val" id="dWhatsapp" target="_blank" rel="noopener"></a>
+            </div>
+          </div>
+          <div class="contact-row" id="dKvkRow" style="display:none;">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M20 7h-4V5c0-1.1-.9-2-2-2h-4c-1.1 0-2 .9-2 2v2H4c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zM10 5h4v2h-4V5zm10 15H4V9h16v11z"/></svg>
+            <div>
+              <div class="lbl">KvK-nummer</div>
+              <span class="val" id="dKvk" style="color:var(--ink); font-weight:600;"></span>
+            </div>
+          </div>
+          <div class="contact-row" id="dBtwRow" style="display:none;">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            <div>
+              <div class="lbl">BTW-nummer</div>
+              <span class="val" id="dBtw" style="color:var(--ink); font-weight:600;"></span>
+            </div>
+          </div>
           <div class="contact-row" id="dGoogleReviewsRow" style="margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--line);">
             <div class="contact-label" style="display:flex; align-items:center; gap:6px;">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
@@ -5595,7 +5616,7 @@ const CLINICS = [
   { id: 602, name: "Van Stad tot Wad - Locatie Uithuizen", city: "Uithuizen", address: "Schoolstraat 16", postcode: "9981 AN", phone: "43 42 55", email: "", website: "https://www.vanstadtotwad.nl/", rating: 4.5, reviews: 0, specs: ["Honden", "Katten"], tags: [], lat: 53.403, lng: 6.6797, desc: "Veterinaire kliniek in Uithuizen.", tier: "gratis" },
   { id: 603, name: "Dierenkliniek De Band", city: "Stein", address: "Den Hoekstraat 3", postcode: "6171 VX", phone: "433 35 01", email: "", website: "https://www.dierenkliniekdeband.nl/", rating: 4.5, reviews: 0, specs: ["Honden", "Katten"], tags: [], lat: 50.9669, lng: 5.7654, desc: "Veterinaire kliniek in Stein.", tier: "gratis" },
   { id: 604, name: "Dierenkliniek Op de Diek - Locatie Geleen", city: "Geleen", address: "Kluis 28", postcode: "6365 EM", phone: "474 88 57", email: "", website: "http://www.opdediek.nl/", rating: 4.5, reviews: 0, specs: ["Honden", "Katten"], tags: [], lat: 50.9747, lng: 5.8267, desc: "Veterinaire kliniek in Geleen.", tier: "gratis" },
-  { id: 605, name: "Dierenarts Ark van Noach", city: "Den Haag", address: "Oder 20 Unit G9377", postcode: "2491 DC", phone: "+31 6 11599398", email: "info@dierenartsarkvannoach.nl", website: "https://www.dierenartsarkvannoach.nl/", rating: 0, reviews: 0, specs: ["Honden", "Katten"], tags: ["whatsapp"], lat: 52.0338, lng: 4.3922, desc: "Dierenarts in Den Haag. Bereikbaar via telefoon en WhatsApp op +31 6 11599398.", tier: "gratis", kvk: "95884378", whatsapp: "+31611599398" },
+  { id: 605, name: "Dierenarts Ark van Noach", city: "Den Haag", address: "Oder 20 Unit G9377", postcode: "2491 DC", phone: "+31 6 11599398", email: "info@dierenartsarkvannoach.nl", website: "https://www.dierenartsarkvannoach.nl/", rating: 0, reviews: 0, specs: ["Honden", "Katten"], tags: ["whatsapp"], lat: 52.0338, lng: 4.3922, desc: "Dierenarts in Den Haag. Bereikbaar via telefoon en WhatsApp op +31 6 11599398.", tier: "gratis", kvk: "95884378", btw: "NL867368974B01", whatsapp: "+31611599398" },
 ];
 
 // ============ STATE & ROUTING ============
@@ -6422,7 +6443,7 @@ function showClinic(id) {
   injectClinicSchema(c);
   updatePageMeta(`${c.name} (${c.city}) — dierenkliniek.nl`, `Adres, telefoon en route naar ${c.name} in ${c.city}. Onafhankelijke kliniekinformatie via dierenkliniek.nl.`);
 
-  const showContact = c.tier !== 'gratis';
+  // Contactgegevens: altijd tonen ongeacht tier (transparant en klantvriendelijk)
   const showSpecs = c.tier === 'plus' || c.tier === 'top';
 
   document.getElementById('dCrumb').textContent = c.name;
@@ -6444,8 +6465,8 @@ function showClinic(id) {
   document.getElementById('dDescription').textContent = c.desc;
   document.getElementById('dAddress').textContent = `${c.address}, ${c.postcode} ${c.city}`;
 
-  // Contact rows: only Basic+ tiers see clickable details
-  if (showContact && c.phone) {
+  // Telefoon
+  if (c.phone) {
     document.getElementById('dPhone').textContent = c.phone;
     document.getElementById('dPhone').href = `tel:${c.phone.replace(/\s|-/g,'')}`;
     document.getElementById('dPhone').parentElement.parentElement.style.display = '';
@@ -6455,14 +6476,18 @@ function showClinic(id) {
     document.getElementById('dPhone').parentElement.parentElement.style.display = 'none';
     document.getElementById('dCallBtn').style.display = 'none';
   }
-  if (showContact && c.email) {
+
+  // E-mail
+  if (c.email) {
     document.getElementById('dEmail').textContent = c.email;
     document.getElementById('dEmail').href = `mailto:${c.email}`;
     document.getElementById('dEmail').parentElement.parentElement.style.display = '';
   } else {
     document.getElementById('dEmail').parentElement.parentElement.style.display = 'none';
   }
-  if (showContact && c.website) {
+
+  // Website
+  if (c.website) {
     document.getElementById('dWebsite').textContent = c.website.replace(/^https?:\/\//, '').replace(/\/$/, '');
     document.getElementById('dWebsite').href = c.website.startsWith('http') ? c.website : `https://${c.website}`;
     document.getElementById('dWebsite').parentElement.parentElement.style.display = '';
@@ -6470,16 +6495,49 @@ function showClinic(id) {
     document.getElementById('dWebsite').parentElement.parentElement.style.display = 'none';
   }
 
-  // Google Reviews link — Basis tier and above (same as showContact)
+  // WhatsApp (nieuw)
+  const waRow = document.getElementById('dWhatsappRow');
+  if (waRow) {
+    if (c.whatsapp) {
+      const waClean = c.whatsapp.replace(/[^\d+]/g, '').replace(/^\+/, '');
+      const waDisplay = c.whatsapp;
+      const waLink = document.getElementById('dWhatsapp');
+      waLink.textContent = waDisplay;
+      waLink.href = `https://wa.me/${waClean}`;
+      waRow.style.display = '';
+    } else {
+      waRow.style.display = 'none';
+    }
+  }
+
+  // KvK (nieuw)
+  const kvkRow = document.getElementById('dKvkRow');
+  if (kvkRow) {
+    if (c.kvk) {
+      document.getElementById('dKvk').textContent = c.kvk;
+      kvkRow.style.display = '';
+    } else {
+      kvkRow.style.display = 'none';
+    }
+  }
+
+  // BTW (nieuw)
+  const btwRow = document.getElementById('dBtwRow');
+  if (btwRow) {
+    if (c.btw) {
+      document.getElementById('dBtw').textContent = c.btw;
+      btwRow.style.display = '';
+    } else {
+      btwRow.style.display = 'none';
+    }
+  }
+
+  // Google Reviews link — altijd tonen (was: alleen Basic+)
   const grRow = document.getElementById('dGoogleReviewsRow');
   if (grRow) {
-    if (showContact) {
-      const grLink = document.getElementById('dGoogleReviews');
-      grLink.href = googleReviewsUrl(c);
-      grRow.style.display = '';
-    } else {
-      grRow.style.display = 'none';
-    }
+    const grLink = document.getElementById('dGoogleReviews');
+    grLink.href = googleReviewsUrl(c);
+    grRow.style.display = '';
   }
 
   // Specs UI removed — data field still exists but is not rendered anywhere
