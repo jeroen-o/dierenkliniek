@@ -99,99 +99,154 @@
 }
 </script>
 
-<style>
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.6; color: #0a1628; background: #f5f7fa; }
-  header { background: white; border-bottom: 1px solid #e5e7eb; padding: 16px 0; }
-  header .container { max-width: 900px; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; }
-  header .logo { display: flex; align-items: center; gap: 0; font-weight: 800; font-size: 22px; letter-spacing: -0.02em; text-decoration: none; color: #0a1628; } header .logo img { margin-right: 10px; }
-  header .logo img { width: 36px; height: 36px; }
-  header .logo .nl { color: #00A1E4; }
-  main { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
-  .breadcrumb { font-size: 14px; color: #6b7280; margin-bottom: 20px; }
-  .breadcrumb a { color: #00A1E4; text-decoration: none; }
-  h1 { font-size: 36px; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 8px; line-height: 1.1; }
-  .subtitle { font-size: 18px; color: #6b7280; margin-bottom: 32px; }
-  .card { background: white; border-radius: 12px; padding: 32px; box-shadow: 0 1px 3px rgba(0,0,0,0.04); margin-bottom: 24px; }
-  .card h2 { font-size: 22px; font-weight: 700; margin-bottom: 16px; }
-  .card ul { margin-left: 20px; }
-  .card ul li { margin: 6px 0; }
-  .clinic-card { background: white; border-radius: 12px; padding: 24px; box-shadow: 0 1px 3px rgba(0,0,0,0.04); margin-bottom: 16px; }
-  .clinic-card h3 { font-size: 20px; margin-bottom: 8px; }
-  .clinic-card h3 a { color: #0a1628; text-decoration: none; }
-  .clinic-card h3 a:hover { color: #00A1E4; }
-  .clinic-card .addr { color: #6b7280; font-size: 15px; }
-  .clinic-card .specs { color: #4a5568; font-size: 14px; margin-top: 8px; font-style: italic; }
-  .clinic-card .actions { margin-top: 16px; display: flex; flex-wrap: wrap; gap: 8px; }
-  .btn { display: inline-block; padding: 10px 20px; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 14px; }
-  .btn-primary { background: #00A1E4; color: white; }
-  .btn-primary:hover { background: #0091d4; }
-  .btn-outline { background: white; color: #00A1E4; border: 2px solid #00A1E4; }
-  footer { background: #0a1628; color: rgba(255,255,255,0.7); padding: 40px 20px; text-align: center; margin-top: 60px; font-size: 14px; }
-  footer a { color: rgba(255,255,255,0.9); }
-  @media (max-width: 720px) {
-    h1 { font-size: 26px; }
-    .card { padding: 20px; }
-    .clinic-card { padding: 18px; }
-  }
-</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
 </head>
-<body>
+<body class="static-page">
 <header>
   <div class="container">
-    <a href="/" class="logo">
-      <img src="/favicon.svg" alt="">
-      Dierenkliniek<span class="nl">.nl</span>
-    </a>
-  </div>
-</header>
-<main>
-  <nav class="breadcrumb">
-    <a href="/">Home</a> ›
-    <a href="/?view=provincies">Provincies</a> ›
-    <a href="/?view=provincie&amp;naam=noord-holland">Noord-Holland</a> ›
-    <span>Amstelveen</span>
-  </nav>
-
-  <h1>Dierenarts in Amstelveen</h1>
-  <p class="subtitle">1 kliniek in Amstelveen — vergelijk en kies met vertrouwen</p>
-
-  <div class="card">
-    <h2>Overzicht</h2>
-    <p>In Amstelveen is één dierenkliniek gevestigd. Hieronder vindt u alle contactgegevens en de route.</p>
-    
-    <p style="margin-top:16px;"><a href="/?view=spoedhulp">📢 Spoedhulp nodig?</a> · <a href="/">🔍 Zoek op postcode</a> · <a href="/?view=kennisbank">📖 Kennisbank</a></p>
-  </div>
-
-  <h2 style="font-size:24px; margin: 24px 0 16px;">De kliniek in Amstelveen</h2>
-  
-    <div class="clinic-card">
-      <h3><a href="/dierenkliniek-stad-amstelveen-dierenarts-in-amstelveen">Dierenkliniek Stad Amstelveen</a></h3>
-      <p class="addr">Maarten Lutherweg 10, 1185 AN Amstelveen</p>
-      <p class="specs">Konijnen, Tandheelkunde, Cardiologie</p>
-      <div class="actions">
-        <a href="tel:0206475000" class="btn btn-outline">📞 020 - 647 50 00</a>
-        <a href="/dierenkliniek-stad-amstelveen-dierenarts-in-amstelveen" class="btn btn-primary">Meer info →</a>
+    <div class="header-inner">
+      <a href="/" class="logo"><span class="logo-mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="4" r="2"/><circle cx="18" cy="8" r="2"/><circle cx="20" cy="16" r="2"/><circle cx="4" cy="11" r="2"/><path d="M8 22c0-3 2-5 4-5s4 2 4 5-2 4-4 4-4-1-4-4z"/></svg></span>Dierenkliniek<span>.nl</span></a>
+      <nav class="main-nav">
+        <a href="/">Vind kliniek</a>
+        <a href="/?view=spoedhulp" style="color:#B32E1E;">⚡ Spoed</a>
+        <a href="/pakketten">Voor klinieken</a>
+        <a href="/?view=kennisbank">Kennisbank</a>
+        <a href="/?view=about">Over ons</a>
+        <a href="/?view=english" style="color:var(--ink-2);">🇬🇧 EN</a>
+      </nav>
+      <div class="header-cta">
+        <a class="btn btn-primary btn-sm desktop-only" href="/?view=aanmelden">Aanmelden</a>
+        <button class="hamburger-btn" onclick="toggleMobileMenu()" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
       </div>
     </div>
+  </div>
+</header>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="/">Vind kliniek</a>
+  <a href="/?view=spoedhulp" style="color:#B32E1E;">⚡ Spoedhulp</a>
+  <a href="/pakketten">Voor klinieken</a>
+  <a href="/?view=kennisbank">Kennisbank</a>
+  <a href="/?view=about">Over ons</a>
+  <a href="/?view=english">🇬🇧 English</a>
+  <div class="mobile-menu-divider"></div>
+  <a href="/?view=aanmelden" class="mobile-menu-cta">+ Kliniek aanmelden</a>
+</div>
 
-  
-    <div class="card">
-      <h2>Andere plaatsen in Noord-Holland</h2>
-      <p style="font-size:15px; line-height:1.9;"><a href="/dierenarts-aalsmeer">Aalsmeer</a> · <a href="/dierenarts-abcoude">Abcoude</a> · <a href="/dierenarts-alkmaar">Alkmaar</a> · <a href="/dierenarts-almere">Almere</a> · <a href="/dierenarts-amsterdam">Amsterdam</a> · <a href="/dierenarts-assendelft">Assendelft</a> · <a href="/dierenarts-badhoevedorp">Badhoevedorp</a> · <a href="/dierenarts-beverwijk">Beverwijk</a> · <a href="/dierenarts-blokker">Blokker</a> · <a href="/dierenarts-bussum">Bussum</a> · <a href="/dierenarts-de-goorn">De Goorn</a> · <a href="/dierenarts-de-rijp">De Rijp</a></p>
+<main class="static-main">
+  <section class="detail-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="/">Home</a> › <a href="/?view=provincies">Provincies</a> › <a href="/?view=provincie&naam=noord-holland">Noord-Holland</a> › <span>Amstelveen</span></div>
+      <div class="detail-hero-grid">
+        <div>
+          <span class="eyebrow-pill">Onafhankelijk overzicht</span>
+          <h1>Dierenarts in Amstelveen</h1>
+          <div class="sub">1 kliniek in Amstelveen — vergelijk en kies met vertrouwen</div>
+        </div>
+        <div class="detail-rating-card">
+          <div class="detail-actions-card"><h4>Snel verder</h4><p>Zoek op postcode of vind direct spoedhulp</p></div>
+          <div class="detail-actions">
+            <a href="/" class="btn btn-primary btn-block btn-lg">🔍 Zoek op postcode</a>
+            <a href="/?view=spoedhulp" class="btn btn-outline btn-block" style="color:#B32E1E;">⚡ Spoedhulp 24/7</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container static-content">
+    <div class="s-card">
+      <h2>Overzicht</h2>
+      <p class="s-desc">In Amstelveen is één dierenkliniek gevestigd. Hieronder vindt u alle contactgegevens en de route.</p>
+      <ul class="s-list" style="margin-top:12px;"></ul>
     </div>
 
-  <div class="card">
-    <h2>Vragen over uw huisdier?</h2>
-    <p>Onze kennisbank bevat 64 artikelen over gezondheid, verzorging en spoedhulp voor honden, katten en andere huisdieren.</p>
-    <p style="margin-top: 16px;">
-      <a href="/?view=kennisbank" class="btn btn-primary">Bezoek de kennisbank →</a>
-    </p>
-  </div>
+    <h2 style="font-size:24px; font-weight:800; letter-spacing:-0.02em; margin: 32px 0 16px;">Alle klinieken</h2>
+    <div class="clinic-list"><div class="clinic-card">
+<h3><a href="/dierenkliniek-stad-amstelveen-dierenarts-in-amstelveen">Dierenkliniek Stad Amstelveen</a></h3>
+<p class="addr">Maarten Lutherweg 10, 1185 AN Amstelveen</p>
+<p class="specs">Konijnen, Tandheelkunde, Cardiologie</p>
+<div class="actions">
+<a class="btn btn-outline" href="tel:0206475000">📞 020 - 647 50 00</a>
+<a class="btn btn-primary" href="/dierenkliniek-stad-amstelveen-dierenarts-in-amstelveen">Meer info →</a>
+</div>
+</div></div>
+
+    <div class="s-card" style="margin-top:20px;">
+<h2>Andere plaatsen in Noord-Holland</h2>
+<p class="s-links"><a href="/dierenarts-aalsmeer">Aalsmeer</a> · <a href="/dierenarts-abcoude">Abcoude</a> · <a href="/dierenarts-alkmaar">Alkmaar</a> · <a href="/dierenarts-almere">Almere</a> · <a href="/dierenarts-amsterdam">Amsterdam</a> · <a href="/dierenarts-assendelft">Assendelft</a> · <a href="/dierenarts-badhoevedorp">Badhoevedorp</a> · <a href="/dierenarts-beverwijk">Beverwijk</a> · <a href="/dierenarts-blokker">Blokker</a> · <a href="/dierenarts-bussum">Bussum</a> · <a href="/dierenarts-de-goorn">De Goorn</a> · <a href="/dierenarts-de-rijp">De Rijp</a></p>
+</div>
+
+    <div class="s-card" style="margin-top:20px;"><h2>Vragen over uw huisdier?</h2><p>Onze kennisbank bevat 64 artikelen over gezondheid, verzorging en spoedhulp voor honden, katten en andere huisdieren.</p><p style="margin-top:14px;"><a href="/?view=kennisbank" class="btn btn-outline">📖 Naar de kennisbank</a> <a href="/?view=spoedhulp" class="btn btn-outline" style="color:#B32E1E;">⚡ Spoedhulp 24/7</a></p></div>
+
+  </section>
 </main>
 <footer>
-  <p>© 2026 Dierenkliniek.nl · Darthuizerberg 1, 3825 BK Amersfoort</p>
-  <p style="margin-top: 8px;"><a href="/">Home</a> · <a href="/?view=spoedhulp">Spoedhulp 24/7</a> · <a href="/?view=kennisbank">Kennisbank</a> · <a href="/?view=about">Over ons</a></p>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="logo"><span class="logo-mark" style="background: white; color: var(--dk-blue-deep);"><svg style="width:22px;height:22px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="4" r="2"/><circle cx="18" cy="8" r="2"/><circle cx="20" cy="16" r="2"/><circle cx="4" cy="11" r="2"/><path d="M8 22c0-3 2-5 4-5s4 2 4 5-2 4-4 4-4-1-4-4z"/></svg></span>Dierenkliniek<span>.nl</span></div>
+        <p style="max-width: 320px; font-size: 14px;">Het onafhankelijke overzicht van alle dierenklinieken in Nederland. Vind, vergelijk en kies met vertrouwen.</p>
+      </div>
+      <div>
+        <h5>Voor huisdiereigenaren</h5>
+        <ul>
+          <li><a href="/">Vind een kliniek</a></li>
+          <li><a href="/?view=spoedhulp">Spoedhulp 24/7</a></li>
+          <li><a href="/specialismen">Specialismen</a></li>
+          <li><a href="/?view=kennisbank">Kennisbank</a></li>
+          <li><a href="/?view=vaccinatieplanner">Vaccinatie-planner</a></li>
+          <li><a href="/?view=beslisboom">Beslisboom spoed</a></li>
+          <li><a href="/?view=glossarium">Glossarium</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Voor klinieken</h5>
+        <ul>
+          <li><a href="/?view=aanmelden">Aanmelden</a></li>
+          <li><a href="/pakketten">Pakketten</a></li>
+          <li><a href="/?partner=dierenklinieken">Website voor klinieken</a></li>
+          <li><a href="/badge">🏅 Badge voor uw website</a></li>
+          <li><a href="/pakketten">Demo aanvragen</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Bedrijf</h5>
+        <ul>
+          <li><a href="/?view=about">Over ons</a></li>
+          <li><a href="/?view=partners">Partners</a></li>
+          <li><a href="/?view=onafhankelijkheid">Onafhankelijkheid</a></li>
+          <li><a href="/vermeldingsbeleid">Vermeldingsbeleid</a></li>
+          <li><a href="/statistieken">📊 Statistieken</a></li>
+          <li><a href="/design">🎨 Logo's &amp; huisstijl</a></li>
+          <li><a href="/?view=provincies">Provincies</a></li>
+          <li><a href="/?view=contact">Contact</a></li>
+          <li><a href="/?view=english">🇬🇧 English</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bot">
+      <div>© 2026 Dierenkliniek.nl · Darthuizerberg 1, 3825 BK Amersfoort</div>
+      <div><a href="/?view=privacy">Privacyverklaring</a> &nbsp;·&nbsp; <a href="/?view=voorwaarden">Algemene voorwaarden</a> &nbsp;·&nbsp; <a href="/?view=cookies">Cookies</a></div>
+    </div>
+  </div>
 </footer>
+<script>
+function toggleMobileMenu() {
+  var m = document.getElementById('mobileMenu'), b = document.querySelector('.hamburger-btn');
+  var open = m.classList.toggle('open'); b.classList.toggle('open', open);
+  b.setAttribute('aria-expanded', open ? 'true' : 'false'); document.body.style.overflow = open ? 'hidden' : '';
+}
+function copyBadgeCode(btn) {
+  var el = document.getElementById('badge-html-code'); if (!el) return;
+  var code = el.textContent;
+  var done = function () { btn.textContent = '✓ Gekopieerd'; btn.classList.add('copied'); setTimeout(function () { btn.textContent = 'Kopieer'; btn.classList.remove('copied'); }, 2000); };
+  if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(code).then(done).catch(function () {}); }
+  else { var r = document.createRange(); r.selectNode(el); var s = window.getSelection(); s.removeAllRanges(); s.addRange(r); document.execCommand('copy'); s.removeAllRanges(); done(); }
+}
+</script>
+
 </body>
 </html>
