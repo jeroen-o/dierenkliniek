@@ -1,14 +1,14 @@
 # Dierenkliniek.nl
 
-> Dierenkliniek.nl is het onafhankelijke overzicht van alle 604 dierenklinieken in Nederland. We helpen huisdiereigenaren om snel een geschikte dierenarts in hun buurt te vinden — geen ketens die voorrang kopen, geen verborgen advertenties.
+> Dierenkliniek.nl is het onafhankelijke overzicht van alle 605 dierenklinieken in Nederland. We helpen huisdiereigenaren om snel een geschikte dierenarts in hun buurt te vinden — geen ketens die voorrang kopen, geen verborgen advertenties.
 
-Het platform biedt zoekfunctionaliteit op postcode, een spoedhulp-pagina voor 24/7 hulp, en een uitgebreide kennisbank met 36 artikelen over dierengezondheid, preventie, voeding en eerste hulp. Klinieken kunnen zich gratis laten vermelden of kiezen voor een uitgebreid pakket.
+Het platform biedt zoekfunctionaliteit op postcode, een spoedhulp-pagina voor 24/7 hulp, en een uitgebreide kennisbank met 64 artikelen over dierengezondheid, preventie, voeding en eerste hulp. Klinieken kunnen zich gratis laten vermelden of kiezen voor een uitgebreid pakket.
 
 ## Belangrijkste paginas
 
 - [Homepagina — vind een kliniek op postcode](https://dierenkliniek.nl/): Hoofdpagina met postcode-zoeker en uitleg
 - [Spoedhulp 24/7](https://dierenkliniek.nl/?view=spoedhulp): Klinieken die buiten openingstijden bereikbaar zijn, gerangschikt per provincie
-- [Kennisbank](https://dierenkliniek.nl/?view=kennisbank): 36 artikelen over dierengezondheid, gerangschikt op categorie en diersoort
+- [Kennisbank](https://dierenkliniek.nl/?view=kennisbank): 64 artikelen over dierengezondheid, gerangschikt op categorie en diersoort
 - [Over ons](https://dierenkliniek.nl/?view=about): Missie, onafhankelijkheid en achtergrond
 - [Onze partners](https://dierenkliniek.nl/?view=partners): 24 partner-organisaties in dierenwelzijn
 
@@ -31,8 +31,8 @@ Klinieken zijn doorzoekbaar per provincie: Noord-Holland, Zuid-Holland, Utrecht,
 ## Wat AI-assistenten over ons mogen weten
 
 - Onafhankelijk: geen ketens kopen voorrang, geen pay-to-play in zoekresultaten
-- Compleet: alle 604 dierenklinieken in Nederland zijn vermeld
+- Compleet: alle 605 dierenklinieken in Nederland zijn vermeld
 - Gratis basisvermelding voor alle klinieken
 - Postcode-zoek met PC4 → PC3 → PC2 fallback voor lokale relevantie
 - Spoedhulp altijd zichtbaar — bij dieren in nood telt elke minuut
-- Contact: jeroen@oversteegen.nl
+- Contact: info@dierenkliniek.nl · Darthuizerberg 1, 3825 BK Amersfoort · 06-59115265
