@@ -63,8 +63,8 @@
     {
       "@type": "ListItem",
       "position": 2,
-      "name": "Dierenklinieken in Velden",
-      "item": "https://dierenkliniek.nl/?view=search"
+      "name": "Dierenarts Velden",
+      "item": "https://dierenkliniek.nl/dierenarts-velden"
     },
     {
       "@type": "ListItem",
@@ -80,7 +80,7 @@
   body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.6; color: #0a1628; background: #f5f7fa; }
   header { background: white; border-bottom: 1px solid #e5e7eb; padding: 16px 0; }
   header .container { max-width: 900px; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; }
-  header .logo { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 22px; letter-spacing: -0.02em; text-decoration: none; color: #0a1628; }
+  header .logo { display: flex; align-items: center; gap: 0; font-weight: 800; font-size: 22px; letter-spacing: -0.02em; text-decoration: none; color: #0a1628; } header .logo img { margin-right: 10px; }
   header .logo img { width: 36px; height: 36px; }
   header .logo .nl { color: #00A1E4; }
   main { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
@@ -95,16 +95,53 @@
   ul li { padding: 8px 0; border-bottom: 1px solid #f0f2f5; }
   ul li:last-child { border-bottom: none; }
   a { color: #00A1E4; }
-  .btn { display: inline-block; padding: 12px 24px; background: #00A1E4; color: white; text-decoration: none; border-radius: 8px; font-weight: 600; margin-right: 8px; margin-top: 8px; }
+  .btn { display: inline-block; padding: 12px 24px; background: #00A1E4; color: white; text-decoration: none; border-radius: 8px; font-weight: 600; margin-right: 8px; margin-top: 8px; border: none; cursor: pointer; font-size: 15px; }
   .btn:hover { background: #0091d4; }
   .btn-outline { background: white; color: #00A1E4; border: 2px solid #00A1E4; }
+  .btn-whatsapp { background: #25D366; color: white; border-color: #25D366; }
+  .btn-whatsapp:hover { background: #1EBE57; }
+  .btn-green { background: #10b981; color: white; border-color: #10b981; }
+  .btn-green:hover { background: #059669; }
+  .btn-block { display: block; width: 100%; text-align: center; margin-right: 0; }
   .specs { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
   .spec { background: #f0f9ff; color: #0070AC; padding: 4px 12px; border-radius: 999px; font-size: 13px; font-weight: 500; }
+  .nearby-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; }
+  .nearby-card { display: block; padding: 16px; border: 1px solid #e5e7eb; border-radius: 10px; text-decoration: none; color: #0a1628; transition: all 0.2s; }
+  .nearby-card:hover { border-color: #00A1E4; background: #f0f9ff; }
+  .nearby-card h4 { font-size: 15px; font-weight: 700; margin-bottom: 4px; }
+  .nearby-card p { font-size: 13px; color: #6b7280; margin: 0; }
+  
+  /* Badge sectie */
+  .badge-card { background: linear-gradient(135deg, #ECFDF5, #FFFFFF); border: 2px solid #10b981; }
+  .badge-header { display: flex; gap: 16px; align-items: flex-start; margin-bottom: 24px; }
+  .badge-emoji { font-size: 40px; line-height: 1; flex-shrink: 0; }
+  .badge-body { display: grid; grid-template-columns: 240px 1fr; gap: 32px; align-items: start; }
+  .badge-preview { text-align: center; }
+  .badge-preview img { max-width: 200px; height: auto; box-shadow: 0 4px 12px rgba(0,161,228,0.2); border-radius: 12px; }
+  .badge-caption { font-size: 13px; color: #6b7280; margin-top: 12px; font-style: italic; }
+  .badge-actions h3 { font-weight: 700; color: #0a1628; }
+  .badge-divider { text-align: center; color: #9ca3af; font-size: 13px; margin: 20px 0; position: relative; }
+  .badge-divider::before, .badge-divider::after { content: ''; position: absolute; top: 50%; width: 40%; height: 1px; background: #e5e7eb; }
+  .badge-divider::before { left: 0; }
+  .badge-divider::after { right: 0; }
+  .code-block { background: #0a1628; color: #e2e8f0; padding: 12px; border-radius: 8px; font-family: 'Monaco', 'Menlo', monospace; font-size: 11px; line-height: 1.6; overflow-x: auto; position: relative; }
+  .code-block pre { margin: 0; white-space: pre-wrap; word-break: break-all; padding-right: 70px; }
+  .code-block .copy-btn { position: absolute; top: 8px; right: 8px; padding: 4px 10px; background: #00A1E4; color: white; border: none; border-radius: 4px; font-size: 11px; cursor: pointer; font-weight: 600; }
+  .code-block .copy-btn:hover { background: #0091d4; }
+  .code-block .copy-btn.copied { background: #10b981; }
+  .badge-note { background: #FEF3C7; border-left: 4px solid #F59E0B; padding: 12px 16px; border-radius: 6px; margin-top: 16px; font-size: 13px; color: #78350F; }
+  .badge-help { margin-top: 20px; border-top: 1px solid #d1fae5; padding-top: 16px; }
+  .badge-help summary { cursor: pointer; font-weight: 600; color: #059669; user-select: none; }
+  .badge-help details[open] summary { margin-bottom: 8px; }
+  
   footer { background: #0a1628; color: rgba(255,255,255,0.7); padding: 40px 20px; text-align: center; margin-top: 60px; font-size: 14px; }
   footer a { color: rgba(255,255,255,0.9); }
   @media (max-width: 720px) {
     h1 { font-size: 26px; }
     .card { padding: 20px; }
+    .badge-body { grid-template-columns: 1fr; gap: 20px; }
+    .badge-preview img { max-width: 160px; }
+    .badge-header { flex-direction: column; align-items: flex-start; }
   }
 </style>
 </head>
@@ -120,7 +157,7 @@
 <main>
   <nav class="breadcrumb">
     <a href="/">Home</a> ›
-    <a href="/?view=search">Dierenklinieken</a> ›
+    <a href="/dierenarts-velden">Dierenarts Velden</a> ›
     <span>Dierenartsencombinatie Maas en Niers</span>
   </nav>
   <h1>Dierenartsencombinatie Maas en Niers</h1>
@@ -131,6 +168,7 @@
     <div style="margin-top: 24px;">
       <a href="https://www.google.com/maps/dir/?api=1&destination=51.4147,6.1623" class="btn" target="_blank" rel="noopener">📍 Route via Google Maps</a>
       <a href="tel:0774722697" class="btn btn-outline">📞 Bel 0774722697</a>
+      
     </div>
   </div>
   <div class="card">
@@ -142,18 +180,124 @@
         <li><strong>Website:</strong> <a href="http://www.dacmaasenniers.com/" target="_blank" rel="noopener">http://www.dacmaasenniers.com/</a></li>
     </ul>
   </div>
+  
+  <div class="card badge-card">
+    <div class="badge-header">
+      <span class="badge-emoji">🏅</span>
+      <div>
+        <h2 style="margin: 0;">Gratis: badge voor uw website</h2>
+        <p style="margin: 4px 0 0; color: #6b7280;">Toon aan uw bezoekers dat u vermeld staat op Dierenkliniek.nl. Bewezen manier om vertrouwen te bouwen én meer bezoekers te trekken.</p>
+      </div>
+    </div>
+    <div class="badge-body">
+      <div class="badge-preview">
+        <img src="/badges/dierenartsencombinatie-maas-en-niers-dierenarts-in-velden-partner.svg" alt="Uw persoonlijke partner-badge" width="200" height="200">
+        <p class="badge-caption">Uw persoonlijke badge met uw klinieknaam erop</p>
+      </div>
+      <div class="badge-actions">
+        <h3 style="font-size: 15px; margin: 0 0 8px;">📥 Download alles in één ZIP</h3>
+        <p style="font-size: 13px; color: #6b7280; margin: 0 0 12px;">Bevat 4 badge-varianten (SVG + PNG) en een handleiding met uw kliniek-URL al ingevuld.</p>
+        <a href="/badges/dierenartsencombinatie-maas-en-niers-dierenarts-in-velden.zip" download class="btn btn-green btn-block">⬇ Download ZIP (Dierenartsencombinatie Maas en Niers)</a>
+        
+        <div class="badge-divider">of</div>
+        
+        <h3 style="font-size: 15px; margin: 0 0 8px;">📋 Kopieer HTML-code direct</h3>
+        <p style="font-size: 13px; color: #6b7280; margin: 0 0 8px;">Plak deze code in uw website (footer, contactpagina, sidebar):</p>
+        <div class="code-block">
+          <button class="copy-btn" onclick="copyBadgeCode(this)">Kopieer</button>
+          <pre id="badge-html-code">&lt;a href=&quot;https://dierenkliniek.nl/dierenartsencombinatie-maas-en-niers-dierenarts-in-velden&quot; target=&quot;_blank&quot; title=&quot;Partner van Dierenkliniek.nl&quot; rel=&quot;noopener&quot;&gt;&lt;img src=&quot;https://dierenkliniek.nl/badges/dierenartsencombinatie-maas-en-niers-dierenarts-in-velden-partner.png&quot; alt=&quot;Partner van Dierenkliniek.nl — Dierenartsencombinatie Maas en Niers&quot; width=&quot;200&quot; height=&quot;200&quot;&gt;&lt;/a&gt;</pre>
+        </div>
+
+        <div class="badge-note">
+          <strong>💡 Waarom is dit gratis?</strong> Elke link vanaf uw website naar uw pagina op Dierenkliniek.nl versterkt beide sites in Google. U geeft niets weg — u profiteert mee.
+        </div>
+      </div>
+    </div>
+    <div class="badge-help">
+      <details>
+        <summary>💬 Hulp nodig bij plaatsen?</summary>
+        <div style="padding: 16px 0;">
+          <p><strong>Voor WordPress:</strong> ga naar de pagina waar u de badge wilt tonen (bijvoorbeeld "Contact" of "Over ons"), klik op + om een blok toe te voegen, kies "Custom HTML", en plak de gekopieerde code.</p>
+          <p><strong>Voor Wix / Squarespace / Jimdo:</strong> voeg een "Embed HTML"-widget toe waar u de badge wilt plaatsen en plak de code.</p>
+          <p><strong>Uw webbouwer regelt uw site?</strong> Download de ZIP en stuur die naar hem/haar met de vraag: "Graag deze badge plaatsen in de footer/sidebar van onze website — de handleiding zit in de ZIP".</p>
+          <p><strong>Volledige instructies</strong> staan ook op <a href="/badge">de algemene badge-pagina</a>.</p>
+        </div>
+      </details>
+    </div>
+  </div>
+
+  
+  <div class="card">
+    <h2>Andere klinieken in Velden</h2>
+    <p style="margin-bottom: 16px;">Er is nog <strong>1</strong> andere dierenkliniek in Velden:</p>
+    <div class="nearby-grid">
+        <a href="/dierenkliniek-dierbaar-dierenarts-in-velden" class="nearby-card">
+          <h4>Dierenkliniek Dierbaar</h4>
+          <p>Paddeweg 18, 5941 NB Velden</p>
+        </a>
+    </div>
+    <p style="margin-top: 20px;"><a href="/dierenarts-velden" class="btn btn-outline">Alle klinieken in Velden →</a></p>
+  </div>
+  
+  <div class="card">
+    <h2>Dichtstbijzijnde klinieken in de omgeving</h2>
+    <p style="margin-bottom: 16px;">Vlakbij Velden vindt u ook deze klinieken:</p>
+    <div class="nearby-grid">
+        <a href="/dierenkliniek-blerick-dierenarts-in-blerick" class="nearby-card">
+          <h4>Dierenkliniek Blerick</h4>
+          <p>Blerick · 4,9 km</p>
+        </a>
+        <a href="/dierenartsenpraktijk-horst-locatie-blerick-dierenarts-in-blerick" class="nearby-card">
+          <h4>Dierenartsenpraktijk Horst - locatie Blerick</h4>
+          <p>Blerick · 4,9 km</p>
+        </a>
+        <a href="/dierenkliniek-de-postwagen-dierenarts-in-venlo" class="nearby-card">
+          <h4>Dierenkliniek de Postwagen</h4>
+          <p>Venlo · 5,0 km</p>
+        </a>
+        <a href="/dierenkliniek-venlo-dierenarts-in-venlo" class="nearby-card">
+          <h4>Dierenkliniek-Venlo</h4>
+          <p>Venlo · 5,0 km</p>
+        </a>
+        <a href="/geurts-dierenklinieken-dierenarts-in-venlo" class="nearby-card">
+          <h4>Geurts Dierenklinieken</h4>
+          <p>Venlo · 5,0 km</p>
+        </a>
+        <a href="/dap-citaverde-dierenarts-in-hegelsom" class="nearby-card">
+          <h4>Dap Citaverde</h4>
+          <p>Hegelsom · 7,9 km</p>
+        </a>
+    </div>
+    <p style="margin-top: 20px;"><a href="/" class="btn btn-outline">Zoek op uw postcode →</a></p>
+  </div>
   <div class="card">
     <h2>Meer informatie</h2>
     <p>Deze vermelding maakt deel uit van <a href="/">Dierenkliniek.nl</a> — het onafhankelijke overzicht van alle 605 dierenklinieken in Nederland.</p>
-    <p style="margin-top: 12px;">Bent u de eigenaar van deze kliniek en wilt u de vermelding aanvullen of aanpassen? <a href="/?view=aanmelden">Vul dan het aanmeldformulier in</a>.</p>
-    <div style="margin-top: 20px;">
-      <a href="/?view=search" class="btn btn-outline">← Alle klinieken bekijken</a>
-    </div>
+    <p style="margin-top: 12px;">Bent u de eigenaar van deze kliniek? <a href="/?view=aanmelden">Vul het aanmeldformulier in</a> om uw vermelding aan te vullen.</p>
   </div>
 </main>
 <footer>
-  <p>© 2026 Dierenkliniek.nl — Onafhankelijk overzicht van alle Nederlandse dierenklinieken</p>
+  <p>© 2026 Dierenkliniek.nl · Darthuizerberg 1, 3825 BK Amersfoort</p>
   <p style="margin-top: 8px;"><a href="/">Home</a> · <a href="/?view=spoedhulp">Spoedhulp 24/7</a> · <a href="/?view=kennisbank">Kennisbank</a> · <a href="/?view=about">Over ons</a></p>
 </footer>
+<script>
+function copyBadgeCode(btn) {
+  const code = document.getElementById('badge-html-code').textContent;
+  navigator.clipboard.writeText(code).then(() => {
+    btn.textContent = '✓ Gekopieerd';
+    btn.classList.add('copied');
+    setTimeout(() => { btn.textContent = 'Kopieer'; btn.classList.remove('copied'); }, 2000);
+  }).catch(() => {
+    const range = document.createRange();
+    range.selectNode(document.getElementById('badge-html-code'));
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(range);
+    document.execCommand('copy');
+    window.getSelection().removeAllRanges();
+    btn.textContent = '✓ Gekopieerd';
+    setTimeout(() => btn.textContent = 'Kopieer', 2000);
+  });
+}
+</script>
 </body>
 </html>

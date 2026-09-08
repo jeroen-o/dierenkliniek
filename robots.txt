@@ -72,3 +72,6 @@ Allow: /
 
 # Sitemap
 Sitemap: https://dierenkliniek.nl/sitemap.xml
+Sitemap: https://dierenkliniek.nl/sitemap-hoofdpaginas.xml
+Sitemap: https://dierenkliniek.nl/sitemap-artikelen.xml
+Sitemap: https://dierenkliniek.nl/sitemap-klinieken.xml

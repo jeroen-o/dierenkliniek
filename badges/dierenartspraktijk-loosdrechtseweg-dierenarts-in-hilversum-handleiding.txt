@@ -1,0 +1,120 @@
+============================================================
+HANDLEIDING BADGE — Dierenartspraktijk Loosdrechtseweg
+============================================================
+
+Uw persoonlijke pagina op Dierenkliniek.nl:
+https://dierenkliniek.nl/dierenartspraktijk-loosdrechtseweg-dierenarts-in-hilversum
+
+
+== WAT ZIT ER IN DEZE ZIP? ==
+
+1. badge-partner.svg / .png
+   Vierkante badge met "PARTNER VAN Dierenkliniek.nl" en uw klinieknaam.
+   Geschikt als prominente vermelding op uw contact- of over-ons-pagina.
+
+2. badge-vermeld.svg / .png
+   Kleinere badge met "VERMELD OP Dierenkliniek.nl" en uw klinieknaam.
+   Subtiel te plaatsen in uw footer of sidebar.
+
+3. badge-banner.svg
+   Horizontale banner-variant (generiek, geen klinieknaam).
+
+4. badge-rond.svg
+   Ronde variant (generiek, geen klinieknaam).
+
+5. Dit bestand (handleiding.txt).
+
+
+== WAAROM EEN BADGE PLAATSEN? ==
+
+Steeds meer huisdiereigenaren checken online voordat ze een dierenarts
+bezoeken. Een badge op uw website:
+
+  - Straalt vertrouwen uit — u wordt onafhankelijk vermeld
+  - Verlaagt drempel — bezoekers kunnen doorklikken voor meer info
+  - Verbetert uw SEO — een backlink van uw eigen website naar uw
+    Dierenkliniek.nl-pagina helpt Google om uw pagina beter te indexeren
+  - Werkt beide kanten op — uw eigen website krijgt ook meer vertrouwen
+    door onafhankelijke vermelding
+
+
+== HOE INSTALLEER IK DE BADGE OP MIJN WEBSITE? ==
+
+STAP 1: Upload de gewenste badge (.svg of .png) naar uw website
+        via uw contentbeheer-systeem (bijvoorbeeld WordPress "Media",
+        of via FTP naar uw server).
+
+STAP 2: Voeg een HTML-blok toe aan uw pagina. In WordPress heet dit
+        een "Custom HTML"-blok, in Wix "Embed HTML", in Squarespace
+        "Code Block", etc.
+
+STAP 3: Kopieer een van de onderstaande code-snippets en pas de
+        afbeeldings-URL aan naar het pad waar u de badge heeft geupload.
+
+
+== KOPIEERBARE HTML-CODE ==
+
+--- VARIANT A: Grote partner badge (aanbevolen) ---
+
+<a href="https://dierenkliniek.nl/dierenartspraktijk-loosdrechtseweg-dierenarts-in-hilversum"
+   target="_blank"
+   title="Partner van Dierenkliniek.nl"
+   rel="noopener">
+  <img src="[URL_NAAR_UW_GEUPLOADE_BADGE]/badge-partner.png"
+       alt="Partner van Dierenkliniek.nl — Dierenartspraktijk Loosdrechtseweg"
+       width="200" height="200">
+</a>
+
+
+--- VARIANT B: Kleine 'Vermeld op' badge (subtieler) ---
+
+<a href="https://dierenkliniek.nl/dierenartspraktijk-loosdrechtseweg-dierenarts-in-hilversum"
+   target="_blank"
+   title="Vermeld op Dierenkliniek.nl"
+   rel="noopener">
+  <img src="[URL_NAAR_UW_GEUPLOADE_BADGE]/badge-vermeld.png"
+       alt="Vermeld op Dierenkliniek.nl — Dierenartspraktijk Loosdrechtseweg"
+       width="160" height="160">
+</a>
+
+
+--- VARIANT C: Zonder eigen upload (badge vanaf Dierenkliniek.nl laden) ---
+
+Wilt u de badge niet zelf uploaden? Gebruik dan onze publieke URL:
+
+<a href="https://dierenkliniek.nl/dierenartspraktijk-loosdrechtseweg-dierenarts-in-hilversum"
+   target="_blank"
+   title="Partner van Dierenkliniek.nl"
+   rel="noopener">
+  <img src="https://dierenkliniek.nl/badge-partner.svg"
+       alt="Partner van Dierenkliniek.nl"
+       width="200" height="200">
+</a>
+
+LET OP: deze variant toont de generieke badge zonder uw klinieknaam.
+
+
+== BELANGRIJK: NIET NOFOLLOW ==
+
+Uw webbouwer of SEO-plugin kan proberen om alle uitgaande links
+automatisch een rel="nofollow" attribuut te geven. Voor deze
+badge-link is dat NIET nodig.
+
+Een normale link (zonder nofollow) van uw kliniek-website naar
+uw Dierenkliniek.nl-pagina helpt beide sites: uw eigen SEO
+verbetert door de bevestigde partner-relatie, en uw pagina op
+Dierenkliniek.nl krijgt ook een kwaliteitsboost bij Google.
+
+
+== VRAGEN OF HULP NODIG? ==
+
+Als uw website wordt beheerd door een webbouwer, stuur hem/haar
+dit hele bestand met de vraag: "graag deze badge toevoegen aan
+onze website". Alle info die nodig is staat hierboven.
+
+Vragen kunt u sturen naar: info@dierenkliniek.nl
+
+
+============================================================
+WWW.DIERENKLINIEK.NL — HET ONAFHANKELIJKE PLATFORM
+============================================================

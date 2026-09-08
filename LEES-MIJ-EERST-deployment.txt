@@ -1,0 +1,127 @@
+============================================================
+DIERENKLINIEK.NL — COMPLETE DEPLOYMENT PACKAGE
+============================================================
+
+Datum: 8 september 2026
+Versie: complete package voor livegang (alles in één)
+
+------------------------------------------------------------
+WAT ZIT ER IN DEZE ZIP?
+------------------------------------------------------------
+
+Alles wat je nodig hebt om Dierenkliniek.nl volledig live te
+zetten op GitHub Pages. Ongeveer 4700 bestanden totaal.
+
+STRUCTUUR (na uitpakken):
+
+Root-niveau (direct in je repo-root):
+  index.html                    Hoofd SPA
+  dierenkliniek.html            Kopie voor backup
+  design.html                   /design — logo-pakket
+  badge.html                    /badge — voor klinieken
+  pakketten.html                /pakketten — voor klinieken
+  vermeldingsbeleid.html        /vermeldingsbeleid — E-E-A-T
+  statistieken.html             /statistieken — social proof
+  specialismen.html             /specialismen — overzicht
+  specialisme-*.html            12 specialisme SEO-pagina's
+
+  sitemap.xml                   Sitemap index
+  sitemap-hoofdpaginas.xml      Hoofdpagina's
+  sitemap-artikelen.xml         64 kennisbank artikelen
+  sitemap-klinieken.xml         960 URLs (klinieken + steden)
+  robots.txt                    AI-bots + sitemap-verwijzingen
+  llms.txt                      llmstxt.org standaard
+
+  favicon.svg, favicon.ico      Favicons in alle formaten
+  favicon-16/32/192/512.png
+  apple-touch-icon.png
+  safari-pinned-tab.svg
+  site.webmanifest
+  og-image.svg, og-image.png    Social share afbeelding
+
+  logo.svg, logo-256/512/1024   Site logo's
+  logo-met-tekst*.svg/png
+
+  badge-*.svg, badge-*.png      4 generieke badges
+
+  dierenkliniek-nl-logo-pack.zip  Downloadable via /design pagina
+
+  *-dierenarts-in-*.html        605 kliniek-pagina's
+  dierenarts-*.html             369 stad-pagina's
+
+Subfolders:
+  logo-pack/                    24 logo bestanden (SVG/PNG/PDF)
+                                Wordt getoond op /design
+  badges/                       3630 badge bestanden
+                                (605 klinieken * 6 files elk)
+
+------------------------------------------------------------
+UPLOAD-STAPPEN
+------------------------------------------------------------
+
+1. Pak deze ZIP uit in een lege werkmap.
+
+2. Kopieer de INHOUD van die werkmap (dus niet de map zelf,
+   maar alle bestanden erin) naar de root van je GitHub repo.
+
+3. Als je git op de command-line gebruikt:
+
+     cd ~/dierenkliniek-nl-repo
+     rm -rf *.html *.xml *.txt *.svg *.png *.ico *.zip
+     rm -rf badges/ logo-pack/
+     # Kopieer alles uit de uitgepakte werkmap hierheen
+     cp -r ~/Downloads/dierenkliniek-upload/* .
+     git add -A
+     git commit -m "Complete deployment: alles bijgewerkt"
+     git push
+
+4. Wacht 2-5 minuten tot GitHub Pages jouw wijzigingen deployeert.
+
+5. Controleer op https://dierenkliniek.nl of alles werkt.
+
+------------------------------------------------------------
+NA UPLOAD: SEO/GEO CHECKLIST
+------------------------------------------------------------
+
+BINNEN 1 UUR NA LIVE:
+
+- Ga naar Google Search Console
+  Verwijder de oude sitemap.xml inzending
+  Voeg opnieuw toe: https://dierenkliniek.nl/sitemap.xml
+
+- Ga naar Bing Webmaster Tools
+  Voeg dezelfde sitemap-URL toe
+
+BINNEN 24 UUR:
+
+- Google Business Profile aanmaken voor "Dierenkliniek.nl"
+  Adres: Darthuizerberg 1, 3825 BK Amersfoort
+
+- Manuele indexering aanvragen in Google Search Console voor:
+  - https://dierenkliniek.nl/
+  - https://dierenkliniek.nl/pakketten
+  - https://dierenkliniek.nl/badge
+  - https://dierenkliniek.nl/design
+  - https://dierenkliniek.nl/vermeldingsbeleid
+  - https://dierenkliniek.nl/statistieken
+  - Top-10 stad-pagina's (Amsterdam, Den Haag, Utrecht, etc.)
+
+------------------------------------------------------------
+BEDRIJFSGEGEVENS
+------------------------------------------------------------
+
+Dierenkliniek.nl
+Darthuizerberg 1
+3825 BK Amersfoort
+info@dierenkliniek.nl
+06-59115265
+
+KvK 32109426 staat NIET zichtbaar op de site maar WEL in
+het Organization JSON-LD schema (voor Google Knowledge Panel).
+
+------------------------------------------------------------
+CONTACT
+------------------------------------------------------------
+
+info@dierenkliniek.nl
+06-59115265

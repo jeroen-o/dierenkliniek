@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Statistieken — 605 klinieken in 369 plaatsen | Dierenkliniek.nl</title>
+<meta name="description" content="605 dierenklinieken in 369 Nederlandse plaatsen. Verdeling per provincie, top-steden, en overzicht per specialisme. Alle data van Dierenkliniek.nl.">
+<link rel="canonical" href="https://dierenkliniek.nl/statistieken">
+<meta name="robots" content="index, follow, max-image-preview:large">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Statistieken — 605 klinieken in 369 plaatsen | Dierenkliniek.nl">
+<meta property="og:description" content="605 dierenklinieken in 369 Nederlandse plaatsen. Verdeling per provincie, top-steden, en overzicht per specialisme. Alle data van Dierenkliniek.nl.">
+<meta property="og:url" content="https://dierenkliniek.nl/statistieken">
+<meta property="og:image" content="https://dierenkliniek.nl/og-image.png">
+<meta property="og:locale" content="nl_NL">
+<meta property="og:site_name" content="Dierenkliniek.nl">
+
+<meta name="geo.region" content="NL">
+<link rel="alternate" hreflang="nl" href="https://dierenkliniek.nl/statistieken">
+<link rel="alternate" hreflang="x-default" href="https://dierenkliniek.nl/statistieken">
+
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#00A1E4">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://dierenkliniek.nl/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Statistieken",
+      "item": "https://dierenkliniek.nl/statistieken"
+    }
+  ]
+}
+</script>
+
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.6; color: #0a1628; background: #f5f7fa; }
+  header { background: white; border-bottom: 1px solid #e5e7eb; padding: 16px 0; }
+  header .container { max-width: 900px; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; }
+  header .logo { display: flex; align-items: center; gap: 0; font-weight: 800; font-size: 22px; letter-spacing: -0.02em; text-decoration: none; color: #0a1628; } header .logo img { margin-right: 10px; }
+  header .logo img { width: 36px; height: 36px; }
+  header .logo .nl { color: #00A1E4; }
+  main { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+  .breadcrumb { font-size: 14px; color: #6b7280; margin-bottom: 20px; }
+  .breadcrumb a { color: #00A1E4; text-decoration: none; }
+  .breadcrumb a:hover { text-decoration: underline; }
+  h1 { font-size: 36px; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 8px; line-height: 1.1; }
+  h2 { font-size: 24px; font-weight: 700; margin: 32px 0 16px; }
+  h3 { font-size: 18px; font-weight: 700; margin: 20px 0 8px; }
+  .subtitle { font-size: 18px; color: #6b7280; margin-bottom: 32px; }
+  .card { background: white; border-radius: 12px; padding: 32px; box-shadow: 0 1px 3px rgba(0,0,0,0.04); margin-bottom: 24px; }
+  .card h2 { margin-top: 0; }
+  p { margin-bottom: 12px; }
+  ul { padding-left: 20px; margin-bottom: 16px; }
+  ul li { margin: 6px 0; }
+  a { color: #00A1E4; }
+  .btn { display: inline-block; padding: 12px 24px; background: #00A1E4; color: white; text-decoration: none; border-radius: 8px; font-weight: 600; margin-right: 8px; margin-top: 8px; }
+  .btn:hover { background: #0091d4; }
+  .btn-outline { background: white; color: #00A1E4; border: 2px solid #00A1E4; }
+  .clinic-card { background: white; border-radius: 10px; padding: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.04); margin-bottom: 12px; }
+  .clinic-card h3 { font-size: 17px; margin: 0 0 6px; }
+  .clinic-card h3 a { color: #0a1628; text-decoration: none; }
+  .clinic-card h3 a:hover { color: #00A1E4; }
+  .clinic-card .addr { color: #6b7280; font-size: 14px; }
+  .clinic-card .specs-line { color: #4a5568; font-size: 13px; margin-top: 6px; font-style: italic; }
+  .clinic-card .badges { margin-left: 6px; }
+  .clinic-card .badge { display:inline-block; background:#FEE2E2; color:#B91C1C; padding:2px 8px; border-radius:12px; font-size:12px; font-weight:600; margin-left: 4px; }
+  .clinic-card .badge.verified { background:#D1FAE5; color:#065F46; }
+  .stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin: 20px 0; }
+  .stat-tile { background: linear-gradient(135deg, #00A1E4, #0070AC); color: white; padding: 24px; border-radius: 12px; text-align: center; }
+  .stat-tile .num { font-size: 36px; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 4px; line-height: 1; }
+  .stat-tile .lbl { font-size: 13px; opacity: 0.9; }
+  .city-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+  .city-tag { background: #f0f9ff; color: #0070AC; padding: 6px 12px; border-radius: 999px; font-size: 13px; font-weight: 500; text-decoration: none; }
+  .city-tag:hover { background: #00A1E4; color: white; }
+  footer { background: #0a1628; color: rgba(255,255,255,0.7); padding: 40px 20px; text-align: center; margin-top: 60px; font-size: 14px; }
+  footer a { color: rgba(255,255,255,0.9); }
+  @media (max-width: 720px) {
+    h1 { font-size: 26px; }
+    .card { padding: 20px; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <a href="/" class="logo">
+      <img src="/favicon.svg" alt="">
+      Dierenkliniek<span class="nl">.nl</span>
+    </a>
+  </div>
+</header>
+<main>
+  <nav class="breadcrumb"><a href="/">Home</a> › <span>Statistieken</span></nav>
+  <h1>Platform-statistieken</h1>
+  <p class="subtitle">605 klinieken · 369 plaatsen · 64 artikelen</p>
+  
+    <div class="card">
+      <h2>Het platform in cijfers</h2>
+      <p>Dierenkliniek.nl is een van de meest complete overzichten van Nederlandse dierenklinieken. Hieronder de belangrijkste cijfers:</p>
+      <div class="stat-grid">
+        <div class="stat-tile"><div class="num">605</div><div class="lbl">Dierenklinieken</div></div>
+        <div class="stat-tile"><div class="num">369</div><div class="lbl">Nederlandse plaatsen</div></div>
+        <div class="stat-tile"><div class="num">109</div><div class="lbl">24/7 spoedklinieken</div></div>
+        <div class="stat-tile"><div class="num">64</div><div class="lbl">Kennisbank-artikelen</div></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Verdeling per provincie</h2>
+      <p>Dit is hoe onze 605 klinieken verdeeld zijn over Nederland:</p>
+      <ul><li><strong>Noord-Brabant</strong> — 102 klinieken</li><li><strong>Zuid-Holland</strong> — 101 klinieken</li><li><strong>Noord-Holland</strong> — 93 klinieken</li><li><strong>Gelderland</strong> — 79 klinieken</li><li><strong>Utrecht</strong> — 65 klinieken</li><li><strong>Groningen</strong> — 43 klinieken</li><li><strong>Overijssel</strong> — 40 klinieken</li><li><strong>Limburg</strong> — 36 klinieken</li><li><strong>Zeeland</strong> — 20 klinieken</li><li><strong>Flevoland</strong> — 17 klinieken</li><li><strong>Friesland</strong> — 9 klinieken</li></ul>
+    </div>
+
+    <div class="card">
+      <h2>Top 10 grootste steden</h2>
+      <p>De plaatsen met het grootste aantal dierenklinieken op ons platform:</p>
+      <ol><li><a href="/dierenarts-den-haag"><strong>Den Haag</strong></a> — 19 klinieken</li><li><a href="/dierenarts-amsterdam"><strong>Amsterdam</strong></a> — 17 klinieken</li><li><a href="/dierenarts-rotterdam"><strong>Rotterdam</strong></a> — 13 klinieken</li><li><a href="/dierenarts-utrecht"><strong>Utrecht</strong></a> — 12 klinieken</li><li><a href="/dierenarts-eindhoven"><strong>Eindhoven</strong></a> — 9 klinieken</li><li><a href="/dierenarts-groningen"><strong>Groningen</strong></a> — 8 klinieken</li><li><a href="/dierenarts-gouda"><strong>Gouda</strong></a> — 8 klinieken</li><li><a href="/dierenarts-almere"><strong>Almere</strong></a> — 8 klinieken</li><li><a href="/dierenarts-maastricht"><strong>Maastricht</strong></a> — 5 klinieken</li><li><a href="/dierenarts-zutphen"><strong>Zutphen</strong></a> — 5 klinieken</li></ol>
+    </div>
+
+    <div class="card">
+      <h2>Overzicht per specialisme</h2>
+      <p>Aantal klinieken met elk aandachtsgebied. Klik door voor de volledige lijst per specialisme:</p>
+      <ul><li><a href="/specialisme-honden"><strong>Honden</strong></a> — 130 klinieken</li><li><a href="/specialisme-katten"><strong>Katten</strong></a> — 170 klinieken</li><li><a href="/specialisme-konijnen"><strong>Konijnen</strong></a> — 133 klinieken</li><li><a href="/specialisme-knaagdieren"><strong>Knaagdieren</strong></a> — 151 klinieken</li><li><a href="/specialisme-vogels"><strong>Vogels</strong></a> — 136 klinieken</li><li><a href="/specialisme-exoten"><strong>Exoten</strong></a> — 154 klinieken</li><li><a href="/specialisme-chirurgie"><strong>Chirurgie</strong></a> — 139 klinieken</li><li><a href="/specialisme-cardiologie"><strong>Cardiologie</strong></a> — 135 klinieken</li><li><a href="/specialisme-dermatologie"><strong>Dermatologie</strong></a> — 131 klinieken</li><li><a href="/specialisme-tandheelkunde"><strong>Tandheelkunde</strong></a> — 131 klinieken</li><li><a href="/specialisme-echografie"><strong>Echografie</strong></a> — 142 klinieken</li><li><a href="/specialisme-spoed"><strong>Spoed 24/7</strong></a> — 109 klinieken</li></ul>
+    </div>
+
+    <div class="card">
+      <h2>Overige platform-cijfers</h2>
+      <ul>
+        <li><strong>Ruim 1,080</strong> unieke pagina's op onze site — één per kliniek, één per plaats, plus alle artikelen en tools</li>
+        <li><strong>418 klinieken</strong> hebben een geverifieerd profiel</li>
+        <li><strong>12 specialismen</strong> waarop u kunt filteren</li>
+        <li><strong>36 evergreen artikelen</strong> plus <strong>20 per-ras gezondheidsartikelen</strong> in onze kennisbank</li>
+        <li><strong>1 onafhankelijk platform</strong> — geen advertenties, geen commissie, geen aandeelhouders in de sector</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Vragen over deze cijfers?</h2>
+      <p>Bent u journalist of onderzoeker? De data op deze pagina mag u vrij gebruiken met bronvermelding "Dierenkliniek.nl".</p>
+      <p>Voor specifieke data-verzoeken of analyses: <a href="mailto:info@dierenkliniek.nl">info@dierenkliniek.nl</a></p>
+    </div>
+</main>
+<footer>
+  <p>© 2026 Dierenkliniek.nl · Darthuizerberg 1, 3825 BK Amersfoort</p>
+  <p style="margin-top: 8px;"><a href="/">Home</a> · <a href="/?view=spoedhulp">Spoedhulp 24/7</a> · <a href="/?view=kennisbank">Kennisbank</a> · <a href="/pakketten">Pakketten</a></p>
+</footer>
+</body>
+</html>
