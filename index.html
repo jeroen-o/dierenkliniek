@@ -4734,6 +4734,44 @@ body.has-compare-bar { padding-bottom: 90px; }
               <p id="dDescription"></p>
             </div>
 
+            <div class="detail-section" id="dBadgeSection" style="margin-top:24px; background:linear-gradient(135deg,#ECFDF5,#FFFFFF); border:2px solid #10b981; border-radius:16px; padding:24px;">
+              <div style="display:flex; gap:14px; align-items:flex-start; margin-bottom:20px;">
+                <span style="font-size:36px; line-height:1;">🏅</span>
+                <div>
+                  <h3 style="margin:0;">Gratis: badge voor uw website</h3>
+                  <p style="margin:4px 0 0; color:#6b7280; font-size:14px;">Toon aan uw bezoekers dat u vermeld staat op Dierenkliniek.nl. Bewezen manier om vertrouwen te bouwen én meer bezoekers te trekken.</p>
+                </div>
+              </div>
+              <style>@media (max-width:640px){ #dBadgeSection .dbadge-grid{ grid-template-columns:1fr !important; } }</style>
+              <div class="dbadge-grid" style="display:grid; grid-template-columns:minmax(0,220px) 1fr; gap:28px; align-items:start;">
+                <div style="text-align:center;">
+                  <img id="dBadgeImg" src="" alt="Uw persoonlijke partner-badge" width="200" height="200" style="max-width:200px; height:auto; border-radius:12px; box-shadow:0 4px 12px rgba(0,161,228,0.2);" onerror="this.closest('#dBadgeSection').style.display='none'">
+                  <p style="font-size:13px; color:#6b7280; margin-top:10px; font-style:italic;">Uw persoonlijke badge met uw klinieknaam erop</p>
+                </div>
+                <div>
+                  <h4 style="font-size:15px; margin:0 0 6px;">📥 Download alles in één ZIP</h4>
+                  <p style="font-size:13px; color:#6b7280; margin:0 0 12px;">Bevat 4 badge-varianten (SVG + PNG) en een handleiding met uw kliniek-URL al ingevuld.</p>
+                  <a id="dBadgeZip" href="#" download class="btn btn-block" style="background:#10b981; color:white; border-color:#10b981;">⬇ Download ZIP</a>
+                  <p style="text-align:center; color:#9ca3af; font-size:13px; margin:16px 0;">of</p>
+                  <h4 style="font-size:15px; margin:0 0 6px;">📋 Kopieer HTML-code direct</h4>
+                  <p style="font-size:13px; color:#6b7280; margin:0 0 8px;">Plak deze code in uw website (footer, contactpagina, sidebar):</p>
+                  <div style="position:relative; background:#0a1628; color:#e5e7eb; border-radius:10px; padding:14px 90px 14px 14px; font-family:ui-monospace,Menlo,Consolas,monospace; font-size:12px; line-height:1.5; overflow-x:auto;">
+                    <button type="button" onclick="copySpaBadgeCode(this)" style="position:absolute; top:10px; right:10px; background:var(--dk-blue,#00A1E4); color:white; border:0; border-radius:6px; padding:5px 10px; font-size:12px; font-weight:600; cursor:pointer;">Kopieer</button>
+                    <pre id="dBadgeCode" style="margin:0; white-space:pre-wrap; word-break:break-all;"></pre>
+                  </div>
+                  <details style="margin-top:16px; border-top:1px solid #d1fae5; padding-top:12px;">
+                    <summary style="cursor:pointer; font-weight:600; color:#059669;">💬 Hulp nodig bij plaatsen?</summary>
+                    <div style="padding:12px 0; font-size:14px;">
+                      <p><strong>Voor WordPress:</strong> ga naar de pagina waar u de badge wilt tonen, klik op + om een blok toe te voegen, kies "Custom HTML" en plak de gekopieerde code.</p>
+                      <p><strong>Voor Wix / Squarespace / Jimdo:</strong> voeg een "Embed HTML"-widget toe en plak de code.</p>
+                      <p><strong>Uw webbouwer regelt uw site?</strong> Download de ZIP en stuur die door met de vraag de badge in de footer of sidebar te plaatsen.</p>
+                      <p><strong>Volledige instructies</strong> staan op <a href="/badge">de algemene badge-pagina</a>.</p>
+                    </div>
+                  </details>
+                </div>
+              </div>
+            </div>
+
           </div>
 </div>
 
@@ -6750,6 +6788,21 @@ function showClinic(id) {
     }
   }
 
+  // Gepersonaliseerde badge-sectie (zelfde bestanden als de statische kliniekpagina's)
+  const badgeSec = document.getElementById('dBadgeSection');
+  if (badgeSec) {
+    const slug = clinicSlug(c);
+    const pageUrl = `https://dierenkliniek.nl/${slug}`;
+    const pngUrl = `https://dierenkliniek.nl/badges/${slug}-partner.png`;
+    badgeSec.style.display = '';
+    document.getElementById('dBadgeImg').src = `/badges/${slug}-partner.svg`;
+    const zipBtn = document.getElementById('dBadgeZip');
+    zipBtn.href = `/badges/${slug}.zip`;
+    zipBtn.textContent = `⬇ Download ZIP (${c.name})`;
+    document.getElementById('dBadgeCode').textContent =
+      `<a href="${pageUrl}" target="_blank" title="Partner van Dierenkliniek.nl" rel="noopener"><img src="${pngUrl}" alt="Partner van Dierenkliniek.nl — ${c.name}" width="200" height="200"></a>`;
+  }
+
   // Google Reviews link — altijd tonen (was: alleen Basic+)
   const grRow = document.getElementById('dGoogleReviewsRow');
   if (grRow) {
@@ -7336,6 +7389,13 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 
+
+function copySpaBadgeCode(btn) {
+  const code = document.getElementById('dBadgeCode').textContent;
+  const done = () => { const t = btn.textContent; btn.textContent = '✓ Gekopieerd'; setTimeout(() => btn.textContent = t, 2000); };
+  if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(code).then(done).catch(() => {}); }
+  else { const ta = document.createElement('textarea'); ta.value = code; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); ta.remove(); done(); }
+}
 
 // ============ URL ROUTING ============
 // Maakt unieke leesbare URLs per kliniek (slug-based) en per view.
