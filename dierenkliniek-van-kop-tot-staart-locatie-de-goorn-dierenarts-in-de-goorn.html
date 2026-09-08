@@ -74,156 +74,287 @@
   ]
 }
 </script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/site.css">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.6; color: #0a1628; background: #f5f7fa; }
+  header { background: white; border-bottom: 1px solid #e5e7eb; padding: 16px 0; }
+  header .container { max-width: 900px; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; }
+  header .logo { display: flex; align-items: center; gap: 0; font-weight: 800; font-size: 22px; letter-spacing: -0.02em; text-decoration: none; color: #0a1628; } header .logo img { margin-right: 10px; }
+  header .logo img { width: 36px; height: 36px; }
+  header .logo .nl { color: #00A1E4; }
+  main { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+  .breadcrumb { font-size: 14px; color: #6b7280; margin-bottom: 20px; }
+  .breadcrumb a { color: #00A1E4; text-decoration: none; }
+  .breadcrumb a:hover { text-decoration: underline; }
+  h1 { font-size: 36px; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 8px; line-height: 1.1; }
+  .subtitle { font-size: 18px; color: #6b7280; margin-bottom: 32px; }
+  .card { background: white; border-radius: 12px; padding: 32px; box-shadow: 0 1px 3px rgba(0,0,0,0.04); margin-bottom: 24px; }
+  h2 { font-size: 22px; font-weight: 700; margin-bottom: 16px; }
+  ul { list-style: none; padding: 0; }
+  ul li { padding: 8px 0; border-bottom: 1px solid #f0f2f5; }
+  ul li:last-child { border-bottom: none; }
+  a { color: #00A1E4; }
+  .btn { display: inline-block; padding: 12px 24px; background: #00A1E4; color: white; text-decoration: none; border-radius: 8px; font-weight: 600; margin-right: 8px; margin-top: 8px; border: none; cursor: pointer; font-size: 15px; }
+  .btn:hover { background: #0091d4; }
+  .btn-outline { background: white; color: #00A1E4; border: 2px solid #00A1E4; }
+  .btn-whatsapp { background: #25D366; color: white; border-color: #25D366; }
+  .btn-whatsapp:hover { background: #1EBE57; }
+  .btn-green { background: #10b981; color: white; border-color: #10b981; }
+  .btn-green:hover { background: #059669; }
+  .btn-block { display: block; width: 100%; text-align: center; margin-right: 0; }
+  .specs { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+  .spec { background: #f0f9ff; color: #0070AC; padding: 4px 12px; border-radius: 999px; font-size: 13px; font-weight: 500; }
+  .nearby-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; }
+  .nearby-card { display: block; padding: 16px; border: 1px solid #e5e7eb; border-radius: 10px; text-decoration: none; color: #0a1628; transition: all 0.2s; }
+  .nearby-card:hover { border-color: #00A1E4; background: #f0f9ff; }
+  .nearby-card h4 { font-size: 15px; font-weight: 700; margin-bottom: 4px; }
+  .nearby-card p { font-size: 13px; color: #6b7280; margin: 0; }
+  
+  /* Badge sectie */
+  .badge-card { background: linear-gradient(135deg, #ECFDF5, #FFFFFF); border: 2px solid #10b981; }
+  .badge-header { display: flex; gap: 16px; align-items: flex-start; margin-bottom: 24px; }
+  .badge-emoji { font-size: 40px; line-height: 1; flex-shrink: 0; }
+  .badge-body { display: grid; grid-template-columns: 240px 1fr; gap: 32px; align-items: start; }
+  .badge-preview { text-align: center; }
+  .badge-preview img { max-width: 200px; height: auto; box-shadow: 0 4px 12px rgba(0,161,228,0.2); border-radius: 12px; }
+  .badge-caption { font-size: 13px; color: #6b7280; margin-top: 12px; font-style: italic; }
+  .badge-actions h3 { font-weight: 700; color: #0a1628; }
+  .badge-divider { text-align: center; color: #9ca3af; font-size: 13px; margin: 20px 0; position: relative; }
+  .badge-divider::before, .badge-divider::after { content: ''; position: absolute; top: 50%; width: 40%; height: 1px; background: #e5e7eb; }
+  .badge-divider::before { left: 0; }
+  .badge-divider::after { right: 0; }
+  .code-block { background: #0a1628; color: #e2e8f0; padding: 12px; border-radius: 8px; font-family: 'Monaco', 'Menlo', monospace; font-size: 11px; line-height: 1.6; overflow-x: auto; position: relative; }
+  .code-block pre { margin: 0; white-space: pre-wrap; word-break: break-all; padding-right: 70px; }
+  .code-block .copy-btn { position: absolute; top: 8px; right: 8px; padding: 4px 10px; background: #00A1E4; color: white; border: none; border-radius: 4px; font-size: 11px; cursor: pointer; font-weight: 600; }
+  .code-block .copy-btn:hover { background: #0091d4; }
+  .code-block .copy-btn.copied { background: #10b981; }
+  .badge-note { background: #FEF3C7; border-left: 4px solid #F59E0B; padding: 12px 16px; border-radius: 6px; margin-top: 16px; font-size: 13px; color: #78350F; }
+  .badge-help { margin-top: 20px; border-top: 1px solid #d1fae5; padding-top: 16px; }
+  .badge-help summary { cursor: pointer; font-weight: 600; color: #059669; user-select: none; }
+  .badge-help details[open] summary { margin-bottom: 8px; }
+  
+  /* footer styles vervangen door .site-footer */
+  @media (max-width: 720px) {
+    h1 { font-size: 26px; }
+    .card { padding: 20px; }
+    .badge-body { grid-template-columns: 1fr; gap: 20px; }
+    .badge-preview img { max-width: 160px; }
+    .badge-header { flex-direction: column; align-items: flex-start; }
+  }
+
+  /* Universele site header (statische pagina's) */
+  .site-header { background: white; border-bottom: 1px solid #e5e7eb; padding: 14px 0; position: sticky; top: 0; z-index: 100; }
+  .header-container { max-width: 1200px; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+  .site-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: #0a1628; font-weight: 800; font-size: 20px; letter-spacing: -0.02em; }
+  .site-logo .logo-mark { width: 36px; height: 36px; background: linear-gradient(135deg, #00A1E4, #003E7E); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white; }
+  .site-logo .logo-mark svg { width: 22px; height: 22px; }
+  .site-logo .logo-nl { color: #00A1E4; }
+  .site-nav { display: flex; gap: 24px; flex: 1; justify-content: center; }
+  .site-nav a { color: #0a1628; text-decoration: none; font-size: 15px; font-weight: 500; }
+  .site-nav a:hover { color: #00A1E4; }
+  .site-cta { display: flex; align-items: center; gap: 12px; }
+  .btn-aanmelden { background: #00A1E4; color: white; padding: 8px 18px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 14px; }
+  .btn-aanmelden:hover { background: #0091d4; }
+  .mobile-menu { display: none; position: relative; }
+  .mobile-menu summary { list-style: none; cursor: pointer; padding: 8px; border: none; background: none; display: flex; flex-direction: column; gap: 4px; }
+  .mobile-menu summary::-webkit-details-marker { display: none; }
+  .mobile-menu .hamburger span { display: block; width: 22px; height: 2px; background: #0a1628; border-radius: 2px; }
+  .mobile-menu-panel { position: absolute; top: 100%; right: 0; margin-top: 8px; background: white; border: 1px solid #e5e7eb; border-radius: 12px; padding: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); min-width: 220px; display: flex; flex-direction: column; gap: 4px; z-index: 200; }
+  .mobile-menu-panel a { padding: 10px 14px; text-decoration: none; color: #0a1628; border-radius: 8px; font-size: 15px; font-weight: 500; }
+  .mobile-menu-panel a:hover { background: #f0f9ff; color: #00A1E4; }
+
+  @media (max-width: 860px) {
+    .site-nav { display: none; }
+    .mobile-menu { display: block; }
+    .btn-aanmelden { display: none; }
+  }
+
+  /* Universele site footer (statische pagina's) */
+  .site-footer { background: #0a1628; color: rgba(255,255,255,0.7); padding: 48px 0 24px; margin-top: 60px; font-size: 14px; }
+  .footer-container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+  .footer-grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 32px; }
+  .footer-brand { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 18px; color: white; margin-bottom: 12px; }
+  .footer-brand .logo-mark { background: white; color: #0070AC; width: 32px; height: 32px; border-radius: 6px; display: flex; align-items: center; justify-content: center; }
+  .footer-brand .logo-nl { color: #00A1E4; }
+  .footer-tagline { font-size: 14px; line-height: 1.6; max-width: 320px; color: rgba(255,255,255,0.7); }
+  .site-footer h5 { color: white; font-size: 14px; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 700; }
+  .site-footer ul { list-style: none; padding: 0; margin: 0; }
+  .site-footer ul li { margin: 6px 0; }
+  .site-footer ul li a { color: rgba(255,255,255,0.75); text-decoration: none; font-size: 14px; }
+  .site-footer ul li a:hover { color: white; }
+  .footer-bot { display: flex; justify-content: space-between; align-items: center; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 13px; color: rgba(255,255,255,0.6); flex-wrap: wrap; gap: 12px; }
+  .footer-bot a { color: rgba(255,255,255,0.7); text-decoration: none; }
+  .footer-bot a:hover { color: white; }
+
+  @media (max-width: 720px) {
+    .footer-grid { grid-template-columns: 1fr; gap: 24px; }
+    .footer-bot { flex-direction: column; align-items: flex-start; }
+  }
+
+</style>
 </head>
-<body class="static-page">
-<header>
-  <div class="container">
-    <div class="header-inner">
-      <a href="/" class="logo"><span class="logo-mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="4" r="2"/><circle cx="18" cy="8" r="2"/><circle cx="20" cy="16" r="2"/><circle cx="4" cy="11" r="2"/><path d="M8 22c0-3 2-5 4-5s4 2 4 5-2 4-4 4-4-1-4-4z"/></svg></span>Dierenkliniek<span>.nl</span></a>
-      <nav class="main-nav">
-        <a href="/">Vind kliniek</a>
-        <a href="/?view=spoedhulp" style="color:#B32E1E;">⚡ Spoed</a>
-        <a href="/pakketten">Voor klinieken</a>
-        <a href="/?view=kennisbank">Kennisbank</a>
-        <a href="/?view=about">Over ons</a>
-        <a href="/?view=english" style="color:var(--ink-2);">🇬🇧 EN</a>
-      </nav>
-      <div class="header-cta">
-        <a class="btn btn-primary btn-sm desktop-only" href="/?view=aanmelden">Aanmelden</a>
-        <button class="hamburger-btn" onclick="toggleMobileMenu()" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
-      </div>
+<body>
+<header class="site-header">
+  <div class="header-container">
+    <a href="/" class="site-logo">
+      <span class="logo-mark">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="4" r="2"/>
+          <circle cx="18" cy="8" r="2"/>
+          <circle cx="20" cy="16" r="2"/>
+          <circle cx="4" cy="11" r="2"/>
+          <path d="M8 22c0-3 2-5 4-5s4 2 4 5-2 4-4 4-4-1-4-4z"/>
+        </svg>
+      </span>
+      <span class="logo-text">Dierenkliniek<span class="logo-nl">.nl</span></span>
+    </a>
+    <nav class="site-nav">
+      <a href="/">Vind kliniek</a>
+      <a href="/?view=spoedhulp" style="color:#B32E1E;">⚡ Spoed</a>
+      <a href="/pakketten">Voor klinieken</a>
+      <a href="/?view=kennisbank">Kennisbank</a>
+      <a href="/?view=about">Over ons</a>
+      <a href="/?view=english">🇬🇧 EN</a>
+    </nav>
+    <div class="site-cta">
+      <a href="/?view=aanmelden" class="btn-aanmelden">Aanmelden</a>
+      <details class="mobile-menu">
+        <summary class="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </summary>
+        <div class="mobile-menu-panel">
+          <a href="/">Vind kliniek</a>
+          <a href="/?view=spoedhulp">⚡ Spoedhulp 24/7</a>
+          <a href="/pakketten">Voor klinieken</a>
+          <a href="/?view=kennisbank">Kennisbank</a>
+          <a href="/specialismen">Specialismen</a>
+          <a href="/?view=about">Over ons</a>
+          <a href="/?view=aanmelden">Aanmelden</a>
+        </div>
+      </details>
     </div>
   </div>
 </header>
-<div class="mobile-menu" id="mobileMenu">
-  <a href="/">Vind kliniek</a>
-  <a href="/?view=spoedhulp" style="color:#B32E1E;">⚡ Spoedhulp</a>
-  <a href="/pakketten">Voor klinieken</a>
-  <a href="/?view=kennisbank">Kennisbank</a>
-  <a href="/?view=about">Over ons</a>
-  <a href="/?view=english">🇬🇧 English</a>
-  <div class="mobile-menu-divider"></div>
-  <a href="/?view=aanmelden" class="mobile-menu-cta">+ Kliniek aanmelden</a>
-</div>
-
-<main class="static-main">
-  <section class="detail-hero">
-    <div class="container">
-      <div class="breadcrumb"><a href="/">Home</a> › <a href="/dierenarts-de-goorn">Dierenarts De Goorn</a> › <span>Dierenkliniek van Kop tot Staart - locatie De Goorn</span></div>
-      <div class="detail-hero-grid">
-        <div>
-          <h1>Dierenkliniek van Kop tot Staart - locatie De Goorn</h1>
-          <div class="detail-hero-meta"><span>📍 Kantbeugel 1, 1648 HW De Goorn</span></div>
-          <div class="sub">Dierenarts in De Goorn</div>
-          
-        </div>
-        <div class="detail-rating-card">
-          <div class="detail-actions-card"><h4>Direct contact</h4><p>Bel deze kliniek voor een afspraak of meer informatie</p></div>
-          <div class="detail-actions"><a href="tel:507025" class="btn btn-primary btn-block btn-lg">📞 Bellen</a><a href="https://www.google.com/maps/dir/?api=1&destination=52.6,4.9833" target="_blank" rel="noopener" class="btn btn-outline btn-block">📍 Route via Google Maps</a></div>
-        </div>
+<main>
+  <nav class="breadcrumb">
+    <a href="/">Home</a> ›
+    <a href="/dierenarts-de-goorn">Dierenarts De Goorn</a> ›
+    <span>Dierenkliniek van Kop tot Staart - locatie De Goorn</span>
+  </nav>
+  <h1>Dierenkliniek van Kop tot Staart - locatie De Goorn</h1>
+  <p class="subtitle">Dierenarts in De Goorn</p>
+  <div class="card">
+    <p>Veterinaire kliniek in De Goorn.</p>
+    <div class="specs"><span class="spec">Honden</span><span class="spec">Katten</span></div>
+    <div style="margin-top: 24px;">
+      <a href="https://www.google.com/maps/dir/?api=1&destination=52.6,4.9833" class="btn" target="_blank" rel="noopener">📍 Route via Google Maps</a>
+      <a href="tel:507025" class="btn btn-outline">📞 Bel 50 70 25</a>
+      
+    </div>
+  </div>
+  <div class="card">
+    <h2>Contactgegevens</h2>
+    <ul>
+        <li><strong>Adres:</strong> Kantbeugel 1, 1648 HW De Goorn</li>
+        <li><strong>Telefoon:</strong> <a href="tel:507025">50 70 25</a></li>
+        <li><strong>Website:</strong> <a href="https://vankoptotstaart.nl/" target="_blank" rel="noopener">https://vankoptotstaart.nl/</a></li>
+    </ul>
+  </div>
+  
+  <div class="card badge-card">
+    <div class="badge-header">
+      <span class="badge-emoji">🏅</span>
+      <div>
+        <h2 style="margin: 0;">Gratis: badge voor uw website</h2>
+        <p style="margin: 4px 0 0; color: #6b7280;">Toon aan uw bezoekers dat u vermeld staat op Dierenkliniek.nl. Bewezen manier om vertrouwen te bouwen én meer bezoekers te trekken.</p>
       </div>
     </div>
-  </section>
-
-  <section class="container static-content">
-    <div class="s-card">
-      <h2>Over deze kliniek</h2>
-      <p class="s-desc">Veterinaire kliniek in De Goorn.</p>
-      <div class="spec-chips"><span class="spec-chip">Honden</span><span class="spec-chip">Katten</span></div>
-    </div>
-
-    <div class="s-card">
-      <h2>Contactgegevens</h2>
-      <div class="contact-row"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><div><div class="lbl">Adres</div><span class="val">Kantbeugel 1, 1648 HW De Goorn</span><a href="https://www.google.com/maps/dir/?api=1&destination=52.6,4.9833" target="_blank" rel="noopener" style="font-size:13px; display:inline-block; margin-top:4px;">Open in Google Maps ↗</a></div></div>
-<div class="contact-row"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg><div><div class="lbl">Telefoon</div><span class="val"><a href="tel:507025">50 70 25</a></span></div></div>
-<div class="contact-row"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg><div><div class="lbl">Website</div><span class="val"><a href="https://vankoptotstaart.nl/" rel="noopener" target="_blank">https://vankoptotstaart.nl/</a></span></div></div>
-
-    </div>
-
-    <div class="s-card s-badge">
-      <div class="s-badge-head">
-        <span style="font-size:36px; line-height:1;">🏅</span>
-        <div>
-          <h2>Gratis: badge voor uw website</h2>
-          <p>Toon aan uw bezoekers dat u vermeld staat op Dierenkliniek.nl. Bewezen manier om vertrouwen te bouwen én meer bezoekers te trekken.</p>
-        </div>
+    <div class="badge-body">
+      <div class="badge-preview">
+        <img src="/badges/dierenkliniek-van-kop-tot-staart-locatie-de-goorn-dierenarts-in-de-goorn-partner.svg" alt="Uw persoonlijke partner-badge" width="200" height="200">
+        <p class="badge-caption">Uw persoonlijke badge met uw klinieknaam erop</p>
       </div>
-      <div class="s-badge-grid">
-        <div>
-          <img src="/badges/dierenkliniek-van-kop-tot-staart-locatie-de-goorn-dierenarts-in-de-goorn-partner.svg" alt="Uw persoonlijke partner-badge" width="200" height="200" style="display:block; margin:0 auto;">
-          <p class="s-badge-caption">Uw persoonlijke badge met uw klinieknaam erop</p>
+      <div class="badge-actions">
+        <h3 style="font-size: 15px; margin: 0 0 8px;">📥 Download alles in één ZIP</h3>
+        <p style="font-size: 13px; color: #6b7280; margin: 0 0 12px;">Bevat 4 badge-varianten (SVG + PNG) en een handleiding met uw kliniek-URL al ingevuld.</p>
+        <a href="/badges/dierenkliniek-van-kop-tot-staart-locatie-de-goorn-dierenarts-in-de-goorn.zip" download class="btn btn-green btn-block">⬇ Download ZIP (Dierenkliniek van Kop tot Staart - locatie De Goorn)</a>
+        
+        <div class="badge-divider">of</div>
+        
+        <h3 style="font-size: 15px; margin: 0 0 8px;">📋 Kopieer HTML-code direct</h3>
+        <p style="font-size: 13px; color: #6b7280; margin: 0 0 8px;">Plak deze code in uw website (footer, contactpagina, sidebar):</p>
+        <div class="code-block">
+          <button class="copy-btn" onclick="copyBadgeCode(this)">Kopieer</button>
+          <pre id="badge-html-code">&lt;a href=&quot;https://dierenkliniek.nl/dierenkliniek-van-kop-tot-staart-locatie-de-goorn-dierenarts-in-de-goorn&quot; target=&quot;_blank&quot; title=&quot;Partner van Dierenkliniek.nl&quot; rel=&quot;noopener&quot;&gt;&lt;img src=&quot;https://dierenkliniek.nl/badges/dierenkliniek-van-kop-tot-staart-locatie-de-goorn-dierenarts-in-de-goorn-partner.png&quot; alt=&quot;Partner van Dierenkliniek.nl — Dierenkliniek van Kop tot Staart - locatie De Goorn&quot; width=&quot;200&quot; height=&quot;200&quot;&gt;&lt;/a&gt;</pre>
         </div>
-        <div>
-          <h4>📥 Download alles in één ZIP</h4>
-          <p class="hint">Bevat 4 badge-varianten (SVG + PNG) en een handleiding met uw kliniek-URL al ingevuld.</p>
-          <a href="/badges/dierenkliniek-van-kop-tot-staart-locatie-de-goorn-dierenarts-in-de-goorn.zip" download class="btn btn-green btn-block">⬇ Download ZIP (Dierenkliniek van Kop tot Staart - locatie De Goorn)</a>
-          <p class="of">of</p>
-          <h4>📋 Kopieer HTML-code direct</h4>
-          <p class="hint">Plak deze code in uw website (footer, contactpagina, sidebar):</p>
-          <div class="code-block"><button type="button" class="copy-btn" onclick="copyBadgeCode(this)">Kopieer</button><pre id="badge-html-code">&lt;a href="https://dierenkliniek.nl/dierenkliniek-van-kop-tot-staart-locatie-de-goorn-dierenarts-in-de-goorn" target="_blank" title="Partner van Dierenkliniek.nl" rel="noopener"&gt;&lt;img src="https://dierenkliniek.nl/badges/dierenkliniek-van-kop-tot-staart-locatie-de-goorn-dierenarts-in-de-goorn-partner.png" alt="Partner van Dierenkliniek.nl — Dierenkliniek van Kop tot Staart - locatie De Goorn" width="200" height="200"&gt;&lt;/a&gt;</pre></div>
-          <details class="badge-help">
-            <summary>💬 Hulp nodig bij plaatsen?</summary>
-            <div style="padding-top:8px;">
-              <p><strong>Voor WordPress:</strong> ga naar de pagina waar u de badge wilt tonen, klik op + om een blok toe te voegen, kies "Custom HTML" en plak de gekopieerde code.</p>
-              <p><strong>Voor Wix / Squarespace / Jimdo:</strong> voeg een "Embed HTML"-widget toe en plak de code.</p>
-              <p><strong>Uw webbouwer regelt uw site?</strong> Download de ZIP en stuur die door met de vraag de badge in de footer of sidebar te plaatsen.</p>
-              <p><strong>Volledige instructies</strong> staan op <a href="/badge">de algemene badge-pagina</a>.</p>
-            </div>
-          </details>
-        </div>
+
       </div>
     </div>
+    <div class="badge-help">
+      <details>
+        <summary>💬 Hulp nodig bij plaatsen?</summary>
+        <div style="padding: 16px 0;">
+          <p><strong>Voor WordPress:</strong> ga naar de pagina waar u de badge wilt tonen (bijvoorbeeld "Contact" of "Over ons"), klik op + om een blok toe te voegen, kies "Custom HTML", en plak de gekopieerde code.</p>
+          <p><strong>Voor Wix / Squarespace / Jimdo:</strong> voeg een "Embed HTML"-widget toe waar u de badge wilt plaatsen en plak de code.</p>
+          <p><strong>Uw webbouwer regelt uw site?</strong> Download de ZIP en stuur die naar hem/haar met de vraag: "Graag deze badge plaatsen in de footer/sidebar van onze website — de handleiding zit in de ZIP".</p>
+          <p><strong>Volledige instructies</strong> staan ook op <a href="/badge">de algemene badge-pagina</a>.</p>
+        </div>
+      </details>
+    </div>
+  </div>
 
-    <div class="s-card">
-<h2>Dichtstbijzijnde klinieken in de omgeving</h2>
-<p style="margin-bottom: 16px;">Vlakbij De Goorn vindt u ook deze klinieken:</p>
-<div class="nearby-grid">
-<a class="nearby-card" href="/anicura-west-friesland-dierenarts-in-hoorn">
-<h4>AniCura West-Friesland</h4>
-<p>Hoorn · 7,0 km</p>
-</a>
-<a class="nearby-card" href="/dierenkliniek-hoorn-dierenarts-in-hoorn">
-<h4>Dierenkliniek Hoorn</h4>
-<p>Hoorn · 7,0 km</p>
-</a>
-<a class="nearby-card" href="/dierenkliniek-van-kop-tot-staart-locatie-hoorn-dierenarts-in-hoorn">
-<h4>Dierenkliniek van Kop tot Staart - locatie Hoorn</h4>
-<p>Hoorn · 7,0 km</p>
-</a>
-<a class="nearby-card" href="/dap-spierdijk-obdam-dierenarts-in-spierdijk">
-<h4>DAP Spierdijk-Obdam</h4>
-<p>Spierdijk · 8,0 km</p>
-</a>
-<a class="nearby-card" href="/dierenkliniek-stad-blokker-dierenarts-in-blokker">
-<h4>Dierenkliniek Stad Blokker</h4>
-<p>Blokker · 9,8 km</p>
-</a>
-<a class="nearby-card" href="/dap-obdam-dierenarts-in-obdam">
-<h4>DAP Obdam</h4>
-<p>Obdam · 10,1 km</p>
-</a>
-</div>
-<p style="margin-top: 20px;"><a class="btn btn-outline" href="/">Zoek op uw postcode →</a></p>
-</div>
-
-    <div class="s-card">
-<h2>Meer informatie</h2>
-<p>Deze vermelding maakt deel uit van <a href="/">Dierenkliniek.nl</a> — het onafhankelijke overzicht van alle 605 dierenklinieken in Nederland.</p>
-<p style="margin-top: 12px;">Bent u de eigenaar van deze kliniek? <a href="/?view=aanmelden">Vul het aanmeldformulier in</a> om uw vermelding aan te vullen.</p>
-</div>
-
-  </section>
+  
+  
+  <div class="card">
+    <h2>Dichtstbijzijnde klinieken in de omgeving</h2>
+    <p style="margin-bottom: 16px;">Vlakbij De Goorn vindt u ook deze klinieken:</p>
+    <div class="nearby-grid">
+        <a href="/anicura-west-friesland-dierenarts-in-hoorn" class="nearby-card">
+          <h4>AniCura West-Friesland</h4>
+          <p>Hoorn · 7,0 km</p>
+        </a>
+        <a href="/dierenkliniek-hoorn-dierenarts-in-hoorn" class="nearby-card">
+          <h4>Dierenkliniek Hoorn</h4>
+          <p>Hoorn · 7,0 km</p>
+        </a>
+        <a href="/dierenkliniek-van-kop-tot-staart-locatie-hoorn-dierenarts-in-hoorn" class="nearby-card">
+          <h4>Dierenkliniek van Kop tot Staart - locatie Hoorn</h4>
+          <p>Hoorn · 7,0 km</p>
+        </a>
+        <a href="/dap-spierdijk-obdam-dierenarts-in-spierdijk" class="nearby-card">
+          <h4>DAP Spierdijk-Obdam</h4>
+          <p>Spierdijk · 8,0 km</p>
+        </a>
+        <a href="/dierenkliniek-stad-blokker-dierenarts-in-blokker" class="nearby-card">
+          <h4>Dierenkliniek Stad Blokker</h4>
+          <p>Blokker · 9,8 km</p>
+        </a>
+        <a href="/dap-obdam-dierenarts-in-obdam" class="nearby-card">
+          <h4>DAP Obdam</h4>
+          <p>Obdam · 10,1 km</p>
+        </a>
+    </div>
+    <p style="margin-top: 20px;"><a href="/" class="btn btn-outline">Zoek op uw postcode →</a></p>
+  </div>
+  <div class="card">
+    <h2>Meer informatie</h2>
+    <p>Deze vermelding maakt deel uit van <a href="/">Dierenkliniek.nl</a> — het onafhankelijke overzicht van alle 605 dierenklinieken in Nederland.</p>
+    <p style="margin-top: 12px;">Bent u de eigenaar van deze kliniek? <a href="/?view=aanmelden">Vul het aanmeldformulier in</a> om uw vermelding aan te vullen.</p>
+  </div>
 </main>
-<footer>
-  <div class="container">
+<footer class="site-footer">
+  <div class="footer-container">
     <div class="footer-grid">
       <div>
-        <div class="logo"><span class="logo-mark" style="background: white; color: var(--dk-blue-deep);"><svg style="width:22px;height:22px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="4" r="2"/><circle cx="18" cy="8" r="2"/><circle cx="20" cy="16" r="2"/><circle cx="4" cy="11" r="2"/><path d="M8 22c0-3 2-5 4-5s4 2 4 5-2 4-4 4-4-1-4-4z"/></svg></span>Dierenkliniek<span>.nl</span></div>
-        <p style="max-width: 320px; font-size: 14px;">Het onafhankelijke overzicht van alle dierenklinieken in Nederland. Vind, vergelijk en kies met vertrouwen.</p>
+        <div class="footer-brand">
+          <span class="logo-mark">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:22px;height:22px;">
+              <circle cx="11" cy="4" r="2"/><circle cx="18" cy="8" r="2"/><circle cx="20" cy="16" r="2"/><circle cx="4" cy="11" r="2"/><path d="M8 22c0-3 2-5 4-5s4 2 4 5-2 4-4 4-4-1-4-4z"/>
+            </svg>
+          </span>
+          <span>Dierenkliniek<span class="logo-nl">.nl</span></span>
+        </div>
+        <p class="footer-tagline">Het onafhankelijke overzicht van alle dierenklinieken in Nederland. Vind, vergelijk en kies met vertrouwen.</p>
       </div>
       <div>
         <h5>Voor huisdiereigenaren</h5>
@@ -257,6 +388,7 @@
           <li><a href="/statistieken">📊 Statistieken</a></li>
           <li><a href="/design">🎨 Logo's &amp; huisstijl</a></li>
           <li><a href="/?view=provincies">Provincies</a></li>
+          <li><a href="/?view=favorieten">❤️ Mijn favorieten</a></li>
           <li><a href="/?view=contact">Contact</a></li>
           <li><a href="/?view=english">🇬🇧 English</a></li>
         </ul>
@@ -264,24 +396,32 @@
     </div>
     <div class="footer-bot">
       <div>© 2026 Dierenkliniek.nl · Darthuizerberg 1, 3825 BK Amersfoort</div>
-      <div><a href="/?view=privacy">Privacyverklaring</a> &nbsp;·&nbsp; <a href="/?view=voorwaarden">Algemene voorwaarden</a> &nbsp;·&nbsp; <a href="/?view=cookies">Cookies</a></div>
+      <div>
+        <a href="/?view=privacy">Privacyverklaring</a> &nbsp;·&nbsp;
+        <a href="/?view=voorwaarden">Algemene voorwaarden</a> &nbsp;·&nbsp;
+        <a href="/?view=cookies">Cookies</a>
+      </div>
     </div>
   </div>
 </footer>
 <script>
-function toggleMobileMenu() {
-  var m = document.getElementById('mobileMenu'), b = document.querySelector('.hamburger-btn');
-  var open = m.classList.toggle('open'); b.classList.toggle('open', open);
-  b.setAttribute('aria-expanded', open ? 'true' : 'false'); document.body.style.overflow = open ? 'hidden' : '';
-}
 function copyBadgeCode(btn) {
-  var el = document.getElementById('badge-html-code'); if (!el) return;
-  var code = el.textContent;
-  var done = function () { btn.textContent = '✓ Gekopieerd'; btn.classList.add('copied'); setTimeout(function () { btn.textContent = 'Kopieer'; btn.classList.remove('copied'); }, 2000); };
-  if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(code).then(done).catch(function () {}); }
-  else { var r = document.createRange(); r.selectNode(el); var s = window.getSelection(); s.removeAllRanges(); s.addRange(r); document.execCommand('copy'); s.removeAllRanges(); done(); }
+  const code = document.getElementById('badge-html-code').textContent;
+  navigator.clipboard.writeText(code).then(() => {
+    btn.textContent = '✓ Gekopieerd';
+    btn.classList.add('copied');
+    setTimeout(() => { btn.textContent = 'Kopieer'; btn.classList.remove('copied'); }, 2000);
+  }).catch(() => {
+    const range = document.createRange();
+    range.selectNode(document.getElementById('badge-html-code'));
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(range);
+    document.execCommand('copy');
+    window.getSelection().removeAllRanges();
+    btn.textContent = '✓ Gekopieerd';
+    setTimeout(() => btn.textContent = 'Kopieer', 2000);
+  });
 }
 </script>
-
 </body>
 </html>

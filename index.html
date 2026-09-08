@@ -4844,43 +4844,6 @@ body.has-compare-bar { padding-bottom: 90px; }
           </div>
         </aside>
       </div>
-            <div class="detail-section" id="dBadgeSection" style="margin-top:32px; background:linear-gradient(135deg,#ECFDF5,#FFFFFF); border:2px solid #10b981; border-radius:16px; padding:24px;">
-              <div style="display:flex; gap:14px; align-items:flex-start; margin-bottom:20px;">
-                <span style="font-size:36px; line-height:1;">🏅</span>
-                <div>
-                  <h3 style="margin:0;">Gratis: badge voor uw website</h3>
-                  <p style="margin:4px 0 0; color:#6b7280; font-size:14px;">Toon aan uw bezoekers dat u vermeld staat op Dierenkliniek.nl. Bewezen manier om vertrouwen te bouwen én meer bezoekers te trekken.</p>
-                </div>
-              </div>
-              <style>@media (max-width:640px){ #dBadgeSection .dbadge-grid{ grid-template-columns:1fr !important; } }</style>
-              <div class="dbadge-grid" style="display:grid; grid-template-columns:minmax(0,220px) 1fr; gap:28px; align-items:start;">
-                <div style="text-align:center;">
-                  <img id="dBadgeImg" src="" alt="Uw persoonlijke partner-badge" width="200" height="200" style="max-width:200px; height:auto; border-radius:12px; box-shadow:0 4px 12px rgba(0,161,228,0.2);" onerror="this.closest('#dBadgeSection').style.display='none'">
-                  <p style="font-size:13px; color:#6b7280; margin-top:10px; font-style:italic;">Uw persoonlijke badge met uw klinieknaam erop</p>
-                </div>
-                <div>
-                  <h4 style="font-size:15px; margin:0 0 6px;">📥 Download alles in één ZIP</h4>
-                  <p style="font-size:13px; color:#6b7280; margin:0 0 12px;">Bevat 4 badge-varianten (SVG + PNG) en een handleiding met uw kliniek-URL al ingevuld.</p>
-                  <a id="dBadgeZip" href="#" download class="btn btn-block" style="background:#10b981; color:white; border-color:#10b981;">⬇ Download ZIP</a>
-                  <p style="text-align:center; color:#9ca3af; font-size:13px; margin:16px 0;">of</p>
-                  <h4 style="font-size:15px; margin:0 0 6px;">📋 Kopieer HTML-code direct</h4>
-                  <p style="font-size:13px; color:#6b7280; margin:0 0 8px;">Plak deze code in uw website (footer, contactpagina, sidebar):</p>
-                  <div style="position:relative; background:#0a1628; color:#e5e7eb; border-radius:10px; padding:14px 90px 14px 14px; font-family:ui-monospace,Menlo,Consolas,monospace; font-size:12px; line-height:1.5; overflow-x:auto;">
-                    <button type="button" onclick="copySpaBadgeCode(this)" style="position:absolute; top:10px; right:10px; background:var(--dk-blue,#00A1E4); color:white; border:0; border-radius:6px; padding:5px 10px; font-size:12px; font-weight:600; cursor:pointer;">Kopieer</button>
-                    <pre id="dBadgeCode" style="margin:0; white-space:pre-wrap; word-break:break-all;"></pre>
-                  </div>
-                  <details style="margin-top:16px; border-top:1px solid #d1fae5; padding-top:12px;">
-                    <summary style="cursor:pointer; font-weight:600; color:#059669;">💬 Hulp nodig bij plaatsen?</summary>
-                    <div style="padding:12px 0; font-size:14px;">
-                      <p><strong>Voor WordPress:</strong> ga naar de pagina waar u de badge wilt tonen, klik op + om een blok toe te voegen, kies "Custom HTML" en plak de gekopieerde code.</p>
-                      <p><strong>Voor Wix / Squarespace / Jimdo:</strong> voeg een "Embed HTML"-widget toe en plak de code.</p>
-                      <p><strong>Uw webbouwer regelt uw site?</strong> Download de ZIP en stuur die door met de vraag de badge in de footer of sidebar te plaatsen.</p>
-                      <p><strong>Volledige instructies</strong> staan op <a href="/badge">de algemene badge-pagina</a>.</p>
-                    </div>
-                  </details>
-                </div>
-              </div>
-            </div>
     </div>
   </section>
 </div>
@@ -6082,7 +6045,7 @@ function renderClinicResultCard(c, withDistance) {
                   : c.tier === 'plus' ? '<span class="tier-badge tier-plus">Plus</span>'
                   : '';
   return `
-    <div class="result-card tier-${c.tier}" onclick="showClinic(${c.id})">
+    <div class="result-card tier-${c.tier}" onclick="window.location.href='/'+clinicSlug(c);" style="cursor:pointer;">
       <div class="result-thumb">
         <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><circle cx="11" cy="4" r="2"/><circle cx="18" cy="8" r="2"/><circle cx="20" cy="16" r="2"/><circle cx="4" cy="11" r="2"/><path d="M8 22c0-3 2-5 4-5s4 2 4 5-2 4-4 4-4-1-4-4z"/></svg>
       </div>
@@ -6097,7 +6060,7 @@ function renderClinicResultCard(c, withDistance) {
         </div>
       </div>
       <div class="result-actions">
-        <button class="btn btn-primary btn-sm" onclick="event.stopPropagation(); showClinic(${c.id})">Bekijk profiel →</button>
+        <a class="btn btn-primary btn-sm" href="/${clinicSlug(c)}" onclick="event.stopPropagation();" style="text-decoration:none;">Bekijk profiel →</a>
         ${showContact && c.phone ? `<a href="tel:${c.phone.replace(/\s|-/g,'')}" class="btn btn-outline btn-sm" onclick="event.stopPropagation()" style="margin-top:6px;">📞 Bellen</a>` : ''}
       </div>
     </div>
@@ -6139,7 +6102,7 @@ function renderSpoedClinics(originLatLng) {
       const phoneClean = c.phone ? c.phone.replace(/\s|-/g,'') : '';
       const distLabel = c._dist < 10 ? `${c._dist.toFixed(1)} km` : `${Math.round(c._dist)} km`;
       const gmapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(c.name + ', ' + c.address + ', ' + c.postcode + ' ' + c.city)}`;
-      html += `<div class="clinic-row" onclick="showClinic(${c.id})">
+      html += `<div class="clinic-row" onclick="window.location.href='/'+clinicSlug(c);" style="cursor:pointer;">
         <div class="clinic-row-info">
           <div class="name"><span class="distance-pill">${distLabel}</span>${c.name}</div>
           <div class="meta">${c.address}, ${c.city}</div>
@@ -6171,7 +6134,7 @@ function renderSpoedClinics(originLatLng) {
     spoedKlin.sort((a,b) => a.name.localeCompare(b.name, 'nl')).forEach(c => {
       const phoneClean = c.phone ? c.phone.replace(/\s|-/g,'') : '';
       const gmapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(c.name + ', ' + c.address + ', ' + c.postcode + ' ' + c.city)}`;
-      html += `<div class="clinic-row" onclick="showClinic(${c.id})">
+      html += `<div class="clinic-row" onclick="window.location.href='/'+clinicSlug(c);" style="cursor:pointer;">
         <div class="clinic-row-info">
           <div class="name">${c.name}</div>
           <div class="meta">${c.address}, ${c.city}</div>
@@ -6281,7 +6244,7 @@ function renderFeatured() {
   const featured = [...tops.slice(0, 4), ...pluses.slice(0, 4)];
   const grid = document.getElementById('featuredGrid');
   grid.innerHTML = featured.map(c => `
-    <div class="clinic-card tier-${c.tier}" onclick="showClinic(${c.id})">
+    <div class="clinic-card tier-${c.tier}" onclick="window.location.href='/'+clinicSlug(c);" style="cursor:pointer;">
       <div class="clinic-card-img">
         <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><circle cx="11" cy="4" r="2"/><circle cx="18" cy="8" r="2"/><circle cx="20" cy="16" r="2"/><circle cx="4" cy="11" r="2"/><path d="M8 22c0-3 2-5 4-5s4 2 4 5-2 4-4 4-4-1-4-4z"/></svg>
         ${c.tier === 'top' ? '<span class="clinic-badge" style="background:linear-gradient(135deg,#FFD93D,#FFB800);color:#6B4F00;">⭐ Topvermelding</span>' : ''}
@@ -6536,7 +6499,7 @@ function renderSearchResults() {
                     : c.tier === 'plus' ? '<span class="tier-badge tier-plus">Plus</span>'
                     : '';
     return `
-    <div class="result-card tier-${c.tier}" onclick="showClinic(${c.id})">
+    <div class="result-card tier-${c.tier}" onclick="window.location.href='/'+clinicSlug(c);" style="cursor:pointer;">
       <div class="result-thumb">
         <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><circle cx="11" cy="4" r="2"/><circle cx="18" cy="8" r="2"/><circle cx="20" cy="16" r="2"/><circle cx="4" cy="11" r="2"/><path d="M8 22c0-3 2-5 4-5s4 2 4 5-2 4-4 4-4-1-4-4z"/></svg>
       </div>
@@ -6553,7 +6516,7 @@ function renderSearchResults() {
         
       </div>
       <div class="result-actions">
-        <button class="btn btn-primary btn-sm" onclick="event.stopPropagation(); showClinic(${c.id})">Bekijk profiel →</button>
+        <a class="btn btn-primary btn-sm" href="/${clinicSlug(c)}" onclick="event.stopPropagation();" style="text-decoration:none;">Bekijk profiel →</a>
         ${showContact && c.phone ? `<a href="tel:${c.phone.replace(/\s|-/g,'')}" class="btn btn-outline btn-sm" onclick="event.stopPropagation()" style="margin-top:6px;">📞 Bellen</a>` : ''}
       </div>
     </div>
@@ -6785,21 +6748,6 @@ function showClinic(id) {
     } else {
       btwRow.style.display = 'none';
     }
-  }
-
-  // Gepersonaliseerde badge-sectie (zelfde bestanden als de statische kliniekpagina's)
-  const badgeSec = document.getElementById('dBadgeSection');
-  if (badgeSec) {
-    const slug = clinicSlug(c);
-    const pageUrl = `https://dierenkliniek.nl/${slug}`;
-    const pngUrl = `https://dierenkliniek.nl/badges/${slug}-partner.png`;
-    badgeSec.style.display = '';
-    document.getElementById('dBadgeImg').src = `/badges/${slug}-partner.svg`;
-    const zipBtn = document.getElementById('dBadgeZip');
-    zipBtn.href = `/badges/${slug}.zip`;
-    zipBtn.textContent = `⬇ Download ZIP (${c.name})`;
-    document.getElementById('dBadgeCode').textContent =
-      `<a href="${pageUrl}" target="_blank" title="Partner van Dierenkliniek.nl" rel="noopener"><img src="${pngUrl}" alt="Partner van Dierenkliniek.nl — ${c.name}" width="200" height="200"></a>`;
   }
 
   // Google Reviews link — altijd tonen (was: alleen Basic+)
@@ -7388,13 +7336,6 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 
-
-function copySpaBadgeCode(btn) {
-  const code = document.getElementById('dBadgeCode').textContent;
-  const done = () => { const t = btn.textContent; btn.textContent = '✓ Gekopieerd'; setTimeout(() => btn.textContent = t, 2000); };
-  if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(code).then(done).catch(() => {}); }
-  else { const ta = document.createElement('textarea'); ta.value = code; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); ta.remove(); done(); }
-}
 
 // ============ URL ROUTING ============
 // Maakt unieke leesbare URLs per kliniek (slug-based) en per view.
