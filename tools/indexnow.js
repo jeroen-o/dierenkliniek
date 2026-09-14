@@ -12,11 +12,23 @@ const KEY = (fs.readdirSync(path.join(__dirname, '..'))
 if (!KEY) { console.error('Geen IndexNow-sleutelbestand gevonden in de repo-root.'); process.exit(1); }
 
 const ENDPOINTS = [
-  'https://api.indexnow.org/IndexNow',
+  'https://api.indexnow.org/indexnow',
   'https://www.bing.com/indexnow',
-  'https://search.seznam.cz/IndexNow',
+  'https://search.seznam.cz/indexnow',
   'https://yandex.com/indexnow'
 ];
+
+// Betekenis van de statuscodes volgens indexnow.org, zodat een mislukte run
+// zichzelf verklaart in het logboek van de workflow.
+const UITLEG = {
+  200: 'aangenomen',
+  202: 'aangenomen, sleutel wordt nog geverifieerd',
+  400: 'ongeldig verzoek',
+  403: 'sleutel afgewezen: het bestand op keyLocation is niet bereikbaar of bevat een andere sleutel',
+  404: 'endpoint bestaat niet meer of de sleutel staat niet op de opgegeven plek',
+  422: "URL's horen niet bij dit domein, of de sleutel klopt niet",
+  429: 'te veel verzoeken'
+};
 
 const args = process.argv.slice(2);
 let urls = args.length
@@ -40,7 +52,13 @@ for (let i = 0; i < urls.length; i += CHUNK) chunks.push(urls.slice(i, i + CHUNK
           headers: { 'Content-Type': 'application/json; charset=utf-8' },
           body: JSON.stringify(body)
         });
-        console.log(`${endpoint} batch ${i + 1}/${chunks.length}: HTTP ${res.status}`);
+        const uitleg = UITLEG[res.status] ? ' — ' + UITLEG[res.status] : '';
+        let extra = '';
+        if (!res.ok) {
+          const tekst = await res.text().catch(() => '');
+          if (tekst.trim()) extra = '\n    antwoord: ' + tekst.trim().slice(0, 200);
+        }
+        console.log(`${endpoint} batch ${i + 1}/${chunks.length}: HTTP ${res.status}${uitleg}${extra}`);
       } catch (e) {
         console.log(`${endpoint} batch ${i + 1}/${chunks.length}: mislukt — ${e.message}`);
       }
