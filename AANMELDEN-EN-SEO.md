@@ -115,6 +115,80 @@ directe aanwijzing welke pagina inhoudelijk tekortschiet.
 
 ---
 
+## De twee sleutels die de automatisering aanzetten
+
+In `tools/` staat werkende code die met Google Search Console en Bing praat. Die
+code doet niets tot jij twee secrets plaatst. Secrets zet je in GitHub onder
+Settings, Secrets and variables, Actions, New repository secret. Ze komen nooit
+in de code terecht en zijn na het opslaan ook voor jou niet meer leesbaar.
+
+### GOOGLE_SERVICE_ACCOUNT_JSON
+
+Een service-account is een robotaccount van Google. Je geeft dat account
+leesrechten in Search Console; jouw eigen inloggegevens blijven buiten beeld.
+
+1. Ga naar console.cloud.google.com en maak een project, bijvoorbeeld
+   "dierenkliniek-seo".
+2. Zet de Search Console API aan: APIs & Services, Library, zoek op
+   "Google Search Console API", klik Enable.
+3. Maak een service-account: IAM & Admin, Service Accounts, Create. Een naam
+   volstaat, rollen kun je overslaan.
+4. Open het service-account, tabblad Keys, Add key, Create new key, type JSON.
+   Er wordt een bestand gedownload.
+5. Kopieer het e-mailadres van het service-account. Dat eindigt op
+   `.iam.gserviceaccount.com`.
+6. Ga naar Search Console, Instellingen, Gebruikers en machtigingen, Gebruiker
+   toevoegen. Plak dat e-mailadres. Kies **Eigenaar** als je wilt dat de
+   automatisering ook sitemaps mag indienen; **Volledig** volstaat voor alleen
+   rapportage.
+7. Plak de **volledige inhoud** van het JSON-bestand als secret
+   `GOOGLE_SERVICE_ACCOUNT_JSON`. Verwijder daarna het gedownloade bestand van
+   je computer.
+
+Testen: Actions, Zoekprestaties ophalen, Run workflow.
+
+### BING_WEBMASTER_API_KEY
+
+1. Ga naar bing.com/webmasters, Instellingen, API-toegang, API-sleutel.
+2. Plak de sleutel als secret `BING_WEBMASTER_API_KEY`.
+
+Zonder deze sleutel slaat de workflow het Bing-gedeelte over zonder te falen.
+IndexNow bereikt Bing sowieso al, dus dit is aanvullend, geen vervanging.
+
+### Wat de automatisering daarna doet
+
+Elke maandagochtend, en verder op elk moment dat jij de workflow handmatig
+start:
+
+| Stap | Resultaat |
+| --- | --- |
+| Sitemaps opnieuw indienen | Google en Bing halen de actuele 1.098 URL's op |
+| Indexeringsstatus kernpagina's | Zichtbaar in het logboek van de workflow |
+| Prestatierapport | JSON in `rapporten/`, gesplitst per sectie |
+
+Het rapport splitst klikken en vertoningen uit naar kennisbank, stadpagina's,
+provinciepagina's, kliniekpagina's en spoedhulp. Zo zie je welk deel van de
+nieuwe structuur aanslaat en welk deel aandacht nodig heeft.
+
+### Handmatig draaien
+
+```bash
+export GOOGLE_SERVICE_ACCOUNT_JSON="$(cat ~/Downloads/sleutel.json)"
+node tools/search-console.js sitemaps    # status van de ingediende sitemaps
+node tools/search-console.js indienen    # sitemaps opnieuw indienen
+node tools/search-console.js rapport     # prestatierapport wegschrijven
+node tools/search-console.js inspect     # indexeringsstatus kernpagina's
+```
+
+### Wat een API niet kan
+
+Handmatige indexering aanvragen, de knop "Verzoek om indexering" in Search
+Console, bestaat alleen in de interface. Die vier verzoeken uit fase 1 moet je
+dus zelf doen. Hetzelfde geldt voor domeinverificatie en voor het aanmaken van
+een Google Bedrijfsprofiel.
+
+---
+
 ## Onderhoud
 
 De datasets staan in `index.html` (`CLINICS`, `KB_ARTICLES`, `GLOSSARIUM`).
