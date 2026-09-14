@@ -1,0 +1,55 @@
+name: IndexNow ping
+
+# Meldt wijzigingen direct aan bij Bing, Yandex, Seznam, Naver en Yep.
+# Google ondersteunt IndexNow niet; die crawlt via de sitemap in robots.txt.
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**.html'
+      - 'sitemap*.xml'
+  workflow_dispatch:
+    inputs:
+      all:
+        description: "Alle URL's opnieuw aanmelden in plaats van alleen gewijzigde"
+        type: boolean
+        default: false
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Bepaal gewijzigde URL's
+        id: urls
+        run: |
+          if [ "${{ github.event.inputs.all }}" = "true" ]; then
+            echo "mode=all" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git diff --name-only HEAD^ HEAD -- '*.html' > changed.txt || true
+          node -e "
+            const fs=require('fs');
+            const files=fs.readFileSync('changed.txt','utf8').split('\n').filter(Boolean);
+            const urls=files.map(f=>'/'+f.replace(/index\.html\$/,'').replace(/\.html\$/,''))
+              .map(u=>u==='/'?'/':u.replace(/\/\$/,''));
+            fs.writeFileSync('urls.txt', urls.join(' '));
+            console.log(urls.length+\" gewijzigde URL's\");
+          "
+          echo "mode=changed" >> "$GITHUB_OUTPUT"
+
+      - name: Aanmelden bij IndexNow
+        run: |
+          if [ "${{ steps.urls.outputs.mode }}" = "all" ]; then
+            node tools/indexnow.js
+          else
+            URLS=$(cat urls.txt)
+            if [ -n "$URLS" ]; then node tools/indexnow.js $URLS; else echo "Niets gewijzigd"; fi
+          fi

@@ -3,6 +3,9 @@
 
 User-agent: *
 Allow: /
+# Tracking-parameters leveren alleen duplicaten op
+Disallow: /*?utm_
+Disallow: /*&utm_
 
 # Zoekmachines
 User-agent: Googlebot
@@ -70,8 +73,41 @@ Allow: /
 User-agent: YouBot
 Allow: /
 
+# Extra AI- en antwoordmachines
+User-agent: Google-CloudVertexBot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+User-agent: Timpibot
+Allow: /
+
+User-agent: Webzio-Extended
+Allow: /
+
+User-agent: PetalBot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+User-agent: Seznam
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Structured content voor AI-assistenten
+# https://dierenkliniek.nl/llms.txt
+# https://dierenkliniek.nl/llms-full.txt
+
 # Sitemap
 Sitemap: https://dierenkliniek.nl/sitemap.xml
 Sitemap: https://dierenkliniek.nl/sitemap-hoofdpaginas.xml
 Sitemap: https://dierenkliniek.nl/sitemap-artikelen.xml
+Sitemap: https://dierenkliniek.nl/sitemap-steden.xml
 Sitemap: https://dierenkliniek.nl/sitemap-klinieken.xml

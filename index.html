@@ -56,9 +56,16 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
-<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+<link rel="preconnect" href="https://unpkg.com" crossorigin>
+<!-- Leaflet-CSS niet render-blocking: de kaart verschijnt pas na interactie -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" media="print" onload="this.media='all'">
+<noscript>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
+</noscript>
 
 <style>
 :root {
@@ -5168,12 +5175,12 @@ body.has-compare-bar { padding-bottom: 90px; }
         <h5>Voor huisdiereigenaren</h5>
         <ul>
           <li><a href="/" onclick="navigate('home');return false;">Vind een kliniek</a></li>
-          <li><a href="/?view=spoedhulp" onclick="showSpoedhulp();return false;">Spoedhulp 24/7</a></li>
+          <li><a href="/spoedhulp">Spoedhulp 24/7</a></li>
           <li><a href="/specialismen">Specialismen</a></li>
-          <li><a href="/?view=kennisbank" onclick="navigate('kennisbank');return false;">Kennisbank</a></li>
+          <li><a href="/kennisbank">Kennisbank</a></li>
           <li><a href="/?view=vaccinatieplanner" onclick="navigate('vaccinatieplanner');return false;">Vaccinatie-planner</a></li>
           <li><a href="/?view=beslisboom" onclick="navigate('beslisboom');return false;">Beslisboom spoed</a></li>
-          <li><a href="/?view=glossarium" onclick="navigate('glossarium');return false;">Glossarium</a></li>
+          <li><a href="/glossarium">Glossarium</a></li>
         </ul>
       </div>
       <div>
@@ -5195,7 +5202,7 @@ body.has-compare-bar { padding-bottom: 90px; }
           <li><a href="/vermeldingsbeleid">Vermeldingsbeleid</a></li>
           <li><a href="/statistieken">📊 Statistieken</a></li>
           <li><a href="/design">🎨 Logo's &amp; huisstijl</a></li>
-          <li><a href="/?view=provincies" onclick="showProvincesOverview();return false;">Provincies</a></li>
+          <li><a href="/provincies">Provincies</a></li>
           <li><a href="/?view=favorieten" onclick="showFavorites();return false;">❤️ Mijn favorieten</a></li>
           <li><a href="/?view=contact" onclick="navigate('contact');return false;">Contact</a></li>
           <li><a href="/?view=english" onclick="navigate('english');return false;">🇬🇧 English</a></li>
@@ -5213,8 +5220,8 @@ body.has-compare-bar { padding-bottom: 90px; }
   </div>
 </footer>
 
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script defer src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 <script>
 // ============ DATA ============
 const CLINICS = [
@@ -7387,11 +7394,32 @@ function findClinicBySlug(slug) {
   return null;
 }
 
+// SEO: canonical-tag meelopen met de client-side route, zodat zoekmachines
+// altijd naar de statische, indexeerbare variant van een pagina verwijzen.
+function setCanonical(pathOrUrl) {
+  try {
+    let el = document.querySelector('link[rel="canonical"]');
+    if (!el) {
+      el = document.createElement('link');
+      el.setAttribute('rel', 'canonical');
+      document.head.appendChild(el);
+    }
+    const url = pathOrUrl.startsWith('http')
+      ? pathOrUrl
+      : 'https://dierenkliniek.nl' + (pathOrUrl.startsWith('/') ? pathOrUrl : '/' + pathOrUrl);
+    el.setAttribute('href', url);
+  } catch (e) { /* canonical is best-effort */ }
+}
+
 function updateUrl(view, clinicOrSlug) {
   if (!window.history || !window.history.pushState) return;
   // Mapping: sommige views hebben een schone URL i.p.v. ?view=X
   const CLEAN_URLS = {
     'business': '/pakketten',
+    'spoedhulp': '/spoedhulp',
+    'kennisbank': '/kennisbank',
+    'glossarium': '/glossarium',
+    'provincies': '/provincies',
   };
   let newUrl;
   if (clinicOrSlug !== undefined && clinicOrSlug !== null) {
@@ -7411,6 +7439,7 @@ function updateUrl(view, clinicOrSlug) {
   } else {
     newUrl = '/';
   }
+  setCanonical(newUrl);
   if (newUrl !== window.location.pathname + window.location.search) {
     try {
       window.history.pushState({ view, clinicOrSlug }, '', newUrl);
@@ -7434,6 +7463,10 @@ function routeFromUrl() {
     // Schone URLs mapping (bv. /pakketten → view=business)
     const CLEAN_TO_VIEW = {
       'pakketten': 'business',
+      'spoedhulp': 'spoedhulp',
+      'kennisbank': 'kennisbank',
+      'glossarium': 'glossarium',
+      'provincies': 'provincies',
     };
     if (CLEAN_TO_VIEW[cleanPath]) {
       navigate(CLEAN_TO_VIEW[cleanPath]);
@@ -11218,6 +11251,7 @@ function kbShowArticle(idOrSlug) {
   }
   if (!a) return;
   navigate('kb-article');
+  setCanonical('/kennisbank/' + articleSlug(a));
   const cat = KB_CATEGORIES.find(c => c.slug === a.category);
   const animal = a.animal ? KB_ANIMALS.find(x => x.slug === a.animal) : null;
   document.getElementById('kbArtCrumb').textContent = a.title;

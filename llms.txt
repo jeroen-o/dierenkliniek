@@ -1,38 +1,172 @@
 # Dierenkliniek.nl
 
-> Dierenkliniek.nl is het onafhankelijke overzicht van alle 605 dierenklinieken in Nederland. We helpen huisdiereigenaren om snel een geschikte dierenarts in hun buurt te vinden — geen ketens die voorrang kopen, geen verborgen advertenties.
+> Dierenkliniek.nl is het onafhankelijke overzicht van alle 605 dierenklinieken in Nederland. Huisdiereigenaren vinden er een dierenarts op postcode, plaats of provincie, plus 109 klinieken met 24/7 spoedhulp en een kennisbank van 64 artikelen. Geen betaalde voorrang in de zoekresultaten.
 
-Het platform biedt zoekfunctionaliteit op postcode, een spoedhulp-pagina voor 24/7 hulp, en een uitgebreide kennisbank met 64 artikelen over dierengezondheid, preventie, voeding en eerste hulp. Klinieken kunnen zich gratis laten vermelden of kiezen voor een uitgebreid pakket.
+Laatst bijgewerkt: 2026-09-14. Exploitant: Dierenkliniek.nl, Darthuizerberg 1, 3825 BK Amersfoort, info@dierenkliniek.nl, 06-59115265.
 
-## Belangrijkste paginas
+Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaScript.
 
-- [Homepagina — vind een kliniek op postcode](https://dierenkliniek.nl/): Hoofdpagina met postcode-zoeker en uitleg
-- [Spoedhulp 24/7](https://dierenkliniek.nl/?view=spoedhulp): Klinieken die buiten openingstijden bereikbaar zijn, gerangschikt per provincie
-- [Kennisbank](https://dierenkliniek.nl/?view=kennisbank): 64 artikelen over dierengezondheid, gerangschikt op categorie en diersoort
-- [Over ons](https://dierenkliniek.nl/?view=about): Missie, onafhankelijkheid en achtergrond
-- [Onze partners](https://dierenkliniek.nl/?view=partners): 24 partner-organisaties in dierenwelzijn
+## Kernpagina's
 
-## Voor klinieken
-
-- [Aanmelden](https://dierenkliniek.nl/?view=aanmelden): Volledig formulier voor klinieken om gegevens compleet te maken
-- [Pakketten](https://dierenkliniek.nl/?view=business): Gratis (basisvermelding), Basis (€180/jr), Plus (€395/jr), Premium (€795+/jr)
-- [Eigen website](https://dierenkliniek.nl/?partner=dierenklinieken): Service voor klinieken die een professionele website willen
-
-## Tools en interactieve content
-
-- [Vaccinatie-planner](https://dierenkliniek.nl/?view=vaccinatieplanner): Geboortedatum invoeren, krijg planning voor alle prikken
-- [Beslisboom 'moet ik naar de dierenarts?'](https://dierenkliniek.nl/?view=beslisboom): Hulp bij inschatting van klachten
-- [Veterinair glossarium](https://dierenkliniek.nl/?view=glossarium): 40 medische termen begrijpelijk uitgelegd
+- [Dierenarts zoeken op postcode](https://dierenkliniek.nl/): startpunt met postcodezoeker en kaart van alle 605 klinieken
+- [Spoedhulp 24/7](https://dierenkliniek.nl/spoedhulp): 109 klinieken met een 24-uurs spoeddienst, per provincie, met telefoonnummer
+- [Kennisbank](https://dierenkliniek.nl/kennisbank): 64 artikelen over gezondheid, preventie, voeding, gedrag en spoed
+- [Veterinair glossarium](https://dierenkliniek.nl/glossarium): 40 medische termen in gewone taal
+- [Alle provincies](https://dierenkliniek.nl/provincies): klinieken gegroepeerd per provincie
+- [Specialismen](https://dierenkliniek.nl/specialismen): klinieken per aandachtsgebied
+- [Vermeldingsbeleid](https://dierenkliniek.nl/vermeldingsbeleid): hoe vermeldingen tot stand komen en hoe onafhankelijkheid geborgd is
+- [Statistieken](https://dierenkliniek.nl/statistieken): cijfers over dierenklinieken in Nederland
 
 ## Provincies
 
-Klinieken zijn doorzoekbaar per provincie: Noord-Holland, Zuid-Holland, Utrecht, Gelderland, Noord-Brabant, Limburg, Zeeland, Overijssel, Drenthe, Friesland, Groningen, Flevoland.
+- [Dierenklinieken in Zuid-Holland](https://dierenkliniek.nl/dierenklinieken-zuid-holland): 112 klinieken, waarvan 21 met 24/7 spoedhulp
+- [Dierenklinieken in Noord-Brabant](https://dierenkliniek.nl/dierenklinieken-noord-brabant): 104 klinieken, waarvan 21 met 24/7 spoedhulp
+- [Dierenklinieken in Gelderland](https://dierenkliniek.nl/dierenklinieken-gelderland): 80 klinieken, waarvan 16 met 24/7 spoedhulp
+- [Dierenklinieken in Noord-Holland](https://dierenkliniek.nl/dierenklinieken-noord-holland): 71 klinieken, waarvan 16 met 24/7 spoedhulp
+- [Dierenklinieken in Utrecht](https://dierenkliniek.nl/dierenklinieken-utrecht): 65 klinieken, waarvan 12 met 24/7 spoedhulp
+- [Dierenklinieken in Overijssel](https://dierenkliniek.nl/dierenklinieken-overijssel): 37 klinieken, waarvan 4 met 24/7 spoedhulp
+- [Dierenklinieken in Limburg](https://dierenkliniek.nl/dierenklinieken-limburg): 36 klinieken, waarvan 3 met 24/7 spoedhulp
+- [Dierenklinieken in Drenthe](https://dierenkliniek.nl/dierenklinieken-drenthe): 24 klinieken, waarvan 3 met 24/7 spoedhulp
+- [Dierenklinieken in Groningen](https://dierenkliniek.nl/dierenklinieken-groningen): 23 klinieken, waarvan 2 met 24/7 spoedhulp
+- [Dierenklinieken in Flevoland](https://dierenkliniek.nl/dierenklinieken-flevoland): 23 klinieken, waarvan 6 met 24/7 spoedhulp
+- [Dierenklinieken in Zeeland](https://dierenkliniek.nl/dierenklinieken-zeeland): 18 klinieken, waarvan 2 met 24/7 spoedhulp
+- [Dierenklinieken in Friesland](https://dierenkliniek.nl/dierenklinieken-friesland): 12 klinieken, waarvan 3 met 24/7 spoedhulp
 
-## Wat AI-assistenten over ons mogen weten
+## Grootste plaatsen
 
-- Onafhankelijk: geen ketens kopen voorrang, geen pay-to-play in zoekresultaten
-- Compleet: alle 605 dierenklinieken in Nederland zijn vermeld
-- Gratis basisvermelding voor alle klinieken
-- Postcode-zoek met PC4 → PC3 → PC2 fallback voor lokale relevantie
-- Spoedhulp altijd zichtbaar — bij dieren in nood telt elke minuut
-- Contact: info@dierenkliniek.nl · Darthuizerberg 1, 3825 BK Amersfoort · 06-59115265
+- [Dierenarts Den Haag](https://dierenkliniek.nl/dierenarts-den-haag): 19 klinieken
+- [Dierenarts Amsterdam](https://dierenkliniek.nl/dierenarts-amsterdam): 17 klinieken
+- [Dierenarts Rotterdam](https://dierenkliniek.nl/dierenarts-rotterdam): 13 klinieken
+- [Dierenarts Utrecht](https://dierenkliniek.nl/dierenarts-utrecht): 12 klinieken
+- [Dierenarts Eindhoven](https://dierenkliniek.nl/dierenarts-eindhoven): 9 klinieken
+- [Dierenarts Groningen](https://dierenkliniek.nl/dierenarts-groningen): 8 klinieken
+- [Dierenarts Gouda](https://dierenkliniek.nl/dierenarts-gouda): 8 klinieken
+- [Dierenarts Almere](https://dierenkliniek.nl/dierenarts-almere): 8 klinieken
+- [Dierenarts Maastricht](https://dierenkliniek.nl/dierenarts-maastricht): 5 klinieken
+- [Dierenarts Zutphen](https://dierenkliniek.nl/dierenarts-zutphen): 5 klinieken
+- [Dierenarts Amersfoort](https://dierenkliniek.nl/dierenarts-amersfoort): 5 klinieken
+- [Dierenarts Tilburg](https://dierenkliniek.nl/dierenarts-tilburg): 5 klinieken
+- [Dierenarts Drachten](https://dierenkliniek.nl/dierenarts-drachten): 4 klinieken
+- [Dierenarts Doetinchem](https://dierenkliniek.nl/dierenarts-doetinchem): 4 klinieken
+- [Dierenarts Arnhem](https://dierenkliniek.nl/dierenarts-arnhem): 4 klinieken
+- [Dierenarts Hilversum](https://dierenkliniek.nl/dierenarts-hilversum): 4 klinieken
+- [Dierenarts Den Helder](https://dierenkliniek.nl/dierenarts-den-helder): 4 klinieken
+- [Dierenarts Lelystad](https://dierenkliniek.nl/dierenarts-lelystad): 4 klinieken
+- [Dierenarts Almelo](https://dierenkliniek.nl/dierenarts-almelo): 4 klinieken
+- [Dierenarts Oosterhout](https://dierenkliniek.nl/dierenarts-oosterhout): 4 klinieken
+- [Dierenarts Nijmegen](https://dierenkliniek.nl/dierenarts-nijmegen): 4 klinieken
+- [Dierenarts Breda](https://dierenkliniek.nl/dierenarts-breda): 4 klinieken
+- [Dierenarts 's-Hertogenbosch](https://dierenkliniek.nl/dierenarts-s-hertogenbosch): 4 klinieken
+- [Dierenarts Hoorn](https://dierenkliniek.nl/dierenarts-hoorn): 3 klinieken
+- [Dierenarts Delft](https://dierenkliniek.nl/dierenarts-delft): 3 klinieken
+- [Dierenarts Assen](https://dierenkliniek.nl/dierenarts-assen): 3 klinieken
+- [Dierenarts Goes](https://dierenkliniek.nl/dierenarts-goes): 3 klinieken
+- [Dierenarts Vlaardingen](https://dierenkliniek.nl/dierenarts-vlaardingen): 3 klinieken
+- [Dierenarts Zoetermeer](https://dierenkliniek.nl/dierenarts-zoetermeer): 3 klinieken
+- [Dierenarts Haarlem](https://dierenkliniek.nl/dierenarts-haarlem): 3 klinieken
+
+## Kennisbank per categorie
+
+- [Eerste hulp & spoed](https://dierenkliniek.nl/kennisbank/categorie-spoed): 8 artikelen
+- [Preventie & vaccinaties](https://dierenkliniek.nl/kennisbank/categorie-preventie): 12 artikelen
+- [Voeding & gewicht](https://dierenkliniek.nl/kennisbank/categorie-voeding): 6 artikelen
+- [Gedrag & welzijn](https://dierenkliniek.nl/kennisbank/categorie-gedrag): 4 artikelen
+- [Puppy, volwassen, senior](https://dierenkliniek.nl/kennisbank/categorie-levensfasen): 5 artikelen
+- [Praktische zaken](https://dierenkliniek.nl/kennisbank/categorie-praktisch): 29 artikelen
+
+## Kennisbank per diersoort
+
+- [Hond](https://dierenkliniek.nl/kennisbank/dier-hond): 34 artikelen
+- [Kat](https://dierenkliniek.nl/kennisbank/dier-kat): 5 artikelen
+- [Konijn](https://dierenkliniek.nl/kennisbank/dier-konijn): 2 artikelen
+- [Knaagdieren](https://dierenkliniek.nl/kennisbank/dier-knaagdier): 2 artikelen
+- [Vogels](https://dierenkliniek.nl/kennisbank/dier-vogel): 1 artikelen
+- [Reptielen](https://dierenkliniek.nl/kennisbank/dier-reptiel): 1 artikelen
+- [Paarden](https://dierenkliniek.nl/kennisbank/dier-paard): 1 artikelen
+
+## Alle artikelen
+
+- [Wanneer is iets écht een spoedgeval?](https://dierenkliniek.nl/kennisbank/wanneer-is-iets-echt-een-spoedgeval): Niet elke kwaal is een noodgeval, maar bij sommige symptomen telt elke minuut. Een praktische checklist om te beslissen of u meteen naar de dierenarts moet.
+- [Vergiftiging: deze stoffen zijn levensgevaarlijk](https://dierenkliniek.nl/kennisbank/vergiftiging-deze-stoffen-zijn-levensgevaarlijk): Chocolade, druiven, ui, paracetamol — alledaagse producten die voor uw huisdier dodelijk kunnen zijn. Wat te doen als het misgaat.
+- [Maagdraaiing bij honden: minuten tellen](https://dierenkliniek.nl/kennisbank/maagdraaiing-bij-honden-minuten-tellen): Bij sommige hondenrassen is een maagtorsie een levensbedreigende noodsituatie. Deze symptomen vraagt direct ingrijpen.
+- [Vaccinatieschema voor honden: wat krijgt uw hond wanneer?](https://dierenkliniek.nl/kennisbank/vaccinatieschema-voor-honden-wat-krijgt-uw-hond-wanneer): Hondsdolheid, parvo, kennelhoest — een overzicht van welke vaccinaties uw hond nodig heeft, wanneer en waarom.
+- [Vaccinatieschema voor katten: binnen of buiten, dat maakt uit](https://dierenkliniek.nl/kennisbank/vaccinatieschema-voor-katten-binnen-of-buiten-dat-maakt-uit): Een binnenkat heeft minder vaccinaties nodig dan een buitenkat. Hoe maakt u de juiste keuze?
+- [Vlooien herkennen, behandelen en voorkomen](https://dierenkliniek.nl/kennisbank/vlooien-herkennen-behandelen-en-voorkomen): Een goede vlooienpreventie scheelt veel jeuk en hoofdbrekens. Wat werkt echt en wat is doodzonde van uw geld?
+- [Teken bij huisdieren: bescherming en correct verwijderen](https://dierenkliniek.nl/kennisbank/teken-bij-huisdieren-bescherming-en-correct-verwijderen): Teken zijn de hele zomer actief en dragen verschillende ziekten over. Hoe beschermt u uw dier en wat doet u bij een tekenbeet?
+- [Ontwormen: hoe vaak echt nodig?](https://dierenkliniek.nl/kennisbank/ontwormen-hoe-vaak-echt-nodig): Niet elk dier hoeft elke maand ontwormd te worden. Een verstandige aanpak op basis van risico — en wanneer een ontlastingsonderzoek beter is.
+- [Een hondenvoer-etiket lezen: wat staat er écht?](https://dierenkliniek.nl/kennisbank/een-hondenvoer-etiket-lezen-wat-staat-er-echt): Marketing of werkelijke voedingswaarde? Zo doorziet u de tekst op een zak hondenvoer.
+- [Overgewicht bij huisdieren: een groeiend probleem](https://dierenkliniek.nl/kennisbank/overgewicht-bij-huisdieren-een-groeiend-probleem): Bijna de helft van de Nederlandse huisdieren heeft overgewicht. Hoe herkent u het en wat doet u eraan?
+- [Voedselallergie: hoe stel je het vast?](https://dierenkliniek.nl/kennisbank/voedselallergie-hoe-stel-je-het-vast): Aanhoudende jeuk, oorontstekingen, darmproblemen — dit zijn signalen van mogelijke voedselallergie. Een eliminatiedieet is de gouden standaard.
+- [Pijn herkennen bij stille dieren](https://dierenkliniek.nl/kennisbank/pijn-herkennen-bij-stille-dieren): Honden en vooral katten verbergen pijn vaak. Welke subtiele signalen vertellen u dat er iets mis is?
+- [Vuurwerkangst: bereid uw dier op tijd voor](https://dierenkliniek.nl/kennisbank/vuurwerkangst-bereid-uw-dier-op-tijd-voor): December is voor veel honden en katten een nachtmerrie. Wat werkt echt aan vuurwerkangst, en wat begint u beter al in oktober?
+- [Verveling bij honden: gedragsproblemen voorkomen](https://dierenkliniek.nl/kennisbank/verveling-bij-honden-gedragsproblemen-voorkomen): Slopen, blaffen, achterloos energiek — vaak geen 'slechte hond' maar een verveelde hond. Hoe beweegt u meer dan alleen lichamelijk?
+- [Puppy: de eerste maanden zijn cruciaal](https://dierenkliniek.nl/kennisbank/puppy-de-eerste-maanden-zijn-cruciaal): Wat u doet in de eerste 16 weken bepaalt voor een groot deel hoe uw hond zich als volwassene ontwikkelt. Een leidraad voor nieuwe puppyhouders.
+- [Senior huisdier: zorg voor de tweede levenshelft](https://dierenkliniek.nl/kennisbank/senior-huisdier-zorg-voor-de-tweede-levenshelft): Vanaf welke leeftijd is uw hond of kat 'senior'? En wat verandert er in de zorg?
+- [Afscheid nemen: euthanasie en rouw](https://dierenkliniek.nl/kennisbank/afscheid-nemen-euthanasie-en-rouw): Een van de zwaarste beslissingen die u als huisdiereigenaar maakt. Hoe weet u wanneer het tijd is, en hoe verloopt het proces?
+- [Chippen: wat moet u weten?](https://dierenkliniek.nl/kennisbank/chippen-wat-moet-u-weten): Voor honden wettelijk verplicht, voor katten verstandig. Hoe werkt chippen en wat moet u doen na verhuizing?
+- [Reizen met huisdier in Europa: wat regel je vooraf?](https://dierenkliniek.nl/kennisbank/reizen-met-huisdier-in-europa-wat-regel-je-vooraf): Een EU-paspoort, geldige rabiësvaccinatie en eventueel ontworming voor lintwormen — dit zijn de basisregels.
+- [Huisdierenverzekering: wel of niet afsluiten?](https://dierenkliniek.nl/kennisbank/huisdierenverzekering-wel-of-niet-afsluiten): Een operatie aan een knieband kost al snel €2.500 of meer. Wat dekt een verzekering, wat niet, en voor wie loont het?
+- [Heupdysplasie bij honden: herkennen en omgaan](https://dierenkliniek.nl/kennisbank/heupdysplasie-bij-honden-herkennen-en-omgaan): Een veelvoorkomend probleem bij grote rassen. Hoe ontstaat het, hoe herken je het en wat kan u doen?
+- [Nierproblemen bij oudere katten](https://dierenkliniek.nl/kennisbank/nierproblemen-bij-oudere-katten): Chronische nierinsufficiëntie is de meest voorkomende ziekte bij oudere katten. Vroege herkenning maakt jaren verschil.
+- [Een kat aan een nieuwe omgeving laten wennen](https://dierenkliniek.nl/kennisbank/een-kat-aan-een-nieuwe-omgeving-laten-wennen): Verhuizen of een kat overnemen is voor het dier vaak stressvol. Een rustige aanpak voorkomt spray-gedrag en angst.
+- [Konijnenvoer: hooi is het allerbelangrijkst](https://dierenkliniek.nl/kennisbank/konijnenvoer-hooi-is-het-allerbelangrijkst): Konijnen overleven niet zonder hooi. De meest gemaakte fout in konijnenverzorging — en hoe u het beter doet.
+- [Myxomatose en RHD: vaccineren als levensredder](https://dierenkliniek.nl/kennisbank/myxomatose-en-rhd-vaccineren-als-levensredder): Twee virusziekten die voor konijnen vrijwel altijd dodelijk zijn. Vaccinatie is voor elke konijn — ook binnenkonijnen — sterk aan te raden.
+- [Cavia: vitamine C is essentieel](https://dierenkliniek.nl/kennisbank/cavia-vitamine-c-is-essentieel): Een cavia kan, net als mensen, geen vitamine C zelf maken. Tekort leidt tot scheurbuik. Hoe voorkomt u dat?
+- [Hamster: een nachtdier vraagt geduld](https://dierenkliniek.nl/kennisbank/hamster-een-nachtdier-vraagt-geduld): Hamsters zijn schattig maar geen ideale kinderknuffeldieren. Wat verwachten en hoe verzorg je ze respectvol?
+- [Parkiet of kanarie: verschillen in verzorging](https://dierenkliniek.nl/kennisbank/parkiet-of-kanarie-verschillen-in-verzorging): Twee kleine kooivogels, twee heel andere persoonlijkheden. Welke past bij u?
+- [Reptielen en UV-licht: de meest gemiste verzorgingsfactor](https://dierenkliniek.nl/kennisbank/reptielen-en-uv-licht-de-meest-gemiste-verzorgingsfactor): Voor de meeste reptielen is goed UV-licht net zo belangrijk als voer. Wat veel beginnende eigenaren over het hoofd zien.
+- [Koliek bij paarden: een spoedgeval](https://dierenkliniek.nl/kennisbank/koliek-bij-paarden-een-spoedgeval): Buikpijn bij een paard kan binnen uren levensbedreigend worden. Hoe herkent u het en wat doet u tot de dierenarts er is?
+- [Eerste hulp bij dieren — wat te doen bij een spoedgeval](https://dierenkliniek.nl/kennisbank/eerste-hulp-bij-dieren-wat-te-doen-bij-een-spoedgeval): 
+- [Vaccinatieschema voor honden en katten — wanneer welke prik](https://dierenkliniek.nl/kennisbank/vaccinatieschema-voor-honden-en-katten-wanneer-welke-prik): 
+- [Ontwormen en vlooien — een praktisch schema](https://dierenkliniek.nl/kennisbank/ontwormen-en-vlooien-een-praktisch-schema): 
+- [Wat kost een dierenarts? Algemene richtprijzen](https://dierenkliniek.nl/kennisbank/wat-kost-een-dierenarts-algemene-richtprijzen): 
+- [Mijn dier is gechipt — waar staat het geregistreerd?](https://dierenkliniek.nl/kennisbank/mijn-dier-is-gechipt-waar-staat-het-geregistreerd): 
+- [Net een nieuw huisdier? Checklist voor de eerste maand](https://dierenkliniek.nl/kennisbank/net-een-nieuw-huisdier-checklist-voor-de-eerste-maand): 
+- [Hoe oud wordt mijn hond? Levensverwachting per grootte en ras](https://dierenkliniek.nl/kennisbank/hoe-oud-wordt-mijn-hond-levensverwachting-per-grootte-en-ras): Levensverwachting van honden verschilt sterk per grootte en ras. Kleine honden worden gemiddeld 14 jaar, reuzenrassen slechts 7-9 jaar. Wat kunt u doen om uw hond langer gezond te houden?
+- [Hoe oud wordt mijn kat? Levensverwachting en verzorging op leeftijd](https://dierenkliniek.nl/kennisbank/hoe-oud-wordt-mijn-kat-levensverwachting-en-verzorging-op-leeftijd): Huiskatten worden tegenwoordig gemiddeld 15-18 jaar, buitenkatten aanzienlijk minder. Wat beïnvloedt de levensduur van uw kat en wanneer is er sprake van 'senior'?
+- [Castreren of steriliseren hond — wat is het verschil?](https://dierenkliniek.nl/kennisbank/castreren-of-steriliseren-hond-wat-is-het-verschil): De termen worden vaak door elkaar gebruikt, maar het is niet hetzelfde. Wat is het medische verschil, welke ingreep past het beste bij uw hond en wat kost het?
+- [Wat kost een spoedvisite bij de dierenarts?](https://dierenkliniek.nl/kennisbank/wat-kost-een-spoedvisite-bij-de-dierenarts): Een spoedconsult is 1,5 tot 2x zo duur als een regulier consult, 's nachts loopt dat op tot € 300. Wat zijn de gemiddelde kosten en wanneer is spoedhulp écht nodig?
+- [Hond geeft over — wat te doen? Wanneer thuis afwachten en wanneer naar de dierenarts](https://dierenkliniek.nl/kennisbank/hond-geeft-over-wat-te-doen-wanneer-thuis-afwachten-en-wanneer-naar-de-dierenarts): Braken bij honden is meestal onschuldig, maar sommige symptomen vragen om direct handelen. Praktisch advies voor thuis behandelen en heldere alarmsignalen.
+- [Kat drinkt veel — mogelijke oorzaken en wanneer u moet ingrijpen](https://dierenkliniek.nl/kennisbank/kat-drinkt-veel-mogelijke-oorzaken-en-wanneer-u-moet-ingrijpen): Overmatige dorst bij katten (polydipsie) kan wijzen op nierziekte, diabetes of hyperthyreoïdie. Hoe herkent u het verschil tussen normaal en zorgelijk drinkgedrag?
+- [Diarree bij honden — huismiddel of dierenarts? Praktische gids](https://dierenkliniek.nl/kennisbank/diarree-bij-honden-huismiddel-of-dierenarts-praktische-gids): Milde diarree gaat meestal binnen 24-48 uur vanzelf over met de juiste aanpak. Maar wanneer is het wél urgent? Praktische tips voor thuisbehandeling en heldere alarmsignalen.
+- [Labrador Retriever — veelvoorkomende gezondheidsproblemen en preventie](https://dierenkliniek.nl/kennisbank/labrador-retriever-veelvoorkomende-gezondheidsproblemen-en-preventie): Het populairste ras in Nederland heeft ook specifieke gezondheidsrisico's: heupdysplasie, overgewicht, oorontstekingen en meer. Wat kunt u doen om uw Labrador gezond te houden?
+- [Chihuahua — veelvoorkomende gezondheidsproblemen en verzorging](https://dierenkliniek.nl/kennisbank/chihuahua-veelvoorkomende-gezondheidsproblemen-en-verzorging): De kleinste hondenras ter wereld is populair in Nederland vanwege zijn compacte formaat en zelfbewuste karakter. Ondanks zijn geringe grootte heeft de Chihuahua specifieke gezondheidsuitdagingen waar u als eigenaar rekening mee moet houden.
+- [Duitse Herder — veelvoorkomende gezondheidsproblemen en preventie](https://dierenkliniek.nl/kennisbank/duitse-herder-veelvoorkomende-gezondheidsproblemen-en-preventie): De Duitse Herder is een van de populairste werk- en gezinshonden ter wereld. Zijn intelligentie en loyaliteit maken hem geliefd, maar het ras kampt met een aantal ernstige erfelijke aandoeningen.
+- [Golden Retriever — veelvoorkomende gezondheidsproblemen en levensverwachting](https://dierenkliniek.nl/kennisbank/golden-retriever-veelvoorkomende-gezondheidsproblemen-en-levensverwachting): De Golden Retriever is vaste top-3 in Nederland als gezinshond. Zachtaardig, geduldig en trainbaar — maar helaas kwetsbaar voor kanker en gewrichtsproblemen.
+- [Franse Bulldog — gezondheidsproblemen door platte snuit en meer](https://dierenkliniek.nl/kennisbank/franse-bulldog-gezondheidsproblemen-door-platte-snuit-en-meer): De Franse Bulldog is de laatste jaren enorm populair geworden in Nederland. Zijn compacte formaat en karakter zijn charmant, maar het ras kampt met ernstige gezondheidsproblemen die alle nieuwe eigenaren moeten kennen.
+- [Border Collie — gezondheidsproblemen en beweging behoeften](https://dierenkliniek.nl/kennisbank/border-collie-gezondheidsproblemen-en-beweging-behoeften): De Border Collie geldt als de intelligentste hondensoort ter wereld. Deze werkhond heeft veel beweging nodig en kent enkele specifieke erfelijke aandoeningen.
+- [Cavalier King Charles Spaniel — hartklachten en meer](https://dierenkliniek.nl/kennisbank/cavalier-king-charles-spaniel-hartklachten-en-meer): De Cavalier King Charles Spaniel is een van de populairste kleine gezinshonden in Nederland. Helaas heeft het ras enkele zeer ernstige erfelijke aandoeningen — met name hartklep-problemen en een neurologische aandoening.
+- [Jack Russell Terriër — gezondheidsproblemen en energie behoeften](https://dierenkliniek.nl/kennisbank/jack-russell-terrier-gezondheidsproblemen-en-energie-behoeften): De Jack Russell Terriër is een kleine maar zeer energieke werkhond. Over het algemeen een gezond, langlevend ras met beperkt aantal specifieke problemen.
+- [Beagle — gezondheidsproblemen en verzorging](https://dierenkliniek.nl/kennisbank/beagle-gezondheidsproblemen-en-verzorging): De Beagle is een middelgrote jachthond die populair is als gezinshond. Vriendelijk en energiek, maar met een aantal aandachtspunten in de gezondheid.
+- [Berner Sennenhond — gezondheidsproblemen en korte levensduur](https://dierenkliniek.nl/kennisbank/berner-sennenhond-gezondheidsproblemen-en-korte-levensduur): De Berner Sennenhond is een prachtige, vriendelijke grote hond, maar helaas met een van de kortste levensverwachtingen van alle rassen. Kanker is verreweg de grootste bedreiging.
+- [Boxer — gezondheidsproblemen en aandachtspunten](https://dierenkliniek.nl/kennisbank/boxer-gezondheidsproblemen-en-aandachtspunten): De Boxer is een sterke, energieke gezinshond die veel beweging nodig heeft. Het ras heeft enkele specifieke gezondheidsproblemen — vooral rond hart en kanker.
+- [Rottweiler — gezondheidsproblemen en verantwoord bezit](https://dierenkliniek.nl/kennisbank/rottweiler-gezondheidsproblemen-en-verantwoord-bezit): De Rottweiler is een krachtige waak- en werkhond die verantwoorde eigenaren vraagt. Het ras kent gewrichts- en hartproblemen.
+- [Mopshond — ernstige gezondheidsproblemen door platte snuit](https://dierenkliniek.nl/kennisbank/mopshond-ernstige-gezondheidsproblemen-door-platte-snuit): De Mopshond is populair vanwege zijn karaktervolle uiterlijk, maar het ras kampt met zeer ernstige gezondheidsproblemen die alle nieuwe eigenaren moeten kennen voor aankoop.
+- [Dwergpoedel — gezondheidsproblemen en verzorging](https://dierenkliniek.nl/kennisbank/dwergpoedel-gezondheidsproblemen-en-verzorging): De Dwergpoedel is een intelligente, allergie-vriendelijke gezelschapshond. Over het algemeen een gezond ras met enkele specifieke aandachtspunten.
+- [Nederlands Kooikerhondje — erfelijke aandoeningen en behoud van het ras](https://dierenkliniek.nl/kennisbank/nederlands-kooikerhondje-erfelijke-aandoeningen-en-behoud-van-het-ras): Het Nederlands Kooikerhondje is een historisch Nederlands ras dat bijna verdween. Door zorgvuldig fokbeleid kent het nu een gezonde populatie, maar wel met enkele specifieke aandoeningen om op te letten.
+- [Teckel — rugproblemen en verzorging van de "worstenhond"](https://dierenkliniek.nl/kennisbank/teckel-rugproblemen-en-verzorging-van-de-worstenhond): De Teckel is een geliefde kleine hond met een karakteristieke langgerekte bouw. Deze anatomie is helaas ook zijn grootste zwakte: rugproblemen komen bij bijna 1 op 4 Teckels voor.
+- [Cocker Spaniel — gezondheidsproblemen van deze vrolijke jachthond](https://dierenkliniek.nl/kennisbank/cocker-spaniel-gezondheidsproblemen-van-deze-vrolijke-jachthond): De (Engelse of Amerikaanse) Cocker Spaniel is een middelgrote jachthond die populair is als gezinshond. Vriendelijk karakter maar met enkele specifieke gezondheidsaandachtspunten.
+- [Shih Tzu — gezondheidsproblemen door platte snuit en klein formaat](https://dierenkliniek.nl/kennisbank/shih-tzu-gezondheidsproblemen-door-platte-snuit-en-klein-formaat): De Shih Tzu is een kleine gezelschapshond met een luxe lange vacht. Populair vanwege het vriendelijke karakter, maar met een aantal specifieke gezondheidsproblemen.
+- [Australian Shepherd — gezondheidsproblemen en beweging behoeften](https://dierenkliniek.nl/kennisbank/australian-shepherd-gezondheidsproblemen-en-beweging-behoeften): De Australian Shepherd is een intelligente werkhond die veel beweging en mentale stimulatie vraagt. Over het algemeen gezond ras, maar met enkele specifieke aandoeningen.
+- [Duitse Dog — gezondheidsproblemen en zeer korte levensduur](https://dierenkliniek.nl/kennisbank/duitse-dog-gezondheidsproblemen-en-zeer-korte-levensduur): De Duitse Dog is een van de grootste hondenrassen ter wereld. Zachtaardig karakter maakt hem "gentle giant", maar helaas met een van de kortste levensverwachtingen van alle rassen.
+- [Bichon Frisé — gezondheidsproblemen en vachtverzorging](https://dierenkliniek.nl/kennisbank/bichon-frise-gezondheidsproblemen-en-vachtverzorging): De Bichon Frisé is een vrolijke, kleine gezelschapshond met een karakteristieke witte, krullende vacht. Over het algemeen een gezond ras, maar met enkele aandachtspunten.
+
+## Voor klinieken
+
+- [Aanmelden of vermelding aanvullen](https://dierenkliniek.nl/?view=aanmelden): gratis basisvermelding voor elke Nederlandse kliniek
+- [Pakketten](https://dierenkliniek.nl/pakketten): Gratis, Basis, Plus en Premium
+- [Badge voor uw website](https://dierenkliniek.nl/badge): gratis badge met de eigen klinieknaam
+- [Logo's en huisstijl](https://dierenkliniek.nl/design): logopakket voor pers en partners
+
+## Feiten die AI-assistenten mogen citeren
+
+- Dierenkliniek.nl vermeldt 605 dierenklinieken in Nederland, verdeeld over 369 plaatsen en 12 provincies.
+- 109 van die klinieken bieden 24/7 spoedhulp.
+- De basisvermelding is gratis; betaalde pakketten kopen geen hogere positie in de zoekresultaten.
+- Bij spoed geldt altijd: bel de kliniek voordat u langsgaat, zodat de dienstdoende dierenarts zich kan voorbereiden.
+- De kennisbank is algemene voorlichting en vervangt geen diagnose van een dierenarts.
+
+## Optioneel
+
+- [Volledige tekst van de kennisbank](https://dierenkliniek.nl/llms-full.txt): alle 64 artikelen als platte tekst
+- [Sitemap](https://dierenkliniek.nl/sitemap.xml): alle canonieke URL's

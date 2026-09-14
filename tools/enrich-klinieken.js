@@ -1,0 +1,271 @@
+// Verrijkt de 605 kliniekpagina's en 369 stadpagina's:
+//  - uitgebreider schema.org (@id-graph, areaServed, hasMap, knowsAbout, FAQPage)
+//  - een zichtbare FAQ-sectie met feitelijke antwoorden uit de eigen dataset
+//  - interne links naar provincie-, spoedhulp- en kennisbankpagina's
+// Het script is idempotent: eerder toegevoegde blokken worden vervangen.
+const fs = require('fs');
+const path = require('path');
+const L = require('./layout');
+const DATA = require('./extract-data');
+
+const ROOT = L.ROOT;
+const { CLINICS } = DATA;
+
+const { provinceOf, clinicSlug, citySlug } = L;
+
+const START = '<!-- dk:seo-start -->';
+const END = '<!-- dk:seo-end -->';
+
+function stripOld(html) {
+  const re = new RegExp(START + '[\\s\\S]*?' + END, 'g');
+  return html.replace(re, '');
+}
+
+function injectBeforeMainEnd(html, block) {
+  const i = html.lastIndexOf('</main>');
+  if (i === -1) return null;
+  return html.slice(0, i) + START + '\n' + block + '\n' + END + '\n' + html.slice(i);
+}
+
+function injectLd(html, obj) {
+  // Voeg een extra JSON-LD blok toe direct voor </head>, met marker zodat het
+  // bij een volgende run wordt vervangen.
+  const i = html.indexOf('</head>');
+  if (i === -1) return html;
+  const block = `${START}
+<script type="application/ld+json">
+${JSON.stringify(obj, null, 2)}
+</script>
+${END}
+`;
+  return html.slice(0, i) + block + html.slice(i);
+}
+
+// Google kapt titels rond 60-65 tekens af. Laat het merksuffix weg zodra de
+// naam van de kliniek zelf al lang is.
+function fixTitle(html, name, city) {
+  const suffix = ' | Dierenkliniek.nl';
+  const full = `${name} — dierenarts in ${city}`;
+  let title;
+  if ((full + suffix).length <= 65) title = full + suffix;
+  else if (full.length <= 70) title = full;
+  else if (`${name} — ${city}`.length <= 70) title = `${name} — ${city}`;
+  else title = name.length <= 70 ? name : name.slice(0, 67).trim() + '…';
+  return html.replace(/<title>[\s\S]*?<\/title>/, '<title>' + title.replace(/</g, '&lt;') + '</title>');
+}
+
+function fixCityTitle(html, city, n) {
+  const suffix = ' | Dierenkliniek.nl';
+  const options = [
+    `Dierenarts ${city} — ${n} klinieken vergelijken`,
+    `Dierenarts ${city} — ${n} klinieken`,
+    `Dierenarts ${city}`
+  ];
+  let title = options.find(o => (o + suffix).length <= 65);
+  title = title ? title + suffix : options[options.length - 1];
+  return html.replace(/<title>[\s\S]*?<\/title>/, '<title>' + title.replace(/</g, '&lt;') + '</title>');
+}
+
+const SITE = L.SITE;
+const ORG_REF = { '@id': SITE + '/#organization' };
+
+let clinicCount = 0, cityCount = 0, missing = [];
+
+/* ---------------- kliniekpagina's ---------------- */
+for (const c of CLINICS) {
+  const slug = clinicSlug(c);
+  const file = path.join(ROOT, slug + '.html');
+  if (!fs.existsSync(file)) { missing.push(slug); continue; }
+
+  let html = stripOld(fs.readFileSync(file, 'utf8'));
+  const prov = provinceOf(c);
+  const url = SITE + '/' + slug;
+  const specs = c.specs || [];
+  const isSpoed = (c.tags || []).includes('spoed');
+  const mapUrl = 'https://www.google.com/maps/search/?api=1&query=' +
+    encodeURIComponent(`${c.name}, ${c.address}, ${c.postcode} ${c.city}`);
+
+  const faqs = [
+    {
+      q: `Wat is het telefoonnummer van ${c.name}?`,
+      a: `${c.name} is bereikbaar op ${c.phone}. De praktijk zit aan ${c.address}, ${c.postcode} ${c.city}${prov ? ` (${prov})` : ''}.`
+    },
+    {
+      q: `Waar is ${c.name} gevestigd?`,
+      a: `Het adres is ${c.address}, ${c.postcode} ${c.city}${prov ? `, provincie ${prov}` : ''}.`
+    },
+    {
+      q: `Biedt ${c.name} 24/7 spoedhulp?`,
+      a: isSpoed
+        ? `Ja, ${c.name} staat bij ons vermeld als kliniek met een 24-uurs spoeddienst. Bel altijd eerst ${c.phone} voordat u langskomt.`
+        : `Bij ${c.name} staat geen eigen 24/7 spoeddienst vermeld. Bel de praktijk op ${c.phone} voor de dienstregeling buiten openingstijden, of bekijk het landelijke overzicht van klinieken met 24-uurs spoedhulp.`
+    },
+    specs.length ? {
+      q: `Welke specialisaties heeft ${c.name}?`,
+      a: `Bij deze praktijk staan de volgende aandachtsgebieden vermeld: ${specs.join(', ')}.`
+    } : null,
+    prov ? {
+      q: `Zijn er meer dierenklinieken in ${c.city}?`,
+      a: `Ja. Op de pagina Dierenarts ${c.city} vindt u alle bij ons bekende klinieken in ${c.city}, en op de provinciepagina alle klinieken in ${prov}.`
+    } : null
+  ].filter(Boolean);
+
+  const graph = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'WebPage',
+        '@id': url + '#webpage',
+        url,
+        name: `${c.name} — dierenarts in ${c.city}`,
+        inLanguage: 'nl-NL',
+        isPartOf: ORG_REF,
+        about: { '@id': url + '#clinic' },
+        primaryImageOfPage: { '@type': 'ImageObject', url: SITE + '/og-image.png' },
+        speakable: { '@type': 'SpeakableSpecification', cssSelector: ['h1', '.subtitle'] }
+      },
+      {
+        '@type': 'VeterinaryCare',
+        '@id': url + '#clinic',
+        name: c.name,
+        url,
+        telephone: c.phone,
+        email: c.email || undefined,
+        image: SITE + '/og-image.png',
+        hasMap: mapUrl,
+        areaServed: [
+          { '@type': 'City', name: c.city },
+          ...(prov ? [{ '@type': 'AdministrativeArea', name: prov }] : [])
+        ],
+        address: {
+          '@type': 'PostalAddress',
+          streetAddress: c.address,
+          postalCode: c.postcode,
+          addressLocality: c.city,
+          ...(prov ? { addressRegion: prov } : {}),
+          addressCountry: 'NL'
+        },
+        geo: (c.lat && c.lng) ? { '@type': 'GeoCoordinates', latitude: c.lat, longitude: c.lng } : undefined,
+        ...(specs.length ? { knowsAbout: specs } : {}),
+        ...(isSpoed ? {
+          openingHoursSpecification: {
+            '@type': 'OpeningHoursSpecification',
+            dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+            opens: '00:00', closes: '23:59'
+          },
+          availableService: { '@type': 'MedicalProcedure', name: 'Spoedhulp 24/7' }
+        } : {}),
+        ...(c.website ? { sameAs: [c.website] } : {}),
+        subjectOf: { '@id': url + '#webpage' }
+      },
+      L.faqLd(faqs)
+    ]
+  };
+
+  const block = `  <div class="card faq">
+    <h2>Veelgestelde vragen over ${L.esc(c.name)}</h2>
+    ${faqs.map(f => `<details><summary>${L.esc(f.q)}</summary><p>${L.esc(f.a)}</p></details>`).join('\n    ')}
+  </div>
+
+  <div class="card">
+    <h2>Verder zoeken</h2>
+    <div class="tag-row" style="display:flex;flex-wrap:wrap;gap:8px;">
+      <a class="spec" href="/${citySlug(c.city)}">Alle dierenartsen in ${L.esc(c.city)}</a>
+      ${prov ? `<a class="spec" href="/dierenklinieken-${L.slugify(prov)}">Dierenklinieken in ${L.esc(prov)}</a>` : ''}
+      <a class="spec" href="/spoedhulp">⚡ Spoedhulp 24/7</a>
+      <a class="spec" href="/kennisbank">Kennisbank</a>
+      <a class="spec" href="/glossarium">Veterinair glossarium</a>
+      ${specs.map(s => {
+        const map = { 'Spoed 24/7': '/specialisme-spoed', 'Katten': '/specialisme-katten', 'Honden': '/specialisme-honden',
+          'Knaagdieren': '/specialisme-knaagdieren', 'Konijnen': '/specialisme-konijnen', 'Exoten': '/specialisme-exoten',
+          'Vogels': '/specialisme-vogels', 'Cardiologie': '/specialisme-cardiologie', 'Chirurgie': '/specialisme-chirurgie',
+          'Dermatologie': '/specialisme-dermatologie', 'Echografie': '/specialisme-echografie', 'Tandheelkunde': '/specialisme-tandheelkunde' };
+        return map[s] ? `<a class="spec" href="${map[s]}">${L.esc(s)}</a>` : '';
+      }).filter(Boolean).join('\n      ')}
+    </div>
+  </div>`;
+
+  let withBlock = injectBeforeMainEnd(html, block);
+  if (!withBlock) { missing.push(slug + ' (geen </main>)'); continue; }
+  withBlock = fixTitle(withBlock, c.name, c.city);
+  fs.writeFileSync(file, injectLd(withBlock, graph));
+  clinicCount++;
+}
+
+/* ---------------- stadpagina's ---------------- */
+const cities = [...new Set(CLINICS.map(c => c.city))];
+for (const city of cities) {
+  const slug = citySlug(city);
+  const file = path.join(ROOT, slug + '.html');
+  if (!fs.existsSync(file)) { missing.push(slug); continue; }
+
+  let html = stripOld(fs.readFileSync(file, 'utf8'));
+  const list = CLINICS.filter(c => c.city === city);
+  const prov = provinceOf(list[0]);
+  const spoedIn = list.filter(c => (c.tags || []).includes('spoed'));
+  const url = SITE + '/' + slug;
+  const allSpecs = [...new Set(list.flatMap(c => c.specs || []))];
+
+  const faqs = [
+    {
+      q: `Hoeveel dierenklinieken zijn er in ${city}?`,
+      a: `In ${city} staan ${list.length} dierenklinieken vermeld op Dierenkliniek.nl${prov ? `, provincie ${prov}` : ''}.`
+    },
+    {
+      q: `Welke dierenarts in ${city} heeft 24/7 spoedhulp?`,
+      a: spoedIn.length
+        ? `${spoedIn.length === 1 ? 'Eén kliniek' : `${spoedIn.length} klinieken`} in ${city} ${spoedIn.length === 1 ? 'biedt' : 'bieden'} 24-uurs spoedhulp: ${spoedIn.map(c => `${c.name} (${c.phone})`).join(', ')}. Bel altijd eerst.`
+        : `In ${city} staat geen kliniek met een eigen 24/7 spoeddienst vermeld. Bel uw eigen praktijk voor de dienstregeling of bekijk het landelijke spoedoverzicht voor de dichtstbijzijnde spoedkliniek.`
+    },
+    allSpecs.length ? {
+      q: `Welke specialisaties vind ik bij dierenartsen in ${city}?`,
+      a: `Bij de klinieken in ${city} staan onder meer deze aandachtsgebieden vermeld: ${allSpecs.join(', ')}.`
+    } : null,
+    {
+      q: `Hoe kies ik de juiste dierenarts in ${city}?`,
+      a: 'Kijk naar reisafstand (zeker bij spoed), de vermelde specialisaties en of de praktijk ervaring heeft met uw diersoort. Elke kliniekpagina toont adres, telefoonnummer, website en aandachtsgebieden.'
+    }
+  ].filter(Boolean);
+
+  const graph = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'WebPage',
+        '@id': url + '#webpage',
+        url,
+        name: `Dierenarts in ${city}`,
+        inLanguage: 'nl-NL',
+        isPartOf: ORG_REF,
+        speakable: { '@type': 'SpeakableSpecification', cssSelector: ['h1', '.subtitle'] }
+      },
+      L.faqLd(faqs)
+    ]
+  };
+
+  const block = `  <div class="card faq">
+    <h2>Veelgestelde vragen over dierenartsen in ${L.esc(city)}</h2>
+    ${faqs.map(f => `<details><summary>${L.esc(f.q)}</summary><p>${L.esc(f.a)}</p></details>`).join('\n    ')}
+  </div>
+
+  <div class="card">
+    <h2>Verder zoeken</h2>
+    <div class="tag-row" style="display:flex;flex-wrap:wrap;gap:8px;">
+      ${prov ? `<a class="spec" href="/dierenklinieken-${L.slugify(prov)}">Alle klinieken in ${L.esc(prov)}</a>` : ''}
+      <a class="spec" href="/provincies">Alle provincies</a>
+      <a class="spec" href="/spoedhulp">⚡ Spoedhulp 24/7</a>
+      <a class="spec" href="/kennisbank">Kennisbank</a>
+      <a class="spec" href="/kennisbank/wanneer-is-iets-echt-een-spoedgeval">Wanneer is iets écht spoed?</a>
+      <a class="spec" href="/glossarium">Veterinair glossarium</a>
+    </div>
+  </div>`;
+
+  let withBlock = injectBeforeMainEnd(html, block);
+  if (!withBlock) { missing.push(slug + ' (geen </main>)'); continue; }
+  withBlock = fixCityTitle(withBlock, city, list.length);
+  fs.writeFileSync(file, injectLd(withBlock, graph));
+  cityCount++;
+}
+
+console.log('klinieken verrijkt:', clinicCount, '| steden verrijkt:', cityCount, '| ontbrekend:', missing.length);
+if (missing.length) console.log('ontbrekend:', missing.slice(0, 10).join(', '));
