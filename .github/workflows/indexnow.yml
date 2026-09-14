@@ -1,6 +1,6 @@
 name: IndexNow ping
 
-# Meldt wijzigingen direct aan bij Bing, Yandex, Seznam, Naver en Yep.
+# Meldt wijzigingen direct aan bij Bing, Yandex en Seznam.
 # Google ondersteunt IndexNow niet; die crawlt via de sitemap in robots.txt.
 on:
   push:
@@ -21,27 +21,50 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          # Volledige historie, zodat we met de stand van vóór de push kunnen
+          # vergelijken. Bij een push van meerdere commits tegelijk dekt HEAD^
+          # namelijk maar één commit.
+          fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
 
       - name: Bepaal gewijzigde URL's
         id: urls
+        env:
+          VORIGE: ${{ github.event.before }}
+          HUIDIGE: ${{ github.sha }}
+          ALLES: ${{ github.event.inputs.all }}
         run: |
-          if [ "${{ github.event.inputs.all }}" = "true" ]; then
+          if [ "$ALLES" = "true" ]; then
             echo "mode=all" >> "$GITHUB_OUTPUT"
             exit 0
           fi
-          git diff --name-only HEAD^ HEAD -- '*.html' > changed.txt || true
+
+          # Een nulhash betekent een nieuwe branch of een geforceerde push;
+          # dan valt er niets zinnigs te vergelijken en melden we alles aan.
+          if [ -z "$VORIGE" ] || [ "$VORIGE" = "0000000000000000000000000000000000000000" ]; then
+            echo "Geen bruikbare vorige commit; alles wordt aangemeld."
+            echo "mode=all" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          if ! git cat-file -e "$VORIGE^{commit}" 2>/dev/null; then
+            echo "Vorige commit niet gevonden in de historie; alles wordt aangemeld."
+            echo "mode=all" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          git diff --name-only "$VORIGE" "$HUIDIGE" -- '*.html' > changed.txt
           node -e "
-            const fs=require('fs');
-            const files=fs.readFileSync('changed.txt','utf8').split('\n').filter(Boolean);
-            const urls=files.map(f=>'/'+f.replace(/index\.html\$/,'').replace(/\.html\$/,''))
-              .map(u=>u==='/'?'/':u.replace(/\/\$/,''));
+            const fs = require('fs');
+            const files = fs.readFileSync('changed.txt', 'utf8').split('\n').filter(Boolean);
+            const urls = files
+              .map(f => '/' + f.replace(/index\.html\$/, '').replace(/\.html\$/, ''))
+              .map(u => u === '/' ? '/' : u.replace(/\/\$/, ''));
             fs.writeFileSync('urls.txt', urls.join(' '));
-            console.log(urls.length+\" gewijzigde URL's\");
+            console.log(urls.length + \" gewijzigde URL's\");
           "
           echo "mode=changed" >> "$GITHUB_OUTPUT"
 
@@ -51,5 +74,9 @@ jobs:
             node tools/indexnow.js
           else
             URLS=$(cat urls.txt)
-            if [ -n "$URLS" ]; then node tools/indexnow.js $URLS; else echo "Niets gewijzigd"; fi
+            if [ -n "$URLS" ]; then
+              node tools/indexnow.js $URLS
+            else
+              echo "Geen HTML gewijzigd; niets aan te melden."
+            fi
           fi
