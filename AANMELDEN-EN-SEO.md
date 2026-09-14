@@ -4,6 +4,22 @@ Dit is het vervolg op de technische SEO/GEO-optimalisatie. De stappen hieronder
 vragen om accounts en kunnen daarom niet door een script worden uitgevoerd.
 Volg de volgorde: de eerste blok levert het meeste resultaat per bestede minuut.
 
+## Twee routes
+
+Er zijn twee manieren om het aanmeldwerk te doen.
+
+**Met de hand, of met Claude in Chrome.** Die extensie werkt in je eigen
+browser, waar je al bent ingelogd. Kant-en-klare opdrachten om te plakken staan
+in CHROME-OPDRACHTEN.md. Alleen deze route kan indexering aanvragen en een
+Bedrijfsprofiel aanmaken.
+
+**Geautomatiseerd.** Voor het terugkerende werk staat werkende code in `tools/`.
+Die heeft twee sleutels nodig, zie het blok verderop. Dit blijft draaien zonder
+dat er iemand hoeft te klikken, maar kan de twee dingen hierboven niet.
+
+De routes vullen elkaar aan. Doe de eenmalige stappen in de browser en laat de
+herhaling aan de automatisering over.
+
 ## Vaste bedrijfsgegevens (NAP)
 
 Gebruik deze exact gelijk op elke plek waar je Dierenkliniek.nl aanmeldt.
