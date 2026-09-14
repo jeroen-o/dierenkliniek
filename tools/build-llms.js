@@ -39,6 +39,10 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 - [Veterinair glossarium](${SITE}/glossarium): ${GLOSSARIUM.length} medische termen in gewone taal
 - [Alle provincies](${SITE}/provincies): klinieken gegroepeerd per provincie
 - [Specialismen](${SITE}/specialismen): klinieken per aandachtsgebied
+- [Over ons](${SITE}/over-ons): wie het platform maakt en met welk doel
+- [Onafhankelijkheid](${SITE}/onafhankelijkheid): waarom betaalde pakketten geen hogere positie opleveren
+- [Contact](${SITE}/contact): e-mail, telefoon en postadres
+- [Partners](${SITE}/partners): organisaties in dierenwelzijn waar wij naar verwijzen
 - [Vermeldingsbeleid](${SITE}/vermeldingsbeleid): hoe vermeldingen tot stand komen en hoe onafhankelijkheid geborgd is
 - [Statistieken](${SITE}/statistieken): cijfers over dierenklinieken in Nederland
 

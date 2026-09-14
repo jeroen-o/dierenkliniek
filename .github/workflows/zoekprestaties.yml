@@ -1,0 +1,87 @@
+name: Zoekprestaties ophalen
+
+# Haalt wekelijks de cijfers uit Google Search Console en zet ze als JSON in de
+# repository, zodat de ontwikkeling per sectie te volgen is. Dient tegelijk de
+# sitemaps opnieuw in bij Google en Bing.
+#
+# Nodig aan secrets (Settings, Secrets and variables, Actions):
+#   GOOGLE_SERVICE_ACCOUNT_JSON   de volledige inhoud van het service-account-bestand
+#   BING_WEBMASTER_API_KEY        optioneel; zonder deze sleutel wordt Bing overgeslagen
+#
+# Zonder secrets doet deze workflow niets en faalt hij niet.
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rapport:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Controleer of de sleutels aanwezig zijn
+        id: sleutels
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          BING_WEBMASTER_API_KEY: ${{ secrets.BING_WEBMASTER_API_KEY }}
+        run: |
+          if [ -n "$GOOGLE_SERVICE_ACCOUNT_JSON" ]; then
+            echo "google=ja" >> "$GITHUB_OUTPUT"
+          else
+            echo "google=nee" >> "$GITHUB_OUTPUT"
+            echo "::notice::GOOGLE_SERVICE_ACCOUNT_JSON ontbreekt; Search Console wordt overgeslagen."
+          fi
+          if [ -n "$BING_WEBMASTER_API_KEY" ]; then
+            echo "bing=ja" >> "$GITHUB_OUTPUT"
+          else
+            echo "bing=nee" >> "$GITHUB_OUTPUT"
+            echo "::notice::BING_WEBMASTER_API_KEY ontbreekt; Bing wordt overgeslagen."
+          fi
+
+      - name: Sitemaps opnieuw indienen bij Google
+        if: steps.sleutels.outputs.google == 'ja'
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: node tools/search-console.js indienen
+
+      - name: Indexeringsstatus van de kernpagina's
+        if: steps.sleutels.outputs.google == 'ja'
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: node tools/search-console.js inspect
+        continue-on-error: true
+
+      - name: Prestatierapport schrijven
+        if: steps.sleutels.outputs.google == 'ja'
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: node tools/search-console.js rapport
+
+      - name: Sitemaps indienen bij Bing
+        if: steps.sleutels.outputs.bing == 'ja'
+        env:
+          BING_WEBMASTER_API_KEY: ${{ secrets.BING_WEBMASTER_API_KEY }}
+        run: node tools/bing-webmaster.js sitemaps
+        continue-on-error: true
+
+      - name: Rapport vastleggen
+        if: steps.sleutels.outputs.google == 'ja'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add rapporten/
+          if git diff --staged --quiet; then
+            echo "Geen wijzigingen in het rapport."
+          else
+            git commit -m "Zoekprestaties bijgewerkt"
+            git push
+          fi

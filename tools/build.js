@@ -8,6 +8,7 @@ const { execFileSync } = require('child_process');
 const steps = [
   'build-kennisbank.js',
   'build-paginas.js',
+  'build-vertrouwenspaginas.js',
   'enrich-klinieken.js',
   'fix-links.js',
   'build-sitemaps.js',

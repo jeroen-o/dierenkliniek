@@ -8,9 +8,15 @@ const MAP = {
   '/?view=spoedhulp': '/spoedhulp',
   '/?view=kennisbank': '/kennisbank',
   '/?view=glossarium': '/glossarium',
-  '/?view=provincies': '/provincies'
+  '/?view=provincies': '/provincies',
+  '/?view=about': '/over-ons',
+  '/?view=onafhankelijkheid': '/onafhankelijkheid',
+  '/?view=contact': '/contact',
+  '/?view=partners': '/partners'
 };
 
+// index.html en zijn back-upkopie houden hun SPA-navigatie; de vier
+// vertrouwenspagina's tonen hun eigen inhoud en linken dus niet naar zichzelf.
 const SKIP = new Set(['index.html', 'dierenkliniek.html']);
 let files = fs.readdirSync(ROOT).filter(f => f.endsWith('.html') && !SKIP.has(f));
 files = files.concat(fs.readdirSync(path.join(ROOT, 'kennisbank')).map(f => 'kennisbank/' + f));

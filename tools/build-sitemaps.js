@@ -48,8 +48,11 @@ const hoofd = [
     .filter(s => exists('specialisme-' + s + '.html'))
     .map(s => u('/specialisme-' + s, '0.75', 'monthly')),
   // SPA-views zonder statisch equivalent
-  ...['about', 'onafhankelijkheid', 'partners', 'contact', 'aanmelden', 'english',
-      'vaccinatieplanner', 'beslisboom', 'privacy', 'voorwaarden', 'cookies']
+  ...['over-ons', 'onafhankelijkheid', 'contact', 'partners']
+    .filter(s => exists(s + '.html'))
+    .map(s => u('/' + s, '0.7', 'monthly')),
+  // Views die nog geen eigen statische pagina hebben
+  ...['aanmelden', 'english', 'vaccinatieplanner', 'beslisboom', 'privacy', 'voorwaarden', 'cookies']
     .map(v => u('/?view=' + v, '0.6', 'monthly'))
 ];
 
