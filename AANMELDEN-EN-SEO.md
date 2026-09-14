@@ -20,6 +20,32 @@ dat er iemand hoeft te klikken, maar kan de twee dingen hierboven niet.
 De routes vullen elkaar aan. Doe de eenmalige stappen in de browser en laat de
 herhaling aan de automatisering over.
 
+## Belangrijk: gebruik een domeinproperty, geen www-property
+
+De site draait op `dierenkliniek.nl`, zonder www. Het CNAME-bestand wijst naar dat
+adres, alle 1.092 pagina's dragen een canonical zonder www en in de sitemaps
+staat geen enkele www-URL. GitHub Pages stuurt `www.dierenkliniek.nl` door naar
+het adres zonder www.
+
+Er bestaat in Search Console een geverifieerde property voor
+`https://www.dierenkliniek.nl/`. Dat is een URL-prefix-property en die bevat
+daardoor geen enkele pagina van deze site. Sitemaps die daar worden ingediend,
+worden wel opgehaald maar tellen niet mee, en het rapport blijft op nul
+geïndexeerde pagina's staan.
+
+De oplossing is een **domeinproperty**: die wordt geverifieerd met een DNS-TXT-record
+bij de domeinprovider en dekt www en non-www, http en https, in één keer.
+
+1. Maak in Search Console een property van het type Domein aan voor `dierenkliniek.nl`.
+2. Zet het TXT-record bij de domeinprovider, niet in Search Console.
+3. Dien daar de vijf sitemaps opnieuw in.
+4. Vraag indexering opnieuw aan voor de adressen zonder www.
+
+De oude www-property mag blijven staan. De scripts in `tools/` gaan al uit van
+de domeinproperty: `GSC_SITE_URL` heeft als standaardwaarde
+`sc-domain:dierenkliniek.nl`.
+
+
 ## Vaste bedrijfsgegevens (NAP)
 
 Gebruik deze exact gelijk op elke plek waar je Dierenkliniek.nl aanmeldt.

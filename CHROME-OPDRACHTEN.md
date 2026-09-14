@@ -21,8 +21,11 @@ Ik werk aan de property dierenkliniek.nl in Google Search Console.
 
 Voer deze stappen uit en meld na elke stap wat je ziet:
 
-1. Controleer of dierenkliniek.nl als property bestaat. Zo niet, meld dat en
-   stop, want verificatie moet ik zelf via DNS doen.
+1. Controleer welke properties er bestaan. Let op het verschil: een property
+   voor https://www.dierenkliniek.nl/ (met www) is de verkeerde, want de site
+   draait zonder www. Nodig is een property van het type Domein voor
+   dierenkliniek.nl. Bestaat die nog niet, meld dat en stop: verificatie gaat
+   via een DNS-TXT-record bij de domeinprovider en doe ik zelf.
 
 2. Ga naar Sitemaps. Verwijder bestaande inzendingen die een fout of
    waarschuwing tonen. Dien daarna deze vijf sitemaps in:
@@ -33,12 +36,14 @@ Voer deze stappen uit en meld na elke stap wat je ziet:
      sitemap-klinieken.xml
    De sitemap-index bevat 1098 URL's.
 
-3. Gebruik de URL-inspectie en vraag indexering aan voor deze vier adressen,
-   een voor een. Wacht per adres tot de test klaar is:
+3. Gebruik de URL-inspectie en vraag indexering aan voor deze adressen, een
+   voor een, exact zoals hieronder geschreven en dus zonder www. Wacht per
+   adres tot de test klaar is:
      https://dierenkliniek.nl/spoedhulp
      https://dierenkliniek.nl/kennisbank
      https://dierenkliniek.nl/provincies
      https://dierenkliniek.nl/over-ons
+     https://dierenkliniek.nl/glossarium
 
 4. Open Instellingen en dan Gebruikers en machtigingen. Meld welke gebruikers
    er staan en met welke rechten. Voeg niemand toe.
