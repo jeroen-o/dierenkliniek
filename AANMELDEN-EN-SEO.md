@@ -20,6 +20,20 @@ dat er iemand hoeft te klikken, maar kan de twee dingen hierboven niet.
 De routes vullen elkaar aan. Doe de eenmalige stappen in de browser en laat de
 herhaling aan de automatisering over.
 
+### Sociale profielen koppelen aan de organisatie
+
+Een profiel op LinkedIn of Facebook telt pas mee als entiteitssignaal wanneer de
+site er zelf naar verwijst. Dat gebeurt via `sameAs` in het Organization-schema.
+De LinkedIn-pagina staat er al in. Zodra de Facebook-pagina bestaat:
+
+1. Voeg de URL toe aan `SOCIALE_PROFIELEN` bovenin `tools/layout.js`.
+2. Voeg dezelfde URL toe aan het `sameAs`-blok in `index.html`.
+3. Draai `node tools/build.js` en push.
+
+Zet er alleen profielen in die echt bestaan en beheerd worden. Een dood profiel
+in `sameAs` is een verkeerd signaal.
+
+
 ## Belangrijk: gebruik een domeinproperty, geen www-property
 
 De site draait op `dierenkliniek.nl`, zonder www. Het CNAME-bestand wijst naar dat

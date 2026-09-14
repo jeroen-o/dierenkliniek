@@ -59,6 +59,13 @@ const EXTRA_CSS = `
   .toc li { padding: 5px 0; border-bottom: none; }
 `;
 
+// Officiele profielen van Dierenkliniek.nl. Voeg een nieuwe regel toe zodra een
+// profiel live staat, draai daarna: node tools/build.js
+const SOCIALE_PROFIELEN = [
+  'https://www.linkedin.com/company/146355905/'
+  // Facebook-pagina toevoegen zodra die bestaat, als https://www.facebook.com/<naam>
+];
+
 // Organization-schema dat op elke gegenereerde pagina hoort (entiteitsconsistentie
 // voor Google Knowledge Graph en AI-assistenten).
 const ORGANIZATION = {
@@ -76,7 +83,11 @@ const ORGANIZATION = {
     addressLocality: 'Amersfoort',
     addressCountry: 'NL'
   },
-  areaServed: { '@type': 'Country', name: 'Nederland' }
+  areaServed: { '@type': 'Country', name: 'Nederland' },
+  // sameAs koppelt de officiele profielen aan deze organisatie. Google en
+  // taalmodellen gebruiken dat om te bepalen dat het steeds om dezelfde
+  // partij gaat. Vul een profiel pas in als het echt bestaat en beheerd wordt.
+  sameAs: SOCIALE_PROFIELEN
 };
 
 function breadcrumbLd(items) {
@@ -209,5 +220,5 @@ function clinicSlug(c) {
 const citySlug = (city) => 'dierenarts-' + slugify(city);
 const provinceOf = (c) => PROVINCE_LOOKUP[(c.postcode || '').replace(/\s/g, '').slice(0, 2)] || null;
 
-module.exports = { SITE, ROOT, page, esc, stripTags, slugify, breadcrumbLd, breadcrumbHtml, faqLd, faqHtml, ORGANIZATION,
+module.exports = { SITE, ROOT, page, esc, stripTags, slugify, breadcrumbLd, breadcrumbHtml, faqLd, faqHtml, ORGANIZATION, SOCIALE_PROFIELEN,
   clinicSlug, citySlug, provinceOf, PROVINCE_LOOKUP, PROVINCE_DESCRIPTIONS, CLINIC_SLUG_OVERRIDES };
