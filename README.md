@@ -7,14 +7,19 @@ Live op https://dierenkliniek.nl
 
 ## Hoe de site is opgebouwd
 
-`index.html` is de hele applicatie: opmaak, logica en data in één bestand. De
-datasets staan er als JavaScript-array in:
+`index.html` bevat de applicatie: opmaak, logica en het grootste deel van de data.
 
-| Variabele | Inhoud |
+| Waar | Inhoud |
 | --- | --- |
-| `CLINICS` | 605 klinieken met adres, contactgegevens en specialisaties |
-| `KB_ARTICLES` | 64 kennisbankartikelen |
-| `GLOSSARIUM` | 40 veterinaire termen |
+| `index.html` → `CLINICS` | 605 klinieken met adres, contactgegevens en specialisaties |
+| `index.html` → `GLOSSARIUM` | 40 veterinaire termen |
+| `data/kennisbank.json` | 64 artikelen met volledige tekst |
+
+De artikelen staan bewust apart. Hun volledige tekst is 220 kB en werd vroeger
+bij elk bezoek aan de homepage meegeladen, terwijl diezelfde tekst ook als
+statische pagina bestaat. `index.html` houdt nu alleen een lichte index over
+(titel, samenvatting en de eerste zinnen om op te zoeken); `tools/sync-index-kb.js`
+houdt die gelijk aan het databestand.
 
 Daaromheen staan ruim duizend statische pagina's die uit diezelfde data worden
 gegenereerd. Reden: zoekmachines en AI-assistenten moeten de inhoud kunnen lezen
@@ -31,7 +36,8 @@ zonder JavaScript uit te voeren.
 
 ## Werkwijze bij een wijziging
 
-Pas de data aan in `index.html` en draai daarna:
+Pas de data aan in `index.html` (klinieken, glossarium) of in
+`data/kennisbank.json` (artikelen) en draai daarna:
 
 ```bash
 node tools/build.js      # genereert alle pagina's, sitemaps en llms-bestanden
@@ -46,7 +52,8 @@ gegenereerde pagina heeft geen zin: de volgende build overschrijft het.
 | Bestand | Doet |
 | --- | --- |
 | `build.js` | draait alle onderstaande bouwstappen op volgorde |
-| `extract-data.js` | leest de datasets uit `index.html` |
+| `extract-data.js` | leest de datasets uit `index.html` en `data/kennisbank.json` |
+| `sync-index-kb.js` | schrijft de lichte kennisbank-index terug in `index.html` |
 | `layout.js` | gedeelde opmaak, header, footer en schema-helpers |
 | `build-kennisbank.js` | 78 kennisbankpagina's |
 | `build-paginas.js` | spoedhulp, provincies en glossarium |

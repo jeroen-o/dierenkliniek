@@ -24,9 +24,18 @@ function grab(name) {
 }
 
 const out = {};
-for (const name of ['KB_ARTICLES', 'KB_CATEGORIES', 'KB_ANIMALS', 'GLOSSARIUM', 'CLINICS']) {
+for (const name of ['KB_CATEGORIES', 'KB_ANIMALS', 'GLOSSARIUM', 'CLINICS']) {
   out[name] = vm.runInNewContext('(' + grab(name) + ')');
 }
+
+// De artikelen staan niet meer in index.html maar in een eigen databestand, zodat
+// de volledige tekst niet bij elk bezoek aan de homepage wordt meegeladen.
+// index.html houdt alleen een lichte index over, zonder de artikelinhoud.
+const KB_PAD = path.join(ROOT, 'data', 'kennisbank.json');
+if (!fs.existsSync(KB_PAD)) {
+  throw new Error('data/kennisbank.json ontbreekt. Draai eerst: node tools/split-kennisbank.js');
+}
+out.KB_ARTICLES = JSON.parse(fs.readFileSync(KB_PAD, 'utf8'));
 module.exports = out;
 
 if (require.main === module) {
