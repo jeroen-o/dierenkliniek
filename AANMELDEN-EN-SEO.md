@@ -36,12 +36,9 @@ Komt er een profiel bij, of verandert een adres:
 Zet er alleen profielen in die echt bestaan en beheerd worden. Een dood profiel
 in `sameAs` is een verkeerd signaal.
 
-**Geef de Facebook-pagina een gebruikersnaam.** Het adres is nu
-`facebook.com/profile.php?id=61594457936929`. Dat werkt, maar een pagina met een
-naam (`facebook.com/dierenkliniek.nl`) is beter deelbaar, oogt professioneler en
-is voor Google eenvoudiger aan de organisatie te koppelen. Dat stel je in onder
-Pagina-instellingen. Werk daarna de twee plekken hierboven bij; het oude adres
-blijft werken, maar het nieuwe is het adres dat je overal gebruikt.
+De Facebook-pagina heeft inmiddels een gebruikersnaam: `facebook.com/dierenkliniek.nl`.
+Gebruik dat adres overal, ook in de mailronde en op drukwerk. Het oude
+nummeradres blijft werken maar is nergens meer nodig.
 
 
 ## Belangrijk: gebruik een domeinproperty, geen www-property

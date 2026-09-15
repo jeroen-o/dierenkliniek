@@ -71,9 +71,7 @@ const EXTRA_CSS = `
 // profiel live staat, draai daarna: node tools/build.js
 const SOCIALE_PROFIELEN = [
   'https://www.linkedin.com/company/146355905/',
-  // Zodra de pagina een gebruikersnaam krijgt, wordt dit
-  // https://www.facebook.com/<naam>. Werk die dan hier en in index.html bij.
-  'https://www.facebook.com/profile.php?id=61594457936929',
+  'https://www.facebook.com/dierenkliniek.nl',
   'https://www.instagram.com/dierenkliniek.nl/'
 ];
 
