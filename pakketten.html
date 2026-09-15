@@ -125,16 +125,7 @@
 
 </style>
 
-<!-- Automatische redirect naar de SPA (behoudt schone URL via history.replaceState) -->
-<script>
-  // Als deze pagina direct geladen wordt, redirect naar de SPA
-  // Dit gebeurt alleen als bezoeker de statische pagina laadt (bv. via Google/link).
-  // De SPA behandelt /pakketten al zelf via routeFromUrl.
-  if (window.location.pathname === '/pakketten' || window.location.pathname === '/pakketten.html') {
-    // Laad de main app; de SPA-router opent automatisch de business view
-    window.location.replace('/?view=business');
-  }
-</script>
+
 </head>
 <body>
 <header class="site-header">
@@ -180,56 +171,49 @@
 </header>
 <main>
   <h1>Pakketten voor dierenklinieken</h1>
-  <p class="subtitle">Vier vermelding-pakketten — van gratis basis tot Premium met alle functies.</p>
-
-  <p class="redirect-msg">U wordt automatisch doorgestuurd naar de pakketten-pagina. <a href="/?view=business">Klik hier</a> als dat niet gebeurt.</p>
+  <p class="subtitle">Drie pakketten: een gratis vermelding voor elke praktijk, en twee betaalde pakketten met extra profielfuncties.</p>
 
   <div class="pricing">
     <div class="card">
-      <h3>Gratis</h3>
-      <div class="price">€0<small> / jaar</small></div>
-      <ul class="features">
-        <li>✓ Basisvermelding</li>
-        <li>✓ Adres en kaart</li>
-        <li>✓ Telefoonnummer</li>
-      </ul>
-      <a href="/?view=aanmelden&pakket=Gratis" class="cta">Gratis aanmelden</a>
-    </div>
-    <div class="card">
       <h3>Basis</h3>
-      <div class="price">€180<small> / jaar</small></div>
+      <div class="price">€0<small> altijd gratis</small></div>
       <ul class="features">
-        <li>✓ Alles van Gratis</li>
-        <li>✓ Website + e-mail</li>
-        <li>✓ Google Reviews-link</li>
+        <li>✓ Vermelding met adres en kaart</li>
+        <li>✓ Telefoon, e-mail en website</li>
+        <li>✓ Link naar Google Reviews</li>
+        <li>✓ Gratis badge voor uw eigen website</li>
       </ul>
-      <a href="/?view=aanmelden&pakket=Basis" class="cta">Kies Basis</a>
+      <a href="/?view=aanmelden&amp;pakket=Basis" class="cta">Gegevens aanvullen</a>
     </div>
     <div class="card featured">
       <h3>Plus</h3>
       <div class="price">€395<small> / jaar</small></div>
       <ul class="features">
         <li>✓ Alles van Basis</li>
-        <li>✓ Foto's + openingstijden</li>
-        <li>✓ Uitgebreide omschrijving</li>
-        <li>✓ Specialisaties tonen</li>
+        <li>✓ Eigen foto's op uw profiel</li>
+        <li>✓ Eigen omschrijving in plaats van standaardtekst</li>
+        <li>✓ Openingstijden en specialisaties zichtbaar</li>
+        <li>✓ Hogere positie binnen 10 km van de zoekopdracht</li>
       </ul>
-      <a href="/?view=aanmelden&pakket=Plus" class="cta">Kies Plus</a>
+      <a href="/?view=aanmelden&amp;pakket=Plus" class="cta">Kies Plus</a>
     </div>
     <div class="card">
       <h3>Premium</h3>
       <div class="price">€795+<small> / jaar</small></div>
       <ul class="features">
         <li>✓ Alles van Plus</li>
-        <li>✓ Multi-vestiging</li>
-        <li>✓ Prioriteit-listing</li>
+        <li>✓ Meerdere vestigingen onder één abonnement</li>
+        <li>✓ Topvermelding met eigen accent in de resultaten</li>
       </ul>
-      <a href="/?view=aanmelden&pakket=Premium" class="cta">Kies Premium</a>
+      <a href="/?view=aanmelden&amp;pakket=Premium" class="cta">Kies Premium</a>
     </div>
   </div>
 
   <p style="margin-top: 40px; padding: 20px; background: white; border-radius: 12px; font-size: 14px;">
-    <strong>Onafhankelijk platform:</strong> alle klinieken zijn en blijven zichtbaar, ongeacht abonnement. Betaalde pakketten krijgen extra profielfuncties en een hogere positie binnen 10 km van de zoekopdracht — maar we accepteren geen betalingen om Gratis-vermeldingen te verbergen.
+    <strong>Wat een betaald pakket wel en niet doet:</strong> elke kliniek staat vermeld met
+    volledige contactgegevens, ook zonder abonnement. Een betaald pakket levert extra
+    profielfuncties en een hogere positie binnen 10 kilometer van de zoekopdracht. Het houdt
+    nooit een andere praktijk uit de resultaten, en buiten die 10 kilometer telt alleen afstand.
   </p>
 </main>
 </body>

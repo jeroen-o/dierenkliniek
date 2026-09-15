@@ -15,6 +15,7 @@ Live op https://dierenkliniek.nl
 | `index.html` → `GLOSSARIUM` | 40 veterinaire termen |
 | `data/kennisbank.json` | 64 artikelen met volledige tekst |
 | `data/openingstijden.json` | openingstijden per kliniek, met slug als sleutel |
+| `data/profielen.json` | eigen foto's en omschrijving, alleen voor Plus en Premium |
 
 De artikelen staan bewust apart. Hun volledige tekst is 220 kB en werd vroeger
 bij elk bezoek aan de homepage meegeladen, terwijl diezelfde tekst ook als
@@ -64,6 +65,7 @@ gegenereerde pagina heeft geen zin: de volgende build overschrijft het.
 | `build-sitemaps.js` | vier sitemaps plus de index |
 | `build-llms.js` | `llms.txt` en `llms-full.txt` voor AI-assistenten |
 | `openingstijden.js` | leest, controleert en rendert openingstijden |
+| `profielen.js` | eigen foto's en omschrijving voor Plus- en Premium-klinieken |
 | `import-openingstijden.js` | sjabloon maken en ingevulde CSV inlezen |
 | `validate.js` | controleert de hele site |
 | `indexnow.js` | meldt wijzigingen bij Bing, Yandex en Seznam |
@@ -116,6 +118,23 @@ node tools/import-openingstijden.js status                          # hoeveel er
 Vul bij een bevestigde regel de kolom `bron` in, bijvoorbeeld
 "opgave kliniek per e-mail, 2026-10-03". Daarmee verdwijnt de waarschuwing en
 komt de kliniek in aanmerking voor de "nu open"-weergave in Google.
+
+## Pakketten
+
+Drie pakketten. Basis is gratis en geldt voor elke vermelde praktijk; Plus en
+Premium zijn betaald. Het veld `tier` in `CLINICS` bepaalt wat een kliniek krijgt:
+
+| tier | Pakket | Krijgt |
+| --- | --- | --- |
+| `basic` | Basis, gratis | vermelding, adres, kaart, telefoon, e-mail, website, reviewlink |
+| `plus` | Plus | daarnaast eigen foto's, eigen omschrijving, openingstijden, specialisaties, hogere positie binnen 10 km |
+| `top` | Premium | daarnaast meerdere vestigingen en een topvermelding met eigen accent |
+
+Eigen foto's en omschrijvingen staan in `data/profielen.json` en worden alleen
+getoond bij `plus` en `top`. Zet een foto in `fotos/` en verwijs ernaar met een
+alt-tekst; zonder alt-tekst meldt de controle dat. `tools/profielen.js` weigert
+een profiel bij een Basis-kliniek, zodat een afgelopen abonnement niet stil
+blijft doorlopen.
 
 ## Let op
 

@@ -8,8 +8,10 @@ const path = require('path');
 const L = require('./layout');
 const DATA = require('./extract-data');
 const O = require('./openingstijden');
+const P = require('./profielen');
 
 const TIJDEN = O.laad();
+const PROFIELEN = P.laad();
 
 const ROOT = L.ROOT;
 const { CLINICS } = DATA;
@@ -89,6 +91,9 @@ for (const c of CLINICS) {
     encodeURIComponent(`${c.name}, ${c.address}, ${c.postcode} ${c.city}`);
   const dagen = TIJDEN[slug];
   const tijdenSchema = O.schemaVoor(dagen);
+  const profiel = PROFIELEN[slug];
+  const eigenOmschrijving = P.omschrijvingVoor(c, profiel);
+  const fotos = P.fotosVoor(c, profiel);
 
   const faqs = [
     {
@@ -142,7 +147,8 @@ for (const c of CLINICS) {
         url,
         telephone: c.phone,
         email: c.email || undefined,
-        image: SITE + '/og-image.png',
+        description: eigenOmschrijving || c.desc || undefined,
+        image: fotos.length ? fotos.map(f => SITE + f.bestand) : SITE + '/og-image.png',
         hasMap: mapUrl,
         areaServed: [
           { '@type': 'City', name: c.city },
@@ -175,6 +181,15 @@ for (const c of CLINICS) {
     ]
   };
 
+  const galerij = P.galerijHtml(fotos, L.esc);
+  const profielBlok = (eigenOmschrijving || galerij) ? `  <div class="card">
+    <h2>Over ${L.esc(c.name)}</h2>
+    ${eigenOmschrijving ? `<p>${L.esc(eigenOmschrijving)}</p>` : ''}
+    ${galerij || ''}
+  </div>
+
+` : '';
+
   const tijdenTabel = O.tabelVoor(dagen, L.esc);
   const tijdenBlok = tijdenTabel ? `  <div class="card">
     <h2>Openingstijden</h2>
@@ -184,7 +199,7 @@ for (const c of CLINICS) {
 
 ` : '';
 
-  const block = `${tijdenBlok}  <div class="card faq">
+  const block = `${profielBlok}${tijdenBlok}  <div class="card faq">
     <h2>Veelgestelde vragen over ${L.esc(c.name)}</h2>
     ${faqs.map(f => `<details><summary>${L.esc(f.q)}</summary><p>${L.esc(f.a)}</p></details>`).join('\n    ')}
   </div>

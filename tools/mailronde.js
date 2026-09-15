@@ -57,7 +57,7 @@ function tekst(o) {
 
   return `Goedendag,
 
-${een ? `${c.name} staat vermeld op Dierenkliniek.nl` : `Uw ${o.klinieken.length} vestigingen staan vermeld op Dierenkliniek.nl`}, een onafhankelijk overzicht van alle dierenklinieken in Nederland. De vermelding is gratis en blijft gratis; niemand koopt bij ons een hogere plek in de zoekresultaten.
+${een ? `${c.name} staat vermeld op Dierenkliniek.nl` : `Uw ${o.klinieken.length} vestigingen staan vermeld op Dierenkliniek.nl`}, een overzicht van ruim 600 dierenklinieken in Nederland. Uw vermelding is gratis en blijft gratis, inclusief telefoonnummer, e-mailadres en website. Betaalde pakketten geven extra profielfuncties en een hogere positie binnen 10 kilometer van de zoekopdracht, maar houden nooit een andere praktijk uit de resultaten.
 
 Wij mailen u om twee redenen.
 
@@ -71,7 +71,7 @@ Klopt er iets niet? Antwoord op deze mail met de juiste gegevens, dan passen wij
 
 2. UW OPENINGSTIJDEN
 
-Wij hebben van geen enkele praktijk de openingstijden. Op dit moment tonen wij standaardtijden met de duidelijke melding erbij dat die niet door u zijn bevestigd en dat bezoekers eerst moeten bellen. Dat is geen prettige oplossing, en wij vervangen het graag door uw echte tijden.
+Op dit moment tonen wij standaardtijden met de duidelijke melding erbij dat die niet door u zijn bevestigd en dat bezoekers eerst moeten bellen. Dat is geen prettige oplossing, en wij vervangen het graag door uw echte tijden.
 
 Stuur ze in een antwoord op deze mail, bijvoorbeeld zo:
 

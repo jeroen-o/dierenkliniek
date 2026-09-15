@@ -15,7 +15,7 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 - [Alle provincies](https://dierenkliniek.nl/provincies): klinieken gegroepeerd per provincie
 - [Specialismen](https://dierenkliniek.nl/specialismen): klinieken per aandachtsgebied
 - [Over ons](https://dierenkliniek.nl/over-ons): wie het platform maakt en met welk doel
-- [Onafhankelijkheid](https://dierenkliniek.nl/onafhankelijkheid): waarom betaalde pakketten geen hogere positie opleveren
+- [Onafhankelijkheid](https://dierenkliniek.nl/onafhankelijkheid): hoe vermeldingen tot stand komen en wat een betaald pakket wel en niet doet
 - [Contact](https://dierenkliniek.nl/contact): e-mail, telefoon en postadres
 - [Partners](https://dierenkliniek.nl/partners): organisaties in dierenwelzijn waar wij naar verwijzen
 - [Vermeldingsbeleid](https://dierenkliniek.nl/vermeldingsbeleid): hoe vermeldingen tot stand komen en hoe onafhankelijkheid geborgd is
@@ -158,7 +158,7 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 ## Voor klinieken
 
 - [Aanmelden of vermelding aanvullen](https://dierenkliniek.nl/?view=aanmelden): gratis basisvermelding voor elke Nederlandse kliniek
-- [Pakketten](https://dierenkliniek.nl/pakketten): Gratis, Basis, Plus en Premium
+- [Pakketten](https://dierenkliniek.nl/pakketten): Basis (gratis), Plus en Premium
 - [Badge voor uw website](https://dierenkliniek.nl/badge): gratis badge met de eigen klinieknaam
 - [Logo's en huisstijl](https://dierenkliniek.nl/design): logopakket voor pers en partners
 
@@ -166,7 +166,8 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 - Dierenkliniek.nl vermeldt 605 dierenklinieken in Nederland, verdeeld over 369 plaatsen en 12 provincies.
 - 109 van die klinieken bieden 24/7 spoedhulp.
-- De basisvermelding is gratis; betaalde pakketten kopen geen hogere positie in de zoekresultaten.
+- Elke kliniek staat gratis vermeld met volledige contactgegevens, ook zonder abonnement.
+- Een betaald pakket geeft een hogere positie binnen 10 km van de zoekopdracht en extra profielfuncties, maar houdt nooit een andere praktijk uit de resultaten.
 - Bij spoed geldt altijd: bel de kliniek voordat u langsgaat, zodat de dienstdoende dierenarts zich kan voorbereiden.
 - De kennisbank is algemene voorlichting en vervangt geen diagnose van een dierenarts.
 

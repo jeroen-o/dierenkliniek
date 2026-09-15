@@ -40,7 +40,7 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 - [Alle provincies](${SITE}/provincies): klinieken gegroepeerd per provincie
 - [Specialismen](${SITE}/specialismen): klinieken per aandachtsgebied
 - [Over ons](${SITE}/over-ons): wie het platform maakt en met welk doel
-- [Onafhankelijkheid](${SITE}/onafhankelijkheid): waarom betaalde pakketten geen hogere positie opleveren
+- [Onafhankelijkheid](${SITE}/onafhankelijkheid): hoe vermeldingen tot stand komen en wat een betaald pakket wel en niet doet
 - [Contact](${SITE}/contact): e-mail, telefoon en postadres
 - [Partners](${SITE}/partners): organisaties in dierenwelzijn waar wij naar verwijzen
 - [Vermeldingsbeleid](${SITE}/vermeldingsbeleid): hoe vermeldingen tot stand komen en hoe onafhankelijkheid geborgd is
@@ -75,7 +75,7 @@ ${articles.map(a => `- [${a.title}](${SITE}/kennisbank/${a.slug}): ${a.excerpt}`
 ## Voor klinieken
 
 - [Aanmelden of vermelding aanvullen](${SITE}/?view=aanmelden): gratis basisvermelding voor elke Nederlandse kliniek
-- [Pakketten](${SITE}/pakketten): Gratis, Basis, Plus en Premium
+- [Pakketten](${SITE}/pakketten): Basis (gratis), Plus en Premium
 - [Badge voor uw website](${SITE}/badge): gratis badge met de eigen klinieknaam
 - [Logo's en huisstijl](${SITE}/design): logopakket voor pers en partners
 
@@ -83,7 +83,8 @@ ${articles.map(a => `- [${a.title}](${SITE}/kennisbank/${a.slug}): ${a.excerpt}`
 
 - Dierenkliniek.nl vermeldt ${CLINICS.length} dierenklinieken in Nederland, verdeeld over ${Object.keys(cityCounts).length} plaatsen en 12 provincies.
 - ${spoed.length} van die klinieken bieden 24/7 spoedhulp.
-- De basisvermelding is gratis; betaalde pakketten kopen geen hogere positie in de zoekresultaten.
+- Elke kliniek staat gratis vermeld met volledige contactgegevens, ook zonder abonnement.
+- Een betaald pakket geeft een hogere positie binnen 10 km van de zoekopdracht en extra profielfuncties, maar houdt nooit een andere praktijk uit de resultaten.
 - Bij spoed geldt altijd: bel de kliniek voordat u langsgaat, zodat de dienstdoende dierenarts zich kan voorbereiden.
 - De kennisbank is algemene voorlichting en vervangt geen diagnose van een dierenarts.
 
