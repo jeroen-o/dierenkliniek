@@ -72,7 +72,7 @@ const EXTRA_CSS = `
 // Officiele profielen van Dierenkliniek.nl. Voeg een nieuwe regel toe zodra een
 // profiel live staat, draai daarna: node tools/build.js
 const SOCIALE_PROFIELEN = [
-  'https://www.linkedin.com/company/146355905/',
+  'https://www.linkedin.com/company/dierenkliniek-nl/',
   'https://www.facebook.com/dierenkliniek.nl',
   'https://www.instagram.com/dierenkliniek.nl/'
 ];
