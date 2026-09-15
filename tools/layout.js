@@ -73,7 +73,8 @@ const SOCIALE_PROFIELEN = [
   'https://www.linkedin.com/company/146355905/',
   // Zodra de pagina een gebruikersnaam krijgt, wordt dit
   // https://www.facebook.com/<naam>. Werk die dan hier en in index.html bij.
-  'https://www.facebook.com/profile.php?id=61594457936929'
+  'https://www.facebook.com/profile.php?id=61594457936929',
+  'https://www.instagram.com/dierenkliniek.nl/'
 ];
 
 // Organization-schema dat op elke gegenereerde pagina hoort (entiteitsconsistentie

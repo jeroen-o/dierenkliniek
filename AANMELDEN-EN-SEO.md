@@ -24,7 +24,8 @@ herhaling aan de automatisering over.
 
 Een profiel op LinkedIn of Facebook telt pas mee als entiteitssignaal wanneer de
 site er zelf naar verwijst. Dat gebeurt via `sameAs` in het Organization-schema.
-LinkedIn en Facebook staan er beide in.
+LinkedIn, Facebook en Instagram staan er alle drie in, en ze staan ook zichtbaar
+als icoon in de footer van elke pagina.
 
 Komt er een profiel bij, of verandert een adres:
 
