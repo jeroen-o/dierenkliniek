@@ -24,14 +24,23 @@ herhaling aan de automatisering over.
 
 Een profiel op LinkedIn of Facebook telt pas mee als entiteitssignaal wanneer de
 site er zelf naar verwijst. Dat gebeurt via `sameAs` in het Organization-schema.
-De LinkedIn-pagina staat er al in. Zodra de Facebook-pagina bestaat:
+LinkedIn en Facebook staan er beide in.
 
-1. Voeg de URL toe aan `SOCIALE_PROFIELEN` bovenin `tools/layout.js`.
-2. Voeg dezelfde URL toe aan het `sameAs`-blok in `index.html`.
+Komt er een profiel bij, of verandert een adres:
+
+1. Pas `SOCIALE_PROFIELEN` bovenin `tools/layout.js` aan.
+2. Pas hetzelfde `sameAs`-blok in `index.html` aan.
 3. Draai `node tools/build.js` en push.
 
 Zet er alleen profielen in die echt bestaan en beheerd worden. Een dood profiel
 in `sameAs` is een verkeerd signaal.
+
+**Geef de Facebook-pagina een gebruikersnaam.** Het adres is nu
+`facebook.com/profile.php?id=61594457936929`. Dat werkt, maar een pagina met een
+naam (`facebook.com/dierenkliniek.nl`) is beter deelbaar, oogt professioneler en
+is voor Google eenvoudiger aan de organisatie te koppelen. Dat stel je in onder
+Pagina-instellingen. Werk daarna de twee plekken hierboven bij; het oude adres
+blijft werken, maar het nieuwe is het adres dat je overal gebruikt.
 
 
 ## Belangrijk: gebruik een domeinproperty, geen www-property

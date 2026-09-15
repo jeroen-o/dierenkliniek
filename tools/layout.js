@@ -62,8 +62,10 @@ const EXTRA_CSS = `
 // Officiele profielen van Dierenkliniek.nl. Voeg een nieuwe regel toe zodra een
 // profiel live staat, draai daarna: node tools/build.js
 const SOCIALE_PROFIELEN = [
-  'https://www.linkedin.com/company/146355905/'
-  // Facebook-pagina toevoegen zodra die bestaat, als https://www.facebook.com/<naam>
+  'https://www.linkedin.com/company/146355905/',
+  // Zodra de pagina een gebruikersnaam krijgt, wordt dit
+  // https://www.facebook.com/<naam>. Werk die dan hier en in index.html bij.
+  'https://www.facebook.com/profile.php?id=61594457936929'
 ];
 
 // Organization-schema dat op elke gegenereerde pagina hoort (entiteitsconsistentie
