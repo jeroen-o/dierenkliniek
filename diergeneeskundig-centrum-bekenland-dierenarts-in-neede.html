@@ -192,6 +192,15 @@
     .footer-bot { flex-direction: column; align-items: flex-start; }
   }
 
+  .openingstijden { width: 100%; max-width: 420px; border-collapse: collapse; }
+  .openingstijden th, .openingstijden td { text-align: left; padding: 9px 4px; border-bottom: 1px solid #f0f2f5; font-size: 15px; }
+  .openingstijden th { font-weight: 600; color: #6b7280; width: 45%; }
+  .openingstijden td { font-variant-numeric: tabular-nums; }
+  .openingstijden td.dicht { color: #9ca3af; }
+  .openingstijden tr:last-child th, .openingstijden tr:last-child td { border-bottom: none; }
+  .tijden-bron { font-size: 13px; color: #9ca3af; margin-top: 10px; }
+  .tijden-onbevestigd { font-size: 13.5px; color: #78350F; background: #FEF3C7; border-left: 3px solid #F59E0B; padding: 10px 14px; border-radius: 0 6px 6px 0; margin-top: 12px; }
+  .visueel-verborgen { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 </style>
 
 <style>
@@ -207,6 +216,7 @@
 .site-footer .dk-social a { background: rgba(255,255,255,.12); }
 @media (prefers-reduced-motion: reduce) { .dk-social a { transition: none; } }
 </style>
+
 <!-- dk:seo-start -->
 <script type="application/ld+json">
 {
@@ -313,6 +323,14 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Bij deze praktijk staan de volgende aandachtsgebieden vermeld: Knaagdieren, Exoten, Dermatologie."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wat zijn de openingstijden van Diergeneeskundig Centrum Bekenland?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bij ons staan deze tijden genoteerd: maandag 12:30 tot 17:00, dinsdag 09:00 tot 17:00, woensdag 09:00 tot 17:00, donderdag 09:00 tot 17:00, vrijdag 09:00 tot 17:00, zaterdag gesloten, zondag gesloten. Ze zijn nog niet door de praktijk zelf bevestigd, dus bel 0545-481666 voordat u langskomt."
           }
         },
         {
@@ -480,12 +498,31 @@
   </div>
 
 <!-- dk:seo-start -->
+  <div class="card">
+    <h2>Openingstijden</h2>
+    <table class="openingstijden">
+      <caption class="visueel-verborgen">Openingstijden</caption>
+      <tbody>
+        <tr><th scope="row">Maandag</th><td>12:30 - 17:00</td></tr>
+        <tr><th scope="row">Dinsdag</th><td>09:00 - 17:00</td></tr>
+        <tr><th scope="row">Woensdag</th><td>09:00 - 17:00</td></tr>
+        <tr><th scope="row">Donderdag</th><td>09:00 - 17:00</td></tr>
+        <tr><th scope="row">Vrijdag</th><td>09:00 - 17:00</td></tr>
+        <tr><th scope="row">Zaterdag</th><td class="dicht">Gesloten</td></tr>
+        <tr><th scope="row">Zondag</th><td class="dicht">Gesloten</td></tr>
+      </tbody>
+    </table>
+    <p class="tijden-onbevestigd">Deze tijden zijn nog niet door de praktijk bevestigd. Bel voordat u langskomt.</p>
+    
+  </div>
+
   <div class="card faq">
     <h2>Veelgestelde vragen over Diergeneeskundig Centrum Bekenland</h2>
     <details><summary>Wat is het telefoonnummer van Diergeneeskundig Centrum Bekenland?</summary><p>Diergeneeskundig Centrum Bekenland is bereikbaar op 0545-481666. De praktijk zit aan Wheemerstraat 13, 7161 AN Neede (Gelderland).</p></details>
     <details><summary>Waar is Diergeneeskundig Centrum Bekenland gevestigd?</summary><p>Het adres is Wheemerstraat 13, 7161 AN Neede, provincie Gelderland.</p></details>
     <details><summary>Biedt Diergeneeskundig Centrum Bekenland 24/7 spoedhulp?</summary><p>Bij Diergeneeskundig Centrum Bekenland staat geen eigen 24/7 spoeddienst vermeld. Bel de praktijk op 0545-481666 voor de dienstregeling buiten openingstijden, of bekijk het landelijke overzicht van klinieken met 24-uurs spoedhulp.</p></details>
     <details><summary>Welke specialisaties heeft Diergeneeskundig Centrum Bekenland?</summary><p>Bij deze praktijk staan de volgende aandachtsgebieden vermeld: Knaagdieren, Exoten, Dermatologie.</p></details>
+    <details><summary>Wat zijn de openingstijden van Diergeneeskundig Centrum Bekenland?</summary><p>Bij ons staan deze tijden genoteerd: maandag 12:30 tot 17:00, dinsdag 09:00 tot 17:00, woensdag 09:00 tot 17:00, donderdag 09:00 tot 17:00, vrijdag 09:00 tot 17:00, zaterdag gesloten, zondag gesloten. Ze zijn nog niet door de praktijk zelf bevestigd, dus bel 0545-481666 voordat u langskomt.</p></details>
     <details><summary>Zijn er meer dierenklinieken in Neede?</summary><p>Ja. Op de pagina Dierenarts Neede vindt u alle bij ons bekende klinieken in Neede, en op de provinciepagina alle klinieken in Gelderland.</p></details>
   </div>
 
@@ -523,7 +560,7 @@
     <a href="https://www.facebook.com/profile.php?id=61594457936929" target="_blank" rel="me noopener" aria-label="Facebook" title="Dierenkliniek.nl op Facebook"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.96.93-1.96 1.89v2.25h3.33l-.53 3.49h-2.8V24C19.61 23.1 24 18.1 24 12.07z"/></svg></a>
   </div>
   <!-- dk:social-end -->
-  
+
       </div>
       <div>
         <h5>Voor huisdiereigenaren</h5>

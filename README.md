@@ -14,6 +14,7 @@ Live op https://dierenkliniek.nl
 | `index.html` → `CLINICS` | 605 klinieken met adres, contactgegevens en specialisaties |
 | `index.html` → `GLOSSARIUM` | 40 veterinaire termen |
 | `data/kennisbank.json` | 64 artikelen met volledige tekst |
+| `data/openingstijden.json` | openingstijden per kliniek, met slug als sleutel |
 
 De artikelen staan bewust apart. Hun volledige tekst is 220 kB en werd vroeger
 bij elk bezoek aan de homepage meegeladen, terwijl diezelfde tekst ook als
@@ -62,6 +63,8 @@ gegenereerde pagina heeft geen zin: de volgende build overschrijft het.
 | `fix-links.js` | wijst interne links naar de canonieke URL |
 | `build-sitemaps.js` | vier sitemaps plus de index |
 | `build-llms.js` | `llms.txt` en `llms-full.txt` voor AI-assistenten |
+| `openingstijden.js` | leest, controleert en rendert openingstijden |
+| `import-openingstijden.js` | sjabloon maken en ingevulde CSV inlezen |
 | `validate.js` | controleert de hele site |
 | `indexnow.js` | meldt wijzigingen bij Bing, Yandex en Seznam |
 | `search-console.js` | sitemaps, indexeringsstatus en prestatierapport bij Google |
@@ -83,6 +86,36 @@ ontbreken. Zie `AANMELDEN-EN-SEO.md`.
   en AI-vindbaarheid, plus de instelstappen voor de twee sleutels.
 - `CHROME-OPDRACHTEN.md` bevat kant-en-klare opdrachten voor de dingen die
   alleen in een ingelogde browser kunnen.
+
+## Openingstijden
+
+De tijden staan in `data/openingstijden.json` met de kliniek-slug als sleutel.
+Een dag mag meerdere blokken hebben (`09:00-12:00, 13:00-18:00`); `gesloten`
+betekent dicht en een ontbrekende dag betekent onbekend.
+
+Een regel telt pas als bevestigd wanneer er een `bron` in staat en `onbevestigd`
+ontbreekt. Dat onderscheid bepaalt wat er gebeurt:
+
+| | Zichtbaar op de pagina | In schema.org |
+| --- | --- | --- |
+| Bevestigd (met `bron`) | tabel plus bronvermelding | ja |
+| Onbevestigd | tabel plus waarschuwing "bel eerst" | nee |
+
+Onbevestigde tijden gaan bewust niet het schema in. Google bouwt daar de
+"nu open"-labels op, en die mogen niet op een aanname rusten: iemand rijdt er
+met een ziek dier op af.
+
+Tijden verzamelen gaat via een CSV:
+
+```bash
+node tools/import-openingstijden.js sjabloon                        # invulbestand met alle klinieken
+node tools/import-openingstijden.js import data/openingstijden-sjabloon.csv
+node tools/import-openingstijden.js status                          # hoeveel er bekend zijn
+```
+
+Vul bij een bevestigde regel de kolom `bron` in, bijvoorbeeld
+"opgave kliniek per e-mail, 2026-10-03". Daarmee verdwijnt de waarschuwing en
+komt de kliniek in aanmerking voor de "nu open"-weergave in Google.
 
 ## Let op
 

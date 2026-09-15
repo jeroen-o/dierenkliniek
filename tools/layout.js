@@ -56,6 +56,14 @@ const EXTRA_CSS = `
   .callout-red { background: #FEF2F2; border-left-color: #E63946; }
   .toc { background: #F8FBFD; border: 1px solid #E5EDF3; border-radius: 10px; padding: 16px 20px; margin-bottom: 24px; }
   .toc ul { list-style: none; padding: 0; }
+  .openingstijden { width: 100%; max-width: 420px; border-collapse: collapse; }
+  .openingstijden th, .openingstijden td { text-align: left; padding: 9px 4px; border-bottom: 1px solid #eef2f6; font-size: 15px; }
+  .openingstijden th { font-weight: 600; color: #4A5C70; width: 45%; }
+  .openingstijden td { font-variant-numeric: tabular-nums; }
+  .openingstijden td.dicht { color: #8A98A8; }
+  .tijden-bron { font-size: 13px; color: #8A98A8; margin-top: 10px; }
+  .tijden-onbevestigd { font-size: 13.5px; color: #78350F; background: #FEF3C7; border-left: 3px solid #F59E0B; padding: 10px 14px; border-radius: 0 6px 6px 0; margin-top: 12px; }
+  .visueel-verborgen { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .toc li { padding: 5px 0; border-bottom: none; }
 `;
 
@@ -89,7 +97,53 @@ const ORGANIZATION = {
   // sameAs koppelt de officiele profielen aan deze organisatie. Google en
   // taalmodellen gebruiken dat om te bepalen dat het steeds om dezelfde
   // partij gaat. Vul een profiel pas in als het echt bestaat en beheerd wordt.
-  sameAs: SOCIALE_PROFIELEN
+  sameAs: SOCIALE_PROFIELEN,
+  // Bereikbaarheid van het eigen kantoor in Amersfoort, opgegeven door de
+  // exploitant. Dit zegt niets over de openingstijden van de klinieken.
+  openingHoursSpecification: [
+      {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Monday",
+          "opens": "12:30",
+          "closes": "17:00"
+      },
+      {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Tuesday",
+          "opens": "09:00",
+          "closes": "17:00"
+      },
+      {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Wednesday",
+          "opens": "09:00",
+          "closes": "17:00"
+      },
+      {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Thursday",
+          "opens": "09:00",
+          "closes": "17:00"
+      },
+      {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Friday",
+          "opens": "09:00",
+          "closes": "17:00"
+      },
+      {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Saturday",
+          "opens": "00:00",
+          "closes": "00:00"
+      },
+      {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Sunday",
+          "opens": "00:00",
+          "closes": "00:00"
+      }
+  ]
 };
 
 function breadcrumbLd(items) {

@@ -7,6 +7,9 @@ const fs = require('fs');
 const path = require('path');
 const L = require('./layout');
 const DATA = require('./extract-data');
+const O = require('./openingstijden');
+
+const TIJDEN = O.laad();
 
 const ROOT = L.ROOT;
 const { CLINICS } = DATA;
@@ -84,6 +87,8 @@ for (const c of CLINICS) {
   const isSpoed = (c.tags || []).includes('spoed');
   const mapUrl = 'https://www.google.com/maps/search/?api=1&query=' +
     encodeURIComponent(`${c.name}, ${c.address}, ${c.postcode} ${c.city}`);
+  const dagen = TIJDEN[slug];
+  const tijdenSchema = O.schemaVoor(dagen);
 
   const faqs = [
     {
@@ -103,6 +108,12 @@ for (const c of CLINICS) {
     specs.length ? {
       q: `Welke specialisaties heeft ${c.name}?`,
       a: `Bij deze praktijk staan de volgende aandachtsgebieden vermeld: ${specs.join(', ')}.`
+    } : null,
+    O.samenvatting(dagen) ? {
+      q: `Wat zijn de openingstijden van ${c.name}?`,
+      a: O.bevestigd(dagen)
+        ? `${c.name} is geopend op ${O.samenvatting(dagen)}.`
+        : `Bij ons staan deze tijden genoteerd: ${O.samenvatting(dagen)}. Ze zijn nog niet door de praktijk zelf bevestigd, dus bel ${c.phone} voordat u langskomt.`
     } : null,
     prov ? {
       q: `Zijn er meer dierenklinieken in ${c.city}?`,
@@ -147,6 +158,8 @@ for (const c of CLINICS) {
         },
         geo: (c.lat && c.lng) ? { '@type': 'GeoCoordinates', latitude: c.lat, longitude: c.lng } : undefined,
         ...(specs.length ? { knowsAbout: specs } : {}),
+        // Een 24-uurs spoeddienst overschrijft de gewone openingstijden; anders
+        // gelden de bevestigde tijden, als die er zijn.
         ...(isSpoed ? {
           openingHoursSpecification: {
             '@type': 'OpeningHoursSpecification',
@@ -154,7 +167,7 @@ for (const c of CLINICS) {
             opens: '00:00', closes: '23:59'
           },
           availableService: { '@type': 'MedicalProcedure', name: 'Spoedhulp 24/7' }
-        } : {}),
+        } : (tijdenSchema ? { openingHoursSpecification: tijdenSchema } : {})),
         ...(c.website ? { sameAs: [c.website] } : {}),
         subjectOf: { '@id': url + '#webpage' }
       },
@@ -162,7 +175,16 @@ for (const c of CLINICS) {
     ]
   };
 
-  const block = `  <div class="card faq">
+  const tijdenTabel = O.tabelVoor(dagen, L.esc);
+  const tijdenBlok = tijdenTabel ? `  <div class="card">
+    <h2>Openingstijden</h2>
+    ${tijdenTabel}
+    ${isSpoed ? '<p style="margin-top:10px;">Deze praktijk biedt daarnaast 24/7 spoedhulp. Bel altijd eerst.</p>' : ''}
+  </div>
+
+` : '';
+
+  const block = `${tijdenBlok}  <div class="card faq">
     <h2>Veelgestelde vragen over ${L.esc(c.name)}</h2>
     ${faqs.map(f => `<details><summary>${L.esc(f.q)}</summary><p>${L.esc(f.a)}</p></details>`).join('\n    ')}
   </div>
