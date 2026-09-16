@@ -79,25 +79,15 @@
     "zo": "gesloten",
     "onbevestigd": true
   },
-  "anicura-maastricht-dierenarts-in-maastricht": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
   "anicura-west-friesland-dierenarts-in-hoorn": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
+    "ma": "08:00-20:00",
+    "di": "08:00-20:00",
+    "wo": "08:00-20:00",
+    "do": "08:00-20:00",
+    "vr": "08:00-20:00",
+    "za": "10:00-17:00",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-16"
   },
   "barendrecht-dierenarts-in-zutphen": {
     "ma": "12:30-17:00",
@@ -110,14 +100,14 @@
     "onbevestigd": true
   },
   "beterbeest-dierenartsen-dierenarts-in-amersfoort": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
+    "ma": "09:00-17:00",
+    "di": "14:00-17:00",
     "wo": "09:00-17:00",
     "do": "09:00-17:00",
     "vr": "09:00-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-16"
   },
   "boschhoven-kliniek-voor-dieren-dierenarts-in-leende": {
     "ma": "12:30-17:00",
@@ -240,14 +230,14 @@
     "onbevestigd": true
   },
   "dap-abcoude-dierenarts-in-abcoude": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "09:00-18:00",
+    "di": "09:00-18:00",
+    "wo": "09:00-19:30",
+    "do": "09:00-18:00",
+    "vr": "09:00-18:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-16"
   },
   "dap-amstel-vecht-dierenarts-in-vinkeveen": {
     "ma": "08:00-18:00",
@@ -950,14 +940,14 @@
     "onbevestigd": true
   },
   "dierenartsenpraktijk-bernisse-dierenarts-in-heenvliet": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "09:00-12:00, 13:00-14:00",
+    "di": "09:00-12:00, 19:00-20:00",
+    "wo": "09:00-12:00, 13:00-14:00",
+    "do": "09:00-12:00, 19:00-20:00",
+    "vr": "09:00-12:00, 13:00-14:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-16 (uitsluitend op afspraak)"
   },
   "dierenartsenpraktijk-bolsward-dierenarts-in-bolward": {
     "ma": "12:30-17:00",
@@ -2320,14 +2310,14 @@
     "onbevestigd": true
   },
   "dierenkliniek-goirle-dierenarts-in-goirle": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
+    "ma": "08:30-10:00, 13:00-18:00",
+    "di": "08:30-10:00, 13:00-18:00",
+    "wo": "08:30-10:00, 13:00-18:00",
+    "do": "08:30-10:00, 13:00-18:00",
+    "vr": "08:30-10:00, 13:00-18:00",
+    "za": "09:00-12:00",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-16 (balietijden; spreekuur alleen op afspraak, zaterdag op afspraak)"
   },
   "dierenkliniek-grevelingenmeer-dierenarts-in-purmerend": {
     "ma": "12:30-17:00",
@@ -2480,24 +2470,14 @@
     "onbevestigd": true
   },
   "dierenkliniek-keistad-amersfoort-dierenarts-in-amersfoort": {
-    "ma": "12:30-17:00",
+    "ma": "09:00-17:00",
     "di": "09:00-17:00",
     "wo": "09:00-17:00",
     "do": "09:00-17:00",
     "vr": "09:00-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
-  },
-  "dierenkliniek-keistad-leusden-dierenarts-in-leusden": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-16"
   },
   "dierenkliniek-kortenoord-dierenarts-in-wageningen": {
     "ma": "12:30-17:00",
@@ -2530,26 +2510,6 @@
     "onbevestigd": true
   },
   "dierenkliniek-landgraaf-dierenarts-in-landgraaf": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
-  "dierenkliniek-leeuwendael-dierenarts-in-rijswijk": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
-  "dierenkliniek-leeuwendael-dierenarts-in-voorburg": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
     "wo": "09:00-17:00",
@@ -2660,16 +2620,6 @@
     "onbevestigd": true
   },
   "dierenkliniek-meursing-dierenarts-in-hazerswoude-dorp": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
-  "dierenkliniek-midden-nederland-dierenarts-in-maartensdijk": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
     "wo": "09:00-17:00",
@@ -3579,16 +3529,6 @@
     "zo": "gesloten",
     "onbevestigd": true
   },
-  "elke-dierenarts-leeuwarden-dierenarts-in-leeuwarden": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
   "erm-croughs-dierenarts-in-maastricht": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
@@ -3680,14 +3620,14 @@
     "onbevestigd": true
   },
   "gezelschapsdierenkliniek-roosendaal-dierenarts-in-roosendaal": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
+    "ma": "08:00-18:00",
+    "di": "08:00-18:00",
+    "wo": "08:00-18:00",
+    "do": "08:00-18:00",
+    "vr": "08:00-18:00",
+    "za": "09:30-12:00",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-16"
   },
   "gezelschapsdierenpraktijk-aalderinkshoek-dierenarts-in-almelo": {
     "ma": "12:30-17:00",
