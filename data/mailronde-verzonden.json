@@ -49,7 +49,8 @@
   },
   "mandy@dierenziekenhuizen.nl": {
     "id": "1a0a6fe7a007b509",
-    "op": "2026-09-15T21:34:57.932Z"
+    "op": "2026-09-15T21:34:57.932Z",
+    "bounce": "geblokkeerd door ontvanger (550 5.7.1)"
   },
   "info@centrumdierenartszeewolde.nl": {
     "id": "1a0a6ff44a11fe3d",
@@ -65,7 +66,8 @@
   },
   "dacwest@zeelandnet.nl": {
     "id": "1a0a701a41f8fd0f",
-    "op": "2026-09-15T21:39:50.659Z"
+    "op": "2026-09-15T21:39:50.659Z",
+    "bounce": "adres of domein bestaat niet"
   },
   "abcoude@dkavv.nl": {
     "id": "1a0a7024da8447f3",
@@ -93,7 +95,8 @@
   },
   "info@dierenartsenpraktijk-de-drait.nl": {
     "id": "1a0a7069f1c64201",
-    "op": "2026-09-15T21:44:33.890Z"
+    "op": "2026-09-15T21:44:33.890Z",
+    "bounce": "adres of domein bestaat niet"
   },
   "info@dierenartsenpraktijk.com": {
     "id": "1a0a70748f288710",
@@ -105,7 +108,8 @@
   },
   "dierenarts@dap-huisman-wahl.com": {
     "id": "1a0a708bccd2675b",
-    "op": "2026-09-15T21:47:11.988Z"
+    "op": "2026-09-15T21:47:11.988Z",
+    "bounce": "adres of domein bestaat niet"
   },
   "info@dapmaldenmook.nl": {
     "id": "1a0a70a75621b606",
@@ -113,7 +117,8 @@
   },
   "contact@mijndierenartnederrijn.nl": {
     "id": "1a0a70b21f973375",
-    "op": "2026-09-15T21:49:41.487Z"
+    "op": "2026-09-15T21:49:41.487Z",
+    "bounce": "adres of domein bestaat niet"
   },
   "balie@dapnwf.nl": {
     "id": "1a0a70bcd241843b",
@@ -173,7 +178,8 @@
   },
   "info@dgcdenieuwehanze.nl": {
     "id": "1a0a71674cc98962",
-    "op": "2026-09-15T22:02:34.259Z"
+    "op": "2026-09-15T22:02:34.259Z",
+    "bounce": "adres of domein bestaat niet"
   },
   "info@middensalland.nl": {
     "id": "1a0a7171eddfe441",
@@ -213,7 +219,8 @@
   },
   "dajordan@xs4all.nl": {
     "id": "1a0a71d98cc424e1",
-    "op": "2026-09-15T22:09:38.427Z"
+    "op": "2026-09-15T22:09:38.427Z",
+    "bounce": "adres of domein bestaat niet"
   },
   "info@dierenartspurmerend.nl": {
     "id": "1a0a71e3e0e23ff9",
@@ -245,7 +252,8 @@
   },
   "rianne.vanderwal@dierenartsenlelystad.nl": {
     "id": "1a0a723af8530779",
-    "op": "2026-09-15T22:16:56.381Z"
+    "op": "2026-09-15T22:16:56.381Z",
+    "bounce": "adres of domein bestaat niet"
   },
   "contact@dapbeekdal.nl": {
     "id": "1a0a7245714ab99a",
@@ -277,7 +285,8 @@
   },
   "dapdelekstreek@planet.nl": {
     "id": "1a0a728bd887ba8f",
-    "op": "2026-09-15T22:23:10.834Z"
+    "op": "2026-09-15T22:23:10.834Z",
+    "bounce": "adres of domein bestaat niet"
   },
   "info@dapdokkum.nl": {
     "id": "1a0a72953a842a22",
@@ -309,23 +318,28 @@
   },
   "goes@mosselmanverboom.nl": {
     "id": "1a0a8f3c28a7328b",
-    "op": "2026-09-16T06:44:27.598Z"
+    "op": "2026-09-16T06:44:27.598Z",
+    "bounce": "adres of domein bestaat niet"
   },
   "info@mosselmanverboom.nl": {
     "id": "1a0a8f45bd9de6de",
-    "op": "2026-09-16T06:44:27.662Z"
+    "op": "2026-09-16T06:44:27.662Z",
+    "bounce": "adres of domein bestaat niet"
   },
   "kruiningen@mosselmanverboom.nl": {
     "id": "1a0a8f4f56ca553f",
-    "op": "2026-09-16T06:44:27.730Z"
+    "op": "2026-09-16T06:44:27.730Z",
+    "bounce": "adres of domein bestaat niet"
   },
   "dierenarts@dapspierdijkobdam.nl": {
     "id": "1a0a8f5878d0723b",
-    "op": "2026-09-16T06:44:27.839Z"
+    "op": "2026-09-16T06:44:27.839Z",
+    "bounce": "mailserver ontvanger defect of vol"
   },
   "info@dap-roden.nl": {
     "id": "1a0a8f650db3f843",
-    "op": "2026-09-16T06:47:17.337Z"
+    "op": "2026-09-16T06:47:17.337Z",
+    "bounce": "adres of domein bestaat niet"
   },
   "dapvanzwol@gmail.com": {
     "id": "1a0a8f6e95a64115",
@@ -389,7 +403,8 @@
   },
   "kapelle@mosselmanverboom.nl": {
     "id": "1a0a9009466a4dd9",
-    "op": "2026-09-16T06:58:30.188Z"
+    "op": "2026-09-16T06:58:30.188Z",
+    "bounce": "adres of domein bestaat niet"
   },
   "info@dierenartsverboom.nl": {
     "id": "1a0a901283c4b4d8",
@@ -401,7 +416,8 @@
   },
   "achtsebarrier@dierendokters.com": {
     "id": "1a0a902525b000d5",
-    "op": "2026-09-16T06:58:30.391Z"
+    "op": "2026-09-16T06:58:30.391Z",
+    "bounce": "adres of domein bestaat niet"
   },
   "amsterdam@dierendokters.com": {
     "id": "1a0a9032ab0bea27",
@@ -421,7 +437,8 @@
   },
   "aboer@dierendokters.com": {
     "id": "1a0a905af1c11ef7",
-    "op": "2026-09-16T07:04:01.636Z"
+    "op": "2026-09-16T07:04:01.636Z",
+    "bounce": "adres of domein bestaat niet"
   },
   "info@dierengezondheidscentrum.nl": {
     "id": "1a0a9063e7b1a1c6",
@@ -445,7 +462,8 @@
   },
   "sbeunis@dierenkliniekachterstraat.nl": {
     "id": "1a0a90967ab4b46b",
-    "op": "2026-09-16T07:06:55.820Z"
+    "op": "2026-09-16T07:06:55.820Z",
+    "bounce": "mailserver ontvanger defect of vol"
   },
   "dierenkliniekalkmaar@xs4all.nl": {
     "id": "1a0a909fb021a56a",
@@ -509,7 +527,8 @@
   },
   "info@dapblommaart.nl": {
     "id": "1a0a915ab9422734",
-    "op": "2026-09-16T07:20:37.199Z"
+    "op": "2026-09-16T07:20:37.199Z",
+    "bounce": "geblokkeerd door ontvanger (550 5.7.1)"
   },
   "info@boerskotten.nl": {
     "id": "1a0a9163f1b3b0f9",
@@ -557,7 +576,8 @@
   },
   "vragen@dierenkliniekdebeer.nl": {
     "id": "1a0a91e05ab7cd62",
-    "op": "2026-09-16T07:29:26.930Z"
+    "op": "2026-09-16T07:29:26.930Z",
+    "bounce": "adres of domein bestaat niet"
   },
   "info@dierenkliniekdebilt.nl": {
     "id": "1a0a91e9993096fb",
@@ -601,7 +621,8 @@
   },
   "amersfoort@dierenziekenhuizen.nl": {
     "id": "1a0a925da03bced7",
-    "op": "2026-09-16T07:39:16.553Z"
+    "op": "2026-09-16T07:39:16.553Z",
+    "bounce": "geblokkeerd door ontvanger (550 5.7.1)"
   },
   "utrecht@dierenziekenhuizen.nl": {
     "id": "1a0a92670ad9c7d3",
@@ -613,7 +634,8 @@
   },
   "dap.krayenhoff@worldonline.nl": {
     "id": "1a0a92798ac901ba",
-    "op": "2026-09-16T07:39:16.735Z"
+    "op": "2026-09-16T07:39:16.735Z",
+    "bounce": "adres of domein bestaat niet"
   },
   "info@dierenartsteraar.nl": {
     "id": "1a0a92920edeb027",
@@ -653,7 +675,8 @@
   },
   "dapypenburg@planet.nl": {
     "id": "1a0a92f96ab5edb4",
-    "op": "2026-09-16T07:50:18.452Z"
+    "op": "2026-09-16T07:50:18.452Z",
+    "bounce": "adres of domein bestaat niet"
   },
   "info@dierenartsvanderkraats.nl": {
     "id": "1a0a93051e4649a4",
@@ -685,7 +708,8 @@
   },
   "jboere@vetsenpets.nl": {
     "id": "1a0a936d20c672ed",
-    "op": "2026-09-16T07:55:55.250Z"
+    "op": "2026-09-16T07:55:55.250Z",
+    "bounce": "geblokkeerd door ontvanger (550 5.7.1)"
   },
   "graafschap@dgdierenartsen.nl": {
     "id": "1a0a93934480920b",
@@ -725,7 +749,8 @@
   },
   "dkldelftcentrum@online.nl": {
     "id": "1a0a97d294fe636b",
-    "op": "2026-09-16T09:16:18.505Z"
+    "op": "2026-09-16T09:16:18.505Z",
+    "bounce": "adres of domein bestaat niet"
   },
   "info@dierenkliniekdierbaar.nl": {
     "id": "1a0a97dbd4b8f74e",
@@ -885,7 +910,8 @@
   },
   "info@dkmidden.nl": {
     "id": "1a0a99749e5d97f7",
-    "op": "2026-09-16T09:41:06.101Z"
+    "op": "2026-09-16T09:41:06.101Z",
+    "bounce": "adres bestaat niet (postmaster evidensia.nl)"
   },
   "info@dierenklinieknederlandplein.nl": {
     "id": "1a0a997fa70794a7",
@@ -925,7 +951,8 @@
   },
   "jessica@dierenkliniekoudorp.nl": {
     "id": "1a0a99d546a01f02",
-    "op": "2026-09-16T09:47:44.992Z"
+    "op": "2026-09-16T09:47:44.992Z",
+    "bounce": "adres of domein bestaat niet"
   },
   "info@dierenkliniekparijsch.nl": {
     "id": "1a0a99e0e0ff16de",
@@ -1037,7 +1064,8 @@
   },
   "dierenkliniekwassenaar@casema.nl": {
     "id": "1a0a9ae8f49232c2",
-    "op": "2026-09-16T10:06:39.503Z"
+    "op": "2026-09-16T10:06:39.503Z",
+    "bounce": "adres of domein bestaat niet"
   },
   "info@depostwagen.nl": {
     "id": "1a0a9afc6ed42ecf",
@@ -1181,7 +1209,8 @@
   },
   "goor@bekenland.nl": {
     "id": "1a0a9e67452af8fa",
-    "op": "2026-09-16T11:09:00.014Z"
+    "op": "2026-09-16T11:09:00.014Z",
+    "bounce": "geblokkeerd door ontvanger (550 5.7.1)"
   },
   "info@bekenland.nl": {
     "id": "1a0a9e70bd1f54d5",
@@ -1205,7 +1234,8 @@
   },
   "info@dierenkliniekbladel.nl": {
     "id": "1a0a9ea3546559fd",
-    "op": "2026-09-16T11:12:23.113Z"
+    "op": "2026-09-16T11:12:23.113Z",
+    "bounce": "mailserver ontvanger defect of vol"
   },
   "info@dkhn.nl": {
     "id": "1a0a9eacb383fefa",
@@ -1221,7 +1251,8 @@
   },
   "abcoude@dokterannemarie.nl": {
     "id": "1a0a9ecb7e57e054",
-    "op": "2026-09-16T11:15:41.516Z"
+    "op": "2026-09-16T11:15:41.516Z",
+    "bounce": "adres of domein bestaat niet"
   },
   "leeuwarden@elkedierenarts.nl": {
     "id": "1a0a9ed4c5b49d9e",
@@ -1241,7 +1272,8 @@
   },
   "info@gddepeel.nl": {
     "id": "1a0a9efc3be2087f",
-    "op": "2026-09-16T11:21:29.121Z"
+    "op": "2026-09-16T11:21:29.121Z",
+    "bounce": "mailserver ontvanger defect of vol"
   },
   "dierenarts@gdkr.nl": {
     "id": "1a0a9f058dd7867d",
@@ -1249,7 +1281,8 @@
   },
   "info@dierenartsaalderinkshoek.nl": {
     "id": "1a0a9f0f02bd9603",
-    "op": "2026-09-16T11:21:29.256Z"
+    "op": "2026-09-16T11:21:29.256Z",
+    "bounce": "adres of domein bestaat niet"
   },
   "info@praktijksweenslag.nl": {
     "id": "1a0a9f42b0f041d3",
@@ -1289,7 +1322,8 @@
   },
   "infogezelschapsdieren@lintjeshof.com": {
     "id": "1a0a9f9b13bc064b",
-    "op": "2026-09-16T11:28:34.947Z"
+    "op": "2026-09-16T11:28:34.947Z",
+    "bounce": "geblokkeerd door ontvanger (550 5.7.1)"
   },
   "contact@mijndierenartsoosterbeek.nl": {
     "id": "1a0a9fa70ca9cadc",
@@ -1317,7 +1351,8 @@
   },
   "info@sterkliniekdierenartsendenhelder.nl": {
     "id": "1a0a9fe2d01844d4",
-    "op": "2026-09-16T11:35:26.962Z"
+    "op": "2026-09-16T11:35:26.962Z",
+    "bounce": "adres of domein bestaat niet"
   },
   "doetinchem@dapdz.nl": {
     "id": "1a0a9fec4ac67a74",
@@ -1353,7 +1388,8 @@
   },
   "doetinchem@vetsplace.nl": {
     "id": "1a0aa03d9f8ccc04",
-    "op": "2026-09-16T11:41:40.559Z"
+    "op": "2026-09-16T11:41:40.559Z",
+    "bounce": "adres of domein bestaat niet"
   },
   "oosterhout@vetsplace.nl": {
     "id": "1a0aa046c8acb68c",
@@ -1385,7 +1421,8 @@
   },
   "druten@vetsplace.nl": {
     "id": "1a0aa08f40b61c21",
-    "op": "2026-09-16T11:45:57.759Z"
+    "op": "2026-09-16T11:45:57.759Z",
+    "bounce": "adres of domein bestaat niet"
   },
   "tilburg.aabe@vetsplace.nl": {
     "id": "1a0aa098ae8d268a",
@@ -1417,7 +1454,8 @@
   },
   "annelies@plusdierenklinieken.nl": {
     "id": "1a0aa0f8ba792d41",
-    "op": "2026-09-16T11:53:53.197Z"
+    "op": "2026-09-16T11:53:53.197Z",
+    "bounce": "geblokkeerd door ontvanger (550 5.7.1)"
   },
   "info@dierenklinieken.net": {
     "id": "1a0aa10d37e3e909",
