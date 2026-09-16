@@ -1,45 +1,50 @@
-# Bounces mailronde (stand 2026-09-16)
+# Bounces mailronde met praktijk en URL (stand 2026-09-16)
 
-39 adressen van 357 kwamen niet aan.
-
-| Adres | Praktijk | Oorzaak | Datum |
-|---|---|---|---|
-| info@dkmidden.nl | (niet meer in de data) | adres bestaat niet (postmaster evidensia.nl) | 2026-09-16 |
-| abcoude@dokterannemarie.nl | Dokter Annemarie (Nederhorst den Berg) | adres of domein bestaat niet | 2026-09-16 |
-| aboer@dierendokters.com | DierenDokters Zeist (Zeist) | adres of domein bestaat niet | 2026-09-16 |
-| achtsebarrier@dierendokters.com | DierenDokters Achtse Barrier (Eindhoven) | adres of domein bestaat niet | 2026-09-16 |
-| contact@mijndierenartnederrijn.nl | DAP Neederrijn (Arnhem) | adres of domein bestaat niet | 2026-09-15 |
-| dacwest@zeelandnet.nl | DACWest (Oostburg) | adres of domein bestaat niet | 2026-09-15 |
-| dajordan@xs4all.nl | Dierenarts Peter Wiersma (Utrecht) | adres of domein bestaat niet | 2026-09-15 |
-| dap.krayenhoff@worldonline.nl | Dap. De Krayenhoff (Naarden) | adres of domein bestaat niet | 2026-09-16 |
-| dapdelekstreek@planet.nl | Dierenartsenpraktijk De Lekstreek (Giessenburg) | adres of domein bestaat niet | 2026-09-15 |
-| dapypenburg@planet.nl | Dierenarts Dorpsstraat (Nootdorp); Dierenartsenpraktijk Ypenburg (Den Haag) | adres of domein bestaat niet | 2026-09-16 |
-| dierenarts@dap-huisman-wahl.com | DAP H.M. Huisman - J.D. Wahl (Amsterdam) | adres of domein bestaat niet | 2026-09-15 |
-| dierenkliniekwassenaar@casema.nl | Dierenkliniek Wassenaar (Wassenaar) | adres of domein bestaat niet | 2026-09-16 |
-| dkldelftcentrum@online.nl | Dierenkliniek Delft Centrum (Delft) | adres of domein bestaat niet | 2026-09-16 |
-| doetinchem@vetsplace.nl | Vets Place Doetinchem (Doetinchem) | adres of domein bestaat niet | 2026-09-16 |
-| druten@vetsplace.nl | Vets Place Druten (Druten) | adres of domein bestaat niet | 2026-09-16 |
-| goes@mosselmanverboom.nl | Dierenartsenpraktijk Mosselman (Goes) | adres of domein bestaat niet | 2026-09-16 |
-| info@dap-roden.nl | Dierenartsenpraktijk Roden (Roden) | adres of domein bestaat niet | 2026-09-16 |
-| info@dgcdenieuwehanze.nl | DGC de Nieuwe HANZE (Kampen) | adres of domein bestaat niet | 2026-09-15 |
-| info@dierenartsaalderinkshoek.nl | Gezelschapsdierenpraktijk Aalderinkshoek (Almelo) | adres of domein bestaat niet | 2026-09-16 |
-| info@dierenartsenpraktijk-de-drait.nl | DAP de Drait (Drachten) | adres of domein bestaat niet | 2026-09-15 |
-| info@mosselmanverboom.nl | Dierenartsenpraktijk Mosselman ('s-Gravenpolder) | adres of domein bestaat niet | 2026-09-16 |
-| info@statenlaan.demon | (niet meer in de data) | adres of domein bestaat niet | 2026-09-16 |
-| info@sterkliniekdierenartsendenhelder.nl | Sterkliniek Dierenartsen Den Helder (Den Helder) | adres of domein bestaat niet | 2026-09-16 |
-| jessica@dierenkliniekoudorp.nl | Dierenkliniek Oudorp (Alkmaar) | adres of domein bestaat niet | 2026-09-16 |
-| kapelle@mosselmanverboom.nl | Dierenartspraktijk Mosselman en Verboom, Kapelle (Kapelle) | adres of domein bestaat niet | 2026-09-16 |
-| kruiningen@mosselmanverboom.nl | Dierenartsenpraktijk Mosselman (Kruiningen) | adres of domein bestaat niet | 2026-09-16 |
-| rianne.vanderwal@dierenartsenlelystad.nl | Dierenartsen Lelystad (Lelystad) | adres of domein bestaat niet | 2026-09-15 |
-| vragen@dierenkliniekdebeer.nl | Dierenkliniek De Beer (Zwolle) | adres of domein bestaat niet | 2026-09-16 |
-| amersfoort@dierenziekenhuizen.nl | Caressa Dierenkliniek Amersfoort (Amersfoort) | geblokkeerd door ontvanger (550 5.7.1) | 2026-09-16 |
-| annelies@plusdierenklinieken.nl | PlusDierenklinieken De Saen (Zaandam); PlusDierenklinieken Westerwatering (Zaandam); PlusDiernklinieken Saendelft (Assendelft) | geblokkeerd door ontvanger (550 5.7.1) | 2026-09-16 |
-| goor@bekenland.nl | Diergeneeskundig Centrum Bekenland (Goor) | geblokkeerd door ontvanger (550 5.7.1) | 2026-09-16 |
-| info@dapblommaart.nl | Dierenkliniek Blommaart (Almere) | geblokkeerd door ontvanger (550 5.7.1) | 2026-09-16 |
-| infogezelschapsdieren@lintjeshof.com | Lintjeshof (Nederweert) | geblokkeerd door ontvanger (550 5.7.1) | 2026-09-16 |
-| jboere@vetsenpets.nl | Dierenkliniek De Baronie (Prinsenbeek); Dierenkliniek De Beemd (Oosterhout); Dierenkliniek De Langstraat (Waalwijk); Dierenkliniek Tussen Mark en Amer (Zevenbergen); Vets (Hooge Zwaluwe) | geblokkeerd door ontvanger (550 5.7.1) | 2026-09-16 |
-| mandy@dierenziekenhuizen.nl | Caressa Dierenkliniek Delft (Delft) | geblokkeerd door ontvanger (550 5.7.1) | 2026-09-15 |
-| dierenarts@dapspierdijkobdam.nl | DAP Spierdijk-Obdam (Spierdijk); DierenartsenPraktijk Obdam (Obdam) | mailserver ontvanger defect of vol | 2026-09-16 |
-| info@dierenkliniekbladel.nl | Diernkliniek Bladel (Bladel) | mailserver ontvanger defect of vol | 2026-09-16 |
-| info@gddepeel.nl | Gezelschapsdierenartsen De Peel (Ysselsteyn) | mailserver ontvanger defect of vol | 2026-09-16 |
-| sbeunis@dierenkliniekachterstraat.nl | Dierenkliniek Achterstraat (Putten) | mailserver ontvanger defect of vol | 2026-09-16 |
+| Praktijk | Gebounced adres | Pagina op dierenkliniek.nl | Eigen website | Oorzaak | Opmerking |
+|---|---|---|---|---|---|
+| AniCura Den Helder - Texelstroomlaan (Den Helder) | info@sterkliniekdierenartsendenhelder.nl | https://dierenkliniek.nl/sterkliniek-dierenartsen-den-helder-dierenarts-in-den-helder | https://www.anicura.nl/ | adres of domein bestaat niet | mailadres inmiddels vervangen door denhelder@anicura.nl |
+| AniCura Dierenkliniek Delft (Delft) | dkldelftcentrum@online.nl | https://dierenkliniek.nl/dierenkliniek-delft-centrum-dierenarts-in-delft | http://www.dierenkliniekdelftcentrum.nl/ | adres of domein bestaat niet | mailadres inmiddels vervangen door delft@anicura.nl |
+| Caressa Dierenkliniek Amersfoort (Amersfoort) | amersfoort@dierenziekenhuizen.nl | https://dierenkliniek.nl/caressa-dierenkliniek-amersfoort-dierenarts-in-amersfoort |  | geblokkeerd door ontvanger (550 5.7.1) |  |
+| Caressa Dierenkliniek Delft (Delft) | mandy@dierenziekenhuizen.nl | https://dierenkliniek.nl/caressa-dierenkliniek-delft-dierenarts-in-delft | https://dierenziekenhuizen.nl/locaties/dierenarts-dierenkliniek-delft/ | geblokkeerd door ontvanger (550 5.7.1) |  |
+| DACWest (Oostburg) | dacwest@zeelandnet.nl | https://dierenkliniek.nl/dacwest-dierenarts-in-oostburg | http://www.dacwest.nl/ | adres of domein bestaat niet |  |
+| DAP de Drait (Drachten) | info@dierenartsenpraktijk-de-drait.nl | https://dierenkliniek.nl/dap-de-drait-dierenarts-in-drachten | http://dierenartsenpraktijk-de-drait.nl/ | adres of domein bestaat niet |  |
+| DAP H.M. Huisman - J.D. Wahl (Amsterdam) | dierenarts@dap-huisman-wahl.com | https://dierenkliniek.nl/dap-h-m-huisman-j-d-wahl-dierenarts-in-amsterdam | http://www.dap-huisman-wahl.nl/ | adres of domein bestaat niet |  |
+| DAP Neederrijn (Arnhem) | contact@mijndierenartnederrijn.nl | https://dierenkliniek.nl/dap-neederrijn-dierenarts-in-arnhem | http://www.dapnederrijn.nl/ | adres of domein bestaat niet |  |
+| DAP Spierdijk-Obdam (Spierdijk) | dierenarts@dapspierdijkobdam.nl | https://dierenkliniek.nl/dap-spierdijk-obdam-dierenarts-in-spierdijk | http://www.abcdierenarts.nl/ | mailserver ontvanger defect of vol |  |
+| Dap. De Krayenhoff (Naarden) | dap.krayenhoff@worldonline.nl | https://dierenkliniek.nl/dap-de-krayenhoff-dierenarts-in-naarden |  | adres of domein bestaat niet |  |
+| DGC de Nieuwe HANZE (Kampen) | info@dgcdenieuwehanze.nl | https://dierenkliniek.nl/dgc-de-nieuwe-hanze-dierenarts-in-kampen | http://www.dgcdenieuwehanze.nl/ | adres of domein bestaat niet |  |
+| Dierenarts Dorpsstraat (Nootdorp) | dapypenburg@planet.nl | https://dierenkliniek.nl/dierenarts-dorpsstraat-dierenarts-in-nootdorp | http://www.dierenartsypenburgnootdorp.nl/ | adres of domein bestaat niet |  |
+| Dierenarts Peter Wiersma (Utrecht) | dajordan@xs4all.nl | https://dierenkliniek.nl/dierenarts-peter-wiersma-dierenarts-in-utrecht | https://www.peterwiersma-dierenarts.nl/ | adres of domein bestaat niet |  |
+| Dierenartsen Lelystad (Lelystad) | rianne.vanderwal@dierenartsenlelystad.nl | https://dierenkliniek.nl/dierenartsen-lelystad-dierenarts-in-lelystad | http://www.dierenartsenlelystad.nl/ | adres of domein bestaat niet |  |
+| Dierenartsenpraktijk De Lekstreek (Giessenburg) | dapdelekstreek@planet.nl | https://dierenkliniek.nl/dierenartsenpraktijk-de-lekstreek-dierenarts-in-giessenburg | http://www.dierenartsenpraktijkdelekstreek.nl/ | adres of domein bestaat niet |  |
+| Dierenartsenpraktijk Mosselman ('s-Gravenpolder) | info@mosselmanverboom.nl | https://dierenkliniek.nl/dierenartsenpraktijk-mosselman-dierenarts-in-s-gravenpolder | http://www.dierenartsgoes.nl/ | adres of domein bestaat niet |  |
+| Dierenartsenpraktijk Mosselman (Goes) | goes@mosselmanverboom.nl | https://dierenkliniek.nl/dierenartsenpraktijk-mosselman-dierenarts-in-goes | http://www.dierenartsgoes.nl/ | adres of domein bestaat niet |  |
+| Dierenartsenpraktijk Mosselman (Kruiningen) | kruiningen@mosselmanverboom.nl | https://dierenkliniek.nl/dierenartsenpraktijk-mosselman-dierenarts-in-kruiningen | http://www.dierenartsgoes.nl/ | adres of domein bestaat niet |  |
+| DierenartsenPraktijk Obdam (Obdam) | dierenarts@dapspierdijkobdam.nl | https://dierenkliniek.nl/dierenartsenpraktijk-obdam-dierenarts-in-obdam | http://www.abcdierenarts.nl/ | mailserver ontvanger defect of vol |  |
+| Dierenartsenpraktijk Roden (Roden) | info@dap-roden.nl | https://dierenkliniek.nl/dierenartsenpraktijk-roden-dierenarts-in-roden | http://www.dap-roden.nl/ | adres of domein bestaat niet |  |
+| Dierenartsenpraktijk Ypenburg (Den Haag) | dapypenburg@planet.nl | https://dierenkliniek.nl/dierenartsenpraktijk-ypenburg-dierenarts-in-den-haag | http://www.dierenartsypenburgnootdorp.nl/ | adres of domein bestaat niet |  |
+| Dierenartspraktijk Mosselman en Verboom, Kapelle (Kapelle) | kapelle@mosselmanverboom.nl | https://dierenkliniek.nl/dierenartspraktijk-mosselman-en-verboom-kapelle-dierenarts-in-kapelle | http://www.dierenartskapelle.nl/ | adres of domein bestaat niet |  |
+| DierenDokters Achtse Barrier (Eindhoven) | achtsebarrier@dierendokters.com | https://dierenkliniek.nl/dierendokters-achtse-barrier-dierenarts-in-eindhoven | http://www.dierendokters.com/ | adres of domein bestaat niet |  |
+| DierenDokters Zeist (Zeist) | aboer@dierendokters.com | https://dierenkliniek.nl/dierendokters-zeist-dierenarts-in-zeist | https://www.dierendokters.com/dierenarts-dierenkliniek/zeist | adres of domein bestaat niet |  |
+| Dierenkliniek Achterstraat (Putten) | sbeunis@dierenkliniekachterstraat.nl | https://dierenkliniek.nl/dierenkliniek-achterstraat-dierenarts-in-putten | https://www.dierenkliniekachterstraat.nl/ | mailserver ontvanger defect of vol |  |
+| Dierenkliniek Blommaart (Almere) | info@dapblommaart.nl | https://dierenkliniek.nl/dierenkliniek-blommaart-dierenarts-in-almere | http://www.dapblommaart.nl/ | geblokkeerd door ontvanger (550 5.7.1) |  |
+| Dierenkliniek De Baronie (Prinsenbeek) | jboere@vetsenpets.nl | https://dierenkliniek.nl/dierenkliniek-de-baronie-dierenarts-in-prinsenbeek |  | geblokkeerd door ontvanger (550 5.7.1) |  |
+| Dierenkliniek De Beemd (Oosterhout) | jboere@vetsenpets.nl | https://dierenkliniek.nl/dierenkliniek-de-beemd-dierenarts-in-oosterhout |  | geblokkeerd door ontvanger (550 5.7.1) |  |
+| Dierenkliniek De Beer (Zwolle) | vragen@dierenkliniekdebeer.nl | https://dierenkliniek.nl/dierenkliniek-de-beer-dierenarts-in-zwolle | http://dierenkliniekdebeer.nl/ | adres of domein bestaat niet |  |
+| Dierenkliniek De Langstraat (Waalwijk) | jboere@vetsenpets.nl | https://dierenkliniek.nl/dierenkliniek-de-langstraat-dierenarts-in-waalwijk |  | geblokkeerd door ontvanger (550 5.7.1) |  |
+| Dierenkliniek Midden Nederland (Maartensdijk) | info@dkmidden.nl |  | https://www.dierenkliniekmiddennederland.nl/ | adres bestaat niet (postmaster evidensia.nl) | vermelding inmiddels verwijderd |
+| Dierenkliniek Oudorp (Alkmaar) | jessica@dierenkliniekoudorp.nl | https://dierenkliniek.nl/dierenkliniek-oudorp-dierenarts-in-alkmaar | http://www.dierenkliniekoudorp.nl/ | adres of domein bestaat niet |  |
+| Dierenkliniek Tussen Mark en Amer (Zevenbergen) | jboere@vetsenpets.nl | https://dierenkliniek.nl/dierenkliniek-tussen-mark-en-amer-dierenarts-in-zevenbergen |  | geblokkeerd door ontvanger (550 5.7.1) |  |
+| Dierenkliniek Wassenaar (Wassenaar) | dierenkliniekwassenaar@casema.nl | https://dierenkliniek.nl/dierenkliniek-wassenaar-dierenarts-in-wassenaar | http://www.dierenkliniekwassenaar.nl/ | adres of domein bestaat niet |  |
+| Diergeneeskundig Centrum Bekenland (Goor) | goor@bekenland.nl | https://dierenkliniek.nl/diergeneeskundig-centrum-bekenland-dierenarts-in-goor | http://www.bekenland.nl/ | geblokkeerd door ontvanger (550 5.7.1) |  |
+| Diernkliniek Bladel (Bladel) | info@dierenkliniekbladel.nl | https://dierenkliniek.nl/diernkliniek-bladel-dierenarts-in-bladel | http://www.dierenkliniekbladel.nl/ | mailserver ontvanger defect of vol |  |
+| Dokter Annemarie (Nederhorst den Berg) | abcoude@dokterannemarie.nl | https://dierenkliniek.nl/dokter-annemarie-dierenarts-in-nederhorst-den-berg | http://www.dokterannemarie.nl/ | adres of domein bestaat niet |  |
+| Gezelschapsdierenartsen De Peel (Ysselsteyn) | info@gddepeel.nl | https://dierenkliniek.nl/gezelschapsdierenartsen-de-peel-dierenarts-in-ysselsteyn | http://www.gddepeel.nl/ | mailserver ontvanger defect of vol |  |
+| Gezelschapsdierenpraktijk Aalderinkshoek (Almelo) | info@dierenartsaalderinkshoek.nl | https://dierenkliniek.nl/gezelschapsdierenpraktijk-aalderinkshoek-dierenarts-in-almelo | http://www.aalderinkshoek.bestedierenartsen.nl/ | adres of domein bestaat niet |  |
+| Lintjeshof (Nederweert) | infogezelschapsdieren@lintjeshof.com | https://dierenkliniek.nl/lintjeshof-dierenarts-in-nederweert | http://www.lintjeshof.com/gezelschapsdieren | geblokkeerd door ontvanger (550 5.7.1) |  |
+| PlusDierenklinieken De Saen (Zaandam) | annelies@plusdierenklinieken.nl | https://dierenkliniek.nl/plusdierenklinieken-de-saen-dierenarts-in-zaandam | http://www.plusdierenklinieken.nl/ | geblokkeerd door ontvanger (550 5.7.1) |  |
+| PlusDierenklinieken Westerwatering (Zaandam) | annelies@plusdierenklinieken.nl | https://dierenkliniek.nl/plusdierenklinieken-westerwatering-dierenarts-in-zaandam | http://www.plusdierenklinieken.nl/ | geblokkeerd door ontvanger (550 5.7.1) |  |
+| PlusDiernklinieken Saendelft (Assendelft) | annelies@plusdierenklinieken.nl | https://dierenkliniek.nl/plusdiernklinieken-saendelft-dierenarts-in-assendelft | http://www.plusdierenklinieken.nl/ | geblokkeerd door ontvanger (550 5.7.1) |  |
+| Vets (Hooge Zwaluwe) | jboere@vetsenpets.nl | https://dierenkliniek.nl/vets-dierenarts-in-hooge-zwaluwe | http://www.vetsenpets.nl/ | geblokkeerd door ontvanger (550 5.7.1) |  |
+| Vets Place Doetinchem (Doetinchem) | doetinchem@vetsplace.nl | https://dierenkliniek.nl/vets-place-doetinchem-dierenarts-in-doetinchem | http://vetsplace.nl/ | adres of domein bestaat niet |  |
+| Vets Place Druten (Druten) | druten@vetsplace.nl | https://dierenkliniek.nl/vets-place-druten-dierenarts-in-druten | http://www.vetsplace.nl/ | adres of domein bestaat niet |  |
