@@ -1,5 +1,10 @@
 # Bounces mailronde met praktijk en URL (stand 2026-09-16)
 
+> Verwerkt op 2026-09-16: de vermeldingen in deze lijst zijn van de site gehaald,
+> met twee uitzonderingen. AniCura Den Helder - Texelstroomlaan en AniCura
+> Dierenkliniek Delft staan er nog op: hun bounce betrof het oude adres, het
+> nieuwe @anicura.nl-adres werkt en die vestigingen hebben de mail wel ontvangen.
+
 | Praktijk | Gebounced adres | Pagina op dierenkliniek.nl | Eigen website | Oorzaak | Opmerking |
 |---|---|---|---|---|---|
 | AniCura Den Helder - Texelstroomlaan (Den Helder) | info@sterkliniekdierenartsendenhelder.nl | https://dierenkliniek.nl/sterkliniek-dierenartsen-den-helder-dierenarts-in-den-helder | https://www.anicura.nl/ | adres of domein bestaat niet | mailadres inmiddels vervangen door denhelder@anicura.nl |
