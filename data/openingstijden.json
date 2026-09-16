@@ -510,34 +510,34 @@
     "onbevestigd": true
   },
   "de-klomp-dierenartsen-dierenarts-in-de-klomp": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
+    "ma": "08:00-19:00",
+    "di": "08:00-19:00",
+    "wo": "08:00-19:00",
+    "do": "08:00-19:00",
+    "vr": "08:00-19:00",
+    "za": "09:00-17:00",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-16 (W. Teeuw); zondag alleen spoedzorg"
   },
   "de-klomp-dierenartsen-dierenarts-in-ede": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
+    "ma": "09:30-19:00",
+    "di": "09:00-19:00",
+    "wo": "09:00-19:00",
+    "do": "09:00-19:00",
+    "vr": "09:00-19:00",
+    "za": "09:00-17:00",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-16 (W. Teeuw); zondag alleen spoedzorg"
   },
   "de-klomp-dierenartsen-dierenarts-in-elst-gelderland": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
+    "ma": "09:00-17:30",
+    "di": "09:00-17:30",
+    "wo": "09:00-17:30",
+    "do": "09:00-19:00",
+    "vr": "09:00-17:30",
+    "za": "13:30-17:00",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-16 (W. Teeuw); zondag alleen spoedzorg"
   },
   "de-monnickskamp-dierenarts-in-huizen": {
     "ma": "12:30-17:00",
@@ -1810,14 +1810,14 @@
     "onbevestigd": true
   },
   "dierenkliniek-de-waard-dierenarts-in-alblasserdam": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
+    "ma": "08:00-17:00",
+    "di": "08:00-17:00",
+    "wo": "08:00-20:00",
+    "do": "08:00-17:00",
+    "vr": "08:00-17:00",
+    "za": "10:00-12:00",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-16 (Jacolien)"
   },
   "dierenkliniek-de-warande-dierenarts-in-helmond": {
     "ma": "12:30-17:00",
@@ -2810,14 +2810,14 @@
     "onbevestigd": true
   },
   "dierenkliniek-zamenhofdreef-dierenarts-in-utrecht": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "09:00-18:00",
+    "di": "09:00-18:00",
+    "wo": "09:00-18:00",
+    "do": "09:00-18:00",
+    "vr": "09:00-18:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-16 (Lisette van der Staak)"
   },
   "dierenkliniek-zeist-dierenarts-in-zeist": {
     "ma": "12:30-17:00",
@@ -3410,14 +3410,14 @@
     "onbevestigd": true
   },
   "pets-health-nieuwegein-dierenarts-in-nieuwegein": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
+    "ma": "gesloten",
+    "di": "09:00-18:00",
+    "wo": "09:00-18:00",
+    "do": "09:00-18:00",
+    "vr": "09:00-18:00",
+    "za": "09:00-17:00",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-16 (Sylvia Mulder)"
   },
   "pets-health-vijfhuizen-dierenarts-in-vijfhuizen": {
     "ma": "12:30-17:00",
@@ -6030,14 +6030,14 @@
     "onbevestigd": true
   },
   "anicura-de-waard-nieuw-lekkerland-dierenarts-in-nieuw-lekkerland": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "15:00-17:00",
+    "di": "09:00-12:00",
+    "wo": "12:00-19:00",
+    "do": "15:00-17:00",
+    "vr": "15:00-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-16 (Jacolien)"
   },
   "anicura-dierenziekenhuis-drechtstreek-s-gravendeel-dierenarts-in-s-gravendeel": {
     "ma": "12:30-17:00",
@@ -6668,5 +6668,15 @@
     "za": "gesloten",
     "zo": "gesloten",
     "onbevestigd": true
+  },
+  "de-klomp-dierenartsen-dierenarts-in-renswoude": {
+    "ma": "09:00-17:30",
+    "di": "gesloten",
+    "wo": "09:00-17:30",
+    "do": "gesloten",
+    "vr": "09:00-17:30",
+    "za": "09:00-12:00",
+    "zo": "gesloten",
+    "bron": "opgave praktijk per e-mail, 2026-09-16 (W. Teeuw); zondag alleen spoedzorg"
   }
 }
