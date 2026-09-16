@@ -250,14 +250,14 @@
     "onbevestigd": true
   },
   "dap-amstel-vecht-dierenarts-in-vinkeveen": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
+    "ma": "08:00-18:00",
+    "di": "08:00-18:00",
+    "wo": "08:00-18:00",
+    "do": "08:00-19:30",
+    "vr": "08:00-18:00",
+    "za": "09:00-16:00",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail (Hiltje Smink), 2026-09-16"
   },
   "dap-asten-dierenarts-in-asten": {
     "ma": "12:30-17:00",
@@ -330,16 +330,6 @@
     "onbevestigd": true
   },
   "dap-h-m-huisman-j-d-wahl-dierenarts-in-amsterdam": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
-  "dap-loenen-a-d-vecht-dierenarts-in-loenen-a-d-vecht": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
     "wo": "09:00-17:00",
