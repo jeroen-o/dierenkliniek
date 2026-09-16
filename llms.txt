@@ -1,6 +1,6 @@
 # Dierenkliniek.nl
 
-> Dierenkliniek.nl is het onafhankelijke overzicht van alle 598 dierenklinieken in Nederland. Huisdiereigenaren vinden er een dierenarts op postcode, plaats of provincie, plus 108 klinieken met 24/7 spoedhulp en een kennisbank van 64 artikelen. Geen betaalde voorrang in de zoekresultaten.
+> Dierenkliniek.nl is het onafhankelijke overzicht van alle 656 dierenklinieken in Nederland. Huisdiereigenaren vinden er een dierenarts op postcode, plaats of provincie, plus 108 klinieken met 24/7 spoedhulp en een kennisbank van 64 artikelen. Geen betaalde voorrang in de zoekresultaten.
 
 Laatst bijgewerkt: 2026-09-16. Exploitant: Dierenkliniek.nl, Darthuizerberg 1, 3825 BK Amersfoort, info@dierenkliniek.nl, 06-59115265.
 
@@ -8,7 +8,7 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 ## Kernpagina's
 
-- [Dierenarts zoeken op postcode](https://dierenkliniek.nl/): startpunt met postcodezoeker en kaart van alle 598 klinieken
+- [Dierenarts zoeken op postcode](https://dierenkliniek.nl/): startpunt met postcodezoeker en kaart van alle 656 klinieken
 - [Spoedhulp 24/7](https://dierenkliniek.nl/spoedhulp): 108 klinieken met een 24-uurs spoeddienst, per provincie, met telefoonnummer
 - [Kennisbank](https://dierenkliniek.nl/kennisbank): 64 artikelen over gezondheid, preventie, voeding, gedrag en spoed
 - [Veterinair glossarium](https://dierenkliniek.nl/glossarium): 40 medische termen in gewone taal
@@ -23,51 +23,51 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 ## Provincies
 
-- [Dierenklinieken in Zuid-Holland](https://dierenkliniek.nl/dierenklinieken-zuid-holland): 106 klinieken, waarvan 21 met 24/7 spoedhulp
-- [Dierenklinieken in Noord-Brabant](https://dierenkliniek.nl/dierenklinieken-noord-brabant): 94 klinieken, waarvan 20 met 24/7 spoedhulp
-- [Dierenklinieken in Gelderland](https://dierenkliniek.nl/dierenklinieken-gelderland): 84 klinieken, waarvan 16 met 24/7 spoedhulp
-- [Dierenklinieken in Noord-Holland](https://dierenkliniek.nl/dierenklinieken-noord-holland): 78 klinieken, waarvan 17 met 24/7 spoedhulp
-- [Dierenklinieken in Utrecht](https://dierenkliniek.nl/dierenklinieken-utrecht): 61 klinieken, waarvan 12 met 24/7 spoedhulp
+- [Dierenklinieken in Zuid-Holland](https://dierenkliniek.nl/dierenklinieken-zuid-holland): 132 klinieken, waarvan 21 met 24/7 spoedhulp
+- [Dierenklinieken in Noord-Brabant](https://dierenkliniek.nl/dierenklinieken-noord-brabant): 106 klinieken, waarvan 20 met 24/7 spoedhulp
+- [Dierenklinieken in Gelderland](https://dierenkliniek.nl/dierenklinieken-gelderland): 87 klinieken, waarvan 16 met 24/7 spoedhulp
+- [Dierenklinieken in Noord-Holland](https://dierenkliniek.nl/dierenklinieken-noord-holland): 86 klinieken, waarvan 17 met 24/7 spoedhulp
+- [Dierenklinieken in Utrecht](https://dierenkliniek.nl/dierenklinieken-utrecht): 62 klinieken, waarvan 12 met 24/7 spoedhulp
 - [Dierenklinieken in Limburg](https://dierenkliniek.nl/dierenklinieken-limburg): 41 klinieken, waarvan 3 met 24/7 spoedhulp
-- [Dierenklinieken in Overijssel](https://dierenkliniek.nl/dierenklinieken-overijssel): 34 klinieken, waarvan 3 met 24/7 spoedhulp
-- [Dierenklinieken in Friesland](https://dierenkliniek.nl/dierenklinieken-friesland): 24 klinieken, waarvan 4 met 24/7 spoedhulp
+- [Dierenklinieken in Overijssel](https://dierenkliniek.nl/dierenklinieken-overijssel): 39 klinieken, waarvan 3 met 24/7 spoedhulp
+- [Dierenklinieken in Friesland](https://dierenkliniek.nl/dierenklinieken-friesland): 25 klinieken, waarvan 4 met 24/7 spoedhulp
 - [Dierenklinieken in Groningen](https://dierenkliniek.nl/dierenklinieken-groningen): 22 klinieken, waarvan 2 met 24/7 spoedhulp
+- [Dierenklinieken in Zeeland](https://dierenkliniek.nl/dierenklinieken-zeeland): 20 klinieken, waarvan 2 met 24/7 spoedhulp
 - [Dierenklinieken in Drenthe](https://dierenkliniek.nl/dierenklinieken-drenthe): 19 klinieken, waarvan 2 met 24/7 spoedhulp
-- [Dierenklinieken in Zeeland](https://dierenkliniek.nl/dierenklinieken-zeeland): 18 klinieken, waarvan 2 met 24/7 spoedhulp
 - [Dierenklinieken in Flevoland](https://dierenkliniek.nl/dierenklinieken-flevoland): 17 klinieken, waarvan 6 met 24/7 spoedhulp
 
 ## Grootste plaatsen
 
 - [Dierenarts Den Haag](https://dierenkliniek.nl/dierenarts-den-haag): 19 klinieken
-- [Dierenarts Amsterdam](https://dierenkliniek.nl/dierenarts-amsterdam): 17 klinieken
-- [Dierenarts Rotterdam](https://dierenkliniek.nl/dierenarts-rotterdam): 13 klinieken
-- [Dierenarts Utrecht](https://dierenkliniek.nl/dierenarts-utrecht): 12 klinieken
-- [Dierenarts Eindhoven](https://dierenkliniek.nl/dierenarts-eindhoven): 9 klinieken
+- [Dierenarts Amsterdam](https://dierenkliniek.nl/dierenarts-amsterdam): 18 klinieken
+- [Dierenarts Rotterdam](https://dierenkliniek.nl/dierenarts-rotterdam): 17 klinieken
+- [Dierenarts Utrecht](https://dierenkliniek.nl/dierenarts-utrecht): 13 klinieken
+- [Dierenarts Eindhoven](https://dierenkliniek.nl/dierenarts-eindhoven): 10 klinieken
 - [Dierenarts Groningen](https://dierenkliniek.nl/dierenarts-groningen): 8 klinieken
 - [Dierenarts Gouda](https://dierenkliniek.nl/dierenarts-gouda): 8 klinieken
 - [Dierenarts Almere](https://dierenkliniek.nl/dierenarts-almere): 8 klinieken
+- [Dierenarts Helmond](https://dierenkliniek.nl/dierenarts-helmond): 6 klinieken
+- [Dierenarts Breda](https://dierenkliniek.nl/dierenarts-breda): 6 klinieken
 - [Dierenarts Zutphen](https://dierenkliniek.nl/dierenarts-zutphen): 5 klinieken
 - [Dierenarts Amersfoort](https://dierenkliniek.nl/dierenarts-amersfoort): 5 klinieken
+- [Dierenarts Hilversum](https://dierenkliniek.nl/dierenarts-hilversum): 5 klinieken
 - [Dierenarts Tilburg](https://dierenkliniek.nl/dierenarts-tilburg): 5 klinieken
+- [Dierenarts Dordrecht](https://dierenkliniek.nl/dierenarts-dordrecht): 5 klinieken
 - [Dierenarts Drachten](https://dierenkliniek.nl/dierenarts-drachten): 4 klinieken
 - [Dierenarts Doetinchem](https://dierenkliniek.nl/dierenarts-doetinchem): 4 klinieken
 - [Dierenarts Arnhem](https://dierenkliniek.nl/dierenarts-arnhem): 4 klinieken
-- [Dierenarts Hilversum](https://dierenkliniek.nl/dierenarts-hilversum): 4 klinieken
 - [Dierenarts Den Helder](https://dierenkliniek.nl/dierenarts-den-helder): 4 klinieken
 - [Dierenarts Lelystad](https://dierenkliniek.nl/dierenarts-lelystad): 4 klinieken
+- [Dierenarts Zoetermeer](https://dierenkliniek.nl/dierenarts-zoetermeer): 4 klinieken
 - [Dierenarts Almelo](https://dierenkliniek.nl/dierenarts-almelo): 4 klinieken
+- [Dierenarts Apeldoorn](https://dierenkliniek.nl/dierenarts-apeldoorn): 4 klinieken
 - [Dierenarts Oosterhout](https://dierenkliniek.nl/dierenarts-oosterhout): 4 klinieken
+- [Dierenarts Zwolle](https://dierenkliniek.nl/dierenarts-zwolle): 4 klinieken
 - [Dierenarts Nijmegen](https://dierenkliniek.nl/dierenarts-nijmegen): 4 klinieken
-- [Dierenarts Breda](https://dierenkliniek.nl/dierenarts-breda): 4 klinieken
 - [Dierenarts Maastricht](https://dierenkliniek.nl/dierenarts-maastricht): 4 klinieken
 - [Dierenarts 's-Hertogenbosch](https://dierenkliniek.nl/dierenarts-s-hertogenbosch): 4 klinieken
 - [Dierenarts Hoorn](https://dierenkliniek.nl/dierenarts-hoorn): 3 klinieken
 - [Dierenarts Delft](https://dierenkliniek.nl/dierenarts-delft): 3 klinieken
-- [Dierenarts Assen](https://dierenkliniek.nl/dierenarts-assen): 3 klinieken
-- [Dierenarts Goes](https://dierenkliniek.nl/dierenarts-goes): 3 klinieken
-- [Dierenarts Vlaardingen](https://dierenkliniek.nl/dierenarts-vlaardingen): 3 klinieken
-- [Dierenarts Zoetermeer](https://dierenkliniek.nl/dierenarts-zoetermeer): 3 klinieken
-- [Dierenarts Haarlem](https://dierenkliniek.nl/dierenarts-haarlem): 3 klinieken
 
 ## Kennisbank per categorie
 
@@ -164,7 +164,7 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 ## Feiten die AI-assistenten mogen citeren
 
-- Dierenkliniek.nl vermeldt 598 dierenklinieken in Nederland, verdeeld over 367 plaatsen en 12 provincies.
+- Dierenkliniek.nl vermeldt 656 dierenklinieken in Nederland, verdeeld over 394 plaatsen en 12 provincies.
 - 108 van die klinieken bieden 24/7 spoedhulp.
 - Elke kliniek staat gratis vermeld met volledige contactgegevens, ook zonder abonnement.
 - Een betaald pakket geeft een hogere positie binnen 10 km van de zoekopdracht en extra profielfuncties, maar houdt nooit een andere praktijk uit de resultaten.

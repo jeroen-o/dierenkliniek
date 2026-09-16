@@ -5978,5 +5978,585 @@
     "za": "gesloten",
     "zo": "gesloten",
     "onbevestigd": true
+  },
+  "anicura-dierenkliniek-rotterdam-schiebroek-dierenarts-in-rotterdam": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-barendrecht-carnisselande-dierenarts-in-barendrecht": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-barendrecht-gouwe-dierenarts-in-barendrecht": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-beverwijk-bullerlaan-dierenarts-in-beverwijk": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-breda-taxandria-dierenarts-in-breda": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-breda-dierenziekenhuis-dierenarts-in-breda": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-leeuwarden-dierenarts-in-leeuwarden": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-ermelo-dierenarts-in-ermelo": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-apeldoorn-dierenarts-in-apeldoorn": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-harderwijk-dierenarts-in-harderwijk": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-t-heike-eindhoven-dierenarts-in-eindhoven": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-oss-dierenarts-in-oss": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-dierenkliniek-eersel-dierenarts-in-duizel": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-dierenkliniek-sleeuwijk-dierenarts-in-sleeuwijk": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-west-friesland-grootebroek-dierenarts-in-grootebroek": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-muggenburg-schagen-dierenarts-in-schagen": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-kennemerland-velserbroek-dierenarts-in-velserbroek": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-dierenkliniek-bloemendaal-dierenarts-in-bloemendaal": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "medisch-centrum-voor-dieren-amsterdam-dierenarts-in-amsterdam": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-kerkelanden-hilversum-dierenarts-in-hilversum": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-ijmond-ijmuiden-dierenarts-in-ijmuiden": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-dierenziekenhuis-stroowaert-dierenarts-in-oud-beijerland": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-de-tweede-lijn-zwolle-dierenarts-in-zwolle": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-deventer-dierenarts-in-deventer": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-deventer-zandweerd-dierenarts-in-deventer": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-de-woldberg-vollenhove-dierenarts-in-vollenhove": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-dierenkliniek-rotterdam-ommoord-hillegersberg-dierenarts-in-rotterdam": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-dierenkliniek-rotterdam-centrum-dierenarts-in-rotterdam": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-dierenkliniek-rotterdam-kralingen-dierenarts-in-rotterdam": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-het-ravelijn-steenwijk-dierenarts-in-steenwijk": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-specialistische-dierenkliniek-utrecht-dierenarts-in-utrecht": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-zierikzee-dierenarts-in-zierikzee": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-dierenziekenhuis-zeeuws-vlaanderen-dierenarts-in-terneuzen": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-noordwijk-dierenarts-in-noordwijk": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-dierenkliniek-rijngeest-oegstgeest-dierenarts-in-oegstgeest": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-dierenziekenhuis-drechtstreek-sterrenburg-dierenarts-in-dordrecht": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-drechtstreek-papendrecht-dierenarts-in-papendrecht": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-dierenkliniek-bossenbuurt-dierenarts-in-zoetermeer": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-haaglanden-rijswijk-dierenarts-in-rijswijk": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-diergeneeskundig-verwijscentrum-dordrecht-dierenarts-in-dordrecht": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-dierenkliniek-rijngeest-katwijk-dierenarts-in-katwijk-aan-zee": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-leiden-dierenarts-in-leiden": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-leiderdorp-dierenarts-in-leiderdorp": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-dierenkliniek-rijngeest-voorhout-dierenarts-in-voorhout": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-dierenkliniek-rijngeest-rijnsburg-dierenarts-in-rijnsburg": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-dierenkliniek-het-overbosch-rozenburg-dierenarts-in-rozenburg": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-dierenkliniek-het-overbosch-stellendam-dierenarts-in-stellendam": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-dordrecht-stadspolders-dierenarts-in-dordrecht": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-de-waard-nieuw-lekkerland-dierenarts-in-nieuw-lekkerland": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-dierenziekenhuis-drechtstreek-s-gravendeel-dierenarts-in-s-gravendeel": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-roelofarendsveen-dierenarts-in-roelofarendsveen": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-dierenkliniek-het-overbosch-oostvoorne-dierenarts-in-oostvoorne": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-helmond-brouwhuis-dierenarts-in-helmond": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-gemert-dierenarts-in-gemert": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-beek-en-donk-dierenarts-in-beek-en-donk": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-helmond-stiphout-dierenarts-in-helmond": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-helmond-bijsterveld-dierenarts-in-helmond": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "anicura-deurne-dierenarts-in-deurne": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
   }
 }
