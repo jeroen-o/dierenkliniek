@@ -1639,16 +1639,6 @@
     "zo": "gesloten",
     "bron": "opgave praktijk per e-mail, 2026-09-16"
   },
-  "dierenkliniek-de-kempen-dierenarts-in-geldrop": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
   "dierenkliniek-de-kempen-dierenarts-in-bergeijk": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
@@ -4020,16 +4010,6 @@
     "onbevestigd": true
   },
   "dier-medisch-centrum-gouda-brokken-dierenarts-in-gouda": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
-  "dierenartsenpraktijk-nieuwegein-dierenarts-in-nieuwegein": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
     "wo": "09:00-17:00",
