@@ -1,0 +1,114 @@
+name: Dagelijkse indexeringscontrole
+
+# Vervangt het handmatig lezen van de "nieuwe reden waarom pagina's niet
+# geïndexeerd worden"-mails van Search Console: dit script bevraagt dagelijks
+# rechtstreeks de URL Inspection API voor een portie van alle site-URL's
+# (kernpagina's elke dag, de rest in een roterende cyclus van ~3 weken).
+#
+# Bij afwijkingen (verdict != PASS) wordt één issue aangemaakt of bijgewerkt
+# (label "search-console"), zodat er geen mailtjes gemist kunnen worden en
+# de status altijd in de repository zelf terug te vinden is. Zonder
+# afwijkingen wordt een eventueel open issue automatisch gesloten.
+#
+# Nodig aan secrets (Settings, Secrets and variables, Actions):
+#   GOOGLE_SERVICE_ACCOUNT_JSON   hetzelfde service-account als de wekelijkse
+#                                 zoekprestaties-workflow; leesrechten in
+#                                 Search Console volstaan (URL Inspection API
+#                                 is een leesoperatie).
+#
+# Zonder secret doet deze workflow niets en faalt hij niet.
+
+on:
+  schedule:
+    - cron: '13 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  dekking:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Controleer of de sleutel aanwezig is
+        id: sleutel
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: |
+          if [ -n "$GOOGLE_SERVICE_ACCOUNT_JSON" ]; then
+            echo "google=ja" >> "$GITHUB_OUTPUT"
+          else
+            echo "google=nee" >> "$GITHUB_OUTPUT"
+            echo "::warning::GOOGLE_SERVICE_ACCOUNT_JSON ontbreekt; de dekkingscontrole wordt overgeslagen. Zie tools/search-console.js voor hoe je dit secret aanmaakt."
+          fi
+
+      - name: Dekking controleren
+        if: steps.sleutel.outputs.google == 'ja'
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: node tools/search-console.js dekking
+
+      - name: Status vastleggen
+        if: steps.sleutel.outputs.google == 'ja'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/dekking-status.json rapporten/dekking-laatste.json
+          if git diff --staged --quiet; then
+            echo "Geen wijzigingen in de dekkingsstatus."
+          else
+            git commit -m "Dekkingscontrole bijgewerkt"
+            git push
+          fi
+
+      - name: Issue bijwerken bij afwijkingen
+        if: steps.sleutel.outputs.google == 'ja'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create search-console --color FBCA04 \
+            --description "Automatische melding van de dagelijkse Search Console-dekkingscontrole" \
+            2>/dev/null || true
+
+          AANTAL=$(node -e "console.log(require('./rapporten/dekking-laatste.json').problemen.length)")
+          BESTAAND=$(gh issue list --label search-console --state open --json number --jq '.[0].number // empty' || true)
+
+          if [ "$AANTAL" = "0" ]; then
+            echo "Geen afwijkingen; niets te melden."
+            if [ -n "$BESTAAND" ]; then
+              gh issue close "$BESTAAND" -c "Geen afwijkingen meer in de laatste dekkingscontrole. Automatisch gesloten."
+            fi
+            exit 0
+          fi
+
+          BODY_FILE=$(mktemp)
+          {
+            echo "Automatische dagelijkse dekkingscontrole (URL Inspection API) meldt $AANTAL URL('s) met een afwijkend verdict."
+            echo
+            echo "| URL | Verdict | Reden |"
+            echo "|---|---|---|"
+            node -e "
+              const d = require('./rapporten/dekking-laatste.json');
+              for (const p of d.problemen) {
+                console.log('| ' + p.url + ' | ' + p.verdict + ' | ' + p.coverageState.replace(/\|/g,'/') + ' |');
+              }
+            "
+            echo
+            echo "_Gegenereerd: $(node -e "console.log(require('./rapporten/dekking-laatste.json').gegenereerd)")_"
+            echo "_Dit issue wordt automatisch bijgewerkt of gesloten door de workflow \`dekking-check.yml\`._"
+          } > "$BODY_FILE"
+
+          if [ -n "$BESTAAND" ]; then
+            gh issue edit "$BESTAAND" --body-file "$BODY_FILE"
+            gh issue comment "$BESTAAND" -b "Nieuwe controle: nog steeds $AANTAL afwijking(en). Zie bijgewerkte omschrijving hierboven."
+          else
+            gh issue create --title "Search Console: $AANTAL URL(s) niet geïndexeerd" \
+              --label search-console --body-file "$BODY_FILE"
+          fi
