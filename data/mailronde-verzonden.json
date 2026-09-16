@@ -107,10 +107,6 @@
     "id": "1a0a708bccd2675b",
     "op": "2026-09-15T21:47:11.988Z"
   },
-  "loenen@dkavv.nl": {
-    "id": "1a0a709682fd18d4",
-    "op": "2026-09-15T21:47:12.057Z"
-  },
   "info@dapmaldenmook.nl": {
     "id": "1a0a70a75621b606",
     "op": "2026-09-15T21:49:41.414Z"
@@ -1410,5 +1406,25 @@
   "info@slingelanddierenartsen.nl": {
     "id": "1a0aa0cbe35896ec",
     "op": "2026-09-16T11:49:26.023Z"
+  },
+  "praktijk@dgc-twente.nl": {
+    "id": "1a0aa0dd2e3ab84c",
+    "op": "2026-09-16T11:53:53.030Z"
+  },
+  "info@gelredierenartsen.nl": {
+    "id": "1a0aa0eacc57f138",
+    "op": "2026-09-16T11:53:53.122Z"
+  },
+  "annelies@plusdierenklinieken.nl": {
+    "id": "1a0aa0f8ba792d41",
+    "op": "2026-09-16T11:53:53.197Z"
+  },
+  "info@dierenklinieken.net": {
+    "id": "1a0aa10d37e3e909",
+    "op": "2026-09-16T11:53:53.324Z"
+  },
+  "info@sterkliniekdierenartsenhillegom.nl": {
+    "id": "1a0aa121c6f8bd23",
+    "op": "2026-09-16T11:55:24.904Z"
   }
 }
