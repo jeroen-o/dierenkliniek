@@ -1,16 +1,18 @@
 // Gedeelde layout voor statisch gegenereerde pagina's.
-// Header, footer en CSS worden uit een bestaande stadpagina gelezen zodat de
-// huisstijl van de site exact gelijk blijft.
+// Header, footer en CSS staan als losse sjabloonbestanden in tools/sjabloon/,
+// zodat de huisstijl op alle gegenereerde pagina's exact gelijk blijft en op
+// één plek te wijzigen is.
 const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
 const SITE = 'https://dierenkliniek.nl';
-const tpl = fs.readFileSync(path.join(ROOT, 'dierenarts-amsterdam.html'), 'utf8');
+const SJABLOON = path.join(__dirname, 'sjabloon');
+const sjabloon = (naam) => fs.readFileSync(path.join(SJABLOON, naam), 'utf8');
 
-const STYLE = (tpl.match(/<style>([\s\S]*?)<\/style>/) || [, ''])[1];
-const HEADER = (tpl.match(/<header class="site-header">[\s\S]*?<\/header>/) || [''])[0];
-const FOOTER = (tpl.match(/<footer class="site-footer">[\s\S]*?<\/footer>/) || [''])[0];
+const STYLE = sjabloon('stad.css');
+const HEADER = sjabloon('header.html').trimEnd();
+const FOOTER = sjabloon('footer.html').trimEnd();
 
 const esc = (s) => String(s == null ? '' : s)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
@@ -275,7 +277,17 @@ function clinicSlug(c) {
   return slugify(c.name) + '-dierenarts-in-' + slugify(c.city);
 }
 const citySlug = (city) => 'dierenarts-' + slugify(city);
-const provinceOf = (c) => PROVINCE_LOOKUP[(c.postcode || '').replace(/\s/g, '').slice(0, 2)] || null;
+
+// Identiek aan getProvinceFromPostcode() in index.html: eerst de viercijferige
+// bereiken, dan pas de grove tweecijferige tabel als vangnet.
+const PROVINCE_RANGES = require('./extract-data').PROVINCE_RANGES;
+function provinceOf(c) {
+  const pc = String(c.postcode || '').replace(/\s/g, '');
+  const pc4 = parseInt(pc.slice(0, 4), 10);
+  const bereik = PROVINCE_RANGES.find(([van, tot]) => pc4 >= van && pc4 <= tot);
+  if (bereik) return bereik[2];
+  return PROVINCE_LOOKUP[pc.slice(0, 2)] || null;
+}
 
 module.exports = { SITE, ROOT, page, esc, stripTags, slugify, breadcrumbLd, breadcrumbHtml, faqLd, faqHtml, ORGANIZATION, SOCIALE_PROFIELEN,
-  clinicSlug, citySlug, provinceOf, PROVINCE_LOOKUP, PROVINCE_DESCRIPTIONS, CLINIC_SLUG_OVERRIDES };
+  clinicSlug, citySlug, provinceOf, PROVINCE_LOOKUP, PROVINCE_DESCRIPTIONS, CLINIC_SLUG_OVERRIDES, HEADER, FOOTER, sjabloon };

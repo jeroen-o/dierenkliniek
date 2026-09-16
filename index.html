@@ -5930,6 +5930,22 @@ const PROVINCE_LOOKUP = {
   '99': 'Groningen',
 };
 
+// Postcodebereiken per provincie op vier cijfers. Twee cijfers is te grof:
+// 21xx ligt in Noord- én Zuid-Holland, 73xx (Apeldoorn) is Gelderland en niet
+// Overijssel, 92xx (Drachten) is Friesland en niet Drenthe. Eerste passende
+// bereik wint; PROVINCE_LOOKUP blijft alleen als vangnet voor rare postcodes.
+const PROVINCE_RANGES = [
+  [1000,1299,'Noord-Holland'],[1300,1379,'Flevoland'],[1380,1389,'Noord-Holland'],[1390,1393,'Utrecht'],[1394,1395,'Noord-Holland'],[1396,1396,'Utrecht'],[1397,1999,'Noord-Holland'],
+  [2000,2159,'Noord-Holland'],[2160,3399,'Zuid-Holland'],
+  [3400,3769,'Utrecht'],[3770,3790,'Gelderland'],[3791,3791,'Utrecht'],[3792,3799,'Gelderland'],[3800,3839,'Utrecht'],[3840,3889,'Gelderland'],[3890,3899,'Flevoland'],[3900,3924,'Utrecht'],[3925,3925,'Gelderland'],[3926,3999,'Utrecht'],
+  [4000,4119,'Gelderland'],[4120,4146,'Utrecht'],[4147,4147,'Gelderland'],[4148,4149,'Utrecht'],[4150,4199,'Gelderland'],[4200,4211,'Zuid-Holland'],[4212,4212,'Gelderland'],[4213,4213,'Zuid-Holland'],[4214,4214,'Gelderland'],[4215,4229,'Zuid-Holland'],[4230,4239,'Utrecht'],[4240,4242,'Zuid-Holland'],[4243,4247,'Utrecht'],[4248,4249,'Zuid-Holland'],[4250,4299,'Noord-Brabant'],
+  [4300,4599,'Zeeland'],[4600,4674,'Noord-Brabant'],[4675,4675,'Zeeland'],[4676,4689,'Noord-Brabant'],[4690,4699,'Zeeland'],[4700,5299,'Noord-Brabant'],[5300,5339,'Gelderland'],[5340,5799,'Noord-Brabant'],[5800,5819,'Limburg'],[5820,5849,'Noord-Brabant'],[5850,5999,'Limburg'],
+  [6000,6019,'Limburg'],[6020,6029,'Noord-Brabant'],[6030,6499,'Limburg'],[6500,6583,'Gelderland'],[6584,6587,'Limburg'],[6588,6589,'Gelderland'],[6590,6599,'Limburg'],[6600,7399,'Gelderland'],
+  [7400,7739,'Overijssel'],[7740,7769,'Drenthe'],[7770,7799,'Overijssel'],[7800,7945,'Drenthe'],[7946,7946,'Overijssel'],[7947,7949,'Drenthe'],[7950,7956,'Overijssel'],[7957,7999,'Drenthe'],
+  [8000,8049,'Overijssel'],[8050,8054,'Gelderland'],[8055,8069,'Overijssel'],[8070,8099,'Gelderland'],[8100,8159,'Overijssel'],[8160,8199,'Gelderland'],[8200,8259,'Flevoland'],[8260,8299,'Overijssel'],[8300,8324,'Flevoland'],[8325,8350,'Overijssel'],[8351,8351,'Drenthe'],[8352,8380,'Overijssel'],[8381,8386,'Drenthe'],[8387,8390,'Overijssel'],[8391,8399,'Friesland'],[8400,8999,'Friesland'],
+  [9000,9299,'Friesland'],[9300,9349,'Drenthe'],[9350,9399,'Groningen'],[9400,9478,'Drenthe'],[9479,9479,'Groningen'],[9480,9499,'Drenthe'],[9500,9513,'Groningen'],[9514,9515,'Drenthe'],[9516,9519,'Groningen'],[9520,9539,'Drenthe'],[9540,9570,'Groningen'],[9571,9579,'Drenthe'],[9580,9759,'Groningen'],[9760,9769,'Drenthe'],[9770,9999,'Groningen']
+];
+
 const PROVINCE_DESCRIPTIONS = {
   'Noord-Holland': 'Provincie Noord-Holland — van Texel tot Amsterdam, Haarlem en de Zaanstreek. Een van de dichtstbevolkte provincies met daardoor een groot aantal gespecialiseerde dierenklinieken.',
   'Zuid-Holland': 'Provincie Zuid-Holland — Den Haag, Rotterdam, Leiden en de Drechtsteden. De meeste klinieken van Nederland zitten in dit gebied vanwege de hoge bevolkingsdichtheid.',
@@ -5946,8 +5962,11 @@ const PROVINCE_DESCRIPTIONS = {
 };
 
 function getProvinceFromPostcode(postcode) {
-  const pc2 = postcode.replace(/\s/g,'').slice(0,2);
-  return PROVINCE_LOOKUP[pc2] || null;
+  const pc = String(postcode || '').replace(/\s/g, '');
+  const pc4 = parseInt(pc.slice(0, 4), 10);
+  const bereik = PROVINCE_RANGES.find(([van, tot]) => pc4 >= van && pc4 <= tot);
+  if (bereik) return bereik[2];
+  return PROVINCE_LOOKUP[pc.slice(0, 2)] || null;
 }
 
 function getClinicsByProvince() {

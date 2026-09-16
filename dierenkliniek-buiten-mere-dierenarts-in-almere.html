@@ -18,6 +18,8 @@
 <meta name="geo.placename" content="Almere">
 <meta name="geo.position" content="52.3508;5.2647">
 <meta name="ICBM" content="52.3508, 5.2647">
+<link rel="alternate" hreflang="nl" href="https://dierenkliniek.nl/dierenkliniek-buiten-mere-dierenarts-in-almere">
+<link rel="alternate" hreflang="x-default" href="https://dierenkliniek.nl/dierenkliniek-buiten-mere-dierenarts-in-almere">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -204,21 +206,6 @@
   .kliniek-fotos { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin-top: 16px; }
   .kliniek-fotos img { width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 10px; display: block; }
 </style>
-
-<style>
-.dk-social { display: flex; gap: 12px; align-items: center; margin-top: 18px; }
-.dk-social a {
-  display: inline-flex; align-items: center; justify-content: center;
-  width: 36px; height: 36px; border-radius: 50%;
-  background: rgba(255,255,255,.12); color: inherit;
-  transition: background .2s, transform .2s;
-}
-.dk-social a:hover { background: rgba(255,255,255,.24); transform: translateY(-2px); }
-.dk-social svg { width: 18px; height: 18px; fill: currentColor; display: block; }
-.site-footer .dk-social a { background: rgba(255,255,255,.12); }
-@media (prefers-reduced-motion: reduce) { .dk-social a { transition: none; } }
-</style>
-
 <!-- dk:seo-start -->
 <script type="application/ld+json">
 {
@@ -349,6 +336,20 @@
 }
 </script>
 <!-- dk:seo-end -->
+
+<style>
+.dk-social { display: flex; gap: 12px; align-items: center; margin-top: 18px; }
+.dk-social a {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 36px; height: 36px; border-radius: 50%;
+  background: rgba(255,255,255,.12); color: inherit;
+  transition: background .2s, transform .2s;
+}
+.dk-social a:hover { background: rgba(255,255,255,.24); transform: translateY(-2px); }
+.dk-social svg { width: 18px; height: 18px; fill: currentColor; display: block; }
+.site-footer .dk-social a { background: rgba(255,255,255,.12); }
+@media (prefers-reduced-motion: reduce) { .dk-social a { transition: none; } }
+</style>
 </head>
 <body>
 <header class="site-header">
@@ -406,7 +407,6 @@
     <div style="margin-top: 24px;">
       <a href="https://www.google.com/maps/dir/?api=1&destination=52.3508,5.2647" class="btn" target="_blank" rel="noopener">📍 Route via Google Maps</a>
       <a href="tel:0365324912" class="btn btn-outline">📞 Bel 036-5324912</a>
-      
     </div>
   </div>
   <div class="card">
@@ -422,10 +422,6 @@
     <h2>Andere klinieken in Almere</h2>
     <p style="margin-bottom: 16px;">Er zijn nog <strong>7</strong> andere dierenklinieken in Almere:</p>
     <div class="nearby-grid">
-        <a href="/dierenkliniek-almere-stad-dierenarts-in-almere" class="nearby-card">
-          <h4>Dierenkliniek Almere-Stad</h4>
-          <p>Wimpelplantsoen 126, 1319 ED Almere</p>
-        </a>
         <a href="/dierenkliniek-blommaart-dierenarts-in-almere" class="nearby-card">
           <h4>Dierenkliniek Blommaart</h4>
           <p>Andy Warholstraat 15, 1328 LA Almere</p>
@@ -438,10 +434,6 @@
           <h4>Dierenkliniek Hof</h4>
           <p>Kweekgrasstraat 33, 1313 BZ Almere</p>
         </a>
-        <a href="/dierenkliniek-hof-haven-dierenarts-in-almere" class="nearby-card">
-          <h4>Dierenkliniek Hof - Haven</h4>
-          <p>Houtstraat 8, 1353 BB Almere</p>
-        </a>
         <a href="/dierenziekenhuis-almere-dierenarts-in-almere" class="nearby-card">
           <h4>Dierenziekenhuis Almere</h4>
           <p>Europalaan 836, 1363 BM Almere</p>
@@ -450,10 +442,18 @@
           <h4>Diergeneeskundig Centrum Almere</h4>
           <p>Midwaystraat 7, 1339 NM Almere</p>
         </a>
+        <a href="/dierenkliniek-almere-stad-dierenarts-in-almere" class="nearby-card">
+          <h4>Dierenkliniek Almere-Stad</h4>
+          <p>Wimpelplantsoen 126, 1319 ED Almere</p>
+        </a>
+        <a href="/dierenkliniek-hof-haven-dierenarts-in-almere" class="nearby-card">
+          <h4>Dierenkliniek Hof - Haven</h4>
+          <p>Houtstraat 8, 1353 BB Almere</p>
+        </a>
     </div>
     <p style="margin-top: 20px;"><a href="/dierenarts-almere" class="btn btn-outline">Alle klinieken in Almere →</a></p>
   </div>
-  
+
   <div class="card">
     <h2>Dichtstbijzijnde klinieken in de omgeving</h2>
     <p style="margin-bottom: 16px;">Vlakbij Almere vindt u ook deze klinieken:</p>
@@ -503,9 +503,9 @@
         <h3 style="font-size: 15px; margin: 0 0 8px;">📥 Download alles in één ZIP</h3>
         <p style="font-size: 13px; color: #6b7280; margin: 0 0 12px;">Bevat 4 badge-varianten (SVG + PNG) en een handleiding met uw kliniek-URL al ingevuld.</p>
         <a href="/badges/dierenkliniek-buiten-mere-dierenarts-in-almere.zip" download class="btn btn-green btn-block">⬇ Download ZIP (Dierenkliniek Buiten-Mere)</a>
-        
+
         <div class="badge-divider">of</div>
-        
+
         <h3 style="font-size: 15px; margin: 0 0 8px;">📋 Kopieer HTML-code direct</h3>
         <p style="font-size: 13px; color: #6b7280; margin: 0 0 8px;">Plak deze code in uw website (footer, contactpagina, sidebar):</p>
         <div class="code-block">

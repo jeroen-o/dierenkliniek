@@ -60,7 +60,9 @@ gegenereerde pagina heeft geen zin: de volgende build overschrijft het.
 | `build-kennisbank.js` | 78 kennisbankpagina's |
 | `build-paginas.js` | spoedhulp, provincies en glossarium |
 | `build-vertrouwenspaginas.js` | over ons, onafhankelijkheid, contact, partners |
-| `enrich-klinieken.js` | voegt FAQ en schema toe aan kliniek- en stadpagina's |
+| `build-klinieken.js` | 605 kliniekpagina's en 369 stadpagina's, rechtstreeks uit `CLINICS` |
+| `enrich-klinieken.js` | voegt FAQ, uitgebreid schema, openingstijden en profielen toe aan kliniek- en stadpagina's |
+| `sjabloon/` | header, footer, CSS en het badge-kopieerscript die alle gegenereerde pagina's delen |
 | `fix-links.js` | wijst interne links naar de canonieke URL |
 | `build-sitemaps.js` | vier sitemaps plus de index |
 | `build-llms.js` | `llms.txt` en `llms-full.txt` voor AI-assistenten |

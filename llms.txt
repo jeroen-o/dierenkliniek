@@ -23,18 +23,18 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 ## Provincies
 
-- [Dierenklinieken in Zuid-Holland](https://dierenkliniek.nl/dierenklinieken-zuid-holland): 112 klinieken, waarvan 21 met 24/7 spoedhulp
-- [Dierenklinieken in Noord-Brabant](https://dierenkliniek.nl/dierenklinieken-noord-brabant): 104 klinieken, waarvan 21 met 24/7 spoedhulp
-- [Dierenklinieken in Gelderland](https://dierenkliniek.nl/dierenklinieken-gelderland): 80 klinieken, waarvan 16 met 24/7 spoedhulp
-- [Dierenklinieken in Noord-Holland](https://dierenkliniek.nl/dierenklinieken-noord-holland): 71 klinieken, waarvan 16 met 24/7 spoedhulp
-- [Dierenklinieken in Utrecht](https://dierenkliniek.nl/dierenklinieken-utrecht): 65 klinieken, waarvan 12 met 24/7 spoedhulp
-- [Dierenklinieken in Overijssel](https://dierenkliniek.nl/dierenklinieken-overijssel): 37 klinieken, waarvan 4 met 24/7 spoedhulp
-- [Dierenklinieken in Limburg](https://dierenkliniek.nl/dierenklinieken-limburg): 36 klinieken, waarvan 3 met 24/7 spoedhulp
-- [Dierenklinieken in Drenthe](https://dierenkliniek.nl/dierenklinieken-drenthe): 24 klinieken, waarvan 3 met 24/7 spoedhulp
-- [Dierenklinieken in Groningen](https://dierenkliniek.nl/dierenklinieken-groningen): 23 klinieken, waarvan 2 met 24/7 spoedhulp
-- [Dierenklinieken in Flevoland](https://dierenkliniek.nl/dierenklinieken-flevoland): 23 klinieken, waarvan 6 met 24/7 spoedhulp
+- [Dierenklinieken in Zuid-Holland](https://dierenkliniek.nl/dierenklinieken-zuid-holland): 108 klinieken, waarvan 21 met 24/7 spoedhulp
+- [Dierenklinieken in Noord-Brabant](https://dierenkliniek.nl/dierenklinieken-noord-brabant): 94 klinieken, waarvan 20 met 24/7 spoedhulp
+- [Dierenklinieken in Gelderland](https://dierenkliniek.nl/dierenklinieken-gelderland): 84 klinieken, waarvan 16 met 24/7 spoedhulp
+- [Dierenklinieken in Noord-Holland](https://dierenkliniek.nl/dierenklinieken-noord-holland): 78 klinieken, waarvan 17 met 24/7 spoedhulp
+- [Dierenklinieken in Utrecht](https://dierenkliniek.nl/dierenklinieken-utrecht): 64 klinieken, waarvan 13 met 24/7 spoedhulp
+- [Dierenklinieken in Limburg](https://dierenkliniek.nl/dierenklinieken-limburg): 42 klinieken, waarvan 3 met 24/7 spoedhulp
+- [Dierenklinieken in Overijssel](https://dierenkliniek.nl/dierenklinieken-overijssel): 34 klinieken, waarvan 3 met 24/7 spoedhulp
+- [Dierenklinieken in Friesland](https://dierenkliniek.nl/dierenklinieken-friesland): 25 klinieken, waarvan 4 met 24/7 spoedhulp
+- [Dierenklinieken in Groningen](https://dierenkliniek.nl/dierenklinieken-groningen): 22 klinieken, waarvan 2 met 24/7 spoedhulp
+- [Dierenklinieken in Drenthe](https://dierenkliniek.nl/dierenklinieken-drenthe): 19 klinieken, waarvan 2 met 24/7 spoedhulp
 - [Dierenklinieken in Zeeland](https://dierenkliniek.nl/dierenklinieken-zeeland): 18 klinieken, waarvan 2 met 24/7 spoedhulp
-- [Dierenklinieken in Friesland](https://dierenkliniek.nl/dierenklinieken-friesland): 12 klinieken, waarvan 3 met 24/7 spoedhulp
+- [Dierenklinieken in Flevoland](https://dierenkliniek.nl/dierenklinieken-flevoland): 17 klinieken, waarvan 6 met 24/7 spoedhulp
 
 ## Grootste plaatsen
 

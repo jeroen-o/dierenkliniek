@@ -27,6 +27,9 @@ const out = {};
 for (const name of ['KB_CATEGORIES', 'KB_ANIMALS', 'GLOSSARIUM', 'CLINICS']) {
   out[name] = vm.runInNewContext('(' + grab(name) + ')');
 }
+// Postcodebereiken per provincie (viercijferig). Ontbreekt de tabel, dan valt
+// layout.provinceOf terug op de grovere tweecijferige PROVINCE_LOOKUP.
+try { out.PROVINCE_RANGES = vm.runInNewContext('(' + grab('PROVINCE_RANGES') + ')'); } catch (e) { out.PROVINCE_RANGES = []; }
 
 // De artikelen staan niet meer in index.html maar in een eigen databestand, zodat
 // de volledige tekst niet bij elk bezoek aan de homepage wordt meegeladen.

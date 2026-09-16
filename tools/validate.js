@@ -7,7 +7,8 @@ const ROOT = path.join(__dirname, '..');
 const files = [];
 (function walk(dir, prefix = '') {
   for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
-    if (e.name === 'node_modules' || e.name === '.git' || e.name === 'badges' || e.name === 'logo-pack') continue;
+    // tools/sjabloon bevat losse header- en footerfragmenten, geen pagina's
+    if (e.name === 'node_modules' || e.name === '.git' || e.name === 'badges' || e.name === 'logo-pack' || e.name === 'tools') continue;
     const rel = prefix + e.name;
     if (e.isDirectory()) walk(path.join(dir, e.name), rel + '/');
     else if (e.name.endsWith('.html')) files.push(rel);

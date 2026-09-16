@@ -11,6 +11,8 @@ const steps = [
   'build-kennisbank.js',
   'build-paginas.js',
   'build-vertrouwenspaginas.js',
+  // Kliniek- en stadpagina's uit CLINICS; daarna verrijkt enrich-klinieken ze
+  'build-klinieken.js',
   'enrich-klinieken.js',
   'fix-links.js',
   'build-sitemaps.js',

@@ -61,7 +61,10 @@ function fixTitle(html, name, city) {
 
 function fixCityTitle(html, city, n) {
   const suffix = ' | Dierenkliniek.nl';
-  const options = [
+  const options = n === 1 ? [
+    `Dierenarts ${city} — 1 kliniek`,
+    `Dierenarts ${city}`
+  ] : [
     `Dierenarts ${city} — ${n} klinieken vergelijken`,
     `Dierenarts ${city} — ${n} klinieken`,
     `Dierenarts ${city}`
@@ -145,7 +148,7 @@ for (const c of CLINICS) {
         '@id': url + '#clinic',
         name: c.name,
         url,
-        telephone: c.phone,
+        telephone: c.phone || undefined,
         email: c.email || undefined,
         description: eigenOmschrijving || c.desc || undefined,
         image: fotos.length ? fotos.map(f => SITE + f.bestand) : SITE + '/og-image.png',
@@ -246,7 +249,7 @@ for (const city of cities) {
   const faqs = [
     {
       q: `Hoeveel dierenklinieken zijn er in ${city}?`,
-      a: `In ${city} staan ${list.length} dierenklinieken vermeld op Dierenkliniek.nl${prov ? `, provincie ${prov}` : ''}.`
+      a: `In ${city} ${list.length === 1 ? 'staat 1 dierenkliniek' : `staan ${list.length} dierenklinieken`} vermeld op Dierenkliniek.nl${prov ? `, provincie ${prov}` : ''}.`
     },
     {
       q: `Welke dierenarts in ${city} heeft 24/7 spoedhulp?`,
