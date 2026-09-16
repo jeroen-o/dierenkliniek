@@ -68,7 +68,7 @@ function html(o) {
   </td></tr>
   <tr><td style="padding:32px 32px 8px 32px;">
     <p style="margin:0 0 16px 0;">Geachte heer / mevrouw,</p>
-    <p style="margin:0 0 16px 0;">${een ? esc(c.name) + ' staat vermeld' : 'Uw ' + o.klinieken.length + ' vestigingen staan vermeld'} op Dierenkliniek.nl, het overzicht van ruim 600 dierenklinieken in Nederland. Wij willen dierenartsen en dierenklinieken graag in het zonnetje zetten: huisdiereigenaren vinden bij ons snel de praktijk bij hen in de buurt, met uw telefoonnummer, e-mailadres en website direct in beeld. Uw vermelding is gratis en blijft gratis.</p>
+    <p style="margin:0 0 16px 0;">${een ? esc(c.name) + ' staat vermeld' : 'Uw ' + o.klinieken.length + ' vestigingen staan vermeld'} op Dierenkliniek.nl, het overzicht van ruim 1100 dierenklinieken in Nederland. Wij willen dierenartsen en dierenklinieken graag in het zonnetje zetten: huisdiereigenaren vinden bij ons snel de praktijk bij hen in de buurt, met uw telefoonnummer, e-mailadres en website direct in beeld. Uw vermelding is gratis en blijft gratis.</p>
     <p style="margin:0 0 8px 0;">Wij mailen u om twee redenen.</p>
   </td></tr>
   <tr><td style="padding:16px 32px 8px 32px;">
@@ -148,7 +148,7 @@ function tekst(o) {
 
   return `Goedendag,
 
-${een ? `${c.name} staat vermeld op Dierenkliniek.nl` : `Uw ${o.klinieken.length} vestigingen staan vermeld op Dierenkliniek.nl`}, een overzicht van ruim 600 dierenklinieken in Nederland. Uw vermelding is gratis en blijft gratis, inclusief telefoonnummer, e-mailadres en website. Betaalde pakketten geven extra profielfuncties en een hogere positie binnen 10 kilometer van de zoekopdracht, maar houden nooit een andere praktijk uit de resultaten.
+${een ? `${c.name} staat vermeld op Dierenkliniek.nl` : `Uw ${o.klinieken.length} vestigingen staan vermeld op Dierenkliniek.nl`}, een overzicht van ruim 1100 dierenklinieken in Nederland. Uw vermelding is gratis en blijft gratis, inclusief telefoonnummer, e-mailadres en website. Betaalde pakketten geven extra profielfuncties en een hogere positie binnen 10 kilometer van de zoekopdracht, maar houden nooit een andere praktijk uit de resultaten.
 
 Wij mailen u om twee redenen.
 
