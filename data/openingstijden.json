@@ -6418,5 +6418,255 @@
     "za": "gesloten",
     "zo": "gesloten",
     "onbevestigd": true
+  },
+  "dierenkliniek-oudorp-dierenarts-in-alkmaar": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "dierenartsenpraktijk-deil-dierenarts-in-deil": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "dierenartsenpraktijk-ijmond-noord-dierenarts-in-castricum": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "dierenkliniek-de-jordaan-dierenarts-in-amsterdam": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "dierenkliniek-de-polder-dierenarts-in-maassluis": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "dierenkliniek-de-polder-maassluis-dierenarts-in-maassluis": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "dierenkliniek-ganzeweide-dierenarts-in-heerlen": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "dierenkliniek-go-dierenarts-in-sommelsdijk": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "dierenkliniek-het-groote-plein-muiden-dierenarts-in-muiden": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "dierenkliniek-lussing-dierenarts-in-hoofddorp": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "dierenkliniek-pijls-dierenarts-in-geleen": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "dierenkliniek-rijnlaan-dierenarts-in-utrecht": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "dierenkliniek-sleutelstad-oegstgeest-dierenarts-in-oegstgeest": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "dierenkliniek-sleutelstad-leiden-dierenarts-in-leiden": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "dierentop-kliniek-voor-gezelschapsdieren-bergen-dierenarts-in-bergen": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "dierentop-kliniek-voor-gezelschapsdieren-egmond-dierenarts-in-egmond-aan-den-hoef": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "dierentop-kliniek-voor-gezelschapsdieren-warmenhuizen-dierenarts-in-warmenhuizen": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "diergeneeskundig-centrum-zeeland-dierenarts-in-noordwelle": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "kliniek-dierenwaard-dierenarts-in-dodewaard": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "parkstad-dierenzorg-dierenkliniek-dierenarts-in-heerlen": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "parkstad-dierenzorg-kattenkliniek-dierenarts-in-heerlen": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "veterinair-centrum-holland-noord-anna-paulowna-dierenarts-in-anna-paulowna": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "veterinair-centrum-holland-noord-hippolytushoef-dierenarts-in-hippolytushoef": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "veterinair-centrum-holland-noord-middenmeer-dierenarts-in-middenmeer": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "veterinair-centrum-holland-noord-wervershoof-dierenarts-in-wervershoof": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
   }
 }
