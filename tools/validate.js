@@ -37,9 +37,9 @@ for (const f of files) {
   if (!canonical) problems.push(`${f}: geen canonical`);
   if (!title) problems.push(`${f}: geen title`);
   else if (title.length > 75) problems.push(`${f}: title ${title.length} tekens (>75)`);
-  if (!desc) problems.push(`${f}: geen meta description`);
-  else if (desc.length > 165) problems.push(`${f}: description ${desc.length} tekens (>165)`);
-  if (h1 === 0) problems.push(`${f}: geen h1`);
+  if (!desc && !noindex) problems.push(`${f}: geen meta description`);
+  else if (desc && desc.length > 165) problems.push(`${f}: description ${desc.length} tekens (>165)`);
+  if (h1 === 0 && !noindex) problems.push(`${f}: geen h1`);
 
   if (canonical && !noindex) {
     if (canonicals.has(canonical)) problems.push(`${f}: canonical botst met ${canonicals.get(canonical)}`);

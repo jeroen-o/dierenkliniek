@@ -7887,6 +7887,27 @@ function setCanonical(pathOrUrl) {
   } catch (e) { /* canonical is best-effort */ }
 }
 
+// SEO: een handvol juridische/utility-views (privacy, voorwaarden, cookies,
+// beslisboom, vaccinatieplanner) heeft geen eigen statische pagina en toont
+// dezelfde HTML-shell als de rest van de SPA. Search Console meldde deze
+// daardoor als "gecrawld/gevonden, niet geïndexeerd". Ze bevatten geen content
+// die op zichzelf hoeft te ranken, dus krijgen ze noindex; alle andere routes
+// (incl. de klinieken, die wél een eigen statische pagina hebben) blijven index.
+const NOINDEX_VIEWS = ['privacy', 'voorwaarden', 'cookies', 'beslisboom', 'vaccinatieplanner'];
+function setRobots(view) {
+  try {
+    let el = document.querySelector('meta[name="robots"]');
+    if (!el) {
+      el = document.createElement('meta');
+      el.setAttribute('name', 'robots');
+      document.head.appendChild(el);
+    }
+    el.setAttribute('content', NOINDEX_VIEWS.includes(view)
+      ? 'noindex,follow'
+      : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1');
+  } catch (e) { /* robots-tag is best-effort */ }
+}
+
 function updateUrl(view, clinicOrSlug) {
   if (!window.history || !window.history.pushState) return;
   // Mapping: sommige views hebben een schone URL i.p.v. ?view=X
@@ -7916,6 +7937,7 @@ function updateUrl(view, clinicOrSlug) {
     newUrl = '/';
   }
   setCanonical(newUrl);
+  setRobots(view);
   if (newUrl !== window.location.pathname + window.location.search) {
     try {
       window.history.pushState({ view, clinicOrSlug }, '', newUrl);
