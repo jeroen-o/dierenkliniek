@@ -1,5 +1,5 @@
 ============================================================
-HANDLEIDING BADGE — Dierenkliniek de Woldberg
+HANDLEIDING BADGE — AniCura de Woldberg - Steenwijk - Kaasweg
 ============================================================
 
 Uw persoonlijke pagina op Dierenkliniek.nl:
@@ -61,7 +61,7 @@ STAP 3: Kopieer een van de onderstaande code-snippets en pas de
    title="Partner van Dierenkliniek.nl"
    rel="noopener">
   <img src="[URL_NAAR_UW_GEUPLOADE_BADGE]/badge-partner.png"
-       alt="Partner van Dierenkliniek.nl — Dierenkliniek de Woldberg"
+       alt="Partner van Dierenkliniek.nl — AniCura de Woldberg - Steenwijk - Kaasweg"
        width="200" height="200">
 </a>
 
@@ -73,7 +73,7 @@ STAP 3: Kopieer een van de onderstaande code-snippets en pas de
    title="Vermeld op Dierenkliniek.nl"
    rel="noopener">
   <img src="[URL_NAAR_UW_GEUPLOADE_BADGE]/badge-vermeld.png"
-       alt="Vermeld op Dierenkliniek.nl — Dierenkliniek de Woldberg"
+       alt="Vermeld op Dierenkliniek.nl — AniCura de Woldberg - Steenwijk - Kaasweg"
        width="160" height="160">
 </a>
 
