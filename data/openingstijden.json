@@ -4069,16 +4069,6 @@
     "zo": "gesloten",
     "onbevestigd": true
   },
-  "mijn-dierenkliniek-leidschendam-dierenarts-in-leidschendam": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
   "pets-health-dierenkliniek-den-haag-dierenarts-in-den-haag": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
@@ -4120,16 +4110,6 @@
     "onbevestigd": true
   },
   "dierenkliniek-leerdam-dierenarts-in-leerdam": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
-  "veterinair-centrum-zuid-holland-dierenkliniek-leyweg-dierenarts-in-den-haag": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
     "wo": "09:00-17:00",
@@ -4210,16 +4190,6 @@
     "onbevestigd": true
   },
   "dierenkliniek-spaland-locatie-schiedam-dierenarts-in-schiedam": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
-  "veterinair-centrum-zuid-holland-huisdierenziekenhuis-honselersdijk-dierenarts-in-honselersdijk": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
     "wo": "09:00-17:00",
@@ -4579,16 +4549,6 @@
     "zo": "gesloten",
     "onbevestigd": true
   },
-  "dierenkliniek-lieshout-dierenarts-in-lieshout": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
   "dierenartsenpraktijk-heesterakker-dierenarts-in-eindhoven": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
@@ -4669,26 +4629,6 @@
     "zo": "gesloten",
     "onbevestigd": true
   },
-  "dierenkliniek-de-kempen-locatie-bergeijk-dierenarts-in-bergeijk": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
-  "dierenkliniek-asten-someren-dierenarts-in-someren": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
   "duintop-dierenkliniek-locatie-middelburg-dierenarts-in-middelburg": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
@@ -4700,16 +4640,6 @@
     "onbevestigd": true
   },
   "dierenkliniek-enschede-dierenarts-in-enschede": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
-  "dierenartsenpraktijk-horst-locatie-blerick-dierenarts-in-blerick": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
     "wo": "09:00-17:00",
