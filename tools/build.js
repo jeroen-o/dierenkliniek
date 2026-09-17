@@ -6,6 +6,8 @@
 // Daarna committen en pushen; de GitHub Action meldt de wijzigingen bij IndexNow aan.
 const { execFileSync } = require('child_process');
 const steps = [
+  // Gedeelde CSS als losse, cachebare bestanden in /css/ (zie build-assets.js)
+  'build-assets.js',
   // Houdt de lichte kennisbank-index in index.html gelijk aan data/kennisbank.json
   'sync-index-kb.js',
   'build-kennisbank.js',

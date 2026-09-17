@@ -47,20 +47,9 @@ if (!profielen.length) {
   process.exit(0);
 }
 
-const CSS = `
-<style>
-.dk-social { display: flex; gap: 12px; align-items: center; margin-top: 18px; }
-.dk-social a {
-  display: inline-flex; align-items: center; justify-content: center;
-  width: 36px; height: 36px; border-radius: 50%;
-  background: rgba(255,255,255,.12); color: inherit;
-  transition: background .2s, transform .2s;
-}
-.dk-social a:hover { background: rgba(255,255,255,.24); transform: translateY(-2px); }
-.dk-social svg { width: 18px; height: 18px; fill: currentColor; display: block; }
-.site-footer .dk-social a { background: rgba(255,255,255,.12); }
-@media (prefers-reduced-motion: reduce) { .dk-social a { transition: none; } }
-</style>`;
+// Losse, cachebare CSS in plaats van een <style>-blok in elke pagina — zie
+// build-assets.js, dat dezelfde module naar /css/social.css schrijft.
+const CSS = '\n<link rel="stylesheet" href="/css/social.css">';
 
 function blok() {
   const links = profielen.map(p => {
@@ -88,13 +77,18 @@ function verwerk(bestand) {
   // Eerdere versie verwijderen zodat het script herhaalbaar is.
   s = s.replace(new RegExp(START + '[\\s\\S]*?' + EIND, 'g'), '').replace(/\n\s*\n\s*\n/g, '\n\n');
 
+  // Migratie: het oude inline <style>-blok van vóór de overstap naar
+  // /css/social.css verwijderen, anders houden bestaande pagina's de CSS
+  // dubbel (inline én extern).
+  s = s.replace(/\n?<style>\n\.dk-social \{[\s\S]*?<\/style>/, '');
+
   const anker = ANKERS.find(a => s.includes(a));
   if (!anker) return false;
 
   s = s.replace(anker, anker + '\n  ' + blok());
 
   // CSS eenmalig meegeven, vlak voor het einde van de head.
-  if (!s.includes('.dk-social {')) {
+  if (!s.includes('/css/social.css')) {
     const i = s.indexOf('</head>');
     if (i !== -1) s = s.slice(0, i) + CSS + '\n' + s.slice(i);
   }

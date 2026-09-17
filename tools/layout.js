@@ -10,7 +10,6 @@ const SITE = 'https://dierenkliniek.nl';
 const SJABLOON = path.join(__dirname, 'sjabloon');
 const sjabloon = (naam) => fs.readFileSync(path.join(SJABLOON, naam), 'utf8');
 
-const STYLE = sjabloon('stad.css');
 const HEADER = sjabloon('header.html').trimEnd();
 const FOOTER = sjabloon('footer.html').trimEnd();
 
@@ -167,6 +166,24 @@ function breadcrumbHtml(items) {
   return `<nav class="breadcrumb" aria-label="Kruimelpad">${parts.join('\n  ')}</nav>`;
 }
 
+// Data leverde lang voor elke kliniek dezelfde placeholder-omschrijving
+// ("Veterinaire kliniek in X. Volledige zorg voor gezelschapsdieren.") —
+// diezelfde tekst stond zichtbaar op 1079 pagina's. Waar de data een
+// specialisme of 24/7-spoeddienst vermeldt, gebruiken we dat in plaats van de
+// placeholder. Een kliniek met een eigen, afwijkende tekst in c.desc (43
+// stuks) behoudt die altijd; hier verzinnen we niets bij wat we niet weten.
+const GENERIEKE_DESC = /^Veterinaire kliniek in [^.]+\.(\s*Volledige zorg voor gezelschapsdieren\.)?$/;
+function beschrijvingVoor(c) {
+  if (c.desc && !GENERIEKE_DESC.test(c.desc)) return c.desc;
+  const specs = c.specs || [];
+  const isSpoed = (c.tags || []).includes('spoed');
+  let zin = `Dierenarts in ${c.city}`;
+  if (isSpoed && specs.length) zin += ` met 24/7 spoedhulp, gespecialiseerd in ${specs.join(', ')}`;
+  else if (isSpoed) zin += ' met 24/7 spoedhulp';
+  else if (specs.length) zin += ` gespecialiseerd in ${specs.join(', ')}`;
+  return zin + '.';
+}
+
 function faqLd(faqs) {
   return {
     '@type': 'FAQPage',
@@ -233,7 +250,8 @@ ${extraHead}
 <script type="application/ld+json">
 ${JSON.stringify(graph, null, 2)}
 </script>
-<style>${STYLE}${EXTRA_CSS}</style>
+<link rel="stylesheet" href="/css/stad.css">
+<link rel="stylesheet" href="/css/extra.css">
 </head>
 <body>
 ${HEADER}
@@ -290,4 +308,4 @@ function provinceOf(c) {
 }
 
 module.exports = { SITE, ROOT, page, esc, stripTags, slugify, breadcrumbLd, breadcrumbHtml, faqLd, faqHtml, ORGANIZATION, SOCIALE_PROFIELEN,
-  clinicSlug, citySlug, provinceOf, PROVINCE_LOOKUP, PROVINCE_DESCRIPTIONS, CLINIC_SLUG_OVERRIDES, HEADER, FOOTER, sjabloon };
+  clinicSlug, citySlug, provinceOf, PROVINCE_LOOKUP, PROVINCE_DESCRIPTIONS, CLINIC_SLUG_OVERRIDES, HEADER, FOOTER, sjabloon, EXTRA_CSS, beschrijvingVoor };

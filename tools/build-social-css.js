@@ -1,0 +1,14 @@
+// CSS voor de .dk-social-links in de footer (zie build-social.js). Losse
+// module zodat build-assets.js en build-social.js dezelfde bron gebruiken.
+module.exports = `.dk-social { display: flex; gap: 12px; align-items: center; margin-top: 18px; }
+.dk-social a {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 36px; height: 36px; border-radius: 50%;
+  background: rgba(255,255,255,.12); color: inherit;
+  transition: background .2s, transform .2s;
+}
+.dk-social a:hover { background: rgba(255,255,255,.24); transform: translateY(-2px); }
+.dk-social svg { width: 18px; height: 18px; fill: currentColor; display: block; }
+.site-footer .dk-social a { background: rgba(255,255,255,.12); }
+@media (prefers-reduced-motion: reduce) { .dk-social a { transition: none; } }
+`;

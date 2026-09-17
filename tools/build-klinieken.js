@@ -22,8 +22,6 @@ const SITE = L.SITE;
 const { esc, clinicSlug, citySlug, provinceOf, slugify } = L;
 const { CLINICS, KB_ARTICLES } = DATA;
 
-const CSS_KLINIEK = L.sjabloon('kliniek.css');
-const CSS_STAD = L.sjabloon('stad.css');
 const BADGE_JS = L.sjabloon('badge-kopieer.js').trimEnd();
 
 /* ---------------- helpers ---------------- */
@@ -69,7 +67,7 @@ function kortGenoeg(volledig, kort) {
 
 // De kop van elke pagina. Dezelfde volgorde van meta-tags als de bestaande
 // pagina's, plus hreflang zodat de canonieke taalversie expliciet is.
-function head({ title, ogTitle, description, canonical, ogType, geo, jsonld, css }) {
+function head({ title, ogTitle, description, canonical, ogType, geo, jsonld, cssHref }) {
   const url = SITE + canonical;
   return `<!DOCTYPE html>
 <html lang="nl">
@@ -99,7 +97,7 @@ function head({ title, ogTitle, description, canonical, ogType, geo, jsonld, css
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#00A1E4">
 ${jsonld.map(o => `<script type="application/ld+json">\n${JSON.stringify(o, null, 2)}\n</script>`).join('\n')}
-<style>${css}</style>
+<link rel="stylesheet" href="${cssHref}">
 </head>
 <body>
 ${L.HEADER}
@@ -151,7 +149,7 @@ function kliniekPagina(c) {
     '@type': 'VeterinaryCare',
     name: c.name,
     url,
-    description: c.desc || undefined,
+    description: L.beschrijvingVoor(c),
     address: {
       '@type': 'PostalAddress',
       streetAddress: c.address,
@@ -222,7 +220,7 @@ ${buurt.map(({ o, d }) => `        <a href="/${clinicSlug(o)}" class="nearby-car
   <h1>${esc(c.name)}</h1>
   <p class="subtitle">Dierenarts in ${esc(c.city)}</p>
   <div class="card">
-    ${c.desc ? `<p>${esc(c.desc)}</p>` : ''}
+    <p>${esc(L.beschrijvingVoor(c))}</p>
     ${specs.length ? `<div class="specs">${specs.map(s => `<span class="spec">${esc(s)}</span>`).join('')}</div>` : ''}
     <div style="margin-top: 24px;">
       ${knoppen.join('\n      ')}
@@ -300,7 +298,7 @@ ${BADGE_JS}
     ogType: 'business.business',
     geo: { place: c.city, lat: c.lat, lng: c.lng },
     jsonld: [ld, breadcrumb],
-    css: CSS_KLINIEK
+    cssHref: '/css/kliniek.css'
   }) + body;
 }
 
@@ -436,7 +434,7 @@ ${L.FOOTER}
     ogType: 'website',
     geo: { place: city, lat: eerste.lat, lng: eerste.lng },
     jsonld: [ld, breadcrumb],
-    css: CSS_STAD
+    cssHref: '/css/stad.css'
   }) + body;
 }
 

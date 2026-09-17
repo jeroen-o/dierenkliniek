@@ -150,7 +150,7 @@ for (const c of CLINICS) {
         url,
         telephone: c.phone || undefined,
         email: c.email || undefined,
-        description: eigenOmschrijving || c.desc || undefined,
+        description: eigenOmschrijving || L.beschrijvingVoor(c),
         image: fotos.length ? fotos.map(f => SITE + f.bestand) : SITE + '/og-image.png',
         hasMap: mapUrl,
         areaServed: [
