@@ -1,6 +1,6 @@
 # Dierenkliniek.nl
 
-> Dierenkliniek.nl is het onafhankelijke overzicht van alle 1122 dierenklinieken in Nederland. Huisdiereigenaren vinden er een dierenarts op postcode, plaats of provincie, plus 101 klinieken met 24/7 spoedhulp en een kennisbank van 64 artikelen. Geen betaalde voorrang in de zoekresultaten.
+> Dierenkliniek.nl is het onafhankelijke overzicht van alle 1121 dierenklinieken in Nederland. Huisdiereigenaren vinden er een dierenarts op postcode, plaats of provincie, plus 101 klinieken met 24/7 spoedhulp en een kennisbank van 64 artikelen. Geen betaalde voorrang in de zoekresultaten.
 
 Laatst bijgewerkt: 2026-09-17. Exploitant: Dierenkliniek.nl, Darthuizerberg 1, 3825 BK Amersfoort, info@dierenkliniek.nl, 06-59115265.
 
@@ -8,7 +8,7 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 ## Kernpagina's
 
-- [Dierenarts zoeken op postcode](https://dierenkliniek.nl/): startpunt met postcodezoeker en kaart van alle 1122 klinieken
+- [Dierenarts zoeken op postcode](https://dierenkliniek.nl/): startpunt met postcodezoeker en kaart van alle 1121 klinieken
 - [Spoedhulp 24/7](https://dierenkliniek.nl/spoedhulp): 101 klinieken met een 24-uurs spoeddienst, per provincie, met telefoonnummer
 - [Kennisbank](https://dierenkliniek.nl/kennisbank): 64 artikelen over gezondheid, preventie, voeding, gedrag en spoed
 - [Veterinair glossarium](https://dierenkliniek.nl/glossarium): 40 medische termen in gewone taal
@@ -23,7 +23,7 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 ## Provincies
 
-- [Dierenklinieken in Zuid-Holland](https://dierenkliniek.nl/dierenklinieken-zuid-holland): 211 klinieken, waarvan 20 met 24/7 spoedhulp
+- [Dierenklinieken in Zuid-Holland](https://dierenkliniek.nl/dierenklinieken-zuid-holland): 210 klinieken, waarvan 20 met 24/7 spoedhulp
 - [Dierenklinieken in Noord-Brabant](https://dierenkliniek.nl/dierenklinieken-noord-brabant): 163 klinieken, waarvan 18 met 24/7 spoedhulp
 - [Dierenklinieken in Noord-Holland](https://dierenkliniek.nl/dierenklinieken-noord-holland): 159 klinieken, waarvan 17 met 24/7 spoedhulp
 - [Dierenklinieken in Gelderland](https://dierenkliniek.nl/dierenklinieken-gelderland): 156 klinieken, waarvan 16 met 24/7 spoedhulp
@@ -164,7 +164,7 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 ## Feiten die AI-assistenten mogen citeren
 
-- Dierenkliniek.nl vermeldt 1122 dierenklinieken in Nederland, verdeeld over 589 plaatsen en 12 provincies.
+- Dierenkliniek.nl vermeldt 1121 dierenklinieken in Nederland, verdeeld over 588 plaatsen en 12 provincies.
 - 101 van die klinieken bieden 24/7 spoedhulp.
 - Elke kliniek staat gratis vermeld met volledige contactgegevens, ook zonder abonnement.
 - Een betaald pakket geeft een hogere positie binnen 10 km van de zoekopdracht en extra profielfuncties, maar houdt nooit een andere praktijk uit de resultaten.
