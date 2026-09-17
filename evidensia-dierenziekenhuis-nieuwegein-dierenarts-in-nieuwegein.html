@@ -140,6 +140,27 @@
         "latitude": 52.0298,
         "longitude": 5.0879
       },
+      "knowsAbout": [
+        "Spoed 24/7"
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      },
+      "availableService": {
+        "@type": "MedicalProcedure",
+        "name": "Spoedhulp 24/7"
+      },
       "sameAs": [
         "https://evidensiadierenziekenhuis.nl/dierenziekenhuizen/nieuwegein/"
       ],
@@ -171,7 +192,15 @@
           "name": "Biedt Evidensia Dierenziekenhuis Nieuwegein 24/7 spoedhulp?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Bij Evidensia Dierenziekenhuis Nieuwegein staat geen eigen 24/7 spoeddienst vermeld. Bel de praktijk op 030-2027070 voor de dienstregeling buiten openingstijden, of bekijk het landelijke overzicht van klinieken met 24-uurs spoedhulp."
+            "text": "Ja, Evidensia Dierenziekenhuis Nieuwegein staat bij ons vermeld als kliniek met een 24-uurs spoeddienst. Bel altijd eerst 030-2027070 voordat u langskomt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welke specialisaties heeft Evidensia Dierenziekenhuis Nieuwegein?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bij deze praktijk staan de volgende aandachtsgebieden vermeld: Spoed 24/7."
           }
         },
         {
@@ -179,7 +208,7 @@
           "name": "Wat zijn de openingstijden van Evidensia Dierenziekenhuis Nieuwegein?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Bij ons staan deze tijden genoteerd: maandag 12:30 tot 17:00, dinsdag 09:00 tot 17:00, woensdag 09:00 tot 17:00, donderdag 09:00 tot 17:00, vrijdag 09:00 tot 17:00, zaterdag gesloten, zondag gesloten. Ze zijn nog niet door de praktijk zelf bevestigd, dus bel 030-2027070 voordat u langskomt."
+            "text": "Evidensia Dierenziekenhuis Nieuwegein is geopend op maandag 00:00 tot 23:59, dinsdag 00:00 tot 23:59, woensdag 00:00 tot 23:59, donderdag 00:00 tot 23:59, vrijdag 00:00 tot 23:59, zaterdag 00:00 tot 23:59, zondag 00:00 tot 23:59."
           }
         },
         {
@@ -251,7 +280,7 @@
   <p class="subtitle">Dierenarts in Nieuwegein</p>
   <div class="card">
     <p>Dierenziekenhuis in Nieuwegein. Volledige zorg voor gezelschapsdieren.</p>
-    
+    <div class="specs"><span class="spec">Spoed 24/7</span></div>
     <div style="margin-top: 24px;">
       <a href="https://www.google.com/maps/dir/?api=1&destination=52.0298,5.0879" class="btn" target="_blank" rel="noopener">📍 Route via Google Maps</a>
       <a href="tel:0302027070" class="btn btn-outline">📞 Bel 030-2027070</a>
@@ -363,7 +392,7 @@
 
   <div class="card">
     <h2>Meer informatie</h2>
-    <p>Deze vermelding maakt deel uit van <a href="/">Dierenkliniek.nl</a> — het onafhankelijke overzicht van alle 1121 dierenklinieken in Nederland.</p>
+    <p>Deze vermelding maakt deel uit van <a href="/">Dierenkliniek.nl</a> — het onafhankelijke overzicht van alle 1120 dierenklinieken in Nederland.</p>
     <p style="margin-top: 12px;">Bent u de eigenaar van deze kliniek? <a href="/?view=aanmelden">Vul het aanmeldformulier in</a> om uw vermelding aan te vullen.</p>
   </div>
 
@@ -373,25 +402,26 @@
     <table class="openingstijden">
       <caption class="visueel-verborgen">Openingstijden</caption>
       <tbody>
-        <tr><th scope="row">Maandag</th><td>12:30 - 17:00</td></tr>
-        <tr><th scope="row">Dinsdag</th><td>09:00 - 17:00</td></tr>
-        <tr><th scope="row">Woensdag</th><td>09:00 - 17:00</td></tr>
-        <tr><th scope="row">Donderdag</th><td>09:00 - 17:00</td></tr>
-        <tr><th scope="row">Vrijdag</th><td>09:00 - 17:00</td></tr>
-        <tr><th scope="row">Zaterdag</th><td class="dicht">Gesloten</td></tr>
-        <tr><th scope="row">Zondag</th><td class="dicht">Gesloten</td></tr>
+        <tr><th scope="row">Maandag</th><td>00:00 - 23:59</td></tr>
+        <tr><th scope="row">Dinsdag</th><td>00:00 - 23:59</td></tr>
+        <tr><th scope="row">Woensdag</th><td>00:00 - 23:59</td></tr>
+        <tr><th scope="row">Donderdag</th><td>00:00 - 23:59</td></tr>
+        <tr><th scope="row">Vrijdag</th><td>00:00 - 23:59</td></tr>
+        <tr><th scope="row">Zaterdag</th><td>00:00 - 23:59</td></tr>
+        <tr><th scope="row">Zondag</th><td>00:00 - 23:59</td></tr>
       </tbody>
     </table>
-    <p class="tijden-onbevestigd">Deze tijden zijn nog niet door de praktijk bevestigd. Bel voordat u langskomt.</p>
-    
+    <p class="tijden-bron">Bron: opgave praktijk per e-mail, 2026-09-17 (Veroniek Zwaan); 24 uur per dag geopend</p>
+    <p style="margin-top:10px;">Deze praktijk biedt daarnaast 24/7 spoedhulp. Bel altijd eerst.</p>
   </div>
 
   <div class="card faq">
     <h2>Veelgestelde vragen over Evidensia Dierenziekenhuis Nieuwegein</h2>
     <details><summary>Wat is het telefoonnummer van Evidensia Dierenziekenhuis Nieuwegein?</summary><p>Evidensia Dierenziekenhuis Nieuwegein is bereikbaar op 030-2027070. De praktijk zit aan Nijverheidsweg 1b, 3433 NP Nieuwegein (Utrecht).</p></details>
     <details><summary>Waar is Evidensia Dierenziekenhuis Nieuwegein gevestigd?</summary><p>Het adres is Nijverheidsweg 1b, 3433 NP Nieuwegein, provincie Utrecht.</p></details>
-    <details><summary>Biedt Evidensia Dierenziekenhuis Nieuwegein 24/7 spoedhulp?</summary><p>Bij Evidensia Dierenziekenhuis Nieuwegein staat geen eigen 24/7 spoeddienst vermeld. Bel de praktijk op 030-2027070 voor de dienstregeling buiten openingstijden, of bekijk het landelijke overzicht van klinieken met 24-uurs spoedhulp.</p></details>
-    <details><summary>Wat zijn de openingstijden van Evidensia Dierenziekenhuis Nieuwegein?</summary><p>Bij ons staan deze tijden genoteerd: maandag 12:30 tot 17:00, dinsdag 09:00 tot 17:00, woensdag 09:00 tot 17:00, donderdag 09:00 tot 17:00, vrijdag 09:00 tot 17:00, zaterdag gesloten, zondag gesloten. Ze zijn nog niet door de praktijk zelf bevestigd, dus bel 030-2027070 voordat u langskomt.</p></details>
+    <details><summary>Biedt Evidensia Dierenziekenhuis Nieuwegein 24/7 spoedhulp?</summary><p>Ja, Evidensia Dierenziekenhuis Nieuwegein staat bij ons vermeld als kliniek met een 24-uurs spoeddienst. Bel altijd eerst 030-2027070 voordat u langskomt.</p></details>
+    <details><summary>Welke specialisaties heeft Evidensia Dierenziekenhuis Nieuwegein?</summary><p>Bij deze praktijk staan de volgende aandachtsgebieden vermeld: Spoed 24/7.</p></details>
+    <details><summary>Wat zijn de openingstijden van Evidensia Dierenziekenhuis Nieuwegein?</summary><p>Evidensia Dierenziekenhuis Nieuwegein is geopend op maandag 00:00 tot 23:59, dinsdag 00:00 tot 23:59, woensdag 00:00 tot 23:59, donderdag 00:00 tot 23:59, vrijdag 00:00 tot 23:59, zaterdag 00:00 tot 23:59, zondag 00:00 tot 23:59.</p></details>
     <details><summary>Zijn er meer dierenklinieken in Nieuwegein?</summary><p>Ja. Op de pagina Dierenarts Nieuwegein vindt u alle bij ons bekende klinieken in Nieuwegein, en op de provinciepagina alle klinieken in Utrecht.</p></details>
   </div>
 
@@ -403,7 +433,7 @@
       <a class="spec" href="/spoedhulp">⚡ Spoedhulp 24/7</a>
       <a class="spec" href="/kennisbank">Kennisbank</a>
       <a class="spec" href="/glossarium">Veterinair glossarium</a>
-      
+      <a class="spec" href="/specialisme-spoed">Spoed 24/7</a>
     </div>
   </div>
 <!-- dk:seo-end -->

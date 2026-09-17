@@ -240,14 +240,14 @@
     "onbevestigd": true
   },
   "dap-bezuidenhout-dierenarts-in-den-haag": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "09:00-12:30, 13:00-17:30",
+    "di": "09:00-12:30, 13:00-17:30",
+    "wo": "09:00-12:30, 13:00-16:30",
+    "do": "09:00-12:30, 13:00-17:30",
+    "vr": "09:00-12:30, 13:00-15:30",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-17 (Sharon)"
   },
   "dap-citaverde-dierenarts-in-hegelsom": {
     "ma": "12:30-17:00",
@@ -1840,14 +1840,14 @@
     "onbevestigd": true
   },
   "dierenkliniek-delft-centrum-dierenarts-in-delft": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:00-19:00",
+    "di": "08:00-19:00",
+    "wo": "08:00-19:00",
+    "do": "08:00-17:00",
+    "vr": "08:00-19:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-17 (Denise van Waardenberg); dagelijks 10:00-10:15 en 15:00-15:15 koffiepauze, dan alleen bereikbaar voor spoed"
   },
   "dierenkliniek-den-dolder-dierenarts-in-den-dolder": {
     "ma": "12:30-17:00",
@@ -1970,14 +1970,14 @@
     "onbevestigd": true
   },
   "dierenkliniek-emmeloord-dierenarts-in-emmeloord": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:00-18:00",
+    "di": "08:00-18:00",
+    "wo": "08:00-19:00",
+    "do": "08:00-19:00",
+    "vr": "08:00-18:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-17 (Isa); zaterdag en zondag alleen voor spoed"
   },
   "dierenkliniek-europaplein-dierenarts-in-amsterdam": {
     "ma": "12:30-17:00",
@@ -2450,14 +2450,14 @@
     "onbevestigd": true
   },
   "dierenkliniek-parkweg-dierenarts-in-voorburg": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
+    "ma": "09:00-17:00",
+    "di": "09:00-19:00",
     "wo": "09:00-17:00",
     "do": "09:00-17:00",
     "vr": "09:00-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-17 (Tamara)"
   },
   "dierenkliniek-pieter-bas-dierenarts-in-gouda": {
     "ma": "12:30-17:00",
@@ -2550,14 +2550,14 @@
     "onbevestigd": true
   },
   "dierenkliniek-santpoort-dierenarts-in-santpoort": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:30-18:00",
+    "di": "08:30-18:00",
+    "wo": "08:30-18:00",
+    "do": "08:30-18:00",
+    "vr": "08:30-18:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-17 (Melissa)"
   },
   "dierenkliniek-scheveningen-dierenarts-in-den-haag": {
     "ma": "12:30-17:00",
@@ -2780,14 +2780,14 @@
     "onbevestigd": true
   },
   "dierenkliniek-wateringse-veld-dierenarts-in-den-haag": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:30-12:30, 13:30-17:30",
+    "di": "08:30-12:30, 13:30-17:30",
+    "wo": "08:30-12:30, 13:30-17:30",
+    "do": "08:30-12:30, 13:30-17:30",
+    "vr": "08:30-12:30, 13:30-17:30",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-17 (Marissa)"
   },
   "dierenkliniek-wolvega-dierenarts-in-wolvega": {
     "ma": "12:30-17:00",
@@ -2987,7 +2987,7 @@
     "vr": "08:30-20:00",
     "za": "10:00-12:00",
     "zo": "gesloten",
-    "bron": "opgave praktijk per e-mail, 2026-09-16 (zaterdag 10:00-12:00 alleen afhalen voeding en medicijnen; zaterdag en zondag 08:30-22:00 alleen spoed)"
+    "bron": "opgave praktijk per e-mail, 2026-09-17 (Laura Happee); buiten deze tijden alleen bereikbaar voor spoed"
   },
   "diergeneeskundig-centrum-almere-dierenarts-in-almere": {
     "ma": "12:30-17:00",
@@ -3030,14 +3030,14 @@
     "onbevestigd": true
   },
   "diergeneeskundig-centrum-bekenland-dierenarts-in-borculo": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:30-12:00, 13:30-18:00",
+    "di": "08:30-12:00, 13:30-17:00",
+    "wo": "08:30-12:00, 13:30-18:00",
+    "do": "08:30-12:00, 13:30-17:00",
+    "vr": "08:30-12:00, 13:30-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-17 (Elke Kettering)"
   },
   "diergeneeskundig-centrum-bekenland-dierenarts-in-gelselaar": {
     "ma": "12:30-17:00",
@@ -3617,7 +3617,7 @@
     "vr": "08:30-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "bron": "opgave praktijk per e-mail, 2026-09-16"
+    "bron": "opgave praktijk per e-mail, 2026-09-17 (Margriet Eerhardt)"
   },
   "van-duin-tot-dijk-dierenartsen-dierenarts-in-winkel": {
     "ma": "08:30-17:00",
@@ -3627,7 +3627,7 @@
     "vr": "08:30-17:00",
     "za": "09:00-13:00",
     "zo": "gesloten",
-    "bron": "opgave praktijk per e-mail, 2026-09-16"
+    "bron": "opgave praktijk per e-mail, 2026-09-17 (Margriet Eerhardt)"
   },
   "van-waard-tot-klif-dierenartsenpraktijk-dierenarts-in-workum": {
     "ma": "12:30-17:00",
@@ -3660,14 +3660,14 @@
     "onbevestigd": true
   },
   "vetsplace-oosterhout-dierenarts-in-oosterhout": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
+    "ma": "09:00-17:30",
+    "di": "09:00-17:30",
+    "wo": "09:00-17:30",
+    "do": "09:00-17:30",
+    "vr": "09:00-17:30",
+    "za": "09:00-17:30",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-17; op zaterdag niet altijd een dierenarts aanwezig"
   },
   "caressa-dierenkliniek-76-amsterdam-dierenarts-in-amsterdam": {
     "ma": "12:30-17:00",
@@ -5450,14 +5450,14 @@
     "onbevestigd": true
   },
   "anicura-dierenkliniek-rotterdam-schiebroek-dierenarts-in-rotterdam": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:30-16:30",
+    "di": "08:30-16:30",
+    "wo": "08:30-16:30",
+    "do": "08:30-19:00",
+    "vr": "08:30-16:30",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-17; uitsluitend op afspraak"
   },
   "anicura-barendrecht-carnisselande-dierenarts-in-barendrecht": {
     "ma": "12:30-17:00",
@@ -5540,14 +5540,14 @@
     "onbevestigd": true
   },
   "anicura-harderwijk-dierenarts-in-harderwijk": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:00-17:30",
+    "di": "08:00-17:30",
+    "wo": "08:00-17:30",
+    "do": "08:00-17:30",
+    "vr": "08:00-17:30",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-17 (Marije Verheul)"
   },
   "anicura-t-heike-eindhoven-dierenarts-in-eindhoven": {
     "ma": "12:30-17:00",
@@ -5680,24 +5680,24 @@
     "onbevestigd": true
   },
   "anicura-deventer-dierenarts-in-deventer": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
+    "ma": "08:00-20:00",
+    "di": "08:00-20:00",
+    "wo": "08:00-20:00",
+    "do": "08:00-20:00",
+    "vr": "08:00-18:00",
+    "za": "08:00-12:00",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-17 (Paula Nijenhuis)"
   },
   "anicura-deventer-zandweerd-dierenarts-in-deventer": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "10:00-18:00",
+    "di": "10:00-18:00",
+    "wo": "10:00-18:00",
+    "do": "10:00-18:00",
+    "vr": "10:00-18:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-17 (Paula Nijenhuis)"
   },
   "anicura-de-woldberg-vollenhove-dierenarts-in-vollenhove": {
     "ma": "12:30-17:00",
@@ -5760,14 +5760,14 @@
     "onbevestigd": true
   },
   "anicura-zierikzee-dierenarts-in-zierikzee": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
+    "ma": "08:00-19:00",
+    "di": "08:00-17:30",
+    "wo": "08:00-19:00",
+    "do": "08:00-19:00",
+    "vr": "08:00-19:00",
+    "za": "09:30-13:30",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-17"
   },
   "anicura-dierenziekenhuis-zeeuws-vlaanderen-dierenarts-in-terneuzen": {
     "ma": "12:30-17:00",
@@ -5820,14 +5820,14 @@
     "onbevestigd": true
   },
   "anicura-dierenkliniek-bossenbuurt-dierenarts-in-zoetermeer": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:00-12:30, 13:30-18:00",
+    "di": "08:00-12:30, 13:30-18:00",
+    "wo": "08:00-12:30, 13:30-18:00",
+    "do": "08:00-12:30, 13:30-18:00",
+    "vr": "08:00-12:30, 13:30-18:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-17 (Lotte); op oneven weken zaterdag 09:00-16:00 geopend, niet in vast rooster te vatten"
   },
   "anicura-haaglanden-rijswijk-dierenarts-in-rijswijk": {
     "ma": "12:30-17:00",
@@ -5970,64 +5970,64 @@
     "onbevestigd": true
   },
   "anicura-helmond-brouwhuis-dierenarts-in-helmond": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:30-18:00",
+    "di": "08:30-19:00",
+    "wo": "08:30-18:00",
+    "do": "08:30-18:00",
+    "vr": "08:30-18:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-17 (Lotte van Berlo); zaterdag wisselend ochtendspreekuur, niet in vast rooster te vatten"
   },
   "anicura-gemert-dierenarts-in-gemert": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:30-18:00",
+    "di": "08:30-18:00",
+    "wo": "08:30-18:00",
+    "do": "08:30-19:00",
+    "vr": "08:30-18:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-17 (Lotte van Berlo)"
   },
   "anicura-beek-en-donk-dierenarts-in-beek-en-donk": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "13:30-18:00",
+    "di": "gesloten",
+    "wo": "13:30-18:00",
+    "do": "gesloten",
+    "vr": "13:30-18:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-17 (Lotte van Berlo)"
   },
   "anicura-helmond-stiphout-dierenarts-in-helmond": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:30-19:00",
+    "di": "08:30-18:00",
+    "wo": "08:30-18:00",
+    "do": "08:30-18:00",
+    "vr": "08:30-18:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-17 (Lotte van Berlo)"
   },
   "anicura-helmond-bijsterveld-dierenarts-in-helmond": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "gesloten",
+    "di": "13:30-18:00",
+    "wo": "gesloten",
+    "do": "13:30-18:00",
+    "vr": "gesloten",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-17 (Lotte van Berlo)"
   },
   "anicura-deurne-dierenarts-in-deurne": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:30-18:00",
+    "di": "08:30-18:00",
+    "wo": "08:30-19:00",
+    "do": "08:30-18:00",
+    "vr": "08:30-18:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-17 (Lotte van Berlo)"
   },
   "evidensia-dierenziekenhuis-amsterdam-dierenarts-in-amstelveen": {
     "ma": "12:30-17:00",
@@ -6040,14 +6040,14 @@
     "onbevestigd": true
   },
   "evidensia-dierenziekenhuis-nieuwegein-dierenarts-in-nieuwegein": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "ma": "00:00-23:59",
+    "di": "00:00-23:59",
+    "wo": "00:00-23:59",
+    "do": "00:00-23:59",
+    "vr": "00:00-23:59",
+    "za": "00:00-23:59",
+    "zo": "00:00-23:59",
+    "bron": "opgave praktijk per e-mail, 2026-09-17 (Veroniek Zwaan); 24 uur per dag geopend"
   },
   "evidensia-dierenziekenhuis-barendrecht-dierenarts-in-barendrecht": {
     "ma": "12:30-17:00",
@@ -6260,14 +6260,14 @@
     "onbevestigd": true
   },
   "dierendokters-zeist-dierenarts-in-zeist": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "09:00-19:00",
+    "di": "09:00-19:00",
+    "wo": "09:00-19:00",
+    "do": "09:00-19:00",
+    "vr": "09:00-19:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-17 (Barbara Klous)"
   },
   "dierendokters-schiedam-dierenarts-in-schiedam": {
     "ma": "12:30-17:00",
@@ -6310,14 +6310,14 @@
     "onbevestigd": true
   },
   "dierendokters-rotterdam-noord-dierenarts-in-rotterdam": {
-    "ma": "12:30-17:00",
+    "ma": "09:00-19:00",
     "di": "09:00-17:00",
-    "wo": "09:00-17:00",
+    "wo": "09:00-19:00",
     "do": "09:00-17:00",
     "vr": "09:00-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-17 (Iris Jochems)"
   },
   "dierenkliniek-oudorp-dierenarts-in-alkmaar": {
     "ma": "12:30-17:00",
