@@ -179,16 +179,6 @@
     "zo": "gesloten",
     "onbevestigd": true
   },
-  "dac-gorredijk-dierenarts-in-gorredijk": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
   "dac-staphorst-dierenarts-in-staphorst": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
@@ -1140,14 +1130,14 @@
     "onbevestigd": true
   },
   "dierenartspraktijk-loosdrechtseweg-dierenarts-in-hilversum": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
+    "ma": "08:00-18:00",
+    "di": "08:00-18:00",
+    "wo": "08:00-18:00",
+    "do": "08:00-18:00",
+    "vr": "08:00-20:00",
+    "za": "14:00-17:00",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-18 (balie@daplw.nl)"
   },
   "dierenartspraktijk-marknesse-dierenarts-in-marknesse": {
     "ma": "12:30-17:00",
@@ -1779,16 +1769,6 @@
     "zo": "gesloten",
     "onbevestigd": true
   },
-  "dierenkliniek-de-vossenbrink-dierenarts-in-delden": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
   "dierenkliniek-de-waalsprong-dierenarts-in-nijmegen": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
@@ -1990,14 +1970,14 @@
     "onbevestigd": true
   },
   "dierenkliniek-filmwijk-dierenarts-in-almere": {
-    "ma": "12:30-17:00",
+    "ma": "09:00-17:00",
     "di": "09:00-17:00",
     "wo": "09:00-17:00",
     "do": "09:00-17:00",
     "vr": "09:00-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-18 (Karin Zweers)"
   },
   "dierenkliniek-ginneken-dierenarts-in-breda": {
     "ma": "12:30-17:00",
@@ -3240,24 +3220,24 @@
     "onbevestigd": true
   },
   "gezelschapsdierenkliniek-de-eenhoorn-dierenarts-in-asten": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:00-20:00",
+    "di": "08:00-20:00",
+    "wo": "08:00-20:00",
+    "do": "08:00-20:00",
+    "vr": "08:00-20:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-18 (Yana van Vlerken) - za om de even week 08:30-12:00, niet weergeefbaar in vast weekschema"
   },
   "gezelschapsdierenkliniek-de-eenhoorn-dierenarts-in-helmond": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:30-17:00",
+    "di": "08:30-20:00",
+    "wo": "08:30-20:00",
+    "do": "08:30-17:00",
+    "vr": "08:30-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-18 (Yana van Vlerken)"
   },
   "gezelschapsdierenkliniek-roosendaal-dierenarts-in-roosendaal": {
     "ma": "08:00-18:00",
@@ -5580,14 +5560,14 @@
     "onbevestigd": true
   },
   "anicura-dierenkliniek-sleeuwijk-dierenarts-in-sleeuwijk": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
+    "ma": "08:00-20:00",
+    "di": "08:00-20:00",
+    "wo": "08:00-20:00",
+    "do": "08:00-20:00",
+    "vr": "08:00-20:00",
+    "za": "08:00-11:30",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-18 (Marry van Genderen)"
   },
   "anicura-west-friesland-grootebroek-dierenarts-in-grootebroek": {
     "ma": "12:30-17:00",
