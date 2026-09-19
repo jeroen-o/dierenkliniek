@@ -79,6 +79,19 @@ const ORG_REF = { '@id': SITE + '/#organization' };
 
 let clinicCount = 0, cityCount = 0, missing = [];
 
+// Voor per-kliniek vergelijkingen: alle klinieken per plaats, en de landelijke
+// lijst met 24/7 spoedklinieken (met coördinaten) om de dichtstbijzijnde te
+// kunnen noemen voor praktijken die zelf geen spoeddienst hebben.
+const perStadAlle = {};
+for (const c of CLINICS) (perStadAlle[c.city] ||= []).push(c);
+const spoedMetCoords = CLINICS.filter(c => (c.tags || []).includes('spoed') && c.lat && c.lng);
+function afstandKm(a, b) {
+  const R = 6371, rad = (d) => d * Math.PI / 180;
+  const dLat = rad(b.lat - a.lat), dLng = rad(b.lng - a.lng);
+  const x = Math.sin(dLat / 2) ** 2 + Math.cos(rad(a.lat)) * Math.cos(rad(b.lat)) * Math.sin(dLng / 2) ** 2;
+  return 2 * R * Math.asin(Math.sqrt(x));
+}
+
 /* ---------------- kliniekpagina's ---------------- */
 for (const c of CLINICS) {
   const slug = clinicSlug(c);
@@ -98,6 +111,16 @@ for (const c of CLINICS) {
   const eigenOmschrijving = P.omschrijvingVoor(c, profiel);
   const fotos = P.fotosVoor(c, profiel);
 
+  const anderenInStad = (perStadAlle[c.city] || []).filter(o => o !== c);
+  const stadgenoten = perStadAlle[c.city] || [];
+  const beoordeeldeStadgenoten = stadgenoten.filter(o => o.rating && o.reviews);
+  const gemStad = beoordeeldeStadgenoten.length
+    ? beoordeeldeStadgenoten.reduce((s, o) => s + o.rating * o.reviews, 0) / beoordeeldeStadgenoten.reduce((s, o) => s + o.reviews, 0)
+    : null;
+  const dichtstbijzijndeSpoed = (!isSpoed && c.lat && c.lng)
+    ? spoedMetCoords.filter(o => o !== c).map(o => ({ o, d: afstandKm(c, o) })).sort((a, b) => a.d - b.d)[0]
+    : null;
+
   const faqs = [
     {
       q: `Wat is het telefoonnummer van ${c.name}?`,
@@ -111,7 +134,9 @@ for (const c of CLINICS) {
       q: `Biedt ${c.name} 24/7 spoedhulp?`,
       a: isSpoed
         ? `Ja, ${c.name} staat bij ons vermeld als kliniek met een 24-uurs spoeddienst. Bel altijd eerst ${c.phone} voordat u langskomt.`
-        : `Bij ${c.name} staat geen eigen 24/7 spoeddienst vermeld. Bel de praktijk op ${c.phone} voor de dienstregeling buiten openingstijden, of bekijk het landelijke overzicht van klinieken met 24-uurs spoedhulp.`
+        : dichtstbijzijndeSpoed
+          ? `Bij ${c.name} staat geen eigen 24/7 spoeddienst vermeld. De dichtstbijzijnde kliniek met 24-uurs spoedhulp in onze data is ${dichtstbijzijndeSpoed.o.name}${dichtstbijzijndeSpoed.d < 1 ? `, eveneens in ${c.city}` : ` in ${dichtstbijzijndeSpoed.o.city}, op ongeveer ${dichtstbijzijndeSpoed.d.toFixed(0)} km`}. Bel altijd eerst.`
+          : `Bij ${c.name} staat geen eigen 24/7 spoeddienst vermeld. Bel de praktijk op ${c.phone} voor de dienstregeling buiten openingstijden, of bekijk het landelijke overzicht van klinieken met 24-uurs spoedhulp.`
     },
     specs.length ? {
       q: `Welke specialisaties heeft ${c.name}?`,
@@ -123,10 +148,16 @@ for (const c of CLINICS) {
         ? `${c.name} is geopend op ${O.samenvatting(dagen)}.`
         : `Bij ons staan deze tijden genoteerd: ${O.samenvatting(dagen)}. Ze zijn nog niet door de praktijk zelf bevestigd, dus bel ${c.phone} voordat u langskomt.`
     } : null,
-    prov ? {
+    (c.rating && c.reviews && gemStad && stadgenoten.length > 1) ? {
+      q: `Hoe scoort ${c.name} vergeleken met andere klinieken in ${c.city}?`,
+      a: `${c.name} scoort ${String(c.rating).replace('.', ',')}/5 op basis van ${c.reviews} beoordelingen. Het gemiddelde van ${beoordeeldeStadgenoten.length} beoordeelde ${beoordeeldeStadgenoten.length === 1 ? 'kliniek' : 'klinieken'} in ${c.city} is ${gemStad.toFixed(1).replace('.', ',')}/5.`
+    } : null,
+    {
       q: `Zijn er meer dierenklinieken in ${c.city}?`,
-      a: `Ja. Op de pagina Dierenarts ${c.city} vindt u alle bij ons bekende klinieken in ${c.city}, en op de provinciepagina alle klinieken in ${prov}.`
-    } : null
+      a: anderenInStad.length
+        ? `Ja, naast ${c.name} ${anderenInStad.length === 1 ? 'staat er nog 1 andere kliniek' : `staan er nog ${anderenInStad.length} andere klinieken`} vermeld in ${c.city}: ${anderenInStad.map(o => o.name).join(', ')}. Bekijk de pagina Dierenarts ${c.city} voor alle contactgegevens${prov ? `, of de provinciepagina voor heel ${prov}` : ''}.`
+        : `Nee, ${c.name} is de enige kliniek die wij in ${c.city} vermeld hebben staan${prov ? `. Op de provinciepagina van ${prov} vindt u wel andere klinieken in de omgeving` : ''}.`
+    }
   ].filter(Boolean);
 
   const graph = {

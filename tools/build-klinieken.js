@@ -386,7 +386,7 @@ function stadPagina(city) {
       <p class="addr">${esc(c.address)}, ${esc(c.postcode)} ${esc(c.city)}</p>
       ${(c.specs || []).length ? `<p class="specs">${esc((c.specs || []).join(', '))}</p>` : ''}
       ${uren ? `<p class="hours-line" style="font-size:13px;color:#4a5568;margin-top:4px;">🕒 ${esc(uren)}</p>` : ''}
-      ${c.rating && c.reviews ? `<p style="font-size:13px;color:#4a5568;margin-top:2px;">⭐ ${esc(String(c.rating))}/5 (${c.reviews} beoordelingen)</p>` : ''}
+      ${c.rating && c.reviews ? `<p style="font-size:13px;color:#4a5568;margin-top:2px;">⭐ ${esc(String(c.rating).replace('.', ','))}/5 (${c.reviews} beoordelingen)</p>` : ''}
       <div class="actions">
         ${c.phone ? `<a href="${telHref(c.phone)}" class="btn btn-outline">📞 ${esc(c.phone)}</a>` : ''}
         <a href="/${clinicSlug(c)}" class="btn btn-primary">Meer info →</a>
