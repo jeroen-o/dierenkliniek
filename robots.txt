@@ -6,16 +6,40 @@ Allow: /
 # Tracking-parameters leveren alleen duplicaten op
 Disallow: /*?utm_
 Disallow: /*&utm_
+# Juridische/utility-views van de SPA (?view=...): geen eigen statische
+# pagina, geen content die op zichzelf hoort te ranken. Ze krijgen ook al
+# noindex via JS, maar dat vereist een renderpas; Disallow voorkomt dat
+# crawlers ze überhaupt ophalen en als "gecrawld, niet geïndexeerd" tellen.
+Disallow: /?view=privacy
+Disallow: /?view=voorwaarden
+Disallow: /?view=cookies
+Disallow: /?view=beslisboom
+Disallow: /?view=vaccinatieplanner
 
 # Zoekmachines
 User-agent: Googlebot
 Allow: /
+Disallow: /?view=privacy
+Disallow: /?view=voorwaarden
+Disallow: /?view=cookies
+Disallow: /?view=beslisboom
+Disallow: /?view=vaccinatieplanner
 
 User-agent: Bingbot
 Allow: /
+Disallow: /?view=privacy
+Disallow: /?view=voorwaarden
+Disallow: /?view=cookies
+Disallow: /?view=beslisboom
+Disallow: /?view=vaccinatieplanner
 
 User-agent: DuckDuckBot
 Allow: /
+Disallow: /?view=privacy
+Disallow: /?view=voorwaarden
+Disallow: /?view=cookies
+Disallow: /?view=beslisboom
+Disallow: /?view=vaccinatieplanner
 
 # AI-crawlers — expliciet toegestaan zodat onze content bruikbaar is
 # in ChatGPT, Claude, Perplexity, Gemini en andere AI-assistenten
@@ -94,12 +118,27 @@ Allow: /
 
 User-agent: Yandex
 Allow: /
+Disallow: /?view=privacy
+Disallow: /?view=voorwaarden
+Disallow: /?view=cookies
+Disallow: /?view=beslisboom
+Disallow: /?view=vaccinatieplanner
 
 User-agent: Seznam
 Allow: /
+Disallow: /?view=privacy
+Disallow: /?view=voorwaarden
+Disallow: /?view=cookies
+Disallow: /?view=beslisboom
+Disallow: /?view=vaccinatieplanner
 
 User-agent: Applebot
 Allow: /
+Disallow: /?view=privacy
+Disallow: /?view=voorwaarden
+Disallow: /?view=cookies
+Disallow: /?view=beslisboom
+Disallow: /?view=vaccinatieplanner
 
 # Structured content voor AI-assistenten
 # https://dierenkliniek.nl/llms.txt
