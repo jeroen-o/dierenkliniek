@@ -245,6 +245,16 @@ for (const city of cities) {
   const spoedIn = list.filter(c => (c.tags || []).includes('spoed'));
   const url = SITE + '/' + slug;
   const allSpecs = [...new Set(list.flatMap(c => c.specs || []))];
+  const beoordeeld = list.filter(c => c.rating && c.reviews);
+  const gemGeoordeeld = beoordeeld.length
+    ? (beoordeeld.reduce((s, c) => s + c.rating * c.reviews, 0) / beoordeeld.reduce((s, c) => s + c.reviews, 0))
+    : null;
+  const totaalReviews = beoordeeld.reduce((s, c) => s + c.reviews, 0);
+  const bevestigdeTijden = list.filter(c => O.bevestigd(TIJDEN[clinicSlug(c)]));
+  const buiten = CLINICS
+    .filter(c => c.city !== city && c.lat && c.lng && list[0].lat && list[0].lng)
+    .map(c => ({ c, d: Math.hypot((c.lat - list[0].lat) * 111, (c.lng - list[0].lng) * 68) }))
+    .sort((a, b) => a.d - b.d)[0];
 
   const faqs = [
     {
@@ -255,15 +265,29 @@ for (const city of cities) {
       q: `Welke dierenarts in ${city} heeft 24/7 spoedhulp?`,
       a: spoedIn.length
         ? `${spoedIn.length === 1 ? 'Eén kliniek' : `${spoedIn.length} klinieken`} in ${city} ${spoedIn.length === 1 ? 'biedt' : 'bieden'} 24-uurs spoedhulp: ${spoedIn.map(c => `${c.name} (${c.phone})`).join(', ')}. Bel altijd eerst.`
-        : `In ${city} staat geen kliniek met een eigen 24/7 spoeddienst vermeld. Bel uw eigen praktijk voor de dienstregeling of bekijk het landelijke spoedoverzicht voor de dichtstbijzijnde spoedkliniek.`
+        : buiten
+          ? `In ${city} staat geen kliniek met een eigen 24/7 spoeddienst vermeld. De dichtstbijzijnde optie in onze data is ${buiten.c.name} in ${buiten.c.city}, op ongeveer ${buiten.d.toFixed(0)} km. Bel altijd eerst, of bekijk het landelijke spoedoverzicht.`
+          : `In ${city} staat geen kliniek met een eigen 24/7 spoeddienst vermeld. Bel uw eigen praktijk voor de dienstregeling of bekijk het landelijke spoedoverzicht voor de dichtstbijzijnde spoedkliniek.`
     },
     allSpecs.length ? {
       q: `Welke specialisaties vind ik bij dierenartsen in ${city}?`,
       a: `Bij de klinieken in ${city} staan onder meer deze aandachtsgebieden vermeld: ${allSpecs.join(', ')}.`
     } : null,
+    bevestigdeTijden.length ? {
+      q: `Zijn de openingstijden van dierenartsen in ${city} bevestigd?`,
+      a: bevestigdeTijden.length === list.length
+        ? `Ja, van alle ${list.length === 1 ? 'kliniek' : `${list.length} klinieken`} in ${city} zijn de openingstijden door de praktijk zelf doorgegeven en bevestigd.`
+        : `Van ${bevestigdeTijden.length} van de ${list.length} klinieken in ${city} zijn de openingstijden door de praktijk zelf bevestigd (${bevestigdeTijden.map(c => c.name).join(', ')}). Bel bij de overige vooraf om de actuele tijden te checken.`
+    } : null,
+    gemGeoordeeld ? {
+      q: `Hoe goed scoren de dierenartsen in ${city}?`,
+      a: `De klinieken in ${city} scoren gemiddeld ${gemGeoordeeld.toFixed(1).replace('.', ',')} van de 5, op basis van in totaal ${totaalReviews} beoordelingen bij ${beoordeeld.length} van de ${list.length} ${list.length === 1 ? 'kliniek' : 'klinieken'}.`
+    } : null,
     {
       q: `Hoe kies ik de juiste dierenarts in ${city}?`,
-      a: 'Kijk naar reisafstand (zeker bij spoed), de vermelde specialisaties en of de praktijk ervaring heeft met uw diersoort. Elke kliniekpagina toont adres, telefoonnummer, website en aandachtsgebieden.'
+      a: list.length === 1
+        ? `${city} heeft op dit moment één vermelde praktijk: ${list[0].name}${list[0].specs && list[0].specs.length ? `, met als aandachtsgebieden ${list[0].specs.join(', ')}` : ''}. Sluit die niet aan bij uw huisdier of wilt u vergelijken, dan vindt u via de link hierboven ook de dichtstbijzijnde klinieken buiten ${city}.`
+        : `Kijk naar reisafstand (zeker bij spoed), de vermelde specialisaties en of de praktijk ervaring heeft met uw diersoort. Van de ${list.length} klinieken in ${city} tonen we per praktijk adres, telefoonnummer, website${bevestigdeTijden.length ? ' en bevestigde openingstijden' : ''}.`
     }
   ].filter(Boolean);
 

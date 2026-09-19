@@ -159,4 +159,29 @@ function samenvatting(dagen) {
   return delen.length ? delen.join(', ') : null;
 }
 
-module.exports = { DAGEN, laad, blokken, controleer, bevestigd, schemaVoor, tabelVoor, samenvatting, BESTAND };
+// Compacte samenvatting voor kliniekkaarten op stadpagina's, bijvoorbeeld
+// "ma-vr 09:00-17:00, za 09:00-12:00, zo gesloten" in plaats van de volledige
+// dag-voor-dag opsomming van samenvatting(). Opeenvolgende dagen met exact
+// dezelfde tijden worden samengevoegd tot één bereik.
+function kortSamenvatting(dagen) {
+  if (!dagen || !bevestigd(dagen)) return null;
+  const regels = DAGEN
+    .filter(d => dagen[d.kort] !== undefined)
+    .map(d => {
+      const b = blokken(dagen[d.kort]);
+      const tekst = b.length ? b.map(x => `${x.opens}-${x.closes}`).join(' en ') : 'gesloten';
+      return { kort: d.kort, tekst };
+    });
+  if (!regels.length) return null;
+  const groepen = [];
+  for (const r of regels) {
+    const laatste = groepen[groepen.length - 1];
+    if (laatste && laatste.tekst === r.tekst) laatste.dagen.push(r.kort);
+    else groepen.push({ tekst: r.tekst, dagen: [r.kort] });
+  }
+  return groepen
+    .map(g => `${g.dagen.length > 1 ? `${g.dagen[0]}-${g.dagen[g.dagen.length - 1]}` : g.dagen[0]} ${g.tekst}`)
+    .join(', ');
+}
+
+module.exports = { DAGEN, laad, blokken, controleer, bevestigd, schemaVoor, tabelVoor, samenvatting, kortSamenvatting, BESTAND };

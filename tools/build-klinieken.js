@@ -16,11 +16,13 @@ const fs = require('fs');
 const path = require('path');
 const L = require('./layout');
 const DATA = require('./extract-data');
+const O = require('./openingstijden');
 
 const ROOT = L.ROOT;
 const SITE = L.SITE;
 const { esc, clinicSlug, citySlug, provinceOf, slugify } = L;
 const { CLINICS, KB_ARTICLES } = DATA;
+const TIJDEN = O.laad();
 
 const BADGE_JS = L.sjabloon('badge-kopieer.js').trimEnd();
 
@@ -362,20 +364,56 @@ function stadPagina(city) {
   ];
   const breadcrumb = { '@context': 'https://schema.org', ...L.breadcrumbLd(kruimels) };
 
+  // Feitelijke, per-plaats verschillende cijfers — geen vaste sjabloonzin.
+  const beoordeeld = list.filter(c => c.rating && c.reviews);
+  const gemGeoordeeld = beoordeeld.length
+    ? (beoordeeld.reduce((s, c) => s + c.rating * c.reviews, 0) / beoordeeld.reduce((s, c) => s + c.reviews, 0))
+    : null;
+  const totaalReviews = beoordeeld.reduce((s, c) => s + c.reviews, 0);
+  const bevestigdeTijden = list.filter(c => O.bevestigd(TIJDEN[clinicSlug(c)])).length;
+
   const overzichtPunten = [
     spoed ? `<li><strong>${spoed}</strong> ${spoed === 1 ? 'kliniek biedt' : 'klinieken bieden'} 24/7 spoedhulp</li>` : '',
-    verified ? `<li><strong>${verified}</strong> ${verified === 1 ? 'kliniek is' : 'klinieken zijn'} geverifieerd</li>` : ''
+    verified ? `<li><strong>${verified}</strong> ${verified === 1 ? 'kliniek is' : 'klinieken zijn'} geverifieerd</li>` : '',
+    gemGeoordeeld ? `<li>Gemiddelde beoordeling <strong>${gemGeoordeeld.toFixed(1).replace('.', ',')}/5</strong> (op basis van ${totaalReviews} ${totaalReviews === 1 ? 'beoordeling' : 'beoordelingen'})</li>` : '',
+    bevestigdeTijden ? `<li><strong>${bevestigdeTijden}</strong> van de ${n} ${n === 1 ? 'kliniek heeft' : 'klinieken hebben'} openingstijden die door de praktijk zelf zijn bevestigd</li>` : ''
   ].filter(Boolean);
 
-  const kaarten = list.map(c => `    <div class="clinic-card">
+  const kaarten = list.map(c => {
+    const uren = O.kortSamenvatting(TIJDEN[clinicSlug(c)]);
+    return `    <div class="clinic-card">
       <h3><a href="/${clinicSlug(c)}">${esc(c.name)}</a>${isSpoed(c) ? SPOED_BADGE : isVerified(c) ? VERIFIED_BADGE : ''}</h3>
       <p class="addr">${esc(c.address)}, ${esc(c.postcode)} ${esc(c.city)}</p>
       ${(c.specs || []).length ? `<p class="specs">${esc((c.specs || []).join(', '))}</p>` : ''}
+      ${uren ? `<p class="hours-line" style="font-size:13px;color:#4a5568;margin-top:4px;">🕒 ${esc(uren)}</p>` : ''}
+      ${c.rating && c.reviews ? `<p style="font-size:13px;color:#4a5568;margin-top:2px;">⭐ ${esc(String(c.rating))}/5 (${c.reviews} beoordelingen)</p>` : ''}
       <div class="actions">
         ${c.phone ? `<a href="${telHref(c.phone)}" class="btn btn-outline">📞 ${esc(c.phone)}</a>` : ''}
         <a href="/${clinicSlug(c)}" class="btn btn-primary">Meer info →</a>
       </div>
-    </div>`).join('\n');
+    </div>`;
+  }).join('\n');
+
+  // Dichtstbijzijnde klinieken buiten deze plaats — vooral waardevol bij weinig
+  // eigen klinieken, en per plaats geografisch uniek (andere steden, andere
+  // afstanden), dus geen sjabloonherhaling.
+  const buurt = eerste.lat && eerste.lng ? CLINICS
+    .filter(o => o.city !== city && o.lat && o.lng)
+    .map(o => ({ o, d: afstandKm(eerste, o) }))
+    .sort((a, b) => a.d - b.d)
+    .slice(0, 6) : [];
+  const buurtBlok = buurt.length ? `
+    <div class="card">
+      <h2>Dichtstbijzijnde klinieken buiten ${esc(city)}</h2>
+      <p style="margin-bottom: 16px;">${n === 1 ? 'Nog geen ruime keuze binnen de plaats zelf? ' : ''}Ook in de omgeving van ${esc(city)} vindt u deze klinieken:</p>
+      <div class="nearby-grid">
+${buurt.map(({ o, d }) => `        <a href="/${clinicSlug(o)}" class="nearby-card">
+          <h4>${esc(o.name)}</h4>
+          <p>${esc(o.city)} · ${kmTekst(d)}</p>
+        </a>`).join('\n')}
+      </div>
+    </div>
+` : '';
 
   // Twaalf andere plaatsen in dezelfde provincie, op alfabet.
   const anderePlaatsen = prov
@@ -411,7 +449,7 @@ function stadPagina(city) {
   <h2 style="font-size:24px; margin: 24px 0 16px;">${n === 1 ? `De kliniek in ${esc(city)}` : `Alle klinieken in ${esc(city)}`}</h2>
 
 ${kaarten}
-${anderePlaatsenBlok}
+${buurtBlok}${anderePlaatsenBlok}
   <div class="card">
     <h2>Vragen over uw huisdier?</h2>
     <p>Onze kennisbank bevat ${KB_ARTICLES.length} artikelen over gezondheid, verzorging en spoedhulp voor honden, katten en andere huisdieren.</p>
