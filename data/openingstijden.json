@@ -640,14 +640,14 @@
     "onbevestigd": true
   },
   "dierenarts-deventer-dierenarts-in-deventer": {
-    "ma": "12:30-17:00",
+    "ma": "09:00-17:00",
     "di": "09:00-17:00",
     "wo": "09:00-17:00",
     "do": "09:00-17:00",
     "vr": "09:00-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-18 - za/zo alleen telefonisch bereikbaar voor spoedgevallen, niet weergeefbaar in vast weekschema"
   },
   "dierenarts-kudelstaart-dierenarts-in-kudelstaart": {
     "ma": "12:30-17:00",
