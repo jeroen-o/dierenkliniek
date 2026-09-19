@@ -42,6 +42,47 @@ function afstandKm(a, b) {
 }
 const kmTekst = (d) => d.toFixed(1).replace('.', ',') + ' km';
 
+// Koppelt een specialisatie aan het dier waar de kennisbank-artikelen over
+// gaan, zodat een stadpagina alleen artikelen toont die bij de klinieken ter
+// plaatse passen (in plaats van overal dezelfde drie artikelen).
+const SPEC_DIER = { Honden: 'hond', Katten: 'kat', Konijnen: 'konijn', Knaagdieren: 'knaagdier', Vogels: 'vogel', Exoten: 'reptiel' };
+const KB = KB_ARTICLES.map(a => ({ ...a, slug: slugify(a.title) }));
+
+// Stabiele, niet-willekeurige hash zodat plaatsen met hetzelfde dierprofiel
+// (bijv. overal Honden + Katten) toch een andere selectie artikelen krijgen.
+function hashStr(s) {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) | 0;
+  return Math.abs(h);
+}
+
+function kbVoorStad(list, city) {
+  const dieren = new Set();
+  let spoedAanwezig = false;
+  for (const c of list) for (const s of (c.specs || [])) {
+    if (SPEC_DIER[s]) dieren.add(SPEC_DIER[s]);
+    if (s === 'Spoed 24/7') spoedAanwezig = true;
+  }
+  let kandidaten = KB.filter(a => (a.animal && dieren.has(a.animal)) || (spoedAanwezig && a.category === 'spoed'));
+  if (!kandidaten.length) kandidaten = KB;
+  if (kandidaten.length > 3) {
+    const offset = hashStr(city) % kandidaten.length;
+    kandidaten = kandidaten.slice(offset).concat(kandidaten.slice(0, offset));
+  }
+  const gekozen = [], gezienCat = new Set();
+  for (const a of kandidaten) {
+    if (gekozen.length >= 3) break;
+    if (gezienCat.has(a.category)) continue;
+    gezienCat.add(a.category);
+    gekozen.push(a);
+  }
+  for (const a of kandidaten) {
+    if (gekozen.length >= 3) break;
+    if (!gekozen.includes(a)) gekozen.push(a);
+  }
+  return gekozen;
+}
+
 // Google kapt titels rond 60-65 tekens af. Laat het merksuffix weg zodra de
 // naam van de kliniek zelf al lang is. (Dezelfde regel als in enrich-klinieken.)
 function kliniekTitel(name, city) {
@@ -62,9 +103,11 @@ function stadTitel(city, n) {
   return t ? t + suffix : options[options.length - 1];
 }
 
-// De meta description mag van validate.js hoogstens 165 tekens zijn.
+// De meta description mag van validate.js hoogstens 165 tekens zijn — geteld
+// zoals hij in de HTML terechtkomt, dus na escapen (een "&" in een klinieknaam
+// wordt "&amp;" en telt voor 5 tekens, niet 1).
 function kortGenoeg(volledig, kort) {
-  return volledig.length <= 165 ? volledig : kort;
+  return esc(volledig).length <= 165 ? volledig : kort;
 }
 
 // De kop van elke pagina. Dezelfde volgorde van meta-tags als de bestaande
@@ -325,10 +368,19 @@ function stadPagina(city) {
   const verified = list.filter(isVerified).length;
   const eerste = perStad[city][0];
 
+  // Specialisatie-verdeling: feitelijk en per plaats verschillend, gebruikt
+  // in zowel de meta description als de introtekst.
+  const specTelling = {};
+  for (const c of list) for (const s of (c.specs || [])) specTelling[s] = (specTelling[s] || 0) + 1;
+  const topSpecs = Object.entries(specTelling).sort((a, b) => b[1] - a[1]);
+
   const description = n === 1
-    ? kortGenoeg(`1 dierenkliniek gevonden in ${city}: ${list[0].name}. Adres, telefoon en route via Dierenkliniek.nl.`,
-                 `1 dierenkliniek gevonden in ${city}. Adres, telefoon en route via Dierenkliniek.nl.`)
-    : `${n} dierenklinieken in ${city} vergelijken. Vind een dierenarts met openingstijden, adres, telefoon en route via Dierenkliniek.nl.`;
+    ? kortGenoeg(
+        `1 dierenkliniek gevonden in ${city}: ${list[0].name}${(list[0].specs || []).length ? `, gespecialiseerd in ${(list[0].specs || []).join(', ')}` : ''}. Adres, telefoon en route via Dierenkliniek.nl.`,
+        `1 dierenkliniek gevonden in ${city}: ${list[0].name}. Adres, telefoon en route via Dierenkliniek.nl.`)
+    : kortGenoeg(
+        `${n} dierenklinieken in ${city} vergelijken${topSpecs.length ? `, waaronder ${topSpecs[0][1]} gespecialiseerd in ${topSpecs[0][0].toLowerCase()}` : ''}. Openingstijden, adres, telefoon en route via Dierenkliniek.nl.`,
+        `${n} dierenklinieken in ${city} vergelijken. Vind een dierenarts met openingstijden, adres, telefoon en route via Dierenkliniek.nl.`);
 
   const ld = {
     '@context': 'https://schema.org',
@@ -372,11 +424,30 @@ function stadPagina(city) {
   const totaalReviews = beoordeeld.reduce((s, c) => s + c.reviews, 0);
   const bevestigdeTijden = list.filter(c => O.bevestigd(TIJDEN[clinicSlug(c)])).length;
 
+  // Dichtstbijzijnde klinieken buiten deze plaats — vooral waardevol bij weinig
+  // eigen klinieken, en per plaats geografisch uniek (andere steden, andere
+  // afstanden), dus geen sjabloonherhaling. Ook gebruikt in de introtekst.
+  const buurt = eerste.lat && eerste.lng ? CLINICS
+    .filter(o => o.city !== city && o.lat && o.lng)
+    .map(o => ({ o, d: afstandKm(eerste, o) }))
+    .sort((a, b) => a.d - b.d)
+    .slice(0, 6) : [];
+
+  // Alleen tonen als er een echte koploper is, geen gelijkspel of nietszeggend
+  // verschil — anders is de zin overal hetzelfde.
+  const metRating = list.filter(c => c.rating && c.reviews);
+  const topKliniek = metRating.length > 1
+    ? [...metRating].sort((a, b) => b.rating - a.rating || b.reviews - a.reviews)[0]
+    : null;
+  const heeftKoploper = topKliniek && topKliniek.rating > [...metRating].sort((a, b) => a.rating - b.rating)[0].rating;
+
   const overzichtPunten = [
     spoed ? `<li><strong>${spoed}</strong> ${spoed === 1 ? 'kliniek biedt' : 'klinieken bieden'} 24/7 spoedhulp</li>` : '',
     verified ? `<li><strong>${verified}</strong> ${verified === 1 ? 'kliniek is' : 'klinieken zijn'} geverifieerd</li>` : '',
     gemGeoordeeld ? `<li>Gemiddelde beoordeling <strong>${gemGeoordeeld.toFixed(1).replace('.', ',')}/5</strong> (op basis van ${totaalReviews} ${totaalReviews === 1 ? 'beoordeling' : 'beoordelingen'})</li>` : '',
-    bevestigdeTijden ? `<li><strong>${bevestigdeTijden}</strong> van de ${n} ${n === 1 ? 'kliniek heeft' : 'klinieken hebben'} openingstijden die door de praktijk zelf zijn bevestigd</li>` : ''
+    heeftKoploper ? `<li>Hoogst beoordeeld: <strong><a href="/${clinicSlug(topKliniek)}">${esc(topKliniek.name)}</a></strong> (${esc(String(topKliniek.rating).replace('.', ','))}/5)</li>` : '',
+    bevestigdeTijden ? `<li><strong>${bevestigdeTijden}</strong> van de ${n} ${n === 1 ? 'kliniek heeft' : 'klinieken hebben'} openingstijden die door de praktijk zelf zijn bevestigd</li>` : '',
+    (n > 1 && topSpecs.length) ? `<li><strong>${topSpecs[0][1]}</strong> van de ${n} klinieken ${topSpecs[0][1] === 1 ? 'is' : 'zijn'} gespecialiseerd in <strong>${esc(topSpecs[0][0])}</strong></li>` : ''
   ].filter(Boolean);
 
   const kaarten = list.map(c => {
@@ -394,14 +465,6 @@ function stadPagina(city) {
     </div>`;
   }).join('\n');
 
-  // Dichtstbijzijnde klinieken buiten deze plaats — vooral waardevol bij weinig
-  // eigen klinieken, en per plaats geografisch uniek (andere steden, andere
-  // afstanden), dus geen sjabloonherhaling.
-  const buurt = eerste.lat && eerste.lng ? CLINICS
-    .filter(o => o.city !== city && o.lat && o.lng)
-    .map(o => ({ o, d: afstandKm(eerste, o) }))
-    .sort((a, b) => a.d - b.d)
-    .slice(0, 6) : [];
   const buurtBlok = buurt.length ? `
     <div class="card">
       <h2>Dichtstbijzijnde klinieken buiten ${esc(city)}</h2>
@@ -426,6 +489,39 @@ ${buurt.map(({ o, d }) => `        <a href="/${clinicSlug(o)}" class="nearby-car
     </div>
 ` : '';
 
+  // Bij één kliniek (378 van de 585 plaatsen) is dit de enige inhoudelijke
+  // alinea op de pagina, dus die bouwt zich op uit de feiten van precies déze
+  // kliniek — niet uit een vaste zin die overal hetzelfde is.
+  const introTekst = (() => {
+    if (n !== 1) {
+      return `In ${esc(city)} zijn ${n} dierenklinieken actief. U kunt ze hieronder vergelijken op adres, contactgegevens en specialisaties.`;
+    }
+    const enige = list[0];
+    const zinnen = [`In ${esc(city)} is één dierenkliniek gevestigd: <strong>${esc(enige.name)}</strong>.`];
+    if ((enige.specs || []).length) zinnen.push(`De praktijk is gespecialiseerd in ${esc(enige.specs.join(', '))}.`);
+    if (isSpoed(enige)) zinnen.push('De kliniek biedt 24/7 spoedhulp.');
+    if (enige.rating && enige.reviews) zinnen.push(`Beoordeeld met <strong>${esc(String(enige.rating).replace('.', ','))}/5</strong> op basis van ${enige.reviews} ${enige.reviews === 1 ? 'beoordeling' : 'beoordelingen'}.`);
+    if (O.bevestigd(TIJDEN[clinicSlug(enige)])) zinnen.push('De openingstijden zijn door de praktijk zelf bevestigd.');
+    if (buurt.length) zinnen.push(`De dichtstbijzijnde andere kliniek staat in ${esc(buurt[0].o.city)}, op ${kmTekst(buurt[0].d)}.`);
+    return zinnen.join(' ');
+  })();
+
+  // Kennisbank-artikelen die passen bij de dieren/specialisaties in déze
+  // plaats, in plaats van overal dezelfde algemene verwijzing.
+  const kbArtikelen = kbVoorStad(list, city);
+  const kbBlok = `
+  <div class="card">
+    <h2>Vragen over uw huisdier?</h2>
+    <p>Relevante artikelen uit onze kennisbank voor huisdiereigenaren in ${esc(city)}:</p>
+    <ul style="margin-top:12px; line-height:1.9;">
+${kbArtikelen.map(a => `      <li><a href="/kennisbank/${a.slug}">${esc(a.title)}</a></li>`).join('\n')}
+    </ul>
+    <p style="margin-top: 16px;">
+      <a href="/kennisbank" class="btn btn-primary">Bezoek de kennisbank →</a>
+    </p>
+  </div>
+`;
+
   const body = `<main>
   <nav class="breadcrumb">
     <a href="/">Home</a> ›
@@ -439,9 +535,7 @@ ${buurt.map(({ o, d }) => `        <a href="/${clinicSlug(o)}" class="nearby-car
 
   <div class="card">
     <h2>Overzicht</h2>
-    <p>${n === 1
-      ? `In ${esc(city)} is één dierenkliniek gevestigd. Hieronder vindt u alle contactgegevens en de route.`
-      : `In ${esc(city)} zijn ${n} dierenklinieken actief. U kunt ze hieronder vergelijken op adres, contactgegevens en specialisaties.`}</p>
+    <p>${introTekst}</p>
     ${overzichtPunten.length ? `<ul style="margin-top:12px;">${overzichtPunten.join('')}</ul>` : ''}
     <p style="margin-top:16px;"><a href="/spoedhulp">📢 Spoedhulp nodig?</a> · <a href="/">🔍 Zoek op postcode</a> · <a href="/kennisbank">📖 Kennisbank</a></p>
   </div>
@@ -450,14 +544,7 @@ ${buurt.map(({ o, d }) => `        <a href="/${clinicSlug(o)}" class="nearby-car
 
 ${kaarten}
 ${buurtBlok}${anderePlaatsenBlok}
-  <div class="card">
-    <h2>Vragen over uw huisdier?</h2>
-    <p>Onze kennisbank bevat ${KB_ARTICLES.length} artikelen over gezondheid, verzorging en spoedhulp voor honden, katten en andere huisdieren.</p>
-    <p style="margin-top: 16px;">
-      <a href="/kennisbank" class="btn btn-primary">Bezoek de kennisbank →</a>
-    </p>
-  </div>
-
+${kbBlok}
 </main>
 ${L.FOOTER}
 </body>
