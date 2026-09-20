@@ -63,8 +63,8 @@ const EXTRA_CSS = `
   .openingstijden th, .openingstijden td { text-align: left; padding: 9px 4px; border-bottom: 1px solid #eef2f6; font-size: 15px; }
   .openingstijden th { font-weight: 600; color: #4A5C70; width: 45%; }
   .openingstijden td { font-variant-numeric: tabular-nums; }
-  .openingstijden td.dicht { color: #8A98A8; }
-  .tijden-bron { font-size: 13px; color: #8A98A8; margin-top: 10px; }
+  .openingstijden td.dicht { color: #627080; }
+  .tijden-bron { font-size: 13px; color: #627080; margin-top: 10px; }
   .tijden-onbevestigd { font-size: 13.5px; color: #78350F; background: #FEF3C7; border-left: 3px solid #F59E0B; padding: 10px 14px; border-radius: 0 6px 6px 0; margin-top: 12px; }
   .visueel-verborgen { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .toc li { padding: 5px 0; border-bottom: none; }

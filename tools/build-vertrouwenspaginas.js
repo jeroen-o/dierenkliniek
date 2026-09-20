@@ -154,14 +154,15 @@ function render(p) {
 <meta name="theme-color" content="#00A1E4">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"></noscript>
 <script type="application/ld+json">
 ${JSON.stringify(graph, null, 2)}
 </script>
 <style>${STYLE}
 /* Op een eigen pagina is er maar één view en die is altijd zichtbaar. */
 .view { display: block; }
-.dk-kruimel { max-width: 1280px; margin: 0 auto; padding: 18px 24px 0; font-size: 14px; color: #8A98A8; }
+.dk-kruimel { max-width: 1280px; margin: 0 auto; padding: 18px 24px 0; font-size: 14px; color: #627080; }
 .dk-kruimel a { color: #00A1E4; }
 </style>
 </head>

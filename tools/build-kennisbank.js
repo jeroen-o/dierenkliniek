@@ -194,7 +194,7 @@ function indexPage() {
     const list = articles.filter(a => a.category === c.slug);
     if (!list.length) return '';
     return `<section class="card">
-  <h2><a href="/kennisbank/categorie-${c.slug}" style="color:inherit;">${L.esc(c.name)}</a> <span style="color:#8A98A8;font-weight:500;font-size:16px;">(${list.length})</span></h2>
+  <h2><a href="/kennisbank/categorie-${c.slug}" style="color:inherit;">${L.esc(c.name)}</a> <span style="color:#627080;font-weight:500;font-size:16px;">(${list.length})</span></h2>
   ${cardGrid(list)}
 </section>`;
   }).join('\n');
