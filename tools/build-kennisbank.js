@@ -54,10 +54,13 @@ function related(a) {
   return [...sameAnimal, ...sameCat, ...rest].slice(0, 6);
 }
 
-function cardGrid(list) {
+// level: welke koptekst de kaarten krijgen, afhankelijk van wat eraan
+// voorafgaat op de paginda — h3 als er al een h2 boven de grid staat, h2 als
+// de grid direct na de h1 komt (geen niveau overslaan).
+function cardGrid(list, level = 'h3') {
   return `<div class="grid-cards">
   ${list.map(x => `<a class="link-card" href="/kennisbank/${x.slug}">
-    <h4>${L.esc(x.title)}</h4>
+    <${level} style="${level === 'h2' ? 'font-size:15px;font-weight:700;margin-bottom:4px;' : ''}">${L.esc(x.title)}</${level}>
     <p>${L.esc(x.excerpt.slice(0, 110))}${x.excerpt.length > 110 ? '…' : ''}</p>
   </a>`).join('\n  ')}
 </div>`;
@@ -260,7 +263,7 @@ function facetPage(kind, item, list) {
   <p class="subtitle">${L.esc(desc)}</p>
 </div>
 <section class="card">
-  ${cardGrid(list)}
+  ${cardGrid(list, 'h2')}
   <p style="margin-top:16px;"><a href="/kennisbank">← Terug naar de kennisbank</a></p>
 </section>
 ${cityLinks()}`;

@@ -151,7 +151,7 @@ ${L.HEADER}
 
 function kaartje(c) {
   return `        <a href="/${clinicSlug(c)}" class="nearby-card">
-          <h4>${esc(c.name)}</h4>
+          <h3>${esc(c.name)}</h3>
           <p>${esc(c.address)}, ${esc(c.postcode)} ${esc(c.city)}</p>
         </a>`;
 }
@@ -247,7 +247,7 @@ ${anderen.map(kaartje).join('\n')}
     <p style="margin-bottom: 16px;">Vlakbij ${esc(c.city)} vindt u ook deze klinieken:</p>
     <div class="nearby-grid">
 ${buurt.map(({ o, d }) => `        <a href="/${clinicSlug(o)}" class="nearby-card">
-          <h4>${esc(o.name)}</h4>
+          <h3>${esc(o.name)}</h3>
           <p>${esc(o.city)} · ${kmTekst(d)}</p>
         </a>`).join('\n')}
     </div>
@@ -471,7 +471,7 @@ function stadPagina(city) {
       <p style="margin-bottom: 16px;">${n === 1 ? 'Nog geen ruime keuze binnen de plaats zelf? ' : ''}Ook in de omgeving van ${esc(city)} vindt u deze klinieken:</p>
       <div class="nearby-grid">
 ${buurt.map(({ o, d }) => `        <a href="/${clinicSlug(o)}" class="nearby-card">
-          <h4>${esc(o.name)}</h4>
+          <h3>${esc(o.name)}</h3>
           <p>${esc(o.city)} · ${kmTekst(d)}</p>
         </a>`).join('\n')}
       </div>

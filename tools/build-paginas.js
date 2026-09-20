@@ -27,7 +27,7 @@ function write(file, html, url) {
 function clinicList(list) {
   return `<div class="grid-cards">
   ${list.map(c => `<a class="link-card" href="/${c.slug}">
-    <h4>${L.esc(c.name)}</h4>
+    <h3>${L.esc(c.name)}</h3>
     <p>${L.esc(c.address)}, ${L.esc(c.postcode)} ${L.esc(c.city)}<br>📞 ${L.esc(c.phone)}</p>
   </a>`).join('\n  ')}
 </div>`;
@@ -251,7 +251,7 @@ function provinciesPage() {
 <section class="card">
   <div class="grid-cards">
     ${rows.map(r => `<a class="link-card" href="/dierenklinieken-${L.slugify(r.p)}">
-      <h4>${L.esc(r.p)}</h4>
+      <h2 style="font-size:15px;font-weight:700;margin-bottom:4px;">${L.esc(r.p)}</h2>
       <p>${r.n} klinieken · ${r.cities} plaatsen${r.spoed ? ` · ${r.spoed}× 24/7 spoed` : ''}</p>
     </a>`).join('\n    ')}
   </div>
@@ -436,7 +436,7 @@ function specialismenPage() {
 <section class="card">
   <div class="grid-cards">
     ${rows.map(r => `<a class="link-card" href="/${r.slug}">
-      <h4>${L.esc(r.naam)}</h4>
+      <h2 style="font-size:15px;font-weight:700;margin-bottom:4px;">${L.esc(r.naam)}</h2>
       <p>${r.n} klinieken · ${L.esc(r.beschrijving.slice(0, 90))}…</p>
     </a>`).join('\n    ')}
   </div>

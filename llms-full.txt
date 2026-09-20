@@ -18,7 +18,7 @@ Samenvatting: Niet elke kwaal is een noodgeval, maar bij sommige symptomen telt 
 
 Veel huisdiereigenaren twijfelen: is dit erg genoeg om nu de dierenarts te bellen, of kan het wachten tot morgen? Een terechte zorg, want spoeddiensten kosten meer en niet elk symptoom rechtvaardigt een avondrit. Tegelijk geldt: bij echt urgente klachten kan uitstel het verschil maken tussen een herstel en een tragisch verlies.
 
-### Altijd direct handelen
+## Altijd direct handelen
 
 Bij deze symptomen geldt: bel meteen, ook midden in de nacht.
 
@@ -49,7 +49,7 @@ Bij deze symptomen geldt: bel meteen, ook midden in de nacht.
 
 - Geboorteproblemen — meer dan twee uur persen zonder resultaat
 
-### Binnen enkele uren beoordelen
+## Binnen enkele uren beoordelen
 
 Geen levensgevaar maar wel reden om dezelfde dag contact op te nemen.
 
@@ -68,7 +68,7 @@ Geen levensgevaar maar wel reden om dezelfde dag contact op te nemen.
 
 - Eén keer braken met daarna lusteloosheid
 
-### Kan tot de volgende werkdag wachten
+## Kan tot de volgende werkdag wachten
 
 
 - Krabben zonder duidelijke huidproblemen
@@ -79,7 +79,7 @@ Geen levensgevaar maar wel reden om dezelfde dag contact op te nemen.
 
 - Lichte hoest zonder verdere klachten
 
-### Bel altijd eerst
+## Bel altijd eerst
 
 Sta in twijfel? Bel altijd uw dierenarts of de dichtstbijzijnde 24/7-spoedkliniek vóór u in de auto stapt. Een dierenarts kan aan de hand van een paar vragen vaak inschatten of het echt urgent is, of dat u beter even kunt rustig blijven en op werktijd langs kan komen. Dat scheelt onnodige stress en kosten.
 
@@ -96,7 +96,7 @@ Samenvatting: Chocolade, druiven, ui, paracetamol — alledaagse producten die v
 
 De meeste vergiftigingen ontstaan niet door kwade opzet maar door een onbewaakt moment: een pakje chocolade dat blijft liggen, een lekkende fles antivries, een gedropte paracetamol. Voor onze huisdieren zijn diverse alledaagse stoffen schadelijk of zelfs dodelijk. Hier de belangrijkste op een rij.
 
-### Voor honden gevaarlijk
+## Voor honden gevaarlijk
 
 
 - Chocolade — bevat theobromine. Hoe puurder, hoe gevaarlijker. Voor een kleine hond kan al een halve reep pure chocolade fataal zijn.
@@ -116,7 +116,7 @@ De meeste vergiftigingen ontstaan niet door kwade opzet maar door een onbewaakt 
 
 - Alcohol — ook in kleine hoeveelheden in cocktails, rumballen of zelfs gistdeeg gevaarlijk.
 
-### Voor katten gevaarlijk
+## Voor katten gevaarlijk
 
 
 - Lelies — alle delen van de plant, inclusief stuifmeel op de vacht, kunnen acute nierschade veroorzaken. Eén likje is al genoeg.
@@ -130,7 +130,7 @@ De meeste vergiftigingen ontstaan niet door kwade opzet maar door een onbewaakt 
 
 - Ibuprofen — extreem giftig voor katten en honden.
 
-### Voor alle huisdieren gevaarlijk
+## Voor alle huisdieren gevaarlijk
 
 
 - Antivries — smaakt zoet en wordt graag opgelikt; binnen uren ontstaat onomkeerbare nierschade
@@ -147,7 +147,7 @@ De meeste vergiftigingen ontstaan niet door kwade opzet maar door een onbewaakt 
 
 - Bepaalde planten — vingerhoedskruid, taxus, gouden regen, oleander, monstera
 
-### Wat doet u bij vermoedelijke vergiftiging?
+## Wat doet u bij vermoedelijke vergiftiging?
 
 
 - Blijf rustig en haal het dier weg van de bron.
@@ -174,7 +174,7 @@ Samenvatting: Bij sommige hondenrassen is een maagtorsie een levensbedreigende n
 
 Een maagtorsie — ook wel maagdilatatie-volvulus of GDV genoemd — is een van de meest acute noodgevallen in de honden­geneeskunde. De maag draait om zijn eigen as, de bloedtoevoer wordt afgesneden en zonder ingrijpen overleeft de hond dit zelden. Tussen de eerste symptomen en operatie hebt u vaak minder dan vier uur.
 
-### Welke honden lopen risico?
+## Welke honden lopen risico?
 
 Voornamelijk grote, diepborstige rassen: Duitse herder, dog, ridgeback, dobermann, setter, weimaraner en vergelijkbare. Maar ook kleinere honden kunnen het krijgen. Risicofactoren zijn:
 
@@ -196,7 +196,7 @@ Voornamelijk grote, diepborstige rassen: Duitse herder, dog, ridgeback, doberman
 
 - Eerstegraads familieleden die het hebben gehad
 
-### Symptomen herkennen
+## Symptomen herkennen
 
 De typische combinatie van symptomen ontstaat meestal binnen een paar uur:
 
@@ -215,15 +215,15 @@ De typische combinatie van symptomen ontstaat meestal binnen een paar uur:
 
 - Zwakte, instortend gedrag
 
-### Wat doet u nu?
+## Wat doet u nu?
 
 Geen tijd verspillen. Bel de dichtstbijzijnde dierenarts of spoedkliniek terwijl u onderweg bent. Vertel dat u maagdraaiing vermoedt — dan staat het OK-team klaar bij aankomst. Probeer onderweg uw hond zo rustig mogelijk te houden; trek niet aan de halsband.
 
-### Behandeling
+## Behandeling
 
 De dierenarts stabiliseert eerst de circulatie met infuusvloeistoffen, neemt een röntgenfoto ter bevestiging en voert vervolgens een spoedoperatie uit. Tijdens deze operatie wordt de maag teruggedraaid en eventueel afgestorven weefsel verwijderd. Vaak wordt de maag tegelijk vastgehecht aan de buikwand (gastropexie) om herhaling te voorkomen.
 
-### Preventie
+## Preventie
 
 Voor honden uit risicorassen overwegen veel eigenaren een preventieve gastropexie tijdens de castratie of sterilisatie. Aanvullend: voer twee tot drie maaltijden per dag, gebruik een anti-schrokbak, en houd minimaal een uur rust aan na het eten.
 
@@ -240,7 +240,7 @@ Samenvatting: Hondsdolheid, parvo, kennelhoest — een overzicht van welke vacci
 
 Vaccinaties zijn een van de belangrijkste preventieve maatregelen voor uw hond. Een aantal aandoeningen die vroeger massaal voorkwamen — denk aan parvo en hondenziekte — zijn dankzij vaccinatie zeldzaam geworden. Maar het beschermingsniveau in een populatie blijft alleen op peil als voldoende dieren gevaccineerd zijn.
 
-### De Cocktailvaccinatie
+## De Cocktailvaccinatie
 
 De meeste Nederlandse dierenartsen werken met een gecombineerde "cocktailvaccinatie" tegen vier ziektes:
 
@@ -256,7 +256,7 @@ De meeste Nederlandse dierenartsen werken met een gecombineerde "cocktailvaccina
 
 - Ziekte van Weil (Leptospirose) — een bacteriële infectie via knaagdier-urine, ook overdraagbaar op mensen
 
-### Schema voor een puppy
+## Schema voor een puppy
 
 
 - 6 weken — eerste cocktailvaccinatie (vaak nog bij de fokker)
@@ -270,7 +270,7 @@ De meeste Nederlandse dierenartsen werken met een gecombineerde "cocktailvaccina
 
 - 1 jaar — boostervaccinatie
 
-### Volwassen honden
+## Volwassen honden
 
 Veel dierenartsen werken nu met een schema waarbij de vier hoofdcomponenten niet meer jaarlijks hoeven. De moderne vaccins bieden 3 jaar bescherming tegen hondenziekte, leverziekte en parvo. Leptospirose moet wel jaarlijks. In de praktijk komt dit neer op:
 
@@ -280,7 +280,7 @@ Veel dierenartsen werken nu met een schema waarbij de vier hoofdcomponenten niet
 
 - Elke 3 jaar: hondenziekte, leverziekte, parvo
 
-### Aanvullende vaccinaties
+## Aanvullende vaccinaties
 
 Niet alle vaccinaties zijn voor elke hond nodig. Bespreek met uw dierenarts wat past bij uw situatie:
 
@@ -296,7 +296,7 @@ Niet alle vaccinaties zijn voor elke hond nodig. Bespreek met uw dierenarts wat 
 
 - Babesia — voor honden die met buitenlandse teken in aanraking kunnen komen
 
-### Waarom titerbepaling soms een alternatief is
+## Waarom titerbepaling soms een alternatief is
 
 Sommige eigenaren willen niet onnodig vaccineren. Voor de drie virale componenten (hondenziekte, leverziekte, parvo) bestaat de mogelijkheid van titerbepaling: een bloedtest die meet of er nog voldoende antistoffen aanwezig zijn. Is de titer hoog genoeg, dan is een herhaalvaccinatie niet nodig. Voor leptospirose werkt dit niet — die moet altijd jaarlijks. Vraag uw dierenarts of titerbepaling in uw situatie zinvol is.
 
@@ -313,7 +313,7 @@ Samenvatting: Een binnenkat heeft minder vaccinaties nodig dan een buitenkat. Ho
 
 Bij katten is de afweging rond vaccinaties iets specifieker dan bij honden. Een kat die nooit het huis verlaat heeft een ander risicoprofiel dan een buitenkat die dagelijks in contact komt met soortgenoten. Toch zijn er basisvaccinaties die voor élke kat zinvol zijn.
 
-### De basis: niesziekte en kattenziekte
+## De basis: niesziekte en kattenziekte
 
 Twee ziekten waartegen de standaardvaccinatie (vaak een "drievoudige cocktail" of trio-vaccin) bescherming biedt:
 
@@ -326,11 +326,11 @@ Twee ziekten waartegen de standaardvaccinatie (vaak een "drievoudige cocktail" o
 
 - Chlamydia — soms in dezelfde cocktail; veroorzaakt oogontsteking
 
-### Voor buitenkatten extra: leukemie
+## Voor buitenkatten extra: leukemie
 
 Het feline leukemievirus (FeLV) wordt overgedragen via speeksel, bijvoorbeeld tijdens vechten of grooming. Voor katten die naar buiten gaan en in contact kunnen komen met andere katten is FeLV-vaccinatie belangrijk. Voor strikt binnenkatten in een een-katshuishouden meestal niet nodig.
 
-### Schema voor een kitten
+## Schema voor een kitten
 
 
 - 9 weken — eerste cocktailvaccinatie
@@ -344,7 +344,7 @@ Het feline leukemievirus (FeLV) wordt overgedragen via speeksel, bijvoorbeeld ti
 
 - 1 jaar — herhaalvaccinatie
 
-### Volwassen katten
+## Volwassen katten
 
 Net als bij honden zijn er moderne vaccins met langere werkingsduur:
 
@@ -357,15 +357,15 @@ Net als bij honden zijn er moderne vaccins met langere werkingsduur:
 
 - FeLV: jaarlijks voor risicokatten
 
-### Wel of geen FIV-vaccinatie?
+## Wel of geen FIV-vaccinatie?
 
 Het FIV-vaccin (kattenaids) is in Nederland niet algemeen gebruikelijk. De effectiviteit is matig en het virus is minder besmettelijk dan FeLV. Een gevaccineerde kat geeft bovendien een positieve test op FIV-antistoffen, wat verwarring kan geven bij latere diagnostiek.
 
-### Reizen met uw kat
+## Reizen met uw kat
 
 Voor reizen naar het buitenland binnen de EU is een rabiësvaccinatie verplicht, naast een chip en EU-paspoort. Plan dit minimaal 21 dagen voor vertrek; de vaccinatie heeft die tijd nodig om werkzaam te worden.
 
-### Bijwerkingen
+## Bijwerkingen
 
 De meeste katten reageren prima op vaccinaties. Lichte sufheid of een kleine zwelling op de injectieplaats is normaal en verdwijnt binnen 1-2 dagen. Zeer zelden ontstaan zwaardere reacties; meld het altijd bij uw dierenarts als u iets ongewoons ziet.
 
@@ -382,11 +382,11 @@ Samenvatting: Een goede vlooienpreventie scheelt veel jeuk en hoofdbrekens. Wat 
 
 Vlooien zijn een van de meest hardnekkige problemen waar huisdiereigenaren mee te maken krijgen. Eén vlo wordt al gauw honderd: een vrouwtje legt tot vijftig eitjes per dag, en die belanden niet alleen op uw dier maar overal in huis. Goede preventie is daarom niet alleen comfortabel maar ook arbeidsefficiënt.
 
-### Hoe weet u of er vlooien zijn?
+## Hoe weet u of er vlooien zijn?
 
 Vlooien zelf zien is lastig — ze zijn snel. Wel kunt u vlooien­poep herkennen: zwarte korreltjes in de vacht. Borstel uw dier boven een witte vochtige doek; de zwarte korreltjes lossen op met een rode rand (verteerd bloed). Andere signalen zijn jeuk, kale plekken vooral op de rug bij de staart, en bij sommige dieren een allergische reactie met heftige ontsteking.
 
-### Wat werkt echt?
+## Wat werkt echt?
 
 De moderne preventieve middelen vallen in drie hoofdcategorieën:
 
@@ -401,11 +401,11 @@ De moderne preventieve middelen vallen in drie hoofdcategorieën:
 
 Welk middel het beste past hangt af van diersoort, gewicht, levensstijl en eventuele allergieën. Belangrijk: gebruik nooit een hondenmiddel bij een kat. Permethrine (in sommige hondenpipetten) is dodelijk voor katten.
 
-### Wat werkt minder goed
+## Wat werkt minder goed
 
 Knoflook in het voer, etherische oliën, ultrasone armbanden — er is geen wetenschappelijk bewijs dat deze methodes werken. Spuitbussen voor kortdurend gebruik kunnen een tijdelijke oplossing zijn maar zijn geen vervanging voor preventie.
 
-### De omgeving aanpakken
+## De omgeving aanpakken
 
 Hier maken veel mensen een fout: ze behandelen alleen het dier. Maar 95% van de vlooienpopulatie zit niet op uw huisdier maar in tapijten, bedden en spleten. Zonder de omgeving aan te pakken blijft u steeds opnieuw vlooien houden.
 
@@ -421,7 +421,7 @@ Hier maken veel mensen een fout: ze behandelen alleen het dier. Maar 95% van de 
 
 - Behandel alle huisgenoten (honden, katten) tegelijkertijd
 
-### Preventie is goedkoper dan bestrijding
+## Preventie is goedkoper dan bestrijding
 
 Een vlooienplaag oplossen kost weken werk. Maandelijkse preventie kost een paar tientjes per maand maar voorkomt het probleem volledig. Voor de meeste eigenaren is dit een no-brainer. Vraag uw dierenarts welk preventiemiddel past bij uw dier en uw budget.
 
@@ -436,7 +436,7 @@ Samenvatting: Teken zijn de hele zomer actief en dragen verschillende ziekten ov
 
 Het tekenseizoen in Nederland strekt zich tegenwoordig uit van maart tot november — door zachte winters worden teken steeds vroeger en langer actief. Wie veel met de hond in het bos of duin loopt, of een kat heeft die buiten komt, doet er goed aan een tekenpreventie te gebruiken.
 
-### Welke ziekten dragen teken over?
+## Welke ziekten dragen teken over?
 
 
 - Ziekte van Lyme — borreliose; meest bekende tekenziekte. Symptomen ontwikkelen zich vaak weken tot maanden later: kreupelheid wisselend van poot, koorts, lusteloosheid.
@@ -450,7 +450,7 @@ Het tekenseizoen in Nederland strekt zich tegenwoordig uit van maart tot novembe
 
 - Ehrlichiose — wordt zeldzamer in NL aangetroffen, maar bekend van Spaanse honden
 
-### Preventie: kies bewust
+## Preventie: kies bewust
 
 De meeste hondenmiddelen die ook tegen vlooien werken (zoals Bravecto, NexGard, Simparica, Advantix) bieden bescherming tegen teken. De werking verschilt:
 
@@ -462,7 +462,7 @@ De meeste hondenmiddelen die ook tegen vlooien werken (zoals Bravecto, NexGard, 
 
 Voor katten is de keuze beperkter. Permethrine-bevattende hondenmiddelen zijn extreem giftig voor katten — gebruik daarom alleen kattenspecifieke producten.
 
-### Een teek correct verwijderen
+## Een teek correct verwijderen
 
 Hoe sneller u de teek weghaalt, hoe lager het risico op ziekteoverdracht. Lyme-bacteriën worden meestal pas na 24 uur overgedragen, dus check uw dier dagelijks na buiten zijn.
 
@@ -483,7 +483,7 @@ Hoe sneller u de teek weghaalt, hoe lager het risico op ziekteoverdracht. Lyme-b
 
 Wat niet doen: alcohol op de teek, aansteker, vaseline of olie. Dat vergroot juist het risico dat de teek meer speeksel afgeeft, en daarmee meer ziekteverwekkers.
 
-### Wanneer naar de dierenarts?
+## Wanneer naar de dierenarts?
 
 Niet voor elke tekenbeet. Wel als:
 
@@ -509,7 +509,7 @@ Samenvatting: Niet elk dier hoeft elke maand ontwormd te worden. Een verstandige
 
 Ontwormen is voor veel eigenaren een vaste routine, vaak elke drie maanden. Maar onderzoek wijst uit dat de meeste honden en katten in Nederland niet zo vaak hoeven. Een gerichtere aanpak voorkomt onnodige medicijngebruik en is bovendien goedkoper.
 
-### Welke wormen komen voor?
+## Welke wormen komen voor?
 
 
 - Spoelwormen (Toxocara canis bij hond, T. cati bij kat) — komen het meest voor; vooral bij jonge dieren
@@ -523,7 +523,7 @@ Ontwormen is voor veel eigenaren een vaste routine, vaak elke drie maanden. Maar
 
 - Longwormen — worden vaker gediagnosticeerd in Nederland; vooral bij honden die slakken eten
 
-### Een risicogestuurd schema
+## Een risicogestuurd schema
 
 De Europese werkgroep ESCCAP adviseert ontwormen af te stemmen op het risicoprofiel:
 
@@ -546,11 +546,11 @@ Laag risico, ontwormen 1-2 keer per jaar:
 
 - Volwassen hond die geen rauw vlees eet en niet jaagt
 
-### Een alternatief: ontlastingsonderzoek
+## Een alternatief: ontlastingsonderzoek
 
 In plaats van standaard ontwormen kunt u twee tot vier keer per jaar een ontlastingsmonster laten onderzoeken. Vindt het lab geen worm-eieren, dan is ontwormen niet nodig. Wel eieren? Dan gericht behandelen. Dit kost ongeveer hetzelfde als preventief ontwormen maar voorkomt onnodig medicijngebruik en geeft u een actueel beeld van de gezondheid.
 
-### Puppy's en kittens
+## Puppy's en kittens
 
 Bij jonge dieren is ontwormen wel structureel nodig, omdat zij vaak via de moeder al spoelwormen hebben:
 
@@ -563,7 +563,7 @@ Bij jonge dieren is ontwormen wel structureel nodig, omdat zij vaak via de moede
 
 - Daarna overschakelen naar het volwassen schema
 
-### Goed om te weten
+## Goed om te weten
 
 Geen enkel ontwormingsmiddel werkt preventief — het doodt alleen wormen die op het moment van toediening aanwezig zijn. Een week later kan uw dier alweer wormen oppikken. Vandaar de cyclische aanpak.
 
@@ -580,13 +580,13 @@ Samenvatting: Marketing of werkelijke voedingswaarde? Zo doorziet u de tekst op 
 
 Hondenvoer is een markt van miljarden, en fabrikanten weten precies welke woorden goed verkopen. "Premium", "natuurlijk", "graanvrij", "vers vlees" — het klinkt allemaal mooi, maar wat zegt het echt over de kwaliteit? Een paar handvatten.
 
-### De ingrediëntenlijst is leidend
+## De ingrediëntenlijst is leidend
 
 Wettelijk moeten ingrediënten in volgorde van gewicht staan. Dat klinkt simpel, maar er is een truc: vers vlees bevat ongeveer 70% water. Op een zak met "vers kip" als eerste ingrediënt staat er na het droogproces dus veel minder kip dan u zou denken. "Kippenmeel" daarentegen is al gedroogd; dat lijkt minder aantrekkelijk maar zegt vaak meer over het werkelijke eiwitgehalte.
 
 Let op de eerste 5 ingrediënten — die maken het grootste deel van het voer uit. Komt vlees of vis daarin terug? Goed teken. Domineren granen of plantaardige eiwitten? Dan is het feitelijk goedkoper voer.
 
-### Analytische bestanddelen
+## Analytische bestanddelen
 
 Op elke zak staat een tabel met percentages. Belangrijkste cijfers:
 
@@ -604,7 +604,7 @@ Op elke zak staat een tabel met percentages. Belangrijkste cijfers:
 
 Eiwitgehalte zegt overigens weinig over de bron. 25% eiwit uit erwten en mais is voedingstechnisch heel anders dan 25% uit vlees. Honden zijn carnivoren met een neiging tot omnivoor; dierlijke eiwitten zijn beter verteerbaar.
 
-### Wat betekenen de marketingtermen?
+## Wat betekenen de marketingtermen?
 
 
 - "Premium" — geen wettelijke definitie, mag iedereen zeggen
@@ -621,7 +621,7 @@ Eiwitgehalte zegt overigens weinig over de bron. 25% eiwit uit erwten en mais is
 
 - "Met vers kip" — kan beduiden 4% kip; check de positie in de ingrediëntenlijst
 
-### Waar het echt op aankomt
+## Waar het echt op aankomt
 
 Het beste voer voor uw hond is voer waarop hij goed gedijt: glanzende vacht, vaste ontlasting, gezond gewicht, levendigheid. Soms is dat een duur merk, soms een middenklassevoer. Twijfelt u over wat geschikt is? Vraag uw dierenarts om advies — die kijkt naar levensfase, gewicht, ras, gezondheidsstatus en activiteitsniveau.
 
@@ -638,7 +638,7 @@ Samenvatting: Bijna de helft van de Nederlandse huisdieren heeft overgewicht. Ho
 
 Overgewicht is wereldwijd het meest voorkomende voedings­probleem bij huisdieren. Schattingen lopen uiteen, maar in Nederland heeft circa 40-50% van de honden en 30-40% van de katten overgewicht. Eigenaren hebben vaak een blinde vlek: een paar kilo te veel valt nauwelijks op, en wennen aan het bredere silhouet gaat snel.
 
-### Waarom is het een probleem?
+## Waarom is het een probleem?
 
 Overgewicht is geen cosmetisch issue maar een serieuze gezondheidsfactor. Te zware huisdieren leven gemiddeld 1,5 tot 2,5 jaar korter en hebben een verhoogd risico op:
 
@@ -660,7 +660,7 @@ Overgewicht is geen cosmetisch issue maar een serieuze gezondheidsfactor. Te zwa
 
 - Hoger anesthesie­risico bij operaties
 
-### Hoe controleert u het gewicht?
+## Hoe controleert u het gewicht?
 
 De weegschaal alleen vertelt het verhaal niet — een Border collie en een Bouvier wegen logischerwijs verschillend. Beter is de Body Condition Score (BCS): een visuele en tastbare beoordeling.
 
@@ -675,7 +675,7 @@ De weegschaal alleen vertelt het verhaal niet — een Border collie en een Bouvi
 
 Voelt u geen ribben zonder druk? Dan is er overgewicht. Liggen ze er duidelijk uit? Dan is uw dier juist te mager.
 
-### Een afslankprogramma
+## Een afslankprogramma
 
 Een goede vermagering verloopt langzaam: 1-2% lichaamsgewicht per week. Een te snel afgevallen kat kan zelfs ernstige leverproblemen krijgen. Praktische aanpak:
 
@@ -697,11 +697,11 @@ Een goede vermagering verloopt langzaam: 1-2% lichaamsgewicht per week. Een te s
 
 - Weeg maandelijks om voortgang te volgen
 
-### Wanneer dieetvoer?
+## Wanneer dieetvoer?
 
 Bij flink overgewicht of medische complicaties kan een speciaal afslankvoer beter werken dan minder geven van het normale voer. Deze diëten zijn rijker aan eiwit en vezels en zijn zo samengesteld dat het dier minder snel honger heeft. Uw dierenarts kan dit voorschrijven en regelmatig de voortgang monitoren.
 
-### Een veelgemaakte fout
+## Een veelgemaakte fout
 
 "Hij kijkt zo zielig" — herkenbaar, maar onthoud: dieren bedelen niet uit honger maar uit gewoonte. De smekende blik bij de etenstijd is geen bewijs van honger; ze hebben net gegeten en zijn uit op extra. Wie consequent doorgaat met te veel voer pleegt eigenlijk hardware op de gezondheid van zijn dier.
 
@@ -716,7 +716,7 @@ Samenvatting: Aanhoudende jeuk, oorontstekingen, darmproblemen — dit zijn sign
 
 Voedselallergie bij honden en katten wordt steeds vaker vermoed, maar de juiste diagnose stellen is lastig. Bloedtesten en speeksel­tests die "voedselallergieën" claimen op te sporen zijn helaas niet betrouwbaar — herhaalde wetenschappelijke onderzoeken laten zien dat ze willekeurige resultaten geven.
 
-### Wat zijn de symptomen?
+## Wat zijn de symptomen?
 
 Voedselallergie uit zich vooral op twee plaatsen:
 
@@ -728,21 +728,21 @@ Voedselallergie uit zich vooral op twee plaatsen:
 
 Wat een voedselallergie onderscheidt van bijvoorbeeld een vlooien­allergie of pollenallergie: de klachten zijn er het hele jaar, niet seizoensgebonden, en reageren niet of nauwelijks op antihistaminica.
 
-### De gouden standaard: eliminatiedieet
+## De gouden standaard: eliminatiedieet
 
 De enige betrouwbare manier om een voedsel­allergie te bewijzen is een eliminatiedieet, ook wel uitsluitingsdieet genoemd. U geeft uw dier 6-8 weken lang uitsluitend een voer met een eiwit- en koolhydraatbron die hij nog nooit heeft gehad. Vaak gebruikt: hydroliseerd voer (waarbij eiwitten zo klein gemaakt zijn dat ze geen reactie meer geven) of een voer met een ongebruikelijke bron zoals paard, eend of insect.
 
 Tijdens deze periode geldt: niets anders. Geen snoepjes, geen kauwsticks, geen schillen of restjes. Eén stiekem koekje en u kunt opnieuw beginnen. Uw huisgenoten moeten meewerken — dat is vaak het lastigste deel.
 
-### De provocatie
+## De provocatie
 
 Verbeteren de klachten na 6-8 weken? Dan komt de bewijsstap: u introduceert het oude voer (of een specifieke eiwitbron) opnieuw. Ziet u binnen 1-2 weken weer klachten verschijnen, dan is de diagnose voedselallergie bevestigd. Daarna kunt u systematisch testen welke specifieke eiwitten de boosdoener zijn.
 
-### Veelvoorkomende allergenen
+## Veelvoorkomende allergenen
 
 De meest gerapporteerde allergenen bij honden en katten zijn dierlijke eiwitten: rund, kip, lam, zuivel, ei. Bij honden ook tarwe en soja. Graanvrij voer wordt vaak gepromoot voor allergiepatiënten, maar in werkelijkheid zijn dierlijke eiwitten veel vaker de oorzaak dan granen.
 
-### Wat na de diagnose?
+## Wat na de diagnose?
 
 Levenslang vermijden van het allergeen is meestal de oplossing. Veel eigenaren geven dan een commercieel hypoallergeen voer of een dieet met een specifieke eiwitbron die hun dier verdraagt. Dat is geen straf — er zijn tegenwoordig veel smakelijke opties beschikbaar.
 
@@ -759,7 +759,7 @@ Samenvatting: Honden en vooral katten verbergen pijn vaak. Welke subtiele signal
 
 Een hond die jankt of een kat die fel piept: dan weet iedereen dat er iets aan de hand is. Maar het lastige is: veel huisdieren laten pijn juist niet duidelijk merken. Evolutionair was opvallen een handicap — een gewond dier in het wild trekt aandacht van predatoren. Honden en katten dragen dit instinct nog steeds met zich mee. U moet dus leren naar subtielere signalen kijken.
 
-### Lichaamssignalen bij honden
+## Lichaamssignalen bij honden
 
 
 - Trillen zonder dat het koud is
@@ -782,7 +782,7 @@ Een hond die jankt of een kat die fel piept: dan weet iedereen dat er iets aan d
 
 - Geen interesse in spelletjes, wandelen of eten
 
-### Bij katten nog subtieler
+## Bij katten nog subtieler
 
 Katten zijn meesters in het verbergen van ongemak. Vooral oudere katten hebben vaker artritis dan algemeen wordt gedacht. Let op:
 
@@ -804,15 +804,15 @@ Katten zijn meesters in het verbergen van ongemak. Vooral oudere katten hebben v
 
 - Verandering van karakter — een lieve kat die ineens grommend wegloopt bij aanraking, of zich op specifieke plekken niet meer laat aaien
 
-### De Grimace Scale
+## De Grimace Scale
 
 Onderzoekers hebben voor verschillende dieren "grimace scales" ontwikkeld: schalen die pijn meten aan de gezichtsuitdrukking. Bij katten kijken ze naar oren (omlaag of zijwaarts), ogen (samengeknepen), snorhaartjes (naar voren in plaats van neutraal) en muil-spanning. Bij honden zijn vergelijkbare patronen herkenbaar. U kunt deze schalen online opzoeken — een nuttige toevoeging aan uw observatievermogen.
 
-### Wat niet doen
+## Wat niet doen
 
 Geef nooit menselijke pijnstillers aan uw huisdier. Paracetamol is dodelijk voor katten en kan bij honden leverschade geven. Ibuprofen en aspirine veroorzaken maagzweren. Diclofenac is uiterst toxisch. Zelfs schijnbaar onschuldige doseringen kunnen lethaal zijn. Bel altijd eerst de dierenarts.
 
-### Wanneer naar de dierenarts?
+## Wanneer naar de dierenarts?
 
 Als u twijfelt — al is het maar een vermoeden van pijn — raadpleeg dan uw dierenarts. Pijn verdient onderzoek: er zit altijd iets achter, of het nu een tand is, een gewricht, een buikorgaan of een wond. Onbehandelde pijn is niet alleen onnodig leed, maar belemmert ook herstel: een kat met chronische artritis die niet meer beweegt, vermagert en heeft slechtere doorbloeding.
 
@@ -829,19 +829,19 @@ Samenvatting: December is voor veel honden en katten een nachtmerrie. Wat werkt 
 
 Naar schatting heeft een derde van alle honden in Nederland angst voor vuurwerk, en bij katten ligt dat percentage vergelijkbaar. Vooral Oud en Nieuw is voor deze dieren een trauma dat dagen kan doorwerken. Het goede nieuws: er is veel dat helpt — als u op tijd begint.
 
-### De vergissing van veel eigenaren
+## De vergissing van veel eigenaren
 
 Wachten tot 30 december en dan een rustgevend middel halen werkt niet. Echte angstbestrijding vraagt voorbereiding van weken tot maanden. Begin idealiter in oktober, voor jonge honden zelfs eerder.
 
-### Stap 1: maak het hol
+## Stap 1: maak het hol
 
 Creëer een veilige plek waar uw dier zich kan terugtrekken. Voor honden vaak een bench met een deken eroverheen, of een afgesloten ruimte zonder uitzicht naar buiten. Voor katten een kast of doos op hoogte. Begin nu al met associaties opbouwen: snoepjes daar, lekker mandje, fijne dingen. Tegen Oud en Nieuw is dit "hun eigen plek" waar ze zich automatisch terugtrekken.
 
-### Stap 2: gewenning aan geluiden
+## Stap 2: gewenning aan geluiden
 
 Op YouTube vindt u opnames met vuurwerkgeluiden. Speel ze af op zeer laag volume terwijl uw dier eet of speelt. Verhoog langzaam over weken het volume — alleen zo ver dat uw dier nog ontspannen blijft. Als hij zich gespannen gedraagt, gaat u te snel. Dit heet desensitisatie. Het kost tijd maar werkt voor veel dieren.
 
-### Stap 3: voor extreme angst — medicatie
+## Stap 3: voor extreme angst — medicatie
 
 Bij dieren met hevige paniek (trillen, kwijlen, ongecontroleerd plassen, zelfverwondend gedrag) is psychologische voorbereiding alleen vaak niet genoeg. Bespreek tijdig met uw dierenarts of medicatie geschikt is.
 
@@ -856,7 +856,7 @@ Bij dieren met hevige paniek (trillen, kwijlen, ongecontroleerd plassen, zelfver
 
 Medicatie is geen luiheid; het is barmhartigheid. Voor een dier dat letterlijk panisch is van angst maakt het een wereld van verschil.
 
-### Op de avond zelf
+## Op de avond zelf
 
 
 - Sluit alle ramen en gordijnen — niet alleen tegen geluid maar ook tegen lichtflitsen
@@ -876,11 +876,11 @@ Medicatie is geen luiheid; het is barmhartigheid. Voor een dier dat letterlijk p
 
 - Zorg dat uw dier een chip heeft en de gegevens up-to-date zijn — voor het geval er toch wat misgaat
 
-### Wat u beter niet doet
+## Wat u beter niet doet
 
 Een natuurlijke reactie is uw bange dier overmatig knuffelen en geruststellen. Dat is goed bedoeld maar bevestigt soms dat er echt iets mis is. Beter: wees rustig en doe alsof er niets aan de hand is. Voor honden is uw eigen kalmte het belangrijkste anker. Hard straffen of negeren is daarentegen contraproductief en versterkt de angst.
 
-### De volgende keer beter
+## De volgende keer beter
 
 Een dier dat ooit hevig is geschrokken van vuurwerk wordt zelden vanzelf minder angstig. Sterker: het wordt vaak elk jaar erger. Doorbreek dit door volgend jaar al in september te starten met de stappen hierboven. Een hondengedragstherapeut kan begeleiden in het traject.
 
@@ -895,7 +895,7 @@ Samenvatting: Slopen, blaffen, achterloos energiek — vaak geen 'slechte hond' 
 
 Honden zijn niet gemaakt om acht uur per dag in een appartement te wachten op hun baas. Ze zijn sociale, intelligente, taakgerichte dieren. Wie ze niet voldoende stimuleert — niet alleen lichamelijk maar ook mentaal — krijgt vaak gedragsproblemen voor terug. De oplossing is niet meer wandelen, maar slimmer wandelen.
 
-### Symptomen van verveling
+## Symptomen van verveling
 
 
 - Slopen van meubels, schoenen, deuren
@@ -917,7 +917,7 @@ Honden zijn niet gemaakt om acht uur per dag in een appartement te wachten op hu
 
 Belangrijke kanttekening: deze gedragingen kunnen ook duiden op echte gedragsstoornissen, angst of medische problemen. Twijfelt u, dan is een gedragstherapeut de juiste route.
 
-### Mentaal werk telt zwaar
+## Mentaal werk telt zwaar
 
 Een uur stevig wandelen is goed, maar 20 minuten denksport vermoeit een hond minstens evenveel. Probeer:
 
@@ -936,11 +936,11 @@ Een uur stevig wandelen is goed, maar 20 minuten denksport vermoeit een hond min
 
 - Hondensport — agility, flyball, mantrailing, behendigheid. Talloze vormen, voor elk type hond een passend tempo.
 
-### Sociaal contact
+## Sociaal contact
 
 Honden zijn roedeldieren. Eenvoudig oplossing: regelmatig contact met andere honden. Niet bij elke hond werkt elke ontmoeting, maar als uw hond goed sociaal is, is een speelafspraak goud waard. Hondenuitlaatservices die uw hond meenemen in een groep zijn eveneens een optie voor mensen die langer werken.
 
-### Wat als u echt langs werkt?
+## Wat als u echt langs werkt?
 
 Acht of negen uur alleen-zijn is voor de meeste honden te veel. Overweeg:
 
@@ -956,7 +956,7 @@ Acht of negen uur alleen-zijn is voor de meeste honden te veel. Overweeg:
 
 - Werkende thuis-mogelijkheden bespreken met uw werkgever
 
-### Soms is meer minder
+## Soms is meer minder
 
 Tegelijk: een hond moet ook leren om rust te accepteren. Sommige honden raken juist overstimuleerd door non-stop activiteit. Een goed dagritme heeft zowel actie als rustmomenten waarin de hond echt op zijn plek mag liggen, ongestoord. Train dit: kunnen ontspannen is een vaardigheid, geen vanzelfsprekendheid.
 
@@ -973,13 +973,13 @@ Samenvatting: Wat u doet in de eerste 16 weken bepaalt voor een groot deel hoe u
 
 De eerste maanden in het leven van een puppy zijn de belangrijkste van zijn hele bestaan. In de socialisatieperiode — grofweg 3 tot 16 weken — vormt de puppy zijn beeld van de wereld. Wat hij in deze tijd niet meemaakt, wordt later vaak met argwaan benaderd. Wat hij wel ontmoet en goed verwerkt, accepteert hij als normaal.
 
-### Voor 8 weken: bij de fokker
+## Voor 8 weken: bij de fokker
 
 Een goede fokker laat de puppy minimaal 8 weken bij de moeder en nestgenoten. In die tijd leert hij de eerste sociale vaardigheden: bijtremming, signalen lezen, taakverdeling. Een puppy die te vroeg weg gaat ervaart later vaker problemen met andere honden.
 
 Vraag uw fokker wat de puppy heeft gehoord en gezien: andere honden, kinderen, stofzuigers, deurbellen, autorijden. Hoe meer geluiden en ervaringen, hoe beter.
 
-### Week 8-16: thuis bij u
+## Week 8-16: thuis bij u
 
 De socialisatie loopt door. Uw taak: zoveel mogelijk positieve ervaringen organiseren in deze korte periode. Een (niet-uitputtende) checklist:
 
@@ -1009,21 +1009,21 @@ De socialisatie loopt door. Uw taak: zoveel mogelijk positieve ervaringen organi
 
 Belangrijk: dit moet allemaal in een positieve sfeer. Sleep uw puppy niet door overprikkelende situaties. Liever vijf rustige korte ervaringen dan één traumatische lange. Beloon ontspannen gedrag met snoepjes en een rustige stem.
 
-### Vaccinaties en buiten komen
+## Vaccinaties en buiten komen
 
 De klassieke advies was: hou uw puppy binnen tot na de laatste vaccinatie (rond 12 weken). Modern inzicht is anders: de socialisatieperiode wachten op vaccinaties betekent doorgaans dat u die periode mist, met blijvende gedragsschade. Dierenartsen adviseren tegenwoordig: ga vanaf de tweede vaccinatie buiten naar plekken zonder onbekende ontlasting (geen druk park), maar wel naar veilige omgevingen — andere ingeënte honden, terras, vrienden, een rustige straat. Het risico op een infectie is bij verstand kleiner dan het risico op een levenslang angstig hond.
 
-### Zindelijkheid
+## Zindelijkheid
 
 Realistisch: tot 4 maanden kunnen veel pups hun blaas niet langer ophouden dan 2-3 uur. Ga elke 1,5-2 uur naar buiten en altijd na slapen, eten en spelen. Beloon direct na het plassen buiten. Negeer ongelukjes binnen — straffen werkt niet, een puppy verbindt het niet aan zijn handeling 3 minuten geleden.
 
-### Opleiding
+## Opleiding
 
 Begin direct met de basis: zit, lig, kom, naam herkennen. Werk met positieve bekrachtiging — beloon goed gedrag, negeer of voorkom ongewenst gedrag. Schreeuwen, slaan of "alfa-roll" technieken zijn achterhaald en kunnen langdurige angst veroorzaken.
 
 Een puppycursus bij een gecertificeerd trainer (kijk naar lid-Hund-Welt of Vereniging Onafhankelijke Hondentrainers) is een uitstekende investering — niet alleen voor de basis, maar ook voor sociale ervaring met andere honden onder begeleiding.
 
-### Eerste dierenartsbezoek
+## Eerste dierenartsbezoek
 
 Maak het eerste bezoek naar de dierenarts geen drama. Sommige praktijken bieden "puppy-momentjes" aan: een korte introductie zonder onderzoek, alleen om gewogen te worden en een snoepje te krijgen. Dat helpt om de associatie met de praktijk positief te houden — een investering die uw hond zijn hele leven dankbaar zal zijn.
 
@@ -1038,7 +1038,7 @@ Samenvatting: Vanaf welke leeftijd is uw hond of kat 'senior'? En wat verandert 
 
 Dieren leven steeds langer. Een goed verzorgde kat haalt vandaag de dag vaak 15 tot 18 jaar, sommige rassen honden 12 tot 15. Met die langere levensduur komen ouderdomsklachten — die met goede zorg behandelbaar of leefbaar te maken zijn.
 
-### Wanneer is een dier senior?
+## Wanneer is een dier senior?
 
 Dat verschilt sterk per soort en ras. Globaal:
 
@@ -1060,7 +1060,7 @@ Dat verschilt sterk per soort en ras. Globaal:
 
 - Paarden — senior vanaf 16-18 jaar
 
-### Veelvoorkomende ouderdomsklachten
+## Veelvoorkomende ouderdomsklachten
 
 Bij honden:
 
@@ -1099,11 +1099,11 @@ Bij katten:
 
 - Tandproblemen, vooral resorptieve laesies
 
-### De seniorencheck-up
+## De seniorencheck-up
 
 Voor seniorenpdieren is een jaarlijks gezondheidsonderzoek niet voldoende; een halfjaarlijkse check is verstandiger. Veel praktijken bieden een speciaal "senior pakket" aan: lichamelijk onderzoek, bloedonderzoek (nier-, lever-, schildklierfuncties), urineonderzoek, gewichts- en gebitscheck. Deze onderzoeken vinden vaak iets vóórdat u thuis een probleem opmerkt — en dat geeft de meeste behandelmogelijkheden.
 
-### Aanpassingen in huis
+## Aanpassingen in huis
 
 Een ouder dier heeft soms hulp nodig:
 
@@ -1122,11 +1122,11 @@ Een ouder dier heeft soms hulp nodig:
 
 - Eet- en drinkbakken op verhoging — minder buigen voor het nekgewricht
 
-### Aangepaste voeding
+## Aangepaste voeding
 
 Senior voer is zinvol voor sommige dieren maar niet voor alle. Een kat met beginnende nierproblemen heeft baat bij een specifiek nier-dieet, een hond met artritis bij een voer met ondersteunende stoffen. Bespreek dit met uw dierenarts — generieke "senior" voeding zonder concrete reden is vaak marketing.
 
-### De levenskwaliteit-check
+## De levenskwaliteit-check
 
 Voor de oudste dieren wordt op een gegeven moment de vraag belangrijk: heeft hij nog een kwaliteit van leven? Een eenvoudige checklist die veel dierenartsen gebruiken:
 
@@ -1161,7 +1161,7 @@ Samenvatting: Een van de zwaarste beslissingen die u als huisdiereigenaar maakt.
 
 Voor veel mensen is hun huisdier een gezinslid. Het besluit om afscheid te nemen is dan ook een van de moeilijkste die u ooit zult maken. Dit artikel probeert open en eerlijk te beschrijven wat er bij komt kijken — niet om u te overhalen, maar om u te helpen bewust en in vrede te beslissen wanneer het moment daar is.
 
-### Wanneer is het tijd?
+## Wanneer is het tijd?
 
 Er bestaat geen exact moment dat universeel is. Wel zijn er handvatten. Een veelgebruikte vragenlijst kijkt naar:
 
@@ -1185,11 +1185,11 @@ Er bestaat geen exact moment dat universeel is. Wel zijn er handvatten. Een veel
 
 Een eenvoudige test die mensen vaak helpt: noteer een tijdje dagelijks of het een goede of slechte dag was. Als de slechte dagen structureel meer worden dan de goede, en de goede zeldzaam, dan is het gesprek over euthanasie eerlijk.
 
-### Te vroeg of te laat?
+## Te vroeg of te laat?
 
 De meeste eigenaren zijn bang voor "te vroeg". In de praktijk wachten mensen juist vaak iets te lang — niet uit egoïsme, maar omdat ze hopen op nog één goede dag. Een ervaren dierenarts zal u zelden iets opdringen, maar wel meedenken. "Beter een week te vroeg dan een dag te laat" is een uitspraak die veel dierenartsen kennen, vooral bij dieren met onbehandelbare pijn.
 
-### Hoe verloopt euthanasie?
+## Hoe verloopt euthanasie?
 
 Het is een rustige, snelle en pijnloze procedure. Veel dierenartsen werken in twee stappen:
 
@@ -1201,11 +1201,11 @@ Het is een rustige, snelle en pijnloze procedure. Veel dierenartsen werken in tw
 
 U mag (maar hoeft niet) bij uw dier zijn. Veel mensen kiezen voor aanwezig blijven; sommigen vinden dat te zwaar. Beide is goed. Veel klinieken regelen ook euthanasie aan huis — voor sommige dieren minder stressvol, voor de eigenaar soms tegelijk troostrijker en zwaarder. Vraag dit ruim van tevoren aan.
 
-### Daarna
+## Daarna
 
 U heeft de keuze tussen individuele crematie (de as terug, in een urn of bijzonder voorwerp), gezamenlijke crematie (zonder as terug) of in sommige gevallen begraven op eigen terrein (afhankelijk van gemeente-regels en grondsoort). De dierenarts kan dit regelen of u verwijzen.
 
-### Het rouwproces
+## Het rouwproces
 
 Rouw om een huisdier is echt en wordt steeds breder erkend. Het kan u verrassen hoe heftig het is — vooral als u dagelijks samen optrok. Het is geen overgevoeligheid; u rouwt om een wezenlijke band.
 
@@ -1225,7 +1225,7 @@ Wat helpt veel mensen:
 
 Voor wie het echt zwaar krijgt is er professionele begeleiding mogelijk. De Stichting Verlies Huisdier en gespecialiseerde rouwconsulenten kunnen ondersteunen. Vraag uw huisarts of dierenarts om verwijzing als u langere tijd niet kunt functioneren.
 
-### Een laatste gedachte
+## Een laatste gedachte
 
 U heeft uw dier ooit thuis gehaald om voor hem te zorgen. De laatste daad van die zorg is hem helpen om waardig te gaan, op het juiste moment. Dat is geen verraad maar de zwaarste vorm van liefde.
 
@@ -1240,35 +1240,35 @@ Samenvatting: Voor honden wettelijk verplicht, voor katten verstandig. Hoe werkt
 
 Een chip is een rijstkorrel-groot capsule onder de huid van uw dier, met een uniek 15-cijferig nummer. Dat nummer wordt gekoppeld aan een database waarin uw contactgegevens staan. Vindt iemand uw dier en brengt het naar een dierenarts, asiel of dierenambulance, dan kan met een chiplezer in seconden het nummer worden uitgelezen — en daarmee u worden gevonden.
 
-### Wettelijk verplicht voor honden
+## Wettelijk verplicht voor honden
 
 In Nederland moeten alle honden binnen zeven weken na geboorte gechipt en geregistreerd zijn. De fokker is verantwoordelijk voor de eerste registratie. Bij koop of overname draagt de eigenaar de plicht over te zetten in zijn naam. Niet-geregistreerde honden zijn een overtreding en kunnen leiden tot boetes.
 
-### Voor katten niet verplicht, wel slim
+## Voor katten niet verplicht, wel slim
 
 Voor katten geldt geen registratieplicht (althans op landelijk niveau; sommige gemeentes overwegen dat). Toch is chippen sterk aan te raden, zeker voor buitenkatten. Een kat zonder identificatie die wordt aangereden of vastgepakt zonder duidelijk eigenaar belandt in een asiel; zonder chip kan niemand u terugvinden.
 
-### Hoe werkt het in de praktijk?
+## Hoe werkt het in de praktijk?
 
 De dierenarts zet de chip met een speciale naald onder de huid in de nek of tussen de schouderbladen. Dat duurt enkele seconden en is vergelijkbaar met een vaccinatie — meestal slechts kort ongemak. Veel klinieken doen het tegelijk met een castratie of sterilisatie, dan onder narcose, helemaal pijnloos.
 
 Het nummer moet vervolgens geregistreerd worden in een erkende databank: NDG (Nederlandse Databank Gezelschapsdieren) is de wettelijke voor honden. Voor katten en andere dieren bestaan ook andere registers. Vraag uw dierenarts in welke databank uw dier staat.
 
-### Verhuizen of een ander telefoonnummer?
+## Verhuizen of een ander telefoonnummer?
 
 Hier vergeten veel mensen de chip. Het nummer in de chip blijft hetzelfde, maar de gegevens in de database moeten worden aangepast. Log in bij de databank waar uw dier geregistreerd staat (of bel ze) en update uw adres en telefoonnummer.
 
 Veel zoekgeraakte dieren worden niet teruggevonden omdat de chipgegevens hopeloos verouderd zijn — een verhuizing van vier jaar terug, een nummer van een ex-partner. Een minuut werk dat u jaren plezier kan opleveren.
 
-### Bij overname van een dier
+## Bij overname van een dier
 
 Heeft u een dier overgenomen — bijvoorbeeld via Marktplaats, een asiel of bekende? Dan is het belangrijk om de chipregistratie op uw naam te zetten. De vorige eigenaar moet daarvoor instemming geven; vraag hier altijd om bij koop. Asielen regelen dit meestal direct.
 
-### EU-paspoort
+## EU-paspoort
 
 Voor reizen binnen Europa moet uw hond, kat of fret naast een chip ook een Europees Dierenpaspoort hebben, met daarin de chipgegevens en een actuele rabiësvaccinatie (minimaal 21 dagen oud). Dit is een vraagstuk om ruim voor uw vakantie te regelen.
 
-### Wat de chip niet doet
+## Wat de chip niet doet
 
 Een chip is geen GPS. U kunt er uw dier niet mee tracken; het uitlezen werkt alleen met een chiplezer in de buurt (centimeters). Wilt u uw kat of hond traceren, dan zijn er aparte GPS-halsbanden of -trackers — een ander apparaat dan de chip.
 
@@ -1283,7 +1283,7 @@ Samenvatting: Een EU-paspoort, geldige rabiësvaccinatie en eventueel ontworming
 
 Met uw hond, kat of fret op vakantie binnen de Europese Unie? Dat kan, maar er gelden duidelijke regels. Wie ze niet naleeft loopt het risico aan de grens te worden tegengehouden of erger: het dier in quarantaine te moeten plaatsen.
 
-### De drie basisvereisten voor EU-reizen
+## De drie basisvereisten voor EU-reizen
 
 
 - Een microchip volgens ISO-standaard 11784/11785 (de standaard van Nederlandse dierenartsen)
@@ -1296,15 +1296,15 @@ Met uw hond, kat of fret op vakantie binnen de Europese Unie? Dat kan, maar er g
 
 De volgorde is belangrijk: de chip moet er vóór de rabiësvaccinatie inzitten. Krijgt uw dier een vaccinatie zonder chip, dan moet de vaccinatie opnieuw na het chippen.
 
-### Specifiek voor sommige landen: lintwormbehandeling
+## Specifiek voor sommige landen: lintwormbehandeling
 
 Voor het Verenigd Koninkrijk, Ierland, Malta, Noorwegen en Finland geldt een aanvullende eis voor honden: een ontworming tegen lintworm met praziquantel, toegediend tussen 24 en 120 uur (1-5 dagen) voor binnenkomst. De dierenarts noteert dit in het paspoort. Niet doen = geweigerd worden bij de douane.
 
-### Eerste paspoort: hoe regel je dat?
+## Eerste paspoort: hoe regel je dat?
 
 Bij uw eigen dierenarts. Bring de chipgegevens en het entboekje mee. De dierenarts vult het paspoort in, zet uw dier in zijn systeem en u krijgt het paspoort mee. Houd er rekening mee dat een nieuwe rabiësvaccinatie 21 dagen nodig heeft om geldig te worden — plan dit dus minimaal drie weken voor vertrek.
 
-### Zuid-Europa: aanvullende risico's
+## Zuid-Europa: aanvullende risico's
 
 De EU stelt geen extra eisen, maar in Zuid-Europa lopen honden risico op ziekten die in Nederland niet of nauwelijks voorkomen:
 
@@ -1322,7 +1322,7 @@ De EU stelt geen extra eisen, maar in Zuid-Europa lopen honden risico op ziekten
 
 Voor reizen naar deze regio's is een aanvullende preventie wenselijk. Bespreek met uw dierenarts welke combinatie van middelen geschikt is — het verschilt per regio en seizoen.
 
-### Praktisch onderweg
+## Praktisch onderweg
 
 
 - Reizen met een hond in de auto: regelmatig pauzeren, schaduw, zorg voor water. Nooit alleen achterlaten in een geparkeerde auto, ook niet "even" — temperaturen lopen razendsnel op.
@@ -1333,7 +1333,7 @@ Voor reizen naar deze regio's is een aanvullende preventie wenselijk. Bespreek m
 
 - Trein: in Nederland en veel andere landen mogen kleine honden in een tas mee, grotere aan de leiband; vaak is een ticket nodig.
 
-### Laatste tip
+## Laatste tip
 
 Maak van een digitale kopie van het paspoort, vaccinatiestatus en chipnummer. Bij verlies onderweg kunt u dan sneller schakelen. En noteer de dichtstbijzijnde dierenarts op uw vakantieadres — bij gezondheidsproblemen scheelt dat zoekwerk.
 
@@ -1348,7 +1348,7 @@ Samenvatting: Een operatie aan een knieband kost al snel €2.500 of meer. Wat d
 
 De Nederlandse huisdierenverzekering-markt groeit snel. Steeds meer eigenaren overwegen een polis na te denken over een verzekering, vaak na een onverwachte rekening. Maar of een verzekering loont, hangt af van veel factoren. Een nuchter overzicht.
 
-### Wat zijn realistische kosten zonder verzekering?
+## Wat zijn realistische kosten zonder verzekering?
 
 Diergeneeskunde wordt steeds geavanceerder en daarmee duurder. Indicatieve prijzen anno nu:
 
@@ -1375,7 +1375,7 @@ Diergeneeskunde wordt steeds geavanceerder en daarmee duurder. Indicatieve prijz
 
 Een onverwachte ingrijpende behandeling kan zo €2.000 tot €8.000 kosten. Niet iedereen heeft dat liggen.
 
-### Wat dekt een verzekering meestal?
+## Wat dekt een verzekering meestal?
 
 De Nederlandse markt kent ruwweg drie typen polissen:
 
@@ -1388,7 +1388,7 @@ De Nederlandse markt kent ruwweg drie typen polissen:
 
 - Compleet — alles inclusief medicatie, gebitsbehandeling, fysiotherapie, soms zelfs preventie
 
-### Wat dekt een verzekering nooit (of zelden)?
+## Wat dekt een verzekering nooit (of zelden)?
 
 
 - Aandoeningen die al bekend waren bij afsluiten ("voorgeschiedenis-uitsluiting")
@@ -1408,11 +1408,11 @@ De Nederlandse markt kent ruwweg drie typen polissen:
 
 - Wachttijd na afsluiten — meestal 4 weken voor ziekte
 
-### Eigen risico en uitkering
+## Eigen risico en uitkering
 
 Let op het eigen risico (vaak 0-20% per behandeling), de jaarlijkse maximale uitkering, en de leeftijdsgrenzen. Bij sommige polissen mag een dier niet meer worden ingebracht na 10 jaar; bij andere stopt de dekking volledig op een bepaalde leeftijd, juist wanneer u die het hardst nodig heeft.
 
-### Voor wie loont het?
+## Voor wie loont het?
 
 Reken het uit. Premies liggen indicatief tussen €15-50 per maand voor een gemiddelde hond, €10-30 voor een kat. Over een hondenleven van 12 jaar betaalt u dus €2.000-7.000.
 
@@ -1425,11 +1425,11 @@ Reken het uit. Premies liggen indicatief tussen €15-50 per maand voor een gemi
 
 - Eigenaren met financiële buffer — kunnen vaak beter zelf maandelijks een bedrag opzij zetten, en houden zo controle over wat ze willen behandelen
 
-### Alternatief: zelf sparen
+## Alternatief: zelf sparen
 
 Een populaire route: open een aparte spaarrekening en stort daar maandelijks €25-40 op. Na een jaar heeft u €300-500, na 5 jaar mogelijk €1.500-2.500. Voor reguliere kleine kosten is dit prima genoeg. Voor catastrofale onverwachte kosten misschien niet — daar werkt een verzekering beter.
 
-### Een paar tips bij vergelijken
+## Een paar tips bij vergelijken
 
 
 - Vergelijk niet alleen op premie, maar op dekking en eigen risico
@@ -1454,11 +1454,11 @@ Samenvatting: Een veelvoorkomend probleem bij grote rassen. Hoe ontstaat het, ho
 
 Heupdysplasie (HD) is een aandoening waarbij het heupgewricht niet goed sluit: de kop van de dijbeen past niet zoals het zou moeten in de kom van het bekken. Dit zorgt voor een onstabiele, slecht functionerende heup, met op termijn vrijwel altijd artrose. Het komt vooral voor bij grote rassen — Duitse herder, Berner sennen, golden retriever, labrador, rottweiler — maar ook kleinere honden kunnen het hebben.
 
-### Hoe ontstaat het?
+## Hoe ontstaat het?
 
 HD heeft een sterke erfelijke component, maar omgevingsfactoren spelen een grote rol bij hoe ernstig het zich uit. Te snel groeien (door te energierijk voer voor pups van groeirassen), te veel intensieve beweging op te jonge leeftijd (springen, lange wandelingen), overgewicht en gladde vloeren in huis kunnen de aandoening verergeren.
 
-### Symptomen
+## Symptomen
 
 De eerste tekenen kunnen al op puppy-leeftijd verschijnen, of pas op middelbare leeftijd als de artrose zich heeft ontwikkeld:
 
@@ -1483,11 +1483,11 @@ De eerste tekenen kunnen al op puppy-leeftijd verschijnen, of pas op middelbare 
 
 - Pijn bij aanraken van de heup of bewegen van de poot
 
-### Diagnose
+## Diagnose
 
 Een röntgenfoto onder lichte sedatie bevestigt de diagnose en bepaalt de ernst. Voor fokkerij wordt vaak een officiële HD-beoordeling gemaakt door een specialist; uitslag van A (uitstekend) tot E (zeer slecht) helpt ras­verenigingen om te bepalen welke honden geschikt zijn voor de fokkerij.
 
-### Behandelopties
+## Behandelopties
 
 Geen enkele behandeling herstelt een dysplastische heup volledig, maar veel kan om de hond comfortabel te houden:
 
@@ -1522,7 +1522,7 @@ Chirurgisch:
 
 - Triple Pelvic Osteotomy (TPO) — bekken wordt herversneden bij jonge honden om de heupkom beter te plaatsen, voordat artrose optreedt
 
-### Voor de fokker en koper
+## Voor de fokker en koper
 
 Wilt u een puppy van een groot ras? Vraag de fokker naar de HD-beoordeling van beide ouders. Een verantwoordelijke fokker fokt niet zonder onderzoek. Een puppy van twee A- of B-honden heeft niet automatisch garantie, maar wel aanzienlijk lager risico dan twee onbeoordeelde ouders. Vragen die u kunt stellen: zijn de ouders HD-gescoord? Wat is de score? Welk vermijdingsbeleid hanteert de fokker?
 
@@ -1537,11 +1537,11 @@ Samenvatting: Chronische nierinsufficiëntie is de meest voorkomende ziekte bij 
 
 Het is een statistiek die veel kateigenaren verrast: minstens 30% van de katten boven de 15 heeft een vorm van chronische nierinsufficiëntie (CNI), en bij katten boven de 12 is het al meer dan 10%. Het is daarmee de meest voorkomende ouderdomsziekte bij katten.
 
-### Hoe ontstaat het?
+## Hoe ontstaat het?
 
 De nieren zijn ontworpen voor wegwerpwater. Bij een kat die levenslang vooral droogvoer eet, met beperkte vochtinname, krijgen de nieren het flink voor de kiezen. Bovendien is het niet zelden genetisch — sommige rassen (Pers, Maine Coon, Abessijn) hebben een verhoogd risico. Vaak is er geen exacte oorzaak aan te wijzen; het is een geleidelijke ouderdomsslijtage.
 
-### Subtiele eerste symptomen
+## Subtiele eerste symptomen
 
 Hier ligt de uitdaging: de eerste 50-70% van de nierfunctie kan al weg zijn voordat u iets merkt. Vroege signalen om op te letten:
 
@@ -1566,13 +1566,13 @@ Hier ligt de uitdaging: de eerste 50-70% van de nierfunctie kan al weg zijn voor
 
 - Soms braken — vooral in de gevorderde fase
 
-### Diagnose
+## Diagnose
 
 Een combinatie van bloedonderzoek (creatinine, ureum, SDMA) en urinetest (eiwit, soortelijk gewicht) geeft een goed beeld van de nierfunctie. Voor bevestiging en stadia-bepaling wordt vaak ook een bloeddrukmeting gedaan en een echo van de nieren.
 
 Het systeem dat dierenartsen gebruiken (IRIS-stadiering) deelt CNI in vier stadia van mild (stadium 1) tot ernstig (stadium 4). Hoe eerder u in een stadium aan de gang gaat, hoe beter de prognose.
 
-### Behandeling
+## Behandeling
 
 CNI is niet te genezen — eenmaal verloren nierweefsel komt niet terug. Maar de ziekte kan goed worden afgeremd, vaak met jaren extra goede levenstijd:
 
@@ -1594,7 +1594,7 @@ CNI is niet te genezen — eenmaal verloren nierweefsel komt niet terug. Maar de
 
 - EPO/erythropoëtine — voor de bloedarmoede die in late stadia kan ontstaan
 
-### Wat kunt u thuis doen?
+## Wat kunt u thuis doen?
 
 Naast trouw zijn aan het dieet en eventuele medicatie:
 
@@ -1613,7 +1613,7 @@ Naast trouw zijn aan het dieet en eventuele medicatie:
 
 - Halfjaarlijkse bloed- en urinecontrole bij uw dierenarts
 
-### Een eerlijke conclusie
+## Een eerlijke conclusie
 
 Een kat met CNI kan met goede zorg nog jaren een fijn leven hebben. Belangrijk: blijf observeren. Verandering in eetgedrag, gewicht of activiteit verdient een check. Hoe sneller een achteruitgang wordt opgemerkt, hoe beter er kan worden bijgestuurd.
 
@@ -1628,7 +1628,7 @@ Samenvatting: Verhuizen of een kat overnemen is voor het dier vaak stressvol. Ee
 
 Katten zijn territoriale dieren met sterke bindingen aan hun omgeving. Een verhuizing of de overgang naar een nieuw huis is voor veel katten ingrijpend. Een geleidelijke aanpak voorkomt veelvoorkomende problemen zoals stress-spray, agressie of dat de kat probeert weg te lopen.
 
-### Begin in één kamer
+## Begin in één kamer
 
 Veel mensen zetten een nieuwe kat los in het hele huis. Dat is meestal een fout. Begin in één rustige kamer met:
 
@@ -1649,7 +1649,7 @@ Veel mensen zetten een nieuwe kat los in het hele huis. Dat is meestal een fout.
 
 Laat de kat hier minimaal twee tot zeven dagen wennen. Pas als hij ontspannen is — eet, drinkt, naar de bak gaat, zich misschien laat aanraken — vergroot u het territorium met de rest van het huis, kamer voor kamer.
 
-### Voor verhuizingen met een eigen kat
+## Voor verhuizingen met een eigen kat
 
 Een kat die u al heeft, vraagt een vergelijkbare aanpak in het nieuwe huis:
 
@@ -1668,7 +1668,7 @@ Een kat die u al heeft, vraagt een vergelijkbare aanpak in het nieuwe huis:
 
 - Buitenkat? Houd hem minimaal twee weken binnen voordat u de eerste keer naar buiten laat — anders raakt hij verdwaald
 
-### Verschillende katten introduceren
+## Verschillende katten introduceren
 
 Een nieuwe kat introduceren bij een bestaande kat vraagt geduld — soms wéken. Het is een fase­proces:
 
@@ -1689,7 +1689,7 @@ Een nieuwe kat introduceren bij een bestaande kat vraagt geduld — soms wéken.
 
 Forceren werkt niet. Sommige katten accepteren elkaar binnen een week, andere doen er maanden over en sommige blijven afstandelijk maar verdraagzaam. Dat is acceptabel — niet elke kat moet vrienden worden, ze moeten gewoon in vrede kunnen leven.
 
-### Hulpmiddelen voor stress
+## Hulpmiddelen voor stress
 
 
 - Feliway — een synthetisch feromoon dat veel katten kalmeert. Verkrijgbaar als verstuiver, spray of halsband.
@@ -1702,7 +1702,7 @@ Forceren werkt niet. Sommige katten accepteren elkaar binnen een week, andere do
 
 Bij ernstige stress (langdurig spray-gedrag, agressie, niet eten) is het verstandig de dierenarts te raadplegen. Soms is kortstondige medicatie zinvol om de overgang door te komen; in andere gevallen is er een onderliggend medisch probleem dat als stress wordt geuit.
 
-### Tijd is uw belangrijkste hulpmiddel
+## Tijd is uw belangrijkste hulpmiddel
 
 Voor wie kort­stondig denkt: het kan tegenvallen. Maar een goed gewende kat geeft jaren van rust en plezier terug. Twee weken extra voorbereiding op een verhuizing kan een leven aan ongezellige bijwerkingen voorkomen.
 
@@ -1717,7 +1717,7 @@ Samenvatting: Konijnen overleven niet zonder hooi. De meest gemaakte fout in kon
 
 Veel konijneneigenaren denken dat hooi een soort bijgerecht is, en korrels het hoofdvoer. Het is precies omgekeerd. Hooi is voor konijnen letterlijk levensnoodzakelijk — minimaal 80% van het dieet. Geen hooi op het menu = vroeg of laat ernstige problemen.
 
-### Waarom is hooi zo belangrijk?
+## Waarom is hooi zo belangrijk?
 
 Twee redenen, beide cruciaal:
 
@@ -1725,7 +1725,7 @@ Twee redenen, beide cruciaal:
 
 2. Een ingewikkeld spijsverteringssysteem. Het konijnen­darmkanaal werkt alleen goed met veel ruwe vezel die continu door­schuift. Krijgen konijnen vooral korrels of zaadmengsels, dan stagneert de darmpassage. Het gevolg kan een levensbedreigende GI-stase zijn: de darm staat stil, het konijn eet niet meer en zonder snelle behandeling kan het binnen 24-48 uur fataal aflopen.
 
-### Hoeveel hooi en welk soort?
+## Hoeveel hooi en welk soort?
 
 Een konijn moet onbeperkt toegang hebben tot vers, geurig hooi — minstens een hoeveelheid ter grootte van zijn eigen lichaam per dag. Goed hooi:
 
@@ -1743,11 +1743,11 @@ Een konijn moet onbeperkt toegang hebben tot vers, geurig hooi — minstens een 
 
 Wat niet: alfalfa-hooi voor volwassen konijnen (te veel calcium, leidt tot blaasstenen). Alfalfa is alleen geschikt voor jonge konijnen tot ongeveer zes maanden, en voor zogende moeders.
 
-### Korrels: een bijgerecht
+## Korrels: een bijgerecht
 
 Korrels zijn niet verboden, maar moeten beperkt blijven: een eetlepel per kilo lichaamsgewicht per dag is een goede maatstaf. En kies dan voor pure korrels — niet de "muesli-mengsels" met gekleurde droogvruchten en zaden, want konijnen vissen daar het lekkere uit en laten het gezonde liggen.
 
-### Verse groenten
+## Verse groenten
 
 Dagelijks circa 100 gram verse groente per kilo lichaamsgewicht, in 2-3 soorten. Goede groenten zijn:
 
@@ -1765,11 +1765,11 @@ Dagelijks circa 100 gram verse groente per kilo lichaamsgewicht, in 2-3 soorten.
 
 Wat niet: aardappel, ui, knoflook, avocado, rabarber, sla met dikke witte stengels (maag­problemen), grote hoeveelheden kool (gasvorming).
 
-### Water
+## Water
 
 Verse water dagelijks. Een drinkflesje is praktisch maar veel konijnen drinken meer uit een open bak. Of bied beide aan — uw konijn kiest zelf.
 
-### De ultieme controle
+## De ultieme controle
 
 Een gezond konijn produceert dagelijks 100-300 ronde droge keutels — donkerbruin, ongeveer dezelfde grootte. Ziet u plotseling minder, kleinere of natte keutels, of helemaal niets? Bel meteen de dierenarts. Vooral het stoppen van keutel­productie is een acute spoedmelding.
 
@@ -1786,7 +1786,7 @@ Samenvatting: Twee virusziekten die voor konijnen vrijwel altijd dodelijk zijn. 
 
 Twee ziekten domineren de morbiditeit en mortaliteit bij Nederlandse konijnen: myxomatose en rabbit haemorrhagic disease (RHD). Beide zijn zeer besmettelijk, beide zijn vrijwel onbehandelbaar als ze eenmaal toeslaan, en beide zijn met goede vaccinatie effectief te voorkomen.
 
-### Myxomatose
+## Myxomatose
 
 Wordt overgedragen door bloedzuigende insecten — vooral muggen en konijnenvlooien. Een binnen­konijn dat nooit naar buiten gaat is dus niet beschermd: een mug die binnen vliegt is genoeg.
 
@@ -1809,7 +1809,7 @@ Symptomen ontwikkelen zich over enkele dagen:
 
 De sterfte ligt rond 95-100%. Zelfs intensief verzorgde konijnen overleven het zelden, en als ze het wel doen, is de dood vaak gerekt en pijnlijk. Veel dierenartsen kiezen daarom voor euthanasie als de diagnose vaststaat — om verder lijden te besparen.
 
-### RHD (Rabbit Haemorrhagic Disease)
+## RHD (Rabbit Haemorrhagic Disease)
 
 Een viraal probleem met inmiddels twee varianten in Nederland: RHD-1 (de oorspronkelijke vorm) en RHD-2 (sinds 2014). RHD wordt overgedragen via direct contact, maar ook via voer, schoenen, kleding, vogels of insecten — een binnenkonijn dat nooit naar buiten gaat kan nog steeds besmet raken via de schoenen van de eigenaar of via een vogeltje aan de overkant.
 
@@ -1829,17 +1829,17 @@ RHD verloopt razendsnel. Soms vinden eigenaren hun konijn de volgende ochtend do
 
 Sterfte: vrijwel 100%, vaak binnen 24-48 uur na de eerste symptomen.
 
-### Het goede nieuws: vaccinatie werkt
+## Het goede nieuws: vaccinatie werkt
 
 Een gecombineerde vaccinatie tegen myxomatose, RHD-1 en RHD-2 is verkrijgbaar. Eén vaccinatie geeft een jaar bescherming. Voor jonge konijnen vanaf 5 weken oud, daarna jaarlijks herhalen.
 
 De ideale tijd om te vaccineren in Nederland is voorjaar — voor het muggenseizoen begint. Dat geeft maximale bescherming juist wanneer het risico op myxomatose het hoogst is. Maar vaccineren kan het hele jaar door, zolang het maar gebeurt.
 
-### Wat kost het?
+## Wat kost het?
 
 Een jaarlijkse cocktailvaccinatie kost meestal €40-70, afhankelijk van de praktijk. Inclusief gezondheidscontrole vaak €60-90. Dat is niet veel voor de levenskwaliteit en levensduur van uw dier.
 
-### Aanvullende preventie
+## Aanvullende preventie
 
 Naast vaccinatie:
 
@@ -1855,7 +1855,7 @@ Naast vaccinatie:
 
 - Bij meerdere konijnen: nieuwkomers eerst 2-3 weken in quarantaine
 
-### De kern
+## De kern
 
 Myxomatose en RHD zijn ziekten waar u nul invloed op hebt nadat ze zijn opgetreden. Maar u heeft volledige invloed op de preventie. Eén bezoek per jaar, voor een spuit. Voor de meeste eigenaren een no-brainer — maar nog te veel konijnen gaan elk jaar onnodig dood omdat hun eigenaar het er nooit van komt.
 
@@ -1870,11 +1870,11 @@ Samenvatting: Een cavia kan, net als mensen, geen vitamine C zelf maken. Tekort 
 
 Cavia's hebben één opvallend voedingseigenaardigheid: ze kunnen geen vitamine C aanmaken. Dat moeten ze, net als mensen, dagelijks via voer binnenkrijgen. Krijgen ze structureel te weinig, dan ontwikkelen ze scheurbuik (hypovitaminose C) — een aandoening die leidt tot pijnlijke gewrichten, spontane bloedingen en uiteindelijk de dood.
 
-### Hoeveel hebben ze nodig?
+## Hoeveel hebben ze nodig?
 
 Een gezonde volwassen cavia heeft 10-30 mg vitamine C per dag nodig. Drachtige of zogende cavia's hebben meer nodig (60-90 mg), evenals zieke dieren.
 
-### Bronnen van vitamine C
+## Bronnen van vitamine C
 
 Verse groenten en kruiden zijn de beste bron:
 
@@ -1898,13 +1898,13 @@ Verse groenten en kruiden zijn de beste bron:
 
 Belangrijk: vitamine C verliest bij oxidatie (open lucht) en hitte snel zijn werking. Versgesneden groente direct geven, niet bewaren tot de volgende dag.
 
-### Voer en aanvullingen
+## Voer en aanvullingen
 
 Goed cavia-voer is verrijkt met vitamine C. Maar let op: dat verwerkte vitamine vervalt na opening van de zak vrij snel — binnen drie maanden vaak al de helft. Koop dus geen jaarverpakkingen, en sluit de zak goed af.
 
 Voor extra zekerheid kan vitamine C ook als druppels of tabletten worden gegeven. Vraag uw dierenarts om een geschikt product. Vermijd vitamine C in het drinkwater — het oxideert daar binnen uren weg.
 
-### Symptomen van tekort
+## Symptomen van tekort
 
 Bij beginnend gebrek:
 
@@ -1928,7 +1928,7 @@ Bij beginnend gebrek:
 
 Bij ernstig gebrek: spontane bloedingen, niet meer kunnen lopen. Te lang doorlopen leidt tot de dood. De goede nieuws: in beginnend stadium herstelt een cavia met aanvullende vitamine C binnen weken volledig.
 
-### De rest van het dieet
+## De rest van het dieet
 
 Naast vitamine C-rijk voedsel:
 
@@ -1943,7 +1943,7 @@ Naast vitamine C-rijk voedsel:
 
 Vermijd zaden- en notenmengsels — die zijn te energierijk en cavia's vissen er het ongezonde uit.
 
-### Sociaal dier
+## Sociaal dier
 
 Tot slot: een cavia hoort niet alleen te leven. Het is een groepsdier dat zich diep ongelukkig voelt zonder soortgenoot. Wettelijk is solitair houden in Nederland zelfs verboden — neem dus minimaal twee cavia's samen, bij voorkeur van hetzelfde geslacht of gecastreerd. Een goed verzorgd cavia­paar leeft 5-7 jaar — heel lang voor een knaagdier.
 
@@ -1958,7 +1958,7 @@ Samenvatting: Hamsters zijn schattig maar geen ideale kinderknuffeldieren. Wat v
 
 Hamsters worden vaak aangeschaft als "eerste huisdier voor het kind" — schattig, klein, lijkt makkelijk. In de praktijk valt dat tegen. Hamsters zijn nachtdieren met een korte levensduur en specifieke verzorgingsbehoeften, en ze zijn geen typische knuffeldieren. Wel ideaal voor wie hun gedrag waardeert zoals het is.
 
-### Drie hoofdsoorten
+## Drie hoofdsoorten
 
 
 - Syrische hamster (goudhamster) — solitair levend (echt solitair: meerdere bij elkaar leidt tot vechtpartijen). Levensduur 2-3 jaar.
@@ -1969,7 +1969,7 @@ Hamsters worden vaak aangeschaft als "eerste huisdier voor het kind" — schatti
 
 - Roborovski-dwerghamster — kleinste, snelste, niet voor handelbaar contact. Soms in groepjes mogelijk. 2-3 jaar.
 
-### Een ruime kooi
+## Een ruime kooi
 
 De ene grootste fout in hamsterhouding: een te kleine kooi. De aanbevolen minimum­oppervlakte van vloer is volgens Europese richtlijnen 100 x 50 cm — vaak ruim groter dan de standaard­hamsterkooi in de winkel. Voor Syrische hamsters wordt zelfs 80 x 50 cm of meer als minimum gehanteerd.
 
@@ -1996,13 +1996,13 @@ Belangrijke kenmerken van een goede kooi:
 
 - Een zandbak om in te rollen (chinchillazand)
 
-### Voeding
+## Voeding
 
 Een goed mengvoer voor hamsters bevat zaden, granen, gedroogde kruiden en wat eiwitbron. Daarnaast dagelijks een klein stukje verse groente of kruiden — komkommer, paprika, peterselie. Een paar keer per week een stukje meelworm of hard ei voor extra eiwit.
 
 Verboden voedsel: chocolade, citrusvruchten, ui, knoflook, zoute snacks, kool (gasvorming).
 
-### Gewenning aan handen
+## Gewenning aan handen
 
 Een hamster die net is overgekomen is gestrest. Geef hem 3-7 dagen rust voordat u hem voor het eerst probeert op te pakken. Begin dan met:
 
@@ -2020,11 +2020,11 @@ Een hamster die net is overgekomen is gestrest. Geef hem 3-7 dagen rust voordat 
 
 Sommige hamsters wennen en blijven goed te hanteren; andere blijven liever met rust gelaten. Respecteer dat. Een hamster die zich niet laat oppakken is geen mislukking; het is een hamster met een mening.
 
-### Het nachtleven
+## Het nachtleven
 
 Hamsters worden actief tegen schemering en zijn 's nachts druk in hun kooi: rennen, knagen, graven. Plaats de kooi dus niet in een slaapkamer. En verwacht overdag een slapend dier — wek hem niet om "te spelen", dat is voor hem net zo onaangenaam als voor u midden in de nacht een lichtje en een arm boven uw bed.
 
-### Wanneer naar de dierenarts?
+## Wanneer naar de dierenarts?
 
 
 - Niet eten gedurende meer dan 12 uur
@@ -2054,7 +2054,7 @@ Samenvatting: Twee kleine kooivogels, twee heel andere persoonlijkheden. Welke p
 
 Parkiet en kanarie zijn de twee meest verkochte kooivogels in Nederland. Visueel allebei klein en kleurrijk, maar in karakter, sociaal gedrag en verzorging behoorlijk verschillend.
 
-### Parkiet (Grasparkiet, Australische parkiet)
+## Parkiet (Grasparkiet, Australische parkiet)
 
 De parkiet is een sociale, intelligente vogel met een sterke roep, kletsachtig gedrag en — na geduldig oefenen — het vermogen om woorden of zinnen na te bootsen. Een parkiet wil interactie: met soortgenoten of met u.
 
@@ -2082,7 +2082,7 @@ Verzorging:
 
 Levensduur: 8-15 jaar. Een grasparkiet verdient meer respect dan vaak gegeven wordt — het is geen wegwerpdier.
 
-### Kanarie
+## Kanarie
 
 De kanarie is een zangvogel uit de familie van de vink. Mannelijke kanaries zingen — soms uren per dag, soms gewoon een uurtje 's ochtends. Vrouwtjes zingen niet. Kanaries zijn meer "kijkvogels" dan interactiedieren; ze laten zich niet zo gemakkelijk aanraken en hebben ook geen sterke binding met de mens nodig.
 
@@ -2107,7 +2107,7 @@ Verzorging:
 
 Levensduur: 7-10 jaar.
 
-### Welke past bij u?
+## Welke past bij u?
 
 
 - Wilt u een interactieve vogel die op uw schouder zit en mogelijk woorden leert? Parkiet.
@@ -2121,7 +2121,7 @@ Levensduur: 7-10 jaar.
 
 - Heeft u kleine kinderen die snel willen aaien? Geen van beide; vogels zijn geen knuffeldieren.
 
-### Algemene zorgpunten
+## Algemene zorgpunten
 
 Beide soorten:
 
@@ -2153,13 +2153,13 @@ Samenvatting: Voor de meeste reptielen is goed UV-licht net zo belangrijk als vo
 
 Reptielen zijn ectotherm: ze maken zelf geen lichaamswarmte, maar zijn afhankelijk van de omgeving. Daarnaast hebben de meeste reptielen een tweede behoefte die in de natuur vanzelfsprekend is, maar in het terrarium uit zichzelf afwezig: ultraviolet licht. Een tekort aan UV-B is misschien wel de meest gemiste oorzaak van problemen bij gezelschapsreptielen.
 
-### Waarom UV-B?
+## Waarom UV-B?
 
 Net als bij mensen wordt onder invloed van UV-B in de huid vitamine D3 aangemaakt. Vitamine D3 is essentieel voor de calciumhuishouding. Geen UV-B = geen actief vitamine D3 = calcium niet goed opgenomen = botziekten en stuipen.
 
 Bij baardagamen, leguanen en schildpadden ontwikkelt zich zonder UV de zogenoemde MBD (Metabolic Bone Disease): zachte botten, kromme rug, brede pootjes, krampen. Een acute MBD-aanval kan dodelijk zijn. Veel beginnende eigenaren komen pas in de praktijk als hun jonge baardagaam op een dag niet meer kan staan — dan is er al veel schade.
 
-### Welke reptielen hebben het nodig?
+## Welke reptielen hebben het nodig?
 
 Vrijwel alle dagdieren:
 
@@ -2188,7 +2188,7 @@ Mogelijk overbodig (omstreden):
 
 Bij twijfel: licht is voor de meeste reptielen geen kwaad, geen licht voor wie het wel nodig heeft is wel kwaad. Bij een nieuwe soort kunt u beste de specifieke zorgrichtlijnen voor die soort raadplegen.
 
-### Welke lamp?
+## Welke lamp?
 
 De keuze hangt af van de soort en de afstand:
 
@@ -2203,13 +2203,13 @@ De keuze hangt af van de soort en de afstand:
 
 Tube-lampen zitten meestal op 25-30 cm boven de zonnerichel. Mercury vapor lampen op 40-60 cm. Te dichtbij = oogletsel, te ver weg = nutteloos.
 
-### De gemene fout: vervangen vergeten
+## De gemene fout: vervangen vergeten
 
 Een UV-B lamp blijft licht geven nadat de UV is uitgeput. Voor het oog ziet u geen verschil — voor uw reptiel wel. Een fluorescentie-tube is gemiddeld 6 tot 12 maanden effectief, daarna moet hij vervangen ook al brandt hij nog. Mercury vapor: 12-18 maanden. Schrijf de installatiedatum op de lamp met een markeerstift.
 
 Een UV-meter (Solarmeter 6.5) kost ~€200 maar geeft definitief uitsluitsel of de lamp nog werkt. Voor wie meerdere reptielen heeft een uitstekende investering.
 
-### Naast UV: warmte en cyclus
+## Naast UV: warmte en cyclus
 
 UV is niet hetzelfde als warmte; ze leveren beide andere functies. Reptielen hebben:
 
@@ -2235,13 +2235,13 @@ Samenvatting: Buikpijn bij een paard kan binnen uren levensbedreigend worden. Ho
 
 Koliek is een verzamelnaam voor buikpijn bij paarden. Het is een van de meest voorkomende doodsoorzaken bij paarden — niet omdat er één specifieke ziekte achter zit, maar omdat de paardenmaag en -darmen door hun anatomie en fysiologie kwetsbaar zijn voor problemen die snel ernstig kunnen worden.
 
-### Waarom zijn paarden zo gevoelig?
+## Waarom zijn paarden zo gevoelig?
 
 Een paard kan niet braken — letterlijk niet. Zijn maag-darmkanaal is een eenrichtingsysteem. Als er iets vastloopt of onpasselijk maakt, dan moet het er aan de andere kant uit, en dat duurt soms te lang.
 
 Daarnaast is de dikke darm enorm lang en gevarieerd in diameter. Op enkele plekken (zoals de "pelvisflexuur") is het een nauwe doorgang waar voer kan vastlopen. Bij stress, watergebrek, plots dieet­wisselingen of zandopname kan dit snel kritiek worden.
 
-### Symptomen herkennen
+## Symptomen herkennen
 
 Subtiel in het begin, snel duidelijker:
 
@@ -2275,7 +2275,7 @@ Subtiel in het begin, snel duidelijker:
 
 - Hartslag oplopend boven 50/min in rust
 
-### Wat doet u nu?
+## Wat doet u nu?
 
 Bel direct de dierenarts. Wachten is bij koliek de slechtste optie. Een lichte spasme-koliek kan vanzelf overgaan, maar onderscheid maken tussen mild en ernstig is voor de leek niet betrouwbaar mogelijk. Bovendien: een lichte koliek die even mistig oogt kan binnen twee uur omslaan in een levensbedreigende verstrengelde darm.
 
@@ -2296,7 +2296,7 @@ Tot de dierenarts er is:
 
 - Tel zelf de hartslag (in rust onder de elleboog of via halsslagader); hoe hoger, hoe ernstiger
 
-### Wat doet de dierenarts?
+## Wat doet de dierenarts?
 
 Eerst een lichamelijk onderzoek: hartslag, ademhaling, mucouze membranen, capillair­hervulling. Dan vaak een rectaal onderzoek om de darmen te voelen, en een maagsonde om te kijken of er reflux uit de maag komt (alarmerend signaal). Soms een echografie van de buik.
 
@@ -2311,11 +2311,11 @@ Op basis daarvan bepaalt de dierenarts:
 
 - Ernstig — directe operatie, soms binnen het uur
 
-### Operatie of niet?
+## Operatie of niet?
 
 Een colicoperatie is een ingrijpende beslissing — kosten lopen al snel naar €5.000-€8.000, soms hoger. De overlevingskans is afhankelijk van de oorzaak en hoe snel er wordt geopereerd. Met snel ingrijpen overleven 60-80% van de paarden met chirurgische koliek. Wachten verkleint die kans drastisch.
 
-### Preventie
+## Preventie
 
 Niet alle kolieken zijn te voorkomen, maar veel risicofactoren kunt u beïnvloeden:
 
@@ -2355,7 +2355,7 @@ Samenvatting:
 
 Een spoedgeval met uw huisdier is uiterst stressvol. De eerste minuten zijn vaak cruciaal, maar paniek leidt tot verkeerde beslissingen. Deze gids helpt u te bepalen wanneer u direct moet handelen, hoe u uw dier veilig vervoert, en welke informatie u klaar moet hebben voor de dierenarts.
 
-### Wanneer is iets écht een spoedgeval?
+## Wanneer is iets écht een spoedgeval?
 
 De volgende situaties vereisen onmiddellijk een dierenkliniek bezoeken (bel onderweg):
 
@@ -2375,7 +2375,7 @@ De volgende situaties vereisen onmiddellijk een dierenkliniek bezoeken (bel onde
 
 - Plotseling niet meer kunnen lopen — vooral bij dachshunds en grote rashonden (mogelijk hernia)
 
-### Wat te doen vóór u vertrekt
+## Wat te doen vóór u vertrekt
 
 - Bel de kliniek — laat ze weten dat u eraan komt en wat het probleem is. Soms kunnen ze u direct doorverwijzen of de behandelkamer voorbereiden.
 
@@ -2387,7 +2387,7 @@ De volgende situaties vereisen onmiddellijk een dierenkliniek bezoeken (bel onde
 
 - Vervoer veilig: een grote hond ondersteunt u idealiter met twee personen op een plat oppervlak (deken of plank). Een kat hoort in een transportbox, eventueel gewikkeld in een handdoek.
 
-### Belangrijke vergiftigingen — wat dodelijk is
+## Belangrijke vergiftigingen — wat dodelijk is
 
 StofGevaar
 
@@ -2405,7 +2405,7 @@ Antivries (autoradiateur)Zoete smaak, dodelijk bij katten al bij theelepeltje
 
 ParacetamolGeef NOOIT aan katten — voor honden alleen op recept van de dierenarts
 
-### Bel altijd eerst
+## Bel altijd eerst
 
 Bij twijfel: bel uw eigen dierenkliniek. Buiten openingstijden doorzoekt u onze spoedhulp-pagina voor 24/7 klinieken in uw provincie. Voor algemene vergiftigingsvragen kunt u ook het Nationaal Vergiftigingen Informatie Centrum bellen (alleen voor zorgverleners), of de Landelijke Dierenartsenlijn (085 - 010 1010).
 
@@ -2432,7 +2432,7 @@ Samenvatting:
 
 Vaccinaties beschermen uw huisdier tegen ernstige, soms dodelijke ziekten. Welke vaccins precies nodig zijn hangt af van het dier, de leefomgeving en eventuele reizen. Hieronder vindt u de algemene Nederlandse standaard voor honden en katten.
 
-### Vaccinatieschema honden (kernvaccinaties)
+## Vaccinatieschema honden (kernvaccinaties)
 
 Voor alle Nederlandse honden geldt het zogenaamde "cocktailvaccin" tegen vier ziekten: Hondenziekte (D), Hepatitis (H), Parvo (P) en Parainfluenza (Pi). Dit wordt vaak aangeduid als DHPPi.
 
@@ -2448,7 +2448,7 @@ LeeftijdVaccinatie
 
 Daarna jaarlijksZiekte van Weil + Parainfluenza jaarlijks; Parvo/Hondenziekte/Hepatitis volgens titerbepaling (vaak eens per 3 jaar)
 
-Aanvullende vaccinaties hond (op indicatie)
+### Aanvullende vaccinaties hond (op indicatie)
 
 - Rabiës (hondsdolheid) — verplicht bij reizen naar het buitenland, eens per 3 jaar
 
@@ -2456,7 +2456,7 @@ Aanvullende vaccinaties hond (op indicatie)
 
 - Babesiose / Anaplasmose — bij vakantie in zuid-Europa (tekenziekten)
 
-### Vaccinatieschema katten (kernvaccinaties)
+## Vaccinatieschema katten (kernvaccinaties)
 
 Voor katten geldt het cocktailvaccin tegen niesziekte (Calicivirus en Herpesvirus) en kattenziekte (Panleukopenie), aangeduid als FVRCP.
 
@@ -2470,17 +2470,17 @@ LeeftijdVaccinatie
 
 DaarnaNiesziekte jaarlijks; kattenziekte eens per 3 jaar
 
-Aanvullende vaccinaties kat (op indicatie)
+### Aanvullende vaccinaties kat (op indicatie)
 
 - Kattenleukose (FeLV) — bij katten die naar buiten gaan en in contact komen met andere katten
 
 - Rabiës — verplicht bij reizen naar het buitenland
 
-### Titerbepaling — minder prikken zonder risico
+## Titerbepaling — minder prikken zonder risico
 
 In plaats van automatisch jaarlijks vaccineren, kan een titerbepaling (bloedonderzoek) aantonen of uw dier nog voldoende afweer heeft. Dit is met name zinvol voor parvo, hondenziekte, hepatitis (hond) en kattenziekte (kat). Veel klinieken bieden dit aan als alternatief voor de standaard cyclus.
 
-### Wat als ik een prik heb gemist?
+## Wat als ik een prik heb gemist?
 
 Mist u meer dan 6 maanden de jaarlijkse herhaling, dan beveelt de meeste richtlijnen aan om met een herhaalprik en eventueel een tweede prik 3-4 weken later weer een veilig niveau op te bouwen. Vraag uw eigen dierenarts om advies.
 
@@ -2507,7 +2507,7 @@ Samenvatting:
 
 Wormen en vlooien zijn niet alleen vervelend voor uw huisdier — sommige soorten kunnen ook mensen besmetten (zoönose). Een goed ontworm- en vlooienschema is daarom belangrijk, ook bij dieren die er gezond uitzien.
 
-### Ontwormschema voor honden
+## Ontwormschema voor honden
 
 LeeftijdFrequentie
 
@@ -2521,11 +2521,11 @@ Verhoogd risico* Maandelijks
 
 *Verhoogd risico = honden die rauw vlees of prooien eten, jachthonden, honden die met kinderen jonger dan 5 jaar in huis wonen, of honden die regelmatig naar de speeltuin gaan.
 
-### Ontwormschema voor katten
+## Ontwormschema voor katten
 
 Voor binnenkatten die geen prooien vangen volstaat 2 keer per jaar. Voor buitenkatten of katten die muizen vangen: minimaal 4 keer per jaar, sommigen adviseren maandelijks.
 
-### Vlooien — bestrijding én preventie
+## Vlooien — bestrijding én preventie
 
 Een volwassen vlo legt 40-50 eieren per dag. Wanneer u één vlo ziet, zitten er meestal honderden in uw huis (in de tapijten, op de bank, in het mandje). Effectieve bestrijding vereist twee stappen:
 
@@ -2535,7 +2535,7 @@ Een volwassen vlo legt 40-50 eieren per dag. Wanneer u één vlo ziet, zitten er
 
 Reken op 6-8 weken voor je vlo-vrij bent als je een infestatie hebt — eieren in de tapijten komen langzaam uit en moeten ook geraakt worden door de behandeling.
 
-### Tekenpreventie
+## Tekenpreventie
 
 Vooral van maart tot november zijn teken actief. Een teek kan binnen 24 uur de ziekte van Lyme of babesiose overdragen. Bij wandelhonden in beboste gebieden:
 
@@ -2545,7 +2545,7 @@ Vooral van maart tot november zijn teken actief. Een teek kan binnen 24 uur de z
 
 - Verwijder een vastzittende teek met een tekentang in een ronddraaiende beweging — niet trekken, niet smeren met olie of alcohol
 
-### Welk middel kies ik?
+## Welk middel kies ik?
 
 Er zijn veel middelen op de markt, met verschillen in werking, duur en prijs. Algemeen advies:
 
@@ -2608,7 +2608,7 @@ Spoedconsult buiten openingstijden€ 95 – 175
 
 Euthanasie + crematie individueel€ 250 – 450
 
-### Waarom verschilt de prijs per kliniek?
+## Waarom verschilt de prijs per kliniek?
 
 - Regio — klinieken in de Randstad zijn gemiddeld 15-30% duurder dan in landelijke gebieden vanwege hogere personeels- en huurkosten
 
@@ -2618,11 +2618,11 @@ Euthanasie + crematie individueel€ 250 – 450
 
 - Narcose en medicatie — bij operaties varieert de werkelijke prijs per kg lichaamsgewicht
 
-### Vraag altijd om een offerte vooraf
+## Vraag altijd om een offerte vooraf
 
 Voor geplande ingrepen heeft u recht op een schriftelijke kostenraming. Een transparante kliniek geeft die op verzoek zonder kosten. Bij onverwachte complicaties tijdens een operatie wordt vaak alleen telefonisch overlegd voordat extra behandeling wordt gestart — vraag bij opname expliciet om dit beleid.
 
-### Dierverzekeringen — zin of onzin?
+## Dierverzekeringen — zin of onzin?
 
 Een dierverzekering kost gemiddeld € 15 – 50 per maand voor honden, € 8 – 25 voor katten. Ze dekken meestal 80-100% van consult en behandeling, na een eigen risico van € 50 – 150 per jaar.
 
@@ -2653,15 +2653,15 @@ Samenvatting:
 
 Een chip is een ingespoten ID-tag (ongeveer een rijstkorrel groot) met een uniek 15-cijferig nummer. De chip zelf bevat geen contactgegevens — die staan in een databank waar uw dier op chipnummer is geregistreerd. Bij een gevonden dier scannen dierenartsen, asielen of politie de chip en zoeken de eigenaar op via die databank.
 
-### Voor honden is registratie verplicht
+## Voor honden is registratie verplicht
 
 Sinds 1 april 2013 is het in Nederland verplicht om elke pup voor de leeftijd van 7 weken te chippen en bij een erkende databank te registreren. De fokker doet dit normaal vóór overdracht. Bij verkoop moet de chip op naam van de nieuwe eigenaar worden gezet.
 
-### Voor katten is het sterk aanbevolen, maar niet wettelijk verplicht
+## Voor katten is het sterk aanbevolen, maar niet wettelijk verplicht
 
 Een gechipte kat die buiten loopt heeft veel grotere kans om bij vermissing terug te keren. Halsbanden raken vaak los; een chip blijft levenslang.
 
-### Erkende Nederlandse databanken
+## Erkende Nederlandse databanken
 
 Er zijn verschillende databanken die uw chipnummer kunnen registreren. De meeste zijn gekoppeld via een centraal zoekportaal. De grootste en meest gebruikte:
 
@@ -2673,7 +2673,7 @@ Er zijn verschillende databanken die uw chipnummer kunnen registreren. De meeste
 
 - Nederlands Chipregister — alternatief voor honden en katten
 
-### Wat te doen bij een gevonden dier?
+## Wat te doen bij een gevonden dier?
 
 - Breng het naar een dierenarts of asiel — die kunnen de chip uitlezen met een scanner. Dit is meestal kosteloos.
 
@@ -2681,7 +2681,7 @@ Er zijn verschillende databanken die uw chipnummer kunnen registreren. De meeste
 
 - Voer het nummer in op chipnummer.nl — zelf kunt u zien bij welke databank het hoort, maar de eigenaars-gegevens zijn niet publiek (alleen via de databank na verificatie).
 
-### Wat te doen bij een vermist dier?
+## Wat te doen bij een vermist dier?
 
 - Controleer of de gegevens bij uw databank actueel zijn
 
@@ -2691,7 +2691,7 @@ Er zijn verschillende databanken die uw chipnummer kunnen registreren. De meeste
 
 - Bij honden: meld direct bij Databank Gezelschapsdieren als vermist
 
-### Tips voor een betrouwbare registratie
+## Tips voor een betrouwbare registratie
 
 - Houd uw eigen contactgegevens (telefoon, e-mail) actueel in de databank — bij verhuizing direct wijzigen
 
@@ -2722,7 +2722,7 @@ Samenvatting:
 
 Een nieuw huisdier in huis nemen is leuk, maar er moet veel geregeld worden in de eerste weken. Deze praktische checklist helpt u te zorgen dat alle administratieve, medische en huishoudelijke zaken op orde zijn.
 
-### Eerste week — direct na binnenkomst
+## Eerste week — direct na binnenkomst
 
 - ☐ Controleer paspoort of stamboek — staat de chip op de juiste naam? Zijn alle vaccinaties die u heeft gekregen geregistreerd?
 
@@ -2736,7 +2736,7 @@ Een nieuw huisdier in huis nemen is leuk, maar er moet veel geregeld worden in d
 
 - ☐ Geef de bestaande voeding nog 1-2 weken — abrupte voederwissel kan diarree veroorzaken
 
-### Tweede tot vierde week — administratie en gezondheid
+## Tweede tot vierde week — administratie en gezondheid
 
 - ☐ Chipregistratie controleren — staat het nummer op uw eigen naam? Bij twijfel: scan via dierenarts en check op chipnummer.nl
 
@@ -2750,7 +2750,7 @@ Een nieuw huisdier in huis nemen is leuk, maar er moet veel geregeld worden in d
 
 - ☐ Aansprakelijkheidsverzekering — controleer of uw bestaande WA-verzekering uw dier dekt (meestal bij honden ja, bij katten vaak niet apart geregeld)
 
-### Eerste tot derde maand — voeding, training, omgeving
+## Eerste tot derde maand — voeding, training, omgeving
 
 - ☐ Voeding optimaliseren — kies een voer dat past bij leeftijd en ras; bij twijfel vraag advies aan dierenarts (niet aan dierenwinkel)
 
@@ -2762,7 +2762,7 @@ Een nieuw huisdier in huis nemen is leuk, maar er moet veel geregeld worden in d
 
 - ☐ Tandzorg — gewen het dier aan tandenpoetsen vanaf jonge leeftijd (kan een hoop kosten besparen later)
 
-### Praktische tips voor het eerste jaar
+## Praktische tips voor het eerste jaar
 
 - Houd een gezondheidsdagboek bij — gewicht, gedrag, eet- en drinkgedrag. Dat helpt enorm bij gesprekken met de dierenarts
 
@@ -2772,7 +2772,7 @@ Een nieuw huisdier in huis nemen is leuk, maar er moet veel geregeld worden in d
 
 - Reken op gemiddeld € 800 – 1.500 per jaar aan dierenarts- en voerkosten voor een gemiddelde hond, € 400 – 800 voor een kat
 
-### Wanneer naar de spoeddienst?
+## Wanneer naar de spoeddienst?
 
 Lees hier wat u moet doen bij een spoedgeval: Eerste hulp bij dieren.
 
@@ -2799,7 +2799,7 @@ Samenvatting: Levensverwachting van honden verschilt sterk per grootte en ras. K
 
 De levensverwachting van een hond hangt sterk af van het ras, de grootte, en de zorg die het dier krijgt. Kleine honden worden gemiddeld ouder dan grote honden — een verschil dat oploopt tot bijna zeven jaar.
 
-### Gemiddelde leeftijd per grootte
+## Gemiddelde leeftijd per grootte
 
 Op basis van internationale studies (waaronder een grote Britse studie uit 2022 met bijna 30.000 honden) zijn dit de richtlijnen:
 
@@ -2811,17 +2811,17 @@ Op basis van internationale studies (waaronder een grote Britse studie uit 2022 
 
 - Reuzenrassen (45+ kg) — 7 tot 10 jaar. Duitse Doggen, Bordeaux Doggen, Berner Sennenhonden.
 
-### Waarom worden grote honden minder oud?
+## Waarom worden grote honden minder oud?
 
 Grote honden groeien in de eerste twee jaar veel sneller dan kleine, wat leidt tot meer celdeling en daardoor een hoger risico op kanker en gewrichtsproblemen op latere leeftijd. Dit is een van de weinige uitzonderingen op de biologische regel dat grotere zoogdieren juist langer leven.
 
-### Rassen met opvallend lange of korte levensverwachting
+## Rassen met opvallend lange of korte levensverwachting
 
 - Langer dan gemiddeld: Jack Russell Terriër (13-16 jaar), Border Collie (13-15 jaar), Beagle (12-15 jaar), Chihuahua (14-18 jaar).
 
 - Korter dan gemiddeld: Franse Bulldog (10-12 jaar, veel ademproblemen), Cavalier King Charles Spaniel (9-14 jaar, vaak hartklachten), Duitse Dog (6-9 jaar), Bordeaux Dog (5-8 jaar).
 
-### Wat beïnvloedt of uw hond gezond oud wordt?
+## Wat beïnvloedt of uw hond gezond oud wordt?
 
 Los van ras en genetica zijn dit de belangrijkste factoren die u wél kunt beïnvloeden:
 
@@ -2835,7 +2835,7 @@ Los van ras en genetica zijn dit de belangrijkste factoren die u wél kunt beïn
 
 - Steriliseren/castreren — heeft over het algemeen een positief effect op levensverwachting, vooral bij teven (voorkomt baarmoederontsteking en verkleint borsttumor-risico).
 
-### Hondenjaren omrekenen naar mensenjaren
+## Hondenjaren omrekenen naar mensenjaren
 
 De oude regel "1 hondenjaar = 7 mensenjaren" klopt niet. Onderzoekers van de University of California hebben een preciezere formule opgesteld:
 
@@ -2847,7 +2847,7 @@ De oude regel "1 hondenjaar = 7 mensenjaren" klopt niet. Onderzoekers van de Uni
 
 Een hond van 5 jaar is dus ongeveer 40 in mensenjaren, een hond van 10 rond de 60.
 
-### Wanneer is uw hond een 'senior'?
+## Wanneer is uw hond een 'senior'?
 
 Grofweg:
 
@@ -2888,7 +2888,7 @@ Samenvatting: Huiskatten worden tegenwoordig gemiddeld 15-18 jaar, buitenkatten 
 
 Katten worden gemiddeld ouder dan honden en de laatste decennia is hun levensverwachting flink gestegen. Waar buitenkatten in de jaren '90 zelden ouder werden dan 10-12 jaar, halen huiskatten van nu regelmatig de 15 tot 20 jaar.
 
-### Gemiddelde leeftijd van een kat
+## Gemiddelde leeftijd van een kat
 
 - Huiskatten (binnenshuis levend) — gemiddeld 15 tot 18 jaar. Niet ongewoon dat ze 20+ worden.
 
@@ -2898,7 +2898,7 @@ Katten worden gemiddeld ouder dan honden en de laatste decennia is hun levensver
 
 Voor de goede orde: de oudste geverifieerde kat ooit was Creme Puff uit Texas, die 38 jaar en 3 dagen werd (1967-2005).
 
-### Verschil per ras
+## Verschil per ras
 
 De verschillen tussen kattenrassen zijn kleiner dan bij honden, maar wel aanwezig:
 
@@ -2906,7 +2906,7 @@ De verschillen tussen kattenrassen zijn kleiner dan bij honden, maar wel aanwezi
 
 - Korter dan gemiddeld: Maine Coon (12-15 jaar), Perzische kat (12-17 jaar, kwetsbaar voor ademproblemen), Munchkin (12-14 jaar).
 
-### Wat verlengt de levensduur van een kat?
+## Wat verlengt de levensduur van een kat?
 
 - Binnen laten leven of veilige buitenruimte — dit is verreweg de grootste factor. Buitenkatten hebben significant meer risico op ongelukken en infectieziekten (FIV, FeLV).
 
@@ -2918,7 +2918,7 @@ De verschillen tussen kattenrassen zijn kleiner dan bij honden, maar wel aanwezi
 
 - Halfjaarlijkse controle vanaf 10 jaar — nierziekte en hyperthyreoïdie komen vaak voor bij senior katten en zijn goed te behandelen bij vroege ontdekking.
 
-### Kattenjaren omrekenen naar mensenjaren
+## Kattenjaren omrekenen naar mensenjaren
 
 - 1 kattenjaar = ongeveer 15 mensenjaren
 
@@ -2928,7 +2928,7 @@ De verschillen tussen kattenrassen zijn kleiner dan bij honden, maar wel aanwezi
 
 Een kat van 5 jaar is dus vergelijkbaar met een mens van 36 jaar, een kat van 15 met een mens van 76.
 
-### Wanneer is uw kat een senior?
+## Wanneer is uw kat een senior?
 
 Bij katten wordt onderscheid gemaakt in drie leeftijdsgroepen op latere leeftijd:
 
@@ -2940,7 +2940,7 @@ Bij katten wordt onderscheid gemaakt in drie leeftijdsgroepen op latere leeftijd
 
 - Ouderdom: 15+ jaar — extra aandacht voor gebit, gewicht, nieren
 
-### Signalen dat uw oudere kat een dierenarts nodig heeft
+## Signalen dat uw oudere kat een dierenarts nodig heeft
 
 Neem contact op bij:
 
@@ -2983,7 +2983,7 @@ Samenvatting: De termen worden vaak door elkaar gebruikt, maar het is niet hetze
 
 Castreren en steriliseren zijn twee verschillende ingrepen, en de termen worden vaak door elkaar gebruikt. Dit veroorzaakt verwarring, omdat het medische, gedragsmatige én financiële verschillen heeft.
 
-### Het verschil in één oogopslag
+## Het verschil in één oogopslag
 
 - Castreren — verwijdering van geslachtsorganen (bij reuen: testikels, bij teven: eierstokken en meestal ook baarmoeder). Het dier kan niet meer voortplanten en produceert geen geslachtshormonen meer.
 
@@ -2991,7 +2991,7 @@ Castreren en steriliseren zijn twee verschillende ingrepen, en de termen worden 
 
 In Nederland wordt bij honden en katten in de praktijk vrijwel altijd gecastreerd, ook als mensen het "steriliseren" noemen. Echte sterilisatie is zeldzaam bij gezelschapsdieren.
 
-### Waarom castreren populairder is dan steriliseren
+## Waarom castreren populairder is dan steriliseren
 
 Bij castreren verdwijnen naast de vruchtbaarheid ook de gedragsmatige effecten van geslachtshormonen:
 
@@ -3001,7 +3001,7 @@ Bij castreren verdwijnen naast de vruchtbaarheid ook de gedragsmatige effecten v
 
 Sterilisatie neemt alleen het voortplantingsprobleem weg — al deze gedragsmatige en medische voordelen krijg je niet.
 
-### Wanneer castreren?
+## Wanneer castreren?
 
 De ideale leeftijd is een discussiepunt onder dierenartsen. Grofweg:
 
@@ -3011,7 +3011,7 @@ De ideale leeftijd is een discussiepunt onder dierenartsen. Grofweg:
 
 Bij grote en reuzenrassen zoals Labradors, Duitse Herders en Berner Sennens raden veel dierenartsen aan om iets langer te wachten, omdat vroege castratie het risico op heup- en elleboogdysplasie licht kan verhogen.
 
-### Wat kost het?
+## Wat kost het?
 
 Prijzen verschillen sterk per kliniek en per grootte van het dier. Als richtprijs:
 
@@ -3023,7 +3023,7 @@ Prijzen verschillen sterk per kliniek en per grootte van het dier. Als richtprij
 
 Zorgverzekeringen dekken castratie meestal niet, tenzij er een medische reden is (bijvoorbeeld prostaatproblemen bij oudere reuen).
 
-### Nadelen en risico's
+## Nadelen en risico's
 
 Elke operatie heeft risico's, maar een routine-castratie is een zeer standaard ingreep met een lage complicatiekans. Aandachtspunten:
 
@@ -3033,7 +3033,7 @@ Elke operatie heeft risico's, maar een routine-castratie is een zeer standaard i
 
 - Incontinentie — bij ongeveer 5-10% van de teven na castratie, meestal goed te behandelen met medicatie.
 
-### Alternatieven voor definitieve castratie
+## Alternatieven voor definitieve castratie
 
 Voor reuen bestaat een chemische castratie via een implantaat (Suprelorin), dat de hormoonproductie tijdelijk (6 of 12 maanden) uitschakelt. Dit is handig om te testen hoe uw hond reageert op castratie, voordat u de definitieve stap zet. Kosten: € 100 tot € 200 per implantaat.
 
@@ -3066,7 +3066,7 @@ Samenvatting: Een spoedconsult is 1,5 tot 2x zo duur als een regulier consult, '
 
 Een spoedvisite bij de dierenarts is duurder dan een regulier consult, wat begrijpelijk is omdat er buiten kantoortijden extra personeel klaarstaat. Voor eigenaren die met een acuut probleem zitten, is het handig om vooraf te weten wat de kosten ongeveer zijn.
 
-### Gemiddelde kosten van een spoedconsult in Nederland
+## Gemiddelde kosten van een spoedconsult in Nederland
 
 - Spoedconsult overdag (avond, weekend, avonduren): € 80 tot € 150. Vaak 1,5 tot 2 keer het reguliere consult (€ 40 tot € 70).
 
@@ -3076,7 +3076,7 @@ Een spoedvisite bij de dierenarts is duurder dan een regulier consult, wat begri
 
 Deze bedragen zijn alleen voor het consult zelf. De behandeling, onderzoeken of medicijnen die daaruit voortkomen zijn apart.
 
-### Bijkomende kosten
+## Bijkomende kosten
 
 Een spoedvisite gaat vaak gepaard met aanvullende kosten:
 
@@ -3094,11 +3094,11 @@ Een spoedvisite gaat vaak gepaard met aanvullende kosten:
 
 Reken bij een gemiddelde spoedvisite met onderzoek al gauw op € 200 tot € 500. Bij opname of operatie kan dit oplopen tot enkele duizenden euro's.
 
-### Waarom is de spoeddienst duurder?
+## Waarom is de spoeddienst duurder?
 
 Achter de schermen is er tijdens de spoeddiensten een team beschikbaar: dierenarts, assistent, en soms operatiepersoneel. Deze mensen krijgen (terecht) een toeslag voor onregelmatige uren. Daarnaast worden apparatuur en medicijnen 24/7 beschikbaar gehouden. Al deze vaste kosten worden verdeeld over minder consulten dan overdag, wat de prijs per consult opdrijft.
 
-### Hoe voorkomt u onverwacht hoge rekeningen?
+## Hoe voorkomt u onverwacht hoge rekeningen?
 
 - Kies bewust een dierverzekering. Voor spoedgevallen is verzekering vaak zinvol. Basisverzekeringen dekken doorgaans 80% na eigen risico. Zonder verzekering betaalt u een spoedoperatie volledig zelf.
 
@@ -3108,13 +3108,13 @@ Achter de schermen is er tijdens de spoeddiensten een team beschikbaar: dierenar
 
 - Betalingsregeling. Bij hoge onverwachte kosten kunt u meestal een gespreide betaling afspreken.
 
-### Is het een spoedgeval of kan het wachten?
+## Is het een spoedgeval of kan het wachten?
 
 Als u twijfelt, bel eerst met de kliniek — zij kunnen aan de telefoon vaak inschatten of het écht spoed is of dat het kan wachten tot de volgende ochtend. Vaak scheelt dat honderden euro's zonder verhoogd risico.
 
 Voor twijfelgevallen hebben wij een handige beslistool: Moet ik naar de dierenarts?
 
-### Wanneer u NIET moet wachten
+## Wanneer u NIET moet wachten
 
 Bij deze symptomen is de extra kosten van een spoedvisite gerechtvaardigd — wachten kan het verschil maken:
 
@@ -3161,7 +3161,7 @@ Samenvatting: Braken bij honden is meestal onschuldig, maar sommige symptomen vr
 
 Overgeven bij honden is een veelvoorkomend probleem en in de meeste gevallen niet meteen zorgwekkend. Toch is het belangrijk om onderscheid te maken tussen onschuldig braken en symptomen die wijzen op iets ernstigers.
 
-### Braken versus regurgiteren — het verschil
+## Braken versus regurgiteren — het verschil
 
 Hoewel het voor eigenaren op hetzelfde lijkt, zijn dit twee verschillende dingen met verschillende oorzaken:
 
@@ -3171,7 +3171,7 @@ Hoewel het voor eigenaren op hetzelfde lijkt, zijn dit twee verschillende dingen
 
 Als uw hond regurgiteert (vooral herhaaldelijk of vlak na eten), maak een afspraak — dit vereist medisch onderzoek.
 
-### Veelvoorkomende oorzaken van braken
+## Veelvoorkomende oorzaken van braken
 
 - Te snel eten — vooral bij grote rassen. Oplossing: anti-schrokbak.
 
@@ -3185,7 +3185,7 @@ Als uw hond regurgiteert (vooral herhaaldelijk of vlak na eten), maak een afspra
 
 - Milde maagirritatie — kan na 24 uur vanzelf overgaan.
 
-### Wanneer thuis afwachten en wanneer naar de dierenarts?
+## Wanneer thuis afwachten en wanneer naar de dierenarts?
 
 Thuis behandelen kan als:
 
@@ -3219,7 +3219,7 @@ Direct naar de dierenarts als:
 
 - Uw hond een puppy (jonger dan 6 maanden) of een senior (10+ jaar) is — deze zijn kwetsbaarder voor uitdroging
 
-### Wat u thuis kunt doen — voedseladvies
+## Wat u thuis kunt doen — voedseladvies
 
 Bij mild braken zonder alarmsymptomen:
 
@@ -3231,7 +3231,7 @@ Bij mild braken zonder alarmsymptomen:
 
 - Bouw langzaam op — na 2-3 dagen geleidelijk terug naar het normale voer.
 
-### Wat u NIET moet doen
+## Wat u NIET moet doen
 
 - Geen menselijke medicijnen geven (bijvoorbeeld Imodium of Rennie's) — sommige zijn giftig voor honden.
 
@@ -3239,7 +3239,7 @@ Bij mild braken zonder alarmsymptomen:
 
 - Geen zoutwater of andere "huismiddeltjes" om braken op te wekken — kan gevaarlijk zijn.
 
-### Vergiftiging als oorzaak?
+## Vergiftiging als oorzaak?
 
 Als u vermoedt dat uw hond iets giftigs heeft binnengekregen (chocolade, druiven, rozijnen, ui, xylitol, antivries, medicijnen, planten), wacht niet. Bel direct de dierenarts of raadpleeg spoedhulp 24/7. Neem indien mogelijk de verpakking of resten mee. Probeer NIET zelf braken op te wekken tenzij de dierenarts dat expliciet aanraadt — bij etsende stoffen maakt dat het erger.
 
@@ -3272,13 +3272,13 @@ Samenvatting: Overmatige dorst bij katten (polydipsie) kan wijzen op nierziekte,
 
 Wanneer uw kat opeens veel meer drinkt dan normaal — of vaker bij de waterbak staat, uit de kraan drinkt of zelfs uit uw glas — kan dat een teken zijn van een onderliggende gezondheidsprobleem. Overmatige dorst heet in medisch jargon "polydipsie" en gaat vaak samen met vaker plassen ("polyurie").
 
-### Hoeveel drinkt een normale kat?
+## Hoeveel drinkt een normale kat?
 
 Een gemiddelde kat heeft ongeveer 50-60 ml water per kilo lichaamsgewicht per dag nodig. Voor een kat van 4 kilo is dat 200-240 ml per dag. Bij voeding met natte brokken (blikvoer) haalt de kat al veel vocht uit het eten en zal je haar minder zien drinken. Bij droogvoer moet de kat het vocht volledig uit de waterbak halen.
 
 Als een kat structureel meer dan 100 ml per kilo per dag drinkt, spreken we van overmatige dorst en is een dierenartsbezoek aanbevolen.
 
-### Hoe meet u het drinkgedrag?
+## Hoe meet u het drinkgedrag?
 
 Objectief meten is eenvoudig maar wordt vaak vergeten:
 
@@ -3292,7 +3292,7 @@ Objectief meten is eenvoudig maar wordt vaak vergeten:
 
 Deze cijfers zijn zeer waardevol als u naar de dierenarts gaat.
 
-### De vier belangrijkste medische oorzaken
+## De vier belangrijkste medische oorzaken
 
 1. Chronische nierziekte
 
@@ -3310,7 +3310,7 @@ Zeer veel voorkomend bij katten boven de 10 jaar. De schildklier maakt teveel ho
 
 Bij plassing zit vaak bloed of de kat probeert vaker te plassen zonder resultaat. De dorst is meestal een reactie op ontsteking of pijn. Bij kater-katten kan dit levensbedreigend zijn (verstopping van de urinebuis) — direct naar de dierenarts.
 
-### Andere mogelijke oorzaken
+## Andere mogelijke oorzaken
 
 - Overschakelen naar droogvoer — logisch, geen zorg
 
@@ -3322,7 +3322,7 @@ Bij plassing zit vaak bloed of de kat probeert vaker te plassen zonder resultaat
 
 - Ziekte van Cushing — zeldzaam bij katten
 
-### Wanneer moet u een afspraak maken?
+## Wanneer moet u een afspraak maken?
 
 Neem contact op met uw dierenarts als u een van deze combinaties ziet:
 
@@ -3340,7 +3340,7 @@ Neem contact op met uw dierenarts als u een van deze combinaties ziet:
 
 - Sufheid of lusteloosheid
 
-### Wat doet de dierenarts?
+## Wat doet de dierenarts?
 
 Een standaard onderzoek bij polydipsie bestaat meestal uit:
 
@@ -3383,7 +3383,7 @@ Samenvatting: Milde diarree gaat meestal binnen 24-48 uur vanzelf over met de ju
 
 Diarree bij honden is een van de meest voorkomende klachten waar dierenartsen mee te maken krijgen. Veel gevallen zijn mild en gaan binnen 24-48 uur vanzelf over. Maar soms is diarree een symptoom van iets ernstigers, en het is belangrijk om de signalen te kennen.
 
-### Milde diarree — kenmerken
+## Milde diarree — kenmerken
 
 Bij milde diarree is uw hond nog:
 
@@ -3399,7 +3399,7 @@ Bij milde diarree is uw hond nog:
 
 - Geen koorts
 
-### Wat kunt u thuis doen bij milde diarree?
+## Wat kunt u thuis doen bij milde diarree?
 
 1. 12 tot 24 uur voedselrust (niet bij puppies!)
 
@@ -3421,7 +3421,7 @@ Na 2-3 dagen op het lichte dieet, meng geleidelijk over 5-7 dagen terug naar het
 
 Speciale hondenprobiotica (Fortiflora, ProDen Plaque Off, of vergelijkbaar) kunnen de darmflora sneller herstellen. Gemiddeld € 15 tot € 30 per verpakking.
 
-### Wat werkt NIET (of is zelfs gevaarlijk)
+## Wat werkt NIET (of is zelfs gevaarlijk)
 
 - Menselijke medicijnen zoals Imodium, Norit of Diorolyte — kan bij honden ernstige bijwerkingen geven. Alleen op recept van de dierenarts.
 
@@ -3431,7 +3431,7 @@ Speciale hondenprobiotica (Fortiflora, ProDen Plaque Off, of vergelijkbaar) kunn
 
 - Wachten "tot het vanzelf overgaat" bij alarmsignalen (zie onder).
 
-### Direct naar de dierenarts bij deze symptomen
+## Direct naar de dierenarts bij deze symptomen
 
 - Bloed in de ontlasting (rood, zwart of "koffiedik"-achtig)
 
@@ -3453,7 +3453,7 @@ Speciale hondenprobiotica (Fortiflora, ProDen Plaque Off, of vergelijkbaar) kunn
 
 - Weigering te drinken
 
-### Veelvoorkomende oorzaken
+## Veelvoorkomende oorzaken
 
 - Voedselintolerantie of allergie — chronische of terugkerende diarree, vaak met andere symptomen als jeukende oren, huid.
 
@@ -3469,7 +3469,7 @@ Speciale hondenprobiotica (Fortiflora, ProDen Plaque Off, of vergelijkbaar) kunn
 
 - Ontsteking van de darmwand (IBD) — chronische aandoening die medische behandeling vereist.
 
-### Preventie
+## Preventie
 
 - Blijf bij één type kwaliteitsvoer; wissel geleidelijk als u wél overstapt
 
@@ -3510,7 +3510,7 @@ Samenvatting: Het populairste ras in Nederland heeft ook specifieke gezondheidsr
 
 De Labrador Retriever is al jaren het populairste ras in Nederland. Zijn vriendelijke karakter en trainbaarheid maken hem geliefd, maar zoals elk ras kent ook de Labrador enkele veelvoorkomende gezondheidsproblemen waar u als eigenaar op moet letten.
 
-### 1. Heup- en elleboogdysplasie
+## 1. Heup- en elleboogdysplasie
 
 Verreweg het bekendste probleem bij Labradors. Bij heupdysplasie sluit het heupgewricht niet goed aan, wat leidt tot artrose op latere leeftijd. Bij elleboogdysplasie ontwikkelt het elleboogsgewricht zich abnormaal.
 
@@ -3518,7 +3518,7 @@ Symptomen: stijfheid na rusten, moeite met opstaan, springen of trappenlopen, hi
 
 Preventie en behandeling: koop uw pup bij een fokker die ouderdieren officieel laat testen (HD/ED-uitslag). Houd uw hond op ideaal gewicht — elke kilo extra belast de gewrichten. Bij milde symptomen kunnen glucosamine-supplementen en fysiotherapie helpen. Ernstige gevallen vragen soms operatie.
 
-### 2. Overgewicht
+## 2. Overgewicht
 
 Labradors zijn genetisch aangelegd om altijd honger te hebben — een mutatie in het POMC-gen dat het verzadigingsgevoel regelt komt bij bijna een kwart van de Labradors voor. Overgewicht is bij dit ras epidemisch: ongeveer 60% is te zwaar.
 
@@ -3526,7 +3526,7 @@ Gevolgen: verkorte levensduur (tot 2 jaar), verergering van heup- en elleboogkla
 
 Wat u kunt doen: voer op basis van ideaal gewicht (niet naar behoefte), gebruik een keukenweegschaal, geef beloningen mee uit de dagelijkse hoeveelheid, weeg maandelijks. Bespreek een streefgewicht met uw dierenarts.
 
-### 3. Ooraandoeningen
+## 3. Ooraandoeningen
 
 De hangoren en het vochtige oorkanaal maken Labradors gevoelig voor oorontstekingen, vooral als ze veel zwemmen.
 
@@ -3534,19 +3534,19 @@ Symptomen: kop schudden, aan de oren krabben, onaangename geur, roodheid, bruine
 
 Preventie: na zwemmen oren drogen. Reinig oren alleen als het nodig is (te vaak reinigen kan juist ontsteking veroorzaken). Bij klachten: naar de dierenarts, want de juiste diagnose bepaalt de juiste behandeling.
 
-### 4. Progressieve retina-atrofie (PRA)
+## 4. Progressieve retina-atrofie (PRA)
 
 Een erfelijke oogziekte waarbij het netvlies langzaam afsterft. Leidt uiteindelijk tot blindheid, meestal vanaf 4-6 jaar.
 
 Preventie: alleen kopen bij fokkers die DNA-testen doen op PRA. De ziekte is met een simpele test bij de ouderdieren op te sporen.
 
-### 5. Kanker
+## 5. Kanker
 
 Labradors hebben een verhoogd risico op verschillende kankersoorten, met name hemangiosarcoom (bloedvatkanker) en lymfoom. Bij dit ras is kanker de meest voorkomende doodsoorzaak.
 
 Signaleren: laat vanaf 8 jaar halfjaarlijkse gezondheidschecks doen. Let op onverklaarbare knobbels, plotselinge sufheid, gewichtsverlies of veranderde eetlust.
 
-### 6. Alvleesklierontsteking (pancreatitis)
+## 6. Alvleesklierontsteking (pancreatitis)
 
 Labradors zijn gevoelig voor alvleesklierontsteking, vaak veroorzaakt door vet voedsel (bijvoorbeeld restjes van de kersttafel).
 
@@ -3554,13 +3554,13 @@ Symptomen: plotselinge braken, buikpijn (hond neemt "gebeden-houding" aan met ac
 
 Preventie: geef geen vet mensvoedsel. Bij symptomen: direct naar de dierenarts, pancreatitis kan levensbedreigend zijn.
 
-### 7. Epilepsie
+## 7. Epilepsie
 
 Idiopathische epilepsie (zonder aantoonbare oorzaak) komt bij Labradors vaker voor dan gemiddeld. Aanvallen beginnen meestal tussen 1-5 jaar.
 
 Wat te doen: houd het rustig tijdens een aanval, tel de duur, meet de tijd tussen aanvallen. Bij eerste aanval: bel dierenarts. Bij aanval langer dan 5 minuten of meerdere aanvallen achter elkaar: direct naar spoedhulp.
 
-### Gezondheidsscreening bij fokkers
+## Gezondheidsscreening bij fokkers
 
 Als u een Labrador-pup wilt kopen, vraag altijd om deze officiële uitslagen van de ouderdieren:
 
@@ -3574,7 +3574,7 @@ Als u een Labrador-pup wilt kopen, vraag altijd om deze officiële uitslagen van
 
 Rasverenigingen zoals de Nederlandse Labrador Vereniging houden bij welke fokkers zich aan deze screening houden.
 
-### Levensverwachting
+## Levensverwachting
 
 Een gezonde Labrador wordt gemiddeld 10 tot 12 jaar oud. Met goede zorg, gezond gewicht en preventieve controles kunnen ze zeker 13-14 halen. Slanke Labradors leven aantoonbaar langer dan zware.
 
@@ -3607,31 +3607,31 @@ Samenvatting: De kleinste hondenras ter wereld is populair in Nederland vanwege 
 
 Chihuahua's zijn wereldwijd het kleinste hondenras met een gewicht van 1,5 tot 3 kilo. Ze staan bekend om hun stevige karakter en levensduur, maar hun compacte bouw brengt ook specifieke gezondheidsrisico's met zich mee.
 
-### 1. Tand- en kaakproblemen
+## 1. Tand- en kaakproblemen
 
 Door hun kleine kaak passen alle tanden nauwelijks in en groeien vaak scheef. Tandsteen en tandvleesontsteking komen extreem vaak voor. Dagelijks tandenpoetsen vanaf jonge leeftijd is bij dit ras geen luxe maar noodzaak. Reken op professionele gebitsreiniging elke 1-2 jaar (€ 200 tot € 400 per behandeling).
 
-### 2. Patella luxatie (knieschijf uit de kom)
+## 2. Patella luxatie (knieschijf uit de kom)
 
 De knieschijf kan uit de gleuf springen en dan spontaan terug. Symptomen: even hinken en dan verder lopen alsof niets gebeurd is. In milde gevallen leefbaar, in ernstige gevallen operatie nodig (€ 1.500 tot € 3.000). Vermijd springen vanaf hoge oppervlakken.
 
-### 3. Hypoglykemie (lage bloedsuiker)
+## 3. Hypoglykemie (lage bloedsuiker)
 
 Vooral bij jonge Chihuahua's (onder 6 maanden) en na inspanning kan de bloedsuiker acuut dalen. Symptomen: sufheid, wankel lopen, epileptische aanvallen. Direct suiker onder de tong wrijven en naar dierenarts. Voorkom met kleine porties door de dag verspreid.
 
-### 4. Hydrocephalie (waterhoofd)
+## 4. Hydrocephalie (waterhoofd)
 
 Chihuahua's hebben soms een open fontanel (molera) die nooit sluit. Bij sommige pups leidt dat tot waterhoofd — merkbaar aan een dome-vormige schedel, apathie en toevallen. Erfelijk. Vraag de fokker specifiek naar de schedelvorm van ouderdieren.
 
-### 5. Trachea-collaps (samengedrukte luchtpijp)
+## 5. Trachea-collaps (samengedrukte luchtpijp)
 
 Vooral bij oudere Chihuahua's: de luchtpijp verliest zijn stevigheid en klapt gedeeltelijk in. Uit zich in ganzengeluid-hoesten, vooral bij opwinding. Gebruik altijd een tuigje, nooit een halsband die de nek belast.
 
-### 6. Overgevoeligheid voor kou
+## 6. Overgevoeligheid voor kou
 
 Met hun minimale onderhuidse vet en dunne vacht koelen ze snel af. In Nederland is een winterjasje bij vorst geen luxe maar bescherming. Denk aan verwarmde mand of extra dekens 's nachts.
 
-### Gezondheidsscreening bij fokkers
+## Gezondheidsscreening bij fokkers
 
 Als u een Chihuahua-pup wilt kopen, vraag altijd om deze officiële uitslagen van de ouderdieren:
 
@@ -3645,7 +3645,7 @@ Als u een Chihuahua-pup wilt kopen, vraag altijd om deze officiële uitslagen va
 
 Koop nooit een pup zonder deze screenings — bij dit ras zijn de risico's op erfelijke aandoeningen te groot om te negeren.
 
-### Levensverwachting
+## Levensverwachting
 
 Chihuahua's worden gemiddeld 12 tot 18 jaar oud. De oudste geverifieerde Chihuahua werd 20 jaar. Met goede tandzorg en gezond gewicht is 15+ jaar heel normaal — dit ras behoort tot de langstlevende honden.
 
@@ -3682,35 +3682,35 @@ Samenvatting: De Duitse Herder is een van de populairste werk- en gezinshonden t
 
 De Duitse Herder staat al decennia in de Nederlandse top 3 van populairste rassen. Deze intelligente en werkgerichte hond wordt ingezet als politie- en reddingshond, maar is ook een geliefde gezinshond. Het ras heeft echter een aantal welbekende gezondheidsproblemen.
 
-### 1. Heup- en elleboogdysplasie
+## 1. Heup- en elleboogdysplasie
 
 Verreweg het grootste probleem bij Duitse Herders. De hellende rug van het moderne showtype heeft dit verergerd. Symptomen vaak vanaf 6-12 maanden: stijfheid, moeite met opstaan, hinken. Ernstige gevallen leiden tot invaliditeit. Koop alleen bij fokkers die HD- en ED-uitslagen tonen (HD A of B, ED 0).
 
-### 2. Degeneratieve myelopathie (DM)
+## 2. Degeneratieve myelopathie (DM)
 
 Erfelijke ruggenmergaandoening die progressieve verlamming van de achterhand veroorzaakt, meestal vanaf 8-14 jaar. Er is een DNA-test beschikbaar (SOD1-gen). Vraag fokker naar teststatus.
 
-### 3. Alvleesklier-insufficiëntie (EPI)
+## 3. Alvleesklier-insufficiëntie (EPI)
 
 De alvleesklier produceert te weinig verteringsenzymen, waardoor de hond niet meer normaal voedsel kan opnemen. Symptomen: extreem afvallen ondanks veel eten, grote hoeveelheden lichte, vettige ontlasting. Behandelbaar met enzympoeder bij het eten, levenslang.
 
-### 4. Maag-dilatatie/torsie (maagdraaiing)
+## 4. Maag-dilatatie/torsie (maagdraaiing)
 
 Levensbedreigend acuut probleem bij grote honden met diepe borstkas. De maag klapt om en wordt door zichzelf afgesloten. Symptomen: opgezette buik, kokhalzen zonder braken, sufheid. Direct naar spoed. Preventie: geen intense beweging vlak voor of na eten, meerdere kleine maaltijden per dag.
 
-### 5. Perianale fistels
+## 5. Perianale fistels
 
 Chronische ontsteking van de huid rond de anus. Uniek veelvoorkomend bij Duitse Herders. Pijnlijk, moeilijk te behandelen. Modern behandelbaar met cyclosporine.
 
-### 6. Overgevoeligheid van huid en oren
+## 6. Overgevoeligheid van huid en oren
 
 Duitse Herders zijn gevoelig voor allergieën (voer, pollen, huisstofmijt) en oorontstekingen. Vaak jeukende huid, licking van poten, kale plekken.
 
-### 7. Hartklachten
+## 7. Hartklachten
 
 Aortastenose en gedilateerde cardiomyopathie komen vaker voor. Hartonderzoek bij fokdieren is standaard.
 
-### Gezondheidsscreening bij fokkers
+## Gezondheidsscreening bij fokkers
 
 Als u een Duitse Herder-pup wilt kopen, vraag altijd om deze officiële uitslagen van de ouderdieren:
 
@@ -3726,7 +3726,7 @@ Als u een Duitse Herder-pup wilt kopen, vraag altijd om deze officiële uitslage
 
 Koop nooit een pup zonder deze screenings — bij dit ras zijn de risico's op erfelijke aandoeningen te groot om te negeren.
 
-### Levensverwachting
+## Levensverwachting
 
 Een gezonde Duitse Herder wordt gemiddeld 9 tot 12 jaar oud. Ras met een relatief korte levensverwachting voor een middelgroot ras — grotendeels door de gewrichts- en degeneratieve problemen.
 
@@ -3759,35 +3759,35 @@ Samenvatting: De Golden Retriever is vaste top-3 in Nederland als gezinshond. Za
 
 De Golden Retriever is een van de meest geliefde familiehonden in Nederland. Zijn zachtaardige karakter maakt hem geweldig met kinderen, maar het ras heeft de laatste jaren te maken gekregen met verontrustende gezondheidsstatistieken — met name rond kanker.
 
-### 1. Kanker (met name hemangiosarcoom en lymfoom)
+## 1. Kanker (met name hemangiosarcoom en lymfoom)
 
 Verreweg het grootste probleem bij dit ras. Amerikaans onderzoek toont aan dat 60% van alle Golden Retrievers uiteindelijk aan kanker overlijdt — dubbel zoveel als het gemiddelde ras. Hemangiosarcoom (bloedvatkanker in milt of hart) en lymfoom komen het meest voor. Vroege ontdekking is cruciaal: halfjaarlijkse gezondheidschecks vanaf 7 jaar.
 
-### 2. Heup- en elleboogdysplasie
+## 2. Heup- en elleboogdysplasie
 
 Net als bij Labradors een groot probleem. Symptomen vanaf 6-12 maanden. Koop alleen bij fokkers met HD/ED-testresultaten van de ouderdieren.
 
-### 3. Hartaandoeningen (subaortische stenose)
+## 3. Hartaandoeningen (subaortische stenose)
 
 Aangeboren vernauwing van de aorta. Kan symptomen geven van vermoeidheid, flauwvallen, of plotselinge dood. Fokdieren horen door specialist onderzocht te worden.
 
-### 4. Oogziekten
+## 4. Oogziekten
 
 Progressieve retina-atrofie (PRA) veroorzaakt langzame blindheid. Ook cataract (staar) komt voor. DNA-test en oogonderzoek zijn beide beschikbaar.
 
-### 5. Huidproblemen en allergieën
+## 5. Huidproblemen en allergieën
 
 Golden Retrievers zijn gevoelig voor "hot spots" (natte huidontstekingen), voedselallergieën en atopische dermatitis. Vaak jeuk, licken van poten, oorontstekingen.
 
-### 6. Hypothyreoïdie (traag werkende schildklier)
+## 6. Hypothyreoïdie (traag werkende schildklier)
 
 Vaak vanaf middelbare leeftijd (5-8 jaar). Symptomen: gewichtstoename, doffe vacht, energieverlies. Goed behandelbaar met dagelijkse medicatie.
 
-### 7. Overgewicht
+## 7. Overgewicht
 
 Net als Labradors leven Goldens ook voor eten. Overgewicht verergert alle andere problemen. Streng doseren en dagelijkse beweging.
 
-### Gezondheidsscreening bij fokkers
+## Gezondheidsscreening bij fokkers
 
 Als u een Golden Retriever-pup wilt kopen, vraag altijd om deze officiële uitslagen van de ouderdieren:
 
@@ -3803,7 +3803,7 @@ Als u een Golden Retriever-pup wilt kopen, vraag altijd om deze officiële uitsl
 
 Koop nooit een pup zonder deze screenings — bij dit ras zijn de risico's op erfelijke aandoeningen te groot om te negeren.
 
-### Levensverwachting
+## Levensverwachting
 
 Een gezonde Golden Retriever wordt gemiddeld 10 tot 12 jaar oud. Helaas heeft het ras de afgelopen decennia iets aan levensverwachting ingeboet door de hoge kankerincidentie.
 
@@ -3836,35 +3836,35 @@ Samenvatting: De Franse Bulldog is de laatste jaren enorm populair geworden in N
 
 De Franse Bulldog is populair vanwege zijn kleine formaat en persoonlijkheid, maar dit ras staat bekend om zijn gezondheidsproblemen. Recent Brits onderzoek liet zien dat Franse Bulldogs veel meer gezondheidsissues hebben dan gemiddelde honden. Overweeg goed of dit ras bij u past voordat u koopt.
 
-### 1. Ademhalingsproblemen (BOAS-syndroom)
+## 1. Ademhalingsproblemen (BOAS-syndroom)
 
 De extreem platte snuit (brachycephalie) veroorzaakt Brachycephalic Obstructive Airway Syndrome. Symptomen: snurken, moeite met ademen, snel oververhit raken, moeite met inspanning. Ernstige gevallen vereisen operatie (verruimen van neusgaten, inkorten weke gehemelte) — kosten € 1.500 tot € 3.500. Op warme dagen (>22°C) heel voorzichtig zijn met beweging.
 
-### 2. Wervelkolomproblemen (hemivertebrae)
+## 2. Wervelkolomproblemen (hemivertebrae)
 
 De kurkentrekkerstaart is eigenlijk een spinale misvorming. Bij sommige honden zit dit ook in de rug en veroorzaakt pijn, verlamming, of incontinentie. Meestal aangeboren en zichtbaar op röntgenfoto vanaf 6-12 maanden.
 
-### 3. Huidplooi-ontsteking
+## 3. Huidplooi-ontsteking
 
 De diepe huidplooien in het gezicht, staartbasis en tussen tenen houden vocht vast en veroorzaken bacteriële infecties. Dagelijks reinigen en drogen is noodzakelijk. Speciaal aandacht voor de plooi rond de neus.
 
-### 4. Ooggerelateerde aandoeningen
+## 4. Ooggerelateerde aandoeningen
 
 Puilogen zijn kwetsbaar voor uitdroging, hoornvlieszweren en soms zelfs uit-de-kas-vallen bij ongelukken. Cherry eye (uitpuilende derde ooglid) is ook heel gewoon.
 
-### 5. Warm-weer-intolerantie
+## 5. Warm-weer-intolerantie
 
 Door de ademproblemen kunnen Franse Bulldogs snel oversterhit raken. In Nederland is elke zomerse dag boven 25°C een risico. Kort uitlaten in ochtend/avond, altijd water bij, nooit in de auto laten.
 
-### 6. Voedselintolerantie en huidallergieën
+## 6. Voedselintolerantie en huidallergieën
 
 Zeer gevoelig voor kip, tarwe en kunstmatige toevoegingen. Vaak jeukende huid, oorontstekingen, wind. Hypoallergeen voer kan grote verbetering geven.
 
-### 7. Reproductie-problemen
+## 7. Reproductie-problemen
 
 Kunnen vaak niet natuurlijk paren (te breed borstbeen) en pups worden meestal via keizersnede geboren. Dit maakt het ras duur en fokkers die goedkope pups aanbieden zijn vaak onbetrouwbaar.
 
-### Gezondheidsscreening bij fokkers
+## Gezondheidsscreening bij fokkers
 
 Als u een Franse Bulldog-pup wilt kopen, vraag altijd om deze officiële uitslagen van de ouderdieren:
 
@@ -3880,7 +3880,7 @@ Als u een Franse Bulldog-pup wilt kopen, vraag altijd om deze officiële uitslag
 
 Koop nooit een pup zonder deze screenings — bij dit ras zijn de risico's op erfelijke aandoeningen te groot om te negeren.
 
-### Levensverwachting
+## Levensverwachting
 
 Een Franse Bulldog wordt gemiddeld 10 tot 12 jaar oud. Britse cijfers wijzen op zelfs lagere levensverwachtingen door alle gezondheidsproblemen.
 
@@ -3917,35 +3917,35 @@ Samenvatting: De Border Collie geldt als de intelligentste hondensoort ter werel
 
 De Border Collie is oorspronkelijk een Schotse schaapshond en staat te boek als het intelligentste hondensoort ter wereld. Zijn extreme werklust en energie maken hem geschikt voor actieve baasjes, maar niet voor alle gezinnen. Het ras is over het algemeen gezond met een lange levensduur.
 
-### 1. Collie Eye Anomalie (CEA)
+## 1. Collie Eye Anomalie (CEA)
 
 Erfelijke oogaandoening die vaak al bij pups zichtbaar is. Kan variëren van mild (geen symptomen) tot ernstig (blindheid). DNA-test beschikbaar. Vraag altijd naar teststatus van ouderdieren.
 
-### 2. Progressieve retina-atrofie (PRA)
+## 2. Progressieve retina-atrofie (PRA)
 
 Langzame afsterving van het netvlies, leidt uiteindelijk tot blindheid. Verschillende varianten waaronder CEA-CH en cea/cea variant. DNA-test beschikbaar.
 
-### 3. MDR1-gen (medicijnovergevoeligheid)
+## 3. MDR1-gen (medicijnovergevoeligheid)
 
 Zeer belangrijk om te weten! Border Collies met een defect MDR1-gen zijn extreem gevoelig voor bepaalde medicijnen zoals ivermectine (wormmiddel), loperamide en sommige anti-kanker middelen. Deze kunnen bij dragers dodelijk zijn. Simpele DNA-test beschikbaar en verplicht om te weten voor uw dierenarts.
 
-### 4. Heup- en elleboogdysplasie
+## 4. Heup- en elleboogdysplasie
 
 Komt minder vaak voor dan bij zwaardere rassen, maar wel aanwezig. HD/ED-tests zijn standaard bij verantwoorde fokkers.
 
-### 5. Epilepsie
+## 5. Epilepsie
 
 Border Collies hebben een verhoogd risico op idiopathische epilepsie. Aanvallen beginnen meestal tussen 1-5 jaar. Behandelbaar met anti-epileptica.
 
-### 6. Trapped Neutrophil Syndrome (TNS)
+## 6. Trapped Neutrophil Syndrome (TNS)
 
 Zeldzame maar ernstige erfelijke immuunziekte. Pups sterven meestal jong. DNA-test beschikbaar en verantwoorde fokkers testen.
 
-### 7. Gebrek aan mentale stimulatie
+## 7. Gebrek aan mentale stimulatie
 
 Geen medisch probleem, maar wel een belangrijk gezondheidspunt: een Border Collie zonder werk of uitdaging ontwikkelt gedragsproblemen — obsessief gedrag, agressie, angst. Reken op minimaal 2 uur intensieve beweging + mentale training per dag.
 
-### Gezondheidsscreening bij fokkers
+## Gezondheidsscreening bij fokkers
 
 Als u een Border Collie-pup wilt kopen, vraag altijd om deze officiële uitslagen van de ouderdieren:
 
@@ -3963,7 +3963,7 @@ Als u een Border Collie-pup wilt kopen, vraag altijd om deze officiële uitslage
 
 Koop nooit een pup zonder deze screenings — bij dit ras zijn de risico's op erfelijke aandoeningen te groot om te negeren.
 
-### Levensverwachting
+## Levensverwachting
 
 Een gezonde Border Collie wordt gemiddeld 13 tot 15 jaar oud. Een van de langstlevende middelgrote rassen.
 
@@ -3996,35 +3996,35 @@ Samenvatting: De Cavalier King Charles Spaniel is een van de populairste kleine 
 
 De Cavalier is een liefdevolle, aanhankelijke kleine hond geschikt voor gezinnen en ouderen. Helaas heeft het ras twee zeer ernstige erfelijke aandoeningen waar bijna elke Cavalier vroeg of laat mee te maken krijgt: MMVD (hartklep-degeneratie) en syringomyelie.
 
-### 1. Mitraliskleplekkage (MMVD)
+## 1. Mitraliskleplekkage (MMVD)
 
 Verreweg het grootste probleem — bijna elke Cavalier krijgt hier vroeg of laat mee te maken. De hartklep gaat lekken, wat leidt tot hartfalen. Symptomen: hoest (vooral 's nachts), snel moe, ademhalingsproblemen. Vroege detectie via echocardiogram maakt behandeling met medicatie effectiever. Bij Cavaliers vaak al vanaf 5 jaar. Jaarlijkse hartcontrole vanaf 3-4 jaar aanbevolen.
 
-### 2. Syringomyelie / Chiari-malformatie
+## 2. Syringomyelie / Chiari-malformatie
 
 Neurologische aandoening waarbij de schedel te klein is voor de hersenen. Veroorzaakt vloeistof-holten in het ruggenmerg. Symptomen: krabben in de nek zonder aanleiding, pijnkreten bij oppakken, sensibiliteits-problemen. Zeer pijnlijk. Behandelbaar met medicatie of chirurgie.
 
-### 3. Episodic falling (paroxysmal dystonie)
+## 3. Episodic falling (paroxysmal dystonie)
 
 Erfelijke bewegingsstoornis. Bij opwinding of inspanning krijgt de hond spierverkrampingen en valt. Bewustzijn blijft normaal. DNA-test beschikbaar.
 
-### 4. Oogziekten
+## 4. Oogziekten
 
 Cataract, PRA, en droge ogen komen vaak voor. Oogonderzoek door specialist bij ouderdieren is standaard.
 
-### 5. Knieproblemen (patella luxatie)
+## 5. Knieproblemen (patella luxatie)
 
 Knieschijf uit de kom, net als bij andere kleine rassen. Meestal mild te behandelen.
 
-### 6. Heupdysplasie
+## 6. Heupdysplasie
 
 Ondanks het kleine formaat komt HD voor. HD-uitslag van ouderdieren is nodig.
 
-### 7. Gehoorproblemen
+## 7. Gehoorproblemen
 
 Sommige Cavaliers zijn geboren met gehoorafwijkingen. Test bij pups mogelijk.
 
-### Gezondheidsscreening bij fokkers
+## Gezondheidsscreening bij fokkers
 
 Als u een Cavalier King Charles Spaniel-pup wilt kopen, vraag altijd om deze officiële uitslagen van de ouderdieren:
 
@@ -4042,7 +4042,7 @@ Als u een Cavalier King Charles Spaniel-pup wilt kopen, vraag altijd om deze off
 
 Koop nooit een pup zonder deze screenings — bij dit ras zijn de risico's op erfelijke aandoeningen te groot om te negeren.
 
-### Levensverwachting
+## Levensverwachting
 
 Een Cavalier wordt gemiddeld 9 tot 14 jaar oud, maar de laatste jaren is de gemiddelde levensduur verkort door het toenemende hart-probleem. Fokkers die serieus met MRI-scans en hartcontrole werken, produceren pups met significant langere levensverwachting.
 
@@ -4079,31 +4079,31 @@ Samenvatting: De Jack Russell Terriër is een kleine maar zeer energieke werkhon
 
 De Jack Russell Terriër is oorspronkelijk gefokt voor vossenjacht. Zijn compacte, atletische bouw en zeer hoge energie maken hem een uitdagende maar gezonde huisgenoot. Het ras staat te boek als een van de langstlevende hondenrassen.
 
-### 1. Erfelijke oogziekten
+## 1. Erfelijke oogziekten
 
 Lens luxatie (PLL): erfelijke aandoening waarbij de ooglens loskomt en het oog vernielt. Zeer pijnlijk, ernstige gevallen leiden tot verwijdering van het oog. DNA-test beschikbaar. Vraag naar teststatus.
 
-### 2. Doofheid
+## 2. Doofheid
 
 Sommige Jack Russells worden doof geboren (aangeboren sensorineurale doofheid). Test mogelijk bij pups (BAER-test).
 
-### 3. Patella luxatie
+## 3. Patella luxatie
 
 Knieschijf-uit-de-kom is veelvoorkomend bij dit kleine ras. Meestal mild.
 
-### 4. Legg-Calvé-Perthes ziekte
+## 4. Legg-Calvé-Perthes ziekte
 
 Aantasting van het heupgewricht bij jonge honden (5-8 maanden). Pijn en hinken. Vaak chirurgische behandeling nodig.
 
-### 5. Tandproblemen
+## 5. Tandproblemen
 
 Zoals andere kleine rassen: tanden staan dicht op elkaar, tandsteen ontwikkelt zich snel. Dagelijks poetsen aanbevolen.
 
-### 6. Gedragsproblemen door onderstimulatie
+## 6. Gedragsproblemen door onderstimulatie
 
 Geen medisch probleem maar wel een gezondheidsrisico: een Jack Russell zonder voldoende beweging (minimaal 1-2 uur per dag) en mentale uitdaging ontwikkelt gemakkelijk gedragsproblemen zoals gravend, blaffen, ontsnappen.
 
-### Gezondheidsscreening bij fokkers
+## Gezondheidsscreening bij fokkers
 
 Als u een Jack Russell Terriër-pup wilt kopen, vraag altijd om deze officiële uitslagen van de ouderdieren:
 
@@ -4119,7 +4119,7 @@ Als u een Jack Russell Terriër-pup wilt kopen, vraag altijd om deze officiële 
 
 Koop nooit een pup zonder deze screenings — bij dit ras zijn de risico's op erfelijke aandoeningen te groot om te negeren.
 
-### Levensverwachting
+## Levensverwachting
 
 Een gezonde Jack Russell wordt gemiddeld 13 tot 16 jaar oud. Sommige halen zelfs 18 jaar. Een van de langstlevende hondenrassen.
 
@@ -4152,35 +4152,35 @@ Samenvatting: De Beagle is een middelgrote jachthond die populair is als gezinsh
 
 De Beagle is oorspronkelijk een jachthond en heeft een sterk ontwikkeld reukvermogen. Vriendelijk karakter, geschikt voor gezinnen. Meestal een gezond ras, maar met enkele specifieke aandachtspunten.
 
-### 1. Overgewicht
+## 1. Overgewicht
 
 Beagles zijn extreme eters. Overgewicht is het grootste gezondheidsprobleem van dit ras. Streng doseren en veel beweging zijn essentieel. Reken op afgemeten porties zonder tussendoortjes.
 
-### 2. Oorontstekingen
+## 2. Oorontstekingen
 
 Lange, hangende oren beperken de luchtcirculatie en veroorzaken vochtige, warme omstandigheden — ideaal voor bacteriën en gisten. Wekelijkse controle en reiniging aanbevolen.
 
-### 3. Epilepsie
+## 3. Epilepsie
 
 Beagles hebben een verhoogd risico op idiopathische epilepsie. Aanvallen beginnen meestal tussen 6 maanden en 3 jaar. Behandelbaar met medicatie.
 
-### 4. Rug- en discusproblemen
+## 4. Rug- en discusproblemen
 
 Vooral bij overgewicht. De relatief lange rug maakt Beagles gevoelig voor tussenwervel-hernia. Voorkom springen vanaf hoogtes.
 
-### 5. Schildklierproblemen (hypothyreoïdie)
+## 5. Schildklierproblemen (hypothyreoïdie)
 
 Vanaf middelbare leeftijd (4-8 jaar) kan de schildklier trager gaan werken. Symptomen: gewichtstoename, sufheid, doffe vacht, huidproblemen. Goed behandelbaar.
 
-### 6. Musculoskeletale ziekten
+## 6. Musculoskeletale ziekten
 
 Chinees Beagle Syndroom en Musladin-Lueke Syndroom zijn zeldzame maar erfelijke aandoeningen. DNA-tests beschikbaar.
 
-### 7. Kwispelverwondingen
+## 7. Kwispelverwondingen
 
 De hoog gedragen kwispelstaart kan bij intens kwispelen tegen harde oppervlakken beschadigd raken — "kennel tail". Meestal geneest vanzelf.
 
-### Gezondheidsscreening bij fokkers
+## Gezondheidsscreening bij fokkers
 
 Als u een Beagle-pup wilt kopen, vraag altijd om deze officiële uitslagen van de ouderdieren:
 
@@ -4194,7 +4194,7 @@ Als u een Beagle-pup wilt kopen, vraag altijd om deze officiële uitslagen van d
 
 Koop nooit een pup zonder deze screenings — bij dit ras zijn de risico's op erfelijke aandoeningen te groot om te negeren.
 
-### Levensverwachting
+## Levensverwachting
 
 Een gezonde Beagle wordt gemiddeld 12 tot 15 jaar oud. Op ideaal gewicht en met goede zorg zeker haalbaar.
 
@@ -4227,35 +4227,35 @@ Samenvatting: De Berner Sennenhond is een prachtige, vriendelijke grote hond, ma
 
 De Berner Sennenhond is een geliefde grote familiehond met een zachtaardig karakter. Helaas heeft dit ras een tragisch korte levensverwachting — grotendeels door hoge kanker-incidentie.
 
-### 1. Kanker (met name histiocytair sarcoom)
+## 1. Kanker (met name histiocytair sarcoom)
 
 Verreweg de grootste doodsoorzaak. Ongeveer 50% van alle Berners overlijdt aan kanker, vaak al vanaf 6-8 jaar. Histiocytair sarcoom is agressief en helaas moeilijk te behandelen. Halfjaarlijkse checks bij dierenarts vanaf 5 jaar.
 
-### 2. Heup- en elleboogdysplasie
+## 2. Heup- en elleboogdysplasie
 
 Zeer veel voorkomend bij dit grote ras. HD en ED-tests bij ouderdieren zijn absoluut noodzakelijk. Overgewicht verergert dit sterk.
 
-### 3. Cruciate ligament rupture
+## 3. Cruciate ligament rupture
 
 Kruisband-ruptuur in de knie is heel gewoon bij grote rassen. Vaak chirurgische reparatie nodig (€ 2.500 tot € 4.500 per knie).
 
-### 4. Progressieve retina-atrofie (PRA)
+## 4. Progressieve retina-atrofie (PRA)
 
 Erfelijke oogaandoening leidt tot blindheid. DNA-test beschikbaar.
 
-### 5. Maag-dilatatie/torsie (maagdraaiing)
+## 5. Maag-dilatatie/torsie (maagdraaiing)
 
 Zoals andere grote diepborstige honden loopt de Berner risico op maagtorsie. Meerdere kleine maaltijden per dag, geen intense beweging vlak voor of na eten.
 
-### 6. Von Willebrand ziekte
+## 6. Von Willebrand ziekte
 
 Bloedstollingsstoornis. DNA-test beschikbaar. Belangrijk om te weten voor operaties.
 
-### 7. Warm-weer-intolerantie
+## 7. Warm-weer-intolerantie
 
 De dikke dubbele vacht maakt Berners kwetsbaar voor warmte. Op zomerse dagen alleen 's ochtends en 's avonds beweging.
 
-### Gezondheidsscreening bij fokkers
+## Gezondheidsscreening bij fokkers
 
 Als u een Berner Sennenhond-pup wilt kopen, vraag altijd om deze officiële uitslagen van de ouderdieren:
 
@@ -4271,7 +4271,7 @@ Als u een Berner Sennenhond-pup wilt kopen, vraag altijd om deze officiële uits
 
 Koop nooit een pup zonder deze screenings — bij dit ras zijn de risico's op erfelijke aandoeningen te groot om te negeren.
 
-### Levensverwachting
+## Levensverwachting
 
 Een Berner Sennenhond wordt gemiddeld slechts 7 tot 10 jaar oud. Dit is een van de kortste levensverwachtingen van alle rassen. Fokkers die actief werken aan gezondheidsverbetering produceren pups met betere prognose.
 
@@ -4306,35 +4306,35 @@ Samenvatting: De Boxer is een sterke, energieke gezinshond die veel beweging nod
 
 De Boxer is een van de populairste middelgrote rassen in Nederland. Vriendelijk, speels, en zeer geschikt voor gezinnen met kinderen. Het ras heeft echter een aantal ernstige gezondheidsproblemen om rekening mee te houden.
 
-### 1. Aritmogene rechterventrikel-cardiomyopathie (ARVC / Boxer cardiomyopathie)
+## 1. Aritmogene rechterventrikel-cardiomyopathie (ARVC / Boxer cardiomyopathie)
 
 Ras-specifieke hartaandoening die kan leiden tot plotselinge dood. Symptomen: flauwvallen, verminderde inspanningstolerantie. Diagnose via Holter-onderzoek (24-uurs hartritmemeting). Alle fokdieren horen getest te worden.
 
-### 2. Kanker (met name mastceltumoren en lymfoom)
+## 2. Kanker (met name mastceltumoren en lymfoom)
 
 Boxers hebben een verhoogde kans op kanker, vooral huid-mastceltumoren en lymfoom. Elke nieuwe knobbel op de huid onmiddellijk laten checken.
 
-### 3. Heup- en elleboogdysplasie
+## 3. Heup- en elleboogdysplasie
 
 HD en ED komen voor. Fokkers horen te testen. Overgewicht verergert klachten.
 
-### 4. Ademhalingsproblemen (BOAS)
+## 4. Ademhalingsproblemen (BOAS)
 
 De korte snuit veroorzaakt milde ademhalingsproblemen (minder ernstig dan bij Franse Bulldog). Kortademigheid bij inspanning of warmte. Op warme dagen voorzichtig.
 
-### 5. Hyperthyreoïdie
+## 5. Hyperthyreoïdie
 
 Traag werkende schildklier komt vaker voor bij Boxers dan gemiddeld. Behandelbaar met dagelijkse medicatie.
 
-### 6. Aortastenose
+## 6. Aortastenose
 
 Aangeboren vernauwing van de aorta. Hartonderzoek bij fokdieren is standaard.
 
-### 7. Warm-weer-intolerantie
+## 7. Warm-weer-intolerantie
 
 Door de korte snuit en donkere vacht kunnen Boxers snel oververhit raken. Water bij, schaduw zoeken, kort uitlaten.
 
-### Gezondheidsscreening bij fokkers
+## Gezondheidsscreening bij fokkers
 
 Als u een Boxer-pup wilt kopen, vraag altijd om deze officiële uitslagen van de ouderdieren:
 
@@ -4350,7 +4350,7 @@ Als u een Boxer-pup wilt kopen, vraag altijd om deze officiële uitslagen van de
 
 Koop nooit een pup zonder deze screenings — bij dit ras zijn de risico's op erfelijke aandoeningen te groot om te negeren.
 
-### Levensverwachting
+## Levensverwachting
 
 Een gezonde Boxer wordt gemiddeld 10 tot 12 jaar oud. Ras met een relatief korte levensverwachting.
 
@@ -4383,35 +4383,35 @@ Samenvatting: De Rottweiler is een krachtige waak- en werkhond die verantwoorde 
 
 De Rottweiler is een grote, imposante hond die oorspronkelijk als drijfhond werd gebruikt. Loyaal en beschermend, maar vraagt om een ervaren eigenaar met heldere leiderschap. Het ras kent enkele ernstige gezondheidsproblemen.
 
-### 1. Heup- en elleboogdysplasie
+## 1. Heup- en elleboogdysplasie
 
 Zeer veel voorkomend bij dit zware ras. HD en ED-tests bij ouderdieren zijn essentieel. Overgewicht verergert klachten enorm.
 
-### 2. Aortastenose
+## 2. Aortastenose
 
 Aangeboren vernauwing van de aorta. Kan leiden tot plotselinge dood. Fokdieren horen door specialist gecontroleerd te worden.
 
-### 3. Osteosarcoom (botkanker)
+## 3. Osteosarcoom (botkanker)
 
 Rottweilers hebben een verhoogd risico op agressieve botkanker, meestal in poten. Symptomen: hinken zonder duidelijke oorzaak, zwelling. Overleving is helaas beperkt.
 
-### 4. Cruciate ligament rupture
+## 4. Cruciate ligament rupture
 
 Kruisband-ruptuur is heel gewoon bij grote rassen. Chirurgische reparatie kost € 2.500 tot € 4.500.
 
-### 5. Maag-dilatatie/torsie
+## 5. Maag-dilatatie/torsie
 
 Levensbedreigend acuut probleem. Meerdere kleine maaltijden, geen inspanning rond voedertijd.
 
-### 6. Parvovirus-gevoeligheid
+## 6. Parvovirus-gevoeligheid
 
 Rottweilers zijn iets gevoeliger dan andere rassen voor parvovirus (levensbedreigende maag-darm infectie bij ongevaccineerde pups). Vaccinatie strikt volgens schema.
 
-### 7. Overgewicht en gewrichtsbelasting
+## 7. Overgewicht en gewrichtsbelasting
 
 Elke kilo te veel is een enorme belasting voor de gewrichten van deze zware hond.
 
-### Gezondheidsscreening bij fokkers
+## Gezondheidsscreening bij fokkers
 
 Als u een Rottweiler-pup wilt kopen, vraag altijd om deze officiële uitslagen van de ouderdieren:
 
@@ -4427,7 +4427,7 @@ Als u een Rottweiler-pup wilt kopen, vraag altijd om deze officiële uitslagen v
 
 Koop nooit een pup zonder deze screenings — bij dit ras zijn de risico's op erfelijke aandoeningen te groot om te negeren.
 
-### Levensverwachting
+## Levensverwachting
 
 Een gezonde Rottweiler wordt gemiddeld 8 tot 11 jaar oud. Ras met een relatief korte levensverwachting, vooral door de hoge kankerincidentie.
 
@@ -4460,35 +4460,35 @@ Samenvatting: De Mopshond is populair vanwege zijn karaktervolle uiterlijk, maar
 
 De Mopshond (Pug) is een van de meest omstreden rassen vanwege de extreme gezondheidsproblemen die de fokkerij op uiterlijk heeft veroorzaakt. Overweeg zeer goed voor aanschaf of u de morele en financiële consequenties kunt dragen — of kies voor een minder platsnuitige variant zoals de Retro Mopshond of gewoon een ander ras.
 
-### 1. Ademhalingsproblemen (BOAS-syndroom)
+## 1. Ademhalingsproblemen (BOAS-syndroom)
 
 De extreem platte snuit veroorzaakt ernstige ademhalingsproblemen bij een hoog percentage Mopshonden. Snurken bij elke ademhaling is normaal, wat aangeeft hoe verstoord de luchtstroom is. Vaak operatie nodig (verruimen neusgaten, inkorten weke gehemelte). Op warme dagen (>20°C) uiterst voorzichtig — sterfte door oververhitting komt jaarlijks voor.
 
-### 2. Ogen (proptosis, ulcera, KCS)
+## 2. Ogen (proptosis, ulcera, KCS)
 
 De uitpuilende ogen zijn kwetsbaar. Proptosis = oog valt uit de kas bij kleine impact (traumatisch). Chronische droge ogen (KCS) vereisen levenslange oogdruppels. Ulcera (hoornvlieszweren) komen vaak voor.
 
-### 3. Wervelmisvormingen (hemivertebrae)
+## 3. Wervelmisvormingen (hemivertebrae)
 
 De kurkentrekkerstaart is een spinale afwijking. Bij sommige honden zit dit ook in de rug en kan leiden tot verlamming of incontinentie.
 
-### 4. Pug Dog Encephalitis (PDE)
+## 4. Pug Dog Encephalitis (PDE)
 
 Erfelijke, dodelijke hersenaandoening die alleen bij Mopshonden voorkomt. Meestal tussen 2-3 jaar. Snelle progressie. Er is een DNA-test die risico kan inschatten.
 
-### 5. Huidplooi-ontsteking
+## 5. Huidplooi-ontsteking
 
 Diepe plooi over de neus houdt vocht vast en veroorzaakt bacteriële ontsteking. Dagelijks reinigen noodzakelijk.
 
-### 6. Overgewicht
+## 6. Overgewicht
 
 Mopshonden houden van eten en zijn niet erg actief. Overgewicht verergert alle andere problemen.
 
-### 7. Rug- en heupproblemen
+## 7. Rug- en heupproblemen
 
 Legg-Calvé-Perthes, patella luxatie, en heupdysplasie komen alle voor.
 
-### Gezondheidsscreening bij fokkers
+## Gezondheidsscreening bij fokkers
 
 Als u een Mopshond-pup wilt kopen, vraag altijd om deze officiële uitslagen van de ouderdieren:
 
@@ -4504,7 +4504,7 @@ Als u een Mopshond-pup wilt kopen, vraag altijd om deze officiële uitslagen van
 
 Koop nooit een pup zonder deze screenings — bij dit ras zijn de risico's op erfelijke aandoeningen te groot om te negeren.
 
-### Levensverwachting
+## Levensverwachting
 
 Een Mopshond wordt gemiddeld 10 tot 13 jaar oud, maar velen halen dit niet door de gezondheidsproblemen. Overweeg minder-extreme varianten als de "Retro Mopshond" of "Old Style Pug" die gefokt worden voor gezondere anatomie.
 
@@ -4541,35 +4541,35 @@ Samenvatting: De Dwergpoedel is een intelligente, allergie-vriendelijke gezelsch
 
 De Dwergpoedel behoort tot de intelligentste hondenrassen. Populair vanwege de weinig ruiende vacht (geschikt voor allergiepatiënten) en het speelse karakter. Een gezond ras met relatief lange levensduur, maar wel enkele aandachtspunten.
 
-### 1. Patella luxatie
+## 1. Patella luxatie
 
 Knieschijf uit de kom is heel gewoon bij dit kleine ras. Meestal mild en met rust behandelbaar.
 
-### 2. Progressieve retina-atrofie (PRA)
+## 2. Progressieve retina-atrofie (PRA)
 
 Erfelijke oogaandoening leidt tot blindheid. DNA-test beschikbaar.
 
-### 3. Ziekte van Addison (bijnier-onderfunctie)
+## 3. Ziekte van Addison (bijnier-onderfunctie)
 
 Dwergpoedels hebben een verhoogd risico. Vage symptomen (sufheid, gewichtsverlies, braken, diarree) die verergeren onder stress. Bij ontdekking goed behandelbaar met dagelijkse medicatie.
 
-### 4. Traanwegverstopping
+## 4. Traanwegverstopping
 
 Veel Dwergpoedels hebben last van bruinrode traanstrepen door verstopte traanbuizen. Regelmatig schoonmaken en soms medisch ingrijpen.
 
-### 5. Tandproblemen
+## 5. Tandproblemen
 
 Zoals andere kleine rassen: veel tandsteen. Dagelijks poetsen aanbevolen.
 
-### 6. Gehoorproblemen bij oudere honden
+## 6. Gehoorproblemen bij oudere honden
 
 Progressieve doofheid kan optreden vanaf 8-10 jaar.
 
-### 7. Insuline-gerelateerde problemen
+## 7. Insuline-gerelateerde problemen
 
 Dwergpoedels hebben een verhoogd risico op suikerziekte (diabetes mellitus) op oudere leeftijd.
 
-### Gezondheidsscreening bij fokkers
+## Gezondheidsscreening bij fokkers
 
 Als u een Dwergpoedel-pup wilt kopen, vraag altijd om deze officiële uitslagen van de ouderdieren:
 
@@ -4583,7 +4583,7 @@ Als u een Dwergpoedel-pup wilt kopen, vraag altijd om deze officiële uitslagen 
 
 Koop nooit een pup zonder deze screenings — bij dit ras zijn de risico's op erfelijke aandoeningen te groot om te negeren.
 
-### Levensverwachting
+## Levensverwachting
 
 Een gezonde Dwergpoedel wordt gemiddeld 13 tot 16 jaar oud. Behoort tot de langlevende kleine rassen.
 
@@ -4616,35 +4616,35 @@ Samenvatting: Het Nederlands Kooikerhondje is een historisch Nederlands ras dat 
 
 Het Nederlands Kooikerhondje is een historisch Nederlands jachtras. Na de oorlog bijna uitgestorven, is het ras heropgebouwd uit slechts 10 stamouders. Deze kleine genetische basis maakt het ras kwetsbaar voor erfelijke aandoeningen, maar door zorgvuldig fokbeleid van de rasvereniging (VHNK) is het ras nu redelijk gezond.
 
-### 1. Erfelijke Necrotiserende Myelopathie (ENM / "Kooikerverlamming")
+## 1. Erfelijke Necrotiserende Myelopathie (ENM / "Kooikerverlamming")
 
 Ras-specifieke, dodelijke ruggenmergaandoening. Pups sterven meestal binnen enkele maanden na de eerste symptomen (achterhandverlamming). Er is een DNA-test beschikbaar en verantwoorde fokkers testen ALLE ouderdieren. Vraag ALTIJD om deze test.
 
-### 2. Ziekte van Von Willebrand (vWD)
+## 2. Ziekte van Von Willebrand (vWD)
 
 Erfelijke bloedstollingsstoornis. Kan leiden tot ongecontroleerd bloedverlies bij operaties of verwondingen. DNA-test beschikbaar en verplicht bij verantwoorde fokkers.
 
-### 3. Polymyositis (PMN)
+## 3. Polymyositis (PMN)
 
 Erfelijke spierontsteking waarbij het immuunsysteem eigen spieren aanvalt. Meestal binnen enkele maanden na eerste symptomen fataal. Onderzoek naar DNA-marker loopt.
 
-### 4. Epilepsie
+## 4. Epilepsie
 
 Idiopathische epilepsie komt bij ongeveer 1,5% van Kooikerhondjes voor. Aanvallen beginnen meestal voor het derde levensjaar. Behandelbaar met medicatie.
 
-### 5. Patella luxatie
+## 5. Patella luxatie
 
 Knieschijf-uit-de-kom is regelmatig aanwezig door de kleine bouw.
 
-### 6. Nieraandoeningen
+## 6. Nieraandoeningen
 
 Chronische nierziekten komen bij middelbare tot oudere Kooikerhondjes voor.
 
-### 7. Kleine genetische basis
+## 7. Kleine genetische basis
 
 Alle Kooikerhondjes zijn afstammelingen van slechts 10 ouderdieren, waardoor het ras kwetsbaar blijft voor nieuwe erfelijke problemen. Rasvereniging werkt met "Fit2Breed" om inteelt te beperken.
 
-### Gezondheidsscreening bij fokkers
+## Gezondheidsscreening bij fokkers
 
 Als u een Nederlands Kooikerhondje-pup wilt kopen, vraag altijd om deze officiële uitslagen van de ouderdieren:
 
@@ -4662,7 +4662,7 @@ Als u een Nederlands Kooikerhondje-pup wilt kopen, vraag altijd om deze officië
 
 Koop nooit een pup zonder deze screenings — bij dit ras zijn de risico's op erfelijke aandoeningen te groot om te negeren.
 
-### Levensverwachting
+## Levensverwachting
 
 Een gezond Kooikerhondje wordt gemiddeld 12 tot 17 jaar oud. Fokkers die aangesloten zijn bij de VHNK (Vereniging Het Nederlands Kooikerhondje) volgen strenge gezondheidsprotocollen.
 
@@ -4699,35 +4699,35 @@ Samenvatting: De Teckel is een geliefde kleine hond met een karakteristieke lang
 
 De Teckel of Dachshund is oorspronkelijk gefokt voor jacht op dassen in ondergrondse holen. Zijn korte poten en lange rug maken hem uniek herkenbaar, maar zijn ook de bron van zijn grootste gezondheidsprobleem.
 
-### 1. Intervertebrale discus-degeneratie (IVDD / hernia)
+## 1. Intervertebrale discus-degeneratie (IVDD / hernia)
 
 Verreweg het grootste probleem — 1 op de 4 Teckels krijgt hiermee te maken. De tussenwervelschijven degenereren en kunnen scheuren of naar buiten drukken op het ruggenmerg. Symptomen: acute pijn, moeite met lopen, verlamming. Vaak spoedeisende operatie nodig (€ 3.000 tot € 6.000). Voorkom door: geen trappen laten lopen, niet op meubels laten springen, gebruik traphek en oprijplank, houd op ideaal gewicht.
 
-### 2. Overgewicht
+## 2. Overgewicht
 
 Teckels zijn goede eters en niet erg actief. Elke kilo extra belast de rug enorm. Streng doseren, geen bijvoeren.
 
-### 3. Patella luxatie
+## 3. Patella luxatie
 
 Knieschijf-uit-de-kom komt ook voor bij dit ras.
 
-### 4. Progressieve retina-atrofie (PRA)
+## 4. Progressieve retina-atrofie (PRA)
 
 Erfelijke oogaandoening. DNA-test beschikbaar.
 
-### 5. Cushing syndroom
+## 5. Cushing syndroom
 
 Bijnier-overproductie van cortisol. Symptomen: veel drinken en plassen, gezwollen buik, dunne huid, vachtverandering. Vaker bij oudere Teckels.
 
-### 6. Hartklachten
+## 6. Hartklachten
 
 Mitraliskleplekkage komt vanaf middelbare leeftijd voor, minder dan bij Cavalier maar wel aanwezig.
 
-### 7. Doofheid (bij gemarmerde teckels)
+## 7. Doofheid (bij gemarmerde teckels)
 
 Gemarmerde ("dapple") teckels hebben verhoogd risico op aangeboren doofheid.
 
-### Gezondheidsscreening bij fokkers
+## Gezondheidsscreening bij fokkers
 
 Als u een Teckel-pup wilt kopen, vraag altijd om deze officiële uitslagen van de ouderdieren:
 
@@ -4743,7 +4743,7 @@ Als u een Teckel-pup wilt kopen, vraag altijd om deze officiële uitslagen van d
 
 Koop nooit een pup zonder deze screenings — bij dit ras zijn de risico's op erfelijke aandoeningen te groot om te negeren.
 
-### Levensverwachting
+## Levensverwachting
 
 Een gezonde Teckel wordt gemiddeld 12 tot 16 jaar oud. Op ideaal gewicht en met goede rugbescherming is een lang leven zeker haalbaar.
 
@@ -4776,35 +4776,35 @@ Samenvatting: De (Engelse of Amerikaanse) Cocker Spaniel is een middelgrote jach
 
 De Cocker Spaniel bestaat in twee hoofdvarianten: Engelse en Amerikaanse. Beide zijn populaire gezinshonden. Vriendelijk en energiek, met een dichte hangoorvacht die veel verzorging vraagt.
 
-### 1. Oorontstekingen
+## 1. Oorontstekingen
 
 Verreweg het meest voorkomende probleem. De lange, hangende oren met veel behang belemmeren luchtcirculatie — ideaal voor bacteriën en gisten. Wekelijkse controle en soms reiniging. Chronische otitis is bij dit ras heel gewoon.
 
-### 2. Oogziekten
+## 2. Oogziekten
 
 Progressieve retina-atrofie (PRA), cataract (staar), glaucoom, en droge ogen komen alle voor. DNA-tests en jaarlijkse oogcontrole aanbevolen.
 
-### 3. Heup- en elleboogdysplasie
+## 3. Heup- en elleboogdysplasie
 
 HD en ED komen voor. Fokkers horen te testen.
 
-### 4. Familial Nephropathy
+## 4. Familial Nephropathy
 
 Erfelijke nieraandoening bij Engelse Cocker Spaniels. DNA-test beschikbaar.
 
-### 5. Autoimmune hemolytische anemie
+## 5. Autoimmune hemolytische anemie
 
 Cockers hebben een verhoogd risico op deze bloedziekte, waarbij het immuunsysteem eigen rode bloedcellen aanvalt. Behandelbaar met steroïden.
 
-### 6. Rage syndrome (Cocker rage)
+## 6. Rage syndrome (Cocker rage)
 
 Zeldzame maar dramatische gedragsaandoening waarbij de hond plots agressief wordt zonder aanleiding. Vooral bij bepaalde bloedlijnen. Vraag naar temperament van ouderdieren.
 
-### 7. Overgewicht
+## 7. Overgewicht
 
 Cockers zijn goede eters, waakzaam blijven.
 
-### Gezondheidsscreening bij fokkers
+## Gezondheidsscreening bij fokkers
 
 Als u een Cocker Spaniel-pup wilt kopen, vraag altijd om deze officiële uitslagen van de ouderdieren:
 
@@ -4822,7 +4822,7 @@ Als u een Cocker Spaniel-pup wilt kopen, vraag altijd om deze officiële uitslag
 
 Koop nooit een pup zonder deze screenings — bij dit ras zijn de risico's op erfelijke aandoeningen te groot om te negeren.
 
-### Levensverwachting
+## Levensverwachting
 
 Een gezonde Cocker Spaniel wordt gemiddeld 12 tot 15 jaar oud.
 
@@ -4855,35 +4855,35 @@ Samenvatting: De Shih Tzu is een kleine gezelschapshond met een luxe lange vacht
 
 De Shih Tzu ("Leeuwtjeshond") is een kleine gezelschapshond uit China. Vriendelijk, aanhankelijk en geschikt voor appartementleven. De platte snuit en lange vacht vragen wel om aandacht.
 
-### 1. Ademhalingsproblemen (BOAS)
+## 1. Ademhalingsproblemen (BOAS)
 
 De platte snuit veroorzaakt ademhalingsproblemen — minder ernstig dan bij Mopshond of Franse Bulldog, maar wel aanwezig. Voorzichtig met warmte en intensieve beweging.
 
-### 2. Ogen (proptosis, ulcera, KCS)
+## 2. Ogen (proptosis, ulcera, KCS)
 
 De uitpuilende ogen zijn kwetsbaar. Snuit-tegen-tak of gevecht kan al leiden tot uitgesprongen oog. Droge ogen (KCS) komen vaak voor.
 
-### 3. Tandproblemen
+## 3. Tandproblemen
 
 De kleine kaak past alle tanden nauwelijks in. Tandsteen ontwikkelt zich snel. Dagelijks poetsen essentieel.
 
-### 4. Patella luxatie
+## 4. Patella luxatie
 
 Zoals andere kleine rassen.
 
-### 5. Nieraandoeningen (renale dysplasie)
+## 5. Nieraandoeningen (renale dysplasie)
 
 Erfelijke nierafwijking. Vraag fokker naar nierfunctie-tests bij ouderdieren.
 
-### 6. Vacht-verzorging
+## 6. Vacht-verzorging
 
 De lange dubbele vacht vraagt dagelijks borstelen en om de 6-8 weken trimmen (€ 40 tot € 70). Zonder onderhoud ontstaat pijnlijke verkorsting.
 
-### 7. Warm-weer-intolerantie
+## 7. Warm-weer-intolerantie
 
 Combinatie van platte snuit en dikke vacht maakt zomers uitdagend. Kort trimmen in de zomer helpt.
 
-### Gezondheidsscreening bij fokkers
+## Gezondheidsscreening bij fokkers
 
 Als u een Shih Tzu-pup wilt kopen, vraag altijd om deze officiële uitslagen van de ouderdieren:
 
@@ -4899,7 +4899,7 @@ Als u een Shih Tzu-pup wilt kopen, vraag altijd om deze officiële uitslagen van
 
 Koop nooit een pup zonder deze screenings — bij dit ras zijn de risico's op erfelijke aandoeningen te groot om te negeren.
 
-### Levensverwachting
+## Levensverwachting
 
 Een gezonde Shih Tzu wordt gemiddeld 10 tot 16 jaar oud.
 
@@ -4932,35 +4932,35 @@ Samenvatting: De Australian Shepherd is een intelligente werkhond die veel beweg
 
 De Australian Shepherd (of "Aussie") is oorspronkelijk gefokt als schaapshond in de Amerikaanse Basken-gemeenschappen. Extreem intelligent, energiek en trainbaar. Niet geschikt voor luie eigenaren — vraagt minimaal 2 uur intensieve beweging per dag.
 
-### 1. MDR1-gen (medicijnovergevoeligheid)
+## 1. MDR1-gen (medicijnovergevoeligheid)
 
 Zeer belangrijk! Australian Shepherds hebben een hoog percentage MDR1-mutatie. Bepaalde medicijnen zoals ivermectine (wormmiddel) en loperamide kunnen dodelijk zijn. Simpele DNA-test beschikbaar en verplicht om te weten voor uw dierenarts.
 
-### 2. Collie Eye Anomalie (CEA)
+## 2. Collie Eye Anomalie (CEA)
 
 Erfelijke oogaandoening. DNA-test beschikbaar. Vraag naar teststatus.
 
-### 3. Progressieve retina-atrofie (PRA)
+## 3. Progressieve retina-atrofie (PRA)
 
 Verschillende varianten. DNA-tests beschikbaar.
 
-### 4. Heup- en elleboogdysplasie
+## 4. Heup- en elleboogdysplasie
 
 Komt voor bij dit middelgrote ras.
 
-### 5. Epilepsie
+## 5. Epilepsie
 
 Idiopathische epilepsie komt bij Aussies vaker voor dan gemiddeld.
 
-### 6. Kanker
+## 6. Kanker
 
 Verhoogd risico op hemangiosarcoom en lymfoom, vooral bij oudere honden.
 
-### 7. Doofheid (bij dubbel-merle)
+## 7. Doofheid (bij dubbel-merle)
 
 Merle-gekleurde Aussies kunnen prima gezond zijn, maar het paren van twee merle-honden (double merle) leidt vaak tot pups met blindheid en doofheid. Betrouwbare fokkers paren nooit merle x merle.
 
-### Gezondheidsscreening bij fokkers
+## Gezondheidsscreening bij fokkers
 
 Als u een Australian Shepherd-pup wilt kopen, vraag altijd om deze officiële uitslagen van de ouderdieren:
 
@@ -4978,7 +4978,7 @@ Als u een Australian Shepherd-pup wilt kopen, vraag altijd om deze officiële ui
 
 Koop nooit een pup zonder deze screenings — bij dit ras zijn de risico's op erfelijke aandoeningen te groot om te negeren.
 
-### Levensverwachting
+## Levensverwachting
 
 Een gezonde Australian Shepherd wordt gemiddeld 12 tot 15 jaar oud.
 
@@ -5011,35 +5011,35 @@ Samenvatting: De Duitse Dog is een van de grootste hondenrassen ter wereld. Zach
 
 De Duitse Dog (Great Dane) is een van de grootste hondenrassen ter wereld — een volwassen reu weegt 60-90 kg en staat 80+ cm hoog. Zachtaardig, geduldig karakter, maar helaas een tragisch korte levensduur.
 
-### 1. Maag-dilatatie/torsie (maagdraaiing)
+## 1. Maag-dilatatie/torsie (maagdraaiing)
 
 HET grootste risico bij dit ras — misschien wel 40% van alle Duitse Doggen krijgt hiermee te maken. Levensbedreigend. Preventieve maagfixatie (gastropexie) tijdens castratie of andere operatie wordt sterk aanbevolen. Meerdere kleine maaltijden per dag.
 
-### 2. Gedilateerde cardiomyopathie (DCM)
+## 2. Gedilateerde cardiomyopathie (DCM)
 
 Verzwakking van de hartspier, waardoor de hartkamers uitzetten en de pomp-functie afneemt. Bij Duitse Doggen relatief jong (vaak vanaf 4-7 jaar). Symptomen: sufheid, ademhalingsproblemen, plotselinge dood. Jaarlijkse hartcontrole aanbevolen.
 
-### 3. Heup- en elleboogdysplasie
+## 3. Heup- en elleboogdysplasie
 
 Zeer veel voorkomend. HD en ED-tests essentieel.
 
-### 4. Osteosarcoom (botkanker)
+## 4. Osteosarcoom (botkanker)
 
 Zoals andere zeer grote rassen: verhoogd risico op botkanker, meestal in poten. Vaak agressief en snel.
 
-### 5. Wobbler syndroom
+## 5. Wobbler syndroom
 
 Compressie van het ruggenmerg in de nek. Wankele gang, moeite met opstaan. Vaker bij grote rassen.
 
-### 6. Groeiafwijkingen (panosteïtis, HOD)
+## 6. Groeiafwijkingen (panosteïtis, HOD)
 
 Jonge Duitse Doggen groeien enorm snel en kunnen pijn in de botten krijgen. Meestal zelflimiterend.
 
-### 7. Cruciate ligament rupture
+## 7. Cruciate ligament rupture
 
 Kruisband-ruptuur veel voorkomend bij dit gewicht.
 
-### Gezondheidsscreening bij fokkers
+## Gezondheidsscreening bij fokkers
 
 Als u een Duitse Dog-pup wilt kopen, vraag altijd om deze officiële uitslagen van de ouderdieren:
 
@@ -5055,7 +5055,7 @@ Als u een Duitse Dog-pup wilt kopen, vraag altijd om deze officiële uitslagen v
 
 Koop nooit een pup zonder deze screenings — bij dit ras zijn de risico's op erfelijke aandoeningen te groot om te negeren.
 
-### Levensverwachting
+## Levensverwachting
 
 Een Duitse Dog wordt gemiddeld slechts 6 tot 9 jaar oud. Dit behoort tot de kortste levensverwachtingen van alle rassen. Het motto van eigenaren is vaak: "korte, maar mooie tijd samen".
 
@@ -5088,35 +5088,35 @@ Samenvatting: De Bichon Frisé is een vrolijke, kleine gezelschapshond met een k
 
 De Bichon Frisé is een vrolijk, aanhankelijk klein hondje uit het Middellandse Zeegebied. Populair vanwege de allergiepatiënt-vriendelijke vacht (weinig ruien). Over het algemeen een gezond ras met een lange levensduur.
 
-### 1. Allergieën en huidproblemen
+## 1. Allergieën en huidproblemen
 
 Bichons hebben verhoogd risico op atopische dermatitis (allergie voor pollen, huisstofmijt) en voedselintoleranties. Jeukende huid, oorontstekingen, licken van poten.
 
-### 2. Traanvlekken
+## 2. Traanvlekken
 
 De witte vacht rond de ogen kleurt vaak bruinrood door tranen. Regelmatig schoonmaken en soms medische oorzaak (blockade van traanbuis).
 
-### 3. Blaasstenen
+## 3. Blaasstenen
 
 Bichons hebben verhoogd risico op struviet-blaasstenen. Symptomen: vaker plassen, bloed in urine, pijn bij plassen. Diagnose via echo, behandeling met dieet of operatie.
 
-### 4. Patella luxatie
+## 4. Patella luxatie
 
 Knieschijf-uit-de-kom komt voor.
 
-### 5. Legg-Calvé-Perthes ziekte
+## 5. Legg-Calvé-Perthes ziekte
 
 Aantasting heupgewricht bij jonge honden. Vaak chirurgische behandeling nodig.
 
-### 6. Tandproblemen
+## 6. Tandproblemen
 
 Zoals andere kleine rassen: veel tandsteen. Dagelijks poetsen.
 
-### 7. Vacht-verzorging
+## 7. Vacht-verzorging
 
 De krullende dubbele vacht ruit weinig, maar vraagt dagelijks borstelen en om de 6-8 weken trimmen. Anders ontstaan pijnlijke klitten.
 
-### Gezondheidsscreening bij fokkers
+## Gezondheidsscreening bij fokkers
 
 Als u een Bichon Frisé-pup wilt kopen, vraag altijd om deze officiële uitslagen van de ouderdieren:
 
@@ -5130,7 +5130,7 @@ Als u een Bichon Frisé-pup wilt kopen, vraag altijd om deze officiële uitslage
 
 Koop nooit een pup zonder deze screenings — bij dit ras zijn de risico's op erfelijke aandoeningen te groot om te negeren.
 
-### Levensverwachting
+## Levensverwachting
 
 Een gezonde Bichon Frisé wordt gemiddeld 12 tot 15 jaar oud.
 

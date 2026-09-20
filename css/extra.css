@@ -14,7 +14,7 @@
   .grid-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
   .link-card { display: block; padding: 16px; border: 1px solid #e5e7eb; border-radius: 10px; text-decoration: none; color: #0a1628; transition: all .2s; background: #fff; }
   .link-card:hover { border-color: #00A1E4; background: #f0f9ff; }
-  .link-card h4 { font-size: 15px; font-weight: 700; margin-bottom: 4px; }
+  .link-card h3 { font-size: 15px; font-weight: 700; margin-bottom: 4px; }
   .link-card p { font-size: 13px; color: #6b7280; margin: 0; }
   .tag-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 0; }
   .faq details { border-bottom: 1px solid #eef2f6; padding: 12px 0; }

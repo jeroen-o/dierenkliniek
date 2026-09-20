@@ -31,7 +31,7 @@
   .nearby-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; }
   .nearby-card { display: block; padding: 16px; border: 1px solid #e5e7eb; border-radius: 10px; text-decoration: none; color: #0a1628; transition: all 0.2s; }
   .nearby-card:hover { border-color: #00A1E4; background: #f0f9ff; }
-  .nearby-card h4 { font-size: 15px; font-weight: 700; margin-bottom: 4px; }
+  .nearby-card h3 { font-size: 15px; font-weight: 700; margin-bottom: 4px; }
   .nearby-card p { font-size: 13px; color: #6b7280; margin: 0; }
   
   /* Badge sectie */
@@ -101,7 +101,7 @@
   .footer-brand .logo-mark { background: white; color: #0070AC; width: 32px; height: 32px; border-radius: 6px; display: flex; align-items: center; justify-content: center; }
   .footer-brand .logo-nl { color: #00A1E4; }
   .footer-tagline { font-size: 14px; line-height: 1.6; max-width: 320px; color: rgba(255,255,255,0.7); }
-  .site-footer h5 { color: white; font-size: 14px; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 700; }
+  .site-footer h3 { color: white; font-size: 14px; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 700; }
   .site-footer ul { list-style: none; padding: 0; margin: 0; }
   .site-footer ul li { margin: 6px 0; }
   .site-footer ul li a { color: rgba(255,255,255,0.75); text-decoration: none; font-size: 14px; }
