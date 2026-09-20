@@ -163,7 +163,7 @@ ${JSON.stringify(graph, null, 2)}
 /* Op een eigen pagina is er maar één view en die is altijd zichtbaar. */
 .view { display: block; }
 .dk-kruimel { max-width: 1280px; margin: 0 auto; padding: 18px 24px 0; font-size: 14px; color: #627080; }
-.dk-kruimel a { color: #00A1E4; }
+.dk-kruimel a { color: #0070AC; }
 </style>
 </head>
 <body>

@@ -5,10 +5,10 @@
   header .container { max-width: 900px; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; }
   header .logo { display: flex; align-items: center; gap: 0; font-weight: 800; font-size: 22px; letter-spacing: -0.02em; text-decoration: none; color: #0a1628; } header .logo img { margin-right: 10px; }
   header .logo img { width: 36px; height: 36px; }
-  header .logo .nl { color: #00A1E4; }
+  header .logo .nl { color: #0070AC; }
   main { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
   .breadcrumb { font-size: 14px; color: #6b7280; margin-bottom: 20px; }
-  .breadcrumb a { color: #00A1E4; text-decoration: none; }
+  .breadcrumb a { color: #0070AC; text-decoration: none; }
   h1 { font-size: 36px; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 8px; line-height: 1.1; }
   .subtitle { font-size: 18px; color: #6b7280; margin-bottom: 32px; }
   .card { background: white; border-radius: 12px; padding: 32px; box-shadow: 0 1px 3px rgba(0,0,0,0.04); margin-bottom: 24px; }
@@ -23,9 +23,9 @@
   .clinic-card .specs { color: #4a5568; font-size: 14px; margin-top: 8px; font-style: italic; }
   .clinic-card .actions { margin-top: 16px; display: flex; flex-wrap: wrap; gap: 8px; }
   .btn { display: inline-block; padding: 10px 20px; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 14px; }
-  .btn-primary { background: #00A1E4; color: white; }
-  .btn-primary:hover { background: #0091d4; }
-  .btn-outline { background: white; color: #00A1E4; border: 2px solid #00A1E4; }
+  .btn-primary { background: #0070AC; color: white; }
+  .btn-primary:hover { background: #005e8f; }
+  .btn-outline { background: white; color: #0070AC; border: 2px solid #00A1E4; }
   /* footer styles vervangen door .site-footer */
   @media (max-width: 720px) {
     h1 { font-size: 26px; }
@@ -39,13 +39,13 @@
   .site-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: #0a1628; font-weight: 800; font-size: 20px; letter-spacing: -0.02em; }
   .site-logo .logo-mark { width: 36px; height: 36px; background: linear-gradient(135deg, #00A1E4, #003E7E); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white; }
   .site-logo .logo-mark svg { width: 22px; height: 22px; }
-  .site-logo .logo-nl { color: #00A1E4; }
+  .site-logo .logo-nl { color: #0070AC; }
   .site-nav { display: flex; gap: 24px; flex: 1; justify-content: center; }
   .site-nav a { color: #0a1628; text-decoration: none; font-size: 15px; font-weight: 500; }
   .site-nav a:hover { color: #00A1E4; }
   .site-cta { display: flex; align-items: center; gap: 12px; }
-  .btn-aanmelden { background: #00A1E4; color: white; padding: 8px 18px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 14px; }
-  .btn-aanmelden:hover { background: #0091d4; }
+  .btn-aanmelden { background: #0070AC; color: white; padding: 8px 18px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 14px; }
+  .btn-aanmelden:hover { background: #005e8f; }
   .mobile-menu { display: none; position: relative; }
   .mobile-menu summary { list-style: none; cursor: pointer; padding: 8px; border: none; background: none; display: flex; flex-direction: column; gap: 4px; }
   .mobile-menu summary::-webkit-details-marker { display: none; }
