@@ -449,16 +449,6 @@
     "zo": "gesloten",
     "onbevestigd": true
   },
-  "de-graafschap-dierenartsen-dierenarts-in-velp": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
   "de-graafschap-dierenartsen-dierenarts-in-wehl": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
@@ -740,16 +730,6 @@
     "onbevestigd": true
   },
   "dierenartsen-dier-en-dongen-dierenarts-in-dongen": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
-  "dierenartsen-dokkum-dierenarts-in-dokkum": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
     "wo": "09:00-17:00",
@@ -1369,16 +1349,6 @@
     "zo": "gesloten",
     "onbevestigd": true
   },
-  "dierenkliniek-bemelen-dierenarts-in-bemelen": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
   "dierenkliniek-berkel-en-rodenrijs-dierenarts-in-berkel-en-rodenrijs": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
@@ -1530,16 +1500,6 @@
     "onbevestigd": true
   },
   "dierenkliniek-dallenga-dierenarts-in-appingedam": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
-  "dierenkliniek-davidse-dierenarts-in-hardinxveld-giessendam": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
     "wo": "09:00-17:00",
@@ -2060,16 +2020,6 @@
     "onbevestigd": true
   },
   "dierenkliniek-heusden-dierenarts-in-woudrichem": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
-  "dierenkliniek-heusden-dierenarts-in-heesbeen": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
     "wo": "09:00-17:00",
@@ -3159,16 +3109,6 @@
     "zo": "gesloten",
     "onbevestigd": true
   },
-  "erm-croughs-dierenarts-in-maastricht": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
   "f-c-g-e-b-de-maar-dierenarts-in-wapse": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
@@ -3338,16 +3278,6 @@
     "za": "gesloten",
     "zo": "gesloten",
     "bron": "opgave praktijk per e-mail, 2026-09-16"
-  },
-  "kliniek-voor-gezelschapsdieren-eibergen-dierenarts-in-eibergen": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
   },
   "lingehoeve-diergeneeskunde-dierenarts-in-tiel": {
     "ma": "12:30-17:00",
@@ -7859,16 +7789,6 @@
     "zo": "gesloten",
     "onbevestigd": true
   },
-  "anicura-maastricht-dierenarts-in-maastricht": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
   "biebijen-dierenartsen-dierenarts-in-beek": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
@@ -8070,16 +7990,6 @@
     "onbevestigd": true
   },
   "dierenkliniek-hoogveld-echt-roermond-dierenarts-in-echt": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
-  "dierenkliniek-kapellerlaan-dierenarts-in-roermond": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
     "wo": "09:00-17:00",
@@ -8979,26 +8889,6 @@
     "zo": "gesloten",
     "onbevestigd": true
   },
-  "anicura-den-helder-pasteurstraat-dierenarts-in-den-helder": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
-  "anicura-hoofddorp-ijweg-dierenarts-in-hoofddorp": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
   "centrum-voor-alternatieve-diergeneeskunde-dierenarts-in-amsterdam": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
@@ -9070,16 +8960,6 @@
     "onbevestigd": true
   },
   "dierenartsenpraktijk-alkmaar-noord-dierenarts-in-alkmaar": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
-  "dierenartsenpraktijk-de-krayenhoff-dierenarts-in-naarden": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
     "wo": "09:00-17:00",
@@ -9189,16 +9069,6 @@
     "zo": "gesloten",
     "onbevestigd": true
   },
-  "dierenartspraktijk-in-de-ijmond-dierenarts-in-ijmuiden": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
   "dierenartspraktijk-krommenie-dierenarts-in-krommenie": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
@@ -9280,16 +9150,6 @@
     "onbevestigd": true
   },
   "dierenkliniek-de-zadelkamer-dierenarts-in-hilversum": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
-  "dierenkliniek-de-zon-dierenarts-in-amsterdam": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
     "wo": "09:00-17:00",
@@ -10439,16 +10299,6 @@
     "zo": "gesloten",
     "onbevestigd": true
   },
-  "aa-taxi-dierenarts-in-rotterdam": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
   "absyrtus-b-v-dierenarts-in-ter-aar": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
@@ -10459,27 +10309,7 @@
     "zo": "gesloten",
     "onbevestigd": true
   },
-  "anicura-dierenziekenhuis-drechtstreek-centrum-dierenarts-in-dordrecht": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
   "anicura-strijen-dierenarts-in-strijen": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
-  "anicura-zoeterwoude-dierenarts-in-zoeterwoude": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
     "wo": "09:00-17:00",
@@ -11120,16 +10950,6 @@
     "onbevestigd": true
   },
   "evidensia-dierenzorggroep-louwersplein-dierenarts-in-hendrik-ido-ambacht": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
-  "evidensia-dierenzorggroep-rotterdam-dierenarts-in-rotterdam": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
     "wo": "09:00-17:00",

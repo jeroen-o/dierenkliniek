@@ -3,7 +3,7 @@ HANDLEIDING BADGE — Dierenkliniek Onderbanken
 ============================================================
 
 Uw persoonlijke pagina op Dierenkliniek.nl:
-https://dierenkliniek.nl/dierenkliniek-onderbanken-dierenarts-in-c-schinveld
+https://dierenkliniek.nl/dierenkliniek-onderbanken-dierenarts-in-schinveld
 
 
 == WAT ZIT ER IN DEZE ZIP? ==
@@ -56,7 +56,7 @@ STAP 3: Kopieer een van de onderstaande code-snippets en pas de
 
 --- VARIANT A: Grote partner badge (aanbevolen) ---
 
-<a href="https://dierenkliniek.nl/dierenkliniek-onderbanken-dierenarts-in-c-schinveld"
+<a href="https://dierenkliniek.nl/dierenkliniek-onderbanken-dierenarts-in-schinveld"
    target="_blank"
    title="Partner van Dierenkliniek.nl"
    rel="noopener">
@@ -68,7 +68,7 @@ STAP 3: Kopieer een van de onderstaande code-snippets en pas de
 
 --- VARIANT B: Kleine 'Vermeld op' badge (subtieler) ---
 
-<a href="https://dierenkliniek.nl/dierenkliniek-onderbanken-dierenarts-in-c-schinveld"
+<a href="https://dierenkliniek.nl/dierenkliniek-onderbanken-dierenarts-in-schinveld"
    target="_blank"
    title="Vermeld op Dierenkliniek.nl"
    rel="noopener">
@@ -82,7 +82,7 @@ STAP 3: Kopieer een van de onderstaande code-snippets en pas de
 
 Wilt u de badge niet zelf uploaden? Gebruik dan onze publieke URL:
 
-<a href="https://dierenkliniek.nl/dierenkliniek-onderbanken-dierenarts-in-c-schinveld"
+<a href="https://dierenkliniek.nl/dierenkliniek-onderbanken-dierenarts-in-schinveld"
    target="_blank"
    title="Partner van Dierenkliniek.nl"
    rel="noopener">

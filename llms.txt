@@ -25,10 +25,10 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 - [Dierenklinieken in Zuid-Holland](https://dierenkliniek.nl/dierenklinieken-zuid-holland): 210 klinieken, waarvan 20 met 24/7 spoedhulp
 - [Dierenklinieken in Noord-Brabant](https://dierenkliniek.nl/dierenklinieken-noord-brabant): 165 klinieken, waarvan 18 met 24/7 spoedhulp
-- [Dierenklinieken in Gelderland](https://dierenkliniek.nl/dierenklinieken-gelderland): 156 klinieken, waarvan 16 met 24/7 spoedhulp
+- [Dierenklinieken in Gelderland](https://dierenkliniek.nl/dierenklinieken-gelderland): 157 klinieken, waarvan 16 met 24/7 spoedhulp
 - [Dierenklinieken in Noord-Holland](https://dierenkliniek.nl/dierenklinieken-noord-holland): 155 klinieken, waarvan 17 met 24/7 spoedhulp
 - [Dierenklinieken in Utrecht](https://dierenkliniek.nl/dierenklinieken-utrecht): 98 klinieken, waarvan 12 met 24/7 spoedhulp
-- [Dierenklinieken in Limburg](https://dierenkliniek.nl/dierenklinieken-limburg): 81 klinieken, waarvan 3 met 24/7 spoedhulp
+- [Dierenklinieken in Limburg](https://dierenkliniek.nl/dierenklinieken-limburg): 82 klinieken, waarvan 3 met 24/7 spoedhulp
 - [Dierenklinieken in Overijssel](https://dierenkliniek.nl/dierenklinieken-overijssel): 76 klinieken, waarvan 3 met 24/7 spoedhulp
 - [Dierenklinieken in Friesland](https://dierenkliniek.nl/dierenklinieken-friesland): 49 klinieken, waarvan 4 met 24/7 spoedhulp
 - [Dierenklinieken in Groningen](https://dierenkliniek.nl/dierenklinieken-groningen): 39 klinieken, waarvan 2 met 24/7 spoedhulp
