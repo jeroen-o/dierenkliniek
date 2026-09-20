@@ -53,26 +53,28 @@
   <meta name="twitter:description" content="Onafhankelijk overzicht van alle 1106 dierenklinieken in Nederland.">
   <meta name="description" content="Onafhankelijk overzicht van alle dierenklinieken in Nederland. Vind een kliniek bij u in de buurt op postcode of plaats.">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<!-- Niet render-blocking: het lettertype-CSS zelf hoeft de eerste render
-     niet tegen te houden. font-display:swap in de query-string zorgt
-     ervoor dat tekst meteen zichtbaar is in een systeemfont totdat Manrope
-     geladen is. -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" media="print" onload="this.media='all'">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"></noscript>
-<link rel="preconnect" href="https://unpkg.com" crossorigin>
-<!-- Leaflet-CSS niet render-blocking: de kaart verschijnt pas na interactie -->
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" media="print" onload="this.media='all'">
+<!-- Manrope zelf gehost (was Google Fonts): geen externe DNS/TLS-round-trip
+     meer en geen los CSS-verzoek — de @font-face-regels staan inline in de
+     <style> hieronder. font-display:swap zorgt dat tekst meteen zichtbaar
+     is in een systeemfont totdat het lettertype geladen is. -->
+<!-- Leaflet CSS/JS zelf gehost (was unpkg.com), zelfde reden. De CSS blijft
+     non-blocking geladen: de kaart verschijnt toch pas na interactie. -->
+<link rel="stylesheet" href="/vendor/leaflet/leaflet.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="/vendor/leaflet/MarkerCluster.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="/vendor/leaflet/MarkerCluster.Default.css" media="print" onload="this.media='all'">
 <noscript>
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
-<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
+<link rel="stylesheet" href="/vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="/vendor/leaflet/MarkerCluster.css">
+<link rel="stylesheet" href="/vendor/leaflet/MarkerCluster.Default.css">
 </noscript>
 
 <style>
+@font-face { font-family: 'Manrope'; font-style: normal; font-weight: 300; font-display: swap; src: url('/fonts/manrope-300.woff2') format('woff2'); }
+@font-face { font-family: 'Manrope'; font-style: normal; font-weight: 400; font-display: swap; src: url('/fonts/manrope-400.woff2') format('woff2'); }
+@font-face { font-family: 'Manrope'; font-style: normal; font-weight: 500; font-display: swap; src: url('/fonts/manrope-500.woff2') format('woff2'); }
+@font-face { font-family: 'Manrope'; font-style: normal; font-weight: 600; font-display: swap; src: url('/fonts/manrope-600.woff2') format('woff2'); }
+@font-face { font-family: 'Manrope'; font-style: normal; font-weight: 700; font-display: swap; src: url('/fonts/manrope-700.woff2') format('woff2'); }
+@font-face { font-family: 'Manrope'; font-style: normal; font-weight: 800; font-display: swap; src: url('/fonts/manrope-800.woff2') format('woff2'); }
 :root {
   --dk-blue: #00A1E4;
   --dk-blue-dark: #0070AC;
@@ -5175,8 +5177,8 @@ body.has-compare-bar { padding-bottom: 90px; }
   </div>
 </footer>
 
-<script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script defer src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script defer src="/vendor/leaflet/leaflet.js"></script>
+<script defer src="/vendor/leaflet/leaflet.markercluster.js"></script>
 <script>
 // ============ DATA ============
 const CLINICS = [

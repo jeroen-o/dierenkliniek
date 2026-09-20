@@ -29,10 +29,6 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#00A1E4">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" media="print" onload="this.media='all'">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"></noscript>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -149,7 +145,26 @@
   ]
 }
 </script>
+<style> hieronder. font-display:swap zorgt dat tekst meteen zichtbaar
+     is in een systeemfont totdat het lettertype geladen is. -->
+<!-- Leaflet CSS/JS zelf gehost (was unpkg.com), zelfde reden. De CSS blijft
+     non-blocking geladen: de kaart verschijnt toch pas na interactie. -->
+<link rel="stylesheet" href="/vendor/leaflet/leaflet.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="/vendor/leaflet/MarkerCluster.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="/vendor/leaflet/MarkerCluster.Default.css" media="print" onload="this.media='all'">
+<noscript>
+<link rel="stylesheet" href="/vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="/vendor/leaflet/MarkerCluster.css">
+<link rel="stylesheet" href="/vendor/leaflet/MarkerCluster.Default.css">
+</noscript>
+
 <style>
+@font-face { font-family: 'Manrope'; font-style: normal; font-weight: 300; font-display: swap; src: url('/fonts/manrope-300.woff2') format('woff2'); }
+@font-face { font-family: 'Manrope'; font-style: normal; font-weight: 400; font-display: swap; src: url('/fonts/manrope-400.woff2') format('woff2'); }
+@font-face { font-family: 'Manrope'; font-style: normal; font-weight: 500; font-display: swap; src: url('/fonts/manrope-500.woff2') format('woff2'); }
+@font-face { font-family: 'Manrope'; font-style: normal; font-weight: 600; font-display: swap; src: url('/fonts/manrope-600.woff2') format('woff2'); }
+@font-face { font-family: 'Manrope'; font-style: normal; font-weight: 700; font-display: swap; src: url('/fonts/manrope-700.woff2') format('woff2'); }
+@font-face { font-family: 'Manrope'; font-style: normal; font-weight: 800; font-display: swap; src: url('/fonts/manrope-800.woff2') format('woff2'); }
 :root {
   --dk-blue: #00A1E4;
   --dk-blue-dark: #0070AC;
