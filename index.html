@@ -6730,6 +6730,10 @@ const VIEW_META = {
   contact: { title: 'Contact — dierenkliniek.nl', desc: 'Stel uw vraag of stuur ons een bericht. Wij reageren binnen twee werkdagen.' },
   english: { title: 'English — dierenkliniek.nl | Find a Dutch veterinarian', desc: 'Independent directory of all veterinary clinics in the Netherlands. Find a vet near you or a 24/7 emergency clinic.' },
   vaccinatieplanner: { title: 'Vaccinatie-planner hond en kat — dierenkliniek.nl', desc: 'Bereken gratis het vaccinatieschema van uw hond of kat op basis van geboortedatum, volgens de Nederlandse standaardprotocollen (KNMvD/WSAVA).' },
+  beslisboom: { title: 'Moet ik naar de dierenarts? Beslisboom — dierenkliniek.nl', desc: 'Korte beslisboom die u helpt inschatten of u direct moet bellen, dezelfde dag een afspraak maakt, of het nog even kunt aankijken.' },
+  privacy: { title: 'Privacyverklaring — dierenkliniek.nl', desc: 'Hoe Dierenkliniek.nl omgaat met uw persoonsgegevens.' },
+  voorwaarden: { title: 'Algemene voorwaarden — dierenkliniek.nl', desc: 'Onder welke voorwaarden Dierenkliniek.nl haar diensten aanbiedt.' },
+  cookies: { title: 'Cookieverklaring — dierenkliniek.nl', desc: 'Welke cookies Dierenkliniek.nl gebruikt en waarom.' },
 };
 
 function navigate(view) {
@@ -7926,14 +7930,14 @@ function setCanonical(pathOrUrl) {
   } catch (e) { /* canonical is best-effort */ }
 }
 
-// SEO: een handvol juridische/utility-views (privacy, voorwaarden, cookies,
-// beslisboom) heeft geen eigen statische pagina en toont dezelfde HTML-shell
-// als de rest van de SPA. Search Console meldde deze daardoor als
-// "gecrawld/gevonden, niet geïndexeerd". Ze bevatten geen content die op
-// zichzelf hoeft te ranken, dus krijgen ze noindex; alle andere routes
-// (incl. de klinieken, die wél een eigen statische pagina hebben, en de
-// vaccinatie-planner, die inhoudelijk genoeg is om zelf te ranken) blijven index.
-const NOINDEX_VIEWS = ['privacy', 'voorwaarden', 'cookies', 'beslisboom'];
+// SEO: alle views staan op index,follow, incl. de juridische/utility-views
+// (privacy, voorwaarden, cookies, beslisboom) die geen eigen statische
+// pagina hebben en dezelfde HTML-shell tonen als de rest van de SPA.
+// Search Console meldde deze eerder als "gecrawld/gevonden, niet
+// geïndexeerd" — dat is een kwaliteitsbeslissing van Google zelf (dunne
+// content), geen fout onzerzijds; noindex is bewust losgelaten. Zet een
+// view-naam in NOINDEX_VIEWS om 'm alsnog uit te sluiten.
+const NOINDEX_VIEWS = [];
 function setRobots(view) {
   try {
     let el = document.querySelector('meta[name="robots"]');
