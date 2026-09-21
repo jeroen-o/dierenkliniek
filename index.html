@@ -6729,6 +6729,7 @@ const VIEW_META = {
   provincies: { title: 'Dierenklinieken per provincie — dierenkliniek.nl', desc: 'Bekijk alle dierenklinieken per provincie van Nederland.' },
   contact: { title: 'Contact — dierenkliniek.nl', desc: 'Stel uw vraag of stuur ons een bericht. Wij reageren binnen twee werkdagen.' },
   english: { title: 'English — dierenkliniek.nl | Find a Dutch veterinarian', desc: 'Independent directory of all veterinary clinics in the Netherlands. Find a vet near you or a 24/7 emergency clinic.' },
+  vaccinatieplanner: { title: 'Vaccinatie-planner hond en kat — dierenkliniek.nl', desc: 'Bereken gratis het vaccinatieschema van uw hond of kat op basis van geboortedatum, volgens de Nederlandse standaardprotocollen (KNMvD/WSAVA).' },
 };
 
 function navigate(view) {
@@ -7926,12 +7927,13 @@ function setCanonical(pathOrUrl) {
 }
 
 // SEO: een handvol juridische/utility-views (privacy, voorwaarden, cookies,
-// beslisboom, vaccinatieplanner) heeft geen eigen statische pagina en toont
-// dezelfde HTML-shell als de rest van de SPA. Search Console meldde deze
-// daardoor als "gecrawld/gevonden, niet geïndexeerd". Ze bevatten geen content
-// die op zichzelf hoeft te ranken, dus krijgen ze noindex; alle andere routes
-// (incl. de klinieken, die wél een eigen statische pagina hebben) blijven index.
-const NOINDEX_VIEWS = ['privacy', 'voorwaarden', 'cookies', 'beslisboom', 'vaccinatieplanner'];
+// beslisboom) heeft geen eigen statische pagina en toont dezelfde HTML-shell
+// als de rest van de SPA. Search Console meldde deze daardoor als
+// "gecrawld/gevonden, niet geïndexeerd". Ze bevatten geen content die op
+// zichzelf hoeft te ranken, dus krijgen ze noindex; alle andere routes
+// (incl. de klinieken, die wél een eigen statische pagina hebben, en de
+// vaccinatie-planner, die inhoudelijk genoeg is om zelf te ranken) blijven index.
+const NOINDEX_VIEWS = ['privacy', 'voorwaarden', 'cookies', 'beslisboom'];
 function setRobots(view) {
   try {
     let el = document.querySelector('meta[name="robots"]');

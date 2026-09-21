@@ -53,12 +53,12 @@ const hoofd = [
     .map(s => u('/' + s, '0.7', 'monthly')),
   // Views die nog geen eigen statische pagina hebben, met echte content
   // die het waard is om te ranken.
-  ...['aanmelden', 'english']
+  ...['aanmelden', 'english', 'vaccinatieplanner']
     .map(v => u('/?view=' + v, '0.6', 'monthly')),
-  // vaccinatieplanner, beslisboom, privacy, voorwaarden en cookies staan hier
-  // bewust niet in: het zijn utility-views zonder eigen statische pagina die
-  // Search Console als "gecrawld, niet geïndexeerd" meldde. Ze krijgen noindex
-  // (zie setRobots() in index.html) en horen dus niet in de sitemap.
+  // beslisboom, privacy, voorwaarden en cookies staan hier bewust niet in:
+  // het zijn utility-views zonder eigen statische pagina die Search Console
+  // als "gecrawld, niet geïndexeerd" meldde. Ze krijgen noindex (zie
+  // setRobots() in index.html) en horen dus niet in de sitemap.
 ];
 
 /* ---- kennisbank ---- */
