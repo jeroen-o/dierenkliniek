@@ -310,14 +310,13 @@
     "onbevestigd": true
   },
   "dap-proosdijlanden-dierenarts-in-abcoude": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "ma": "09:00-18:00",
+    "di": "09:00-18:00",
+    "wo": "09:00-18:00",
+    "do": "09:00-18:00",
+    "vr": "09:00-18:00",
+    "za": "10:00-12:00",
+    "zo": "gesloten"
   },
   "dap-schoonhoven-dierenarts-in-schoonhoven": {
     "ma": "12:30-17:00",
@@ -340,14 +339,13 @@
     "onbevestigd": true
   },
   "dap-tusken-diken-en-feanen-dierenarts-in-drogeham": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "ma": "08:00-18:00",
+    "di": "08:00-18:00",
+    "wo": "08:00-18:00",
+    "do": "08:00-18:00",
+    "vr": "08:00-18:00",
+    "za": "08:30-12:00",
+    "zo": "gesloten"
   },
   "dap-west-betuwe-dierenarts-in-meteren": {
     "ma": "12:30-17:00",
@@ -2720,14 +2718,13 @@
     "bron": "opgave praktijk per e-mail, 2026-09-17 (Marissa)"
   },
   "dierenkliniek-wolvega-dierenarts-in-wolvega": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:00-18:00",
+    "di": "08:00-18:00",
+    "wo": "08:00-18:00",
+    "do": "08:00-18:00",
+    "vr": "08:00-18:00",
     "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "zo": "gesloten"
   },
   "dierenkliniek-zamenhofdreef-dierenarts-in-utrecht": {
     "ma": "09:00-18:00",

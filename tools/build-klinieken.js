@@ -217,7 +217,10 @@ function kliniekPagina(c) {
   const badgeCode = `<a href="${url}" target="_blank" title="Partner van Dierenkliniek.nl" rel="noopener"><img src="${SITE}/badges/${slug}-partner.png" alt="Partner van Dierenkliniek.nl — ${c.name}" width="200" height="200"></a>`;
 
   const knoppen = [
-    (c.lat && c.lng) ? `<a href="https://www.google.com/maps/dir/?api=1&destination=${c.lat},${c.lng}" class="btn" target="_blank" rel="noopener">📍 Route via Google Maps</a>` : '',
+    // Adrestekst i.p.v. lat/lng: sommige klinieken hebben alleen een grove
+    // (bijv. plaats-centrum) coördinaat, waardoor Google Maps soms naar een
+    // andere, verkeerd genaamde zaak in de buurt routeert.
+    `<a href="https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(c.address + ', ' + c.postcode + ' ' + c.city)}" class="btn" target="_blank" rel="noopener">📍 Route via Google Maps</a>`,
     c.phone ? `<a href="${telHref(c.phone)}" class="btn btn-outline">📞 Bel ${esc(c.phone)}</a>` : '',
     c.whatsapp ? `<a href="${waHref(c.whatsapp)}" class="btn btn-whatsapp" target="_blank" rel="noopener">💬 WhatsApp</a>` : ''
   ].filter(Boolean);
