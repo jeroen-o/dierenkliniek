@@ -184,9 +184,22 @@ function kliniekPagina(c) {
 
   const contactZin = [c.phone ? `Bel ${c.phone}` : '', c.website ? 'bezoek de website' : '']
     .filter(Boolean).join(' of ');
+  // Onderscheidende zin t.o.v. de eigen website van de kliniek zelf — alleen
+  // op basis van wat er echt in de data staat (geen "vergelijk 3 klinieken"
+  // als er er maar 1 is). Spoedstatus weegt zwaarder dan het aantal andere
+  // klinieken, want dat is de sterkere reden om juist hier te landen.
+  const isSpoed = (c.tags || []).includes('spoed');
+  const onderscheid = isSpoed
+    ? ' Biedt 24/7 spoedhulp.'
+    : anderen.length > 0
+      ? ` Vergelijk met ${anderen.length === 1 ? 'nog 1 andere kliniek' : 'nog ' + anderen.length + ' andere klinieken'} in ${c.city}.`
+      : '';
   const description = kortGenoeg(
-    `${c.name} in ${c.city}. ${c.address}, ${c.postcode} ${c.city}.${contactZin ? ' ' + contactZin.charAt(0).toUpperCase() + contactZin.slice(1) + '.' : ''}`,
-    `${c.name}, dierenarts in ${c.city}.${contactZin ? ' ' + contactZin.charAt(0).toUpperCase() + contactZin.slice(1) + '.' : ''}`
+    `${c.name} in ${c.city}. ${c.address}, ${c.postcode} ${c.city}.${onderscheid}${contactZin ? ' ' + contactZin.charAt(0).toUpperCase() + contactZin.slice(1) + '.' : ''}`,
+    kortGenoeg(
+      `${c.name}, dierenarts in ${c.city}.${onderscheid}${contactZin ? ' ' + contactZin.charAt(0).toUpperCase() + contactZin.slice(1) + '.' : ''}`,
+      `${c.name}, dierenarts in ${c.city}.${onderscheid}`
+    )
   );
 
   const ld = {
