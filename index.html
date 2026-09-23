@@ -2655,7 +2655,7 @@ body.has-compare-bar { padding-bottom: 90px; }
       <div class="cta-banner-grid">
         <div>
           <h2>Bent u dierenarts? Vergroot uw online vindbaarheid.</h2>
-          <p>Sluit gratis aan bij het grootste onafhankelijke kliniekenoverzicht van Nederland — 1.127 klinieken in 598 plaatsen. Upgrade voor een hogere positie binnen 10&nbsp;km van elke zoekopdracht.</p>
+          <p>Sluit gratis aan bij het grootste onafhankelijke kliniekenoverzicht van Nederland — 1.127 klinieken in 598 plaatsen. Upgrade voor een hogere, duidelijk gelabelde positie in overzichten en zoekresultaten.</p>
           <div class="cta-banner-points">
             <div class="cta-banner-point"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Eigen kliniekprofiel</div>
             <div class="cta-banner-point"><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Statistieken-dashboard</div>
@@ -2821,21 +2821,19 @@ body.has-compare-bar { padding-bottom: 90px; }
 
   <section class="container" style="padding:48px 0; max-width:800px; margin:0 auto;">
     <h2>Onze belofte</h2>
-    <p>Dierenkliniek.nl is een onafhankelijk informatieplatform. Wij vergelijken alle dierenklinieken in Nederland op objectieve kenmerken — locatie, contactgegevens en beschikbaarheid. Een betaald pakket kan de positie binnen 10 km van een zoekopdracht beïnvloeden, maar dat gebeurt nooit verborgen: zo'n vermelding is altijd herkenbaar gelabeld als "Plus" of "Gesponsord", en een Gratis-vermelding verdwijnt daardoor nooit buiten beeld of van de site.</p>
-    <!-- LET OP: op stad-, provincie- en de standaard "alle klinieken"-pagina's (zonder actieve locatiezoekopdracht) geldt deze 10 km-grens momenteel niet in de code — daar staat een betaald pakket altijd vooraan, ongeacht afstand. Zie renderSearchResults()/renderClinicResultCard() in dit bestand. Tekst hier gaat uit van het beleid zoals elders op de site beschreven (pakketten-pagina); dit is een bekend punt van aandacht, nog niet opgelost. -->
-
+    <p>Dierenkliniek.nl is een onafhankelijk informatieplatform. Wij vergelijken alle dierenklinieken in Nederland op objectieve kenmerken — locatie, contactgegevens en beschikbaarheid. Een betaald pakket kan de positie in overzichten beïnvloeden — in stad-, provincie- en zoekresultaten staat een Plus- of Premium-kliniek als eerste, en zoekt u op postcode of plaats, dan geldt dat in elk geval binnen 10 km. Dat gebeurt nooit verborgen: zo'n vermelding is altijd herkenbaar gelabeld als "Plus" of "Gesponsord", en een Gratis-vermelding verdwijnt daardoor nooit buiten beeld of van de site.</p>
     <h3 style="margin-top:32px;">Hoe wij geld verdienen</h3>
     <p>Klinieken kunnen kiezen voor een betaald lidmaatschap dat hen extra functionaliteit op hun profiel biedt:</p>
     <ul>
       <li><strong>Basis (gratis, al actief)</strong> — directe contactgegevens en link naar Google Reviews</li>
-      <li><strong>Plus (€395/jaar)</strong> — uitgebreid profiel met foto's, en een hogere positie binnen 10 km van een zoekopdracht (herkenbaar aan het label "Plus")</li>
+      <li><strong>Plus (€395/jaar)</strong> — uitgebreid profiel met foto's, en een hogere positie in overzichten en zoekresultaten (herkenbaar aan het label "Plus")</li>
       <li><strong>Premium (€795+/jaar)</strong> — multi-vestiging beheer, branded landingspagina en topvermelding met eigen accent (herkenbaar aan het label "⭐ Gesponsord")</li>
     </ul>
     <p>Topvermelding (het gouden accent bovenaan) is op aanvraag ook beschikbaar voor Plus-leden.</p>
 
     <h3 style="margin-top:32px;">Wat wij nooit doen</h3>
     <ul>
-      <li>Geen verkoop van zoekrangschikking zonder duidelijke labeling — een betaalde positie binnen 10 km is altijd te herkennen aan het label "Plus" of "⭐ Gesponsord", en verder dan 10 km bepaalt alleen de afstand de volgorde</li>
+      <li>Geen verkoop van zoekrangschikking zonder duidelijke labeling — een betaalde positie is altijd te herkennen aan het label "Plus" of "⭐ Gesponsord"; zoekt u op postcode of plaats, dan bepaalt buiten 10 km alleen de afstand de volgorde</li>
       <li>Geen verborgen advertenties of "sponsored content" zonder duidelijke labeling</li>
       <li>Geen verkoop van persoonsgegevens van bezoekers aan derden</li>
       <li>Geen affiliate-deals met dierverzekeraars, voer-merken of medicijnverkopers waarbij wij meeliften op uw zoekgedrag</li>
@@ -3349,7 +3347,7 @@ body.has-compare-bar { padding-bottom: 90px; }
       </div>
       <details class="rangschikking-info">
         <summary>Waarom zie ik deze volgorde?</summary>
-        <p>Zoekt u op postcode of plaats, dan kunnen klinieken met een betaald Plus- of Premium-pakket binnen 10&nbsp;km hoger getoond worden dan hun afstand alleen zou opleveren; verder weg bepaalt alleen de afstand de volgorde. Zulke vermeldingen zijn duidelijk gemarkeerd met "Plus" of "⭐ Gesponsord". Een Gratis-vermelding wordt door een betaald pakket nooit verborgen of van de site gehaald. <a href="/?view=onafhankelijkheid" onclick="navigate('onafhankelijkheid');return false;">Hoe wij geld verdienen</a></p>
+        <p>Klinieken met een betaald Plus- of Premium-pakket worden als eerste getoond, duidelijk gemarkeerd met "Plus" of "⭐ Gesponsord". Zoekt u op postcode of plaats, dan geldt die voorrang in elk geval binnen 10&nbsp;km; verder weg bepaalt alleen de afstand de volgorde. Een Gratis-vermelding wordt door een betaald pakket nooit verborgen of van de site gehaald. <a href="/?view=onafhankelijkheid" onclick="navigate('onafhankelijkheid');return false;">Hoe wij geld verdienen</a></p>
       </details>
       <div class="results-list" id="resultsList"></div>
       <div id="mapView" style="display:none;">
@@ -4921,7 +4919,7 @@ body.has-compare-bar { padding-bottom: 90px; }
       <div>
         <div class="section-eyebrow">Pakketten</div>
         <h2 class="section-title">Kies wat past bij uw kliniek</h2>
-        <p class="section-sub">Alle prijzen excl. btw, per vestiging. Maandelijks opzegbaar na het eerste jaar. Elke kliniek blijft zichtbaar met volledige contactgegevens, ook zonder abonnement. Een betaald pakket geeft een hogere positie binnen 10 km van de zoekopdracht, maar houdt nooit een andere praktijk uit de resultaten.</p>
+        <p class="section-sub">Alle prijzen excl. btw, per vestiging. Maandelijks opzegbaar na het eerste jaar. Elke kliniek blijft zichtbaar met volledige contactgegevens, ook zonder abonnement. Een betaald pakket geeft een hogere, duidelijk gelabelde positie in overzichten en zoekresultaten (bij een zoekopdracht op postcode of plaats: in elk geval binnen 10 km), maar houdt nooit een andere praktijk uit de resultaten.</p>
       </div>
     </div>
         <div class="pricing-grid">
@@ -4945,7 +4943,7 @@ body.has-compare-bar { padding-bottom: 90px; }
           <li><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>Eigen foto's op uw profiel</li>
           <li><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>Eigen omschrijving in plaats van standaardtekst</li>
           <li><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>Openingstijden en specialisaties zichtbaar</li>
-          <li><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>Hogere positie binnen 10 km van de zoekopdracht</li>
+          <li><svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>Hogere positie in overzichten en zoekresultaten</li>
         </ul>
         <button class="btn btn-primary btn-block" onclick="navigateToAanmelden('Plus')">Kies Plus</button>
       </div>
