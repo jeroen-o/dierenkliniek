@@ -48,11 +48,102 @@ const DISCLAIMER = `<div class="callout">
   bekijk de <a href="/spoedhulp">klinieken met 24/7 spoedhulp</a>.
 </div>`;
 
+// Rasartikelen (20 stuks) delen allemaal category "praktisch" met tal van
+// niet-rasgerelateerde artikelen, dus de gewone sameAnimal/sameCategory-
+// volgorde in related() haalde zelden een ander ras naar boven. Expliciete
+// lijst, zodat een bezoeker op één rasartikel de andere rassen vindt.
+const RAS_SLUGS = new Set([
+  'australian-shepherd-gezondheidsproblemen-en-beweging-behoeften',
+  'beagle-gezondheidsproblemen-en-verzorging',
+  'berner-sennenhond-gezondheidsproblemen-en-korte-levensduur',
+  'bichon-frise-gezondheidsproblemen-en-vachtverzorging',
+  'border-collie-gezondheidsproblemen-en-beweging-behoeften',
+  'boxer-gezondheidsproblemen-en-aandachtspunten',
+  'cavalier-king-charles-spaniel-hartklachten-en-meer',
+  'chihuahua-veelvoorkomende-gezondheidsproblemen-en-verzorging',
+  'cocker-spaniel-gezondheidsproblemen-van-deze-vrolijke-jachthond',
+  'duitse-dog-gezondheidsproblemen-en-zeer-korte-levensduur',
+  'duitse-herder-veelvoorkomende-gezondheidsproblemen-en-preventie',
+  'dwergpoedel-gezondheidsproblemen-en-verzorging',
+  'franse-bulldog-gezondheidsproblemen-door-platte-snuit-en-meer',
+  'golden-retriever-veelvoorkomende-gezondheidsproblemen-en-levensverwachting',
+  'jack-russell-terrier-gezondheidsproblemen-en-energie-behoeften',
+  'labrador-retriever-veelvoorkomende-gezondheidsproblemen-en-preventie',
+  'mopshond-ernstige-gezondheidsproblemen-door-platte-snuit',
+  'nederlands-kooikerhondje-erfelijke-aandoeningen-en-behoud-van-het-ras',
+  'rottweiler-gezondheidsproblemen-en-verantwoord-bezit',
+  'shih-tzu-gezondheidsproblemen-door-platte-snuit-en-klein-formaat',
+  'teckel-rugproblemen-en-verzorging-van-de-worstenhond',
+]);
+
+// Onderwerpclusters: AI-zoekmachines (Google AI Mode e.d.) splitsen één vraag
+// vaak op in deelvragen, bijv. "kat drinkt veel" → oorzaken, wanneer naar de
+// dierenarts, kosten van bloedonderzoek, dierenarts in de buurt. Deze
+// artikelen horen inhoudelijk bij elkaar; een expliciete kruislink-box zorgt
+// dat elke deelvraag de andere in het cluster kan vinden — los van de
+// algemene, algoritmische related() hierboven.
+const CLUSTERS = [
+  {
+    naam: 'Oudere kat',
+    slugs: [
+      'hoe-oud-wordt-mijn-kat-levensverwachting-en-verzorging-op-leeftijd',
+      'nierproblemen-bij-oudere-katten',
+      'kat-drinkt-veel-mogelijke-oorzaken-en-wanneer-u-moet-ingrijpen',
+      'senior-huisdier-zorg-voor-de-tweede-levenshelft',
+      'afscheid-nemen-euthanasie-en-rouw',
+    ]
+  },
+  {
+    naam: 'Pup en kitten',
+    slugs: [
+      'vaccinatieschema-voor-honden-en-katten-wanneer-welke-prik',
+      'vaccinatieschema-voor-katten-binnen-of-buiten-dat-maakt-uit',
+      'ontwormen-en-vlooien-een-praktisch-schema',
+      'chippen-wat-moet-u-weten',
+      'castreren-of-steriliseren-hond-wat-is-het-verschil',
+      'puppy-de-eerste-maanden-zijn-cruciaal',
+      'net-een-nieuw-huisdier-checklist-voor-de-eerste-maand',
+    ]
+  },
+  {
+    naam: 'Spoed',
+    slugs: [
+      'wanneer-is-iets-echt-een-spoedgeval',
+      'vergiftiging-deze-stoffen-zijn-levensgevaarlijk',
+      'eerste-hulp-bij-dieren-wat-te-doen-bij-een-spoedgeval',
+      'wat-kost-een-spoedvisite-bij-de-dierenarts',
+    ],
+    extraLink: { label: 'Spoeddierenarts per provincie →', url: '/spoedhulp' }
+  }
+];
+
+function clusterBlok(a) {
+  const cluster = CLUSTERS.find(c => c.slugs.includes(a.slug));
+  if (!cluster) return '';
+  const anderen = cluster.slugs.filter(s => s !== a.slug).map(s => bySlug[s]).filter(Boolean);
+  if (!anderen.length) return '';
+  return `<section class="card" style="border-left:4px solid #00A1E4; background:#f0f9ff;">
+  <h2 style="margin-top:0;">Onderdeel van: ${L.esc(cluster.naam)}</h2>
+  <ul style="margin-top:8px; line-height:1.9;">
+    ${anderen.map(x => `<li><a href="/kennisbank/${x.slug}">${L.esc(x.title)}</a></li>`).join('\n    ')}
+    ${cluster.extraLink ? `<li><a href="${cluster.extraLink.url}">${L.esc(cluster.extraLink.label)}</a></li>` : ''}
+  </ul>
+</section>`;
+}
+
+// Al genoemd in een clusterbox? Dan niet ook nog eens in "Verder lezen" —
+// dat zou dezelfde twee, drie links dubbel op de pagina zetten.
 function related(a) {
-  const sameAnimal = articles.filter(x => x.id !== a.id && a.animal && x.animal === a.animal);
-  const sameCat = articles.filter(x => x.id !== a.id && x.category === a.category && !sameAnimal.includes(x));
-  const rest = articles.filter(x => x.id !== a.id && !sameAnimal.includes(x) && !sameCat.includes(x));
-  return [...sameAnimal, ...sameCat, ...rest].slice(0, 6);
+  const clusterSlugs = new Set((CLUSTERS.find(c => c.slugs.includes(a.slug)) || { slugs: [] }).slugs);
+  const rasGenoten = RAS_SLUGS.has(a.slug)
+    ? articles.filter(x => x.id !== a.id && RAS_SLUGS.has(x.slug))
+    : [];
+  const sameAnimal = articles.filter(x => x.id !== a.id && a.animal && x.animal === a.animal && !rasGenoten.includes(x));
+  const sameCat = articles.filter(x => x.id !== a.id && x.category === a.category && !rasGenoten.includes(x) && !sameAnimal.includes(x));
+  const rest = articles.filter(x => x.id !== a.id && !rasGenoten.includes(x) && !sameAnimal.includes(x) && !sameCat.includes(x));
+  return [...rasGenoten, ...sameAnimal, ...sameCat, ...rest]
+    .filter(x => !clusterSlugs.has(x.slug))
+    .slice(0, 6);
 }
 
 // level: welke koptekst de kaarten krijgen, afhankelijk van wat eraan
@@ -130,6 +221,8 @@ function articlePage(a) {
 </article>
 
 ${a.faq && a.faq.length ? L.faqHtml(a.faq) : ''}
+
+${clusterBlok(a)}
 
 <section class="card">
   <h2>Verder lezen</h2>
