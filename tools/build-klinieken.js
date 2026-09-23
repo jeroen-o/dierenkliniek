@@ -510,7 +510,27 @@ ${buurt.map(({ o, d }) => `        <a href="/${clinicSlug(o)}" class="nearby-car
   // kliniek — niet uit een vaste zin die overal hetzelfde is.
   const introTekst = (() => {
     if (n !== 1) {
-      return `In ${esc(city)} zijn ${n} dierenklinieken actief. U kunt ze hieronder vergelijken op adres, contactgegevens en specialisaties.`;
+      // Feitelijke, per-plaats verschillende alinea i.p.v. één vaste zin met
+      // alleen de plaatsnaam verwisseld — gebouwd uit dezelfde cijfers als
+      // overzichtPunten hierboven, maar als doorlopende tekst.
+      const zinnen = [`In ${esc(city)} zijn ${n} dierenklinieken actief. U kunt ze hieronder vergelijken op adres, contactgegevens en specialisaties.`];
+      // "Spoed 24/7" niet meetellen als specialisatie hier — dat krijgt zijn
+      // eigen zin hieronder, anders herhaalt de tekst zichzelf.
+      const topSpecsZonderSpoed = topSpecs.filter(([s]) => s !== 'Spoed 24/7');
+      if (topSpecsZonderSpoed.length) {
+        const top = topSpecsZonderSpoed.slice(0, 3).map(([s, aantal]) => `${esc(s.toLowerCase())} (${aantal})`).join(', ');
+        zinnen.push(`De meest voorkomende specialisaties onder de klinieken in ${esc(city)} zijn ${top}.`);
+      }
+      if (spoed > 0) {
+        zinnen.push(`${spoed} van de ${n} klinieken ${spoed === 1 ? 'biedt' : 'bieden'} 24/7 spoedhulp.`);
+      } else {
+        const spoedInBuurt = buurt.find(b => isSpoed(b.o));
+        if (spoedInBuurt) zinnen.push(`Geen van de klinieken in ${esc(city)} heeft een eigen 24/7 spoeddienst; de dichtstbijzijnde spoedkliniek staat in ${esc(spoedInBuurt.o.city)}, op ${kmTekst(spoedInBuurt.d)}.`);
+      }
+      if (gemGeoordeeld) {
+        zinnen.push(`Gemiddeld worden de klinieken in ${esc(city)} beoordeeld met <strong>${gemGeoordeeld.toFixed(1).replace('.', ',')}/5</strong>, op basis van ${totaalReviews} ${totaalReviews === 1 ? 'beoordeling' : 'beoordelingen'}.`);
+      }
+      return zinnen.join(' ');
     }
     const enige = list[0];
     const zinnen = [`In ${esc(city)} is één dierenkliniek gevestigd: <strong>${esc(enige.name)}</strong>.`];
