@@ -26,8 +26,21 @@ const bestanden = {
   'social.css': require('./build-social-css')
 };
 
-for (const [naam, inhoud] of Object.entries(bestanden)) {
-  fs.writeFileSync(path.join(CSS_DIR, naam), inhoud);
+// Lichte minifier voor de losse CSS-bestanden: minder bytes over de lijn,
+// zonder dat de leesbare bron (tools/sjabloon/*.css) erop achteruitgaat —
+// die blijft ongemoeid, alleen de output in /css/ wordt verkleind.
+function minifyCss(css) {
+  return css
+    .replace(/\/\*[\s\S]*?\*\//g, '')      // commentaar
+    .replace(/\s*\n\s*/g, ' ')             // regeleindes + inspringing
+    .replace(/\s{2,}/g, ' ')
+    .replace(/\s*([{}:;,])\s*/g, '$1')     // spaties rond scheidingstekens
+    .replace(/;}/g, '}')                   // overbodige laatste ;
+    .trim();
 }
 
-console.log(`css-bestanden geschreven: ${Object.keys(bestanden).map(n => `${n} (${bestanden[n].length}b)`).join(', ')}`);
+for (const [naam, inhoud] of Object.entries(bestanden)) {
+  fs.writeFileSync(path.join(CSS_DIR, naam), minifyCss(inhoud));
+}
+
+console.log(`css-bestanden geschreven: ${Object.keys(bestanden).map(n => `${n} (${minifyCss(bestanden[n]).length}b)`).join(', ')}`);
