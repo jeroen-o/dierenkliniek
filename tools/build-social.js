@@ -49,7 +49,10 @@ if (!profielen.length) {
 
 // Losse, cachebare CSS in plaats van een <style>-blok in elke pagina — zie
 // build-assets.js, dat dezelfde module naar /css/social.css schrijft.
-const CSS = '\n<link rel="stylesheet" href="/css/social.css">';
+// Non-blocking geladen (preload + onload-swap, met noscript-fallback): de
+// footer-icoontjes hoeven de eerste weergave van de pagina niet op te houden.
+const CSS = '\n<link rel="preload" href="/css/social.css" as="style" onload="this.onload=null;this.rel=\'stylesheet\'">' +
+  '\n<noscript><link rel="stylesheet" href="/css/social.css"></noscript>';
 
 function blok() {
   const links = profielen.map(p => {
@@ -81,6 +84,11 @@ function verwerk(bestand) {
   // /css/social.css verwijderen, anders houden bestaande pagina's de CSS
   // dubbel (inline én extern).
   s = s.replace(/\n?<style>\n\.dk-social \{[\s\S]*?<\/style>/, '');
+
+  // Migratie: de oude blokkerende <link rel="stylesheet"> naar social.css
+  // verwijderen, zodat pagina's die al eerder gebouwd zijn ook de nieuwe
+  // non-blocking variant krijgen in plaats van hem over te slaan.
+  s = s.replace(/\n?<link rel="stylesheet" href="\/css\/social\.css">/, '');
 
   const anker = ANKERS.find(a => s.includes(a));
   if (!anker) return false;
