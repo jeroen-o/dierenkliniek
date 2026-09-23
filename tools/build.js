@@ -8,6 +8,8 @@ const { execFileSync } = require('child_process');
 const steps = [
   // Gedeelde CSS als losse, cachebare bestanden in /css/ (zie build-assets.js)
   'build-assets.js',
+  // Publieke, e-mailloze klinieken-dataset die de SPA zelf ophaalt (zie build-clinics.js)
+  'build-clinics.js',
   // Houdt de lichte kennisbank-index in index.html gelijk aan data/kennisbank.json
   'sync-index-kb.js',
   'build-kennisbank.js',

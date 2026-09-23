@@ -24,21 +24,28 @@ function grab(name) {
 }
 
 const out = {};
-for (const name of ['KB_CATEGORIES', 'KB_ANIMALS', 'GLOSSARIUM', 'CLINICS']) {
+for (const name of ['KB_CATEGORIES', 'KB_ANIMALS', 'GLOSSARIUM']) {
   out[name] = vm.runInNewContext('(' + grab(name) + ')');
 }
 // Postcodebereiken per provincie (viercijferig). Ontbreekt de tabel, dan valt
 // layout.provinceOf terug op de grovere tweecijferige PROVINCE_LOOKUP.
 try { out.PROVINCE_RANGES = vm.runInNewContext('(' + grab('PROVINCE_RANGES') + ')'); } catch (e) { out.PROVINCE_RANGES = []; }
 
-// De artikelen staan niet meer in index.html maar in een eigen databestand, zodat
-// de volledige tekst niet bij elk bezoek aan de homepage wordt meegeladen.
-// index.html houdt alleen een lichte index over, zonder de artikelinhoud.
+// De artikelen en de klinieken staan niet meer inline in index.html maar in
+// eigen databestanden, zodat die tekst niet bij elk bezoek aan de homepage
+// wordt meegeladen. index.html haalt CLINICS zelf op via fetch() (zie
+// build-clinics.js voor de publieke, e-mailloze variant).
 const KB_PAD = path.join(ROOT, 'data', 'kennisbank.json');
 if (!fs.existsSync(KB_PAD)) {
   throw new Error('data/kennisbank.json ontbreekt. Draai eerst: node tools/split-kennisbank.js');
 }
 out.KB_ARTICLES = JSON.parse(fs.readFileSync(KB_PAD, 'utf8'));
+
+const CLINICS_PAD = path.join(ROOT, 'data', 'clinics.json');
+if (!fs.existsSync(CLINICS_PAD)) {
+  throw new Error('data/clinics.json ontbreekt. Draai eerst: node tools/split-clinics.js');
+}
+out.CLINICS = JSON.parse(fs.readFileSync(CLINICS_PAD, 'utf8'));
 module.exports = out;
 
 if (require.main === module) {
