@@ -6797,10 +6797,17 @@ function navigate(view) {
 
 // ============ HOME — FEATURED ============
 function renderFeatured() {
-  // Prioritize top-tier clinics, then plus, then random sample
-  const tops = CLINICS.filter(c => c.tier === 'top');
-  const pluses = CLINICS.filter(c => c.tier === 'plus').sort(() => Math.random() - 0.5);
-  const featured = [...tops.slice(0, 4), ...pluses.slice(0, 4)];
+  // Prioritize top-tier clinics, then plus, then random sample.
+  // Eén kaart per praktijknaam: meerdere vestigingen van dezelfde praktijk
+  // (bijv. "Dierenartsencombinatie Maas en Niers" in 3 plaatsen) tonen we
+  // hier niet drie keer naast elkaar.
+  const dedupeByName = (list) => {
+    const seen = new Set();
+    return list.filter(c => seen.has(c.name) ? false : (seen.add(c.name), true));
+  };
+  const tops = dedupeByName(CLINICS.filter(c => c.tier === 'top'));
+  const pluses = dedupeByName(CLINICS.filter(c => c.tier === 'plus').sort(() => Math.random() - 0.5));
+  const featured = dedupeByName([...tops.slice(0, 4), ...pluses.slice(0, 4)]);
   const grid = document.getElementById('featuredGrid');
   grid.innerHTML = featured.map(c => `
     <div class="clinic-card tier-${c.tier}" onclick="window.location.href='/${clinicSlug(c)}';" style="cursor:pointer;">
