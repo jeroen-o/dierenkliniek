@@ -1566,6 +1566,68 @@ footer .logo span { color: white; opacity: 0.7; }
   font-size: 14px; color: var(--ink); line-height: 1.6;
 }
 
+/* ============ KOSTEN WIJZER ============ */
+:root {
+  --kw-dog: var(--dk-blue-dark); --kw-dog-bg: var(--dk-blue-light);
+  --kw-cat: #B5540E; --kw-cat-bg: #FBEEE2;
+  --kw-bird: #0E7C66; --kw-bird-bg: #E4F5F0;
+  --kw-rabbit: #7A5230; --kw-rabbit-bg: #F1E7DA;
+}
+.kw-species-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(96px, 1fr)); gap: 10px; }
+.kw-species-btn {
+  display: flex; flex-direction: column; align-items: center; gap: 6px;
+  background: var(--bg-soft); border: 1.5px solid var(--line); border-radius: 12px;
+  padding: 14px 8px 12px; cursor: pointer; font-family: inherit; color: var(--ink-2);
+  font-size: 13px; font-weight: 700; transition: border-color .15s, background .15s, color .15s;
+}
+.kw-species-btn .kw-ic { font-size: 26px; line-height: 1; }
+.kw-species-btn:hover { border-color: var(--line); background: white; }
+.kw-species-btn[aria-pressed="true"] { color: white; }
+.kw-species-btn[data-species="hond"][aria-pressed="true"] { background: var(--kw-dog); border-color: var(--kw-dog); }
+.kw-species-btn[data-species="kat"][aria-pressed="true"] { background: var(--kw-cat); border-color: var(--kw-cat); }
+.kw-species-btn[data-species="vogel"][aria-pressed="true"] { background: var(--kw-bird); border-color: var(--kw-bird); }
+.kw-species-btn[data-species="konijn"][aria-pressed="true"] { background: var(--kw-rabbit); border-color: var(--kw-rabbit); }
+
+.kw-size-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 14px; }
+.kw-size-btn {
+  background: var(--bg-soft); border: 1.5px solid var(--line); border-radius: 10px;
+  padding: 10px 6px; cursor: pointer; font-family: inherit; color: var(--ink-2);
+  font-size: 13px; font-weight: 600; text-align: center;
+}
+.kw-size-btn .kw-w { display: block; font-size: 11px; font-weight: 500; color: var(--ink-3); margin-top: 2px; }
+.kw-size-btn[aria-pressed="true"] { background: var(--dk-blue-dark); border-color: var(--dk-blue-dark); color: white; }
+.kw-size-btn[aria-pressed="true"] .kw-w { color: rgba(255,255,255,.85); }
+#kwSizeWrap { display: none; }
+#kwSizeWrap.kw-show { display: block; }
+
+.kw-result-head { display: flex; align-items: center; gap: 10px; margin-top: 26px; margin-bottom: 12px; }
+.kw-badge {
+  width: 38px; height: 38px; border-radius: 10px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 19px; flex-shrink: 0;
+}
+.kw-result-head h2 { margin: 0; font-size: 16px; font-weight: 800; color: var(--ink); }
+.kw-sub { font-size: 12.5px; color: var(--ink-3); }
+
+.kw-rows { border: 1px solid var(--line); border-radius: 14px; overflow: hidden; background: white; }
+.kw-row {
+  display: flex; justify-content: space-between; align-items: baseline; gap: 12px;
+  padding: 13px 16px; border-bottom: 1px solid var(--line); font-size: 14px;
+}
+.kw-row:last-child { border-bottom: none; }
+.kw-row .kw-label { color: var(--ink); font-weight: 600; }
+.kw-row .kw-price {
+  font-variant-numeric: tabular-nums; font-weight: 800; color: var(--ink); white-space: nowrap; font-size: 14.5px;
+}
+.kw-row .kw-price.kw-muted {
+  font-weight: 600; font-size: 12.5px; color: var(--ink-3); font-style: italic;
+  white-space: normal; text-align: right; max-width: 46%;
+}
+@media (max-width: 420px) {
+  .kw-species-btn { font-size: 12px; padding: 12px 4px 10px; }
+  .kw-species-btn .kw-ic { font-size: 22px; }
+}
+
 /* ============ PROVINCIE GRID ============ */
 .provincie-grid {
   display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;

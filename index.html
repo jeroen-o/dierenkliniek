@@ -1485,6 +1485,68 @@ footer .logo span { color: white; opacity: 0.7; }
   font-size: 14px; color: var(--ink); line-height: 1.6;
 }
 
+/* ============ KOSTEN WIJZER ============ */
+:root {
+  --kw-dog: var(--dk-blue-dark); --kw-dog-bg: var(--dk-blue-light);
+  --kw-cat: #B5540E; --kw-cat-bg: #FBEEE2;
+  --kw-bird: #0E7C66; --kw-bird-bg: #E4F5F0;
+  --kw-rabbit: #7A5230; --kw-rabbit-bg: #F1E7DA;
+}
+.kw-species-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(96px, 1fr)); gap: 10px; }
+.kw-species-btn {
+  display: flex; flex-direction: column; align-items: center; gap: 6px;
+  background: var(--bg-soft); border: 1.5px solid var(--line); border-radius: 12px;
+  padding: 14px 8px 12px; cursor: pointer; font-family: inherit; color: var(--ink-2);
+  font-size: 13px; font-weight: 700; transition: border-color .15s, background .15s, color .15s;
+}
+.kw-species-btn .kw-ic { font-size: 26px; line-height: 1; }
+.kw-species-btn:hover { border-color: var(--line); background: white; }
+.kw-species-btn[aria-pressed="true"] { color: white; }
+.kw-species-btn[data-species="hond"][aria-pressed="true"] { background: var(--kw-dog); border-color: var(--kw-dog); }
+.kw-species-btn[data-species="kat"][aria-pressed="true"] { background: var(--kw-cat); border-color: var(--kw-cat); }
+.kw-species-btn[data-species="vogel"][aria-pressed="true"] { background: var(--kw-bird); border-color: var(--kw-bird); }
+.kw-species-btn[data-species="konijn"][aria-pressed="true"] { background: var(--kw-rabbit); border-color: var(--kw-rabbit); }
+
+.kw-size-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 14px; }
+.kw-size-btn {
+  background: var(--bg-soft); border: 1.5px solid var(--line); border-radius: 10px;
+  padding: 10px 6px; cursor: pointer; font-family: inherit; color: var(--ink-2);
+  font-size: 13px; font-weight: 600; text-align: center;
+}
+.kw-size-btn .kw-w { display: block; font-size: 11px; font-weight: 500; color: var(--ink-3); margin-top: 2px; }
+.kw-size-btn[aria-pressed="true"] { background: var(--dk-blue-dark); border-color: var(--dk-blue-dark); color: white; }
+.kw-size-btn[aria-pressed="true"] .kw-w { color: rgba(255,255,255,.85); }
+#kwSizeWrap { display: none; }
+#kwSizeWrap.kw-show { display: block; }
+
+.kw-result-head { display: flex; align-items: center; gap: 10px; margin-top: 26px; margin-bottom: 12px; }
+.kw-badge {
+  width: 38px; height: 38px; border-radius: 10px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 19px; flex-shrink: 0;
+}
+.kw-result-head h2 { margin: 0; font-size: 16px; font-weight: 800; color: var(--ink); }
+.kw-sub { font-size: 12.5px; color: var(--ink-3); }
+
+.kw-rows { border: 1px solid var(--line); border-radius: 14px; overflow: hidden; background: white; }
+.kw-row {
+  display: flex; justify-content: space-between; align-items: baseline; gap: 12px;
+  padding: 13px 16px; border-bottom: 1px solid var(--line); font-size: 14px;
+}
+.kw-row:last-child { border-bottom: none; }
+.kw-row .kw-label { color: var(--ink); font-weight: 600; }
+.kw-row .kw-price {
+  font-variant-numeric: tabular-nums; font-weight: 800; color: var(--ink); white-space: nowrap; font-size: 14.5px;
+}
+.kw-row .kw-price.kw-muted {
+  font-weight: 600; font-size: 12.5px; color: var(--ink-3); font-style: italic;
+  white-space: normal; text-align: right; max-width: 46%;
+}
+@media (max-width: 420px) {
+  .kw-species-btn { font-size: 12px; padding: 12px 4px 10px; }
+  .kw-species-btn .kw-ic { font-size: 22px; }
+}
+
 /* ============ PROVINCIE GRID ============ */
 .provincie-grid {
   display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;
@@ -3033,44 +3095,42 @@ body.has-compare-bar { padding-bottom: 90px; }
           <span>Tool: Kosten wijzer</span>
         </div>
         <h1>💶 Dierenarts kosten wijzer</h1>
-        <p>Kies een behandeling en uw regio voor een indicatieve richtprijs.</p>
+        <p>Kies uw diersoort (en bij een hond het formaat) voor indicatieve richtprijzen van veelvoorkomende bezoeken.</p>
       </div>
     </div>
   </section>
 
-  <section class="container" style="padding:40px 0; max-width:760px; margin:0 auto;">
+  <section class="container" style="padding:40px 0; max-width:640px; margin:0 auto;">
     <div class="tool-card">
-      <h2>Wat wilt u laten doen?</h2>
-      <div class="tool-form">
-        <div>
-          <label>Behandeling</label>
-          <select id="kwBehandeling" onchange="renderKostenWijzer()">
-            <option value="eerste-consult">Eerste consult</option>
-            <option value="vervolgconsult">Vervolgconsult</option>
-            <option value="vaccinatie">Jaarlijkse vaccinatie hond/kat</option>
-            <option value="castratie-kater">Castratie kater</option>
-            <option value="sterilisatie-poes">Sterilisatie poes</option>
-            <option value="castratie-reu">Castratie reu (klein/middelgroot)</option>
-            <option value="sterilisatie-teef">Sterilisatie teef</option>
-            <option value="gebitsreiniging">Gebitsreiniging onder narcose</option>
-            <option value="chip">Chip plaatsen</option>
-            <option value="bloedonderzoek">Bloedonderzoek (basis)</option>
-            <option value="rontgenfoto">Röntgenfoto (per foto)</option>
-            <option value="echografie">Echografie</option>
-            <option value="spoedconsult">Spoedconsult buiten openingstijden</option>
-            <option value="euthanasie">Euthanasie + crematie individueel</option>
-          </select>
-        </div>
-        <div>
-          <label>Regio</label>
-          <select id="kwRegio" onchange="renderKostenWijzer()">
-            <option value="overig">Overig Nederland</option>
-            <option value="randstad">Randstad (Amsterdam/Rotterdam/Den Haag/Utrecht)</option>
-          </select>
+      <h2>Diersoort</h2>
+      <div class="kw-species-row" role="group" aria-label="Kies diersoort">
+        <button type="button" class="kw-species-btn" data-species="hond" aria-pressed="true" onclick="kwSelectSpecies('hond')"><span class="kw-ic" aria-hidden="true">🐕</span> Hond</button>
+        <button type="button" class="kw-species-btn" data-species="kat" aria-pressed="false" onclick="kwSelectSpecies('kat')"><span class="kw-ic" aria-hidden="true">🐈</span> Kat / poes</button>
+        <button type="button" class="kw-species-btn" data-species="konijn" aria-pressed="false" onclick="kwSelectSpecies('konijn')"><span class="kw-ic" aria-hidden="true">🐇</span> Konijn</button>
+        <button type="button" class="kw-species-btn" data-species="vogel" aria-pressed="false" onclick="kwSelectSpecies('vogel')"><span class="kw-ic" aria-hidden="true">🦜</span> Vogel</button>
+      </div>
+      <div id="kwSizeWrap" class="kw-show">
+        <div class="kw-size-row" role="group" aria-label="Kies formaat hond">
+          <button type="button" class="kw-size-btn" data-size="klein" aria-pressed="true" onclick="kwSelectSize('klein')">Klein<span class="kw-w">tot 10 kg</span></button>
+          <button type="button" class="kw-size-btn" data-size="middel" aria-pressed="false" onclick="kwSelectSize('middel')">Middel<span class="kw-w">10–25 kg</span></button>
+          <button type="button" class="kw-size-btn" data-size="groot" aria-pressed="false" onclick="kwSelectSize('groot')">Groot<span class="kw-w">25+ kg</span></button>
         </div>
       </div>
+      <h2 style="margin-top:20px;">Regio</h2>
+      <div class="kw-size-row" role="group" aria-label="Kies regio">
+        <button type="button" class="kw-size-btn kw-regio-btn" data-regio="overig" aria-pressed="true" onclick="kwSelectRegio('overig')" style="grid-column:span 1;">Overig Nederland</button>
+        <button type="button" class="kw-size-btn kw-regio-btn" data-regio="randstad" aria-pressed="false" onclick="kwSelectRegio('randstad')" style="grid-column:span 2;">Randstad<span class="kw-w">Amsterdam / Rotterdam / Den Haag / Utrecht</span></button>
+      </div>
     </div>
-    <div id="kwResult" style="margin-top:24px;"></div>
+
+    <div class="kw-result-head">
+      <span class="kw-badge" id="kwBadge" aria-hidden="true">🐕</span>
+      <div>
+        <h2 id="kwResultTitle">Hond — klein (tot 10 kg)</h2>
+        <span class="kw-sub">Richtprijzen per bezoek, in euro's</span>
+      </div>
+    </div>
+    <div class="kw-rows" id="kwRows"></div>
 
     <div class="spoed-disclaimer">
       <strong>⚠️ Let op:</strong> dit zijn indicatieve richtprijzen en geen offerte of garantie voor een specifieke kliniek. Tarieven verschillen sterk per praktijk, regio en de situatie van uw huisdier. Vraag bij twijfel altijd een prijsopgave aan bij de dierenarts.
@@ -6916,7 +6976,7 @@ const VIEW_META = {
   contact: { title: 'Contact — dierenkliniek.nl', desc: 'Stel uw vraag of stuur ons een bericht. Wij reageren binnen twee werkdagen.' },
   english: { title: 'English — dierenkliniek.nl | Find a Dutch veterinarian', desc: 'Independent directory of all veterinary clinics in the Netherlands. Find a vet near you or a 24/7 emergency clinic.' },
   vaccinatieplanner: { title: 'Vaccinatie-planner hond en kat — dierenkliniek.nl', desc: 'Bereken gratis het vaccinatieschema van uw hond of kat op basis van geboortedatum, volgens de Nederlandse standaardprotocollen (KNMvD/WSAVA).' },
-  kostenwijzer: { title: 'Dierenarts kosten wijzer — dierenkliniek.nl', desc: 'Indicatieve richtprijzen voor de meest voorkomende behandelingen bij de dierenarts, per regio. Gratis en vrijblijvend.' },
+  kostenwijzer: { title: 'Dierenarts kosten wijzer — dierenkliniek.nl', desc: 'Indicatieve richtprijzen voor een dierenartsbezoek, per diersoort, formaat en regio. Gratis en vrijblijvend.' },
   beslisboom: { title: 'Moet ik naar de dierenarts? Beslisboom — dierenkliniek.nl', desc: 'Korte beslisboom die u helpt inschatten of u direct moet bellen, dezelfde dag een afspraak maakt, of het nog even kunt aankijken.' },
   privacy: { title: 'Privacyverklaring — dierenkliniek.nl', desc: 'Hoe Dierenkliniek.nl omgaat met uw persoonsgegevens.' },
   voorwaarden: { title: 'Algemene voorwaarden — dierenkliniek.nl', desc: 'Onder welke voorwaarden Dierenkliniek.nl haar diensten aanbiedt.' },
@@ -7632,49 +7692,107 @@ function renderVaccinatiePlanner() {
 
 // ============ KOSTEN WIJZER ============
 // Zelfde landelijk-gemiddelde richtprijzen als het kennisbank-artikel "Wat
-// kost een dierenarts?" (id 34), met +10% marge zodat de wijzer eerder aan
-// de hoge dan de lage kant zit. Bewust geen bronvermelding op de pagina
-// zelf — dit zijn brede indicaties, geen tarief van een specifieke partij.
-const KOSTEN_ITEMS = {
-  'eerste-consult':      { label: 'Eerste consult',                          min: 50,  max: 70  },
-  'vervolgconsult':       { label: 'Vervolgconsult',                          min: 35,  max: 50  },
-  'vaccinatie':           { label: 'Jaarlijkse vaccinatie hond/kat',          min: 55,  max: 90  },
-  'castratie-kater':      { label: 'Castratie kater',                        min: 90,  max: 145 },
-  'sterilisatie-poes':    { label: 'Sterilisatie poes',                      min: 145, max: 240 },
-  'castratie-reu':        { label: 'Castratie reu (klein/middelgroot)',      min: 220, max: 385 },
-  'sterilisatie-teef':    { label: 'Sterilisatie teef',                      min: 310, max: 495 },
-  'gebitsreiniging':      { label: 'Gebitsreiniging onder narcose',          min: 200, max: 385 },
-  'chip':                 { label: 'Chip plaatsen',                         min: 35,  max: 55  },
-  'bloedonderzoek':       { label: 'Bloedonderzoek (basis)',                min: 90,  max: 165 },
-  'rontgenfoto':          { label: 'Röntgenfoto (per foto)',                min: 65,  max: 130 },
-  'echografie':           { label: 'Echografie',                           min: 100, max: 200 },
-  'spoedconsult':         { label: 'Spoedconsult buiten openingstijden',    min: 105, max: 195 },
-  'euthanasie':           { label: 'Euthanasie + crematie individueel',     min: 275, max: 495 },
+// kost een dierenarts?" (id 34), opgesplitst per diersoort en (bij honden)
+// formaat, met +10% marge zodat de wijzer eerder aan de hoge dan de lage
+// kant zit. Bewust geen bronvermelding op de pagina zelf — dit zijn brede
+// indicaties, geen tarief van een specifieke partij.
+const KOSTEN_DATA = {
+  hond: { icon: '🐕', kleur: 'dog', formaten: {
+    klein:  { label: 'Hond — klein (tot 10 kg)', rijen: [
+      ['Regulier consult / check-up', 40, 65],
+      ['Jaarlijkse vaccinatie (incl. consult)', 50, 75],
+      ['Castratie (reu)', 200, 310],
+      ['Sterilisatie (teef)', 240, 420],
+      ['Gebitsreiniging (onder narcose)', 165, 385],
+      ['Microchip + registratie', 40, 60],
+      ['Spoedconsult (avond/nacht/weekend)', 130, 200],
+    ]},
+    middel: { label: 'Hond — middel (10–25 kg)', rijen: [
+      ['Regulier consult / check-up', 40, 65],
+      ['Jaarlijkse vaccinatie (incl. consult)', 55, 85],
+      ['Castratie (reu)', 240, 385],
+      ['Sterilisatie (teef)', 310, 495],
+      ['Gebitsreiniging (onder narcose)', 220, 440],
+      ['Microchip + registratie', 40, 60],
+      ['Spoedconsult (avond/nacht/weekend)', 130, 200],
+    ]},
+    groot: { label: 'Hond — groot (25+ kg)', rijen: [
+      ['Regulier consult / check-up', 45, 70],
+      ['Jaarlijkse vaccinatie (incl. consult)', 60, 95],
+      ['Castratie (reu)', 310, 495],
+      ['Sterilisatie (teef)', 385, 605],
+      ['Gebitsreiniging (onder narcose)', 275, 550],
+      ['Microchip + registratie', 40, 60],
+      ['Spoedconsult (avond/nacht/weekend)', 130, 200],
+    ]},
+  }},
+  kat: { icon: '🐈', kleur: 'cat', label: 'Kat / poes', rijen: [
+    ['Regulier consult / check-up', 40, 65],
+    ['Jaarlijkse vaccinatie (incl. consult)', 50, 75],
+    ['Castratie (kater)', 75, 110],
+    ['Sterilisatie (poes)', 155, 220],
+    ['Gebitsreiniging (onder narcose)', 165, 385],
+    ['Microchip + registratie', 40, 60],
+    ['Spoedconsult (avond/nacht/weekend)', 130, 200],
+  ]},
+  konijn: { icon: '🐇', kleur: 'rabbit', label: 'Konijn', rijen: [
+    ['Regulier consult / check-up', 35, 45],
+    ['Vaccinatie myxomatose/VHD2 (incl. consult)', 50, 60],
+    ['Castratie (rammelaar)', 100, 175],
+    ['Sterilisatie (voedster)', 175, 285],
+    ['Gebit/kiezen behandelen (onder narcose)', 165, 440],
+    ['Spoedconsult (avond/nacht/weekend)', 130, 200],
+  ]},
+  vogel: { icon: '🦜', kleur: 'bird', label: 'Vogel', rijen: [
+    ['Regulier consult / check-up', 40, 70],
+    ['Uitgebreid onderzoek (kweek, röntgen e.d.)', 85, 220],
+    ['Vaccinatie', null, null, 'Niet standaard bij de meeste vogelsoorten — afhankelijk van soort en risico'],
+    ['Sterilisatie / castratie', null, null, 'Zelden toegepast bij vogels — sterk wisselend, op aanvraag'],
+    ['Spoedconsult (avond/nacht/weekend)', 130, 200],
+  ]},
 };
 // Klinieken in de Randstad zijn gemiddeld 15-30% duurder (regio-, personeels-
 // en huurkosten); we tonen de onderkant van die bandbreedte als indicatie.
 const KOSTEN_RANDSTAD_OPSLAG = 1.15;
 
-function renderKostenWijzer() {
-  const key = document.getElementById('kwBehandeling').value;
-  const regio = document.getElementById('kwRegio').value;
-  const result = document.getElementById('kwResult');
-  const item = KOSTEN_ITEMS[key];
-  if (!item) { result.innerHTML = ''; return; }
+let kwSpecies = 'hond', kwSize = 'klein', kwRegio = 'overig';
 
-  const factor = regio === 'randstad' ? KOSTEN_RANDSTAD_OPSLAG : 1;
+function kwSelectSpecies(s) {
+  kwSpecies = s;
+  document.querySelectorAll('.kw-species-btn').forEach(b => b.setAttribute('aria-pressed', b.dataset.species === s ? 'true' : 'false'));
+  document.getElementById('kwSizeWrap').classList.toggle('kw-show', s === 'hond');
+  renderKostenWijzer();
+}
+function kwSelectSize(sz) {
+  kwSize = sz;
+  document.querySelectorAll('.kw-size-btn[data-size]').forEach(b => b.setAttribute('aria-pressed', b.dataset.size === sz ? 'true' : 'false'));
+  renderKostenWijzer();
+}
+function kwSelectRegio(r) {
+  kwRegio = r;
+  document.querySelectorAll('.kw-regio-btn').forEach(b => b.setAttribute('aria-pressed', b.dataset.regio === r ? 'true' : 'false'));
+  renderKostenWijzer();
+}
+
+function renderKostenWijzer() {
+  const entry = KOSTEN_DATA[kwSpecies];
+  const cfg = kwSpecies === 'hond' ? entry.formaten[kwSize] : entry;
+  const label = kwSpecies === 'hond' ? cfg.label : entry.label;
+  const factor = kwRegio === 'randstad' ? KOSTEN_RANDSTAD_OPSLAG : 1;
   const round5 = (n) => Math.round(n / 5) * 5;
-  const min = round5(item.min * factor);
-  const max = round5(item.max * factor);
   const fmt = (n) => '€ ' + n.toLocaleString('nl-NL');
 
-  result.innerHTML = `
-    <div class="tool-card" style="text-align:center;">
-      <div style="font-size:13px; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; color:var(--ink-3); margin-bottom:8px;">${esc(item.label)}</div>
-      <div style="font-size:38px; font-weight:800; color:var(--dk-blue-dark); letter-spacing:-0.02em;">${fmt(min)} – ${fmt(max)}</div>
-      <div style="font-size:13px; color:var(--ink-3); margin-top:6px;">${regio === 'randstad' ? 'Randstad-indicatie' : 'Landelijk gemiddelde'}</div>
-    </div>
-  `;
+  const badge = document.getElementById('kwBadge');
+  badge.textContent = entry.icon;
+  badge.style.background = `var(--kw-${entry.kleur}-bg)`;
+  document.getElementById('kwResultTitle').textContent = label + (kwRegio === 'randstad' ? ' · Randstad' : '');
+
+  document.getElementById('kwRows').innerHTML = cfg.rijen.map(([lbl, min, max, note]) => {
+    const price = (min != null && max != null)
+      ? `<span class="kw-price">${fmt(round5(min * factor))} – ${fmt(round5(max * factor))}</span>`
+      : `<span class="kw-price kw-muted">${esc(note)}</span>`;
+    return `<div class="kw-row"><span class="kw-label">${esc(lbl)}</span>${price}</div>`;
+  }).join('');
 }
 
 function esc(s) {
