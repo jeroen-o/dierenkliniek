@@ -3023,6 +3023,61 @@ body.has-compare-bar { padding-bottom: 90px; }
   </section>
 </div>
 
+<!-- ============ TOOL: KOSTEN WIJZER ============ -->
+<div class="view" data-view="kostenwijzer">
+  <section class="kb-hero">
+    <div class="container">
+      <div class="kb-hero-content">
+        <div class="breadcrumb" style="font-size:14px;opacity:0.7;margin-bottom:16px;">
+          <a href="#" onclick="navigate('kennisbank');return false;">Kennisbank</a> ›
+          <span>Tool: Kosten wijzer</span>
+        </div>
+        <h1>💶 Dierenarts kosten wijzer</h1>
+        <p>Kies een behandeling en uw regio voor een indicatieve richtprijs.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container" style="padding:40px 0; max-width:760px; margin:0 auto;">
+    <div class="tool-card">
+      <h2>Wat wilt u laten doen?</h2>
+      <div class="tool-form">
+        <div>
+          <label>Behandeling</label>
+          <select id="kwBehandeling" onchange="renderKostenWijzer()">
+            <option value="eerste-consult">Eerste consult</option>
+            <option value="vervolgconsult">Vervolgconsult</option>
+            <option value="vaccinatie">Jaarlijkse vaccinatie hond/kat</option>
+            <option value="castratie-kater">Castratie kater</option>
+            <option value="sterilisatie-poes">Sterilisatie poes</option>
+            <option value="castratie-reu">Castratie reu (klein/middelgroot)</option>
+            <option value="sterilisatie-teef">Sterilisatie teef</option>
+            <option value="gebitsreiniging">Gebitsreiniging onder narcose</option>
+            <option value="chip">Chip plaatsen</option>
+            <option value="bloedonderzoek">Bloedonderzoek (basis)</option>
+            <option value="rontgenfoto">Röntgenfoto (per foto)</option>
+            <option value="echografie">Echografie</option>
+            <option value="spoedconsult">Spoedconsult buiten openingstijden</option>
+            <option value="euthanasie">Euthanasie + crematie individueel</option>
+          </select>
+        </div>
+        <div>
+          <label>Regio</label>
+          <select id="kwRegio" onchange="renderKostenWijzer()">
+            <option value="overig">Overig Nederland</option>
+            <option value="randstad">Randstad (Amsterdam/Rotterdam/Den Haag/Utrecht)</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div id="kwResult" style="margin-top:24px;"></div>
+
+    <div class="spoed-disclaimer">
+      <strong>⚠️ Let op:</strong> dit zijn indicatieve richtprijzen en geen offerte of garantie voor een specifieke kliniek. Tarieven verschillen sterk per praktijk, regio en de situatie van uw huisdier. Vraag bij twijfel altijd een prijsopgave aan bij de dierenarts.
+    </div>
+  </section>
+</div>
+
 <!-- ============ TOOL: BESLISBOOM ============ -->
 <div class="view" data-view="beslisboom">
   <section class="kb-hero">
@@ -5240,6 +5295,7 @@ body.has-compare-bar { padding-bottom: 90px; }
           <li><a href="/specialismen">Specialismen</a></li>
           <li><a href="/kennisbank">Kennisbank</a></li>
           <li><a href="/?view=vaccinatieplanner" onclick="navigate('vaccinatieplanner');return false;">Vaccinatie-planner</a></li>
+          <li><a href="/?view=kostenwijzer" onclick="navigate('kostenwijzer');return false;">Dierenarts kosten wijzer</a></li>
           <li><a href="/?view=beslisboom" onclick="navigate('beslisboom');return false;">Beslisboom spoed</a></li>
           <li><a href="/glossarium">Glossarium</a></li>
         </ul>
@@ -6860,6 +6916,7 @@ const VIEW_META = {
   contact: { title: 'Contact — dierenkliniek.nl', desc: 'Stel uw vraag of stuur ons een bericht. Wij reageren binnen twee werkdagen.' },
   english: { title: 'English — dierenkliniek.nl | Find a Dutch veterinarian', desc: 'Independent directory of all veterinary clinics in the Netherlands. Find a vet near you or a 24/7 emergency clinic.' },
   vaccinatieplanner: { title: 'Vaccinatie-planner hond en kat — dierenkliniek.nl', desc: 'Bereken gratis het vaccinatieschema van uw hond of kat op basis van geboortedatum, volgens de Nederlandse standaardprotocollen (KNMvD/WSAVA).' },
+  kostenwijzer: { title: 'Dierenarts kosten wijzer — dierenkliniek.nl', desc: 'Indicatieve richtprijzen voor de meest voorkomende behandelingen bij de dierenarts, per regio. Gratis en vrijblijvend.' },
   beslisboom: { title: 'Moet ik naar de dierenarts? Beslisboom — dierenkliniek.nl', desc: 'Korte beslisboom die u helpt inschatten of u direct moet bellen, dezelfde dag een afspraak maakt, of het nog even kunt aankijken.' },
   privacy: { title: 'Privacyverklaring — dierenkliniek.nl', desc: 'Hoe Dierenkliniek.nl omgaat met uw persoonsgegevens.' },
   voorwaarden: { title: 'Algemene voorwaarden — dierenkliniek.nl', desc: 'Onder welke voorwaarden Dierenkliniek.nl haar diensten aanbiedt.' },
@@ -6876,6 +6933,7 @@ function navigate(view) {
   // onderbroken door layout shifts wanneer de nieuwe view DOM-mutaties doet
   window.scrollTo(0, 0);
   if (view === 'search') renderSearchResults();
+  if (view === 'kostenwijzer') renderKostenWijzer();
 
   // Update document title and meta description
   if (VIEW_META[view]) {
@@ -7570,6 +7628,57 @@ function renderVaccinatiePlanner() {
       `).join('')}
     </div>
   `;
+}
+
+// ============ KOSTEN WIJZER ============
+// Zelfde landelijk-gemiddelde richtprijzen als het kennisbank-artikel "Wat
+// kost een dierenarts?" (id 34), met +10% marge zodat de wijzer eerder aan
+// de hoge dan de lage kant zit. Bewust geen bronvermelding op de pagina
+// zelf — dit zijn brede indicaties, geen tarief van een specifieke partij.
+const KOSTEN_ITEMS = {
+  'eerste-consult':      { label: 'Eerste consult',                          min: 50,  max: 70  },
+  'vervolgconsult':       { label: 'Vervolgconsult',                          min: 35,  max: 50  },
+  'vaccinatie':           { label: 'Jaarlijkse vaccinatie hond/kat',          min: 55,  max: 90  },
+  'castratie-kater':      { label: 'Castratie kater',                        min: 90,  max: 145 },
+  'sterilisatie-poes':    { label: 'Sterilisatie poes',                      min: 145, max: 240 },
+  'castratie-reu':        { label: 'Castratie reu (klein/middelgroot)',      min: 220, max: 385 },
+  'sterilisatie-teef':    { label: 'Sterilisatie teef',                      min: 310, max: 495 },
+  'gebitsreiniging':      { label: 'Gebitsreiniging onder narcose',          min: 200, max: 385 },
+  'chip':                 { label: 'Chip plaatsen',                         min: 35,  max: 55  },
+  'bloedonderzoek':       { label: 'Bloedonderzoek (basis)',                min: 90,  max: 165 },
+  'rontgenfoto':          { label: 'Röntgenfoto (per foto)',                min: 65,  max: 130 },
+  'echografie':           { label: 'Echografie',                           min: 100, max: 200 },
+  'spoedconsult':         { label: 'Spoedconsult buiten openingstijden',    min: 105, max: 195 },
+  'euthanasie':           { label: 'Euthanasie + crematie individueel',     min: 275, max: 495 },
+};
+// Klinieken in de Randstad zijn gemiddeld 15-30% duurder (regio-, personeels-
+// en huurkosten); we tonen de onderkant van die bandbreedte als indicatie.
+const KOSTEN_RANDSTAD_OPSLAG = 1.15;
+
+function renderKostenWijzer() {
+  const key = document.getElementById('kwBehandeling').value;
+  const regio = document.getElementById('kwRegio').value;
+  const result = document.getElementById('kwResult');
+  const item = KOSTEN_ITEMS[key];
+  if (!item) { result.innerHTML = ''; return; }
+
+  const factor = regio === 'randstad' ? KOSTEN_RANDSTAD_OPSLAG : 1;
+  const round5 = (n) => Math.round(n / 5) * 5;
+  const min = round5(item.min * factor);
+  const max = round5(item.max * factor);
+  const fmt = (n) => '€ ' + n.toLocaleString('nl-NL');
+
+  result.innerHTML = `
+    <div class="tool-card" style="text-align:center;">
+      <div style="font-size:13px; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; color:var(--ink-3); margin-bottom:8px;">${esc(item.label)}</div>
+      <div style="font-size:38px; font-weight:800; color:var(--dk-blue-dark); letter-spacing:-0.02em;">${fmt(min)} – ${fmt(max)}</div>
+      <div style="font-size:13px; color:var(--ink-3); margin-top:6px;">${regio === 'randstad' ? 'Randstad-indicatie' : 'Landelijk gemiddelde'}</div>
+    </div>
+  `;
+}
+
+function esc(s) {
+  return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
 // ============ BESLISBOOM ============
