@@ -218,6 +218,93 @@ ${L.faqHtml(faqs)}
   };
 }
 
+/* ---------- /dierenarts-in-de-buurt ---------- */
+function buurtPage() {
+  const crumbs = [{ name: 'Home', url: '/' }, { name: 'Dierenarts in de buurt', url: '/dierenarts-in-de-buurt' }];
+  const byCity = {};
+  for (const c of withProv) (byCity[c.city] ||= []).push(c);
+  const topSteden = Object.entries(byCity).sort((a, b) => b[1].length - a[1].length).slice(0, 20);
+  const cityCount = Object.keys(byCity).length;
+
+  const faqs = [
+    { q: 'Hoe vind ik een dierenarts bij mij in de buurt?', a: `Voer hierboven uw postcode of plaats in. U krijgt direct een lijst van klinieken bij u in de buurt, gerangschikt op afstand, met adres, telefoonnummer en openingstijden. Alle ${CLINICS.length} dierenklinieken in Nederland staan vermeld.` },
+    { q: 'Wanneer moet ik met spoed naar de dierenarts?', a: 'Bel direct bij ademnood, bewusteloosheid of stuipen, heftig bloedverlies, vermoeden van vergiftiging, een verkeersongeval, een opgezette buik met vergeefs braken (maagdraaiing) of aanhoudend braken. Twijfelt u? Bel altijd eerst; een dierenarts kan telefonisch inschatten hoe urgent het is.' },
+    { q: 'Wat kost een bezoek aan de dierenarts?', a: 'Een regulier consult kost gemiddeld €40 tot €70, afhankelijk van de praktijk en (bij honden) het formaat van het dier. Vaccinaties, operaties en spoedconsulten hebben eigen tarieven. Gebruik de Dierenarts kosten wijzer voor een indicatie op maat van diersoort, formaat en regio.' },
+    { q: 'Wat is het verschil tussen een dierenarts en een dierenziekenhuis?', a: 'Een reguliere dierenartspraktijk behandelt de meeste dagelijkse zorg: consulten, vaccinaties, kleine ingrepen. Een dierenziekenhuis heeft vaak meerdere dierenartsen met specialisaties, eigen diagnostische apparatuur (röntgen, echografie, soms MRI/CT) en is vaker 24/7 open voor spoedgevallen. Voor complexe diagnostiek of specialistische zorg verwijst uw eigen dierenarts u vaak door naar een dierenziekenhuis.' }
+  ];
+
+  const ld = [
+    {
+      '@type': 'WebPage',
+      '@id': L.SITE + '/dierenarts-in-de-buurt#webpage',
+      name: 'Dierenarts in de buurt zoeken',
+      description: `Zoek een dierenarts bij u in de buurt op postcode of plaats. Alle ${CLINICS.length} dierenklinieken in Nederland, verdeeld over ${cityCount} plaatsen.`,
+      url: L.SITE + '/dierenarts-in-de-buurt',
+      inLanguage: 'nl-NL',
+      isPartOf: { '@id': L.SITE + '/#organization' }
+    },
+    L.faqLd(faqs),
+    L.breadcrumbLd(crumbs)
+  ];
+
+  const body = `${L.breadcrumbHtml(crumbs)}
+<div class="card">
+  <h1>Dierenarts in de buurt zoeken</h1>
+  <p class="subtitle">Alle ${CLINICS.length} dierenklinieken in Nederland, verdeeld over ${cityCount} plaatsen. Voer uw postcode of plaats in voor de dichtstbijzijnde klinieken.</p>
+  <form action="/" method="get" style="display:flex; gap:10px; flex-wrap:wrap; margin-top:16px;">
+    <input type="text" name="postcode" placeholder="Postcode of plaats, bijv. 1012 AB of Utrecht" required
+      style="flex:1; min-width:220px; padding:12px 14px; border:1px solid var(--line); border-radius:8px; font-size:15px;">
+    <button type="submit" class="btn">Zoek dierenarts →</button>
+  </form>
+  <div class="tag-row" style="margin-top:16px;">
+    <a class="pill pill-red" href="/spoedhulp">⚡ Spoedhulp nodig? Direct naar 24/7 klinieken</a>
+  </div>
+</div>
+
+<section class="card">
+  <h2>Grootste plaatsen</h2>
+  <div class="tag-row">
+    ${topSteden.map(([city, l]) => `<a class="pill" href="/${citySlug(city)}">${L.esc(city)} (${l.length})</a>`).join('\n    ')}
+  </div>
+  <p style="margin-top:16px;"><a href="/provincies">Alle plaatsen per provincie →</a></p>
+</section>
+
+<section class="card">
+  <h2>Provincies</h2>
+  <div class="tag-row">
+    ${PROVINCES.map(p => `<a class="pill" href="/dierenklinieken-${L.slugify(p)}">${L.esc(p)}</a>`).join('\n    ')}
+  </div>
+</section>
+
+<section class="card">
+  <h2>Wanneer gaat u naar de spoeddienst?</h2>
+  <p>Bel altijd eerst. Bij ademnood, bewusteloosheid of stuipen, heftig bloedverlies, vermoeden van vergiftiging, een verkeersongeval, een opgezette buik met vergeefs braken (maagdraaiing) of aanhoudend braken telt elke minuut.</p>
+  <p style="margin-top:12px;"><a href="/spoedhulp">Alle klinieken met 24/7 spoedhulp →</a></p>
+</section>
+
+<section class="card">
+  <h2>Wat kost een bezoek aan de dierenarts?</h2>
+  <p>Een regulier consult kost gemiddeld €40 tot €70. Tarieven verschillen per praktijk, per diersoort en (bij honden) per formaat, en zijn in Nederland vrij.</p>
+  <div class="tag-row" style="margin-top:12px;">
+    <a class="pill" href="/kennisbank/wat-kost-een-dierenarts-algemene-richtprijzen">Richtprijzen per behandeling</a>
+    <a class="pill" href="/?view=kostenwijzer">Kosten wijzer — indicatie op maat</a>
+  </div>
+</section>
+
+<section class="card">
+  <h2>Dierenarts of dierenziekenhuis — wat is het verschil?</h2>
+  <p>Een reguliere praktijk behandelt de meeste dagelijkse zorg: consulten, vaccinaties, kleine ingrepen. Een dierenziekenhuis heeft vaak meerdere dierenartsen met specialisaties, eigen diagnostische apparatuur en is vaker 24/7 open. Voor complexe diagnostiek verwijst uw eigen dierenarts u vaak door.</p>
+</section>
+
+${L.faqHtml(faqs)}`;
+
+  return L.page({
+    title: `Dierenarts in de buurt — ${CLINICS.length} klinieken op postcode | Dierenkliniek.nl`,
+    description: `Zoek een dierenarts bij u in de buurt op postcode of plaats. Alle ${CLINICS.length} dierenklinieken in Nederland, in ${cityCount} plaatsen, onafhankelijk overzicht.`,
+    canonical: '/dierenarts-in-de-buurt', bodyHtml: body, jsonld: ld, lastmod: BUILD_DATE, ogType: 'website'
+  });
+}
+
 /* ---------- /provincies ---------- */
 function provinciesPage() {
   const crumbs = [{ name: 'Home', url: '/' }, { name: 'Provincies', url: '/provincies' }];
@@ -450,6 +537,7 @@ function specialismenPage() {
 }
 
 write('spoedhulp.html', spoedPage(), '/spoedhulp');
+write('dierenarts-in-de-buurt.html', buurtPage(), '/dierenarts-in-de-buurt');
 write('provincies.html', provinciesPage(), '/provincies');
 for (const p of PROVINCES) { const r = provinciePage(p); write(r.slug + '.html', r.html, '/' + r.slug); }
 write('glossarium.html', glossariumPage(), '/glossarium');

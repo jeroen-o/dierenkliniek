@@ -33,6 +33,7 @@ const exists = (p) => fs.existsSync(path.join(ROOT, p));
 const hoofd = [
   u('/', '1.0', 'daily'),
   u('/spoedhulp', '0.95', 'weekly'),
+  u('/dierenarts-in-de-buurt', '0.9', 'weekly'),
   u('/provincies', '0.8', 'weekly'),
   u('/kennisbank', '0.9', 'weekly'),
   u('/glossarium', '0.7', 'monthly'),

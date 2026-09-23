@@ -5400,6 +5400,7 @@ body.has-compare-bar { padding-bottom: 90px; }
         <h3>Voor huisdiereigenaren</h3>
         <ul>
           <li><a href="/" onclick="navigate('home');return false;">Vind een kliniek</a></li>
+          <li><a href="/dierenarts-in-de-buurt">Dierenarts in de buurt</a></li>
           <li><a href="/spoedhulp">Spoedhulp 24/7</a></li>
           <li><a href="/specialismen">Specialismen</a></li>
           <li><a href="/kennisbank/">Kennisbank</a></li>
@@ -8501,6 +8502,23 @@ function routeFromUrl() {
   const clinicParam = params.get('clinic');
   const articleParam = params.get('article');
   const view = params.get('view');
+  const postcodeParam = params.get('postcode');
+
+  // Van de statische /dierenarts-in-de-buurt-pagina: een simpel GET-formulier
+  // (geen JS nodig op die pagina zelf) stuurt de invoer als ?postcode=... naar
+  // hier, waar we 'm hetzelfde behandelen als de zoekbalk op de homepage.
+  if (postcodeParam) {
+    const origin = geocodeQuery(postcodeParam.trim());
+    if (origin) {
+      searchLocation = origin;
+      window._resultsShown = 50;
+      navigate('search');
+      const pc2 = document.getElementById('searchPostcode2');
+      if (pc2) pc2.value = postcodeParam.trim();
+      try { window.history.replaceState({}, '', '/?view=search'); } catch (e) {}
+      return;
+    }
+  }
 
   // NIEUW: pathname-based URLs voor klinieken (bijv. /a7-noord-dierenartsen-dierenarts-in-burgum)
   const pathname = window.location.pathname;
@@ -8634,7 +8652,7 @@ function englishSearch(e) {
     return;
   }
   // Navigate to search results with this location
-  window.searchLocation = origin;
+  searchLocation = origin;
   navigate('search');
   if (typeof renderSearchResults === 'function') {
     renderSearchResults();
