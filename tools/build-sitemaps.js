@@ -5,6 +5,7 @@ const fs = require('fs');
 const path = require('path');
 const L = require('./layout');
 const DATA = require('./extract-data');
+const KB_DATES = require('./kb-dates');
 
 const ROOT = L.ROOT;
 const SITE = L.SITE;
@@ -15,8 +16,11 @@ const PROVINCES = Object.keys(L.PROVINCE_DESCRIPTIONS);
 const cities = [...new Set(CLINICS.map(c => c.city))].sort((a, b) => a.localeCompare(b, 'nl'));
 const articles = KB_ARTICLES.map(a => ({ ...a, slug: L.slugify(a.title) }));
 
-const u = (loc, priority, changefreq) =>
-  `  <url><loc>${SITE}${loc.replace(/&/g, '&amp;')}</loc><lastmod>${TODAY}</lastmod>` +
+// lastmod is optioneel overschreven — anders staat elke URL op de builddatum
+// van vandaag, wat Google leert negeren zodra dat overal hetzelfde is (zie
+// kennisbankartikelen hieronder, die hun echte wijzigingsdatum meekrijgen).
+const u = (loc, priority, changefreq, lastmod) =>
+  `  <url><loc>${SITE}${loc.replace(/&/g, '&amp;')}</loc><lastmod>${lastmod || TODAY}</lastmod>` +
   `<changefreq>${changefreq}</changefreq><priority>${priority}</priority></url>`;
 
 function urlset(urls) {
@@ -67,7 +71,7 @@ const kb = [
     .map(c => u('/kennisbank/categorie-' + c.slug, '0.75', 'weekly')),
   ...KB_ANIMALS.filter(an => articles.some(a => a.animal === an.slug))
     .map(an => u('/kennisbank/dier-' + an.slug, '0.75', 'weekly')),
-  ...articles.map(a => u('/kennisbank/' + a.slug, '0.7', 'monthly'))
+  ...articles.map(a => u('/kennisbank/' + a.slug, '0.7', 'monthly', KB_DATES.datumsVoor(a.id, TODAY).dateModified))
 ];
 
 /* ---- klinieken en steden ---- */

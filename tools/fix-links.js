@@ -19,7 +19,7 @@ const MAP = {
 // vertrouwenspagina's tonen hun eigen inhoud en linken dus niet naar zichzelf.
 const SKIP = new Set(['index.html']);
 let files = fs.readdirSync(ROOT).filter(f => f.endsWith('.html') && !SKIP.has(f));
-files = files.concat(fs.readdirSync(path.join(ROOT, 'kennisbank')).map(f => 'kennisbank/' + f));
+files = files.concat(fs.readdirSync(path.join(ROOT, 'kennisbank')).filter(f => f.endsWith('.html')).map(f => 'kennisbank/' + f));
 
 let changed = 0, replacements = 0;
 for (const f of files) {

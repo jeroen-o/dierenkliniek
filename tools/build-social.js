@@ -107,7 +107,7 @@ function verwerk(bestand) {
 
 let n = 0;
 const bestanden = fs.readdirSync(ROOT).filter(f => f.endsWith('.html'))
-  .concat(fs.readdirSync(path.join(ROOT, 'kennisbank')).map(f => 'kennisbank/' + f));
+  .concat(fs.readdirSync(path.join(ROOT, 'kennisbank')).filter(f => f.endsWith('.html')).map(f => 'kennisbank/' + f));
 
 for (const f of bestanden) { if (verwerk(f)) n++; }
 

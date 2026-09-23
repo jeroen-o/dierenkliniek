@@ -5,6 +5,7 @@ const fs = require('fs');
 const path = require('path');
 const L = require('./layout');
 const DATA = require('./extract-data');
+const KB_DATES = require('./kb-dates');
 
 const ROOT = L.ROOT;
 const OUT = path.join(ROOT, 'kennisbank');
@@ -88,6 +89,7 @@ function articlePage(a) {
   ];
   const desc = a.excerpt.length > 155 ? a.excerpt.slice(0, 152).trim() + '…' : a.excerpt;
   const plain = L.stripTags(a.content);
+  const datums = KB_DATES.datumsVoor(a.id, BUILD_DATE);
 
   const ld = [
     {
@@ -99,8 +101,8 @@ function articlePage(a) {
       inLanguage: 'nl-NL',
       wordCount: plain.split(' ').length,
       timeRequired: 'PT' + (a.read_min || 4) + 'M',
-      datePublished: BUILD_DATE,
-      dateModified: BUILD_DATE,
+      datePublished: datums.datePublished,
+      dateModified: datums.dateModified,
       author: { '@id': L.SITE + '/#organization' },
       publisher: { '@id': L.SITE + '/#organization' },
       image: L.SITE + '/og-image.png',
@@ -120,7 +122,7 @@ function articlePage(a) {
     <a class="pill" href="/kennisbank/categorie-${cat.slug}">${L.esc(cat.name)}</a>
     ${animal ? `<a class="pill" href="/kennisbank/dier-${animal.slug}">${animal.emoji} ${L.esc(animal.name)}</a>` : ''}
     <span>${a.read_min || 4} min lezen</span>
-    <span>Laatst bijgewerkt: ${BUILD_DATE}</span>
+    <span>Laatst bijgewerkt: ${datums.dateModified}</span>
   </div>
   ${a.hasOwnExcerpt ? `<p class="tldr callout"><strong>In het kort:</strong> ${L.esc(a.excerpt)}</p>` : ''}
   ${a.content}
@@ -149,7 +151,7 @@ ${cityLinks()}`;
   if (TITLE_OVERRIDES[a.slug]) {
     return L.page({
       title: TITLE_OVERRIDES[a.slug], description: desc, canonical: '/kennisbank/' + a.slug,
-      bodyHtml: body, jsonld: ld, lastmod: BUILD_DATE, ogType: 'article'
+      bodyHtml: body, jsonld: ld, lastmod: datums.dateModified, ogType: 'article'
     });
   }
 
@@ -165,7 +167,7 @@ ${cityLinks()}`;
     canonical: '/kennisbank/' + a.slug,
     bodyHtml: body,
     jsonld: ld,
-    lastmod: BUILD_DATE,
+    lastmod: datums.dateModified,
     ogType: 'article'
   });
 }
