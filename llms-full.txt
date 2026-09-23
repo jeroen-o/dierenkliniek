@@ -1,7 +1,7 @@
 # Dierenkliniek.nl — volledige kennisbank
 
 Bron: https://dierenkliniek.nl/kennisbank · Laatst bijgewerkt: 2026-09-23
-64 artikelen, 40 glossariumtermen.
+62 artikelen, 40 glossariumtermen.
 
 Deze tekst is algemene voorlichting voor huisdiereigenaren en vervangt geen
 diagnose van een dierenarts. Bij spoed: bel altijd eerst de kliniek.
@@ -231,79 +231,6 @@ Een maagtorsie is een aandoening waarbij snelle herkenning letterlijk levensredd
 
 
 --------------------------------------------------------------------------------
-# Vaccinatieschema voor honden: wat krijgt uw hond wanneer?
-
-URL: https://dierenkliniek.nl/kennisbank/vaccinatieschema-voor-honden-wat-krijgt-uw-hond-wanneer
-Categorie: Preventie & vaccinaties · Diersoort: Hond · Leestijd: 5 min
-
-Samenvatting: Hondsdolheid, parvo, kennelhoest — een overzicht van welke vaccinaties uw hond nodig heeft, wanneer en waarom.
-
-Vaccinaties zijn een van de belangrijkste preventieve maatregelen voor uw hond. Een aantal aandoeningen die vroeger massaal voorkwamen — denk aan parvo en hondenziekte — zijn dankzij vaccinatie zeldzaam geworden. Maar het beschermingsniveau in een populatie blijft alleen op peil als voldoende dieren gevaccineerd zijn.
-
-## De Cocktailvaccinatie
-
-De meeste Nederlandse dierenartsen werken met een gecombineerde "cocktailvaccinatie" tegen vier ziektes:
-
-
-- Hondenziekte (Distemper) — een virusziekte die zenuwstelsel en luchtwegen aantast
-
-
-- Besmettelijke leverziekte (HCC) — veroorzaakt door een adenovirus
-
-
-- Parvovirus — extreem besmettelijk en vaak dodelijk, vooral bij puppy's
-
-
-- Ziekte van Weil (Leptospirose) — een bacteriële infectie via knaagdier-urine, ook overdraagbaar op mensen
-
-## Schema voor een puppy
-
-
-- 6 weken — eerste cocktailvaccinatie (vaak nog bij de fokker)
-
-
-- 9 weken — tweede cocktail, eventueel inclusief kennelhoest
-
-
-- 12 weken — derde cocktail (deze geeft pas echt langdurige bescherming)
-
-
-- 1 jaar — boostervaccinatie
-
-## Volwassen honden
-
-Veel dierenartsen werken nu met een schema waarbij de vier hoofdcomponenten niet meer jaarlijks hoeven. De moderne vaccins bieden 3 jaar bescherming tegen hondenziekte, leverziekte en parvo. Leptospirose moet wel jaarlijks. In de praktijk komt dit neer op:
-
-
-- Jaarlijks: leptospirose
-
-
-- Elke 3 jaar: hondenziekte, leverziekte, parvo
-
-## Aanvullende vaccinaties
-
-Niet alle vaccinaties zijn voor elke hond nodig. Bespreek met uw dierenarts wat past bij uw situatie:
-
-
-- Kennelhoest — verstandig als uw hond naar een pension gaat, hondenuitlaatservice gebruikt of veel met andere honden in contact komt
-
-
-- Hondsdolheid (rabies) — verplicht voor reizen naar het buitenland; in Nederland niet verplicht voor binnenlands gebruik
-
-
-- Ziekte van Lyme — overweegbaar in tekenrijke gebieden, hoewel teken-preventie meestal volstaat
-
-
-- Babesia — voor honden die met buitenlandse teken in aanraking kunnen komen
-
-## Waarom titerbepaling soms een alternatief is
-
-Sommige eigenaren willen niet onnodig vaccineren. Voor de drie virale componenten (hondenziekte, leverziekte, parvo) bestaat de mogelijkheid van titerbepaling: een bloedtest die meet of er nog voldoende antistoffen aanwezig zijn. Is de titer hoog genoeg, dan is een herhaalvaccinatie niet nodig. Voor leptospirose werkt dit niet — die moet altijd jaarlijks. Vraag uw dierenarts of titerbepaling in uw situatie zinvol is.
-
-Een goede vaccinatiestatus is ook nodig om uw hond mee te nemen op reis, in een pension te plaatsen of in te schrijven bij hondenscholen.
-
-
---------------------------------------------------------------------------------
 # Vaccinatieschema voor katten: binnen of buiten, dat maakt uit
 
 URL: https://dierenkliniek.nl/kennisbank/vaccinatieschema-voor-katten-binnen-of-buiten-dat-maakt-uit
@@ -497,77 +424,6 @@ Niet voor elke tekenbeet. Wel als:
 - De teek zich op een lastige plek bevindt (rond ogen, oren)
 
 Voor honden die naar Zuid-Europa reizen is een aanvullende profylaxe vaak verstandig. Bespreek dit ruim voor vertrek met uw dierenarts.
-
-
---------------------------------------------------------------------------------
-# Ontwormen: hoe vaak echt nodig?
-
-URL: https://dierenkliniek.nl/kennisbank/ontwormen-hoe-vaak-echt-nodig
-Categorie: Preventie & vaccinaties · Leestijd: 4 min
-
-Samenvatting: Niet elk dier hoeft elke maand ontwormd te worden. Een verstandige aanpak op basis van risico — en wanneer een ontlastingsonderzoek beter is.
-
-Ontwormen is voor veel eigenaren een vaste routine, vaak elke drie maanden. Maar onderzoek wijst uit dat de meeste honden en katten in Nederland niet zo vaak hoeven. Een gerichtere aanpak voorkomt onnodige medicijngebruik en is bovendien goedkoper.
-
-## Welke wormen komen voor?
-
-
-- Spoelwormen (Toxocara canis bij hond, T. cati bij kat) — komen het meest voor; vooral bij jonge dieren
-
-
-- Lintwormen — vaak via een vlooieninfectie of door het eten van besmette muizen
-
-
-- Hartwormen — in Nederland nog zeldzaam, wel een risico bij reizen naar Zuid-Europa
-
-
-- Longwormen — worden vaker gediagnosticeerd in Nederland; vooral bij honden die slakken eten
-
-## Een risicogestuurd schema
-
-De Europese werkgroep ESCCAP adviseert ontwormen af te stemmen op het risicoprofiel:
-
-Hoog risico, ontwormen elke 1-3 maanden:
-
-
-- Dieren die met kleine kinderen leven
-
-
-- Honden of katten die rauw vlees eten of regelmatig op jacht zijn
-
-
-- Dieren die in dichtbevolkte uitlaatgebieden komen
-
-Laag risico, ontwormen 1-2 keer per jaar:
-
-
-- Strikte binnenkat zonder muizenvangst
-
-
-- Volwassen hond die geen rauw vlees eet en niet jaagt
-
-## Een alternatief: ontlastingsonderzoek
-
-In plaats van standaard ontwormen kunt u twee tot vier keer per jaar een ontlastingsmonster laten onderzoeken. Vindt het lab geen worm-eieren, dan is ontwormen niet nodig. Wel eieren? Dan gericht behandelen. Dit kost ongeveer hetzelfde als preventief ontwormen maar voorkomt onnodig medicijngebruik en geeft u een actueel beeld van de gezondheid.
-
-## Puppy's en kittens
-
-Bij jonge dieren is ontwormen wel structureel nodig, omdat zij vaak via de moeder al spoelwormen hebben:
-
-
-- Vanaf 2 weken oud, daarna elke 2 weken tot 8 weken
-
-
-- Vervolgens maandelijks tot 6 maanden
-
-
-- Daarna overschakelen naar het volwassen schema
-
-## Goed om te weten
-
-Geen enkel ontwormingsmiddel werkt preventief — het doodt alleen wormen die op het moment van toediening aanwezig zijn. Een week later kan uw dier alweer wormen oppikken. Vandaar de cyclische aanpak.
-
-Spoelworm­eieren kunnen ook mensen besmetten en in zeldzame gevallen oogproblemen veroorzaken bij kinderen (toxocariasis). Goede handhygiëne na contact met huisdieren en hun ontlasting blijft dus belangrijk, ongeacht het ontwormingsschema.
 
 
 --------------------------------------------------------------------------------
@@ -2434,7 +2290,17 @@ Vaccinaties beschermen uw huisdier tegen ernstige, soms dodelijke ziekten. Welke
 
 ## Vaccinatieschema honden (kernvaccinaties)
 
-Voor alle Nederlandse honden geldt het zogenaamde "cocktailvaccin" tegen vier ziekten: Hondenziekte (D), Hepatitis (H), Parvo (P) en Parainfluenza (Pi). Dit wordt vaak aangeduid als DHPPi.
+Voor alle Nederlandse honden geldt het zogenaamde "cocktailvaccin" tegen vier ziekten: Hondenziekte (D), Hepatitis (H), Parvo (P) en Parainfluenza (Pi). Dit wordt vaak aangeduid als DHPPi:
+
+- Hondenziekte (Distemper) — een virusziekte die zenuwstelsel en luchtwegen aantast
+
+- Besmettelijke leverziekte (Hepatitis, HCC) — veroorzaakt door een adenovirus
+
+- Parvovirus — extreem besmettelijk en vaak dodelijk, vooral bij puppy's
+
+- Parainfluenza — een van de veroorzakers van kennelhoest
+
+Losstaand van de DHPPi-cocktail geldt ook de ziekte van Weil (Leptospirose) — een bacteriële infectie via knaagdier-urine die ook op mensen overdraagbaar is (zoönose) en daarom jaarlijks herhaald wordt, ongeacht de titer.
 
 LeeftijdVaccinatie
 
@@ -2524,6 +2390,10 @@ Verhoogd risico* Maandelijks
 ## Ontwormschema voor katten
 
 Voor binnenkatten die geen prooien vangen volstaat 2 keer per jaar. Voor buitenkatten of katten die muizen vangen: minimaal 4 keer per jaar, sommigen adviseren maandelijks.
+
+## Een alternatief: ontlastingsonderzoek
+
+De Europese werkgroep ESCCAP adviseert ontwormen af te stemmen op het risicoprofiel in plaats van standaard elke 3 maanden. In plaats van preventief ontwormen kunt u twee tot vier keer per jaar een ontlastingsmonster laten onderzoeken: vindt het lab geen worm-eieren, dan is ontwormen niet nodig, en wel eieren dan gericht behandelen. Dit kost ongeveer hetzelfde als preventief ontwormen maar voorkomt onnodig medicijngebruik. Geen enkel ontwormingsmiddel werkt overigens preventief — het doodt alleen wormen die op het moment van toediening aanwezig zijn, een week later kan uw dier alweer wormen oppikken. Vandaar de cyclische aanpak.
 
 ## Vlooien — bestrijding én preventie
 
