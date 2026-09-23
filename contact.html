@@ -1053,6 +1053,31 @@ footer .logo span { color: white; opacity: 0.7; }
 }
 .result-card.tier-top::before { border-radius: var(--r-lg) var(--r-lg) 0 0; }
 
+/* Uitleg over rangschikking — zichtbaar bij de zoekresultaten, legt uit
+   waarom betaalde vermeldingen soms hoger staan. */
+.rangschikking-info {
+  margin-top: 10px;
+}
+.rangschikking-info summary {
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--dk-blue-deep);
+  list-style: none;
+  user-select: none;
+}
+.rangschikking-info summary::-webkit-details-marker { display: none; }
+.rangschikking-info summary::before { content: '▸ '; }
+.rangschikking-info[open] summary::before { content: '▾ '; }
+.rangschikking-info p {
+  margin: 6px 0 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--ink-2);
+  max-width: 640px;
+}
+.rangschikking-info a { color: var(--dk-blue-deep); font-weight: 600; }
+
 /* Gratis tier: contact info shows as "via dierenkliniek.nl" instead of clickable */
 .contact-locked {
   color: var(--ink-3); font-style: italic; font-size: 13px;

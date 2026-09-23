@@ -963,6 +963,31 @@ footer .logo span { color: white; opacity: 0.7; }
 }
 .result-card.tier-top::before { border-radius: var(--r-lg) var(--r-lg) 0 0; }
 
+/* Uitleg over rangschikking — zichtbaar bij de zoekresultaten, legt uit
+   waarom betaalde vermeldingen soms hoger staan. */
+.rangschikking-info {
+  margin-top: 10px;
+}
+.rangschikking-info summary {
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--dk-blue-deep);
+  list-style: none;
+  user-select: none;
+}
+.rangschikking-info summary::-webkit-details-marker { display: none; }
+.rangschikking-info summary::before { content: '▸ '; }
+.rangschikking-info[open] summary::before { content: '▾ '; }
+.rangschikking-info p {
+  margin: 6px 0 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--ink-2);
+  max-width: 640px;
+}
+.rangschikking-info a { color: var(--dk-blue-deep); font-weight: 600; }
+
 /* Gratis tier: contact info shows as "via dierenkliniek.nl" instead of clickable */
 .contact-locked {
   color: var(--ink-3); font-style: italic; font-size: 13px;
@@ -2796,20 +2821,21 @@ body.has-compare-bar { padding-bottom: 90px; }
 
   <section class="container" style="padding:48px 0; max-width:800px; margin:0 auto;">
     <h2>Onze belofte</h2>
-    <p>Dierenkliniek.nl is een onafhankelijk informatieplatform. Wij vergelijken alle dierenklinieken in Nederland op objectieve kenmerken — locatie, contactgegevens en beschikbaarheid — zonder dat klinieken hun positie kunnen kopen of beïnvloeden door advertenties of provisies.</p>
+    <p>Dierenkliniek.nl is een onafhankelijk informatieplatform. Wij vergelijken alle dierenklinieken in Nederland op objectieve kenmerken — locatie, contactgegevens en beschikbaarheid. Een betaald pakket kan de positie binnen 10 km van een zoekopdracht beïnvloeden, maar dat gebeurt nooit verborgen: zo'n vermelding is altijd herkenbaar gelabeld als "Plus" of "Gesponsord", en een Gratis-vermelding verdwijnt daardoor nooit buiten beeld of van de site.</p>
+    <!-- LET OP: op stad-, provincie- en de standaard "alle klinieken"-pagina's (zonder actieve locatiezoekopdracht) geldt deze 10 km-grens momenteel niet in de code — daar staat een betaald pakket altijd vooraan, ongeacht afstand. Zie renderSearchResults()/renderClinicResultCard() in dit bestand. Tekst hier gaat uit van het beleid zoals elders op de site beschreven (pakketten-pagina); dit is een bekend punt van aandacht, nog niet opgelost. -->
 
     <h3 style="margin-top:32px;">Hoe wij geld verdienen</h3>
     <p>Klinieken kunnen kiezen voor een betaald lidmaatschap dat hen extra functionaliteit op hun profiel biedt:</p>
     <ul>
       <li><strong>Basis (gratis, al actief)</strong> — directe contactgegevens en link naar Google Reviews</li>
-      <li><strong>Plus (€395/jaar)</strong> — uitgebreid profiel met foto's</li>
-      <li><strong>Premium (€795+/jaar)</strong> — multi-vestiging beheer en branded landingspagina</li>
+      <li><strong>Plus (€395/jaar)</strong> — uitgebreid profiel met foto's, en een hogere positie binnen 10 km van een zoekopdracht (herkenbaar aan het label "Plus")</li>
+      <li><strong>Premium (€795+/jaar)</strong> — multi-vestiging beheer, branded landingspagina en topvermelding met eigen accent (herkenbaar aan het label "⭐ Gesponsord")</li>
     </ul>
-    <p>Een topvermelding (extra prominente plaatsing in zoekresultaten binnen het eigen postcodegebied) is op aanvraag beschikbaar voor Plus- en Premium-leden.</p>
+    <p>Topvermelding (het gouden accent bovenaan) is op aanvraag ook beschikbaar voor Plus-leden.</p>
 
     <h3 style="margin-top:32px;">Wat wij nooit doen</h3>
     <ul>
-      <li>Geen verkoop van zoekrangschikking — een Plus-kliniek staat nooit hoger in resultaten dan een dichterbij gelegen Gratis-kliniek puur omdat ze betalen (afgezien van de eerlijk gelabelde topvermelding)</li>
+      <li>Geen verkoop van zoekrangschikking zonder duidelijke labeling — een betaalde positie binnen 10 km is altijd te herkennen aan het label "Plus" of "⭐ Gesponsord", en verder dan 10 km bepaalt alleen de afstand de volgorde</li>
       <li>Geen verborgen advertenties of "sponsored content" zonder duidelijke labeling</li>
       <li>Geen verkoop van persoonsgegevens van bezoekers aan derden</li>
       <li>Geen affiliate-deals met dierverzekeraars, voer-merken of medicijnverkopers waarbij wij meeliften op uw zoekgedrag</li>
@@ -3321,6 +3347,10 @@ body.has-compare-bar { padding-bottom: 90px; }
           </div>
         </div>
       </div>
+      <details class="rangschikking-info">
+        <summary>Waarom zie ik deze volgorde?</summary>
+        <p>Zoekt u op postcode of plaats, dan kunnen klinieken met een betaald Plus- of Premium-pakket binnen 10&nbsp;km hoger getoond worden dan hun afstand alleen zou opleveren; verder weg bepaalt alleen de afstand de volgorde. Zulke vermeldingen zijn duidelijk gemarkeerd met "Plus" of "⭐ Gesponsord". Een Gratis-vermelding wordt door een betaald pakket nooit verborgen of van de site gehaald. <a href="/?view=onafhankelijkheid" onclick="navigate('onafhankelijkheid');return false;">Hoe wij geld verdienen</a></p>
+      </details>
       <div class="results-list" id="resultsList"></div>
       <div id="mapView" style="display:none;">
         <div id="map"></div>
@@ -6568,7 +6598,7 @@ function showStad(city) {
 
 function renderClinicResultCard(c, withDistance) {
   const showContact = true; // Basis is gratis en toont contactgegevens
-  const tierLabel = c.tier === 'top' ? '<span class="tier-badge tier-top">⭐ Topvermelding</span>'
+  const tierLabel = c.tier === 'top' ? '<span class="tier-badge tier-top">⭐ Gesponsord</span>'
                   : c.tier === 'plus' ? '<span class="tier-badge tier-plus">Plus</span>'
                   : '';
   return `
@@ -6778,7 +6808,7 @@ function renderFeatured() {
     <div class="clinic-card tier-${c.tier}" onclick="window.location.href='/${clinicSlug(c)}';" style="cursor:pointer;">
       <div class="clinic-card-img">
         <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><circle cx="11" cy="4" r="2"/><circle cx="18" cy="8" r="2"/><circle cx="20" cy="16" r="2"/><circle cx="4" cy="11" r="2"/><path d="M8 22c0-3 2-5 4-5s4 2 4 5-2 4-4 4-4-1-4-4z"/></svg>
-        ${c.tier === 'top' ? '<span class="clinic-badge" style="background:linear-gradient(135deg,#FFD93D,#FFB800);color:#6B4F00;">⭐ Topvermelding</span>' : ''}
+        ${c.tier === 'top' ? '<span class="clinic-badge" style="background:linear-gradient(135deg,#FFD93D,#FFB800);color:#6B4F00;">⭐ Gesponsord</span>' : ''}
         ${c.tags.includes('spoed') ? '<span class="clinic-badge spoed">⚡ 24/7 Spoed</span>' : ''}
       </div>
       <div class="clinic-card-body">
@@ -6788,7 +6818,7 @@ function renderFeatured() {
           ${c.city}
         </div>
         <div class="clinic-tags" style="margin-top:0;">
-          ${c.tier === 'top' ? '<span class="tag" style="background:linear-gradient(135deg,#FFF6D8,#FFEAB3);color:#6B4F00;">⭐ Topvermelding</span>' : c.tier === 'plus' ? '<span class="tag" style="background:var(--dk-blue-50);color:var(--dk-blue-deep);">Plus-lid</span>' : ''}
+          ${c.tier === 'plus' ? '<span class="tag" style="background:var(--dk-blue-50);color:var(--dk-blue-deep);">Plus-lid</span>' : ''}
         </div>
       </div>
     </div>
@@ -7025,7 +7055,7 @@ function renderSearchResults() {
   list.innerHTML = visible.map(c => {
     const showContact = true; // Basis is gratis en toont contactgegevens
     const showSpecs = c.tier === 'plus' || c.tier === 'top';
-    const tierLabel = c.tier === 'top' ? '<span class="tier-badge tier-top">⭐ Topvermelding</span>'
+    const tierLabel = c.tier === 'top' ? '<span class="tier-badge tier-top">⭐ Gesponsord</span>'
                     : c.tier === 'plus' ? '<span class="tier-badge tier-plus">Plus</span>'
                     : '';
     return `
@@ -7803,7 +7833,7 @@ function showCompareView() {
     { label: 'E-mail', val: c => (c.email ? `<a href="mailto:${c.email}">${c.email}</a>` : '—') },
     { label: 'Website', val: c => (c.website ? `<a href="${c.website}" target="_blank" rel="noopener">${c.website.replace(/^https?:\/\//,'').replace(/\/$/,'')}</a>` : '—') },
     { label: '24/7 Spoed', val: c => c.tags.includes('spoed') ? '✓' : '—' },
-    { label: 'Pakket', val: c => c.tier === 'top' ? '⭐ Topvermelding' : c.tier === 'plus' ? 'Plus' : c.tier === 'basic' ? 'Basis' : 'Gratis' },
+    { label: 'Pakket', val: c => c.tier === 'top' ? '⭐ Gesponsord (Premium)' : c.tier === 'plus' ? 'Plus' : c.tier === 'basic' ? 'Basis' : 'Gratis' },
     { label: 'Google Reviews', val: c => `<a href="${googleReviewsUrl(c)}" target="_blank" rel="noopener">Bekijk →</a>` },
     { label: 'Route', val: c => `<a href="https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(c.address + ', ' + c.postcode + ' ' + c.city)}" target="_blank" rel="noopener">Google Maps →</a>` },
   ];

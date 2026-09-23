@@ -1048,6 +1048,31 @@ footer .logo span { color: white; opacity: 0.7; }
 }
 .result-card.tier-top::before { border-radius: var(--r-lg) var(--r-lg) 0 0; }
 
+/* Uitleg over rangschikking — zichtbaar bij de zoekresultaten, legt uit
+   waarom betaalde vermeldingen soms hoger staan. */
+.rangschikking-info {
+  margin-top: 10px;
+}
+.rangschikking-info summary {
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--dk-blue-deep);
+  list-style: none;
+  user-select: none;
+}
+.rangschikking-info summary::-webkit-details-marker { display: none; }
+.rangschikking-info summary::before { content: '▸ '; }
+.rangschikking-info[open] summary::before { content: '▾ '; }
+.rangschikking-info p {
+  margin: 6px 0 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--ink-2);
+  max-width: 640px;
+}
+.rangschikking-info a { color: var(--dk-blue-deep); font-weight: 600; }
+
 /* Gratis tier: contact info shows as "via dierenkliniek.nl" instead of clickable */
 .contact-locked {
   color: var(--ink-3); font-style: italic; font-size: 13px;
@@ -2454,20 +2479,21 @@ body.has-compare-bar { padding-bottom: 90px; }
 
   <section class="container" style="padding:48px 0; max-width:800px; margin:0 auto;">
     <h2>Onze belofte</h2>
-    <p>Dierenkliniek.nl is een onafhankelijk informatieplatform. Wij vergelijken alle dierenklinieken in Nederland op objectieve kenmerken — locatie, contactgegevens en beschikbaarheid — zonder dat klinieken hun positie kunnen kopen of beïnvloeden door advertenties of provisies.</p>
+    <p>Dierenkliniek.nl is een onafhankelijk informatieplatform. Wij vergelijken alle dierenklinieken in Nederland op objectieve kenmerken — locatie, contactgegevens en beschikbaarheid. Een betaald pakket kan de positie binnen 10 km van een zoekopdracht beïnvloeden, maar dat gebeurt nooit verborgen: zo'n vermelding is altijd herkenbaar gelabeld als "Plus" of "Gesponsord", en een Gratis-vermelding verdwijnt daardoor nooit buiten beeld of van de site.</p>
+    <!-- LET OP: op stad-, provincie- en de standaard "alle klinieken"-pagina's (zonder actieve locatiezoekopdracht) geldt deze 10 km-grens momenteel niet in de code — daar staat een betaald pakket altijd vooraan, ongeacht afstand. Zie renderSearchResults()/renderClinicResultCard() in dit bestand. Tekst hier gaat uit van het beleid zoals elders op de site beschreven (pakketten-pagina); dit is een bekend punt van aandacht, nog niet opgelost. -->
 
     <h3 style="margin-top:32px;">Hoe wij geld verdienen</h3>
     <p>Klinieken kunnen kiezen voor een betaald lidmaatschap dat hen extra functionaliteit op hun profiel biedt:</p>
     <ul>
       <li><strong>Basis (gratis, al actief)</strong> — directe contactgegevens en link naar Google Reviews</li>
-      <li><strong>Plus (€395/jaar)</strong> — uitgebreid profiel met foto's</li>
-      <li><strong>Premium (€795+/jaar)</strong> — multi-vestiging beheer en branded landingspagina</li>
+      <li><strong>Plus (€395/jaar)</strong> — uitgebreid profiel met foto's, en een hogere positie binnen 10 km van een zoekopdracht (herkenbaar aan het label "Plus")</li>
+      <li><strong>Premium (€795+/jaar)</strong> — multi-vestiging beheer, branded landingspagina en topvermelding met eigen accent (herkenbaar aan het label "⭐ Gesponsord")</li>
     </ul>
-    <p>Een topvermelding (extra prominente plaatsing in zoekresultaten binnen het eigen postcodegebied) is op aanvraag beschikbaar voor Plus- en Premium-leden.</p>
+    <p>Topvermelding (het gouden accent bovenaan) is op aanvraag ook beschikbaar voor Plus-leden.</p>
 
     <h3 style="margin-top:32px;">Wat wij nooit doen</h3>
     <ul>
-      <li>Geen verkoop van zoekrangschikking — een Plus-kliniek staat nooit hoger in resultaten dan een dichterbij gelegen Gratis-kliniek puur omdat ze betalen (afgezien van de eerlijk gelabelde topvermelding)</li>
+      <li>Geen verkoop van zoekrangschikking zonder duidelijke labeling — een betaalde positie binnen 10 km is altijd te herkennen aan het label "Plus" of "⭐ Gesponsord", en verder dan 10 km bepaalt alleen de afstand de volgorde</li>
       <li>Geen verborgen advertenties of "sponsored content" zonder duidelijke labeling</li>
       <li>Geen verkoop van persoonsgegevens van bezoekers aan derden</li>
       <li>Geen affiliate-deals met dierverzekeraars, voer-merken of medicijnverkopers waarbij wij meeliften op uw zoekgedrag</li>
