@@ -64,18 +64,11 @@
      vier gewichten die de site echt gebruikt (400, 600, 700, 800) — 300 werd
      nergens gebruikt en 500 (11x) is vervangen door 600, voor 2 fontbestanden
      minder. -->
-<!-- Leaflet CSS/JS zelf gehost (was unpkg.com), zelfde reden. De CSS blijft
-     non-blocking geladen; de ~120 KiB JS (leaflet.js + markercluster) wordt
-     pas gedownload zodra iemand echt een kaart opent — zie loadLeaflet()
-     verderop in dit bestand. -->
-<link rel="stylesheet" href="/vendor/leaflet/leaflet.css" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="/vendor/leaflet/MarkerCluster.css" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="/vendor/leaflet/MarkerCluster.Default.css" media="print" onload="this.media='all'">
-<noscript>
-<link rel="stylesheet" href="/vendor/leaflet/leaflet.css">
-<link rel="stylesheet" href="/vendor/leaflet/MarkerCluster.css">
-<link rel="stylesheet" href="/vendor/leaflet/MarkerCluster.Default.css">
-</noscript>
+<!-- Leaflet CSS/JS zelf gehost (was unpkg.com), zelfde reden. De ~16 KB CSS
+     en de ~120 KiB JS (leaflet.js + markercluster) worden nu samen pas
+     gedownload zodra iemand echt een kaart opent — zie loadLeaflet()
+     verderop in dit bestand. Zonder JS is de kaart sowieso niet te
+     gebruiken, dus een noscript-fallback voor de CSS heeft geen nut. -->
 
 <style>
 @font-face { font-family: 'Manrope'; font-style: normal; font-weight: 400; font-display: swap; src: url('/fonts/manrope-400.woff2') format('woff2'); }
@@ -91,7 +84,7 @@
   --dk-orange: #FF6B35;
   --dk-yellow: #FFB800;
   --dk-green: #00A86B;
-  --dk-red: #E63946;
+  --dk-red: #C62828; /* was #E63946 (4,2:1 met wit, onder de AA-norm van 4,5:1) */
   --ink: #0A1F33;
   --ink-2: #4A5C70;
   --ink-3: #627080;
@@ -1275,7 +1268,7 @@ footer .logo span { color: white; opacity: 0.7; }
 .tool-form label { font-weight: 600; font-size: 14px; color: var(--ink); }
 .tool-form input, .tool-form select {
   padding: 12px 14px; border: 1px solid var(--line); border-radius: 10px;
-  font-family: inherit; font-size: 15px;
+  font-family: inherit; font-size: 16px;
 }
 .tool-form input:focus, .tool-form select:focus { outline: none; border-color: var(--dk-blue); }
 
@@ -2295,7 +2288,7 @@ body.has-compare-bar { padding-bottom: 90px; }
   border: 1px solid var(--line);
   border-radius: 10px;
   font-family: inherit;
-  font-size: 15px;
+  font-size: 16px;
 }
 .english-search-form input:focus { outline: none; border-color: var(--dk-blue); }
 .english-search-form button { white-space: nowrap; }
@@ -4332,17 +4325,17 @@ body.has-compare-bar { padding-bottom: 90px; }
       </div>
       <div class="kb-cat-grid">
         <div class="kb-cat-tile" onclick="kbShowCategory('spoed')">
-          <div class="kb-cat-icon" style="background:#E63946">⚡</div>
+          <div class="kb-cat-icon" style="background:#C62828">⚡</div>
           <h3>Eerste hulp &amp; spoed</h3>
           <div class="count">5 artikelen</div>
         </div>
         <div class="kb-cat-tile" onclick="kbShowCategory('preventie')">
-          <div class="kb-cat-icon" style="background:#00A86B">🛡️</div>
+          <div class="kb-cat-icon" style="background:#00754A">🛡️</div>
           <h3>Preventie &amp; vaccinaties</h3>
           <div class="count">11 artikelen</div>
         </div>
         <div class="kb-cat-tile" onclick="kbShowCategory('voeding')">
-          <div class="kb-cat-icon" style="background:#FF6B35">🍎</div>
+          <div class="kb-cat-icon" style="background:#C2410C">🍎</div>
           <h3>Voeding &amp; gewicht</h3>
           <div class="count">6 artikelen</div>
         </div>
@@ -4420,7 +4413,7 @@ body.has-compare-bar { padding-bottom: 90px; }
       <div class="kb-articles-grid">
         <div class="kb-article-card" onclick="kbShowArticle(36)">
           <div class="kb-art-meta">
-            <span class="cat-pill" style="background:#00A86B">Preventie &amp; vaccinaties</span>
+            <span class="cat-pill" style="background:#00754A">Preventie &amp; vaccinaties</span>
             <span class="read-time">5 min</span>
           </div>
           <h3>Net een nieuw huisdier? Checklist voor de eerste maand</h3>
@@ -4429,7 +4422,7 @@ body.has-compare-bar { padding-bottom: 90px; }
         </div>
         <div class="kb-article-card" onclick="kbShowArticle(35)">
           <div class="kb-art-meta">
-            <span class="cat-pill" style="background:#FFB800">Praktische zaken</span>
+            <span class="cat-pill" style="background:#FFB800;color:#6B4F00">Praktische zaken</span>
             <span class="read-time">4 min</span>
           </div>
           <h3>Mijn dier is gechipt — waar staat het geregistreerd?</h3>
@@ -4438,7 +4431,7 @@ body.has-compare-bar { padding-bottom: 90px; }
         </div>
         <div class="kb-article-card" onclick="kbShowArticle(34)">
           <div class="kb-art-meta">
-            <span class="cat-pill" style="background:#FFB800">Praktische zaken</span>
+            <span class="cat-pill" style="background:#FFB800;color:#6B4F00">Praktische zaken</span>
             <span class="read-time">5 min</span>
           </div>
           <h3>Wat kost een dierenarts? Algemene richtprijzen</h3>
@@ -4447,7 +4440,7 @@ body.has-compare-bar { padding-bottom: 90px; }
         </div>
         <div class="kb-article-card" onclick="kbShowArticle(33)">
           <div class="kb-art-meta">
-            <span class="cat-pill" style="background:#00A86B">Preventie &amp; vaccinaties</span>
+            <span class="cat-pill" style="background:#00754A">Preventie &amp; vaccinaties</span>
             <span class="read-time">5 min</span>
           </div>
           <h3>Ontwormen en vlooien — een praktisch schema</h3>
@@ -4456,7 +4449,7 @@ body.has-compare-bar { padding-bottom: 90px; }
         </div>
         <div class="kb-article-card" onclick="kbShowArticle(32)">
           <div class="kb-art-meta">
-            <span class="cat-pill" style="background:#00A86B">Preventie &amp; vaccinaties</span>
+            <span class="cat-pill" style="background:#00754A">Preventie &amp; vaccinaties</span>
             <span class="read-time">6 min</span>
           </div>
           <h3>Vaccinatieschema voor honden en katten</h3>
@@ -4465,7 +4458,7 @@ body.has-compare-bar { padding-bottom: 90px; }
         </div>
         <div class="kb-article-card" onclick="kbShowArticle(31)">
           <div class="kb-art-meta">
-            <span class="cat-pill" style="background:#E63946">Eerste hulp &amp; spoed</span>
+            <span class="cat-pill" style="background:#C62828">Eerste hulp &amp; spoed</span>
             <span class="read-time">8 min</span>
           </div>
           <h3>Eerste hulp bij dieren — wat te doen bij een spoedgeval</h3>
@@ -5293,6 +5286,12 @@ function loadLeaflet() {
     s.src = src; s.onload = ok; s.onerror = nok;
     document.head.appendChild(s);
   });
+  ['/vendor/leaflet/leaflet.css', '/vendor/leaflet/MarkerCluster.css', '/vendor/leaflet/MarkerCluster.Default.css']
+    .forEach(href => {
+      const l = document.createElement('link');
+      l.rel = 'stylesheet'; l.href = href;
+      document.head.appendChild(l);
+    });
   _leafletPromise = laadScript('/vendor/leaflet/leaflet.js')
     .then(() => laadScript('/vendor/leaflet/leaflet.markercluster.js'));
   return _leafletPromise;
@@ -7317,7 +7316,7 @@ function showClinic(id) {
   const tierBadgeEl = document.getElementById('dTierBadge');
   if (tierBadgeEl) {
     if (c.tier === 'top') {
-      tierBadgeEl.innerHTML = '<span style="background:linear-gradient(135deg,#FFD93D,#FFB800);color:#6B4F00;padding:4px 12px;border-radius:100px;font-size:12px;font-weight:700;letter-spacing:0.04em;">⭐ TOPVERMELDING</span>';
+      tierBadgeEl.innerHTML = '<span style="background:linear-gradient(135deg,#FFD93D,#FFB800);color:#6B4F00;padding:4px 12px;border-radius:100px;font-size:12px;font-weight:700;letter-spacing:0.04em;">⭐ GESPONSORD</span>';
     } else if (c.tier === 'plus') {
       tierBadgeEl.innerHTML = '<span style="background:rgba(255,255,255,0.2);color:white;padding:4px 12px;border-radius:100px;font-size:12px;font-weight:700;letter-spacing:0.04em;">PLUS-LID</span>';
     } else {
@@ -8530,7 +8529,7 @@ function submitSignup(e) {
 }
 
 // ============ KENNISBANK ============
-const KB_CATEGORIES = [{"slug": "spoed", "name": "Eerste hulp & spoed", "icon": "zap", "color": "#E63946"}, {"slug": "preventie", "name": "Preventie & vaccinaties", "icon": "shield", "color": "#00A86B"}, {"slug": "voeding", "name": "Voeding & gewicht", "icon": "apple", "color": "#FF6B35"}, {"slug": "gedrag", "name": "Gedrag & welzijn", "icon": "heart", "color": "#9B59B6"}, {"slug": "levensfasen", "name": "Puppy, volwassen, senior", "icon": "calendar", "color": "#0070AC"}, {"slug": "praktisch", "name": "Praktische zaken", "icon": "book", "color": "#FFB800"}];
+const KB_CATEGORIES = [{"slug": "spoed", "name": "Eerste hulp & spoed", "icon": "zap", "color": "#C62828"}, {"slug": "preventie", "name": "Preventie & vaccinaties", "icon": "shield", "color": "#00754A"}, {"slug": "voeding", "name": "Voeding & gewicht", "icon": "apple", "color": "#C2410C"}, {"slug": "gedrag", "name": "Gedrag & welzijn", "icon": "heart", "color": "#9B59B6"}, {"slug": "levensfasen", "name": "Puppy, volwassen, senior", "icon": "calendar", "color": "#0070AC"}, {"slug": "praktisch", "name": "Praktische zaken", "icon": "book", "color": "#FFB800"}];
 const KB_ANIMALS = [{"slug": "hond", "name": "Hond", "emoji": "🐕"}, {"slug": "kat", "name": "Kat", "emoji": "🐈"}, {"slug": "konijn", "name": "Konijn", "emoji": "🐰"}, {"slug": "knaagdier", "name": "Knaagdieren", "emoji": "🐹"}, {"slug": "vogel", "name": "Vogels", "emoji": "🦜"}, {"slug": "reptiel", "name": "Reptielen", "emoji": "🦎"}, {"slug": "paard", "name": "Paarden", "emoji": "🐴"}];
 const KB_ARTICLES = [
 // Lichte index: titel, samenvatting en de eerste zinnen om op te zoeken. De
@@ -8631,8 +8630,11 @@ function kbShowCategory(slug) {
   document.getElementById('kbListCrumb').textContent = cat.name;
   document.getElementById('kbListTitle').textContent = cat.name;
   document.getElementById('kbListDesc').textContent = `Alle artikelen in de categorie "${cat.name}"`;
-  document.getElementById('kbListHero').style.background =
-    `linear-gradient(135deg, ${cat.color}, ${cat.color}cc)`;
+  const hero = document.getElementById('kbListHero');
+  hero.style.background = `linear-gradient(135deg, ${cat.color}, ${cat.color}cc)`;
+  // #FFB800 (praktisch) is te licht voor witte tekst (contrast); donkere
+  // tekst erop, zoals bij de andere gele accenten op de site.
+  hero.style.color = slug === 'praktisch' ? '#6B4F00' : '';
   const articles = KB_ARTICLES.filter(a => a.category === slug);
   renderKbList(articles);
 }
@@ -8645,10 +8647,31 @@ function kbShowAnimal(slug) {
   document.getElementById('kbListTitle').textContent = `${animal.emoji} ${animal.name}`;
   document.getElementById('kbListDesc').textContent =
     `Alle artikelen specifiek voor ${animal.name.toLowerCase()}`;
-  document.getElementById('kbListHero').style.background =
-    `linear-gradient(135deg, var(--dk-blue-deep), var(--dk-blue))`;
+  const hero = document.getElementById('kbListHero');
+  hero.style.background = `linear-gradient(135deg, var(--dk-blue-deep), var(--dk-blue))`;
+  hero.style.color = ''; // reset een eventuele donkere tekstkleur van de vorige (gele) categorie
   const articles = KB_ARTICLES.filter(a => a.animal === slug);
   renderKbList(articles);
+}
+
+// Ontbrak volledig (ReferenceError bij elke categorie/dier/zoekopdracht in de
+// kennisbank) — renderKbList riep 'm al aan, maar de functie zelf bestond
+// nergens in het bestand. Opgemerkt tijdens het testen van de kbShowCategory-
+// wijziging hierboven; niet gerelateerd aan die wijziging zelf (git blame
+// wijst dit uit als een al langer bestaand gat).
+function renderKbArticleCard(a) {
+  const cat = KB_CATEGORIES.find(c => c.slug === a.category);
+  const animal = a.animal ? KB_ANIMALS.find(an => an.slug === a.animal) : null;
+  return `<div class="kb-article-card" onclick="kbShowArticle(${a.id})">
+    <div class="kb-art-meta">
+      ${cat ? `<span class="cat-pill" style="background:${cat.color}${cat.slug === 'praktisch' ? ';color:#6B4F00' : ''}">${cat.name}</span>` : ''}
+      ${animal ? `<span class="animal-emoji" title="${animal.name}">${animal.emoji}</span>` : ''}
+      <span class="read-time">${a.read_min} min</span>
+    </div>
+    <h3>${a.title}</h3>
+    <p>${a.excerpt}</p>
+    <div class="read-link">Lees verder →</div>
+  </div>`;
 }
 
 function renderKbList(articles) {
@@ -8734,8 +8757,9 @@ async function kbSearch(e) {
   document.getElementById('kbListCrumb').textContent = `Zoeken: "${q}"`;
   document.getElementById('kbListTitle').textContent = `${results.length} resultaten voor "${q}"`;
   document.getElementById('kbListDesc').textContent = '';
-  document.getElementById('kbListHero').style.background =
-    'linear-gradient(135deg, var(--dk-blue-deep), var(--dk-blue))';
+  const hero = document.getElementById('kbListHero');
+  hero.style.background = 'linear-gradient(135deg, var(--dk-blue-deep), var(--dk-blue))';
+  hero.style.color = ''; // reset een eventuele donkere tekstkleur van de vorige (gele) categorie
   renderKbList(results);
 }
 

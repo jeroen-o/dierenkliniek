@@ -150,18 +150,11 @@
      vier gewichten die de site echt gebruikt (400, 600, 700, 800) — 300 werd
      nergens gebruikt en 500 (11x) is vervangen door 600, voor 2 fontbestanden
      minder. -->
-<!-- Leaflet CSS/JS zelf gehost (was unpkg.com), zelfde reden. De CSS blijft
-     non-blocking geladen; de ~120 KiB JS (leaflet.js + markercluster) wordt
-     pas gedownload zodra iemand echt een kaart opent — zie loadLeaflet()
-     verderop in dit bestand. -->
-<link rel="stylesheet" href="/vendor/leaflet/leaflet.css" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="/vendor/leaflet/MarkerCluster.css" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="/vendor/leaflet/MarkerCluster.Default.css" media="print" onload="this.media='all'">
-<noscript>
-<link rel="stylesheet" href="/vendor/leaflet/leaflet.css">
-<link rel="stylesheet" href="/vendor/leaflet/MarkerCluster.css">
-<link rel="stylesheet" href="/vendor/leaflet/MarkerCluster.Default.css">
-</noscript>
+<!-- Leaflet CSS/JS zelf gehost (was unpkg.com), zelfde reden. De ~16 KB CSS
+     en de ~120 KiB JS (leaflet.js + markercluster) worden nu samen pas
+     gedownload zodra iemand echt een kaart opent — zie loadLeaflet()
+     verderop in dit bestand. Zonder JS is de kaart sowieso niet te
+     gebruiken, dus een noscript-fallback voor de CSS heeft geen nut. -->
 
 <style>
 @font-face { font-family: 'Manrope'; font-style: normal; font-weight: 400; font-display: swap; src: url('/fonts/manrope-400.woff2') format('woff2'); }
@@ -177,7 +170,7 @@
   --dk-orange: #FF6B35;
   --dk-yellow: #FFB800;
   --dk-green: #00A86B;
-  --dk-red: #E63946;
+  --dk-red: #C62828; /* was #E63946 (4,2:1 met wit, onder de AA-norm van 4,5:1) */
   --ink: #0A1F33;
   --ink-2: #4A5C70;
   --ink-3: #627080;
@@ -1361,7 +1354,7 @@ footer .logo span { color: white; opacity: 0.7; }
 .tool-form label { font-weight: 600; font-size: 14px; color: var(--ink); }
 .tool-form input, .tool-form select {
   padding: 12px 14px; border: 1px solid var(--line); border-radius: 10px;
-  font-family: inherit; font-size: 15px;
+  font-family: inherit; font-size: 16px;
 }
 .tool-form input:focus, .tool-form select:focus { outline: none; border-color: var(--dk-blue); }
 
@@ -2381,7 +2374,7 @@ body.has-compare-bar { padding-bottom: 90px; }
   border: 1px solid var(--line);
   border-radius: 10px;
   font-family: inherit;
-  font-size: 15px;
+  font-size: 16px;
 }
 .english-search-form input:focus { outline: none; border-color: var(--dk-blue); }
 .english-search-form button { white-space: nowrap; }
