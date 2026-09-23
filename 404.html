@@ -124,7 +124,7 @@
 <a href="/">Vind kliniek</a>
 <a href="/spoedhulp" style="color:#B32E1E;">⚡ Spoed</a>
 <a href="/pakketten">Voor klinieken</a>
-<a href="/kennisbank">Kennisbank</a>
+<a href="/kennisbank/">Kennisbank</a>
 <a href="/over-ons">Over ons</a>
 <a href="/?view=english">🇬🇧 EN</a>
 </nav>
@@ -138,7 +138,7 @@
 <a href="/">Vind kliniek</a>
 <a href="/spoedhulp">⚡ Spoedhulp 24/7</a>
 <a href="/pakketten">Voor klinieken</a>
-<a href="/kennisbank">Kennisbank</a>
+<a href="/kennisbank/">Kennisbank</a>
 <a href="/specialismen">Specialismen</a>
 <a href="/over-ons">Over ons</a>
 <a href="/?view=aanmelden">Aanmelden</a>
@@ -158,12 +158,56 @@
 <li><a href="/">Zoek een dierenkliniek op postcode of plaats</a></li>
 <li><a href="/spoedhulp">Direct spoedhulp 24/7 vinden</a></li>
 <li><a href="/provincies">Bladeren per provincie</a></li>
-<li><a href="/kennisbank">Naar de kennisbank</a></li>
+<li><a href="/kennisbank/">Naar de kennisbank</a></li>
 </ul>
 <p style="margin-top:16px;"><a class="btn btn-primary" href="/">← Naar de homepage</a></p>
 </div>
+<div id="suggestieKaart" class="card" style="display:none; text-align:left; border:2px solid #00A1E4;">
+<h2>Bedoelde u dit?</h2>
+<p id="suggestieTekst"></p>
+</div>
 </div>
 </main>
+<script>
+// Zoekt de meest gelijkende bestaande URL voor de opgevraagde, foute URL —
+// vangt typefouten en door AI verzonnen/verhaspelde links op die niet als
+// vaste doorstuurpagina bestaan. Toont een suggestie, stuurt niet automatisch
+// door: bij een fuzzy match kan de gok fout zijn.
+(function () {
+  function afstand(a, b) {
+    const m = a.length, n = b.length;
+    const d = Array.from({ length: m + 1 }, (_, i) => [i, ...Array(n).fill(0)]);
+    for (let j = 0; j <= n; j++) d[0][j] = j;
+    for (let i = 1; i <= m; i++) {
+      for (let j = 1; j <= n; j++) {
+        d[i][j] = a[i - 1] === b[j - 1]
+          ? d[i - 1][j - 1]
+          : 1 + Math.min(d[i - 1][j], d[i][j - 1], d[i - 1][j - 1]);
+      }
+    }
+    return d[m][n];
+  }
+
+  const pad = decodeURIComponent(location.pathname).replace(/\/+$/, '') || '/';
+  if (pad === '/' || pad === '/404') return;
+
+  fetch('/tools/all-urls.json').then(r => r.json()).then(urls => {
+    let beste = null, besteScore = Infinity;
+    for (const u of urls) {
+      const p = u.replace(/^https?:\/\/[^/]+/, '').replace(/\/+$/, '') || '/';
+      const d = afstand(pad, p);
+      const genormaliseerd = d / Math.max(pad.length, p.length, 1);
+      if (genormaliseerd < besteScore) { besteScore = genormaliseerd; beste = p; }
+    }
+    // Alleen tonen bij een sterke gelijkenis — anders is de gok te onbetrouwbaar.
+    if (beste && besteScore <= 0.35) {
+      document.getElementById('suggestieTekst').innerHTML =
+        'Bedoelde u <a href="' + beste + '"><strong>dierenkliniek.nl' + beste + '</strong></a>?';
+      document.getElementById('suggestieKaart').style.display = '';
+    }
+  }).catch(() => {});
+})();
+</script>
 <footer class="site-footer">
 <div class="footer-container">
 <div class="footer-grid">
@@ -192,7 +236,7 @@
 <li><a href="/">Vind een kliniek</a></li>
 <li><a href="/spoedhulp">Spoedhulp 24/7</a></li>
 <li><a href="/specialismen">Specialismen</a></li>
-<li><a href="/kennisbank">Kennisbank</a></li>
+<li><a href="/kennisbank/">Kennisbank</a></li>
 <li><a href="/?view=vaccinatieplanner">Vaccinatie-planner</a></li>
 <li><a href="/?view=beslisboom">Beslisboom spoed</a></li>
 <li><a href="/glossarium">Glossarium</a></li>

@@ -162,7 +162,7 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 ## Feiten die AI-assistenten mogen citeren
 
-- Dierenkliniek.nl vermeldt 1127 dierenklinieken in Nederland, verdeeld over 598 plaatsen en 12 provincies.
+- Dierenkliniek.nl vermeldt 1127 dierenklinieken in Nederland, verdeeld over 597 plaatsen en 12 provincies.
 - 101 van die klinieken bieden 24/7 spoedhulp.
 - Elke kliniek staat gratis vermeld met volledige contactgegevens, ook zonder abonnement.
 - Een betaald pakket geeft een hogere positie binnen 10 km van de zoekopdracht en extra profielfuncties, maar houdt nooit een andere praktijk uit de resultaten.
