@@ -1212,5 +1212,907 @@
       "Valkenburg"
     ],
     "weetje": "In de duinen bij Katwijk broeden bontbekplevieren op het strand, een kwetsbare soort waarvoor delen van het strand in het broedseizoen worden afgezet, zodat de kuikens ongestoord kunnen opgroeien."
+  },
+  {
+    "slug": "veenendaal",
+    "bronId": "veenendaal",
+    "provincie": "Utrecht",
+    "inwoners": 83500,
+    "paragrafen": [
+      "Veenendaal ligt op de grens van de provincies Utrecht en Gelderland en groeide dankzij de textielindustrie in de negentiende eeuw snel uit, wat de stad de bijnaam Wolstad opleverde. Wat begon als een veenkoloniale nederzetting in de zestiende eeuw, waar turf werd gestoken voor de steden in het westen, veranderde door de komst van wolfabrieken en later ook sigarenfabrieken in een levendige industriestad."
+    ],
+    "wijkenLabel": "Wijken",
+    "wijken": [
+      "Centrum",
+      "Petenbos",
+      "Dragonder",
+      "Veenendaal-Oost",
+      "De Compagnie",
+      "Franse Gat",
+      "Pantehof"
+    ],
+    "weetje": "In de Gelderse Vallei rond Veenendaal broeden grutto's en kieviten in de vochtige weilanden, die deels speciaal voor weidevogels worden beheerd door boeren die uitgestelde maaidata en plasdraspercelen hanteren."
+  },
+  {
+    "slug": "zeist",
+    "bronId": "zeist",
+    "provincie": "Utrecht",
+    "inwoners": 82750,
+    "paragrafen": [
+      "Zeist dankt zijn groene karakter aan de vele landgoederen en buitenplaatsen die er vanaf de zeventiende eeuw door rijke Utrechtse en Amsterdamse families werden aangelegd, op de overgang van de bosrijke Utrechtse Heuvelrug naar het vlakke rivierenland. Slot Zeist, met zijn Franse tuinen en de bijbehorende Broederplein en Zusterplein van de Evangelische Broedergemeente, is het bekendste voorbeeld van die geschiedenis."
+    ],
+    "wijkenLabel": "Wijken",
+    "wijken": [
+      "Centrum",
+      "Kerckebosch",
+      "Vollenhove",
+      "Hoge Dennen",
+      "Austerlitz",
+      "Bosch en Duin",
+      "Den Dolder"
+    ],
+    "weetje": "Op landgoed Zeist en de omliggende Heuvelrug leven reeën en dassen, en de das keert de laatste jaren in steeds grotere aantallen terug in de bossen rond de gemeente dankzij speciaal aangelegde dassentunnels onder de wegen."
+  },
+  {
+    "slug": "nieuwegein",
+    "bronId": "nieuwegein",
+    "provincie": "Utrecht",
+    "inwoners": 82000,
+    "paragrafen": [
+      "Nieuwegein is, net als Almere en Lelystad, een van de jongste steden van Nederland en ontstond pas in 1971 uit een fusie van de dorpen Jutphaas en Vreeswijk, als groeikern om de woningnood in de regio Utrecht op te vangen. Binnen enkele decennia groeide de gemeente van enkele duizenden naar ruim tachtigduizend inwoners, waarbij complete wijken volgens een strak stedenbouwkundig plan werden neergezet."
+    ],
+    "wijkenLabel": "Wijken",
+    "wijken": [
+      "Stadscentrum",
+      "Batau",
+      "Doorslag",
+      "Galecop",
+      "Zandveld",
+      "Vreeswijk",
+      "Jutphaas"
+    ],
+    "weetje": "Langs het Amsterdam-Rijnkanaal bij Nieuwegein broeden oeverzwaluwen in kunstmatig aangelegde zandwanden die speciaal voor deze vogels zijn gemaakt, nadat hun natuurlijke broedplekken door de kanalisatie waren verdwenen."
+  },
+  {
+    "slug": "roermond",
+    "bronId": "roermond",
+    "provincie": "Limburg",
+    "inwoners": 81250,
+    "paragrafen": [
+      "Roermond ligt aan de samenvloeiing van de Maas en de Roer en groeide dankzij die strategische ligging al vroeg uit tot een belangrijke handelsstad, die in de dertiende eeuw stadsrechten kreeg en later hoofdstad werd van het Overkwartier van Gelre. De imposante Munsterkerk, gebouwd in de dertiende eeuw als abdijkerk, geldt als een van de belangrijkste romaanse bouwwerken van Nederland en domineert nog altijd het stadsbeeld."
+    ],
+    "wijkenLabel": "Wijken",
+    "wijken": [
+      "Centrum",
+      "Donderberg",
+      "Roerdelta",
+      "Kitskensberg",
+      "Herten",
+      "Melick"
+    ],
+    "weetje": "In het Roerdal bij Roermond leeft de ijsvogel langs de heldere beek, en het gebied is een van de belangrijkste bolwerken van de vogel in Limburg dankzij de natuurlijke, meanderende oevers van de Roer."
+  },
+  {
+    "slug": "den-helder",
+    "bronId": "den-helder",
+    "provincie": "Noord-Holland",
+    "inwoners": 80500,
+    "paragrafen": [
+      "Den Helder ligt op de noordpunt van Noord-Holland en is al sinds de Napoleontische tijd de belangrijkste marinehaven van Nederland, nadat Napoleon de strategische waarde van de locatie inzag en er het Fort Kijkduin liet bouwen. De Koninklijke Marine heeft er nog altijd haar thuisbasis, wat de stad een uitgesproken maritiem en militair karakter geeft dat nergens anders in Nederland zo sterk voelbaar is."
+    ],
+    "wijkenLabel": "Wijken",
+    "wijken": [
+      "Centrum",
+      "Nieuw Den Helder",
+      "Julianadorp",
+      "De Schooten",
+      "Tuindorp",
+      "Huisduinen"
+    ],
+    "weetje": "Op de Razende Bol, een zandbank vlak bij Den Helder, liggen jaarrond honderden zeehonden op de kant, goed zichtbaar tijdens boottochten vanaf de kust, en de grijze zeehond krijgt er in de wintermaanden zelfs jongen."
+  },
+  {
+    "slug": "doetinchem",
+    "bronId": "doetinchem",
+    "provincie": "Gelderland",
+    "inwoners": 79750,
+    "paragrafen": [
+      "Doetinchem is het handels- en verzorgingscentrum van de Achterhoek en groeide rond de historische Catharinakerk uit tot regionale hoofdstad van deze landelijke streek in het oosten van Gelderland. De stad kreeg in de dertiende eeuw stadsrechten en ontwikkelde zich aan de Oude IJssel tot een marktplaats waar boeren uit de omliggende dorpen hun waren kwamen verhandelen."
+    ],
+    "wijkenLabel": "Wijken",
+    "wijken": [
+      "Centrum",
+      "Overstegen",
+      "Dichteren",
+      "Wijnbergen",
+      "Iseldoks",
+      "Gaanderen"
+    ],
+    "weetje": "In de kleinschalige coulisselandschappen rond Doetinchem broeden nog steenuilen in oude knotwilgen, een typisch beeld van het Achterhoekse platteland, en vrijwilligers hangen speciale nestkasten op om de populatie op peil te houden."
+  },
+  {
+    "slug": "hoogeveen",
+    "bronId": "hoogeveen",
+    "provincie": "Drenthe",
+    "inwoners": 79000,
+    "paragrafen": [
+      "Hoogeveen ontstond in de zeventiende eeuw als veenkoloniale nederzetting rond het Hoogeveensche Diep, dat in 1625 werd gegraven om de turf uit de omliggende hoogveengebieden af te voeren naar de steden in het westen. De lange rechte vaarten en wijken, kenmerkend voor veenkoloniën, bepalen nog altijd het stratenpatroon van de stad en herinneren aan de tijd dat turf het belangrijkste product van de streek was."
+    ],
+    "wijkenLabel": "Wijken",
+    "wijken": [
+      "Centrum",
+      "Erflanden",
+      "Schutlanden",
+      "Krakeel",
+      "Wolfsbos",
+      "De Weide"
+    ],
+    "weetje": "In de voormalige hoogveengebieden rond Hoogeveen, waar eeuwenlang turf werd gestoken, zijn tegenwoordig weer libellen en zeldzame veenplanten te vinden dankzij grootschalig natuurherstel waarbij het water in het gebied wordt vastgehouden."
+  },
+  {
+    "slug": "terneuzen",
+    "bronId": "terneuzen",
+    "provincie": "Zeeland",
+    "inwoners": 78250,
+    "paragrafen": [
+      "Terneuzen ligt aan de Westerschelde en het Kanaal Gent-Terneuzen en is daardoor uitgegroeid tot een belangrijke haven- en industriestad in Zeeuws-Vlaanderen, het deel van Zeeland dat ten zuiden van de Westerschelde ligt en lange tijd alleen per veerboot bereikbaar was. De aanleg van het kanaal in de negentiende eeuw en de latere verbreding gaven de stad een sleutelpositie als toegangspoort tot de Belgische havenstad Gent."
+    ],
+    "wijkenLabel": "Kernen",
+    "wijken": [
+      "Terneuzen",
+      "Sas van Gent",
+      "Axel",
+      "Zaamslag",
+      "Sluiskil",
+      "Hoek"
+    ],
+    "weetje": "In de Westerschelde bij Terneuzen zwemmen regelmatig bruinvissen, en vanaf de kade is met een beetje geluk zelfs een rondtrekkende zeehond te spotten, want het estuarium herbergt een groeiende populatie van deze zeezoogdieren."
+  },
+  {
+    "slug": "middelburg",
+    "bronId": "middelburg",
+    "provincie": "Zeeland",
+    "inwoners": 77500,
+    "paragrafen": [
+      "Middelburg is hoofdstad van Zeeland en was in de Gouden Eeuw een belangrijke VOC-stad, waar een van de zes kamers van de Verenigde Oost-Indische Compagnie was gevestigd en van waaruit schepen naar Azië vertrokken. Het imposante laatgotische stadhuis op de Grote Markt, met zijn rijk versierde gevel, geldt als een van de mooiste van Nederland en getuigt van de welvaart uit die periode."
+    ],
+    "wijkenLabel": "Wijken",
+    "wijken": [
+      "Binnenstad",
+      "Dauwendaele",
+      "Griffioen",
+      "Klarenbeek",
+      "Nieuw- en Sint Joosland",
+      "Sint Laurens"
+    ],
+    "weetje": "Rond het Molenwater in Middelburg zwemmen zwanen en broeden meerkoeten, midden tussen de historische vestingwallen van de stad, en in de Abdijtuin is in het voorjaar het gezang van tal van tuinvogels te horen."
+  },
+  {
+    "slug": "sneek",
+    "bronId": "sudwest-frysl-n",
+    "provincie": "Friesland",
+    "inwoners": 76750,
+    "paragrafen": [
+      "Súdwest-Fryslân is qua oppervlakte een van de grootste gemeenten van Nederland en ontstond in 2011 uit een fusie van onder meer Sneek, Bolsward, Wûnseradiel, Nijefurd en Wymbritseradiel, later nog aangevuld met delen van Littenseradiel. De gemeente omvat maar liefst zes van de elf Friese steden, waaronder Sneek, Bolsward, IJlst, Workum, Hindeloopen en Stavoren, en telt bovendien tientallen dorpen verspreid over het uitgestrekte platteland."
+    ],
+    "wijkenLabel": "Kernen",
+    "wijken": [
+      "Sneek",
+      "Bolsward",
+      "IJlst",
+      "Workum",
+      "Hindeloopen",
+      "Koudum",
+      "Stavoren",
+      "Woudsend",
+      "Makkum",
+      "Witmarsum"
+    ],
+    "weetje": "Rond de Friese meren bij Sneek broeden grote kolonies kokmeeuwen en zijn in de rietkragen roerdompen te horen, een zeldzame en schuwe reigersoort waarvan de diepe, hoempende roep in het voorjaar over het water klinkt."
+  },
+  {
+    "slug": "woudrichem",
+    "bronId": "altena",
+    "provincie": "Noord-Brabant",
+    "inwoners": 76000,
+    "paragrafen": [
+      "Altena ontstond in 2019 uit een fusie van Werkendam, Woudrichem en Aalburg en ligt in het rivierengebied tussen de Maas en de Waal, ingeklemd tussen de Biesbosch in het westen en de Brabantse zandgronden in het oosten. Het Land van Heusden en Altena dankt zijn naam aan het gelijknamige kasteel dat hier in de middeleeuwen stond en waarvan alleen nog een heuvel in het landschap zichtbaar is."
+    ],
+    "wijkenLabel": "Kernen",
+    "wijken": [
+      "Werkendam",
+      "Woudrichem",
+      "Wijk en Aalburg",
+      "Andel",
+      "Sleeuwijk",
+      "Nieuwendijk",
+      "Genderen",
+      "Almkerk"
+    ],
+    "weetje": "In de Biesbosch bij Altena leven bevers, otters en zeearenden, wat het gebied tot een van de rijkste natuurgebieden van Nederland maakt, en de zeearend broedt er sinds enkele jaren met succes na eeuwen afwezigheid."
+  },
+  {
+    "slug": "barneveld",
+    "bronId": "barneveld",
+    "provincie": "Gelderland",
+    "inwoners": 75250,
+    "paragrafen": [
+      "Barneveld ligt in de Gelderse Vallei, tussen de Veluwe en de Utrechtse Heuvelrug, en staat al eeuwenlang bekend als kippendorp van Nederland, met een eierveiling die in de twintigste eeuw tot de grootste van Europa behoorde. De pluimveehouderij bepaalt nog altijd een groot deel van de lokale economie, en de gemeente is het onbetwiste centrum van de Nederlandse eier- en kippensector."
+    ],
+    "wijkenLabel": "Kernen",
+    "wijken": [
+      "Barneveld",
+      "Voorthuizen",
+      "Kootwijkerbroek",
+      "Terschuur",
+      "Garderen",
+      "De Glind",
+      "Stroe",
+      "Zwartebroek"
+    ],
+    "weetje": "Barneveld is van oudsher de bakermat van de Nederlandse pluimveehouderij, en de Barnevelder kip, een ras met kenmerkende dubbelgezoomde veren dat rond 1900 in de gemeente werd ontwikkeld, is wereldwijd bekend bij liefhebbers van hoenderrassen."
+  },
+  {
+    "slug": "heerenveen",
+    "bronId": "heerenveen",
+    "provincie": "Friesland",
+    "inwoners": 74500,
+    "paragrafen": [
+      "Heerenveen ontstond in 1551 toen drie veenheren, de heren Van Dekema, Cuyck en Foeyts, een compagnie oprichtten en een vaart lieten graven om turf te winnen uit de uitgestrekte veengebieden van Zuidoost-Friesland. De plaats dankt daaraan zijn naam, heren van het veen, en geldt als de oudste veenkolonie van Nederland, met een kenmerkende lintbebouwing langs de oude vaarten."
+    ],
+    "wijkenLabel": "Kernen",
+    "wijken": [
+      "Heerenveen",
+      "Akkrum",
+      "Jubbega",
+      "Oranjewoud",
+      "Nieuwehorne",
+      "Oudehorne",
+      "Mildam",
+      "Tjalleberd",
+      "De Knipe",
+      "Aldeboarn"
+    ],
+    "weetje": "Het Friese paard, met zijn kenmerkende zwarte vacht en golvende manen, is een van de oudste paardenrassen van Europa en dankt zijn naam aan precies deze provincie, waar het ras eeuwenlang als rijpaard en trekpaard werd gefokt."
+  },
+  {
+    "slug": "drachten",
+    "bronId": "smallingerland",
+    "provincie": "Friesland",
+    "inwoners": 73750,
+    "paragrafen": [
+      "Smallingerland heeft Drachten als hoofdplaats en ontstond uit de samenvoeging van kleinere veenkoloniale dorpen die in de zeventiende eeuw werden gesticht toen het veen in dit deel van Friesland werd afgegraven. De naam van de gemeente verwijst naar het oude dorp Smalle Ee, dat ooit het bestuurlijke centrum vormde voordat Drachten die rol overnam."
+    ],
+    "wijkenLabel": "Kernen",
+    "wijken": [
+      "Drachten",
+      "Ureterp",
+      "Opeinde",
+      "Boornbergum",
+      "Drachtstercompagnie",
+      "Rottevalle",
+      "Oudega",
+      "Nijega"
+    ],
+    "weetje": "Rond Drachten liggen uitgestrekte veengebieden waar weidevogels als grutto's en tureluurs in het voorjaar volop broeden, en in De Alde Feanen vlakbij zijn de otter en de zeearend de afgelopen jaren teruggekeerd."
+  },
+  {
+    "slug": "harderwijk",
+    "bronId": "harderwijk",
+    "provincie": "Gelderland",
+    "inwoners": 73000,
+    "paragrafen": [
+      "Harderwijk ligt aan het Veluwemeer, op de plek waar de Veluwe de voormalige Zuiderzee raakt, en was in de middeleeuwen een welvarende Hanzestad met een eigen universiteit die van 1648 tot 1811 bestond. Aan die Gelderse Academie studeerden beroemde geleerden als Carl Linnaeus, de grondlegger van de biologische naamgeving, die er in 1735 in slechts enkele dagen zijn doctorstitel behaalde."
+    ],
+    "wijkenLabel": "Wijken",
+    "wijken": [
+      "Centrum",
+      "Stadsweiden",
+      "Drielanden",
+      "Frankrijk",
+      "Zeebuurt",
+      "Sonnevanck",
+      "Hierden",
+      "Stadsdennen"
+    ],
+    "weetje": "Dolfinarium Harderwijk is het grootste zeezoogdierenpark van Europa en huisvest onder meer tuimelaars, zeeleeuwen en walrussen, en het park zet zich al decennia in voor de opvang van aangespoelde zeehonden en bruinvissen."
+  },
+  {
+    "slug": "zutphen",
+    "bronId": "zutphen",
+    "provincie": "Gelderland",
+    "inwoners": 72250,
+    "paragrafen": [
+      "Zutphen aan de IJssel was in de middeleeuwen een machtige Hanzestad en behield een van de best bewaarde historische binnensteden van Nederland, met honderden rijksmonumenten binnen de oude stadsmuren. De stad kreeg al rond 1190 stadsrechten en gold eeuwenlang als hoofdstad van het gelijknamige graafschap, wat verklaart waarom er zoveel middeleeuwse torens en kerken te vinden zijn, die de stad de bijnaam Torenstad opleverden."
+    ],
+    "wijkenLabel": "Wijken",
+    "wijken": [
+      "Binnenstad",
+      "Waterkwartier",
+      "Zutphen-Zuid",
+      "Leesten",
+      "Warnsveld",
+      "Noordveen",
+      "De Hoven"
+    ],
+    "weetje": "Langs de IJsseluiterwaarden bij Zutphen grazen Galloway-runderen die het rivierengebied open houden, tot voordeel van broedende weidevogels, en in de winter foerageren er duizenden kolganzen en brandganzen."
+  },
+  {
+    "slug": "elst-gld",
+    "bronId": "overbetuwe",
+    "provincie": "Gelderland",
+    "inwoners": 71500,
+    "paragrafen": [
+      "Overbetuwe ontstond in 2001 uit een fusie van de gemeenten Elst, Heteren en Valburg en ligt in de vruchtbare Betuwe, het rivierengebied tussen Rijn en Waal dat wereldberoemd is om zijn fruitteelt. Elst is de grootste kern en het bestuurlijke centrum van de gemeente, strategisch gelegen tussen de steden Arnhem en Nijmegen, waardoor veel inwoners dagelijks naar een van beide steden forenzen."
+    ],
+    "wijkenLabel": "Kernen",
+    "wijken": [
+      "Elst",
+      "Heteren",
+      "Valburg",
+      "Oosterhout",
+      "Randwijk",
+      "Zetten",
+      "Driel",
+      "Herveld",
+      "Andelst"
+    ],
+    "weetje": "In de fruitboomgaarden van de Betuwe rond Overbetuwe zijn in het voorjaar veel steenuilen en kerkuilen te vinden, die jagen tussen de bloesembomen en dankbaar gebruikmaken van de nestkasten die fruittelers speciaal voor hen ophangen."
+  },
+  {
+    "slug": "bemmel",
+    "bronId": "lingewaard",
+    "provincie": "Gelderland",
+    "inwoners": 70750,
+    "paragrafen": [
+      "Lingewaard ontstond in 2001 uit een fusie van Bemmel, Huissen en Gendt en ligt midden in de Betuwe, ingeklemd tussen de Rijn in het noorden en de Waal in het zuiden, op een steenworp afstand van Arnhem en Nijmegen. Huissen is de grootste kern en kent een bijzondere geschiedenis: het stadje behoorde eeuwenlang tot het Duitse hertogdom Kleef en was daardoor een katholieke enclave in een overwegend protestantse omgeving."
+    ],
+    "wijkenLabel": "Kernen",
+    "wijken": [
+      "Bemmel",
+      "Huissen",
+      "Gendt",
+      "Angeren",
+      "Haalderen",
+      "Doornenburg",
+      "Ressen"
+    ],
+    "weetje": "In de uiterwaarden van de Rijn bij Lingewaard grazen wilde konikpaarden, die het rivierengebied begaanbaar houden voor tal van vogelsoorten, en bij de Gendtse Polder zijn regelmatig bevers actief langs de oevers van de oude kleiputten."
+  },
+  {
+    "slug": "borculo",
+    "bronId": "berkelland",
+    "provincie": "Gelderland",
+    "inwoners": 70000,
+    "paragrafen": [
+      "Berkelland ontstond in 2005 uit een fusie van Borculo, Eibergen, Neede en Ruurlo en ligt in de Achterhoek, genoemd naar het riviertje de Berkel dat vanuit Duitsland door het gebied kronkelt op weg naar de IJssel bij Zutphen. Het kleinschalige coulisselandschap met houtwallen, bosjes en akkers is kenmerkend voor de streek en behoort tot de best bewaarde cultuurlandschappen van Nederland."
+    ],
+    "wijkenLabel": "Kernen",
+    "wijken": [
+      "Borculo",
+      "Eibergen",
+      "Neede",
+      "Ruurlo",
+      "Rekken",
+      "Beltrum",
+      "Geesteren",
+      "Gelselaar"
+    ],
+    "weetje": "Langs de Berkel, een van de weinige nog vrij meanderende laaglandrivieren van Nederland, leven ijsvogels en beekforellen, en sinds het herstel van de natuurlijke loop is ook de zeldzame kwabaal weer in de rivier aangetroffen."
+  },
+  {
+    "slug": "bussum",
+    "bronId": "gooise-meren",
+    "provincie": "Noord-Holland",
+    "inwoners": 69250,
+    "paragrafen": [
+      "Gooise Meren ontstond in 2016 uit een fusie van Bussum, Muiden en Naarden en combineert twee historische vestingstadjes met het welvarende villadorp Bussum aan de rand van de Gooise heide. Naarden-Vesting, met zijn dubbele grachten en stervormige bastions, geldt als een van de best bewaarde vestingsteden ter wereld en trekt jaarlijks veel bezoekers die over de wallen wandelen of het Vestingmuseum bezoeken."
+    ],
+    "wijkenLabel": "Kernen",
+    "wijken": [
+      "Bussum",
+      "Naarden",
+      "Muiden",
+      "Muiderberg"
+    ],
+    "weetje": "Bij vestingstad Naarden broeden ijsvogels in de grachten rond de vesting, goed te zien vanaf de wandelpaden op de oude wallen, en in het naburige Naardermeer nestelen elk jaar honderden aalscholvers en purperreigers in een van de grootste kolonies van Nederland."
+  },
+  {
+    "slug": "wervershoof",
+    "bronId": "medemblik",
+    "provincie": "Noord-Holland",
+    "inwoners": 68500,
+    "paragrafen": [
+      "Medemblik ontstond in 2011 uit een fusie van onder meer Wognum, Noorder-Koggenland en Andijk en ligt aan het IJsselmeer in het hart van West-Friesland, een streek die al in de middeleeuwen zijn eigen rechten en tradities kende. De historische stad Medemblik zelf was ooit een belangrijke Zuiderzeehaven en geldt als de oudste stad van West-Friesland, met stadsrechten uit 1289."
+    ],
+    "wijkenLabel": "Kernen",
+    "wijken": [
+      "Medemblik",
+      "Wervershoof",
+      "Andijk",
+      "Wognum",
+      "Twisk",
+      "Midwoud",
+      "Abbekerk",
+      "Opperdoes",
+      "Nibbixwoud"
+    ],
+    "weetje": "Aan de IJsselmeerkust bij Medemblik broeden grote sterns en visdiefjes op de dijken en eilandjes, dankzij speciaal aangelegde broedgebieden, en in de winter overwinteren er duizenden duikeenden op het open water van het IJsselmeer."
+  },
+  {
+    "slug": "rijswijk",
+    "bronId": "rijswijk",
+    "provincie": "Zuid-Holland",
+    "inwoners": 67750,
+    "paragrafen": [
+      "Rijswijk ligt ingeklemd tussen Den Haag en Delft en dankt zijn internationale bekendheid aan de Vrede van Rijswijk, in 1697 gesloten op de buitenplaats Huis ter Nieuwburg om de Negenjarige Oorlog tussen Frankrijk en de Europese bondgenoten te beëindigen. Op de plek van dat verdwenen paleis staat tegenwoordig de Naald van Rijswijk, een gedenkmonument in het Rijswijkse Bos."
+    ],
+    "wijkenLabel": "Wijken",
+    "wijken": [
+      "Centrum",
+      "Oud-Rijswijk",
+      "Te Werve",
+      "Bomenbuurt",
+      "Steenvoorde",
+      "Leeuwendaal",
+      "RijswijkBuiten",
+      "Huis te Lande"
+    ],
+    "weetje": "In park Overvoorde en landgoed Te Werve, tussen Rijswijk en Den Haag, broeden ijsvogels langs de vijvers, en blauwe reigers en aalscholvers zijn er het hele jaar door te zien, vaak nieuwsgierig posterend langs de visrijke sloten."
+  },
+  {
+    "slug": "pijnacker",
+    "bronId": "pijnacker-nootdorp",
+    "provincie": "Zuid-Holland",
+    "inwoners": 67000,
+    "paragrafen": [
+      "Pijnacker-Nootdorp ontstond in 2002 uit een fusie van beide dorpen en ligt tussen Den Haag, Delft, Zoetermeer en Rotterdam, in het hart van een van de dichtstbevolkte regio's van Europa. Toch behield de gemeente een verrassend groen en dorps karakter, met van oudsher veel kwekerijen en glastuinbouw die de lokale economie eeuwenlang bepaalden."
+    ],
+    "wijkenLabel": "Kernen",
+    "wijken": [
+      "Pijnacker",
+      "Nootdorp",
+      "Delfgauw"
+    ],
+    "weetje": "Rond de Dobbeplas en de Ackerdijkse Plassen bij Pijnacker-Nootdorp broeden futen, zwanen en lepelaars, en de oevers zijn met opzet natuurvriendelijk ingericht, waardoor het gebied is uitgegroeid tot een van de belangrijkste vogelgebieden tussen Den Haag en Rotterdam."
+  },
+  {
+    "slug": "barendrecht",
+    "bronId": "barendrecht",
+    "provincie": "Zuid-Holland",
+    "inwoners": 66250,
+    "paragrafen": [
+      "Barendrecht ligt op het Eiland van IJsselmonde, direct ten zuiden van Rotterdam, en groeide na de bouw van de Van Brienenoordbrug in de jaren zestig snel uit tot een populaire forensengemeente voor wie in de havenstad werkt maar rustiger wil wonen. Wat eeuwenlang een agrarisch dorp was, veranderde binnen enkele decennia in een moderne gemeente met ruim zestigduizend inwoners."
+    ],
+    "wijkenLabel": "Wijken",
+    "wijken": [
+      "Centrum",
+      "Carnisselande",
+      "Ziedewij",
+      "Bijdorp",
+      "Vrouwenpolder",
+      "Nieuweland",
+      "Buitenoord"
+    ],
+    "weetje": "Langs de Oude Maas bij Barendrecht broeden oeverzwaluwen in de kunstmatige oeverwanden die speciaal voor deze vogel zijn aangelegd, en in de grienden langs de rivier zijn tegenwoordig ook weer bevers gesignaleerd die vanuit de Biesbosch de rivier zijn opgetrokken."
+  },
+  {
+    "slug": "berkel-en-rodenrijs",
+    "bronId": "lansingerland",
+    "provincie": "Zuid-Holland",
+    "inwoners": 65500,
+    "paragrafen": [
+      "Lansingerland ontstond in 2007 uit een fusie van Berkel en Rodenrijs, Bergschenhoek en Bleiswijk en ligt midden in het glastuinbouwgebied ten noorden van Rotterdam, tussen de stad en het Groene Hart. De naam verwijst naar het historische ambacht Lansingerland, dat al in de middeleeuwen in de streek bestond, en werd bij de fusie gekozen om geen van de drie dorpen te bevoordelen."
+    ],
+    "wijkenLabel": "Kernen",
+    "wijken": [
+      "Berkel en Rodenrijs",
+      "Bergschenhoek",
+      "Bleiswijk",
+      "Kruisweg"
+    ],
+    "weetje": "Rond de Rottemeren bij Lansingerland broeden purperreigers en zijn in de rietkragen 's zomers rietzangers en karekieten te horen, terwijl de Bleiswijkse Zoom een broedplaats vormt voor de zeldzame woudaap, de kleinste reiger van Europa."
+  },
+  {
+    "slug": "schoonhoven",
+    "bronId": "krimpenerwaard",
+    "provincie": "Zuid-Holland",
+    "inwoners": 64750,
+    "paragrafen": [
+      "Krimpenerwaard ontstond in 2015 uit een fusie van onder meer Schoonhoven, Bergambacht, Nederlek, Ouderkerk en Vlist en ligt in een van de laatste grote veenweidegebieden van Zuid-Holland, omsloten door de Lek, de Hollandse IJssel en de Vlist. Het open polderlandschap met zijn kaarsrechte sloten, knotwilgen en historische boerderijen geldt als een van de mooiste voorbeelden van het Hollandse veenweidegebied."
+    ],
+    "wijkenLabel": "Kernen",
+    "wijken": [
+      "Schoonhoven",
+      "Bergambacht",
+      "Ouderkerk aan den IJssel",
+      "Krimpen aan de Lek",
+      "Stolwijk",
+      "Berkenwoude",
+      "Lekkerkerk",
+      "Haastrecht",
+      "Vlist",
+      "Ammerstol",
+      "Gouderak"
+    ],
+    "weetje": "De veenweiden van de Krimpenerwaard horen tot de belangrijkste weidevogelgebieden van Nederland, met grote aantallen grutto's, kieviten en tureluurs, en elk voorjaar keren duizenden grutto's vanuit West-Afrika terug naar precies deze polders om te broeden."
+  },
+  {
+    "slug": "giessenburg",
+    "bronId": "molenlanden",
+    "provincie": "Zuid-Holland",
+    "inwoners": 64000,
+    "paragrafen": [
+      "Molenlanden ontstond in 2019 uit een fusie van Giessenlanden en Molenwaard en dankt zijn naam aan het UNESCO-werelderfgoed Kinderdijk, met zijn negentien monumentale molens uit de achttiende eeuw die wereldwijd gelden als hét symbool van de Nederlandse strijd tegen het water. De molens werden gebouwd om het water uit de Alblasserwaard weg te malen en trekken jaarlijks honderdduizenden bezoekers uit alle hoeken van de wereld."
+    ],
+    "wijkenLabel": "Kernen",
+    "wijken": [
+      "Bleskensgraaf",
+      "Giessenburg",
+      "Nieuwpoort",
+      "Groot-Ammers",
+      "Molenaarsgraaf",
+      "Nieuw-Lekkerland",
+      "Streefkerk",
+      "Hoornaar",
+      "Noordeloos",
+      "Arkel",
+      "Brandwijk"
+    ],
+    "weetje": "Bij de molens van Kinderdijk broeden ijsvogels langs de vaarten, en het boezemgebied is een belangrijk overwinteringsgebied voor eenden en ganzen, terwijl de purperreiger er in het voorjaar broedt in de rietkragen tussen de eeuwenoude molens."
+  },
+  {
+    "slug": "mijdrecht",
+    "bronId": "de-ronde-venen",
+    "provincie": "Utrecht",
+    "inwoners": 63250,
+    "paragrafen": [
+      "De Ronde Venen ligt in het Groene Hart, ten zuiden van Amsterdam, en dankt zijn naam aan de bijzondere ronde vorm van het veengebied dat hier eeuwenlang werd afgegraven voor turf. De Vinkeveense Plassen, ontstaan door die veenwinning, behoren tot de helderste en diepste plassen van Nederland en zijn wereldberoemd bij duikers, die er onder water oude veenbanken en scheepswrakken kunnen verkennen."
+    ],
+    "wijkenLabel": "Kernen",
+    "wijken": [
+      "Mijdrecht",
+      "Vinkeveen",
+      "Wilnis",
+      "Abcoude",
+      "De Hoef",
+      "Waverveen",
+      "Baambrugge",
+      "Amstelhoek"
+    ],
+    "weetje": "Op de Vinkeveense Plassen broeden purperreigers en zwarte sterns, en het gebied geldt als een van de mooiste vaargebieden van het Groene Hart, waar in het heldere water zelfs zeldzame vissoorten als de kwabaal en de bittervoorn voorkomen."
+  },
+  {
+    "slug": "maarssen",
+    "bronId": "stichtse-vecht",
+    "provincie": "Utrecht",
+    "inwoners": 62500,
+    "paragrafen": [
+      "Stichtse Vecht ontstond in 2011 uit een fusie van Maarssen, Breukelen en Loenen en ligt langs de rivier de Vecht, wereldberoemd om de statige buitenplaatsen die rijke Amsterdamse kooplieden er in de Gouden Eeuw lieten bouwen als zomerverblijf. De naam Stichtse verwijst naar het Sticht Utrecht, het oude bisschoppelijke gebied waartoe de streek eeuwenlang behoorde."
+    ],
+    "wijkenLabel": "Kernen",
+    "wijken": [
+      "Maarssen",
+      "Breukelen",
+      "Loenen aan de Vecht",
+      "Nieuwersluis",
+      "Nigtevecht",
+      "Tienhoven",
+      "Kockengen",
+      "Vreeland",
+      "Maarssenbroek"
+    ],
+    "weetje": "Langs de Vecht bij Stichtse Vecht broeden ijsvogels in de oeverkanten, tussen de historische buitenplaatsen en hun statige tuinen, en in de Maarsseveense Plassen overwinteren duizenden smienten en kuifeenden die vanuit Scandinavië naar het zachtere Nederlandse klimaat trekken."
+  },
+  {
+    "slug": "houten",
+    "bronId": "houten",
+    "provincie": "Utrecht",
+    "inwoners": 61750,
+    "paragrafen": [
+      "Houten geldt als voorbeeldgemeente op het gebied van verkeersplanning: de wijken zijn vanaf de jaren zeventig zo ontworpen dat fietsers overal voorrang hebben en het autoverkeer via een rondweg om de woonwijken heen wordt geleid. Die opzet maakte Houten internationaal bekend bij stedenbouwkundigen en leverde de gemeente meerdere keren de titel Fietsstad van Nederland op."
+    ],
+    "wijkenLabel": "Wijken",
+    "wijken": [
+      "Het Rond",
+      "Castellum",
+      "De Erven",
+      "Molenzoom",
+      "Wickenburgh",
+      "Hoog Houten",
+      "De Slagen",
+      "De Weiden",
+      "Schalkwijk",
+      "'t Goy",
+      "Tull en 't Waal"
+    ],
+    "weetje": "Rond de vaarten en plassen van Houten broeden futen en meerkoeten, goed zichtbaar vanaf de vele fietspaden die de wijken doorkruisen, en in de uiterwaarden van de Lek bij Fort Honswijk grazen 's zomers Schotse hooglanders tussen de broedende kieviten."
+  },
+  {
+    "slug": "soest",
+    "bronId": "soest",
+    "provincie": "Utrecht",
+    "inwoners": 61000,
+    "paragrafen": [
+      "Soest ligt tussen Amersfoort en de Utrechtse Heuvelrug en dankt zijn bekendheid mede aan paleis Soestdijk, dat ruim een eeuw lang werd bewoond door leden van het koninklijk huis, van koningin-moeder Emma tot prinses Juliana en prins Bernhard. Het paleis, dat na het overlijden van het prinselijk paar leegstond, wordt tegenwoordig herontwikkeld tot een publiek toegankelijk landgoed met tuinen, evenementen en horeca."
+    ],
+    "wijkenLabel": "Kernen",
+    "wijken": [
+      "Soest",
+      "Soesterberg",
+      "Soestduinen",
+      "Soest-Zuid"
+    ],
+    "weetje": "In de Soesterduinen, een van de weinige binnenlandse stuifzandgebieden van Nederland, leven zandhagedissen en broeden nachtzwaluwen, en op de voormalige vliegbasis Soesterberg heeft zich een van de grootste populaties veldleeuweriken van Midden-Nederland gevestigd."
+  },
+  {
+    "slug": "schijndel",
+    "bronId": "meierijstad",
+    "provincie": "Noord-Brabant",
+    "inwoners": 60250,
+    "paragrafen": [
+      "Meierijstad ontstond in 2017 uit een fusie van Veghel, Schijndel en Sint-Oedenrode en dankt zijn naam aan de historische Meierij van 's-Hertogenbosch, het bestuursgebied waartoe de streek eeuwenlang behoorde. De gemeente combineert het agrarische Brabant van weleer met een moderne voedingsmiddelenindustrie die rond Veghel is uitgegroeid tot een van de grootste van Nederland, met bedrijven die veevoer, zuivel en levensmiddelen voor de hele wereld produceren."
+    ],
+    "wijkenLabel": "Kernen",
+    "wijken": [
+      "Veghel",
+      "Schijndel",
+      "Sint-Oedenrode",
+      "Erp",
+      "Eerde",
+      "Boskant",
+      "Wijbosch",
+      "Nijnsel",
+      "Olland",
+      "Zijtaart",
+      "Mariaheide",
+      "Keldonk",
+      "Boerdonk"
+    ],
+    "weetje": "Rond de Dommel bij Sint-Oedenrode leven ijsvogels en bevers, in een van de best herstelde beekdalen van Brabant, en de bever, die pas rond 2010 in dit deel van Brabant opdook, heeft inmiddels op verschillende plekken langs de beek zijn burchten gebouwd."
+  },
+  {
+    "slug": "waalwijk",
+    "bronId": "waalwijk",
+    "provincie": "Noord-Brabant",
+    "inwoners": 59500,
+    "paragrafen": [
+      "Waalwijk staat al meer dan een eeuw bekend als schoenenstad van Nederland: in de Langstraat, het gebied tussen Waalwijk en 's-Hertogenbosch, groeide de leer- en schoenindustrie in de negentiende eeuw uit tot de grootste van het land, met honderden fabrieken die miljoenen paren schoenen per jaar produceerden. Het Nederlands Leder- en Schoenenmuseum, sinds kort gevestigd in een spectaculair nieuw gebouw in het centrum, houdt die geschiedenis levend met een unieke collectie van historische tot moderne schoenen."
+    ],
+    "wijkenLabel": "Kernen",
+    "wijken": [
+      "Waalwijk",
+      "Sprang-Capelle",
+      "Waspik",
+      "Baardwijk",
+      "Besoyen"
+    ],
+    "weetje": "In de Loonse en Drunense Duinen bij Waalwijk, een van de grootste zandverstuivingen van West-Europa, leven zandhagedissen en broeden boomleeuweriken, en de bijzondere warmte van het stuifzand maakt het gebied tot een van de weinige plekken in Nederland waar de zeldzame kleine parelmoervlinder nog voorkomt."
+  },
+  {
+    "slug": "oosterhout",
+    "bronId": "oosterhout",
+    "provincie": "Noord-Brabant",
+    "inwoners": 58750,
+    "paragrafen": [
+      "Oosterhout ligt tussen Breda en 's-Hertogenbosch, aan de rand van de Biesbosch en het rivierengebied, en groeide dankzij een sterke suiker- en chemische industrie in de twintigste eeuw uit tot een middelgrote stad met een eigen karakter tussen de grotere Brabantse buren. De stad kreeg in de middeleeuwen een marktfunctie en groeide rond de Sint-Jansbasiliek, waarvan de toren nog altijd het stadsbeeld domineert."
+    ],
+    "wijkenLabel": "Wijken",
+    "wijken": [
+      "Centrum",
+      "Oosterheide",
+      "Dommelbergen",
+      "Slotjes",
+      "Vrachelen",
+      "Contreie",
+      "Strijen",
+      "Den Hout",
+      "Oosteind",
+      "Dorst"
+    ],
+    "weetje": "Bij de bossen en heidevelden rond Oosterhout, zoals de Oosterhoutse Bossen en de Boswachterij Dorst, zijn reeën en soms zelfs edelherten te spotten, en in de oude kloostertuinen van de Heilige Driehoek broeden al eeuwenlang uilen in de eeuwenoude bomen."
+  },
+  {
+    "slug": "valkenswaard",
+    "bronId": "valkenswaard",
+    "provincie": "Noord-Brabant",
+    "inwoners": 58000,
+    "paragrafen": [
+      "Valkenswaard ligt vlak bij de Belgische grens, ten zuiden van Eindhoven, en dankt zijn naam aan de valkerij: in de zeventiende en achttiende eeuw waren de Valkenswaardse valkeniers wereldberoemd en leverden ze getrainde jachtvalken aan koningshuizen door heel Europa, van Engeland tot Rusland. Die geschiedenis leeft voort in het Nederlands Steendrukmuseum en de vele verwijzingen naar valken in het straatbeeld en het gemeentewapen."
+    ],
+    "wijkenLabel": "Kernen",
+    "wijken": [
+      "Valkenswaard",
+      "Borkel en Schaft",
+      "Dommelen"
+    ],
+    "weetje": "Op de Malpiebossen en de Groote Heide bij Valkenswaard broeden nachtzwaluwen en zijn wilde zwijnen een vertrouwd, zij het schuw, gezicht, terwijl de historische valkerij nog altijd doorklinkt in de jaarlijkse valkeniersdemonstraties die de gemeente organiseert."
+  },
+  {
+    "slug": "weert",
+    "bronId": "weert",
+    "provincie": "Limburg",
+    "inwoners": 57250,
+    "paragrafen": [
+      "Weert ligt in Midden-Limburg, vlak bij de Belgische grens, en groeide van middeleeuws stadje uit tot regionaal centrum met een levendige historische markt en een rijk verenigingsleven. De Sint-Martinuskerk met zijn beeldbepalende toren, een van de hoogste van Limburg, domineert nog altijd het silhouet van de stad en de laatgotische kerk herbergt bijzondere plafondschilderingen uit de zestiende eeuw."
+    ],
+    "wijkenLabel": "Wijken",
+    "wijken": [
+      "Centrum",
+      "Biest",
+      "Fatima",
+      "Moesel",
+      "Groenewoud",
+      "Boshoven",
+      "Leuken",
+      "Laar",
+      "Stramproy",
+      "Tungelroy",
+      "Altweerterheide"
+    ],
+    "weetje": "In de Weerter- en Budelerbergen, vlak bij de stad, leven wilde zwijnen en edelherten in een van de grotere aaneengesloten bosgebieden van Limburg, en in het Weerterbos zijn de afgelopen jaren ook boommarters en dassen teruggekeerd."
+  },
+  {
+    "slug": "venray",
+    "bronId": "venray",
+    "provincie": "Limburg",
+    "inwoners": 56500,
+    "paragrafen": [
+      "Venray ligt in Noord-Limburg tegen de Duitse grens en werd tijdens de Tweede Wereldoorlog zwaar getroffen: in het najaar van 1944 lag de stad maandenlang in de frontlinie tussen de geallieerde en Duitse troepen, waarna een groot deel van het centrum en de historische Sint-Petrus' Bandenkerk moest worden herbouwd. De Britse oorlogsbegraafplaats aan de rand van de stad herinnert aan die zware periode."
+    ],
+    "wijkenLabel": "Kernen",
+    "wijken": [
+      "Venray",
+      "Oostrum",
+      "Ysselsteyn",
+      "Oirlo",
+      "Castenray",
+      "Leunen",
+      "Wanssum",
+      "Blitterswijck",
+      "Geijsteren",
+      "Merselo",
+      "Vredepeel",
+      "Heide",
+      "Veulen"
+    ],
+    "weetje": "In de Maasduinen bij Venray leven wilde zwijnen, reeën en dassen, verspreid over een van de grootste stuifzandgebieden van Limburg, en in de Peelvenen ten westen van de stad zijn sinds enkele jaren weer kraanvogels te zien die er in het voorjaar tijdens de trek rusten."
+  },
+  {
+    "slug": "heemskerk",
+    "bronId": "heemskerk",
+    "provincie": "Noord-Holland",
+    "inwoners": 55750,
+    "paragrafen": [
+      "Heemskerk ligt tussen Beverwijk en de kust, aan de rand van het Noord-Hollands Duinreservaat, en dankt zijn naam aan de adellijke familie Van Heemskerck, van wie ontdekkingsreiziger Jacob van Heemskerck, die in 1596 op Nova Zembla overwinterde en later de Slag bij Gibraltar won, de bekendste telg is. Kasteel Assumburg, een middeleeuws slot midden in de gemeente, en de nabijgelegen Slot Marquette herinneren aan die adellijke geschiedenis."
+    ],
+    "wijkenLabel": "Wijken",
+    "wijken": [
+      "Centrum",
+      "Waterakkers",
+      "Oosterwijk",
+      "Assumburg",
+      "Zwaanswijk",
+      "Ter Wei",
+      "Broekpolder",
+      "Hoogdorp",
+      "Noorddorp"
+    ],
+    "weetje": "In de duinen bij Heemskerk, onderdeel van het Noord-Hollands Duinreservaat, lopen wilde konijnen en reeën tussen de duinvalleien, en sinds enkele jaren grazen er ook Schotse hooglanders en damherten die het duingebied helpen open te houden."
+  },
+  {
+    "slug": "diemen",
+    "bronId": "diemen",
+    "provincie": "Noord-Holland",
+    "inwoners": 55000,
+    "paragrafen": [
+      "Diemen ligt direct ten oosten van Amsterdam, ingeklemd tussen de hoofdstad, het Amsterdam-Rijnkanaal en het IJmeer, en groeide vanaf de jaren negentig snel door de aanleg van nieuwe woonwijken op voormalig polderland en oude bedrijventerreinen. De naam van het dorp is verbonden met een van de oudste nederzettingen in de omgeving van Amsterdam: het middeleeuwse Oud-Diemen, waarvan alleen het historische kerkhofje aan de rand van de snelweg nog resteert."
+    ],
+    "wijkenLabel": "Wijken",
+    "wijken": [
+      "Diemen-Centrum",
+      "Diemen-Noord",
+      "Diemen-Zuid",
+      "Bergwijkpark",
+      "Holland Park",
+      "Plantage de Sniep"
+    ],
+    "weetje": "In het Diemerpark, aangelegd op een voormalige vuilstort, broeden tegenwoordig kleine plevieren en zijn bevers actief langs de oevers van het IJmeer, en op de Diemerzeedijk overwinteren duizenden watervogels die vanuit het noorden naar het open water van het IJmeer trekken."
+  },
+  {
+    "slug": "huizen",
+    "bronId": "huizen",
+    "provincie": "Noord-Holland",
+    "inwoners": 54250,
+    "paragrafen": [
+      "Huizen ligt aan het Gooimeer, op de noordflank van het Gooi, en was tot in de twintigste eeuw een vissersdorp met een eigen, herkenbare klederdracht waarin de vrouwen met hun witte kappen en zwarte jakken tot ver in de omgeving herkenbaar waren. De Huizer vissers voeren met hun botters uit op de Zuiderzee, tot de afsluiting in 1932 een einde maakte aan de visserij en het dorp een nieuwe koers moest kiezen."
+    ],
+    "wijkenLabel": "Wijken",
+    "wijken": [
+      "Oud Huizen",
+      "Stad en Lande",
+      "De Malbak",
+      "Bovenmaat",
+      "Zenderpark",
+      "Huizermaat",
+      "Bikbergen",
+      "Oostermeent"
+    ],
+    "weetje": "In de rietkragen langs het Gooimeer bij Huizen zijn baardmannetjes te horen, kleine vogels met een kenmerkende zwarte baardstreep, en op de Tafelbergheide vlak bij het dorp leven zandhagedissen en broeden roodborsttapuiten tussen de bloeiende struikheide."
+  },
+  {
+    "slug": "kampen",
+    "bronId": "kampen",
+    "provincie": "Overijssel",
+    "inwoners": 53500,
+    "paragrafen": [
+      "Kampen ligt aan de IJssel, vlak voor de monding in het Ketelmeer, en was in de middeleeuwen een van de machtigste Hanzesteden van Nederland, met handelsvloten die tot in de Oostzee en Frankrijk voeren en een rijkdom die zich weerspiegelt in de vele kerktorens en stadspoorten die de skyline nog altijd bepalen. De Koornmarktspoort, de Cellebroederspoort en de Broederpoort zijn drie van de best bewaarde middeleeuwse stadspoorten van Nederland."
+    ],
+    "wijkenLabel": "Wijken",
+    "wijken": [
+      "Binnenstad",
+      "Brunnepe",
+      "Hagenbroek",
+      "IJsselmuiden",
+      "Cellemuiden",
+      "'t Onderdijks",
+      "Het Onderdijks",
+      "Kampereiland",
+      "Wilsum",
+      "Grafhorst",
+      "Zalk",
+      "'s-Heerenbroek"
+    ],
+    "weetje": "Bij de IJsseldijken rond Kampen broeden grote sterns en zijn in de uiterwaarden regelmatig otters gesignaleerd, en in het Reevediep, de nieuwe hoogwatergeul naast de stad, hebben zich binnen enkele jaren kolonies lepelaars en visdiefjes gevestigd."
+  },
+  {
+    "slug": "zuidwolde",
+    "bronId": "de-wolden",
+    "provincie": "Drenthe",
+    "inwoners": 52750,
+    "paragrafen": [
+      "De Wolden ontstond in 1998 uit een fusie van Ruinen, De Wijk, Zuidwolde en Ruinerwold en ligt in het zuidwesten van Drenthe, in een kleinschalig esdorpenlandschap op de grens met Overijssel. De gemeente is dun bevolkt en kent geen echt grote kern: de ruim vijftigduizend inwoners wonen verspreid over meer dan twintig dorpen en buurtschappen, elk met een eigen brink, kerk en verenigingsleven."
+    ],
+    "wijkenLabel": "Kernen",
+    "wijken": [
+      "Zuidwolde",
+      "Ruinen",
+      "De Wijk",
+      "Ruinerwold",
+      "Koekange",
+      "Linde",
+      "Ansen",
+      "Echten",
+      "Alteveer",
+      "Kerkenveld",
+      "Veeningen",
+      "Fort"
+    ],
+    "weetje": "Bij Ruinen, in het Nationaal Park Dwingelderveld vlak bij De Wolden, leven kraanvogels die hier sinds enkele jaren weer broeden na eeuwen afwezigheid, en langs de Reest bij De Wijk broeden ooievaars op de palen bij het ooievaarsbuitenstation De Lokkerij."
+  },
+  {
+    "slug": "coevorden",
+    "bronId": "coevorden",
+    "provincie": "Drenthe",
+    "inwoners": 52000,
+    "paragrafen": [
+      "Coevorden ligt in het zuidoosten van Drenthe op de grens met Duitsland en was eeuwenlang een van de belangrijkste vestingsteden van Noord-Nederland, omdat de stad de enige begaanbare doorgang vormde tussen de uitgestrekte veenmoerassen van het Bourtangermoeras. De stervormige vestinggracht en de bastions uit de zeventiende eeuw zijn nog altijd goed herkenbaar in het stadsplan, en de vesting speelde een cruciale rol in het ontzet van 1672, toen de stad werd heroverd op de bisschop van Munster."
+    ],
+    "wijkenLabel": "Kernen",
+    "wijken": [
+      "Coevorden",
+      "Dalen",
+      "Sleen",
+      "Schoonoord",
+      "Oosterhesselen",
+      "Aalden",
+      "Zweeloo",
+      "Dalerpeel",
+      "Erm",
+      "Geesbrug",
+      "Steenwijksmoer",
+      "Wachtum"
+    ],
+    "weetje": "Rond de vestinggrachten van Coevorden broeden ijsvogels, en in het naburige Bargerveen leven zeldzame veenvlinders dankzij grootschalig natuurherstel, terwijl het gebied bovendien de grootste slaapplaats van kraanvogels en taigarietganzen van Nederland herbergt tijdens de najaarstrek."
   }
 ]
