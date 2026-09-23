@@ -649,9 +649,17 @@ footer .logo span { color: white; opacity: 0.7; }
 .result-thumb svg { width: 50px; height: 50px; opacity: 0.5; }
 .avatar-initialen {
   width: 100%; height: 100%; border-radius: inherit;
+  position: relative; overflow: hidden;
   display: flex; align-items: center; justify-content: center;
   color: white; font-weight: 800; letter-spacing: -0.02em;
 }
+/* Pootje-logo als watermerk, zodat het merk herkenbaar blijft naast de
+   initialen-kleur per kliniek. */
+.avatar-initialen .avatar-pootje {
+  position: absolute; right: -8%; bottom: -12%;
+  width: 60%; height: 60%; opacity: 0.22;
+}
+.avatar-initialen span { position: relative; }
 .result-thumb .avatar-initialen { font-size: 30px; }
 .clinic-card-img .avatar-initialen { font-size: 38px; border-radius: 0; }
 .result-body h3 { font-size: 18px; font-weight: 700; margin-bottom: 4px; display: flex; align-items: center; gap: 8px; }
