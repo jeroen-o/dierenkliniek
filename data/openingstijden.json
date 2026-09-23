@@ -250,14 +250,14 @@
     "onbevestigd": true
   },
   "dap-de-driehoek-dierenarts-in-klarenbeek": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
+    "ma": "08:15-19:30",
+    "di": "08:15-18:00",
+    "wo": "08:15-18:00",
+    "do": "08:15-19:30",
+    "vr": "08:15-18:00",
+    "za": "08:15-12:00",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "praktijk, gecontroleerd 2026-09-22"
   },
   "dap-drie-weikes-dierenarts-in-oud-gastel": {
     "ma": "12:30-17:00",
@@ -1138,14 +1138,14 @@
     "onbevestigd": true
   },
   "dierenartspraktijk-wormer-dierenarts-in-wormer": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
+    "ma": "08:30-17:30",
+    "di": "08:30-17:30",
+    "wo": "08:30-17:30",
+    "do": "08:30-19:00",
+    "vr": "08:30-17:30",
+    "za": "09:00-13:00",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "praktijk, aanmeldformulier 2026-09-22"
   },
   "dierendokters-amsterdam-dierenarts-in-amsterdam": {
     "ma": "12:30-17:00",
