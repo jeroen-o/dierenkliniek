@@ -3135,6 +3135,55 @@ body.has-compare-bar { padding-bottom: 90px; }
     <div class="spoed-disclaimer">
       <strong>⚠️ Let op:</strong> dit zijn indicatieve richtprijzen en geen offerte of garantie voor een specifieke kliniek. Tarieven verschillen sterk per praktijk, regio en de situatie van uw huisdier. Vraag bij twijfel altijd een prijsopgave aan bij de dierenarts.
     </div>
+
+    <div class="faq-list" style="margin-top:32px;">
+      <h2 style="margin-bottom:16px;">Veelgestelde vragen</h2>
+      <details class="faq-item">
+        <summary class="faq-q">
+          <span>Wat kost een dierenarts voor een hond?</span>
+          <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+        </summary>
+        <div class="faq-a">
+          <p>Een regulier consult voor een hond kost gemiddeld € 40 – 70, afhankelijk van het formaat. Een jaarlijkse vaccinatie inclusief consult kost € 50 – 95. Castratie of sterilisatie loopt uiteen van € 200 tot € 600, omdat gewicht en narcosetijd meetellen. Kies hierboven het formaat van uw hond voor een prijsindicatie op maat.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-q">
+          <span>Wat kost een dierenarts voor een kat?</span>
+          <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+        </summary>
+        <div class="faq-a">
+          <p>Een regulier consult voor een kat kost gemiddeld € 40 – 65, een jaarlijkse vaccinatie € 50 – 75. Castratie van een kater kost € 75 – 110, sterilisatie van een poes € 155 – 220.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-q">
+          <span>Wat kost een dierenarts voor een konijn of vogel?</span>
+          <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+        </summary>
+        <div class="faq-a">
+          <p>Bij konijnen kost een regulier consult zo'n € 35 – 45 en een vaccinatie tegen myxomatose/VHD2 € 50 – 60. Bij vogels ligt een consult op € 40 – 70; vaccinatie en sterilisatie zijn bij vogels niet standaard en sterk soortafhankelijk.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-q">
+          <span>Is een dierenarts duurder in de Randstad?</span>
+          <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+        </summary>
+        <div class="faq-a">
+          <p>Ja. Klinieken in de Randstad rekenen gemiddeld zo'n 15% meer dan klinieken elders in Nederland, vanwege hogere personeels- en huurkosten. Selecteer hierboven uw regio voor een aangepaste indicatie.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-q">
+          <span>Zijn deze prijzen een garantie?</span>
+          <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+        </summary>
+        <div class="faq-a">
+          <p>Nee. Het zijn indicatieve richtprijzen, geen offerte. Tarieven verschillen per praktijk en per situatie van uw huisdier — vraag bij twijfel altijd een prijsopgave aan bij uw eigen dierenarts.</p>
+        </div>
+      </details>
+    </div>
   </section>
 </div>
 
@@ -7008,7 +7057,7 @@ function navigate(view) {
   // onderbroken door layout shifts wanneer de nieuwe view DOM-mutaties doet
   window.scrollTo(0, 0);
   if (view === 'search') renderSearchResults();
-  if (view === 'kostenwijzer') renderKostenWijzer();
+  if (view === 'kostenwijzer') { renderKostenWijzer(); injectKostenFaqSchema(); }
 
   // Remove clinic-specific schema when leaving clinic page
   if (view !== 'clinic') {
@@ -7018,6 +7067,8 @@ function navigate(view) {
   if (view !== 'kostenwijzer') {
     const oldKostenSchema = document.getElementById('kostenSchema');
     if (oldKostenSchema) oldKostenSchema.remove();
+    const oldKostenFaqSchema = document.getElementById('kostenFaqSchema');
+    if (oldKostenFaqSchema) oldKostenFaqSchema.remove();
   }
 
   // Sync URL zodat deelbare/refreshbare links altijd kloppen (en de canonical
@@ -7852,6 +7903,33 @@ function injectKostenSchema(label, rijen) {
 
   const script = document.createElement('script');
   script.id = 'kostenSchema';
+  script.type = 'application/ld+json';
+  script.textContent = JSON.stringify(data, null, 2);
+  document.head.appendChild(script);
+}
+
+// FAQPage-schema voor de zichtbare FAQ onderaan de kosten wijzer — vast,
+// onafhankelijk van diersoort/formaat, dus eenmalig ingevoegd (niet bij elke
+// renderKostenWijzer) en verwijderd zodra de view wordt verlaten (zie navigate()).
+function injectKostenFaqSchema() {
+  if (document.getElementById('kostenFaqSchema')) return;
+  const faqs = [
+    ['Wat kost een dierenarts voor een hond?', 'Een regulier consult voor een hond kost gemiddeld € 40 – 70, afhankelijk van het formaat. Een jaarlijkse vaccinatie inclusief consult kost € 50 – 95. Castratie of sterilisatie loopt uiteen van € 200 tot € 600, omdat gewicht en narcosetijd meetellen.'],
+    ['Wat kost een dierenarts voor een kat?', 'Een regulier consult voor een kat kost gemiddeld € 40 – 65, een jaarlijkse vaccinatie € 50 – 75. Castratie van een kater kost € 75 – 110, sterilisatie van een poes € 155 – 220.'],
+    ['Wat kost een dierenarts voor een konijn of vogel?', "Bij konijnen kost een regulier consult zo'n € 35 – 45 en een vaccinatie tegen myxomatose/VHD2 € 50 – 60. Bij vogels ligt een consult op € 40 – 70; vaccinatie en sterilisatie zijn bij vogels niet standaard en sterk soortafhankelijk."],
+    ['Is een dierenarts duurder in de Randstad?', 'Ja. Klinieken in de Randstad rekenen gemiddeld zo\'n 15% meer dan klinieken elders in Nederland, vanwege hogere personeels- en huurkosten.'],
+    ['Zijn deze prijzen een garantie?', 'Nee. Het zijn indicatieve richtprijzen, geen offerte. Tarieven verschillen per praktijk en per situatie van uw huisdier — vraag bij twijfel altijd een prijsopgave aan bij uw eigen dierenarts.'],
+  ];
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(([q, a]) => ({
+      "@type": "Question", "name": q,
+      "acceptedAnswer": { "@type": "Answer", "text": a }
+    }))
+  };
+  const script = document.createElement('script');
+  script.id = 'kostenFaqSchema';
   script.type = 'application/ld+json';
   script.textContent = JSON.stringify(data, null, 2);
   document.head.appendChild(script);
