@@ -24,6 +24,14 @@ const { esc, clinicSlug, citySlug, provinceOf, slugify } = L;
 const { CLINICS, KB_ARTICLES } = DATA;
 const TIJDEN = O.laad();
 
+// Unieke, geschreven tekst per (grote) plaats — geschiedenis, wijken/kernen
+// en een dierenweetje — i.p.v. de generieke, uit clinic-data afgeleide
+// introtekst. data/gemeenten.json is handmatig aangeleverde content, per
+// citySlug; niet elke stad heeft een entry.
+const GEMEENTEN = Object.fromEntries(
+  JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'gemeenten.json'), 'utf8')).map(g => [g.slug, g])
+);
+
 const BADGE_JS = L.sjabloon('badge-kopieer.js').trimEnd();
 
 /* ---------------- helpers ---------------- */
@@ -558,6 +566,22 @@ ${kbArtikelen.map(a => `      <li><a href="/kennisbank/${a.slug}">${esc(a.title)
   </div>
 `;
 
+  const gemeente = GEMEENTEN[slug.replace(/^dierenarts-/, '')];
+  const gemeenteBlok = gemeente ? `
+  <div class="card">
+    <h2>Over ${esc(city)}</h2>
+    <p class="subtitle" style="margin-bottom:16px;">${esc(gemeente.provincie)}${gemeente.inwoners ? ` · ${gemeente.inwoners.toLocaleString('nl-NL')} inwoners` : ''}</p>
+    ${gemeente.paragrafen.map(p => `<p>${esc(p)}</p>`).join('\n    ')}
+    ${gemeente.wijken.length ? `<div style="background:#f7f9fc; border:1px solid #e2e8f0; border-radius:8px; padding:14px 20px; margin-top:16px;">
+      <strong style="display:block; margin-bottom:6px; color:#0070AC; font-size:13px; text-transform:uppercase; letter-spacing:.03em;">${esc(gemeente.wijkenLabel || 'Wijken')}</strong>
+      ${esc(gemeente.wijken.join(', '))}
+    </div>` : ''}
+    ${gemeente.weetje ? `<div style="background:#f0f9ff; border-left:4px solid #00A1E4; border-radius:8px; padding:14px 18px; margin-top:12px;">
+      <strong>Leuk weetje:</strong> ${esc(gemeente.weetje)}
+    </div>` : ''}
+  </div>
+` : '';
+
   const body = `<main>
   <nav class="breadcrumb">
     <a href="/">Home</a> ›
@@ -569,6 +593,7 @@ ${kbArtikelen.map(a => `      <li><a href="/kennisbank/${a.slug}">${esc(a.title)
   <h1>Dierenarts in ${esc(city)}</h1>
   <p class="subtitle">${n === 1 ? '1 kliniek' : `${n} klinieken`} in ${esc(city)} — vergelijk en kies met vertrouwen</p>
 
+${gemeenteBlok}
   <div class="card">
     <h2>Overzicht</h2>
     <p>${introTekst}</p>
