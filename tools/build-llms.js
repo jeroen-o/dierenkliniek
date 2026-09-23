@@ -132,7 +132,7 @@ Categorie: ${catName[a.category] || a.category}${a.animal ? ` · Diersoort: ${an
 Samenvatting: ${a.excerpt}
 
 ${toText(a.content)}
-`).join('\n')}
+${a.faq && a.faq.length ? `\nVeelgestelde vragen:\n${a.faq.map(f => `V: ${f.q}\nA: ${toText(f.a)}`).join('\n\n')}\n` : ''}`).join('\n')}
 
 --------------------------------------------------------------------------------
 # Veterinair glossarium

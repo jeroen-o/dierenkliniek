@@ -109,7 +109,8 @@ function articlePage(a) {
       isAccessibleForFree: true,
       speakable: { '@type': 'SpeakableSpecification', cssSelector: ['h1', '.tldr'] }
     },
-    L.breadcrumbLd(crumbs)
+    L.breadcrumbLd(crumbs),
+    ...(a.faq && a.faq.length ? [L.faqLd(a.faq)] : [])
   ];
 
   const body = `${L.breadcrumbHtml(crumbs)}
@@ -125,6 +126,8 @@ function articlePage(a) {
   ${a.content}
   ${DISCLAIMER}
 </article>
+
+${a.faq && a.faq.length ? L.faqHtml(a.faq) : ''}
 
 <section class="card">
   <h2>Verder lezen</h2>

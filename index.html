@@ -3100,7 +3100,7 @@ body.has-compare-bar { padding-bottom: 90px; }
     </div>
   </section>
 
-  <section class="container" style="padding:40px 0; max-width:640px; margin:0 auto;">
+  <section class="container" style="padding:40px 0; max-width:800px; margin:0 auto;">
     <div class="tool-card">
       <h2>Diersoort</h2>
       <div class="kw-species-row" role="group" aria-label="Kies diersoort">
@@ -6640,12 +6640,27 @@ function injectClinicSchema(c) {
 }
 
 function updatePageMeta(title, description) {
-  // Update document title and meta description for SEO + better tab labels
+  // Update document title, meta description én de Open Graph/Twitter-tags
+  // voor SEO + correcte share-cards op social media (anders toont een
+  // gedeelde link van bijv. de kostenwijzer altijd de homepage-titel).
   if (title) document.title = title;
   if (description) {
-    let metaDesc = document.querySelector('meta[name="description"]');
+    const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) metaDesc.setAttribute('content', description);
   }
+  const setMeta = (sel, val) => {
+    if (!val) return;
+    const el = document.querySelector(sel);
+    if (el) el.setAttribute('content', val);
+  };
+  setMeta('meta[property="og:title"]', title);
+  setMeta('meta[property="og:description"]', description);
+  setMeta('meta[name="twitter:title"]', title);
+  setMeta('meta[name="twitter:description"]', description);
+  // og:url volgt de canonical, die op dit punt al is bijgewerkt door
+  // updateUrl()/setCanonical() (navigate() roept die vóór updatePageMeta aan).
+  const canonical = document.querySelector('link[rel="canonical"]');
+  if (canonical) setMeta('meta[property="og:url"]', canonical.getAttribute('href'));
 }
 
 // ============ PROVINCIE / STAD ROUTING ============
@@ -6995,22 +7010,27 @@ function navigate(view) {
   if (view === 'search') renderSearchResults();
   if (view === 'kostenwijzer') renderKostenWijzer();
 
-  // Update document title and meta description
-  if (VIEW_META[view]) {
-    updatePageMeta(VIEW_META[view].title, VIEW_META[view].desc);
-  }
-
   // Remove clinic-specific schema when leaving clinic page
   if (view !== 'clinic') {
     const oldSchema = document.getElementById('clinicSchema');
     if (oldSchema) oldSchema.remove();
   }
+  if (view !== 'kostenwijzer') {
+    const oldKostenSchema = document.getElementById('kostenSchema');
+    if (oldKostenSchema) oldKostenSchema.remove();
+  }
 
-  // Sync URL zodat deelbare/refreshbare links altijd kloppen.
+  // Sync URL zodat deelbare/refreshbare links altijd kloppen (en de canonical
+  // klaarstaat vóór updatePageMeta die 'm gebruikt voor og:url).
   // updateUrl() wrapt pushState in try/catch voor sandboxed iframes.
   // We slaan 'clinic' over — die krijgt zijn eigen URL via showClinic → updateUrl(view, c).
   if (view !== 'clinic') {
     updateUrl(view);
+  }
+
+  // Update document title, meta description en OG/Twitter-tags
+  if (VIEW_META[view]) {
+    updatePageMeta(VIEW_META[view].title, VIEW_META[view].desc);
   }
 }
 
@@ -7793,6 +7813,48 @@ function renderKostenWijzer() {
       : `<span class="kw-price kw-muted">${esc(note)}</span>`;
     return `<div class="kw-row"><span class="kw-label">${esc(lbl)}</span>${price}</div>`;
   }).join('');
+
+  injectKostenSchema(label, cfg.rijen.filter(([, min, max]) => min != null && max != null)
+    .map(([lbl, min, max]) => [lbl, round5(min * factor), round5(max * factor)]));
+}
+
+// Structured data voor de huidige diersoort/formaat-combinatie — zelfde
+// aanpak als injectClinicSchema: opnieuw injecteren bij elke wissel,
+// verwijderen zodra de view wordt verlaten (zie navigate()).
+function injectKostenSchema(label, rijen) {
+  const oud = document.getElementById('kostenSchema');
+  if (oud) oud.remove();
+
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": `Dierenarts kosten wijzer — ${label}`,
+    "url": "https://dierenkliniek.nl/?view=kostenwijzer",
+    "areaServed": "NL",
+    "provider": { "@type": "Organization", "name": "Dierenkliniek.nl", "url": "https://dierenkliniek.nl/" },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": label,
+      "itemListElement": rijen.map(([lbl, min, max], i) => ({
+        "@type": "Offer",
+        "position": i + 1,
+        "itemOffered": { "@type": "Service", "name": lbl },
+        "priceCurrency": "EUR",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": min,
+          "maxPrice": max,
+          "priceCurrency": "EUR"
+        }
+      }))
+    }
+  };
+
+  const script = document.createElement('script');
+  script.id = 'kostenSchema';
+  script.type = 'application/ld+json';
+  script.textContent = JSON.stringify(data, null, 2);
+  document.head.appendChild(script);
 }
 
 function esc(s) {
