@@ -533,7 +533,7 @@ ${buurt.map(({ o, d }) => `        <a href="/${clinicSlug(o)}" class="nearby-car
 ${kbArtikelen.map(a => `      <li><a href="/kennisbank/${a.slug}">${esc(a.title)}</a></li>`).join('\n')}
     </ul>
     <p style="margin-top: 16px;">
-      <a href="/kennisbank" class="btn btn-primary">Bezoek de kennisbank →</a>
+      <a href="/kennisbank/" class="btn btn-primary">Bezoek de kennisbank →</a>
     </p>
   </div>
 `;
@@ -553,7 +553,7 @@ ${kbArtikelen.map(a => `      <li><a href="/kennisbank/${a.slug}">${esc(a.title)
     <h2>Overzicht</h2>
     <p>${introTekst}</p>
     ${overzichtPunten.length ? `<ul style="margin-top:12px;">${overzichtPunten.join('')}</ul>` : ''}
-    <p style="margin-top:16px;"><a href="/spoedhulp">📢 Spoedhulp nodig?</a> · <a href="/">🔍 Zoek op postcode</a> · <a href="/kennisbank">📖 Kennisbank</a></p>
+    <p style="margin-top:16px;"><a href="/spoedhulp">📢 Spoedhulp nodig?</a> · <a href="/">🔍 Zoek op postcode</a> · <a href="/kennisbank/">📖 Kennisbank</a></p>
   </div>
 
   <h2 style="font-size:24px; margin: 24px 0 16px;">${n === 1 ? `De kliniek in ${esc(city)}` : `Alle klinieken in ${esc(city)}`}</h2>

@@ -244,7 +244,7 @@ for (const c of CLINICS) {
       <a class="spec" href="/${citySlug(c.city)}">Alle dierenartsen in ${L.esc(c.city)}</a>
       ${prov ? `<a class="spec" href="/dierenklinieken-${L.slugify(prov)}">Dierenklinieken in ${L.esc(prov)}</a>` : ''}
       <a class="spec" href="/spoedhulp">⚡ Spoedhulp 24/7</a>
-      <a class="spec" href="/kennisbank">Kennisbank</a>
+      <a class="spec" href="/kennisbank/">Kennisbank</a>
       <a class="spec" href="/glossarium">Veterinair glossarium</a>
       ${specs.map(s => {
         const map = { 'Spoed 24/7': '/specialisme-spoed', 'Katten': '/specialisme-katten', 'Honden': '/specialisme-honden',
@@ -349,7 +349,7 @@ for (const city of cities) {
       ${prov ? `<a class="spec" href="/dierenklinieken-${L.slugify(prov)}">Alle klinieken in ${L.esc(prov)}</a>` : ''}
       <a class="spec" href="/provincies">Alle provincies</a>
       <a class="spec" href="/spoedhulp">⚡ Spoedhulp 24/7</a>
-      <a class="spec" href="/kennisbank">Kennisbank</a>
+      <a class="spec" href="/kennisbank/">Kennisbank</a>
       <a class="spec" href="/kennisbank/wanneer-is-iets-echt-een-spoedgeval">Wanneer is iets écht spoed?</a>
       <a class="spec" href="/glossarium">Veterinair glossarium</a>
     </div>

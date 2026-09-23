@@ -132,7 +132,7 @@ ${a.faq && a.faq.length ? L.faqHtml(a.faq) : ''}
 <section class="card">
   <h2>Verder lezen</h2>
   ${cardGrid(related(a))}
-  <p style="margin-top:16px;"><a href="/kennisbank">Alle ${articles.length} artikelen in de kennisbank →</a></p>
+  <p style="margin-top:16px;"><a href="/kennisbank/">Alle ${articles.length} artikelen in de kennisbank →</a></p>
 </section>
 
 ${cityLinks()}`;
@@ -267,7 +267,7 @@ function facetPage(kind, item, list) {
 </div>
 <section class="card">
   ${cardGrid(list, 'h2')}
-  <p style="margin-top:16px;"><a href="/kennisbank">← Terug naar de kennisbank</a></p>
+  <p style="margin-top:16px;"><a href="/kennisbank/">← Terug naar de kennisbank</a></p>
 </section>
 ${cityLinks()}`;
 

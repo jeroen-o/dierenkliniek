@@ -177,7 +177,7 @@ function provinciePage(prov) {
   <div class="tag-row">
     <a class="pill pill-red" href="/spoedhulp">⚡ Spoedhulp 24/7</a>
     <a class="pill" href="/">Zoek op postcode</a>
-    <a class="pill" href="/kennisbank">Kennisbank</a>
+    <a class="pill" href="/kennisbank/">Kennisbank</a>
   </div>
 </div>
 
@@ -298,7 +298,7 @@ function glossariumPage() {
 <section class="card">
   <h2>Meer uitleg nodig?</h2>
   <div class="tag-row">
-    <a class="pill" href="/kennisbank">Kennisbank (${KB_ARTICLES.length} artikelen)</a>
+    <a class="pill" href="/kennisbank/">Kennisbank (${KB_ARTICLES.length} artikelen)</a>
     <a class="pill pill-red" href="/spoedhulp">⚡ Spoedhulp 24/7</a>
     <a class="pill" href="/">Zoek een dierenarts</a>
   </div>
