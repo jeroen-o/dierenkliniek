@@ -536,7 +536,215 @@ function specialismenPage() {
   });
 }
 
+/* ---------- /dierenarts-op-de-eilanden ---------- */
+function eilandenPage() {
+  const crumbs = [{ name: 'Home', url: '/' }, { name: 'Dierenarts op de eilanden', url: '/dierenarts-op-de-eilanden' }];
+
+  // Klinieken per stad opzoeken voor de "bekijk klinieken"-links per eiland.
+  const byCity = {};
+  for (const c of withProv) (byCity[c.city] ||= []).push(c);
+  const stadLink = (stad) => byCity[stad] && byCity[stad].length
+    ? `<a class="pill" href="/${citySlug(stad)}">${L.esc(stad)} (${byCity[stad].length})</a>` : null;
+
+  const EILANDEN = [
+    {
+      id: 'de-waddeneilanden', tag: 'Noord-Holland &amp; Friesland · Waddenzee · 24.600 inwoners',
+      titel: 'Dierenklinieken op de Waddeneilanden',
+      paragrafen: [
+        "De Nederlandse Waddeneilanden liggen als een parelsnoer voor de kust van Noord-Holland, Friesland en Groningen, gescheiden van het vasteland door de Waddenzee, het grootste getijdengebied van Europa en sinds 2009 UNESCO-werelderfgoed. Vijf eilanden zijn bewoond: Texel, Vlieland, Terschelling, Ameland en Schiermonnikoog, samen goed voor bijna vijfentwintigduizend vaste inwoners en jaarlijks miljoenen toeristen die de rust, het strand en de natuur komen zoeken.",
+        "Elk eiland heeft een eigen karakter. Texel, het grootste, heeft zeven dorpen, een eigen schapenras en het Waddencentrum Ecomare. Vlieland is klein, autovrij en bosrijk, met één dorp en de uitgestrekte Vliehors. Terschelling heeft de Brandaris, een eigen taal, cranberry's en het Oerol-festival. Ameland kent vier dorpen en de wereldberoemde paardenreddingboot van Hollum. Schiermonnikoog is het kleinste bewoonde eiland, het eerste Nationaal Park van Nederland en heeft het breedste strand van Europa. Daarnaast liggen er onbewoonde eilanden en zandplaten als Rottumerplaat, Rottumeroog, Griend en Richel, die als broedgebied en zeehondenrustplaats dienen.",
+        "Juist op de eilanden is een dierenkliniek dichtbij van groot belang. Wie met een ziek huisdier naar het vasteland moet, is afhankelijk van de veerdienst en verliest kostbare tijd; een dierenarts op het eiland zelf kan direct handelen bij spoedgevallen. De eilanden tellen bovendien veel dieren: schapen op Texel, paarden voor het strandwerk op Ameland en Terschelling, en de vele honden die met hun baasjes de kilometerslange stranden bezoeken. Veel vakantiegangers nemen hun huisdier mee, waardoor eilandpraktijken in het seizoen ook toeristen bijstaan. Dierenkliniek.nl brengt de dierenartsen en dierenklinieken op alle bewoonde Waddeneilanden overzichtelijk in kaart, zodat inwoners en bezoekers snel de juiste zorg vinden."
+      ],
+      kernenLabel: 'Bewoonde eilanden', kernen: ['Texel', 'Vlieland', 'Terschelling', 'Ameland', 'Schiermonnikoog'],
+      weetje: "De Waddenzee is de belangrijkste tussenstop van West-Europa voor trekvogels: elk jaar passeren tien tot twaalf miljoen vogels het gebied op weg tussen Siberië, Scandinavië en Afrika, en op de zandplaten tussen de eilanden leven duizenden gewone en grijze zeehonden die er in het voorjaar en de winter hun jongen krijgen.",
+      links: []
+    },
+    {
+      id: 'de-zeeuwse-eilanden', tag: 'Zeeland · Zuidwestelijke delta · 330.000 inwoners',
+      titel: 'Dierenklinieken op de Zeeuwse eilanden',
+      paragrafen: [
+        "Zeeland dankt zijn naam aan de eilanden en schiereilanden die samen de provincie vormen: Schouwen-Duiveland, Tholen met Sint Philipsland, Noord-Beveland, Walcheren en Zuid-Beveland, aangevuld met Zeeuws-Vlaanderen op het vasteland ten zuiden van de Westerschelde. Het Zuid-Hollandse Goeree-Overflakkee wordt landschappelijk en historisch tot dezelfde eilandengroep gerekend. Wat ooit losse eilanden waren, alleen per veerboot bereikbaar, is sinds de Deltawerken door dammen en bruggen verbonden tot één samenhangend gebied met ruim driehonderdduizend inwoners.",
+        "De eilanden verschillen sterk van karakter. Schouwen-Duiveland heeft de monumentenstad Zierikzee en de badplaatsen Renesse en Burgh-Haamstede. Tholen is agrarisch en rustig, met het vestingstadje Tholen en ringdorpen als Sint-Maartensdijk. Noord-Beveland is klein en weids, met Colijnsplaat, Kortgene en Kamperland aan Oosterschelde en Veerse Meer. Walcheren is het dichtstbevolkte eiland met de provinciehoofdstad Middelburg, havenstad Vlissingen en badplaatsen als Domburg en Zoutelande. Zuid-Beveland heeft Goes als centrum en Yerseke als wereldberoemd oester- en mosseldorp. De watersnoodramp van 1953 trof alle eilanden zwaar en leidde tot de Deltawerken, met de Oosterscheldekering als bekendste bouwwerk.",
+        "Een dierenkliniek in de buurt is op de Zeeuwse eilanden van extra waarde: de afstanden over dammen en dijken zijn groot en in het toeristenseizoen zijn de wegen druk. Het gebied telt veel dieren, van paarden en schapen op de dijken tot de honden en katten van inwoners en de talloze vakantiegangers die hun huisdier meenemen naar de kust. Dierenkliniek.nl brengt de dierenartsen en dierenklinieken op alle Zeeuwse eilanden overzichtelijk in kaart, zodat u snel de juiste zorg vindt, of u nu op Schouwen-Duiveland woont of een week op Walcheren verblijft."
+      ],
+      kernenLabel: 'Eilanden', kernen: ['Schouwen-Duiveland', 'Tholen', 'Sint Philipsland', 'Noord-Beveland', 'Walcheren', 'Zuid-Beveland', 'Goeree-Overflakkee'],
+      weetje: "De Oosterschelde rond de Zeeuwse eilanden is het grootste Nationaal Park van Nederland en herbergt een van de grootste zeehondenpopulaties van de Delta, terwijl de bruinvis er in zulke aantallen voorkomt dat hij vanaf de dijken bij Zierikzee, Colijnsplaat en Wemeldinge regelmatig te zien is.",
+      links: []
+    },
+    {
+      id: 'texel', tag: 'Noord-Holland · Waddeneiland · 13.700 inwoners', titel: 'Dierenarts op Texel',
+      paragrafen: [
+        "Texel is het grootste en meest westelijke van de Nederlandse Waddeneilanden en ligt op een kwartier varen vanaf Den Helder, over het Marsdiep dat het eiland van het vasteland scheidt. Met ruim dertienduizend inwoners en jaarlijks zo'n een miljoen toeristen is Texel een eiland dat zowel een levendige eigen gemeenschap als een grote vakantiebestemming is, met zeven dorpen die elk hun eigen karakter hebben.",
+        "Den Burg is het centrale dorp met winkels en de wekelijkse markt, De Koog het badplaatsje aan de Noordzeekust met de meeste hotels, Oudeschild het vissersdorp met de haven en het maritiem museum Kaap Skil, en Den Hoorn het pittoreske dorp met de witte kerk aan de zuidkant. Oosterend, De Cocksdorp en De Waal completeren de kernen, waarbij De Cocksdorp bij de vuurtoren op de noordpunt ligt. Texel was in de Gouden Eeuw een belangrijke ankerplaats voor de VOC-vloot, die op de Rede van Texel wachtte op gunstige wind, en kent nog altijd een eigen dialect en een sterke schapenhouderij: de Texelaar is wereldwijd een bekend vleesschapenras.",
+        "Het eiland is voor een groot deel natuurgebied, met de Slufter, een uniek gebied waar de zee vrij in- en uitstroomt, De Muy met zijn lepelaarkolonie, en het Nationaal Park Duinen van Texel dat de hele westkust omvat. Het Waddencentrum Ecomare, met opvang voor zeehonden en vogels, laat bezoekers de bijzondere natuur van dichtbij zien. Texel telt meer schapen dan inwoners en heeft daarnaast veel paarden, honden en katten bij de bewoners."
+      ],
+      kernenLabel: 'Kernen', kernen: ['Den Burg', 'De Koog', 'Oudeschild', 'Den Hoorn', 'Oosterend', 'De Cocksdorp', 'De Waal', 'Oost', 'Midden-Eierland'],
+      weetje: "Texel geldt als een van de beste vogeleilanden van Europa: er zijn meer dan driehonderd vogelsoorten waargenomen, in De Muy broedt een grote kolonie lepelaars, en op de zandplaten voor de kust rusten honderden zeehonden die door Ecomare worden opgevangen als ze ziek of verzwakt aanspoelen.",
+      links: ['Den Burg']
+    },
+    {
+      id: 'vlieland', tag: 'Friesland · Waddeneiland · 1.150 inwoners', titel: 'Dierenarts op Vlieland',
+      paragrafen: [
+        "Vlieland is het kleinste bewoonde Waddeneiland van Nederland en met ruim elfhonderd inwoners ook een van de kleinste gemeenten van het land. Het eiland heeft maar één dorp, Oost-Vlieland, met een enkele langgerekte Dorpsstraat vol historische kapiteinshuizen, want het tweede dorp West-Vlieland verdween in de achttiende eeuw volledig in zee. Vlieland is alleen bereikbaar met de veerboot vanuit Harlingen en is grotendeels autovrij: bezoekers moeten hun auto op het vasteland laten.",
+        "De geschiedenis van het eiland is nauw verbonden met de zeevaart en de walvisvaart: in de zeventiende eeuw woonden er veel kapiteins en commandeurs die voor de VOC en op de walvisvaart uitvoeren, en hun rijkdom is nog zichtbaar in de statige huizen langs de Dorpsstraat. Museum Tromp's Huys, gevestigd in een van die kapiteinswoningen, vertelt het verhaal van dat verleden. Het westelijk deel van het eiland, de Vliehors, is een uitgestrekte zandvlakte die als militair oefenterrein wordt gebruikt en waar bezoekers alleen met de bekende Vliehors Expres, een omgebouwde legertruck, komen. Het dorp heeft een eigen basisschool, huisarts en dorpswinkel, en de gemeenschap is hecht en zelfredzaam.",
+        "Buiten het dorp bestaat Vlieland vrijwel volledig uit duinen, bos en strand: het dennenbos werd in de negentiende eeuw aangeplant om het stuivende zand vast te leggen, en de duinen van het Waddenzeegebied zijn beschermd natuurgebied. Het eiland kent de minste lichtvervuiling van Nederland en is daardoor populair bij sterrenkijkers, terwijl de rust ook veel huisdierbezitters aantrekt die met hun hond vrijuit over de kilometerslange stranden kunnen lopen."
+      ],
+      kernenLabel: 'Kernen', kernen: ['Oost-Vlieland', 'Vliehors', "Kroon's Polders", 'Posthuys'],
+      weetje: "Op de Vliehors, de grote zandvlakte aan de westkant van Vlieland, rusten honderden grijze en gewone zeehonden, en het eiland kent geen enkele inheemse ree, das of vos: de grootste wilde landzoogdieren zijn konijnen en hazen, waardoor de broedvogels er relatief veilig zijn.",
+      links: []
+    },
+    {
+      id: 'terschelling', tag: 'Friesland · Waddeneiland · 4.950 inwoners', titel: 'Dierenarts op Terschelling',
+      paragrafen: [
+        "Terschelling is na Texel het grootste Waddeneiland van Nederland en ligt op ongeveer twee uur varen vanuit Harlingen, of drie kwartier met de snelboot. Het eiland telt bijna vijfduizend inwoners, verdeeld over een reeks dorpen langs de waddenkant, met West-Terschelling als hoofdplaats en havenplaats, herkenbaar aan de Brandaris, de oudste nog werkende vuurtoren van Nederland uit 1594.",
+        "De eilanders spreken van oudsher een eigen taal, het Terschellings, dat in drie varianten bestaat en verwant is aan het Fries. De geschiedenis van het eiland is doordrenkt van de zeevaart: veel Terschellingers waren loods, kapitein of walvisvaarder, en het Behouden Huys-museum in West vertelt onder meer het verhaal van Willem Barentsz, de beroemde ontdekkingsreiziger die op het eiland werd geboren. Terschelling is ook de bakermat van de cranberry: volgens de overlevering spoelde in de negentiende eeuw een vat cranberry's aan, waarna de bessen in de duinvalleien gingen groeien en het eiland zijn kenmerkende cranberryproducten kregen. Midsland, Hoorn, Formerum, Lies en Oosterend zijn kleinere dorpen met elk een eigen sfeer, en het jaarlijkse Oerol-festival verandert het hele eiland in juni in een openluchttheater.",
+        "Het grootste deel van Terschelling is natuurgebied, met de Boschplaat aan de oostkant als een van de grootste kwelders van Europa en Europees natuurreservaat. De duinen, het aangeplante dennenbos en de kilometerslange stranden bieden een gevarieerd landschap, waar ook veel eilanders met hond, kat of paard wonen."
+      ],
+      kernenLabel: 'Kernen', kernen: ['West-Terschelling', 'Midsland', 'Hoorn', 'Formerum', 'Lies', 'Oosterend', 'Baaiduinen', 'Kinnum', 'Landerum', 'Hee', 'Kaart', 'Striep', 'Seerijp'],
+      weetje: "Op de Boschplaat aan de oostkant van Terschelling broeden duizenden vogels op een van de grootste kwelders van Europa, en het eiland kent een eigen paardenras: de Terschellinger pony's die vrij in de duinen grazen en die van oudsher werden gebruikt voor het vervoer over het strand.",
+      links: []
+    },
+    {
+      id: 'ameland', tag: 'Friesland · Waddeneiland · 3.850 inwoners', titel: 'Dierenarts op Ameland',
+      paragrafen: [
+        "Ameland ligt tussen Terschelling en Schiermonnikoog en is bereikbaar met de veerboot vanuit Holwerd, een overtocht van ongeveer drie kwartier over de Waddenzee. Het eiland telt bijna vierduizend inwoners in vier dorpen: Hollum, Nes, Ballum en Buren, elk met een eigen karakter en een goed bewaarde historische kern met karakteristieke commandeurshuizen uit de tijd van de walvisvaart.",
+        "Nes is de veerhaven en het levendige centrum met winkels en horeca, Hollum aan de westkant is het oudste dorp met de bekende rood-witte vuurtoren en het Reddingsmuseum, Ballum was eeuwenlang de zetel van de heren van Ameland, die het eiland als vrije heerlijkheid bestuurden, en Buren aan de oostkant is het rustigste dorp met het Landbouw- en Juttersmuseum. Ameland kent een bijzondere traditie: de paardenreddingboot van Hollum, die nog altijd enkele keren per jaar met tien paarden door de branding het water in wordt getrokken als demonstratie van hoe reddingen vroeger verliepen. Het eiland heeft ook een eigen bierbrouwerij, een zuivelboerderij en een vliegveld voor kleine vliegtuigen.",
+        "De natuur van Ameland is afwisselend: brede stranden aan de Noordzee, uitgestrekte duinen met bos in het midden, en aan de oostkant het Oerd en de Hôn, een natuurreservaat met kwelders waar het eiland nog steeds aangroeit. De polders aan de waddenkant zijn belangrijk voor weidevogels en grazende ganzen. Veel eilanders houden dieren, van paarden voor het strandwerk tot honden en katten."
+      ],
+      kernenLabel: 'Kernen', kernen: ['Nes', 'Hollum', 'Ballum', 'Buren'],
+      weetje: "De paardenreddingboot van Hollum is uniek in de wereld: tien Amelander paarden trekken de historische reddingboot dwars door de branding de zee in, een traditie die tot 1988 echte reddingen betrof en nu enkele keren per jaar wordt gedemonstreerd voor duizenden toeschouwers.",
+      links: []
+    },
+    {
+      id: 'schiermonnikoog', tag: 'Friesland · Waddeneiland · 950 inwoners', titel: 'Dierenarts op Schiermonnikoog',
+      paragrafen: [
+        "Schiermonnikoog is het kleinste bewoonde Waddeneiland qua inwoners en de kleinste gemeente van Nederland, met nog geen duizend inwoners die vrijwel allemaal in het enige dorp wonen dat dezelfde naam draagt als het eiland. Het eiland is bereikbaar met de veerboot vanuit Lauwersoog, is grotendeels autovrij voor bezoekers en dankt zijn naam aan de grijze monniken van het klooster Klaarkamp, die het eiland in de middeleeuwen in bezit hadden; een schier monnik is een grijze monnik.",
+        "Het dorp, met zijn karakteristieke huizen, twee kerken en de Willemshof als centraal plein, ligt beschut in de duinen en heeft een dorpse gemeenschap met eigen school, huisarts en verenigingen. Het eiland was eeuwenlang particulier bezit van adellijke families en werd pas na de Tweede Wereldoorlog, als Duits vijandelijk vermogen, eigendom van de Nederlandse staat. In 1989 werd vrijwel het hele eiland aangewezen als Nationaal Park, het eerste van Nederland, waarmee de natuur formeel de hoofdrol kreeg. Het bezoekerscentrum in het dorp en de rode en witte vuurtoren behoren tot de bekendste herkenningspunten, en het Wassermann, een Duitse bunker uit de oorlog, biedt een weids uitzicht over het eiland.",
+        "Het grootste deel van Schiermonnikoog bestaat uit strand, duinen, kwelders en polders. Het strand is met plaatselijk meer dan een kilometer breedte het breedste van Europa, en aan de oostkant groeit het eiland nog altijd door aanslibbing. De stilte en het gebrek aan verkeer maken het eiland geliefd bij rustzoekers, wandelaars en hondenbezitters."
+      ],
+      kernenLabel: 'Kernen', kernen: ['Schiermonnikoog (dorp)', 'Kooiplaats', 'Oosterkwelder', 'Westerplas', 'Banckspolder'],
+      weetje: "Schiermonnikoog werd in 1989 het eerste Nationaal Park van Nederland, en op de Oosterkwelder rusten en broeden tienduizenden vogels, terwijl in het najaar tot een kwart miljoen trekvogels op het eiland neerstrijken om bij te tanken voordat ze verder trekken naar het zuiden.",
+      links: []
+    },
+    {
+      id: 'schouwen-duiveland', tag: 'Zeeland · Zeeuws eiland · 34.250 inwoners', titel: 'Dierenarts op Schouwen-Duiveland',
+      paragrafen: [
+        "Schouwen-Duiveland is het meest noordelijke Zeeuwse eiland en ontstond als gemeente in 1997 uit de samenvoeging van alle gemeenten op het eiland, met Zierikzee als historische hoofdplaats en bestuurlijk centrum. Het eiland is via de Zeelandbrug, bij de opening in 1965 de langste brug van Europa, verbonden met Noord-Beveland en via de Brouwersdam en de Grevelingendam met Goeree-Overflakkee en Sint Philipsland.",
+        "Zierikzee is een van de mooiste kleine monumentensteden van Nederland, met stadspoorten, een havenkwartier en de Dikke Toren, een kathedraaltoren die nooit werd afgebouwd maar toch het silhouet van de stad bepaalt. Aan de westkant van het eiland liggen de badplaatsen Renesse, Burgh-Haamstede en Westenschouwen, met kilometerslange stranden die in de zomer honderdduizenden toeristen trekken, vooral uit Duitsland en België. Brouwershaven, Bruinisse en Dreischor zijn karakteristieke dorpen met ringkerken en oude havens, waarbij Bruinisse bekendstaat om zijn mosselvisserij. De watersnoodramp van 1953 trof het eiland zwaar en het Watersnoodmuseum in Ouwerkerk, gevestigd in de caissons waarmee het laatste dijkgat werd gedicht, herdenkt die geschiedenis.",
+        "Het landschap van Schouwen-Duiveland is een afwisseling van open polders, dijken, kreken en het duingebied van de Kop van Schouwen, een van de grootste duingebieden van Zeeland. De Oosterschelde, het Grevelingenmeer en de Noordzee omringen het eiland en maken het tot een paradijs voor duikers, zeilers en vogelaars."
+      ],
+      kernenLabel: 'Kernen', kernen: ['Zierikzee', 'Renesse', 'Burgh-Haamstede', 'Bruinisse', 'Brouwershaven', 'Nieuwerkerk', 'Oosterland', 'Dreischor', 'Scharendijke', 'Ouwerkerk', 'Zonnemaire', 'Ellemeet', 'Kerkwerve', 'Serooskerke', 'Noordgouwe', 'Sirjansland'],
+      weetje: "In de Oosterschelde rond Schouwen-Duiveland leven zeehonden en duizenden bruinvissen, en de kust bij Zierikzee en Burghsluis is een van de beste plekken van Nederland om deze kleine walvisachtige vanaf de dijk te zien opduiken, vooral in de zomermaanden.",
+      links: ['Zierikzee', 'Burgh-Haamstede']
+    },
+    {
+      id: 'tholen', tag: 'Zeeland · Zeeuws eiland · 26.000 inwoners', titel: 'Dierenarts op Tholen',
+      paragrafen: [
+        "Tholen is een gemeente die twee eilanden omvat: het eiland Tholen zelf en het kleinere Sint Philipsland, beide gelegen in het noordoosten van Zeeland tegen de grens met Noord-Brabant. De gemeente ontstond in 1971 uit de samenvoeging van alle dorpen op het eiland Tholen en werd in 1995 uitgebreid met Sint Philipsland, en is via de Oesterdam en de Philipsdam verbonden met de rest van Zeeland en het Brabantse vasteland.",
+        "Het stadje Tholen is de historische hoofdplaats en een van de kleinste vestingstadjes van Nederland, met bewaard gebleven wallen, een stadhuis uit de vijftiende eeuw en de Grote Kerk aan een pittoreske markt. Sint-Maartensdijk, het grootste dorp, was ooit een heerlijkheid van de familie Van Borsele en kent een rijke geschiedenis rond het vroegere kasteel. De andere dorpen, zoals Poortvliet, Scherpenisse, Stavenisse, Sint-Annaland en Oud-Vossemeer, zijn typisch Zeeuwse ringdorpen met een kerk in het midden en een sterke agrarische en protestantse traditie. Sint-Annaland heeft een grote jachthaven aan de Oosterschelde en Stavenisse werd in 1953 zwaar getroffen door de watersnoodramp. Op Sint Philipsland ligt het gelijknamige dorp met Anna Jacobapolder als tweede kern.",
+        "Het landschap van Tholen bestaat uit weidse akkerbouwpolders, dijken en de oevers van de Oosterschelde en het Krammer-Volkerak. Het eiland is minder toeristisch dan de andere Zeeuwse eilanden, waardoor rust en ruimte overheersen en de agrarische sector met uien, aardappelen en bieten het straatbeeld bepaalt."
+      ],
+      kernenLabel: 'Kernen', kernen: ['Tholen', 'Sint-Maartensdijk', 'Sint-Annaland', 'Poortvliet', 'Scherpenisse', 'Stavenisse', 'Oud-Vossemeer', 'Sint Philipsland', 'Anna Jacobapolder'],
+      weetje: "In de Oosterschelde bij Tholen liggen de historische oesterputten van Yerseke aan de overkant, en de schorren en slikken langs de Thoolse kust zijn een belangrijk voedselgebied voor tienduizenden steltlopers, terwijl in het Krammer-Volkerak sinds enkele jaren weer zeearenden broeden.",
+      links: []
+    },
+    {
+      id: 'noord-beveland', tag: 'Zeeland · Zeeuws eiland · 7.600 inwoners', titel: 'Dierenarts op Noord-Beveland',
+      paragrafen: [
+        "Noord-Beveland is een van de kleinste en rustigste Zeeuwse eilanden en vormt sinds 1995 één gemeente, met Wissenkerke als bestuurlijke hoofdplaats en Kortgene en Kamperland als grootste kernen. Het eiland ligt tussen de Oosterschelde in het noorden en het Veerse Meer in het zuiden en is via de Zeelandbrug, de Oosterscheldekering, de Veerse Gatdam en de Zandkreekdam verbonden met Schouwen-Duiveland, Walcheren en Zuid-Beveland.",
+        "De geschiedenis van het eiland is dramatisch: in 1530 en 1532 verdween heel Noord-Beveland bij stormvloeden onder water, en pas een halve eeuw later werd het land polder voor polder opnieuw bedijkt, te beginnen bij Colijnsplaat in 1598. Colijnsplaat is daarmee het oudste dorp van het huidige eiland, met een karakteristiek rechthoekig stratenpatroon en een levendige vissershaven aan de Oosterschelde. Kortgene aan het Veerse Meer heeft een grote jachthaven en Kamperland is het toeristische centrum met vakantieparken aan de Veerse Gatdam en het strand van de Banjaard, een van de mooiste stranden van Zeeland. Wissenkerke, Geersdijk en Kats zijn kleine agrarische dorpen te midden van de polders. Bij de Oosterscheldekering ligt Neeltje Jans, het waterpark en informatiecentrum over de Deltawerken.",
+        "Het landschap van Noord-Beveland is open en weids, met kaarsrechte polderwegen, akkers met uien en aardappelen en lange dijken langs het water. Het Veerse Meer is een populair watersportgebied en de Oosterschelde is Nationaal Park, wat het eiland tot een geliefde bestemming maakt voor rustzoekers, fietsers, duikers en vogelaars."
+      ],
+      kernenLabel: 'Kernen', kernen: ['Wissenkerke', 'Kortgene', 'Kamperland', 'Colijnsplaat', 'Kats', 'Geersdijk'],
+      weetje: "Voor de kust van Noord-Beveland liggen de zandplaten van de Oosterschelde waar honderden zeehonden rusten, goed te zien tijdens boottochten vanuit Colijnsplaat, en bij Neeltje Jans broeden duizenden grote sterns en visdiefjes op de werkeilanden van de Oosterscheldekering.",
+      links: []
+    },
+    {
+      id: 'walcheren', tag: 'Zeeland · Zeeuws eiland · 115.000 inwoners', titel: 'Dierenarts op Walcheren',
+      paragrafen: [
+        "Walcheren is het meest westelijke Zeeuwse eiland, al is het door de Sloedam en later de Sloehaven feitelijk met Zuid-Beveland verbonden, en omvat de gemeenten Middelburg, Vlissingen en Veere. Met ruim honderdduizend inwoners is het het dichtstbevolkte eiland van Zeeland en het bestuurlijke en economische hart van de provincie, met Middelburg als provinciehoofdstad en Vlissingen als havenstad aan de Westerschelde.",
+        "Vlissingen is de geboortestad van admiraal Michiel de Ruyter en heeft met zijn boulevard aan de Westerschelde een van de weinige plekken in Nederland waar zeeschepen op enkele honderden meters afstand voorbijvaren. Veere is een miniatuurstadje met een rijke geschiedenis als handelsstad met Schotland, zichtbaar in de Schotse Huizen aan de kade en de imposante Grote Kerk. Domburg is de oudste badplaats van Zeeland, waar rond 1900 kunstenaars als Piet Mondriaan en Jan Toorop kwamen schilderen, en Westkapelle, Zoutelande en Oostkapelle zijn populaire badplaatsen aan de zonnigste kust van Nederland. In 1944 werd Walcheren door de geallieerden onder water gezet om de Duitse bezetter te verdrijven, wat het eiland zwaar trof en tot de Slag om de Schelde leidde, herdacht in het Polderhuis in Westkapelle.",
+        "Het binnenland van Walcheren is een kleinschalig landschap van polders, elzenhagen en dorpen met ringkerken, ook wel de Tuin van Zeeland genoemd. De Manteling bij Domburg is een uniek duinbos, en het Veerse Meer aan de noordkant is een groot watersportgebied."
+      ],
+      kernenLabel: 'Kernen', kernen: ['Middelburg', 'Vlissingen', 'Veere', 'Domburg', 'Westkapelle', 'Zoutelande', 'Oostkapelle', 'Koudekerke', 'Arnemuiden', 'Serooskerke', 'Grijpskerke', 'Meliskerke', 'Aagtekerke', 'Biggekerke', 'Gapinge', 'Vrouwenpolder', 'Nieuw- en Sint Joosland', 'Souburg', 'Ritthem'],
+      weetje: "Voor de boulevard van Vlissingen zwemmen regelmatig bruinvissen en zeehonden op enkele tientallen meters van het strand, en in de Manteling bij Domburg, een duinbos dat door de zeewind in een schuine vorm is gegroeid, leven reeën en dassen op steenworp afstand van de badplaats.",
+      links: ['Middelburg', 'Vlissingen', 'Oostkapelle']
+    },
+    {
+      id: 'zuid-beveland', tag: 'Zeeland · Zeeuws eiland · 97.000 inwoners', titel: 'Dierenarts op Zuid-Beveland',
+      paragrafen: [
+        "Zuid-Beveland is het grootste Zeeuwse eiland en omvat de gemeenten Goes, Kapelle, Reimerswaal en Borsele, met de stad Goes als centrum en zo'n zevenennegentigduizend inwoners in totaal. Het eiland ligt tussen de Oosterschelde in het noorden en de Westerschelde in het zuiden en is via de Kreekrakdam, waarover ook de A58 en de spoorlijn lopen, vast met Noord-Brabant verbonden, waardoor het feitelijk een schiereiland is.",
+        "Goes is een historische stad met een goed bewaarde binnenstad, een historische haven en de Grote of Maria Magdalenakerk, en fungeert als winkel- en verzorgingscentrum voor heel Midden-Zeeland. Yerseke, in de gemeente Reimerswaal, is wereldberoemd om zijn oesters en mosselen, die er al sinds de negentiende eeuw worden gekweekt en verhandeld; de oesterputten en de mosselveiling trekken jaarlijks veel bezoekers. Kapelle en Wemeldinge staan bekend om de fruitteelt, met uitgestrekte boomgaarden die in het voorjaar bloeien. In de gemeente Borsele liggen ringdorpen als Heinkenszand en 's-Heerenhoek te midden van het kleinschalige landschap van de Zak van Zuid-Beveland, met zijn kronkelende dijken, bloemdijken en welen die herinneren aan oude dijkdoorbraken. Aan de Westerschelde ligt het havengebied Vlissingen-Oost met de kerncentrale van Borssele.",
+        "Het landschap varieert van de open akkerbouwpolders in het oosten tot de intieme, bloemrijke dijken van de Zak van Zuid-Beveland in het westen. De Oosterschelde is Nationaal Park en de Westerschelde is een belangrijk vogelgebied, wat het eiland aantrekkelijk maakt voor natuurliefhebbers."
+      ],
+      kernenLabel: 'Kernen', kernen: ['Goes', 'Kapelle', 'Yerseke', 'Kruiningen', 'Krabbendijke', 'Rilland', 'Wemeldinge', 'Heinkenszand', "'s-Heerenhoek", 'Borssele', 'Nieuwdorp', 'Kloetinge', 'Wilhelminadorp', 'Kwadendamme', 'Ovezande', 'Nisse', 'Hansweert', 'Waarde', 'Oudelande', 'Ellewoutsdijk'],
+      weetje: "In de Oosterschelde bij Yerseke leven de beroemde Zeeuwse oesters en mosselen, maar ook zeehonden en bruinvissen, en de bloemdijken van de Zak van Zuid-Beveland zijn een van de laatste plekken in Nederland waar zeldzame planten als de wilde marjolein en de kleine ratelaar massaal bloeien en talloze vlinders en bijen aantrekken.",
+      links: ['Goes', 'Kapelle', 'Yerseke', 'Kruiningen', 'Heinkenszand']
+    },
+    {
+      id: 'goeree-overflakkee', tag: 'Zuid-Holland · Zuid-Hollands eiland · 51.500 inwoners', titel: 'Dierenarts op Goeree-Overflakkee',
+      paragrafen: [
+        "Goeree-Overflakkee is officieel een Zuid-Hollands eiland, maar wordt landschappelijk en historisch tot de Zeeuwse eilanden gerekend en vormt sinds 2013 één gemeente met Middelharnis als bestuurlijke hoofdplaats. Het eiland ontstond uit de samenvoeging van de eilanden Goeree en Overflakkee in de achttiende eeuw en is via de Haringvlietbrug, de Haringvlietdam, de Brouwersdam en de Grevelingendam verbonden met het vasteland en de Zeeuwse eilanden.",
+        "Goedereede is een historisch stadje met een imposante toren die eeuwenlang als vuurtoren diende en waar de latere paus Adrianus VI pastoor was. Ouddorp aan de kop van Goeree is het toeristische centrum met brede stranden en campings, en Stellendam heeft een vissershaven en een visafslag. Middelharnis en Sommelsdijk vormen samen het grootste dorp met winkels en voorzieningen, Dirksland heeft het ziekenhuis van het eiland, en Oude-Tonge, Ooltgensplaat en Den Bommel zijn karakteristieke voorstraatdorpen aan de zuidkant. Het eiland heeft een sterk protestants karakter, met zondagsrust die nog op veel plaatsen wordt gehandhaafd, en een eigen dialect, het Flakkees. De watersnoodramp van 1953 trof het eiland zeer zwaar: in Oude-Tonge alleen al vielen meer dan driehonderd doden.",
+        "Het landschap bestaat uit weidse akkerbouwpolders, met uien als kenmerkend gewas, en aan de kop van Goeree uit duinen en de Kwade Hoek, een natuurgebied dat nog aangroeit. Het Grevelingenmeer, het grootste zoutwatermeer van Europa, en het Haringvliet omringen het eiland en zijn belangrijke natuur- en watersportgebieden."
+      ],
+      kernenLabel: 'Kernen', kernen: ['Middelharnis', 'Sommelsdijk', 'Ouddorp', 'Goedereede', 'Stellendam', 'Dirksland', 'Melissant', 'Herkingen', 'Nieuwe-Tonge', 'Oude-Tonge', 'Ooltgensplaat', 'Den Bommel', 'Achthuizen', "Stad aan 't Haringvliet"],
+      weetje: "Bij de Haringvlietsluizen en op de Kwade Hoek bij Goeree-Overflakkee rusten honderden zeehonden, en sinds de Haringvlietsluizen in 2018 op een kier werden gezet, trekken zalm en steur weer vanuit zee de rivieren op, terwijl in het Grevelingenmeer ook regelmatig bruinvissen worden gezien.",
+      links: ['Sommelsdijk', 'Stellendam', 'Oude-Tonge']
+    }
+  ];
+
+  const nav = EILANDEN.map(e => `<a href="#${e.id}">${L.esc(e.titel.replace(/^Dierenklinieken? op /, '').replace(/^Dierenarts op /, ''))}</a>`).join('\n    ');
+
+  const secties = EILANDEN.map(e => {
+    const links = (e.links || []).map(stadLink).filter(Boolean);
+    return `<section class="card" id="${e.id}" style="scroll-margin-top:16px;">
+  <p class="subtitle" style="margin-bottom:4px;">${e.tag}</p>
+  <h2>${L.esc(e.titel)}</h2>
+  ${e.paragrafen.map(p => `<p>${L.esc(p)}</p>`).join('\n  ')}
+  <div style="background:#f7f9fc; border:1px solid #e2e8f0; border-radius:8px; padding:14px 20px; margin-top:12px;">
+    <strong style="display:block; margin-bottom:6px; color:#0070AC; font-size:13px; text-transform:uppercase; letter-spacing:.03em;">${L.esc(e.kernenLabel)}</strong>
+    ${L.esc(e.kernen.join(', '))}
+  </div>
+  <div style="background:#f0f9ff; border-left:4px solid #00A1E4; border-radius:8px; padding:14px 18px; margin-top:12px;">
+    <strong>Leuk weetje:</strong> ${L.esc(e.weetje)}
+  </div>
+  ${links.length ? `<div class="tag-row" style="margin-top:14px;"><strong style="width:100%; font-size:13px; color:#0070AC; margin-bottom:4px;">Dierenklinieken:</strong>${links.join('\n    ')}</div>` : ''}
+</section>`;
+  }).join('\n');
+
+  const ld = [
+    {
+      '@type': 'WebPage',
+      '@id': L.SITE + '/dierenarts-op-de-eilanden#webpage',
+      name: 'Dierenarts op de Zeeuwse eilanden en Waddeneilanden',
+      description: 'Vind een dierenarts op de Waddeneilanden en de Zeeuwse eilanden: Texel, Vlieland, Terschelling, Ameland, Schiermonnikoog, Schouwen-Duiveland, Tholen, Noord-Beveland, Walcheren, Zuid-Beveland en Goeree-Overflakkee.',
+      url: L.SITE + '/dierenarts-op-de-eilanden',
+      inLanguage: 'nl-NL',
+      isPartOf: { '@id': L.SITE + '/#organization' }
+    },
+    L.breadcrumbLd(crumbs)
+  ];
+
+  const body = `${L.breadcrumbHtml(crumbs)}
+<div class="card">
+  <h1>Dierenarts op de eilanden</h1>
+  <p class="subtitle">Op zoek naar een dierenarts op een eiland? Hieronder vindt u de vijf bewoonde Waddeneilanden en de Zeeuwse eilanden, met een korte schets van het eiland, de dorpen en kernen, en een dierenweetje uit de omgeving. Op een eiland is een dierenarts dichtbij extra belangrijk: de veerboot maakt een spoedrit naar het vasteland lastig.</p>
+  <div class="tag-row" style="margin-top:14px;">
+    ${nav}
+  </div>
+</div>
+${secties}`;
+
+  return L.page({
+    title: 'Dierenarts op de Zeeuwse eilanden en Waddeneilanden | Dierenkliniek.nl',
+    description: 'Dierenarts op Texel, Vlieland, Terschelling, Ameland, Schiermonnikoog en de Zeeuwse eilanden. Overzicht per eiland met kernen en dierenklinieken.',
+    canonical: '/dierenarts-op-de-eilanden', bodyHtml: body, jsonld: ld, lastmod: BUILD_DATE, ogType: 'website'
+  });
+}
+
 write('spoedhulp.html', spoedPage(), '/spoedhulp');
+write('dierenarts-op-de-eilanden.html', eilandenPage(), '/dierenarts-op-de-eilanden');
 write('dierenarts-in-de-buurt.html', buurtPage(), '/dierenarts-in-de-buurt');
 write('provincies.html', provinciesPage(), '/provincies');
 for (const p of PROVINCES) { const r = provinciePage(p); write(r.slug + '.html', r.html, '/' + r.slug); }
