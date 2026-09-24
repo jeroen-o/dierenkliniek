@@ -5707,14 +5707,14 @@
     "onbevestigd": true
   },
   "anicura-dierenziekenhuis-drechtstreek-sterrenburg-dierenarts-in-dordrecht": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:30-12:00, 12:30-17:30",
+    "di": "08:30-12:00, 12:30-17:30",
+    "wo": "08:30-12:00, 12:30-17:30",
+    "do": "08:30-12:00, 12:30-17:30",
+    "vr": "08:30-12:00, 12:30-17:30",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "e-mail van de praktijk (Tamara Witmont), bevestigd 2026-09-24"
   },
   "anicura-drechtstreek-papendrecht-dierenarts-in-papendrecht": {
     "ma": "12:30-17:00",
@@ -6337,14 +6337,14 @@
     "onbevestigd": true
   },
   "dierenkliniek-rijnlaan-dierenarts-in-utrecht": {
-    "ma": "12:30-17:00",
+    "ma": "09:00-17:00",
     "di": "09:00-17:00",
     "wo": "09:00-17:00",
     "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "vr": "09:00-18:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "e-mail van de praktijk, bevestigd 2026-09-24"
   },
   "dierenkliniek-sleutelstad-oegstgeest-dierenarts-in-oegstgeest": {
     "ma": "12:30-17:00",
