@@ -22852,5 +22852,45 @@
     "lng": 4.67203506,
     "desc": "Veterinaire kliniek in Leimuiden. Volledige zorg voor gezelschapsdieren.",
     "tier": "basic"
+  },
+  {
+    "id": 1207,
+    "name": "Dierenziekenhuis Diemen",
+    "city": "Diemen",
+    "address": "Gruttoplein 1",
+    "postcode": "1113 HL",
+    "phone": "020-7373170",
+    "email": "info@dierenziekenhuisdiemen.nl",
+    "website": "https://dierenziekenhuisdiemen.nl/",
+    "specs": [
+      "Chirurgie",
+      "Honden",
+      "Katten",
+      "Knaagdieren"
+    ],
+    "tags": [],
+    "lat": 52.3225,
+    "lng": 4.943,
+    "desc": "Dierenziekenhuis in Diemen, gespecialiseerd in chirurgie, met eigen expertise in laparoscopische sterilisatie bij hond en kat. Diagnostiek (bloed-, urine- en ontlastingsonderzoek), röntgen en echografie op locatie.",
+    "tier": "basic"
+  },
+  {
+    "id": 1208,
+    "name": "Joyce Hofman Dierenklinieken - locatie Diemen",
+    "city": "Diemen",
+    "address": "Arent Krijtsstraat 24",
+    "postcode": "1111 AM",
+    "phone": "020-6992683",
+    "email": "info@jhdierenklinieken.nl",
+    "website": "https://jhdierenklinieken.nl/locaties/diemen/",
+    "specs": [
+      "Honden",
+      "Katten"
+    ],
+    "tags": [],
+    "lat": 52.3395,
+    "lng": 4.9611,
+    "desc": "Consultvestiging in Diemen van Joyce Hofman Dierenklinieken (hoofdvestiging Amsterdam-Watergraafsmeer); spreekuur voor honden en katten. Operaties, echo en röntgen vinden plaats op de hoofdlocatie.",
+    "tier": "basic"
   }
 ]
