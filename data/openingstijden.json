@@ -5057,14 +5057,14 @@
     "onbevestigd": true
   },
   "dierenartsenpraktijk-texel-dierenarts-in-den-burg": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:00-12:30, 13:30-17:30",
+    "di": "08:00-12:30, 13:30-17:30",
+    "wo": "08:00-12:30, 13:30-17:30",
+    "do": "08:00-12:30, 13:30-17:30",
+    "vr": "08:00-12:30, 13:30-17:30",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "praktijkwebsite dierenartsentexel.nl, gecontroleerd 2026-09-25"
   },
   "dierenkliniek-hoogveld-dierenarts-in-den-bosch-hintham": {
     "ma": "12:30-17:00",
