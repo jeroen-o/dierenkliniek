@@ -10492,12 +10492,12 @@
   },
   {
     "id": 519,
-    "name": "Dier",
+    "name": "Dier & Arts Goes",
     "city": "Goes",
     "address": "'s-Heer Hendrikskinderendijk 99",
     "postcode": "4461 EA",
     "phone": "0113 - 22 88 66",
-    "email": "",
+    "email": "goes@kliniekdierenarts.nl",
     "website": "https://www.dierenartsgoes.nl/",
     "specs": [
       "Dermatologie",
@@ -10508,7 +10508,7 @@
     "tags": [],
     "lat": 51.5043,
     "lng": 3.8881,
-    "desc": "Veterinaire kliniek in Goes. Volledige zorg voor gezelschapsdieren.",
+    "desc": "Dierenartspraktijk in Goes, onderdeel van de Dier & Arts-groep.",
     "tier": "basic"
   },
   {
@@ -23032,6 +23032,29 @@
     "lat": 51.4986,
     "lng": 3.9006,
     "desc": "Hoofdvestiging van Dierenartspraktijk van Anrooij (regio Goes en Noord-Beveland), onafhankelijke praktijk voor gezelschapsdieren.",
+    "tier": "basic"
+  },
+  {
+    "id": 1217,
+    "name": "Nova Spoed- en Verwijskliniek",
+    "city": "Baarn",
+    "address": "Tolweg 3",
+    "postcode": "3741 LM",
+    "phone": "035-7820900",
+    "email": "info@nova-verwijskliniek.nl",
+    "website": "https://nova-verwijskliniek.nl/",
+    "specs": [
+      "Chirurgie",
+      "Echografie",
+      "Cardiologie",
+      "Spoed 24/7"
+    ],
+    "tags": [
+      "spoed"
+    ],
+    "lat": 52.2117,
+    "lng": 5.2871,
+    "desc": "Spoed- en verwijskliniek in Baarn voor 24/7 acute zorg en verwijzingen: chirurgie, orthopedie, interne geneeskunde, echografie/cardiologie en CT/röntgen. Drie operatiekamers en 24-uurs opname.",
     "tier": "basic"
   }
 ]

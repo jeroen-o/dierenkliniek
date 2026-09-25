@@ -4526,16 +4526,6 @@
     "zo": "gesloten",
     "onbevestigd": true
   },
-  "dier-dierenarts-in-goes": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
   "duintop-dierenkliniek-locatie-middelburg-dierenarts-in-middelburg": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
@@ -11005,5 +10995,15 @@
     "za": "gesloten",
     "zo": "gesloten",
     "bron": "dapoostkapelle.nl, gecontroleerd 2026-09-25"
+  },
+  "dier-en-arts-goes-dierenarts-in-goes": {
+    "ma": "09:00-19:00",
+    "di": "09:00-19:00",
+    "wo": "09:00-19:00",
+    "do": "09:00-19:00",
+    "vr": "09:00-19:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "bron": "e-mail/opgave, gecontroleerd 2026-09-25"
   }
 }
