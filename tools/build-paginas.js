@@ -536,17 +536,15 @@ function specialismenPage() {
   });
 }
 
-/* ---------- /dierenarts-op-de-eilanden ---------- */
-function eilandenPage() {
-  const crumbs = [{ name: 'Home', url: '/' }, { name: 'Dierenarts op de eilanden', url: '/dierenarts-op-de-eilanden' }];
+/* ---------- /dierenarts-op-de-eilanden (en losse pagina's voor Walcheren/Zuid-Beveland) ---------- */
 
-  // Klinieken per stad opzoeken voor de "bekijk klinieken"-links per eiland.
-  const byCity = {};
-  for (const c of withProv) (byCity[c.city] ||= []).push(c);
-  const stadLink = (stad) => byCity[stad] && byCity[stad].length
-    ? `<a class="pill" href="/${citySlug(stad)}">${L.esc(stad)} (${byCity[stad].length})</a>` : null;
+// Klinieken per stad opzoeken voor de "bekijk klinieken"-links per eiland.
+const eilandenByCity = {};
+for (const c of withProv) (eilandenByCity[c.city] ||= []).push(c);
+const eilandStadLink = (stad) => eilandenByCity[stad] && eilandenByCity[stad].length
+  ? `<a class="pill" href="/${citySlug(stad)}">${L.esc(stad)} (${eilandenByCity[stad].length})</a>` : null;
 
-  const EILANDEN = [
+const EILANDEN = [
     {
       id: 'de-waddeneilanden', tag: 'Noord-Holland &amp; Friesland · Waddenzee · 24.600 inwoners',
       titel: 'Dierenklinieken op de Waddeneilanden',
@@ -668,7 +666,8 @@ function eilandenPage() {
       ],
       kernenLabel: 'Kernen', kernen: ['Middelburg', 'Vlissingen', 'Veere', 'Domburg', 'Westkapelle', 'Zoutelande', 'Oostkapelle', 'Koudekerke', 'Arnemuiden', 'Serooskerke', 'Grijpskerke', 'Meliskerke', 'Aagtekerke', 'Biggekerke', 'Gapinge', 'Vrouwenpolder', 'Nieuw- en Sint Joosland', 'Souburg', 'Ritthem'],
       weetje: "Voor de boulevard van Vlissingen zwemmen regelmatig bruinvissen en zeehonden op enkele tientallen meters van het strand, en in de Manteling bij Domburg, een duinbos dat door de zeewind in een schuine vorm is gegroeid, leven reeën en dassen op steenworp afstand van de badplaats.",
-      links: ['Middelburg', 'Vlissingen', 'Oostkapelle']
+      links: ['Middelburg', 'Vlissingen', 'Oostkapelle'],
+      standalone: '/dierenarts-walcheren'
     },
     {
       id: 'zuid-beveland', tag: 'Zeeland · Zeeuws eiland · 97.000 inwoners', titel: 'Dierenarts op Zuid-Beveland',
@@ -679,7 +678,8 @@ function eilandenPage() {
       ],
       kernenLabel: 'Kernen', kernen: ['Goes', 'Kapelle', 'Yerseke', 'Kruiningen', 'Krabbendijke', 'Rilland', 'Wemeldinge', 'Heinkenszand', "'s-Heerenhoek", 'Borssele', 'Nieuwdorp', 'Kloetinge', 'Wilhelminadorp', 'Kwadendamme', 'Ovezande', 'Nisse', 'Hansweert', 'Waarde', 'Oudelande', 'Ellewoutsdijk'],
       weetje: "In de Oosterschelde bij Yerseke leven de beroemde Zeeuwse oesters en mosselen, maar ook zeehonden en bruinvissen, en de bloemdijken van de Zak van Zuid-Beveland zijn een van de laatste plekken in Nederland waar zeldzame planten als de wilde marjolein en de kleine ratelaar massaal bloeien en talloze vlinders en bijen aantrekken.",
-      links: ['Goes', 'Kapelle', 'Yerseke', 'Kruiningen', 'Heinkenszand']
+      links: ['Goes', 'Kapelle', 'Yerseke', 'Kruiningen', 'Heinkenszand'],
+      standalone: '/dierenarts-zuid-beveland'
     },
     {
       id: 'goeree-overflakkee', tag: 'Zuid-Holland · Zuid-Hollands eiland · 51.500 inwoners', titel: 'Dierenarts op Goeree-Overflakkee',
@@ -694,10 +694,25 @@ function eilandenPage() {
     }
   ];
 
-  const nav = EILANDEN.map(e => `<a href="#${e.id}">${L.esc(e.titel.replace(/^Dierenklinieken? op /, '').replace(/^Dierenarts op /, ''))}</a>`).join('\n    ');
+const eilandKop = (e) => e.titel.replace(/^Dierenklinieken? op /, '').replace(/^Dierenarts op /, '');
+
+function eilandenPage() {
+  const crumbs = [{ name: 'Home', url: '/' }, { name: 'Dierenarts op de eilanden', url: '/dierenarts-op-de-eilanden' }];
+  const kop = eilandKop;
+  const nav = EILANDEN.map(e => `<a href="${e.standalone || '#' + e.id}">${L.esc(kop(e))}</a>`).join('\n    ');
 
   const secties = EILANDEN.map(e => {
-    const links = (e.links || []).map(stadLink).filter(Boolean);
+    const links = (e.links || []).map(eilandStadLink).filter(Boolean);
+    if (e.standalone) {
+      // Eigen pagina (regio met meerdere gemeenten/stadpagina's): op de hub
+      // alleen een korte teaser, de volledige tekst staat op e.standalone.
+      return `<a class="link-card" href="${e.standalone}" id="${e.id}" style="scroll-margin-top:16px; display:block;">
+  <p class="subtitle" style="margin-bottom:4px;">${e.tag}</p>
+  <h2 style="font-size:17px; font-weight:700; margin-bottom:6px;">${L.esc(e.titel)}</h2>
+  <p>${L.esc(e.paragrafen[0])}</p>
+  <p style="margin-top:8px; font-weight:700; color:#0070AC;">Lees meer over ${L.esc(kop(e))} →</p>
+</a>`;
+    }
     return `<section class="card" id="${e.id}" style="scroll-margin-top:16px;">
   <p class="subtitle" style="margin-bottom:4px;">${e.tag}</p>
   <h2>${L.esc(e.titel)}</h2>
@@ -743,8 +758,56 @@ ${secties}`;
   });
 }
 
+// Losse pagina voor een eilandregio die meerdere gemeenten/stadpagina's omvat
+// (Walcheren, Zuid-Beveland) — te veel eigen content en te veel echte
+// klinieken-doorlinks om als sectie op de hub-pagina te verdrinken.
+function eilandSubPage(e) {
+  const kop = eilandKop(e);
+  const crumbs = [{ name: 'Home', url: '/' }, { name: 'Dierenarts op de eilanden', url: '/dierenarts-op-de-eilanden' }, { name: kop, url: e.standalone }];
+  const links = (e.links || []).map(eilandStadLink).filter(Boolean);
+  const beschrijving = e.paragrafen[0].slice(0, 155).replace(/\s+\S*$/, '') + '…';
+
+  const ld = [
+    {
+      '@type': 'WebPage',
+      '@id': L.SITE + e.standalone + '#webpage',
+      name: e.titel,
+      description: beschrijving,
+      url: L.SITE + e.standalone,
+      inLanguage: 'nl-NL',
+      isPartOf: { '@id': L.SITE + '/#organization' }
+    },
+    L.breadcrumbLd(crumbs)
+  ];
+
+  const body = `${L.breadcrumbHtml(crumbs)}
+<div class="card">
+  <p class="subtitle" style="margin-bottom:4px;">${e.tag}</p>
+  <h1>${L.esc(e.titel)}</h1>
+  ${e.paragrafen.map(p => `<p>${L.esc(p)}</p>`).join('\n  ')}
+  <div style="background:#f7f9fc; border:1px solid #e2e8f0; border-radius:8px; padding:14px 20px; margin-top:16px;">
+    <strong style="display:block; margin-bottom:6px; color:#0070AC; font-size:13px; text-transform:uppercase; letter-spacing:.03em;">${L.esc(e.kernenLabel)}</strong>
+    ${L.esc(e.kernen.join(', '))}
+  </div>
+  <div style="background:#f0f9ff; border-left:4px solid #00A1E4; border-radius:8px; padding:14px 18px; margin-top:12px;">
+    <strong>Leuk weetje:</strong> ${L.esc(e.weetje)}
+  </div>
+  ${links.length ? `<div class="tag-row" style="margin-top:16px;"><strong style="width:100%; font-size:13px; color:#0070AC; margin-bottom:4px;">Dierenklinieken op ${L.esc(kop)}:</strong>${links.join('\n    ')}</div>` : ''}
+  <p style="margin-top:16px;"><a href="/dierenarts-op-de-eilanden">← Alle eilanden</a></p>
+</div>`;
+
+  return L.page({
+    title: `${e.titel} | Dierenkliniek.nl`,
+    description: beschrijving,
+    canonical: e.standalone, bodyHtml: body, jsonld: ld, lastmod: BUILD_DATE, ogType: 'website'
+  });
+}
+
 write('spoedhulp.html', spoedPage(), '/spoedhulp');
 write('dierenarts-op-de-eilanden.html', eilandenPage(), '/dierenarts-op-de-eilanden');
+for (const e of EILANDEN.filter(x => x.standalone)) {
+  write(e.standalone.slice(1) + '.html', eilandSubPage(e), e.standalone);
+}
 write('dierenarts-in-de-buurt.html', buurtPage(), '/dierenarts-in-de-buurt');
 write('provincies.html', provinciesPage(), '/provincies');
 for (const p of PROVINCES) { const r = provinciePage(p); write(r.slug + '.html', r.html, '/' + r.slug); }
