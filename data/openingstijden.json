@@ -10187,26 +10187,16 @@
     "onbevestigd": true
   },
   "dierenartsenpraktijk-a-j-diender-dierenarts-in-vlissingen": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:00-18:00",
+    "di": "08:00-18:00",
+    "wo": "08:00-18:00",
+    "do": "08:00-18:00",
+    "vr": "08:00-18:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "dierenkliniekadw.nl, gecontroleerd 2026-09-25"
   },
   "dierenartsenpraktijk-hoogveld-meesters-dierenarts-in-middelburg": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
-  "dierenartsprakt-eiland-tholen-w-brons-b-v-dierenarts-in-poortvliet": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
     "wo": "09:00-17:00",
@@ -10246,16 +10236,6 @@
     "zo": "gesloten",
     "onbevestigd": true
   },
-  "dierenkliniek-van-der-wolf-dierenarts-in-vlissingen": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
   "dierenkliniek-yerseke-dierenarts-in-yerseke": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
@@ -10267,16 +10247,6 @@
     "onbevestigd": true
   },
   "gezondheidspraktijk-linda-opti-animal-dierenarts-in-zuiddorpe": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
-  "maatschap-dierenartsenpraktijk-walcheren-dierenarts-in-oostkapelle": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
     "wo": "09:00-17:00",
@@ -11015,5 +10985,25 @@
     "za": "gesloten",
     "zo": "gesloten",
     "onbevestigd": true
+  },
+  "dierenkliniek-poortvliet-dierenarts-in-poortvliet": {
+    "ma": "13:30-17:30",
+    "di": "13:30-19:00",
+    "wo": "13:30-17:30",
+    "do": "13:30-19:00",
+    "vr": "13:30-17:30",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "bron": "dierenklinieksteenbergen.nl, gecontroleerd 2026-09-25"
+  },
+  "dierenartsenpraktijk-oostkapelle-dierenarts-in-oostkapelle": {
+    "ma": "08:00-18:00",
+    "di": "08:00-18:00",
+    "wo": "08:00-18:00",
+    "do": "08:00-18:00",
+    "vr": "08:00-18:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "bron": "dapoostkapelle.nl, gecontroleerd 2026-09-25"
   }
 }

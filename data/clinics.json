@@ -3692,7 +3692,7 @@
     ],
     "lat": 51.4426,
     "lng": 3.5736,
-    "desc": "Veterinaire kliniek in Vlissingen. Volledige zorg voor gezelschapsdieren.",
+    "desc": "Dierenkliniek in Vlissingen (Paauwenburg), voortgekomen uit de voormalige praktijken Dierenkliniek van der Wolf en anderen.",
     "tier": "basic"
   },
   {
@@ -4354,7 +4354,7 @@
     "postcode": "4451 LP",
     "phone": "0113-568558",
     "email": "dierzorg@anicura.nl",
-    "website": "http://www.dierenkliniekdierzorg.nl/",
+    "website": "https://www.anicura.nl/klinieken/zeeland/dierzorg-heinkenszand/",
     "rating": 4.1,
     "reviews": 409,
     "specs": [
@@ -20916,15 +20916,15 @@
     "address": "Dokter Stavermanstraat 57",
     "postcode": "4382 LE",
     "phone": "0118-410910",
-    "email": "",
-    "website": "",
+    "email": "info@dierenkliniekadw.nl",
+    "website": "https://www.dierenkliniekadw.nl/",
     "rating": 0,
     "reviews": 0,
     "specs": [],
     "tags": [],
     "lat": 51.4485,
     "lng": 3.56811,
-    "desc": "Veterinaire kliniek in Vlissingen. Volledige zorg voor gezelschapsdieren.",
+    "desc": "Eerstelijns dierenkliniek in Vlissingen (voorheen DAP A.J. Diender), gericht op betaalbare zorg voor gezelschapsdieren.",
     "tier": "basic"
   },
   {
@@ -20947,20 +20947,20 @@
   },
   {
     "id": 1096,
-    "name": "Dierenartsprakt. Eiland Tholen W. Brons B.V.",
+    "name": "Dierenkliniek Poortvliet",
     "city": "Poortvliet",
-    "address": "Kalfdamseweg 2",
-    "postcode": "4693 RM",
+    "address": "Stoofstraat 27",
+    "postcode": "4693 RB",
     "phone": "0166-662596",
     "email": "",
-    "website": "",
+    "website": "https://dierenklinieksteenbergen.nl/dierenkliniek-poortvliet/",
     "rating": 0,
     "reviews": 0,
     "specs": [],
     "tags": [],
     "lat": 51.5622,
     "lng": 4.11404,
-    "desc": "Veterinaire kliniek in Poortvliet. Volledige zorg voor gezelschapsdieren.",
+    "desc": "Nevenvestiging van Dierenkliniek Steenbergen op Tholen. Spreekuur voor gezelschapsdieren; buiten openingstijden doorgeschakeld naar de hoofdkliniek in Steenbergen.",
     "tier": "basic"
   },
   {
@@ -21018,24 +21018,6 @@
     "tier": "basic"
   },
   {
-    "id": 1100,
-    "name": "Dierenkliniek van der Wolf",
-    "city": "Vlissingen",
-    "address": "Alexander Gogelweg 14",
-    "postcode": "4384 EV",
-    "phone": "0118-466548",
-    "email": "",
-    "website": "http://www.dierenkliniekvdwolf.nl/",
-    "rating": 0,
-    "reviews": 0,
-    "specs": [],
-    "tags": [],
-    "lat": 51.4624,
-    "lng": 3.55429,
-    "desc": "Veterinaire kliniek in Vlissingen. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
-  },
-  {
     "id": 1101,
     "name": "Dierenkliniek Yerseke",
     "city": "Yerseke",
@@ -21073,20 +21055,20 @@
   },
   {
     "id": 1103,
-    "name": "Maatschap Dierenartsenpraktijk Walcheren",
+    "name": "Dierenartsenpraktijk Oostkapelle",
     "city": "Oostkapelle",
     "address": "Oude Domburgseweg 33-A",
     "postcode": "4356 CB",
     "phone": "0118-581443",
-    "email": "",
-    "website": "http://www.dapwalcheren.nl/",
+    "email": "info@dapoostkapelle.nl",
+    "website": "https://www.dapoostkapelle.nl/",
     "rating": 0,
     "reviews": 0,
     "specs": [],
     "tags": [],
     "lat": 51.5659,
     "lng": 3.54536,
-    "desc": "Veterinaire kliniek in Oostkapelle. Volledige zorg voor gezelschapsdieren.",
+    "desc": "Gezelschapsdierenpraktijk in Oostkapelle (Walcheren) met twee dierenartsen en vier paraveterinairen.",
     "tier": "basic"
   },
   {
@@ -22891,6 +22873,165 @@
     "lat": 52.3395,
     "lng": 4.9611,
     "desc": "Consultvestiging in Diemen van Joyce Hofman Dierenklinieken (hoofdvestiging Amsterdam-Watergraafsmeer); spreekuur voor honden en katten. Operaties, echo en röntgen vinden plaats op de hoofdlocatie.",
+    "tier": "basic"
+  },
+  {
+    "id": 1209,
+    "name": "Dierenartspraktijk Terschelling",
+    "city": "Midsland",
+    "address": "Westerdam 12",
+    "postcode": "8891 GM",
+    "phone": "0562-449363",
+    "email": "info@dierenartsterschelling.nl",
+    "website": "https://dierenartsterschelling.nl/",
+    "specs": [
+      "Honden",
+      "Katten",
+      "Spoed 24/7"
+    ],
+    "tags": [
+      "spoed"
+    ],
+    "lat": 53.3762,
+    "lng": 5.2848,
+    "desc": "Gemengde dierenartspraktijk op Terschelling voor gezelschapsdieren, paarden en landbouwhuisdieren, met 24/7 spoedzorg. Alleen op afspraak.",
+    "tier": "basic"
+  },
+  {
+    "id": 1210,
+    "name": "Dierenarts H. Schols",
+    "city": "Nes",
+    "address": "Vermaningspad 4",
+    "postcode": "9163 JD",
+    "phone": "0519-542158",
+    "email": "",
+    "website": "",
+    "specs": [
+      "Honden",
+      "Katten"
+    ],
+    "tags": [],
+    "lat": 53.445,
+    "lng": 5.77306,
+    "desc": "Solopraktijk op Ameland voor gezelschapsdieren en landbouwhuisdieren. Ingeschreven in het Centraal Kwaliteitsregister Diergeneeskunde.",
+    "tier": "basic"
+  },
+  {
+    "id": 1211,
+    "name": "Dierenkliniek de Eendracht",
+    "city": "Tholen",
+    "address": "Eendrachtsweg 8",
+    "postcode": "4691 EK",
+    "phone": "0166-607489",
+    "email": "",
+    "website": "https://dierenkliniektholen.nl/",
+    "specs": [
+      "Honden",
+      "Katten",
+      "Konijnen",
+      "Knaagdieren",
+      "Vogels"
+    ],
+    "tags": [],
+    "lat": 51.5354,
+    "lng": 4.2233,
+    "desc": "Gezelschapsdierenpraktijk in Tholen-stad voor honden, katten, konijnen, knaagdieren en vogels. Lid KNMvD.",
+    "tier": "basic"
+  },
+  {
+    "id": 1212,
+    "name": "Dierenartspraktijk van Anrooij - locatie Kortgene",
+    "city": "Kortgene",
+    "address": "Hoofdstraat 22",
+    "postcode": "4484 CE",
+    "phone": "0113-302145",
+    "email": "info@dapvananrooij.nl",
+    "website": "https://www.dapvananrooij.nl/locaties/kortgene/",
+    "specs": [
+      "Honden",
+      "Katten"
+    ],
+    "tags": [],
+    "lat": 51.55833,
+    "lng": 3.8,
+    "desc": "Nevenvestiging op Noord-Beveland van Dierenartspraktijk van Anrooij (hoofdvestiging Goes), voor gezelschapsdieren, paarden en kleine herkauwers.",
+    "tier": "basic"
+  },
+  {
+    "id": 1213,
+    "name": "Dierenartsenpraktijk Wemeldinge",
+    "city": "Wemeldinge",
+    "address": "Dorpsstraat 39",
+    "postcode": "4424 CV",
+    "phone": "0113-253737",
+    "email": "",
+    "website": "https://dierenartswemeldinge.nl/",
+    "specs": [
+      "Honden",
+      "Katten"
+    ],
+    "tags": [],
+    "lat": 51.5175,
+    "lng": 3.99556,
+    "desc": "Dierenartspraktijk in Wemeldinge (Zuid-Beveland) voor gezelschapsdieren.",
+    "tier": "basic"
+  },
+  {
+    "id": 1214,
+    "name": "Dierenartspraktijk Den Bommel",
+    "city": "Den Bommel",
+    "address": "Johan Frisolaan 52",
+    "postcode": "3258 AJ",
+    "phone": "06-81183711",
+    "email": "info@dierenartsdenbommel.nl",
+    "website": "https://www.dierenartsdenbommel.nl/",
+    "specs": [
+      "Honden",
+      "Katten"
+    ],
+    "tags": [],
+    "lat": 51.715,
+    "lng": 4.285,
+    "desc": "Kleinschalige dierenartspraktijk op Goeree-Overflakkee met naast reguliere zorg ook Chinese diergeneeskunde/acupunctuur en huisbezoeken.",
+    "tier": "basic"
+  },
+  {
+    "id": 1215,
+    "name": "Karin voor dieren",
+    "city": "Biggekerke",
+    "address": "Kerkplein 19",
+    "postcode": "4373 AA",
+    "phone": "06-51910130",
+    "email": "",
+    "website": "https://karinvoordieren.nl/",
+    "specs": [
+      "Honden",
+      "Katten",
+      "Konijnen"
+    ],
+    "tags": [],
+    "lat": 51.4986,
+    "lng": 3.5378,
+    "desc": "Dierenartspraktijk in Biggekerke (Walcheren), uitsluitend voor geplande zorg bij gezonde dieren: vaccinaties, chippen en registratie. Alleen op afspraak.",
+    "tier": "basic"
+  },
+  {
+    "id": 1216,
+    "name": "Dierenartspraktijk van Anrooij",
+    "city": "Goes",
+    "address": "Van Hogendorplaan 6",
+    "postcode": "4463 VR",
+    "phone": "0113-223381",
+    "email": "",
+    "website": "https://www.dapvananrooij.nl/locaties/goes/",
+    "specs": [
+      "Honden",
+      "Katten"
+    ],
+    "tags": [],
+    "lat": 51.4986,
+    "lng": 3.9006,
+    "desc": "Hoofdvestiging van Dierenartspraktijk van Anrooij (regio Goes en Noord-Beveland), onafhankelijke praktijk voor gezelschapsdieren.",
     "tier": "basic"
   }
 ]
