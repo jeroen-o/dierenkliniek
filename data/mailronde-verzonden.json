@@ -1856,5 +1856,405 @@
   "info@dapdemeierij.nl": {
     "id": "1a0dfa3c70f41b0d",
     "op": "2026-09-26T21:34:15.992Z"
+  },
+  "info@dierenkliniekaandelaan.nl": {
+    "id": "1a0dfa811198bfee",
+    "op": "2026-09-26T21:39:01.992Z"
+  },
+  "info@dierenkliniekbuitenmere.nl": {
+    "id": "1a0dfa814a3e6055",
+    "op": "2026-09-26T21:39:02.161Z"
+  },
+  "info@dierenkliniekstatenlaan.nl": {
+    "id": "1a0dfa8162bd1b9e",
+    "op": "2026-09-26T21:39:02.241Z"
+  },
+  "info@dierenartswolvega.nl": {
+    "id": "1a0dfa819822178c",
+    "op": "2026-09-26T21:39:02.313Z"
+  },
+  "info@dierenkliniekzevenhuizen.nl": {
+    "id": "1a0dfa81a6d6465c",
+    "op": "2026-09-26T21:39:02.393Z"
+  },
+  "info@dierenartsalmerepoort.nl": {
+    "id": "1a0dfa81eae72314",
+    "op": "2026-09-26T21:39:02.551Z"
+  },
+  "info@dierenkliniekdoorn.nl": {
+    "id": "1a0dfa821b6847a6",
+    "op": "2026-09-26T21:39:02.627Z"
+  },
+  "dierenkliniek76@dierenziekenhuizen.nl": {
+    "id": "1a0dfa823dd8b922",
+    "op": "2026-09-26T21:39:02.696Z"
+  },
+  "info@dierenartsamsterdamzuid.nl": {
+    "id": "1a0dfacb0c436914",
+    "op": "2026-09-26T21:44:08.033Z"
+  },
+  "info@dierenkliniekamsterdam.nl": {
+    "id": "1a0dfacb2a8e558d",
+    "op": "2026-09-26T21:44:08.207Z"
+  },
+  "centrumoost@dierenziekenhuizen.nl": {
+    "id": "1a0dfacb5a839465",
+    "op": "2026-09-26T21:44:08.284Z"
+  },
+  "info@dierenkliniekosdorp.nl": {
+    "id": "1a0dfacb6f285288",
+    "op": "2026-09-26T21:44:08.362Z"
+  },
+  "amsterdam@dierenziekenhuizen.nl": {
+    "id": "1a0dfacb8bd5bd5e",
+    "op": "2026-09-26T21:44:08.429Z"
+  },
+  "ijburg@dierenziekenhuizen.nl": {
+    "id": "1a0dfacbc36cb7f3",
+    "op": "2026-09-26T21:44:08.493Z"
+  },
+  "landsmeer@dierenklinieken.net": {
+    "id": "1a0dfacbf336e80f",
+    "op": "2026-09-26T21:44:08.559Z"
+  },
+  "amstelveen@dierenklinieken.net": {
+    "id": "1a0dfacc102255ed",
+    "op": "2026-09-26T21:44:08.686Z"
+  },
+  "info@dierenartsuithoorn.nl": {
+    "id": "1a0dfb3138d800c8",
+    "op": "2026-09-26T21:51:13.713Z"
+  },
+  "haarlem@dierenziekenhuizen.nl": {
+    "id": "1a0dfb3142141d0a",
+    "op": "2026-09-26T21:51:13.864Z"
+  },
+  "hoofddorp@dierenziekenhuizen.nl": {
+    "id": "1a0dfb3180656a3c",
+    "op": "2026-09-26T21:51:13.998Z"
+  },
+  "info@dierenkliniekalmerestad.nl": {
+    "id": "1a0dfb31b0bb2a18",
+    "op": "2026-09-26T21:51:14.074Z"
+  },
+  "hilversum@evidierenartsen.nl": {
+    "id": "1a0dfb31ceda3cd3",
+    "op": "2026-09-26T21:51:14.143Z"
+  },
+  "balie.lisse@mijndierenkliniek.nl": {
+    "id": "1a0dfb320bc4e87b",
+    "op": "2026-09-26T21:51:14.217Z"
+  },
+  "info@jdejongdierenartsen.nl": {
+    "id": "1a0dfb32243d8285",
+    "op": "2026-09-26T21:51:14.351Z"
+  },
+  "info@dgcdelimes.nl": {
+    "id": "1a0dfb3259eb1b6b",
+    "op": "2026-09-26T21:51:14.424Z"
+  },
+  "info@vankoptotstaart.nl": {
+    "id": "1a0dfb32622dca56",
+    "op": "2026-09-26T21:51:14.488Z"
+  },
+  "oudenoord@evidierenartsen.nl": {
+    "id": "1a0dfb32bd30e4da",
+    "op": "2026-09-26T21:51:14.552Z"
+  },
+  "info@dierenkliniekleidscherijn.nl": {
+    "id": "1a0dfb32d27e10ae",
+    "op": "2026-09-26T21:51:14.615Z"
+  },
+  "dzp.demare@mijndierenkliniek.nl": {
+    "id": "1a0dfb32f1f8975f",
+    "op": "2026-09-26T21:51:14.721Z"
+  },
+  "utrechtcentrum@dierenziekenhuizen.nl": {
+    "id": "1a0dfb56996a5a33",
+    "op": "2026-09-26T21:53:30.914Z"
+  },
+  "dzp.leiden@mijndierenkliniek.nl": {
+    "id": "1a0dfb56a6da31ba",
+    "op": "2026-09-26T21:53:30.997Z"
+  },
+  "dap@dijkshoorn.com": {
+    "id": "1a0dfb56d6e84197",
+    "op": "2026-09-26T21:53:31.071Z"
+  },
+  "info@dierenkliniekbatau.nl": {
+    "id": "1a0dfb5746e6aab8",
+    "op": "2026-09-26T21:53:31.155Z"
+  },
+  "wulven@dierenzorggroep.nl": {
+    "id": "1a0dfba665b13775",
+    "op": "2026-09-26T21:59:04.280Z"
+  },
+  "info@abcvoordieren.nl": {
+    "id": "1a0dfba69d1aee15",
+    "op": "2026-09-26T21:59:04.380Z"
+  },
+  "info@dierenkliniekkorteakkeren.nl": {
+    "id": "1a0dfba6b3d448b8",
+    "op": "2026-09-26T21:59:04.452Z"
+  },
+  "info@denhaag.petshealth.nl": {
+    "id": "1a0dfba6fe17f695",
+    "op": "2026-09-26T21:59:04.532Z"
+  },
+  "info@dierenkliniekputten.nl": {
+    "id": "1a0dfba708ac59d7",
+    "op": "2026-09-26T21:59:04.607Z"
+  },
+  "info@dierenkliniekzuiderpark.nl": {
+    "id": "1a0dfba7335b0dbf",
+    "op": "2026-09-26T21:59:04.752Z"
+  },
+  "leerdam@dierenzorggroep.nl": {
+    "id": "1a0dfba77fa460bb",
+    "op": "2026-09-26T21:59:04.909Z"
+  },
+  "rotterdam@dierenziekenhuizen.nl": {
+    "id": "1a0dfba79b726229",
+    "op": "2026-09-26T21:59:04.982Z"
+  },
+  "info@dierenkliniek-deduinen.com": {
+    "id": "1a0dfba7ac845f0d",
+    "op": "2026-09-26T21:59:05.055Z"
+  },
+  "binnenweg@dierenziekenhuis.nl": {
+    "id": "1a0dfba7edb811f8",
+    "op": "2026-09-26T21:59:05.120Z"
+  },
+  "rotterdam@basicvets.nl": {
+    "id": "1a0dfbf7944fbf75",
+    "op": "2026-09-26T22:04:43.672Z"
+  },
+  "info@dierenkliniekspaland.nl": {
+    "id": "1a0dfbf7c477d4f8",
+    "op": "2026-09-26T22:04:43.836Z"
+  },
+  "info@dklschiedamnoord.nl": {
+    "id": "1a0dfbf7f7996ca4",
+    "op": "2026-09-26T22:04:43.995Z"
+  },
+  "sliedrecht@basicvets.nl": {
+    "id": "1a0dfbf81e68dfde",
+    "op": "2026-09-26T22:04:44.141Z"
+  },
+  "info@dierenkliniekzwartezee.nl": {
+    "id": "1a0dfbf83e5d99a2",
+    "op": "2026-09-26T22:04:44.217Z"
+  },
+  "info@animalcenter.nl": {
+    "id": "1a0dfbf850638b96",
+    "op": "2026-09-26T22:04:44.287Z"
+  },
+  "info@dierenkliniekrosmalencentrum.nl": {
+    "id": "1a0dfbf867dfc9a4",
+    "op": "2026-09-26T22:04:44.358Z"
+  },
+  "contact@mijndierenartsarnhem.nl": {
+    "id": "1a0dfbf8ae387db7",
+    "op": "2026-09-26T22:04:44.427Z"
+  },
+  "info@stadsdierenartszwolle.nl": {
+    "id": "1a0dfbf8dedad377",
+    "op": "2026-09-26T22:04:44.495Z"
+  },
+  "vught@animalcenter.nl": {
+    "id": "1a0dfbf91c25d99f",
+    "op": "2026-09-26T22:04:44.560Z"
+  },
+  "info@dierenartsverstappen.nl": {
+    "id": "1a0dfc68fe58a5e7",
+    "op": "2026-09-26T22:12:19.733Z"
+  },
+  "info@dapdoetinchemzh.nl": {
+    "id": "1a0dfc692cc2b6eb",
+    "op": "2026-09-26T22:12:19.834Z"
+  },
+  "info@petsfit.nl": {
+    "id": "1a0dfc695f3b410c",
+    "op": "2026-09-26T22:12:19.973Z"
+  },
+  "info@dikketjedap.nl": {
+    "id": "1a0dfc6965c66da6",
+    "op": "2026-09-26T22:12:20.044Z"
+  },
+  "goes@kliniekdierenarts.nl": {
+    "id": "1a0dfc69a2cbff5c",
+    "op": "2026-09-26T22:12:20.117Z"
+  },
+  "info@duintopdierenkliniek.nl": {
+    "id": "1a0dfc69dde9ff58",
+    "op": "2026-09-26T22:12:20.205Z"
+  },
+  "praktijk@dierenkliniekenschede.nl": {
+    "id": "1a0dfc69e16f2194",
+    "op": "2026-09-26T22:12:20.324Z"
+  },
+  "balie@dierenartsgroningen.nl": {
+    "id": "1a0dfc6a2ddcc3a9",
+    "op": "2026-09-26T22:12:20.398Z"
+  },
+  "groningen@vanstadtotwad.nl": {
+    "id": "1a0dfca823da5895",
+    "op": "2026-09-26T22:16:36.478Z"
+  },
+  "info@dierenkliniekdewijher.nl": {
+    "id": "1a0dfca857540daa",
+    "op": "2026-09-26T22:16:36.580Z"
+  },
+  "info@noorderdierenkliniek.nl": {
+    "id": "1a0dfca89cceb726",
+    "op": "2026-09-26T22:16:36.649Z"
+  },
+  "dierenarts@vanzeebroeck.nl": {
+    "id": "1a0dfca8b07c2774",
+    "op": "2026-09-26T22:16:36.792Z"
+  },
+  "info@dierenartsencentrum-gardeniers.nl": {
+    "id": "1a0dfca8d1a03779",
+    "op": "2026-09-26T22:16:36.866Z"
+  },
+  "info@dierenkliniek-brunssum.com": {
+    "id": "1a0dfca904081e56",
+    "op": "2026-09-26T22:16:36.934Z"
+  },
+  "poort@dierenkliniekmaastricht.nl": {
+    "id": "1a0dfca92a096ce7",
+    "op": "2026-09-26T22:16:37.002Z"
+  },
+  "heer@dierenkliniekmaastricht.nl": {
+    "id": "1a0dfcd23764ce51",
+    "op": "2026-09-26T22:19:26.357Z"
+  },
+  "info@dierenartsaalsmeer.nl": {
+    "id": "1a0dfcd2578f96b1",
+    "op": "2026-09-26T22:19:26.528Z"
+  },
+  "info@muiderberg.petshealth.nl": {
+    "id": "1a0dfcd27a80e6b2",
+    "op": "2026-09-26T22:19:26.607Z"
+  },
+  "info@dierenartsmijdrecht.nl": {
+    "id": "1a0dfcd289dad1d7",
+    "op": "2026-09-26T22:19:26.769Z"
+  },
+  "volendam@dierenklinieken.net": {
+    "id": "1a0dfcd2c2c466d9",
+    "op": "2026-09-26T22:19:26.861Z"
+  },
+  "info@kvg-uitgeest.nl": {
+    "id": "1a0dfd248ff6b847",
+    "op": "2026-09-26T22:25:09.064Z"
+  },
+  "maarssenbroek@dgcdelimes.nl": {
+    "id": "1a0dfd24ab257433",
+    "op": "2026-09-26T22:25:09.273Z"
+  },
+  "info@dapbodegraven.nl": {
+    "id": "1a0dfd24e5dfaa27",
+    "op": "2026-09-26T22:25:09.358Z"
+  },
+  "info@dierenkliniekkoningsweg.nl": {
+    "id": "1a0dfd250047269f",
+    "op": "2026-09-26T22:25:09.430Z"
+  },
+  "info@dkbo.nl": {
+    "id": "1a0dfd25319be0ae",
+    "op": "2026-09-26T22:25:09.503Z"
+  },
+  "info@eemland.petshealth.nl": {
+    "id": "1a0dfd2562cb4f36",
+    "op": "2026-09-26T22:25:09.676Z"
+  },
+  "balie@dierenkliniekhoofdstraat.nl": {
+    "id": "1a0dfd25835a4992",
+    "op": "2026-09-26T22:25:09.749Z"
+  },
+  "schagen@dierenklinieken.net": {
+    "id": "1a0dfd25d532b8d5",
+    "op": "2026-09-26T22:25:09.817Z"
+  },
+  "info@devallei.com": {
+    "id": "1a0dfd25f4f60997",
+    "op": "2026-09-26T22:25:09.996Z"
+  },
+  "info@bosweidedierenartsen.nl": {
+    "id": "1a0dfd7b449c3999",
+    "op": "2026-09-26T22:31:06.993Z"
+  },
+  "info@dierenartsen-renkum.nl": {
+    "id": "1a0dfd7b89b28ad3",
+    "op": "2026-09-26T22:31:07.122Z"
+  },
+  "info@dierenartsenpraktijkgaasterland.nl": {
+    "id": "1a0dfd7bb2875083",
+    "op": "2026-09-26T22:31:07.201Z"
+  },
+  "info@artsenvoordieren.nl": {
+    "id": "1a0dfd7c13d71b5f",
+    "op": "2026-09-26T22:31:07.268Z"
+  },
+  "west@dierenkliniekdenbosch.nl": {
+    "id": "1a0dfd7c5c7a979e",
+    "op": "2026-09-26T22:31:07.343Z"
+  },
+  "info@dapolstwijhe.nl": {
+    "id": "1a0dfd7c628c5819",
+    "op": "2026-09-26T22:31:07.467Z"
+  },
+  "contact@dierenkliniekschaijk.nl": {
+    "id": "1a0dfd7c8c0567f4",
+    "op": "2026-09-26T22:31:07.544Z"
+  },
+  "info@dierenkliniekdebaronie.nl": {
+    "id": "1a0dfd7ca2ce3211",
+    "op": "2026-09-26T22:31:07.618Z"
+  },
+  "info@dapog.nl": {
+    "id": "1a0dfd7cef6dbc8e",
+    "op": "2026-09-26T22:31:07.813Z"
+  },
+  "informatie@vankoptotstaart.nl": {
+    "id": "1a0dfd7d0869327e",
+    "op": "2026-09-26T22:31:07.883Z"
+  },
+  "delft@dierenziekenhuizen.nl": {
+    "id": "1a0dfd7d3c5da4d3",
+    "op": "2026-09-26T22:31:07.958Z"
+  },
+  "daptexel@dierenartsentexel.nl": {
+    "id": "1a0dfdc08f66e02e",
+    "op": "2026-09-26T22:35:46.038Z"
+  },
+  "info@dierenkliniekhoogveld.nl": {
+    "id": "1a0dfdc0b2c0da73",
+    "op": "2026-09-26T22:35:46.132Z"
+  },
+  "praktijk@dapmoerstraten.nl": {
+    "id": "1a0dfdc0d84b0dfc",
+    "op": "2026-09-26T22:35:46.206Z"
+  },
+  "info@dapzelhem.nl": {
+    "id": "1a0dfdc0e1943737",
+    "op": "2026-09-26T22:35:46.272Z"
+  },
+  "info@dapzuidwolde.nl": {
+    "id": "1a0dfdc12a49101e",
+    "op": "2026-09-26T22:35:46.341Z"
+  },
+  "info@drentsfriesewolddierenartsen.nl": {
+    "id": "1a0dfdc14e503f5a",
+    "op": "2026-09-26T22:35:46.408Z"
+  },
+  "info@dier-en-dokter.nl": {
+    "id": "1a0dfdc1607b5266",
+    "op": "2026-09-26T22:35:46.477Z"
+  },
+  "info@dierenkliniekwaalre.nl": {
+    "id": "1a0dfdc196ae956b",
+    "op": "2026-09-26T22:35:46.626Z"
   }
 }
