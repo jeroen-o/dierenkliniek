@@ -1508,14 +1508,12 @@
     "onbevestigd": true
   },
   "dierenkliniek-de-ark-oost-souburg-dierenarts-in-oost-souburg": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "ma": "08:30-17:00",
+    "di": "08:30-17:00",
+    "wo": "08:30-17:00",
+    "do": "08:30-17:00",
+    "vr": "08:30-17:00",
+    "bron": "praktijkwebsite dierenkliniekdeark.nl, gecontroleerd 2026-09-26"
   },
   "dierenkliniek-de-ark-terneuzen-dierenarts-in-terneuzen": {
     "ma": "12:30-17:00",
@@ -1528,14 +1526,12 @@
     "onbevestigd": true
   },
   "dierenkliniek-de-ark-vlissingen-dierenarts-in-vlissingen": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "ma": "08:30-17:00",
+    "di": "08:30-17:00",
+    "wo": "08:30-17:00",
+    "do": "08:30-17:00",
+    "vr": "08:30-17:00",
+    "bron": "praktijkwebsite dierenkliniekdeark.nl, gecontroleerd 2026-09-26"
   },
   "dierenkliniek-de-arker-dierenarts-in-nijkerk": {
     "ma": "12:30-17:00",
@@ -1548,14 +1544,12 @@
     "onbevestigd": true
   },
   "dierenkliniek-de-ark-dierenarts-in-middelburg": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "ma": "08:30-17:00",
+    "di": "08:30-17:00",
+    "wo": "08:30-17:00",
+    "do": "08:30-17:00",
+    "vr": "08:30-17:00",
+    "bron": "praktijkwebsite dierenkliniekdeark.nl, gecontroleerd 2026-09-26"
   },
   "dierenkliniek-de-berendonck-dierenarts-in-nijmegen": {
     "ma": "12:30-17:00",
