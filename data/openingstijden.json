@@ -11012,5 +11012,13 @@
     "do": "09:00-10:00",
     "vr": "09:00-10:00",
     "bron": "praktijkopgave, inloopspreekuur (verder op afspraak), gecontroleerd 2026-09-26"
+  },
+  "dierenartspraktijk-lindenbergh-dierenarts-in-kapelle": {
+    "ma": "09:00-13:00, 16:00-18:00",
+    "di": "09:00-13:00, 16:00-18:00",
+    "wo": "09:00-13:00, 16:00-18:00",
+    "do": "09:00-13:00, 16:00-18:00",
+    "vr": "09:00-13:00, 16:00-18:00",
+    "bron": "praktijkwebsite daplindenbergh.nl, gecontroleerd 2026-09-26"
   }
 }

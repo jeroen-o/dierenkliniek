@@ -23094,5 +23094,28 @@
     "lng": 3.5378,
     "desc": "Dierenartspraktijk in Biggekerke (Walcheren) van Jan Borra en Barbara Trappeniers.",
     "tier": "basic"
+  },
+  {
+    "id": 1220,
+    "name": "Dierenartspraktijk Lindenbergh",
+    "city": "Kapelle",
+    "address": "Postweg 26",
+    "postcode": "4421 PA",
+    "phone": "0113-405069",
+    "email": "info@daplindenbergh.nl",
+    "website": "https://daplindenbergh.nl/",
+    "specs": [
+      "Honden",
+      "Katten",
+      "Spoed 24/7"
+    ],
+    "tags": [
+      "spoed",
+      "whatsapp"
+    ],
+    "lat": 51.4794,
+    "lng": 3.9694,
+    "desc": "Dierenartspraktijk in Kapelle (Zuid-Beveland), 24/7 telefonisch bereikbaar voor spoed.",
+    "tier": "basic"
   }
 ]
