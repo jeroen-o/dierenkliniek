@@ -23142,5 +23142,24 @@
     "lng": 4.0517,
     "desc": "Dierenartspraktijk in Yerseke (Zuid-Beveland), sinds voorjaar 2025 gevestigd aan het Schuttershof.",
     "tier": "basic"
+  },
+  {
+    "id": 1222,
+    "name": "Dierenarts Bouke Romijn - Medvos",
+    "city": "Zonnemaire",
+    "address": "I.M. van de Bijlstraat 15",
+    "postcode": "4316 AB",
+    "phone": "06-20625918",
+    "email": "",
+    "website": "https://medvos.nl/",
+    "specs": [
+      "Honden",
+      "Katten"
+    ],
+    "tags": [],
+    "lat": 51.6733,
+    "lng": 3.8683,
+    "desc": "Dierenartspraktijk in Zonnemaire (Schouwen-Duiveland) van dierenarts Bouke Romijn, sinds 2025 onder de vlag van Medvos.",
+    "tier": "basic"
   }
 ]

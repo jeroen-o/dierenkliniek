@@ -6381,14 +6381,14 @@
     "onbevestigd": true
   },
   "diergeneeskundig-centrum-zeeland-dierenarts-in-noordwelle": {
-    "ma": "12:30-17:00",
+    "ma": "09:00-17:00",
     "di": "09:00-17:00",
     "wo": "09:00-17:00",
     "do": "09:00-17:00",
     "vr": "09:00-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "praktijkwebsite dczeeland.nl, gecontroleerd 2026-09-26"
   },
   "kliniek-dierenwaard-dierenarts-in-dodewaard": {
     "ma": "12:30-17:00",
