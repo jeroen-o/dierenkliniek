@@ -11014,5 +11014,15 @@
     "za": "gesloten",
     "zo": "gesloten",
     "onbevestigd": true
+  },
+  "de-zaanse-dierenarts-dierenarts-in-koog-aan-de-zaan": {
+    "ma": "08:30-17:00",
+    "di": "08:30-17:00",
+    "wo": "08:30-17:00",
+    "do": "08:30-17:00",
+    "vr": "08:30-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "bron": "praktijkopgave, gecontroleerd 2026-09-26"
   }
 }

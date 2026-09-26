@@ -23161,5 +23161,24 @@
     "lng": 3.8683,
     "desc": "Dierenartspraktijk in Zonnemaire (Schouwen-Duiveland) van dierenarts Bouke Romijn, sinds 2025 onder de vlag van Medvos.",
     "tier": "basic"
+  },
+  {
+    "id": 1223,
+    "name": "De Zaanse Dierenarts",
+    "city": "Koog aan de Zaan",
+    "address": "Raadhuisstraat 52",
+    "postcode": "1541 JD",
+    "phone": "075-2500003",
+    "email": "info@dezaansedierenarts.nl",
+    "website": "https://dezaansedierenarts.nl/",
+    "specs": [
+      "Honden",
+      "Katten"
+    ],
+    "tags": [],
+    "lat": 52.4669,
+    "lng": 4.8138,
+    "desc": "Dierenartspraktijk in Koog aan de Zaan.",
+    "tier": "basic"
   }
 ]
