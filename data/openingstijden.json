@@ -10157,14 +10157,13 @@
     "onbevestigd": true
   },
   "d-a-p-roskam-dierenarts-in-meliskerke": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "ma": "13:00-14:00, 18:00-19:00",
+    "di": "13:00-14:00, 18:00-19:00",
+    "wo": "13:00-14:00, 18:00-19:00",
+    "do": "13:00-14:00, 18:00-19:00",
+    "vr": "13:00-14:00, 18:00-19:00",
+    "za": "10:00-11:00",
+    "bron": "praktijkopgave, inloopspreekuur (verder op afspraak), gecontroleerd 2026-09-26"
   },
   "dierenartsencentrum-west-dierenarts-in-oostburg": {
     "ma": "12:30-17:00",
@@ -11005,5 +11004,13 @@
     "za": "gesloten",
     "zo": "gesloten",
     "bron": "e-mail/opgave, gecontroleerd 2026-09-25"
+  },
+  "d-a-p-roskam-locatie-middelburg-dierenarts-in-middelburg": {
+    "ma": "09:00-10:00",
+    "di": "09:00-10:00",
+    "wo": "09:00-10:00",
+    "do": "09:00-10:00",
+    "vr": "09:00-10:00",
+    "bron": "praktijkopgave, inloopspreekuur (verder op afspraak), gecontroleerd 2026-09-26"
   }
 }

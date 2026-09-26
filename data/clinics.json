@@ -23056,5 +23056,43 @@
     "lng": 5.2871,
     "desc": "Spoed- en verwijskliniek in Baarn voor 24/7 acute zorg en verwijzingen: chirurgie, orthopedie, interne geneeskunde, echografie/cardiologie en CT/röntgen. Drie operatiekamers en 24-uurs opname.",
     "tier": "basic"
+  },
+  {
+    "id": 1218,
+    "name": "D.A.P. Roskam - locatie Middelburg",
+    "city": "Middelburg",
+    "address": "Langevielesingel 44",
+    "postcode": "4335 AB",
+    "phone": "0118-634842",
+    "email": "info@dierenartsroskam.nl",
+    "website": "https://www.dierenartsroskam.nl/",
+    "specs": [
+      "Honden",
+      "Katten"
+    ],
+    "tags": [],
+    "lat": 51.4988,
+    "lng": 3.6109,
+    "desc": "Vestiging in Middelburg van D.A.P. Roskam (hoofdvestiging Meliskerke). Inloopspreekuur ma-vr 09:00-10:00, verder op afspraak.",
+    "tier": "basic"
+  },
+  {
+    "id": 1219,
+    "name": "Dierenartsen Borra en Trappeniers",
+    "city": "Biggekerke",
+    "address": "Krommenhoeke 1a",
+    "postcode": "4373 SK",
+    "phone": "0118-853054",
+    "email": "info@dierenartsenborratrappeniers.nl",
+    "website": "https://www.dierenartsenborratrappeniers.nl/",
+    "specs": [
+      "Honden",
+      "Katten"
+    ],
+    "tags": [],
+    "lat": 51.4986,
+    "lng": 3.5378,
+    "desc": "Dierenartspraktijk in Biggekerke (Walcheren) van Jan Borra en Barbara Trappeniers.",
+    "tier": "basic"
   }
 ]
