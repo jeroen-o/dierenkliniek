@@ -23123,5 +23123,24 @@
     "lng": 3.9694,
     "desc": "Dierenartspraktijk in Kapelle (Zuid-Beveland), 24/7 telefonisch bereikbaar voor spoed.",
     "tier": "basic"
+  },
+  {
+    "id": 1221,
+    "name": "Julder Dierenarts",
+    "city": "Yerseke",
+    "address": "Schuttershof 6b",
+    "postcode": "4401 CP",
+    "phone": "0113-745036",
+    "email": "info@julder.nl",
+    "website": "https://julder-dierenarts.nl/",
+    "specs": [
+      "Honden",
+      "Katten"
+    ],
+    "tags": [],
+    "lat": 51.493,
+    "lng": 4.0517,
+    "desc": "Dierenartspraktijk in Yerseke (Zuid-Beveland), sinds voorjaar 2025 gevestigd aan het Schuttershof.",
+    "tier": "basic"
   }
 ]
