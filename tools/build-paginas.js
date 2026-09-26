@@ -600,7 +600,8 @@ const EILANDEN = [
       ],
       kernenLabel: 'Kernen', kernen: ['West-Terschelling', 'Midsland', 'Hoorn', 'Formerum', 'Lies', 'Oosterend', 'Baaiduinen', 'Kinnum', 'Landerum', 'Hee', 'Kaart', 'Striep', 'Seerijp'],
       weetje: "Op de Boschplaat aan de oostkant van Terschelling broeden duizenden vogels op een van de grootste kwelders van Europa, en het eiland kent een eigen paardenras: de Terschellinger pony's die vrij in de duinen grazen en die van oudsher werden gebruikt voor het vervoer over het strand.",
-      links: []
+      links: ['Midsland'],
+      standalone: '/dierenarts-terschelling'
     },
     {
       id: 'ameland', tag: 'Friesland · Waddeneiland · 3.850 inwoners', titel: 'Dierenarts op Ameland',
@@ -611,7 +612,8 @@ const EILANDEN = [
       ],
       kernenLabel: 'Kernen', kernen: ['Nes', 'Hollum', 'Ballum', 'Buren'],
       weetje: "De paardenreddingboot van Hollum is uniek in de wereld: tien Amelander paarden trekken de historische reddingboot dwars door de branding de zee in, een traditie die tot 1988 echte reddingen betrof en nu enkele keren per jaar wordt gedemonstreerd voor duizenden toeschouwers.",
-      links: []
+      links: ['Nes'],
+      standalone: '/dierenarts-ameland'
     },
     {
       id: 'schiermonnikoog', tag: 'Friesland · Waddeneiland · 950 inwoners', titel: 'Dierenarts op Schiermonnikoog',
@@ -644,7 +646,7 @@ const EILANDEN = [
       ],
       kernenLabel: 'Kernen', kernen: ['Tholen', 'Sint-Maartensdijk', 'Sint-Annaland', 'Poortvliet', 'Scherpenisse', 'Stavenisse', 'Oud-Vossemeer', 'Sint Philipsland', 'Anna Jacobapolder'],
       weetje: "In de Oosterschelde bij Tholen liggen de historische oesterputten van Yerseke aan de overkant, en de schorren en slikken langs de Thoolse kust zijn een belangrijk voedselgebied voor tienduizenden steltlopers, terwijl in het Krammer-Volkerak sinds enkele jaren weer zeearenden broeden.",
-      links: []
+      links: ['Tholen', 'Poortvliet']
     },
     {
       id: 'noord-beveland', tag: 'Zeeland · Zeeuws eiland · 7.600 inwoners', titel: 'Dierenarts op Noord-Beveland',
@@ -655,7 +657,7 @@ const EILANDEN = [
       ],
       kernenLabel: 'Kernen', kernen: ['Wissenkerke', 'Kortgene', 'Kamperland', 'Colijnsplaat', 'Kats', 'Geersdijk'],
       weetje: "Voor de kust van Noord-Beveland liggen de zandplaten van de Oosterschelde waar honderden zeehonden rusten, goed te zien tijdens boottochten vanuit Colijnsplaat, en bij Neeltje Jans broeden duizenden grote sterns en visdiefjes op de werkeilanden van de Oosterscheldekering.",
-      links: []
+      links: ['Kortgene']
     },
     {
       id: 'walcheren', tag: 'Zeeland · Zeeuws eiland · 115.000 inwoners', titel: 'Dierenarts op Walcheren',
@@ -666,7 +668,7 @@ const EILANDEN = [
       ],
       kernenLabel: 'Kernen', kernen: ['Middelburg', 'Vlissingen', 'Veere', 'Domburg', 'Westkapelle', 'Zoutelande', 'Oostkapelle', 'Koudekerke', 'Arnemuiden', 'Serooskerke', 'Grijpskerke', 'Meliskerke', 'Aagtekerke', 'Biggekerke', 'Gapinge', 'Vrouwenpolder', 'Nieuw- en Sint Joosland', 'Souburg', 'Ritthem'],
       weetje: "Voor de boulevard van Vlissingen zwemmen regelmatig bruinvissen en zeehonden op enkele tientallen meters van het strand, en in de Manteling bij Domburg, een duinbos dat door de zeewind in een schuine vorm is gegroeid, leven reeën en dassen op steenworp afstand van de badplaats.",
-      links: ['Middelburg', 'Vlissingen', 'Oostkapelle'],
+      links: ['Middelburg', 'Vlissingen', 'Oostkapelle', 'Biggekerke'],
       standalone: '/dierenarts-walcheren'
     },
     {
@@ -678,7 +680,7 @@ const EILANDEN = [
       ],
       kernenLabel: 'Kernen', kernen: ['Goes', 'Kapelle', 'Yerseke', 'Kruiningen', 'Krabbendijke', 'Rilland', 'Wemeldinge', 'Heinkenszand', "'s-Heerenhoek", 'Borssele', 'Nieuwdorp', 'Kloetinge', 'Wilhelminadorp', 'Kwadendamme', 'Ovezande', 'Nisse', 'Hansweert', 'Waarde', 'Oudelande', 'Ellewoutsdijk'],
       weetje: "In de Oosterschelde bij Yerseke leven de beroemde Zeeuwse oesters en mosselen, maar ook zeehonden en bruinvissen, en de bloemdijken van de Zak van Zuid-Beveland zijn een van de laatste plekken in Nederland waar zeldzame planten als de wilde marjolein en de kleine ratelaar massaal bloeien en talloze vlinders en bijen aantrekken.",
-      links: ['Goes', 'Kapelle', 'Yerseke', 'Kruiningen', 'Heinkenszand'],
+      links: ['Goes', 'Kapelle', 'Yerseke', 'Kruiningen', 'Heinkenszand', 'Wemeldinge'],
       standalone: '/dierenarts-zuid-beveland'
     },
     {

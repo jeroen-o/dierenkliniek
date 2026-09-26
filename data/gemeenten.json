@@ -2159,53 +2159,6 @@
     "weetje": "Op de Vliehors, de grote zandvlakte aan de westkant van Vlieland, rusten honderden grijze en gewone zeehonden, en het eiland kent geen enkele inheemse ree, das of vos: de grootste wilde landzoogdieren zijn konijnen en hazen, waardoor de broedvogels er relatief veilig zijn."
   },
   {
-    "slug": "midsland",
-    "bronId": "terschelling",
-    "provincie": "Friesland",
-    "inwoners": 4950,
-    "paragrafen": [
-      "Terschelling is na Texel het grootste Waddeneiland van Nederland en ligt op ongeveer twee uur varen vanuit Harlingen, of drie kwartier met de snelboot. Het eiland telt bijna vijfduizend inwoners, verdeeld over een reeks dorpen langs de waddenkant, met West-Terschelling als hoofdplaats en havenplaats, herkenbaar aan de Brandaris, de oudste nog werkende vuurtoren van Nederland uit 1594.",
-      "De eilanders spreken van oudsher een eigen taal, het Terschellings, dat in drie varianten bestaat en verwant is aan het Fries. De geschiedenis van het eiland is doordrenkt van de zeevaart: veel Terschellingers waren loods, kapitein of walvisvaarder, en het Behouden Huys-museum in West vertelt onder meer het verhaal van Willem Barentsz, de beroemde ontdekkingsreiziger die op het eiland werd geboren. Terschelling is ook de bakermat van de cranberry: volgens de overlevering spoelde in de negentiende eeuw een vat cranberry's aan, waarna de bessen in de duinvalleien gingen groeien en het eiland zijn kenmerkende cranberryproducten kregen. Midsland, Hoorn, Formerum, Lies en Oosterend zijn kleinere dorpen met elk een eigen sfeer, en het jaarlijkse Oerol-festival verandert het hele eiland in juni in een openluchttheater.",
-      "Het grootste deel van Terschelling is natuurgebied, met de Boschplaat aan de oostkant als een van de grootste kwelders van Europa en Europees natuurreservaat. De duinen, het aangeplante dennenbos en de kilometerslange stranden bieden een gevarieerd landschap, waar ook veel eilanders met hond, kat of paard wonen."
-    ],
-    "wijkenLabel": "Kernen",
-    "wijken": [
-      "West-Terschelling",
-      "Midsland",
-      "Hoorn",
-      "Formerum",
-      "Lies",
-      "Oosterend",
-      "Baaiduinen",
-      "Kinnum",
-      "Landerum",
-      "Hee",
-      "Kaart",
-      "Striep",
-      "Seerijp"
-    ],
-    "weetje": "Op de Boschplaat aan de oostkant van Terschelling broeden duizenden vogels op een van de grootste kwelders van Europa, en het eiland kent een eigen paardenras: de Terschellinger pony's die vrij in de duinen grazen en die van oudsher werden gebruikt voor het vervoer over het strand."
-  },
-  {
-    "slug": "nes",
-    "bronId": "ameland",
-    "provincie": "Friesland",
-    "inwoners": 3850,
-    "paragrafen": [
-      "Ameland ligt tussen Terschelling en Schiermonnikoog en is bereikbaar met de veerboot vanuit Holwerd, een overtocht van ongeveer drie kwartier over de Waddenzee. Het eiland telt bijna vierduizend inwoners in vier dorpen: Hollum, Nes, Ballum en Buren, elk met een eigen karakter en een goed bewaarde historische kern met karakteristieke commandeurshuizen uit de tijd van de walvisvaart.",
-      "Nes is de veerhaven en het levendige centrum met winkels en horeca, Hollum aan de westkant is het oudste dorp met de bekende rood-witte vuurtoren en het Reddingsmuseum, Ballum was eeuwenlang de zetel van de heren van Ameland, die het eiland als vrije heerlijkheid bestuurden, en Buren aan de oostkant is het rustigste dorp met het Landbouw- en Juttersmuseum. Ameland kent een bijzondere traditie: de paardenreddingboot van Hollum, die nog altijd enkele keren per jaar met tien paarden door de branding het water in wordt getrokken als demonstratie van hoe reddingen vroeger verliepen. Het eiland heeft ook een eigen bierbrouwerij, een zuivelboerderij en een vliegveld voor kleine vliegtuigen.",
-      "De natuur van Ameland is afwisselend: brede stranden aan de Noordzee, uitgestrekte duinen met bos in het midden, en aan de oostkant het Oerd en de Hôn, een natuurreservaat met kwelders waar het eiland nog steeds aangroeit. De polders aan de waddenkant zijn belangrijk voor weidevogels en grazende ganzen. Veel eilanders houden dieren, van paarden voor het strandwerk tot honden en katten."
-    ],
-    "wijkenLabel": "Kernen",
-    "wijken": [
-      "Nes",
-      "Hollum",
-      "Ballum",
-      "Buren"
-    ],
-    "weetje": "De paardenreddingboot van Hollum is uniek in de wereld: tien Amelander paarden trekken de historische reddingboot dwars door de branding de zee in, een traditie die tot 1988 echte reddingen betrof en nu enkele keren per jaar wordt gedemonstreerd voor duizenden toeschouwers."
-  },
-  {
     "slug": "schiermonnikoog",
     "bronId": "schiermonnikoog",
     "provincie": "Friesland",

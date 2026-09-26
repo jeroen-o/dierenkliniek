@@ -39,7 +39,7 @@ const hoofd = [
   u('/spoedhulp', '0.95', 'weekly'),
   u('/dierenarts-in-de-buurt', '0.9', 'weekly'),
   u('/dierenarts-op-de-eilanden', '0.7', 'monthly'),
-  ...['/dierenarts-walcheren', '/dierenarts-zuid-beveland']
+  ...['/dierenarts-walcheren', '/dierenarts-zuid-beveland', '/dierenarts-terschelling', '/dierenarts-ameland']
     .filter(s => exists(s.slice(1) + '.html'))
     .map(s => u(s, '0.65', 'monthly')),
   u('/provincies', '0.8', 'weekly'),
