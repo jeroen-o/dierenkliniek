@@ -10389,16 +10389,6 @@
     "zo": "gesloten",
     "onbevestigd": true
   },
-  "dierenartsenprakijk-oude-tonge-dierenarts-in-oude-tonge": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
   "dierenartsenpraktijk-overschie-dierenarts-in-rotterdam": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
@@ -11014,5 +11004,15 @@
     "do": "09:00-13:00, 16:00-18:00",
     "vr": "09:00-13:00, 16:00-18:00",
     "bron": "praktijkwebsite daplindenbergh.nl, gecontroleerd 2026-09-26"
+  },
+  "dierenartsenpraktijk-oude-tonge-dierenarts-in-oude-tonge": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
   }
 }
