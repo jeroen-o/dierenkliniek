@@ -2536,6 +2536,17 @@ body.has-compare-bar { padding-bottom: 90px; }
   overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
 }
 
+/* Skip-link: onzichtbaar tot toetsenbordfocus, dan bovenaan zichtbaar zodat
+   je de navigatie kunt overslaan (WCAG 2.4.1 Bypass Blocks). */
+.skip-link {
+  position: absolute; top: -100px; left: 8px; z-index: 10000;
+  background: var(--dk-blue-deep); color: white;
+  padding: 12px 20px; border-radius: 0 0 10px 10px;
+  font-weight: 700; text-decoration: none;
+  transition: top 0.15s;
+}
+.skip-link:focus { top: 0; }
+
 /* Op een eigen pagina is er maar één view en die is altijd zichtbaar. */
 .view { display: block; }
 .dk-kruimel { max-width: 1280px; margin: 0 auto; padding: 18px 24px 0; font-size: 14px; color: #627080; }

@@ -2458,6 +2458,17 @@ body.has-compare-bar { padding-bottom: 90px; }
   overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
 }
 
+/* Skip-link: onzichtbaar tot toetsenbordfocus, dan bovenaan zichtbaar zodat
+   je de navigatie kunt overslaan (WCAG 2.4.1 Bypass Blocks). */
+.skip-link {
+  position: absolute; top: -100px; left: 8px; z-index: 10000;
+  background: var(--dk-blue-deep); color: white;
+  padding: 12px 20px; border-radius: 0 0 10px 10px;
+  font-weight: 700; text-decoration: none;
+  transition: top 0.15s;
+}
+.skip-link:focus { top: 0; }
+
 </style>
 
   <!-- JSON-LD: Organization schema voor E-E-A-T en knowledge graph -->
@@ -2610,6 +2621,8 @@ body.has-compare-bar { padding-bottom: 90px; }
 </head>
 <body>
 
+<a href="#app" class="skip-link">Ga direct naar de inhoud</a>
+
 <!-- ============ HEADER ============ -->
 <header>
   <div class="container">
@@ -2661,7 +2674,7 @@ body.has-compare-bar { padding-bottom: 90px; }
   <a href="#" onclick="navigateMobile('aanmelden'); return false;" class="mobile-menu-cta">+ Kliniek aanmelden</a>
 </div>
 
-<main id="app">
+<main id="app" tabindex="-1">
 
 <!-- ============ HOME VIEW ============ -->
 <div class="view active" data-view="home">
@@ -3531,7 +3544,7 @@ body.has-compare-bar { padding-bottom: 90px; }
       <p style="font-size:13px; color:var(--ink-3); margin:0;">Voer uw postcode in om de dichtstbijzijnde 24/7 spoedklinieken te vinden, gesorteerd op afstand.</p>
     </div>
 
-    <div id="spoedSearchResultHeader" style="display:none;"></div>
+    <div id="spoedSearchResultHeader" style="display:none;" aria-live="polite"></div>
     <div id="spoedClinicsByProvince"></div>
 
     <div class="spoed-disclaimer">
@@ -3567,7 +3580,7 @@ body.has-compare-bar { padding-bottom: 90px; }
       <div class="search-results-head">
         <div>
           <h2 id="searchResultsTitle">Dierenklinieken</h2>
-          <div class="count" id="searchResultsCount">— resultaten</div>
+          <div class="count" id="searchResultsCount" aria-live="polite">— resultaten</div>
           <button id="clearLocationBtn" onclick="clearSearch()" style="display:none; margin-top:6px; padding:4px 10px; background:var(--dk-blue-50); color:var(--dk-blue-deep); border-radius:6px; font-size:12px; font-weight:600; border:none; cursor:pointer;">✕ Locatie wissen</button>
         </div>
         <div style="display:flex; gap:16px; align-items:center; flex-wrap:wrap;">
@@ -4857,8 +4870,8 @@ body.has-compare-bar { padding-bottom: 90px; }
 
 <!-- ============ SHARE MODAL ============ -->
 <div class="share-modal-bg" id="shareModal" onclick="closeShareModal(event)">
-  <div class="share-modal" onclick="event.stopPropagation()">
-    <h3>Deel deze kliniek</h3>
+  <div class="share-modal" role="dialog" aria-modal="true" aria-labelledby="shareModalTitle" onclick="event.stopPropagation()">
+    <h3 id="shareModalTitle">Deel deze kliniek</h3>
     <p id="shareSubtitle">Stuur een link naar een vriend, familie of via WhatsApp.</p>
     <div class="share-options">
       <button onclick="shareVia('whatsapp')">
@@ -4875,7 +4888,7 @@ body.has-compare-bar { padding-bottom: 90px; }
       </button>
       <button onclick="shareVia('copy')">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
-        <span id="copyLabel">Kopieer link</span>
+        <span id="copyLabel" aria-live="polite">Kopieer link</span>
       </button>
     </div>
     <button class="close-btn" onclick="closeShareModal()">Sluiten</button>
@@ -7105,16 +7118,47 @@ function showFavorites() {
 }
 
 // ============ SHARE ============
+// Bewaart het element dat de modal opende, zodat de focus daar teruggezet
+// kan worden bij het sluiten (WCAG 2.4.3), en de keydown-handler voor
+// Escape + de focus-trap binnen de modal (4.1.2 / 2.1.2 No Keyboard Trap
+// buiten de modal, maar wél binnen zolang die open is).
+let shareModalOpener = null;
+function shareModalKeydown(e) {
+  const modal = document.getElementById('shareModal');
+  if (!modal.classList.contains('open')) return;
+  if (e.key === 'Escape') {
+    e.preventDefault();
+    closeShareModal();
+    return;
+  }
+  if (e.key === 'Tab') {
+    const focusable = modal.querySelectorAll('button, a[href]');
+    if (!focusable.length) return;
+    const first = focusable[0], last = focusable[focusable.length - 1];
+    if (e.shiftKey && document.activeElement === first) {
+      e.preventDefault(); last.focus();
+    } else if (!e.shiftKey && document.activeElement === last) {
+      e.preventDefault(); first.focus();
+    }
+  }
+}
 function shareClinic() {
   if (!currentClinic) return;
+  shareModalOpener = document.activeElement;
   document.getElementById('shareSubtitle').textContent =
     `Deel "${currentClinic.name}" in ${currentClinic.city} met iemand.`;
   document.getElementById('shareModal').classList.add('open');
   document.getElementById('copyLabel').textContent = 'Kopieer link';
+  document.addEventListener('keydown', shareModalKeydown);
+  const firstBtn = document.querySelector('.share-modal .share-options button');
+  if (firstBtn) firstBtn.focus();
 }
 function closeShareModal(e) {
   if (e && e.target.id !== 'shareModal') return;
   document.getElementById('shareModal').classList.remove('open');
+  document.removeEventListener('keydown', shareModalKeydown);
+  if (shareModalOpener && shareModalOpener.focus) shareModalOpener.focus();
+  shareModalOpener = null;
 }
 function shareVia(method) {
   if (!currentClinic) return;
