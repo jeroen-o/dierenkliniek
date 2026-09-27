@@ -106,6 +106,22 @@ const PAGINAS = [
       inLanguage: 'nl-NL',
       isPartOf: { '@id': SITE + '/#organization' }
     })
+  },
+  {
+    view: 'toegankelijkheid',
+    slug: 'toegankelijkheid',
+    title: 'Toegankelijkheidsverklaring | Dierenkliniek.nl',
+    description: 'Hoe Dierenkliniek.nl werkt aan WCAG 2.1 AA-toegankelijkheid: de toegankelijkheidsknop, toetsenbordnavigatie en hoe u een probleem meldt.',
+    kruimel: 'Toegankelijkheid',
+    schema: () => ({
+      '@type': 'WebPage',
+      '@id': SITE + '/toegankelijkheid#webpage',
+      name: 'Toegankelijkheidsverklaring',
+      url: SITE + '/toegankelijkheid',
+      inLanguage: 'nl-NL',
+      about: { '@id': SITE + '/#organization' },
+      publisher: { '@id': SITE + '/#organization' }
+    })
   }
 ];
 
@@ -161,13 +177,16 @@ ${JSON.stringify(graph, null, 2)}
 .dk-kruimel { max-width: 1280px; margin: 0 auto; padding: 18px 24px 0; font-size: 14px; color: #627080; }
 .dk-kruimel a { color: #0070AC; }
 </style>
+<link rel="stylesheet" href="/css/a11y.css">
+<script src="/js/a11y-widget.js"></script>
 </head>
 <body>
+<a href="#main-content" class="skip-link">Ga direct naar de inhoud</a>
 ${HEADER}
 <nav class="dk-kruimel" aria-label="Kruimelpad">
   <a href="/">Home</a> › <span>${L.esc(p.kruimel)}</span>
 </nav>
-<main>
+<main id="main-content" tabindex="-1">
 ${inhoud}
 </main>
 ${FOOTER}

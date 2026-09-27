@@ -57,7 +57,7 @@ const hoofd = [
     .filter(s => exists('specialisme-' + s + '.html'))
     .map(s => u('/specialisme-' + s, '0.75', 'monthly')),
   // SPA-views zonder statisch equivalent
-  ...['over-ons', 'onafhankelijkheid', 'contact', 'partners']
+  ...['over-ons', 'onafhankelijkheid', 'contact', 'partners', 'toegankelijkheid']
     .filter(s => exists(s + '.html'))
     .map(s => u('/' + s, '0.7', 'monthly')),
   // Views zonder eigen statische pagina, maar wel index,follow
