@@ -138,7 +138,8 @@
     "rating": 4.3,
     "reviews": 225,
     "specs": [
-      "Spoed 24/7"
+      "Spoed 24/7",
+      "Tandheelkunde"
     ],
     "tags": [
       "verified",
@@ -146,7 +147,7 @@
     ],
     "lat": 51.5618,
     "lng": 5.138,
-    "desc": "Veterinaire kliniek in Berkel-Enschot. Volledige zorg voor gezelschapsdieren.",
+    "desc": "Veterinaire kliniek in Berkel-Enschot. Volledige zorg voor gezelschapsdieren. Dierentandarts Lies Paardekooper is hier verbonden aan de afdeling tandheelkunde.",
     "tier": "basic",
     "facebook": "https://www.facebook.com/AniCuraNederland",
     "instagram": "https://www.instagram.com/anicura.nl"
@@ -4340,15 +4341,17 @@
       "Knaagdieren",
       "Vogels",
       "Chirurgie",
-      "Cardiologie"
+      "Cardiologie",
+      "Tandheelkunde"
     ],
     "tags": [
       "verified"
     ],
     "lat": 52.7873,
     "lng": 6.1183,
-    "desc": "Veterinaire kliniek in Steenwijk. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "desc": "Veterinaire kliniek in Steenwijk. Volledige zorg voor gezelschapsdieren. Dierentandarts Jeroen Jen Hong Li is hier verbonden aan de afdeling tandheelkunde.",
+    "tier": "basic",
+    "facebook": "https://facebook.com/dierenkliniekdewoldberg/"
   },
   {
     "id": 216,
@@ -13430,11 +13433,11 @@
     "website": "https://evidensiadierenziekenhuis.nl/dierenziekenhuizen/amsterdam/",
     "rating": 0,
     "reviews": 0,
-    "specs": [],
-    "tags": [],
+    "specs": ["Tandheelkunde","Spoed 24/7"],
+    "tags": ["spoed"],
     "lat": 52.3084,
     "lng": 4.8662,
-    "desc": "Dierenziekenhuis in Amstelveen. Volledige zorg voor gezelschapsdieren.",
+    "desc": "Dierenziekenhuis in Amstelveen. Volledige zorg voor gezelschapsdieren, inclusief kaakchirurgie en stomatologie. 24 uur per dag, 7 dagen per week geopend voor spoed en verwijzing.",
     "tier": "basic"
   },
   {
@@ -13449,14 +13452,15 @@
     "rating": 0,
     "reviews": 0,
     "specs": [
-      "Spoed 24/7"
+      "Spoed 24/7",
+      "Tandheelkunde"
     ],
     "tags": [
       "spoed"
     ],
     "lat": 52.0298,
     "lng": 5.0879,
-    "desc": "Dierenziekenhuis in Nieuwegein. Volledige zorg voor gezelschapsdieren.",
+    "desc": "Dierenziekenhuis in Nieuwegein. Volledige zorg voor gezelschapsdieren, inclusief kaakchirurgie en stomatologie. 24 uur per dag, 7 dagen per week geopend voor spoed en verwijzing.",
     "tier": "basic"
   },
   {
@@ -13470,11 +13474,11 @@
     "website": "https://evidensiadierenziekenhuis.nl/dierenziekenhuizen/barendrecht/",
     "rating": 0,
     "reviews": 0,
-    "specs": [],
-    "tags": [],
+    "specs": ["Tandheelkunde"],
+    "tags": ["spoed"],
     "lat": 51.8557,
     "lng": 4.5347,
-    "desc": "Dierenziekenhuis in Barendrecht. Volledige zorg voor gezelschapsdieren.",
+    "desc": "Dierenziekenhuis in Barendrecht. Volledige zorg voor gezelschapsdieren, inclusief kaakchirurgie en stomatologie. 7 dagen per week geopend voor spoed en verwijzing.",
     "tier": "basic"
   },
   {
@@ -28235,7 +28239,52 @@
     ],
     "lat": 52.0836,
     "lng": 5.1265,
-    "desc": "Afdeling Tandheelkunde van de Universiteitskliniek voor Gezelschapsdieren, Faculteit Diergeneeskunde (Universiteit Utrecht). Werkt op verwijzing. 24 uur per dag geopend. Spoedgevallen gezelschapsdieren buiten kantoortijden: 0900-222 3000. Voor paarden: neem contact op met uw eigen dierenarts. Meer info: https://diergeneeskunde.nl/klinieken/gezelschapsdieren/tandheelkunde/",
+    "desc": "Afdeling Tandheelkunde van de Universiteitskliniek voor Gezelschapsdieren, Faculteit Diergeneeskunde (Universiteit Utrecht), onder leiding van dr. H.E. Booij-Vrieling. Voor gebitsproblemen bij honden en katten is voor deze afdeling geen verwijzing van de eigen dierenarts vereist. 24 uur per dag geopend. Spoedgevallen gezelschapsdieren buiten kantoortijden: 0900-222 3000. Voor paarden: neem contact op met uw eigen dierenarts. Meer info: https://diergeneeskunde.nl/klinieken/gezelschapsdieren/tandheelkunde/",
+    "tier": "basic",
+    "facebook": "https://facebook.com/FaculteitDiergeneeskunde",
+    "instagram": "https://instagram.com/faculteit_diergeneeskunde",
+    "linkedin": "https://linkedin.com/company/faculteit-diergeneeskunde-universiteit-utrecht"
+  },
+  {
+    "id": 1477,
+    "name": "Vetdent - Dierentandarts Amsterdam",
+    "city": "Amsterdam",
+    "address": "Kon. Wilhelminaplein 374",
+    "postcode": "1062 KS",
+    "phone": "020-6127398",
+    "email": "",
+    "website": "https://vetdent.nl/",
+    "specs": [
+      "Tandheelkunde",
+      "Honden",
+      "Katten"
+    ],
+    "tags": [],
+    "lat": 52.372404,
+    "lng": 4.875005,
+    "desc": "Verwijskliniek voor veterinaire tandheelkunde bij honden en katten, onder leiding van dr. Magnus Souverein en dr. Silvia Bermudez.",
     "tier": "basic"
+  },
+  {
+    "id": 1478,
+    "name": "Vetadent - Dierentandarts Kerkrade",
+    "city": "Kerkrade",
+    "address": "O.L. Vrouwestraat 65",
+    "postcode": "6461 BN",
+    "phone": "045-2031215",
+    "email": "info@veta-dent.nl",
+    "website": "https://www.veta-dent.nl/",
+    "specs": [
+      "Tandheelkunde",
+      "Honden",
+      "Katten"
+    ],
+    "tags": [],
+    "lat": 50.8598,
+    "lng": 6.06488,
+    "desc": "Tandheelkunde voor honden en katten in Kerkrade (Limburg). Uitsluitend op doorverwijzing, uitsluitend pin (geen contant).",
+    "tier": "basic",
+    "facebook": "https://facebook.com/Vetadent-111275154887724",
+    "instagram": "https://instagram.com/vetadentkerkrade"
   }
 ]
