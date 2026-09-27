@@ -32,6 +32,19 @@ function injectBeforeMainEnd(html, block) {
   return html.slice(0, i) + START + '\n' + block + '\n' + END + '\n' + html.slice(i);
 }
 
+// Openingstijden horen direct bij de contactgegevens, niet pas onderaan de
+// pagina na de badge-kaart en "verder zoeken" — dus die krijgen een eigen
+// invoegpunt vlak na de Contactgegevens-kaart in plaats van bij het blok
+// dat vlak voor </main> wordt toegevoegd.
+function injectAfterContact(html, block) {
+  const h2i = html.indexOf('<h2>Contactgegevens</h2>');
+  if (h2i === -1) return null;
+  const closeI = html.indexOf('</div>', h2i);
+  if (closeI === -1) return null;
+  const insertAt = closeI + '</div>'.length;
+  return html.slice(0, insertAt) + '\n\n' + START + '\n' + block + '\n' + END + html.slice(insertAt);
+}
+
 function injectLd(html, obj) {
   // Voeg een extra JSON-LD blok toe direct voor </head>, met marker zodat het
   // bij een volgende run wordt vervangen.
@@ -233,7 +246,7 @@ for (const c of CLINICS) {
 
 ` : '';
 
-  const block = `${profielBlok}${tijdenBlok}  <div class="card faq">
+  const block = `${profielBlok}  <div class="card faq">
     <h2>Veelgestelde vragen over ${L.esc(c.name)}</h2>
     ${faqs.map(f => `<details><summary>${L.esc(f.q)}</summary><p>${L.esc(f.a)}</p></details>`).join('\n    ')}
   </div>
@@ -256,7 +269,12 @@ for (const c of CLINICS) {
     </div>
   </div>`;
 
-  let withBlock = injectBeforeMainEnd(html, block);
+  let withBlock = html;
+  if (tijdenBlok) {
+    const withTijden = injectAfterContact(withBlock, tijdenBlok);
+    if (withTijden) withBlock = withTijden;
+  }
+  withBlock = injectBeforeMainEnd(withBlock, block);
   if (!withBlock) { missing.push(slug + ' (geen </main>)'); continue; }
   withBlock = fixTitle(withBlock, c.name, c.city);
   fs.writeFileSync(file, injectLd(withBlock, graph));
