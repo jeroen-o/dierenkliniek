@@ -27,7 +27,7 @@
 
   <!-- Hreflang voor meertalige variant (Engelse landing-pagina) -->
   <link rel="alternate" hreflang="nl" href="https://dierenkliniek.nl/">
-  <link rel="alternate" hreflang="en" href="https://dierenkliniek.nl/?view=english">
+  <link rel="alternate" hreflang="en" href="https://dierenkliniek.nl/english">
   <link rel="alternate" hreflang="x-default" href="https://dierenkliniek.nl/">
   <meta property="og:title" content="Dierenkliniek.nl — vind alle Nederlandse dierenklinieken">
   <meta property="og:description" content="Onafhankelijk overzicht van alle 1.127 dierenklinieken in Nederland. Vind een kliniek bij u in de buurt op postcode of plaats.">
@@ -5514,7 +5514,7 @@ body.has-compare-bar { padding-bottom: 90px; }
           <li><a href="/provincies">Provincies</a></li>
           <li><a href="/?view=favorieten" onclick="showFavorites();return false;">❤️ Mijn favorieten</a></li>
           <li><a href="/?view=contact" onclick="navigate('contact');return false;">Contact</a></li>
-          <li><a href="/?view=english" onclick="navigate('english');return false;">🇬🇧 English</a></li>
+          <li><a href="/english" onclick="navigate('english');return false;">🇬🇧 English</a></li>
         </ul>
       </div>
     </div>
@@ -7468,6 +7468,7 @@ function updateUrl(view, clinicOrSlug) {
     'kennisbank': '/kennisbank',
     'glossarium': '/glossarium',
     'provincies': '/provincies',
+    'english': '/english',
   };
   let newUrl;
   if (clinicOrSlug !== undefined && clinicOrSlug !== null) {

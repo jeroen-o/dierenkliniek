@@ -122,6 +122,22 @@ const PAGINAS = [
       about: { '@id': SITE + '/#organization' },
       publisher: { '@id': SITE + '/#organization' }
     })
+  },
+  {
+    view: 'english',
+    slug: 'english',
+    lang: 'en',
+    title: 'English — dierenkliniek.nl | Find a Dutch veterinarian',
+    description: 'Independent directory of all veterinary clinics in the Netherlands. Find a vet near you or a 24/7 emergency clinic.',
+    kruimel: 'English',
+    schema: () => ({
+      '@type': 'WebPage',
+      '@id': SITE + '/english#webpage',
+      name: 'Find a veterinarian in the Netherlands',
+      url: SITE + '/english',
+      inLanguage: 'en',
+      isPartOf: { '@id': SITE + '/#organization' }
+    })
   }
 ];
 
@@ -137,8 +153,19 @@ function render(p) {
     '@graph': [L.ORGANIZATION, p.schema(), L.breadcrumbLd(crumbs)]
   };
 
+  const lang = p.lang || 'nl';
+  // De Engelse pagina is een vertaalde variant van de homepage, niet een
+  // eigen anderstalige pagina met een eigen NL-equivalent — dus wijst hij
+  // terug naar "/" voor nl/x-default, in plaats van naar zichzelf.
+  const hreflang = lang === 'en'
+    ? `<link rel="alternate" hreflang="nl" href="${SITE}/">
+<link rel="alternate" hreflang="en" href="${SITE}/${p.slug}">
+<link rel="alternate" hreflang="x-default" href="${SITE}/">`
+    : `<link rel="alternate" hreflang="nl" href="${SITE}/${p.slug}">
+<link rel="alternate" hreflang="x-default" href="${SITE}/${p.slug}">`;
+
   return `<!DOCTYPE html>
-<html lang="nl">
+<html lang="${lang}">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -153,7 +180,7 @@ function render(p) {
 <meta property="og:image" content="${SITE}/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:locale" content="nl_NL">
+<meta property="og:locale" content="${lang === 'en' ? 'en_US' : 'nl_NL'}">
 <meta property="og:site_name" content="Dierenkliniek.nl">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${L.esc(p.title)}">
@@ -161,8 +188,7 @@ function render(p) {
 <meta name="twitter:image" content="${SITE}/og-image.png">
 <meta name="geo.region" content="NL">
 <meta name="geo.placename" content="Nederland">
-<link rel="alternate" hreflang="nl" href="${SITE}/${p.slug}">
-<link rel="alternate" hreflang="x-default" href="${SITE}/${p.slug}">
+${hreflang}
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
