@@ -7194,6 +7194,11 @@ function shareClinic() {
   document.addEventListener('keydown', shareModalKeydown);
   const firstBtn = document.querySelector('.share-modal .share-options button');
   if (firstBtn) firstBtn.focus();
+  // De vaste toegankelijkheidsknop staat op smalle schermen verticaal
+  // gecentreerd aan de rand — precies waar een bijna-volledige-breedte
+  // modal ook content heeft. Tijdelijk verbergen zolang de modal open is.
+  const a11yWidget = document.querySelector('.a11y-widget');
+  if (a11yWidget) a11yWidget.style.display = 'none';
 }
 function closeShareModal(e) {
   if (e && e.target.id !== 'shareModal') return;
@@ -7201,6 +7206,8 @@ function closeShareModal(e) {
   document.removeEventListener('keydown', shareModalKeydown);
   if (shareModalOpener && shareModalOpener.focus) shareModalOpener.focus();
   shareModalOpener = null;
+  const a11yWidget = document.querySelector('.a11y-widget');
+  if (a11yWidget) a11yWidget.style.display = '';
 }
 function shareVia(method) {
   if (!currentClinic) return;

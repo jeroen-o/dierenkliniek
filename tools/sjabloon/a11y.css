@@ -28,6 +28,7 @@
 .a11y-panel {
   position: absolute; right: 0; bottom: 64px;
   width: 280px; max-width: calc(100vw - 40px);
+  max-height: calc(100vh - 40px); overflow-y: auto;
   background: #fff; color: #0A1F33;
   border-radius: 14px; border: 1px solid #e5e7eb;
   box-shadow: 0 12px 40px rgba(0,0,0,0.25);
@@ -60,9 +61,17 @@
   overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
 }
 
+/* Op mobiel staat een vaste rechtsonder-knop bijna altijd bovenop een
+   belangrijke call-to-action ergens onderaan de eerste weergave (het
+   "Zoeken"-knop op de homepage, kaarten in zoekresultaten, enz.) — een vast
+   punt op het scherm valt nu eenmaal altijd samen met íets uit de content
+   eronder. Daarom verschuift de knop op smalle schermen naar een tab die
+   verticaal gecentreerd aan de rand hangt, waar geen enkele pagina content
+   plaatst. */
 @media (max-width: 480px) {
-  .a11y-widget { right: 12px; bottom: 12px; }
-  .a11y-panel { right: -8px; }
+  .a11y-widget { right: 0; bottom: auto; top: 50%; transform: translateY(-50%); }
+  .a11y-toggle-btn { width: 44px; height: 44px; border-radius: 50% 0 0 50%; border-right: none; font-size: 20px; }
+  .a11y-panel { right: 44px; bottom: auto; top: 50%; transform: translateY(-50%); }
 }
 
 /* ---- Effect: grotere tekst ---- */
