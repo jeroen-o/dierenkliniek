@@ -9714,26 +9714,6 @@
     "tier": "basic"
   },
   {
-    "id": 472,
-    "name": "Dierenziekenhuis Nieuwe Binnenweg",
-    "city": "Rotterdam",
-    "address": "Nieuwe Binnenweg 267c",
-    "postcode": "3021 GE",
-    "phone": "010 - 848 40 99",
-    "email": "binnenweg@dierenziekenhuis.nl",
-    "website": "https://www.dierenziekenhuis.nl/",
-    "specs": [
-      "Tandheelkunde",
-      "Honden",
-      "Chirurgie"
-    ],
-    "tags": [],
-    "lat": 51.9244,
-    "lng": 4.4777,
-    "desc": "Veterinaire kliniek in Rotterdam. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
-  },
-  {
     "id": 473,
     "name": "Basic Vets - locatie Rotterdam",
     "city": "Rotterdam",
@@ -10845,13 +10825,13 @@
   },
   {
     "id": 532,
-    "name": "Dierenartsencentrum Gardeniers",
+    "name": "Dierenkliniek Mijnzicht",
     "city": "Brunssum",
     "address": "Heugerstraat 4a",
     "postcode": "6443 BS",
     "phone": "045 - 527 30 30",
-    "email": "info@dierenartsencentrum-gardeniers.nl",
-    "website": "https://dierenartsencentrum-gardeniers.nl/",
+    "email": "info@dierenkliniekmijnzicht.nl",
+    "website": "https://dierenkliniekmijnzicht.nl/",
     "specs": [
       "Dermatologie",
       "Vogels",
@@ -10860,7 +10840,7 @@
     "tags": [],
     "lat": 50.9444,
     "lng": 5.9716,
-    "desc": "Veterinaire kliniek in Brunssum. Volledige zorg voor gezelschapsdieren.",
+    "desc": "Veterinaire kliniek in Brunssum (voorheen Dierenartsencentrum Gardeniers). Volledige zorg voor gezelschapsdieren.",
     "tier": "basic"
   },
   {
@@ -18928,24 +18908,6 @@
     "lat": 52.4606,
     "lng": 4.60591,
     "desc": "Veterinaire kliniek in Ijmuiden. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
-  },
-  {
-    "id": 965,
-    "name": "Dierenarts aan huis in Amsterdam, Haarlem & Zaandam",
-    "city": "Amsterdam",
-    "address": "Postbus 8321",
-    "postcode": "1005 AH",
-    "phone": "06-31995685",
-    "email": "info@dierenartsaanhuisservice.nl",
-    "website": "http://www.dierenartsaanhuisservice.nl/",
-    "rating": 0,
-    "reviews": 0,
-    "specs": [],
-    "tags": [],
-    "lat": 52.3677,
-    "lng": 4.90024,
-    "desc": "Veterinaire kliniek in Amsterdam. Volledige zorg voor gezelschapsdieren.",
     "tier": "basic"
   },
   {
