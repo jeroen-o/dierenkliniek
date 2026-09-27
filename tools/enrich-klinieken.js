@@ -298,12 +298,17 @@ for (const c of CLINICS) {
 
 ` : '';
 
-  const block = `${profielBlok}  <div class="card faq">
+  // De FAQ hoort net als de openingstijden bij de contactgegevens bovenaan —
+  // niet pas na "Andere klinieken"/"Over deze kliniek" — dus wordt met
+  // injectAfterContact ingevoegd in plaats van in het blok vlak voor </main>.
+  const faqBlok = `  <div class="card faq">
     <h2>Veelgestelde vragen over ${L.esc(c.name)}</h2>
     ${faqs.map(f => `<details><summary>${L.esc(f.q)}</summary><p>${L.esc(f.a)}</p></details>`).join('\n    ')}
   </div>
 
-  <div class="card">
+`;
+
+  const block = `${profielBlok}  <div class="card">
     <h2>Verder zoeken</h2>
     <div class="tag-row" style="display:flex;flex-wrap:wrap;gap:8px;">
       <a class="spec" href="/${citySlug(c.city)}">Alle dierenartsen in ${L.esc(c.city)}</a>
@@ -326,10 +331,9 @@ ${meerInfoBlok}
 ${badgeBlok}`;
 
   let withBlock = html;
-  if (tijdenBlok) {
-    const withTijden = injectAfterContact(withBlock, tijdenBlok);
-    if (withTijden) withBlock = withTijden;
-  }
+  const afterContact = tijdenBlok + faqBlok;
+  const withAfterContact = injectAfterContact(withBlock, afterContact);
+  if (withAfterContact) withBlock = withAfterContact;
   withBlock = injectBeforeMainEnd(withBlock, block);
   if (!withBlock) { missing.push(slug + ' (geen </main>)'); continue; }
   withBlock = fixTitle(withBlock, c.name, c.city);
