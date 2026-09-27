@@ -238,7 +238,12 @@ for (const c of CLINICS) {
     <p>Deze vermelding maakt deel uit van <a href="/">Dierenkliniek.nl</a> — het onafhankelijke overzicht van alle ${CLINICS.length} dierenklinieken in Nederland.</p>
     <p style="margin-top: 12px;">Bent u de eigenaar van deze kliniek? <a href="/?view=aanmelden">Vul het aanmeldformulier in</a> om uw vermelding aan te vullen.</p>
   </div>`;
-  const badgeBlok = `  <div class="card badge-card">
+  // De badge-bestanden (svg/png/zip) worden los gegenereerd (tools/generate-
+  // badges.js, vereist Playwright) en bestaan daardoor niet voor elke
+  // kliniek — met name niet voor recent toegevoegde. Zonder deze check
+  // linkt de kaart naar niet-bestaande bestanden.
+  const heeftBadge = fs.existsSync(path.join(ROOT, 'badges', slug + '-partner.svg'));
+  const badgeBlok = heeftBadge ? `  <div class="card badge-card">
     <div class="badge-header">
       <span class="badge-emoji">🏅</span>
       <div>
@@ -278,7 +283,7 @@ for (const c of CLINICS) {
         </div>
       </details>
     </div>
-  </div>`;
+  </div>` : '';
 
   const galerij = P.galerijHtml(fotos, L.esc);
   const profielBlok = (eigenOmschrijving || galerij) ? `  <div class="card">

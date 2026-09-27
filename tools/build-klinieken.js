@@ -151,8 +151,7 @@ function head({ title, ogTitle, description, canonical, ogType, geo, jsonld, css
 <meta name="theme-color" content="#00A1E4">
 ${jsonld.map(o => `<script type="application/ld+json">\n${JSON.stringify(o, null, 2)}\n</script>`).join('\n')}
 <link rel="stylesheet" href="${cssHref}">
-<link rel="stylesheet" href="/css/a11y.css">
-<script src="/js/a11y-widget.js"></script>
+${L.A11Y_HEAD}
 </head>
 <body>
 <a href="#main-content" class="skip-link">Ga direct naar de inhoud</a>

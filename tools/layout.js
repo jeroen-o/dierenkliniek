@@ -13,6 +13,16 @@ const sjabloon = (naam) => fs.readFileSync(path.join(SJABLOON, naam), 'utf8');
 const HEADER = sjabloon('header.html').trimEnd();
 const FOOTER = sjabloon('footer.html').trimEnd();
 
+// Piepklein, blokkerend script dat de opgeslagen a11y-voorkeuren (tekstgrootte/
+// contrast/dyslexie) meteen toepast, vóór de eerste render — zodat een
+// bezoeker die dit al had ingesteld geen "flits" van de standaardweergave
+// ziet. Het volledige widget-script (knop + paneel bouwen) mag wél met defer,
+// dat hoeft niet het parsen van de pagina te blokkeren.
+const A11Y_INLINE = `<script>(function(){try{var p=JSON.parse(localStorage.getItem('dk_a11y_prefs_v1')||'{}'),r=document.documentElement;if(p.tekst==='lg')r.classList.add('a11y-text-lg');if(p.tekst==='xl')r.classList.add('a11y-text-xl');if(p.contrast)r.classList.add('a11y-contrast');if(p.dyslexie)r.classList.add('a11y-dyslexie');}catch(e){}})();</script>`;
+const A11Y_HEAD = `<link rel="stylesheet" href="/css/a11y.css">
+${A11Y_INLINE}
+<script src="/js/a11y-widget.js" defer></script>`;
+
 const esc = (s) => String(s == null ? '' : s)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
   .replace(/"/g, '&quot;');
@@ -252,8 +262,7 @@ ${JSON.stringify(graph, null, 2)}
 </script>
 <link rel="stylesheet" href="/css/stad.css">
 <link rel="stylesheet" href="/css/extra.css">
-<link rel="stylesheet" href="/css/a11y.css">
-<script src="/js/a11y-widget.js"></script>
+${A11Y_HEAD}
 </head>
 <body>
 <a href="#main-content" class="skip-link">Ga direct naar de inhoud</a>
@@ -311,4 +320,4 @@ function provinceOf(c) {
 }
 
 module.exports = { SITE, ROOT, page, esc, stripTags, slugify, breadcrumbLd, breadcrumbHtml, faqLd, faqHtml, ORGANIZATION, SOCIALE_PROFIELEN,
-  clinicSlug, citySlug, provinceOf, PROVINCE_LOOKUP, PROVINCE_DESCRIPTIONS, CLINIC_SLUG_OVERRIDES, HEADER, FOOTER, sjabloon, EXTRA_CSS, beschrijvingVoor };
+  clinicSlug, citySlug, provinceOf, PROVINCE_LOOKUP, PROVINCE_DESCRIPTIONS, CLINIC_SLUG_OVERRIDES, HEADER, FOOTER, sjabloon, EXTRA_CSS, beschrijvingVoor, A11Y_HEAD };

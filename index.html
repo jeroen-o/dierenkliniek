@@ -2609,7 +2609,8 @@ body.has-compare-bar { padding-bottom: 90px; }
 
 <link rel="preload" href="/css/social.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <link rel="stylesheet" href="/css/a11y.css">
-<script src="/js/a11y-widget.js"></script>
+<script>(function(){try{var p=JSON.parse(localStorage.getItem('dk_a11y_prefs_v1')||'{}'),r=document.documentElement;if(p.tekst==='lg')r.classList.add('a11y-text-lg');if(p.tekst==='xl')r.classList.add('a11y-text-xl');if(p.contrast)r.classList.add('a11y-contrast');if(p.dyslexie)r.classList.add('a11y-dyslexie');}catch(e){}})();</script>
+<script src="/js/a11y-widget.js" defer></script>
 <noscript></noscript>
 </head>
 <body>
@@ -2995,7 +2996,10 @@ body.has-compare-bar { padding-bottom: 90px; }
     <h3 style="margin-top:32px;">Vragen?</h3>
     <p>Twijfelt u over onze onafhankelijkheid of wilt u meer informatie over hoe wij data behandelen? Stuur dan een bericht naar <a href="mailto:info@dierenkliniek.nl" style="color:var(--dk-blue); font-weight:600;">info@dierenkliniek.nl</a> — wij beantwoorden alle vragen.</p>
 
-    <p style="margin-top:48px; padding-top:24px; border-top:1px solid var(--line); font-size:13px; color:var(--ink-3);">Laatst bijgewerkt: april 2026.</p>
+    <!-- Handmatig bijwerken zodra de tekst hierboven inhoudelijk wijzigt — dit
+         is een "laatst gewijzigd"-datum, geen build-datum; automatisch elke
+         build vervangen zou een vals vers-signaal geven. -->
+    <p style="margin-top:48px; padding-top:24px; border-top:1px solid var(--line); font-size:13px; color:var(--ink-3);">Laatst bijgewerkt: september 2026.</p>
   </section>
 </div>
 
