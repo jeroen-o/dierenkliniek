@@ -2696,8 +2696,8 @@ body.has-compare-bar { padding-bottom: 90px; }
           <div class="search-field">
             <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
             <div class="search-field-content">
-              <label for="searchKeywordHome">Naam kliniek (optioneel)</label>
-              <input type="search" id="searchKeywordHome" placeholder="bijv. Keistad" maxlength="40" enterkeyhint="search">
+              <label for="searchKeywordHome">Trefwoord (optioneel)</label>
+              <input type="search" id="searchKeywordHome" placeholder="bijv. tandheelkunde, Keistad..." maxlength="40" enterkeyhint="search">
             </div>
           </div>
           <button type="submit" class="btn btn-primary btn-lg">
@@ -3770,7 +3770,7 @@ body.has-compare-bar { padding-bottom: 90px; }
             <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
             <div class="search-field-content">
               <label for="searchKeyword">Trefwoord (optioneel)</label>
-              <input type="search" id="searchKeyword" placeholder="Naam van kliniek..." enterkeyhint="search">
+              <input type="search" id="searchKeyword" placeholder="bijv. tandheelkunde, Keistad..." enterkeyhint="search">
             </div>
           </div>
           <button type="submit" class="btn btn-primary btn-lg">Zoeken</button>
@@ -6390,12 +6390,14 @@ function renderSearchResults() {
     results = results.filter(c => c.tags.includes('spoed'));
   }
 
-  // Keyword filter (name + city + specs)
+  // Keyword filter (name + city + specs + omschrijving)
   if (searchKeyword) {
     const k = searchKeyword.toLowerCase();
     results = results.filter(c =>
       c.name.toLowerCase().includes(k) ||
-      c.city.toLowerCase().includes(k)
+      c.city.toLowerCase().includes(k) ||
+      (c.specs || []).some(s => s.toLowerCase().includes(k)) ||
+      (c.desc || '').toLowerCase().includes(k)
     );
   }
 
