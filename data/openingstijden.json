@@ -6690,15 +6690,15 @@
     "zo": "gesloten",
     "onbevestigd": true
   },
-  "jonker-dierenarts-interne-geneeskunde-dierenarts-in-emmeloord": {
-    "ma": "12:30-17:00",
+  "jonker-dierenarts-interne-geneeskunde-dierenarts-in-bovensmilde": {
+    "ma": "09:00-17:00",
     "di": "09:00-17:00",
-    "wo": "09:00-17:00",
+    "wo": "gesloten",
     "do": "09:00-17:00",
     "vr": "09:00-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "praktijkhouder R. Jonker, e-mail 27-09-2026"
   },
   "a-a-van-unen-b-v-dierenarts-in-vinkega": {
     "ma": "12:30-17:00",

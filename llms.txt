@@ -31,10 +31,10 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 - [Dierenklinieken in Overijssel](https://dierenkliniek.nl/dierenklinieken-overijssel): 112 klinieken, waarvan 3 met 24/7 spoedhulp
 - [Dierenklinieken in Limburg](https://dierenkliniek.nl/dierenklinieken-limburg): 88 klinieken, waarvan 3 met 24/7 spoedhulp
 - [Dierenklinieken in Friesland](https://dierenkliniek.nl/dierenklinieken-friesland): 67 klinieken, waarvan 5 met 24/7 spoedhulp
-- [Dierenklinieken in Drenthe](https://dierenkliniek.nl/dierenklinieken-drenthe): 63 klinieken, waarvan 1 met 24/7 spoedhulp
+- [Dierenklinieken in Drenthe](https://dierenkliniek.nl/dierenklinieken-drenthe): 64 klinieken, waarvan 1 met 24/7 spoedhulp
 - [Dierenklinieken in Groningen](https://dierenkliniek.nl/dierenklinieken-groningen): 55 klinieken, waarvan 2 met 24/7 spoedhulp
 - [Dierenklinieken in Zeeland](https://dierenkliniek.nl/dierenklinieken-zeeland): 44 klinieken, waarvan 3 met 24/7 spoedhulp
-- [Dierenklinieken in Flevoland](https://dierenkliniek.nl/dierenklinieken-flevoland): 37 klinieken, waarvan 3 met 24/7 spoedhulp
+- [Dierenklinieken in Flevoland](https://dierenkliniek.nl/dierenklinieken-flevoland): 36 klinieken, waarvan 3 met 24/7 spoedhulp
 
 ## Grootste plaatsen
 
