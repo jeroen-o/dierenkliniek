@@ -3651,13 +3651,13 @@
   },
   {
     "id": 184,
-    "name": "Dierenkliniek de Ark Terneuzen",
+    "name": "Dierenkliniek Terneuzen",
     "city": "Terneuzen",
-    "address": "Vlietstaat 19",
+    "address": "Vlietstraat 19",
     "postcode": "4535 HA",
     "phone": "0115612200",
-    "email": "info@dierenkliniekdeark.nl",
-    "website": "http://dierenkliniekdeark.nl/",
+    "email": "info@dierenkliniekterneuzen.nl",
+    "website": "http://www.dierenkliniekterneuzen.nl/",
     "rating": 4.5,
     "reviews": 209,
     "specs": [
@@ -3670,7 +3670,7 @@
     ],
     "lat": 51.3346,
     "lng": 3.8259,
-    "desc": "Veterinaire kliniek in Terneuzen. Volledige zorg voor gezelschapsdieren.",
+    "desc": "Dierenkliniek in Terneuzen (Zeeuws-Vlaanderen).",
     "tier": "basic"
   },
   {
@@ -4994,7 +4994,7 @@
     "address": "Minnepoortstraat 14",
     "postcode": "4515 BC",
     "phone": "0117301388",
-    "email": "dierenkliniek.ijzendijke@inter.nl.net",
+    "email": "info@dierenkliniekijzendijke.nl",
     "website": "http://www.dierenkliniekijzendijke.nl/",
     "rating": 4.4,
     "reviews": 58,
@@ -12788,7 +12788,7 @@
     "postcode": "4301 XZ",
     "phone": "0111-412180",
     "email": "schouwen-duiveland@anicura.nl",
-    "website": "https://www.anicura.nl/",
+    "website": "https://www.anicura.nl/klinieken/zeeland/zierikzee/",
     "rating": 0,
     "reviews": 0,
     "specs": [],
@@ -12806,7 +12806,7 @@
     "postcode": "4535 AR",
     "phone": "0115-619628",
     "email": "dzzv.contact@anicura.nl",
-    "website": "https://www.anicura.nl/",
+    "website": "https://www.anicura.nl/klinieken/zeeland/zeeuws-vlaanderen/",
     "rating": 0,
     "reviews": 0,
     "specs": [],
@@ -20869,7 +20869,7 @@
     "postcode": "4328 BB",
     "phone": "0111-652254",
     "email": "schouwen-duiveland@anicura.nl",
-    "website": "https://www.anicura.nl/",
+    "website": "https://www.anicura.nl/klinieken/zeeland/burgh-haamstede/",
     "rating": 0,
     "reviews": 0,
     "specs": [],
@@ -20935,11 +20935,11 @@
   },
   {
     "id": 1095,
-    "name": "Dierenartsenpraktijk Hoogveld Meesters",
+    "name": "Dierenkliniek Middelburg",
     "city": "Middelburg",
     "address": "Korte Noordstraat 61",
     "postcode": "4331 CH",
-    "phone": "0118-624552",
+    "phone": "0118-637077",
     "email": "info@dedierenkliniek.nl",
     "website": "http://www.dedierenkliniek.nl/",
     "rating": 0,
@@ -20948,7 +20948,7 @@
     "tags": [],
     "lat": 51.5025,
     "lng": 3.61102,
-    "desc": "Veterinaire kliniek in Middelburg. Volledige zorg voor gezelschapsdieren.",
+    "desc": "Dierenkliniek in Middelburg (voorheen Dierenartsenpraktijk Hoogveld Meesters).",
     "tier": "basic"
   },
   {
@@ -23179,6 +23179,63 @@
     "lat": 52.4669,
     "lng": 4.8138,
     "desc": "Dierenartspraktijk in Koog aan de Zaan.",
+    "tier": "basic"
+  },
+  {
+    "id": 1224,
+    "name": "DAP Lingehoeve Midden-Zeeland",
+    "city": "Goes",
+    "address": "'s-Gravenpolderseweg 39",
+    "postcode": "4462 RA",
+    "phone": "0113-213419",
+    "email": "info@lingehoevemiddenzeeland.nl",
+    "website": "http://www.dierenartszeeland.nl/",
+    "specs": [
+      "Honden",
+      "Katten"
+    ],
+    "tags": [],
+    "lat": 51.5043,
+    "lng": 3.8881,
+    "desc": "Dierenartspraktijk in Goes, onderdeel van DAP Lingehoeve Midden-Zeeland (ook vestiging in Heinkenszand).",
+    "tier": "basic"
+  },
+  {
+    "id": 1225,
+    "name": "DAP Lingehoeve Midden-Zeeland - vestiging Heinkenszand",
+    "city": "Heinkenszand",
+    "address": "Dorpsstraat 10A",
+    "postcode": "4451 BC",
+    "phone": "0113-213419",
+    "email": "info@lingehoevemiddenzeeland.nl",
+    "website": "http://www.dierenartszeeland.nl/",
+    "specs": [
+      "Honden",
+      "Katten"
+    ],
+    "tags": [],
+    "lat": 51.5077,
+    "lng": 3.7858,
+    "desc": "Nevenvestiging in Heinkenszand van DAP Lingehoeve Midden-Zeeland (hoofdvestiging Goes).",
+    "tier": "basic"
+  },
+  {
+    "id": 1226,
+    "name": "Dierenartsenpraktijk Midden-Zeeland",
+    "city": "Heinkenszand",
+    "address": "Dorpsstraat 10A",
+    "postcode": "4451 BC",
+    "phone": "0113-561290",
+    "email": "",
+    "website": "",
+    "specs": [
+      "Honden",
+      "Katten"
+    ],
+    "tags": [],
+    "lat": 51.5077,
+    "lng": 3.7858,
+    "desc": "Dierenartspraktijk in Heinkenszand.",
     "tier": "basic"
   }
 ]

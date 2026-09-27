@@ -1515,16 +1515,6 @@
     "vr": "08:30-17:00",
     "bron": "praktijkwebsite dierenkliniekdeark.nl, gecontroleerd 2026-09-26"
   },
-  "dierenkliniek-de-ark-terneuzen-dierenarts-in-terneuzen": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
   "dierenkliniek-de-ark-vlissingen-dierenarts-in-vlissingen": {
     "ma": "08:30-17:00",
     "di": "08:30-17:00",
@@ -10179,16 +10169,6 @@
     "zo": "gesloten",
     "bron": "dierenkliniekadw.nl, gecontroleerd 2026-09-25"
   },
-  "dierenartsenpraktijk-hoogveld-meesters-dierenarts-in-middelburg": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
   "dierenartspraktijk-mosselman-dierenarts-in-kruiningen": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
@@ -11024,5 +11004,25 @@
     "za": "gesloten",
     "zo": "gesloten",
     "bron": "praktijkopgave, gecontroleerd 2026-09-26"
+  },
+  "dierenkliniek-terneuzen-dierenarts-in-terneuzen": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
+  },
+  "dierenkliniek-middelburg-dierenarts-in-middelburg": {
+    "ma": "12:30-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "onbevestigd": true
   }
 }
