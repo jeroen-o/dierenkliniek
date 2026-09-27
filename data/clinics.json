@@ -28214,5 +28214,28 @@
     "lng": 5.3471,
     "desc": "Dokter Eef, tandheelkundig dierenarts, gespecialiseerd in tandheelkunde bij honden en katten. Werkt op locatie bij dierenartspraktijken (als aanvulling op het team of vervanging van een collega) en geeft daarnaast trainingen, lezingen en organisatorisch advies over tandheelkunde aan praktijken.",
     "tier": "basic"
+  },
+  {
+    "id": 1476,
+    "name": "Universiteitskliniek voor Gezelschapsdieren - Tandheelkunde",
+    "city": "Utrecht",
+    "address": "Yalelaan 108",
+    "postcode": "3584 CM",
+    "phone": "030 253 9411",
+    "email": "",
+    "website": "https://diergeneeskunde.nl/",
+    "rating": 4.4,
+    "reviews": 1336,
+    "specs": [
+      "Tandheelkunde",
+      "Spoed 24/7"
+    ],
+    "tags": [
+      "spoed"
+    ],
+    "lat": 52.0836,
+    "lng": 5.1265,
+    "desc": "Afdeling Tandheelkunde van de Universiteitskliniek voor Gezelschapsdieren, Faculteit Diergeneeskunde (Universiteit Utrecht). Werkt op verwijzing. 24 uur per dag geopend. Spoedgevallen gezelschapsdieren buiten kantoortijden: 0900-222 3000. Voor paarden: neem contact op met uw eigen dierenarts. Meer info: https://diergeneeskunde.nl/klinieken/gezelschapsdieren/tandheelkunde/",
+    "tier": "basic"
   }
 ]
