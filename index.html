@@ -2458,16 +2458,7 @@ body.has-compare-bar { padding-bottom: 90px; }
   overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
 }
 
-/* Skip-link: onzichtbaar tot toetsenbordfocus, dan bovenaan zichtbaar zodat
-   je de navigatie kunt overslaan (WCAG 2.4.1 Bypass Blocks). */
-.skip-link {
-  position: absolute; top: -100px; left: 8px; z-index: 10000;
-  background: var(--dk-blue-deep); color: white;
-  padding: 12px 20px; border-radius: 0 0 10px 10px;
-  font-weight: 700; text-decoration: none;
-  transition: top 0.15s;
-}
-.skip-link:focus { top: 0; }
+/* .skip-link zit in /css/a11y.css (gedeeld met alle statische pagina's). */
 
 </style>
 
@@ -2617,6 +2608,8 @@ body.has-compare-bar { padding-bottom: 90px; }
   </script>
 
 <link rel="preload" href="/css/social.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="stylesheet" href="/css/a11y.css">
+<script src="/js/a11y-widget.js"></script>
 <noscript></noscript>
 </head>
 <body>

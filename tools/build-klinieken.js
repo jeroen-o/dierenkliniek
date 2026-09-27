@@ -151,8 +151,11 @@ function head({ title, ogTitle, description, canonical, ogType, geo, jsonld, css
 <meta name="theme-color" content="#00A1E4">
 ${jsonld.map(o => `<script type="application/ld+json">\n${JSON.stringify(o, null, 2)}\n</script>`).join('\n')}
 <link rel="stylesheet" href="${cssHref}">
+<link rel="stylesheet" href="/css/a11y.css">
+<script src="/js/a11y-widget.js"></script>
 </head>
 <body>
+<a href="#main-content" class="skip-link">Ga direct naar de inhoud</a>
 ${L.HEADER}
 `;
 }
@@ -278,7 +281,7 @@ ${buurt.map(({ o, d }) => `        <a href="/${clinicSlug(o)}" class="nearby-car
 
 ` : '';
 
-  const body = `<main>
+  const body = `<main id="main-content" tabindex="-1">
   <nav class="breadcrumb">
     <a href="/">Home</a> ›
     <a href="/${citySlug(c.city)}">Dierenarts ${esc(c.city)}</a> ›
@@ -532,7 +535,7 @@ ${kbArtikelen.map(a => `      <li><a href="/kennisbank/${a.slug}">${esc(a.title)
   </div>
 ` : '';
 
-  const body = `<main>
+  const body = `<main id="main-content" tabindex="-1">
   <nav class="breadcrumb">
     <a href="/">Home</a> ›
     <a href="/provincies">Provincies</a> ›${prov ? `

@@ -14,7 +14,9 @@ const L = require('./layout');
 const ROOT = L.ROOT;
 const SJABLOON = path.join(ROOT, 'tools', 'sjabloon');
 const CSS_DIR = path.join(ROOT, 'css');
+const JS_DIR = path.join(ROOT, 'js');
 fs.mkdirSync(CSS_DIR, { recursive: true });
+fs.mkdirSync(JS_DIR, { recursive: true });
 
 const bestanden = {
   'stad.css': fs.readFileSync(path.join(SJABLOON, 'stad.css'), 'utf8'),
@@ -23,7 +25,10 @@ const bestanden = {
   // De social-icon-CSS uit build-social.js: die injecteert zichzelf in
   // vrijwel elk HTML-bestand (ook index.html), dus dit is de meest gedeelde
   // regel CSS van de hele site.
-  'social.css': require('./build-social-css')
+  'social.css': require('./build-social-css'),
+  // Zichtbare toegankelijkheidswidget (tekstgrootte/contrast/dyslexie-modus),
+  // op elke pagina geladen — zie tools/sjabloon/a11y-widget.js.
+  'a11y.css': fs.readFileSync(path.join(SJABLOON, 'a11y.css'), 'utf8')
 };
 
 // Lichte minifier voor de losse CSS-bestanden: minder bytes over de lijn,
@@ -43,4 +48,7 @@ for (const [naam, inhoud] of Object.entries(bestanden)) {
   fs.writeFileSync(path.join(CSS_DIR, naam), minifyCss(inhoud));
 }
 
+fs.writeFileSync(path.join(JS_DIR, 'a11y-widget.js'), fs.readFileSync(path.join(SJABLOON, 'a11y-widget.js'), 'utf8'));
+
 console.log(`css-bestanden geschreven: ${Object.keys(bestanden).map(n => `${n} (${minifyCss(bestanden[n]).length}b)`).join(', ')}`);
+console.log('js-bestanden geschreven: a11y-widget.js');
