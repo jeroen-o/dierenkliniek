@@ -3520,6 +3520,162 @@ body.has-compare-bar { padding-bottom: 90px; }
   </section>
 </div>
 
+<!-- ============ ARTIKEL CLAIMEN ============ -->
+<div class="view" data-view="artikel-claimen">
+  <section class="kb-hero">
+    <div class="container">
+      <div class="kb-hero-content">
+        <div class="breadcrumb" style="font-size:14px;opacity:0.7;margin-bottom:16px;">
+          <a href="#" onclick="navigate('kennisbank');return false;">Kennisbank</a> ›
+          <span>Artikel claimen</span>
+        </div>
+        <h1>Dit artikel claimen</h1>
+        <p>Koppel uw naam, praktijk en contactgegevens aan dit artikel als vakinhoudelijk aanspreekpunt — en lever desgewenst uw eigen tekst en foto's aan.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container" style="padding:48px 0;">
+    <div class="contact-grid">
+      <div>
+        <form class="signup-form contact-form" onsubmit="submitClaimArtikel(event)" style="margin:0;">
+          <h2>Claim-gegevens</h2>
+          <p>Artikel: <strong id="claimArtikelTitel">—</strong></p>
+          <input type="hidden" id="claimArtikelSlugVeld" name="artikel_slug">
+
+          <div class="form-row-grid">
+            <div class="form-row">
+              <label for="clm-naam">Uw naam *</label>
+              <input type="text" id="clm-naam" name="naam" required placeholder="Voor- en achternaam">
+            </div>
+            <div class="form-row">
+              <label for="clm-praktijk">Praktijk *</label>
+              <input type="text" id="clm-praktijk" name="praktijk" required placeholder="Naam van uw kliniek">
+            </div>
+          </div>
+
+          <div class="form-row-grid">
+            <div class="form-row">
+              <label for="clm-email">E-mail *</label>
+              <input type="email" id="clm-email" name="email" required placeholder="naam@uw-kliniek.nl">
+            </div>
+            <div class="form-row">
+              <label for="clm-telefoon">Telefoon</label>
+              <input type="tel" id="clm-telefoon" name="telefoon" placeholder="06 - 1234 5678">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <label for="clm-tekst">Eigen tekst voor dit artikel (optioneel)</label>
+            <textarea id="clm-tekst" name="tekst" rows="8" placeholder="Wilt u de bestaande tekst aanvullen of vervangen door uw eigen, vakinhoudelijke versie? Plak die hier. Laat leeg als u alleen als naamgever/aanspreekpunt vermeld wilt worden."></textarea>
+          </div>
+
+          <div class="callout" style="margin-top:0;">
+            <strong>Foto's of afbeeldingen aanleveren?</strong> Er opent na het versturen een e-mailbericht in uw eigen mailprogramma — voeg daarin gewoon uw foto's als bijlage toe voordat u het verstuurt.
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block btn-lg">Claim dit artikel</button>
+          <p style="font-size: 13px; color: var(--ink-3); margin-top: 12px; text-align: center;">
+            Uw claim wordt handmatig beoordeeld voordat 'm op het artikel wordt vermeld.
+          </p>
+        </form>
+      </div>
+
+      <aside class="contact-aside">
+        <div class="contact-info-card">
+          <h2>Hoe werkt claimen?</h2>
+          <p style="margin:8px 0 12px; font-size:14px; color:var(--ink-2); line-height:1.5;">
+            Na controle koppelen wij uw naam en praktijk als vakinhoudelijk aanspreekpunt aan dit artikel, zichtbaar voor alle lezers. Levert u eigen tekst of foto's aan, dan verwerken we die bij plaatsing.
+          </p>
+        </div>
+        <div class="contact-info-card">
+          <h2>Liever een ander onderwerp?</h2>
+          <p style="margin:8px 0 12px; font-size:14px; color:var(--ink-2); line-height:1.5;">
+            Mist u een onderwerp in de kennisbank, of wilt u een volledig nieuw artikel aanleveren?
+          </p>
+          <button class="btn btn-outline btn-block" onclick="navigate('artikel-aanmelden')">
+            Artikel aanmelden →
+          </button>
+        </div>
+      </aside>
+    </div>
+  </section>
+</div>
+
+<!-- ============ ARTIKEL AANMELDEN ============ -->
+<div class="view" data-view="artikel-aanmelden">
+  <section class="kb-hero">
+    <div class="container">
+      <div class="kb-hero-content">
+        <div class="breadcrumb" style="font-size:14px;opacity:0.7;margin-bottom:16px;">
+          <a href="#" onclick="navigate('kennisbank');return false;">Kennisbank</a> ›
+          <span>Artikel aanmelden</span>
+        </div>
+        <h1>Een onderwerp of artikel aanmelden</h1>
+        <p>Mist u een vraag, ziektebeeld of onderwerp in onze kennisbank? Draag het aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container" style="padding:48px 0;">
+    <div class="contact-grid">
+      <div>
+        <form class="signup-form contact-form" onsubmit="submitArtikelAanmelden(event)" style="margin:0;">
+          <h2>Onderwerp aanmelden</h2>
+          <p>Vul in wat u wilt aandragen — een enkel onderwerp, of een volledig uitgewerkt artikel.</p>
+
+          <div class="form-row-grid">
+            <div class="form-row">
+              <label for="aam-naam">Uw naam</label>
+              <input type="text" id="aam-naam" name="naam" placeholder="Voor- en achternaam">
+            </div>
+            <div class="form-row">
+              <label for="aam-praktijk">Praktijk (optioneel)</label>
+              <input type="text" id="aam-praktijk" name="praktijk" placeholder="Alleen relevant als u dierenarts/specialist bent">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <label for="aam-email">E-mail *</label>
+            <input type="email" id="aam-email" name="email" required placeholder="naam@voorbeeld.nl">
+          </div>
+
+          <div class="form-row">
+            <label for="aam-onderwerp">Voorgesteld onderwerp / titel *</label>
+            <input type="text" id="aam-onderwerp" name="onderwerp" required placeholder="Bijv. 'Nierstenen bij konijnen'">
+          </div>
+
+          <div class="form-row">
+            <label for="aam-tekst">Uitwerking (optioneel)</label>
+            <textarea id="aam-tekst" name="tekst" rows="8" placeholder="Heeft u zelf al een tekst? Plak die hier. Laat leeg als u alleen het onderwerp wilt aandragen — wij schrijven het artikel dan zelf uit."></textarea>
+          </div>
+
+          <div class="callout" style="margin-top:0;">
+            <strong>Foto's of afbeeldingen aanleveren?</strong> Er opent na het versturen een e-mailbericht in uw eigen mailprogramma — voeg daarin gewoon uw foto's als bijlage toe voordat u het verstuurt.
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block btn-lg">Artikel aanmelden</button>
+          <p style="font-size: 13px; color: var(--ink-3); margin-top: 12px; text-align: center;">
+            Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+          </p>
+        </form>
+      </div>
+
+      <aside class="contact-aside">
+        <div class="contact-info-card">
+          <h2>Wilt u liever een bestaand artikel claimen?</h2>
+          <p style="margin:8px 0 12px; font-size:14px; color:var(--ink-2); line-height:1.5;">
+            Ga naar het artikel in kwestie en klik daar op "Claim dit artikel".
+          </p>
+          <button class="btn btn-outline btn-block" onclick="navigate('kennisbank')">
+            Naar de kennisbank →
+          </button>
+        </div>
+      </aside>
+    </div>
+  </section>
+</div>
+
 <!-- ============ SPOEDHULP ============ -->
 <div class="view" data-view="spoedhulp">
   <section class="kb-hero" style="background:linear-gradient(135deg,#B32E1E,#7A1F12); color:white;">
@@ -6010,6 +6166,8 @@ const VIEW_META = {
   privacy: { title: 'Privacyverklaring — dierenkliniek.nl', desc: 'Hoe Dierenkliniek.nl omgaat met uw persoonsgegevens.' },
   voorwaarden: { title: 'Algemene voorwaarden — dierenkliniek.nl', desc: 'Onder welke voorwaarden Dierenkliniek.nl haar diensten aanbiedt.' },
   cookies: { title: 'Cookieverklaring — dierenkliniek.nl', desc: 'Welke cookies Dierenkliniek.nl gebruikt en waarom.' },
+  'artikel-claimen': { title: 'Artikel claimen — dierenkliniek.nl', desc: 'Koppel uw naam en praktijk aan een kennisbank-artikel als vakinhoudelijk aanspreekpunt, en lever desgewenst uw eigen tekst en foto\'s aan.' },
+  'artikel-aanmelden': { title: 'Artikel aanmelden — dierenkliniek.nl', desc: 'Draag een onderwerp of volledig artikel aan voor de kennisbank van Dierenkliniek.nl.' },
 };
 
 function navigate(view) {
@@ -7581,6 +7739,21 @@ function routeFromUrl() {
       try { window.history.replaceState({}, '', '/pakketten'); } catch (e) {}
       return;
     }
+    // Claimknop op een artikel linkt naar /?view=artikel-claimen&artikel=<slug>;
+    // vul de artikeltitel/-slug in het formulier in zodra bekend is om welk
+    // artikel het gaat.
+    if (view === 'artikel-claimen') {
+      navigate('artikel-claimen');
+      const artikelSlug = params.get('artikel');
+      const titelEl = document.getElementById('claimArtikelTitel');
+      const slugEl = document.getElementById('claimArtikelSlugVeld');
+      if (artikelSlug) {
+        const a = findArticleBySlug(artikelSlug);
+        if (titelEl) titelEl.textContent = a ? a.title : artikelSlug;
+        if (slugEl) slugEl.value = a ? articleSlug(a) : artikelSlug;
+      }
+      return;
+    }
     if (document.querySelector(`[data-view="${view}"]`)) {
       navigate(view);
       return;
@@ -7701,6 +7874,71 @@ function submitContact(e) {
     btn.textContent = originalText;
     btn.disabled = false;
   }, 4000);
+}
+
+// ============ ARTIKEL CLAIMEN / AANMELDEN ============
+function submitClaimArtikel(e) {
+  e.preventDefault();
+  const form = e.target;
+  const data = new FormData(form);
+  const titel = document.getElementById('claimArtikelTitel').textContent;
+  const slug = document.getElementById('claimArtikelSlugVeld').value;
+  const subject = `Artikel claimen — ${titel}`;
+  const lines = [
+    'Er is een artikel-claim binnengekomen via dierenkliniek.nl.',
+    '',
+    `Artikel: ${titel}`,
+    slug ? `Pagina: https://dierenkliniek.nl/kennisbank/${slug}` : '',
+    '',
+    `Naam: ${data.get('naam') || '-'}`,
+    `Praktijk: ${data.get('praktijk') || '-'}`,
+    `E-mail: ${data.get('email') || '-'}`,
+    `Telefoon: ${data.get('telefoon') || '-'}`,
+    '',
+    '— Aangeleverde tekst (optioneel) —',
+    (data.get('tekst') || '').trim() || '(geen eigen tekst aangeleverd, alleen naamsvermelding gewenst)',
+    '',
+    '---',
+    'Verzonden via dierenkliniek.nl/?view=artikel-claimen',
+  ].filter(l => l !== '');
+  const body = lines.join('\n');
+  window.location.href = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+  const btn = form.querySelector('button[type="submit"]');
+  const originalText = btn.textContent;
+  btn.textContent = '✓ E-mail geopend in uw mailprogramma';
+  btn.disabled = true;
+  setTimeout(() => { btn.textContent = originalText; btn.disabled = false; }, 4000);
+}
+
+function submitArtikelAanmelden(e) {
+  e.preventDefault();
+  const form = e.target;
+  const data = new FormData(form);
+  const onderwerp = data.get('onderwerp') || '(geen titel opgegeven)';
+  const subject = `Nieuw kennisbank-onderwerp — ${onderwerp}`;
+  const lines = [
+    'Er is een nieuw kennisbank-onderwerp aangedragen via dierenkliniek.nl.',
+    '',
+    `Voorgesteld onderwerp: ${onderwerp}`,
+    `Naam: ${data.get('naam') || '-'}`,
+    `Praktijk: ${data.get('praktijk') || '-'}`,
+    `E-mail: ${data.get('email') || '-'}`,
+    '',
+    '— Aangeleverde uitwerking (optioneel) —',
+    (data.get('tekst') || '').trim() || '(geen eigen tekst aangeleverd, alleen onderwerp aangedragen)',
+    '',
+    '---',
+    'Verzonden via dierenkliniek.nl/?view=artikel-aanmelden',
+  ];
+  const body = lines.join('\n');
+  window.location.href = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+  const btn = form.querySelector('button[type="submit"]');
+  const originalText = btn.textContent;
+  btn.textContent = '✓ E-mail geopend in uw mailprogramma';
+  btn.disabled = true;
+  setTimeout(() => { btn.textContent = originalText; btn.disabled = false; }, 4000);
 }
 
 // ============ AANMELD-FORMULIER (volledig) ============
