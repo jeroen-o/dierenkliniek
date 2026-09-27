@@ -221,7 +221,9 @@ for (const c of CLINICS) {
           },
           availableService: { '@type': 'MedicalProcedure', name: 'Spoedhulp 24/7' }
         } : (tijdenSchema ? { openingHoursSpecification: tijdenSchema } : {})),
-        ...(c.website ? { sameAs: [c.website] } : {}),
+        ...((c.website || c.facebook || c.instagram || c.linkedin) ? {
+          sameAs: [c.website, c.facebook, c.instagram, c.linkedin].filter(Boolean)
+        } : {}),
         subjectOf: { '@id': url + '#webpage' }
       },
       L.faqLd(faqs)

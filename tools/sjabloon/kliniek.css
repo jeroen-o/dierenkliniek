@@ -127,3 +127,8 @@
 
   .kliniek-fotos { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin-top: 16px; }
   .kliniek-fotos img { width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 10px; display: block; }
+
+  .kliniek-social { display: inline-flex; gap: 10px; vertical-align: middle; }
+  .kliniek-social a { display: inline-flex; color: #4A5C70; }
+  .kliniek-social a:hover { color: #00A1E4; }
+  .kliniek-social svg { width: 20px; height: 20px; fill: currentColor; display: block; }

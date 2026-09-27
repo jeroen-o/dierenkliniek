@@ -228,7 +228,9 @@ function kliniekPagina(c) {
     geo: (c.lat && c.lng) ? { '@type': 'GeoCoordinates', latitude: c.lat, longitude: c.lng } : undefined,
     telephone: c.phone || undefined,
     email: c.email || undefined,
-    sameAs: c.website ? [c.website] : undefined
+    sameAs: [c.website, c.facebook, c.instagram, c.linkedin].filter(Boolean).length
+      ? [c.website, c.facebook, c.instagram, c.linkedin].filter(Boolean)
+      : undefined
   };
   const kruimels = [
     { name: 'Home', url: '/' },
@@ -246,11 +248,20 @@ function kliniekPagina(c) {
     c.whatsapp ? `<a href="${waHref(c.whatsapp)}" class="btn btn-whatsapp" target="_blank" rel="noopener">💬 WhatsApp</a>` : ''
   ].filter(Boolean);
 
+  const socialLinks = ['facebook', 'instagram', 'linkedin']
+    .filter(s => c[s])
+    .map(s => {
+      const g = L.SOCIAL_GLYPHS[s];
+      return `<a href="${esc(c[s])}" target="_blank" rel="me noopener" aria-label="${g.naam}" title="${esc(c.name)} op ${g.naam}">` +
+        `<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" width="20" height="20"><path d="${g.pad}"/></svg></a>`;
+    });
+
   const contact = [
     `<li><strong>Adres:</strong> ${esc(c.address)}, ${esc(c.postcode)} ${esc(c.city)}</li>`,
     c.phone ? `<li><strong>Telefoon:</strong> <a href="${telHref(c.phone)}">${esc(c.phone)}</a></li>` : '',
     c.email ? `<li><strong>E-mail:</strong> <a href="mailto:${esc(c.email)}">${esc(c.email)}</a></li>` : '',
-    c.website ? `<li><strong>Website:</strong> <a href="${esc(c.website)}" target="_blank" rel="noopener">${esc(c.website)}</a></li>` : ''
+    c.website ? `<li><strong>Website:</strong> <a href="${esc(c.website)}" target="_blank" rel="noopener">${esc(c.website)}</a></li>` : '',
+    socialLinks.length ? `<li><strong>Social:</strong> <span class="kliniek-social">${socialLinks.join(' ')}</span></li>` : ''
   ].filter(Boolean);
 
   const anderenBlok = anderen.length ? `  <div class="card">
