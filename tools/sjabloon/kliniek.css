@@ -128,6 +128,10 @@
   .kliniek-fotos { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin-top: 16px; }
   .kliniek-fotos img { width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 10px; display: block; }
 
+  .faq details { border-bottom: 1px solid #eef2f6; padding: 12px 0; }
+  .faq summary { cursor: pointer; font-weight: 700; }
+  .faq details p { margin: 10px 0 0; color: #0a1628; font-weight: 700; }
+
   .kliniek-social { display: inline-flex; gap: 10px; vertical-align: middle; }
   .kliniek-social a { display: inline-flex; color: #4A5C70; }
   .kliniek-social a:hover { color: #00A1E4; }

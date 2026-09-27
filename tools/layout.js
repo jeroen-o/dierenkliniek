@@ -62,7 +62,7 @@ const EXTRA_CSS = `
   .tag-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 0; }
   .faq details { border-bottom: 1px solid #eef2f6; padding: 12px 0; }
   .faq summary { cursor: pointer; font-weight: 700; }
-  .faq details p { margin: 10px 0 0; color: #4A5C70; }
+  .faq details p { margin: 10px 0 0; color: #0a1628; font-weight: 700; }
   .callout { background: #FFF7ED; border-left: 4px solid #FF6B35; padding: 14px 18px; border-radius: 8px; margin: 20px 0; font-size: 15px; }
   .callout-red { background: #FEF2F2; border-left-color: #E63946; }
   .toc { background: #F8FBFD; border: 1px solid #E5EDF3; border-radius: 10px; padding: 16px 20px; margin-bottom: 24px; }
