@@ -1,7 +1,7 @@
 # Dierenkliniek.nl — volledige kennisbank
 
 Bron: https://dierenkliniek.nl/kennisbank · Laatst bijgewerkt: 2026-09-27
-255 artikelen, 40 glossariumtermen.
+256 artikelen, 40 glossariumtermen.
 
 Deze tekst is algemene voorlichting voor huisdiereigenaren en vervangt geen
 diagnose van een dierenarts. Bij spoed: bel altijd eerst de kliniek.
@@ -16261,6 +16261,69 @@ A: Naast recreatief rijden en mennen wordt het ras nog ingezet voor licht trekwe
 
 V: Waarom is overgewicht een belangrijk aandachtspunt bij dit ras?
 A: Het ras is van oudsher gefokt om efficiënt met karig grasland om te gaan. Bij een modern, energierijk voedingspatroon leidt die zuinige stofwisseling snel tot overgewicht, met een verhoogd risico op hoefbevangenheid.
+
+
+--------------------------------------------------------------------------------
+# Tandheelkundig dierenarts: wanneer is een verwijzing nodig?
+
+URL: https://dierenkliniek.nl/kennisbank/tandheelkundig-dierenarts-wanneer-is-een-verwijzing-nodig
+Categorie: Preventie & vaccinaties · Leestijd: 4 min
+
+Samenvatting: Niet elk gebitsprobleem is met een reguliere gebitsreiniging opgelost. Wat doet een tandheelkundig gespecialiseerde dierenarts, en wanneer verwijst uw eigen dierenarts u door?
+
+De meeste gebitsproblemen bij huisdieren — tandplak, tandsteen, een beginnende tandvleesontsteking — worden prima behandeld door de eigen dierenarts, desnoods met een reguliere gebitsreiniging onder narcose. Bij complexere problemen kan diezelfde dierenarts doorverwijzen naar een tandheelkundig gespecialiseerde collega.
+
+## Wat is een tandheelkundig dierenarts?
+
+Dit is een dierenarts die zich, bovenop de reguliere opleiding, verder heeft verdiept in diergeneeskundige tandheelkunde: complexe extracties, kaakchirurgie, wortelkanaalbehandelingen en gebitsröntgendiagnostiek. In Nederland werken deze specialisten vaak niet vanuit één vaste inlooppraktijk, maar op locatie: ze rijden met hun eigen apparatuur (waaronder gebitsröntgen en aangepast chirurgisch instrumentarium) langs reguliere dierenartspraktijken om daar de behandeling uit te voeren. Sommigen geven daarnaast bijscholing, cursussen en lezingen aan collega-dierenartsen op het gebied van tandheelkunde.
+
+## Wanneer verwijst een dierenarts door?
+
+
+- Gecompliceerde extracties — bijvoorbeeld een gebroken kies waarvan de wortel is achtergebleven, of een kies die vastzit aan de kaak door ernstige botaantasting.
+
+
+- Kaakfracturen — na een val, aanrijding of bijtincident.
+
+
+- Wortelkanaalbehandeling — als alternatief voor trekken bij een waardevol gebitselement, bijvoorbeeld een hoektand.
+
+
+- Ernstige afwijkende gebitsstand — vooral bij jonge dieren, waarbij tanden verkeerd op elkaar bijten en het gehemelte of tandvlees beschadigen.
+
+
+- Tandvleesresorptie bij katten (FORL/TR) — een pijnlijke, vaak onderschatte aandoening waarbij het gebitselement van binnenuit wordt afgebroken.
+
+
+- Zwellingen of afwijkend weefsel in de bek — ter beoordeling en eventueel biopsie, omdat dit ook op een tumor kan wijzen.
+
+
+- Terugkerende problemen na een eerdere behandeling die onvoldoende resultaat gaf.
+
+## Wat kunt u verwachten?
+
+Een verwijzing verloopt meestal via de eigen dierenarts, die de gegevens overdraagt en vaak ook de nazorg doet. De intake en behandeling vinden regelmatig gewoon plaats in de vertrouwde praktijk, omdat de specialist daarheen komt. Reken op hogere kosten dan bij een reguliere gebitsreiniging: de gespecialiseerde apparatuur, langere behandeltijd en aanvullende diagnostiek (zoals röntgenfoto's van elk gebitselement) maken dit een intensievere ingreep. Vraag vooraf een inschatting van de kosten, zeker bij een uitgebreide behandeling.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Kan mijn eigen dierenarts geen wortelkanaalbehandeling doen?
+A: Een reguliere dierenartspraktijk heeft meestal niet de gespecialiseerde apparatuur (zoals gebitsröntgen) en ervaring die een wortelkanaalbehandeling vereist. Vandaar de doorverwijzing naar een tandheelkundig gespecialiseerde collega, die vaak juist naar de eigen praktijk toe komt.
+
+V: Moet ik met mijn huisdier naar een andere locatie voor deze behandeling?
+A: Niet per se: veel tandheelkundig gespecialiseerde dierenartsen werken op locatie en behandelen uw huisdier gewoon bij de vertrouwde praktijk, met eigen meegebrachte apparatuur.
 
 
 --------------------------------------------------------------------------------

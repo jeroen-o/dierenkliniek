@@ -6437,7 +6437,7 @@
     "lat": 51.5253,
     "lng": 5.9758,
     "desc": "Veterinaire kliniek in Venray. Volledige zorg voor gezelschapsdieren. Uitsluitend op afspraak.",
-    "tier": "basic",
+    "tier": "plus",
     "facebook": "https://www.facebook.com/DierenkliniekVenray"
   },
   {
@@ -28141,6 +28141,78 @@
     "lat": 52.0705,
     "lng": 4.3007,
     "desc": "Dierenartspraktijk in Den Haag.",
+    "tier": "basic"
+  },
+  {
+    "id": 1472,
+    "name": "Remmenex - Matthijs Remmen, Dierentandarts (Tandheelkundig Dierenarts)",
+    "city": "Bilthoven",
+    "address": "Lassuslaan 39",
+    "postcode": "3723 LH",
+    "phone": "06-81286526",
+    "email": "info@matthijsremmen.nl",
+    "website": "https://www.matthijsremmen.nl/",
+    "specs": [
+      "Tandheelkunde"
+    ],
+    "tags": [],
+    "lat": 52.1255,
+    "lng": 5.19987,
+    "desc": "Tandheelkundig dierenarts, werkt op locatie (aan huis en bij andere dierenartspraktijken) door heel Nederland. Geeft daarnaast trainingen, coaching, lezingen en cursussen op het gebied van tandheelkunde voor dieren. KVK 97269115.",
+    "tier": "basic"
+  },
+  {
+    "id": 1473,
+    "name": "Dierentandheelkunde Paul Theuns - De Wagenrenk",
+    "city": "Wageningen",
+    "address": "Keijenbergseweg 18",
+    "postcode": "6705 BN",
+    "phone": "0317 419120",
+    "email": "",
+    "website": "https://wagenrenk.com/",
+    "specs": [
+      "Tandheelkunde"
+    ],
+    "tags": [],
+    "lat": 51.9692,
+    "lng": 5.6654,
+    "desc": "Dierentandarts Paul Theuns behandelt hier, bij De Wagenrenk - Diergeneeskundig Specialistisch Centrum Nederland. Gespecialiseerd in dierentandheelkunde.",
+    "tier": "basic"
+  },
+  {
+    "id": 1474,
+    "name": "Dierentandheelkunde Paul Theuns - Leusden",
+    "city": "Leusden",
+    "address": "Van Daatselaarhof 14",
+    "postcode": "3833 HV",
+    "phone": "06-38534366",
+    "email": "info@dierentandheelkunde.nl",
+    "website": "https://www.dierentandheelkunde.nl/",
+    "specs": [
+      "Tandheelkunde"
+    ],
+    "tags": [],
+    "lat": 52.1318,
+    "lng": 5.424,
+    "desc": "Praktijk van dierentandarts Paul Theuns, gespecialiseerd in dierentandheelkunde. Bereikbaar ma-vr 08:30-19:00 uur.",
+    "tier": "basic"
+  },
+  {
+    "id": 1475,
+    "name": "Praktijk Dokter Eef - Dierentandarts",
+    "city": "Doorn",
+    "address": "Sterkenburgerlaan 63",
+    "postcode": "3941 BC",
+    "phone": "",
+    "email": "doktereef4u@gmail.com",
+    "website": "https://www.doktereef.nl/",
+    "specs": [
+      "Tandheelkunde"
+    ],
+    "tags": [],
+    "lat": 52.0337,
+    "lng": 5.3471,
+    "desc": "Dokter Eef, tandheelkundig dierenarts, gespecialiseerd in tandheelkunde bij honden en katten. Werkt op locatie bij dierenartspraktijken (als aanvulling op het team of vervanging van een collega) en geeft daarnaast trainingen, lezingen en organisatorisch advies over tandheelkunde aan praktijken.",
     "tier": "basic"
   }
 ]
