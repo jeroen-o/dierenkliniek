@@ -1,6 +1,6 @@
 # Dierenkliniek.nl
 
-> Dierenkliniek.nl is het onafhankelijke overzicht van alle 1389 dierenklinieken in Nederland. Huisdiereigenaren vinden er een dierenarts op postcode, plaats of provincie, plus 104 klinieken met 24/7 spoedhulp en een kennisbank van 235 artikelen. Geen betaalde voorrang in de zoekresultaten.
+> Dierenkliniek.nl is het onafhankelijke overzicht van alle 1389 dierenklinieken in Nederland. Huisdiereigenaren vinden er een dierenarts op postcode, plaats of provincie, plus 104 klinieken met 24/7 spoedhulp en een kennisbank van 255 artikelen. Geen betaalde voorrang in de zoekresultaten.
 
 Laatst bijgewerkt: 2026-09-27. Exploitant: Dierenkliniek.nl, Darthuizerberg 1, 3825 BK Amersfoort, info@dierenkliniek.nl, 06-59115265.
 
@@ -10,7 +10,7 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 - [Dierenarts zoeken op postcode](https://dierenkliniek.nl/): startpunt met postcodezoeker en kaart van alle 1389 klinieken
 - [Spoedhulp 24/7](https://dierenkliniek.nl/spoedhulp): 104 klinieken met een 24-uurs spoeddienst, per provincie, met telefoonnummer
-- [Kennisbank](https://dierenkliniek.nl/kennisbank): 235 artikelen over gezondheid, preventie, voeding, gedrag en spoed
+- [Kennisbank](https://dierenkliniek.nl/kennisbank): 255 artikelen over gezondheid, preventie, voeding, gedrag en spoed
 - [Veterinair glossarium](https://dierenkliniek.nl/glossarium): 40 medische termen in gewone taal
 - [Alle provincies](https://dierenkliniek.nl/provincies): klinieken gegroepeerd per provincie
 - [Specialismen](https://dierenkliniek.nl/specialismen): klinieken per aandachtsgebied
@@ -76,7 +76,7 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 - [Voeding & gewicht](https://dierenkliniek.nl/kennisbank/categorie-voeding): 17 artikelen
 - [Gedrag & welzijn](https://dierenkliniek.nl/kennisbank/categorie-gedrag): 13 artikelen
 - [Puppy, volwassen, senior](https://dierenkliniek.nl/kennisbank/categorie-levensfasen): 12 artikelen
-- [Praktische zaken](https://dierenkliniek.nl/kennisbank/categorie-praktisch): 156 artikelen
+- [Praktische zaken](https://dierenkliniek.nl/kennisbank/categorie-praktisch): 176 artikelen
 
 ## Kennisbank per diersoort
 
@@ -86,7 +86,7 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 - [Knaagdieren](https://dierenkliniek.nl/kennisbank/dier-knaagdier): 11 artikelen
 - [Vogels](https://dierenkliniek.nl/kennisbank/dier-vogel): 9 artikelen
 - [Reptielen](https://dierenkliniek.nl/kennisbank/dier-reptiel): 9 artikelen
-- [Paarden](https://dierenkliniek.nl/kennisbank/dier-paard): 35 artikelen
+- [Paarden](https://dierenkliniek.nl/kennisbank/dier-paard): 55 artikelen
 - [Kippen](https://dierenkliniek.nl/kennisbank/dier-kip): 14 artikelen
 - [Vissen](https://dierenkliniek.nl/kennisbank/dier-vis): 6 artikelen
 - [Fretten](https://dierenkliniek.nl/kennisbank/dier-fret): 7 artikelen
@@ -328,6 +328,26 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 - [Wyandotte — gezondheidsproblemen en wintertolerantie](https://dierenkliniek.nl/kennisbank/wyandotte-gezondheidsproblemen-en-wintertolerantie): De Wyandotte is een robuust, koudetolerant kippenras met een opvallende, ronde bouw. Welke gezondheidsproblemen komen voor?
 - [Yorkshire Terriër — gezondheidsproblemen en verzorging](https://dierenkliniek.nl/kennisbank/yorkshire-terrier-gezondheidsproblemen-en-verzorging): De Yorkshire Terriër is een populaire kleine gezelschapshond met een lange, zijdeachtige vacht. Welke gezondheidsproblemen komen bij dit ras voor?
 - [Zomereczeem bij paarden — herkennen en behandelen](https://dierenkliniek.nl/kennisbank/zomereczeem-bij-paarden-herkennen-en-behandelen): Zomereczeem is een veelvoorkomende, jeukende huidaandoening bij paarden, veroorzaakt door een allergie voor knuttenbeten. Wat kunt u doen?
+- [Deens Warmbloed (DWB) — gezondheidsproblemen en sportaanleg](https://dierenkliniek.nl/kennisbank/deens-warmbloed-dwb-gezondheidsproblemen-en-sportaanleg): Het Deens Warmbloed (DWB) is een Deens sportpaardenras voor dressuur en springen, ontstaan uit onder meer het Frederiksborgpaard. Welke gezondheidsproblemen komen voor?
+- [Selle Français — gezondheidsproblemen en springvermogen](https://dierenkliniek.nl/kennisbank/selle-francais-gezondheidsproblemen-en-springvermogen): De Selle Français is het Franse springpaardenras bij uitstek, ontstaan uit kruisingen van Anglo-Normandische paarden. Welke gezondheidsproblemen komen voor?
+- [Zweeds Warmbloed (SWB) — gezondheidsproblemen en dressuuraanleg](https://dierenkliniek.nl/kennisbank/zweeds-warmbloed-swb-gezondheidsproblemen-en-dressuuraanleg): Het Zweeds Warmbloed (SWB) is een veelzijdig sportpaardenras met een sterke dressuurreputatie. Welke gezondheidsproblemen komen voor bij dit warmbloedras?
+- [Clydesdale — gezondheidsproblemen en beharing](https://dierenkliniek.nl/kennisbank/clydesdale-gezondheidsproblemen-en-beharing): De Clydesdale is een Schots trekpaardenras met kenmerkende beharing rond de hoeven. Welke gezondheidsproblemen komen voor bij dit imposante paardenras?
+- [Ardenner — gezondheidsproblemen en trekkracht](https://dierenkliniek.nl/kennisbank/ardenner-gezondheidsproblemen-en-trekkracht): De Ardenner is een compact, gespierd Belgisch-Frans trekpaardenras. Welke gezondheidsproblemen komen voor bij dit robuuste, zware paardenras?
+- [Noriker — gezondheidsproblemen en bergaanpassing](https://dierenkliniek.nl/kennisbank/noriker-gezondheidsproblemen-en-bergaanpassing): De Noriker is een Oostenrijks koudbloedras uit de Alpen, vaak met een gevlekte vacht. Welke gezondheidsproblemen komen voor bij dit robuuste bergpaardenras?
+- [Freiberger — gezondheidsproblemen en veelzijdigheid](https://dierenkliniek.nl/kennisbank/freiberger-gezondheidsproblemen-en-veelzijdigheid): De Freiberger (Franches-Montagnes) is het enige nog bestaande Zwitserse paardenras. Welke gezondheidsproblemen komen voor bij dit veelzijdige ras?
+- [American Paint Horse — gezondheidsproblemen en gevlekte vacht](https://dierenkliniek.nl/kennisbank/american-paint-horse-gezondheidsproblemen-en-gevlekte-vacht): Het American Paint Horse is een gevlekt stockpaardenras, nauw verwant aan het Quarter Horse. Welke gezondheidsproblemen komen voor bij dit populaire Amerikaanse ras?
+- [Mustang — gezondheidsproblemen en wilde oorsprong](https://dierenkliniek.nl/kennisbank/mustang-gezondheidsproblemen-en-wilde-oorsprong): De Mustang is een verwilderd paardenras uit Noord-Amerika, afstammend van door kolonisten meegebrachte paarden. Welke gezondheidsaandachtspunten zijn er bij dit ras?
+- [Curly Horse — gezondheidsproblemen en gekrulde vacht](https://dierenkliniek.nl/kennisbank/curly-horse-gezondheidsproblemen-en-gekrulde-vacht): De Curly Horse (American Bashkir Curly) heeft een opvallend gekrulde vacht en staat bekend als mogelijk allergievriendelijk. Welke gezondheidsaspecten spelen een rol?
+- [Criollo — gezondheidsproblemen en uithoudingsvermogen](https://dierenkliniek.nl/kennisbank/criollo-gezondheidsproblemen-en-uithoudingsvermogen): De Criollo is een hardy Zuid-Amerikaans ranchpaard, afstammend van meegebrachte Iberische paarden. Welke gezondheidsaspecten spelen bij dit uithoudingsras?
+- [Mangalarga Marchador — gezondheidsproblemen en bijzondere gangen](https://dierenkliniek.nl/kennisbank/mangalarga-marchador-gezondheidsproblemen-en-bijzondere-gangen): De Mangalarga Marchador is het nationale paardenras van Brazilië, bekend om zijn comfortabele marcha-gang. Welke gezondheidsaspecten spelen bij dit gangenras?
+- [Falabella — gezondheidsproblemen bij het kleinste paardenras](https://dierenkliniek.nl/kennisbank/falabella-gezondheidsproblemen-bij-het-kleinste-paardenras): De Falabella is een Argentijns miniatuurpaard en geldt als het kleinste paardenras ter wereld. Welke gezondheidsproblemen komen voor bij dit kleine ras?
+- [Shagya Arabier — gezondheidsproblemen en uithoudingsvermogen](https://dierenkliniek.nl/kennisbank/shagya-arabier-gezondheidsproblemen-en-uithoudingsvermogen): De Shagya Arabier is een Hongaars ras, ontwikkeld uit volbloed Arabieren voor meer bouw en kracht. Welke gezondheidsaspecten spelen bij dit uithoudende sportras?
+- [Rocky Mountain Horse — gezondheidsproblemen en bijzondere vachtkleur](https://dierenkliniek.nl/kennisbank/rocky-mountain-horse-gezondheidsproblemen-en-bijzondere-vachtkleur): De Rocky Mountain Horse is een Amerikaans gangenras met een opvallende chocoladekleurige vacht. Welke gezondheidsproblemen komen voor bij dit ras?
+- [Missouri Fox Trotter — gezondheidsproblemen en comfortabele gang](https://dierenkliniek.nl/kennisbank/missouri-fox-trotter-gezondheidsproblemen-en-comfortabele-gang): De Missouri Fox Trotter is een Amerikaans gangenras met een schokvrije 'fox trot'-gang. Welke gezondheidsaspecten spelen bij dit ras?
+- [Tennessee Walker — gezondheidsproblemen en kenmerkende gang](https://dierenkliniek.nl/kennisbank/tennessee-walker-gezondheidsproblemen-en-kenmerkende-gang): De Tennessee Walker staat bekend om de natuurlijke 'running walk'. Welke gezondheidsproblemen en aandachtspunten spelen bij dit gangenras?
+- [Morgan — gezondheidsproblemen en veelzijdigheid](https://dierenkliniek.nl/kennisbank/morgan-gezondheidsproblemen-en-veelzijdigheid): Het Morgan-paard is een van de oudste Amerikaanse paardenrassen en bekend om zijn veelzijdigheid. Welke gezondheidsproblemen komen voor bij dit compacte ras?
+- [Cleveland Bay — gezondheidsproblemen en zeldzaamheid](https://dierenkliniek.nl/kennisbank/cleveland-bay-gezondheidsproblemen-en-zeldzaamheid): De Cleveland Bay is een zeldzaam Engels paardenras, altijd bruin van kleur. Welke gezondheidsaspecten spelen bij dit bedreigde, veelzijdige ras?
+- [Bretons trekpaard — gezondheidsproblemen en trekkracht](https://dierenkliniek.nl/kennisbank/bretons-trekpaard-gezondheidsproblemen-en-trekkracht): Het Bretons trekpaard is een compact, krachtig Frans trekpaardenras. Welke gezondheidsproblemen komen voor bij dit robuuste, veelgebruikte werkpaard?
 
 ## Voor klinieken
 
@@ -347,5 +367,5 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 ## Optioneel
 
-- [Volledige tekst van de kennisbank](https://dierenkliniek.nl/llms-full.txt): alle 235 artikelen als platte tekst
+- [Volledige tekst van de kennisbank](https://dierenkliniek.nl/llms-full.txt): alle 255 artikelen als platte tekst
 - [Sitemap](https://dierenkliniek.nl/sitemap.xml): alle canonieke URL's
