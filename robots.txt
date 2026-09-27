@@ -10,11 +10,16 @@ Disallow: /*&utm_
 # pagina, geen content die op zichzelf hoort te ranken. Ze krijgen ook al
 # noindex via JS, maar dat vereist een renderpas; Disallow voorkomt dat
 # crawlers ze überhaupt ophalen en als "gecrawld, niet geïndexeerd" tellen.
+# artikel-claimen/artikel-aanmelden: pure formulierpagina's (mailto-only,
+# geen eigen content) — het &artikel=<slug>-deel zou anders voor elk van de
+# 250+ kennisbank-artikelen een bijna-identieke, dunne pagina opleveren.
 Disallow: /?view=privacy
 Disallow: /?view=voorwaarden
 Disallow: /?view=cookies
 Disallow: /?view=beslisboom
 Disallow: /?view=vaccinatieplanner
+Disallow: /?view=artikel-claimen
+Disallow: /?view=artikel-aanmelden
 
 # Zoekmachines
 User-agent: Googlebot
@@ -24,6 +29,8 @@ Disallow: /?view=voorwaarden
 Disallow: /?view=cookies
 Disallow: /?view=beslisboom
 Disallow: /?view=vaccinatieplanner
+Disallow: /?view=artikel-claimen
+Disallow: /?view=artikel-aanmelden
 
 User-agent: Bingbot
 Allow: /
@@ -32,6 +39,8 @@ Disallow: /?view=voorwaarden
 Disallow: /?view=cookies
 Disallow: /?view=beslisboom
 Disallow: /?view=vaccinatieplanner
+Disallow: /?view=artikel-claimen
+Disallow: /?view=artikel-aanmelden
 
 User-agent: DuckDuckBot
 Allow: /
@@ -40,6 +49,8 @@ Disallow: /?view=voorwaarden
 Disallow: /?view=cookies
 Disallow: /?view=beslisboom
 Disallow: /?view=vaccinatieplanner
+Disallow: /?view=artikel-claimen
+Disallow: /?view=artikel-aanmelden
 
 # AI-crawlers — expliciet toegestaan zodat onze content bruikbaar is
 # in ChatGPT, Claude, Perplexity, Gemini en andere AI-assistenten
@@ -123,6 +134,8 @@ Disallow: /?view=voorwaarden
 Disallow: /?view=cookies
 Disallow: /?view=beslisboom
 Disallow: /?view=vaccinatieplanner
+Disallow: /?view=artikel-claimen
+Disallow: /?view=artikel-aanmelden
 
 User-agent: Seznam
 Allow: /
@@ -131,6 +144,8 @@ Disallow: /?view=voorwaarden
 Disallow: /?view=cookies
 Disallow: /?view=beslisboom
 Disallow: /?view=vaccinatieplanner
+Disallow: /?view=artikel-claimen
+Disallow: /?view=artikel-aanmelden
 
 User-agent: Applebot
 Allow: /
@@ -139,6 +154,8 @@ Disallow: /?view=voorwaarden
 Disallow: /?view=cookies
 Disallow: /?view=beslisboom
 Disallow: /?view=vaccinatieplanner
+Disallow: /?view=artikel-claimen
+Disallow: /?view=artikel-aanmelden
 
 # Structured content voor AI-assistenten
 # https://dierenkliniek.nl/llms.txt
