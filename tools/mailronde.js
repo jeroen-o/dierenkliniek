@@ -28,6 +28,16 @@ function noteer(email, id) {
   fs.writeFileSync(REGISTER, JSON.stringify(r, null, 2));
 }
 
+// Praktijken die expliciet hebben aangegeven niet meer benaderd te willen
+// worden (maar wél vermeld willen blijven — anders zou de kliniek zelf uit
+// data/clinics.json zijn gehaald). Nooit automatisch een mail naar sturen,
+// in geen enkele ronde.
+const UITGESLOTEN = path.join(ROOT, 'data', 'mailronde-uitgesloten.json');
+function uitgesloten() {
+  if (!fs.existsSync(UITGESLOTEN)) return {};
+  try { return JSON.parse(fs.readFileSync(UITGESLOTEN, 'utf8')); } catch (e) { return {}; }
+}
+
 const esc = (v) => String(v == null ? '' : v)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
@@ -109,10 +119,12 @@ function html(o) {
 // Eén adres kan meerdere praktijken bedienen (ketens, gedeelde postbussen).
 // Die krijgen één mail waarin alle vestigingen staan, geen stapel losse mails.
 function ontvangers() {
+  const uit = uitgesloten();
   const perAdres = new Map();
   for (const c of DATA.CLINICS) {
     const mail = (c.email || '').trim().toLowerCase();
     if (!mail || !mail.includes('@')) continue;
+    if (uit[mail]) continue;
     if (!perAdres.has(mail)) perAdres.set(mail, []);
     perAdres.get(mail).push(c);
   }
