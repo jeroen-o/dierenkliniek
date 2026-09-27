@@ -421,6 +421,7 @@ h2.section-title {
   transition: all 0.2s ease;
   cursor: pointer;
   display: flex; flex-direction: column;
+  color: inherit; text-decoration: none;
 }
 .clinic-card:hover {
   transform: translateY(-3px);
@@ -561,6 +562,7 @@ h2.section-title {
   padding: 28px;
   transition: all 0.2s;
   cursor: pointer;
+  display: block; color: inherit; text-decoration: none;
 }
 .kn-card:hover { border-color: var(--dk-blue); transform: translateY(-2px); }
 .kn-meta { font-size: 12px; color: var(--dk-blue-dark); font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 12px; }
@@ -638,8 +640,19 @@ footer .logo span { color: white; opacity: 0.7; }
   background: white; border: 1px solid var(--line); border-radius: var(--r-lg);
   padding: 20px; display: grid; grid-template-columns: 100px 1fr auto; gap: 20px;
   align-items: center; cursor: pointer; transition: all 0.15s;
+  position: relative;
 }
 .result-card:hover { border-color: var(--dk-blue); box-shadow: var(--shadow-md); }
+/* Stretched-link: 1 echte <a> maakt de hele kaart klikbaar/focusbaar zonder
+   ongeldige geneste <a>-in-<a>; overige links (bellen) blijven apart werken
+   via een hogere stacking-context. */
+.result-card .stretched-link::after,
+.clinic-row .stretched-link::after {
+  content: ''; position: absolute; inset: 0; z-index: 1;
+}
+.result-card a:not(.stretched-link), .clinic-row a:not(.stretched-link) {
+  position: relative; z-index: 2;
+}
 .result-thumb {
   width: 100px; height: 100px; border-radius: 14px;
   background: linear-gradient(135deg, var(--dk-blue-light), #C7E8F8);
@@ -1160,6 +1173,7 @@ footer .logo span { color: white; opacity: 0.7; }
   border-radius: var(--r-lg); padding: 28px;
   cursor: pointer; transition: all 0.2s;
   display: flex; flex-direction: column; gap: 12px;
+  color: inherit; text-decoration: none;
 }
 .kb-cat-tile:hover {
   transform: translateY(-3px); box-shadow: var(--shadow-md);
@@ -1181,6 +1195,7 @@ footer .logo span { color: white; opacity: 0.7; }
   background: white; border: 1px solid var(--line);
   border-radius: 16px; padding: 20px 12px;
   text-align: center; cursor: pointer; transition: all 0.2s;
+  display: block; color: inherit; text-decoration: none;
 }
 .kb-animal-tile:hover {
   transform: translateY(-3px); border-color: var(--dk-blue);
@@ -1198,6 +1213,7 @@ footer .logo span { color: white; opacity: 0.7; }
   border-radius: var(--r-lg); padding: 24px;
   cursor: pointer; transition: all 0.2s;
   display: flex; flex-direction: column;
+  color: inherit; text-decoration: none;
 }
 .kb-article-card:hover {
   transform: translateY(-3px); box-shadow: var(--shadow-md);
@@ -1557,7 +1573,7 @@ footer .logo span { color: white; opacity: 0.7; }
 .spoed-province-block .clinic-row {
   display: flex; justify-content: space-between; align-items: center;
   padding: 10px 0; border-bottom: 1px solid var(--line-2);
-  cursor: pointer;
+  cursor: pointer; position: relative;
 }
 .spoed-province-block .clinic-row:last-child { border-bottom: none; }
 .spoed-province-block .clinic-row:hover .name { color: var(--dk-blue); }
@@ -2597,23 +2613,23 @@ body.has-compare-bar { padding-bottom: 90px; }
 
           <div class="form-row-grid">
             <div class="form-row">
-              <label>Uw naam *</label>
-              <input type="text" name="naam" required placeholder="Voor- en achternaam">
+              <label for="ctc-naam">Uw naam *</label>
+              <input type="text" id="ctc-naam" name="naam" required placeholder="Voor- en achternaam">
             </div>
             <div class="form-row">
-              <label>E-mail *</label>
-              <input type="email" name="email" required placeholder="naam@voorbeeld.nl">
+              <label for="ctc-email">E-mail *</label>
+              <input type="email" id="ctc-email" name="email" required placeholder="naam@voorbeeld.nl">
             </div>
           </div>
 
           <div class="form-row-grid">
             <div class="form-row">
-              <label>Telefoon</label>
-              <input type="tel" name="telefoon" placeholder="06 - 1234 5678">
+              <label for="ctc-telefoon">Telefoon</label>
+              <input type="tel" id="ctc-telefoon" name="telefoon" placeholder="06 - 1234 5678">
             </div>
             <div class="form-row">
-              <label>Onderwerp *</label>
-              <select name="onderwerp" required>
+              <label for="ctc-onderwerp">Onderwerp *</label>
+              <select id="ctc-onderwerp" name="onderwerp" required>
                 <option value="">Kies een onderwerp...</option>
                 <option>Algemene vraag</option>
                 <option>Correctie kliniekgegevens</option>
@@ -2627,8 +2643,8 @@ body.has-compare-bar { padding-bottom: 90px; }
           </div>
 
           <div class="form-row">
-            <label>Uw bericht *</label>
-            <textarea name="bericht" rows="6" required placeholder="Beschrijf uw vraag of opmerking zo duidelijk mogelijk..."></textarea>
+            <label for="ctc-bericht">Uw bericht *</label>
+            <textarea id="ctc-bericht" name="bericht" rows="6" required placeholder="Beschrijf uw vraag of opmerking zo duidelijk mogelijk..."></textarea>
           </div>
 
           <button type="submit" class="btn btn-primary btn-block btn-lg">Verstuur bericht</button>

@@ -335,6 +335,7 @@ h2.section-title {
   transition: all 0.2s ease;
   cursor: pointer;
   display: flex; flex-direction: column;
+  color: inherit; text-decoration: none;
 }
 .clinic-card:hover {
   transform: translateY(-3px);
@@ -475,6 +476,7 @@ h2.section-title {
   padding: 28px;
   transition: all 0.2s;
   cursor: pointer;
+  display: block; color: inherit; text-decoration: none;
 }
 .kn-card:hover { border-color: var(--dk-blue); transform: translateY(-2px); }
 .kn-meta { font-size: 12px; color: var(--dk-blue-dark); font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 12px; }
@@ -552,8 +554,19 @@ footer .logo span { color: white; opacity: 0.7; }
   background: white; border: 1px solid var(--line); border-radius: var(--r-lg);
   padding: 20px; display: grid; grid-template-columns: 100px 1fr auto; gap: 20px;
   align-items: center; cursor: pointer; transition: all 0.15s;
+  position: relative;
 }
 .result-card:hover { border-color: var(--dk-blue); box-shadow: var(--shadow-md); }
+/* Stretched-link: 1 echte <a> maakt de hele kaart klikbaar/focusbaar zonder
+   ongeldige geneste <a>-in-<a>; overige links (bellen) blijven apart werken
+   via een hogere stacking-context. */
+.result-card .stretched-link::after,
+.clinic-row .stretched-link::after {
+  content: ''; position: absolute; inset: 0; z-index: 1;
+}
+.result-card a:not(.stretched-link), .clinic-row a:not(.stretched-link) {
+  position: relative; z-index: 2;
+}
 .result-thumb {
   width: 100px; height: 100px; border-radius: 14px;
   background: linear-gradient(135deg, var(--dk-blue-light), #C7E8F8);
@@ -1074,6 +1087,7 @@ footer .logo span { color: white; opacity: 0.7; }
   border-radius: var(--r-lg); padding: 28px;
   cursor: pointer; transition: all 0.2s;
   display: flex; flex-direction: column; gap: 12px;
+  color: inherit; text-decoration: none;
 }
 .kb-cat-tile:hover {
   transform: translateY(-3px); box-shadow: var(--shadow-md);
@@ -1095,6 +1109,7 @@ footer .logo span { color: white; opacity: 0.7; }
   background: white; border: 1px solid var(--line);
   border-radius: 16px; padding: 20px 12px;
   text-align: center; cursor: pointer; transition: all 0.2s;
+  display: block; color: inherit; text-decoration: none;
 }
 .kb-animal-tile:hover {
   transform: translateY(-3px); border-color: var(--dk-blue);
@@ -1112,6 +1127,7 @@ footer .logo span { color: white; opacity: 0.7; }
   border-radius: var(--r-lg); padding: 24px;
   cursor: pointer; transition: all 0.2s;
   display: flex; flex-direction: column;
+  color: inherit; text-decoration: none;
 }
 .kb-article-card:hover {
   transform: translateY(-3px); box-shadow: var(--shadow-md);
@@ -1471,7 +1487,7 @@ footer .logo span { color: white; opacity: 0.7; }
 .spoed-province-block .clinic-row {
   display: flex; justify-content: space-between; align-items: center;
   padding: 10px 0; border-bottom: 1px solid var(--line-2);
-  cursor: pointer;
+  cursor: pointer; position: relative;
 }
 .spoed-province-block .clinic-row:last-child { border-bottom: none; }
 .spoed-province-block .clinic-row:hover .name { color: var(--dk-blue); }
@@ -2663,7 +2679,7 @@ body.has-compare-bar { padding-bottom: 90px; }
           <div class="search-field">
             <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
             <div class="search-field-content">
-              <label>Postcode of plaats</label>
+              <label for="searchPostcode">Postcode of plaats</label>
               <input type="search" id="searchPostcode" placeholder="bijv. 3511 AA of Utrecht" autocomplete="postal-code" maxlength="40" enterkeyhint="search">
             </div>
           </div>
@@ -2671,7 +2687,7 @@ body.has-compare-bar { padding-bottom: 90px; }
           <div class="search-field">
             <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
             <div class="search-field-content">
-              <label>Naam kliniek (optioneel)</label>
+              <label for="searchKeywordHome">Naam kliniek (optioneel)</label>
               <input type="search" id="searchKeywordHome" placeholder="bijv. Keistad" maxlength="40" enterkeyhint="search">
             </div>
           </div>
@@ -2775,21 +2791,21 @@ body.has-compare-bar { padding-bottom: 90px; }
         <button class="btn btn-outline" onclick="navigate('kennisbank')">Alle artikelen →</button>
       </div>
       <div class="kn-grid">
-        <div class="kn-card" onclick="kbShowArticle(7)">
+        <a class="kn-card" href="/kennisbank/teken-bij-huisdieren-bescherming-en-correct-verwijderen">
           <div class="kn-meta">Preventie · 4 min</div>
           <h3>Teken bij huisdieren: bescherming en verwijderen</h3>
           <p>Het tekenseizoen rekt zich uit van maart tot november. Welke preventie werkt en hoe verwijdert u een teek correct?</p>
-        </div>
-        <div class="kn-card" onclick="kbShowArticle(1)">
+        </a>
+        <a class="kn-card" href="/kennisbank/wanneer-is-iets-echt-een-spoedgeval">
           <div class="kn-meta">Spoed · 4 min</div>
           <h3>Wanneer is iets écht een spoedgeval?</h3>
           <p>Een praktische checklist om te beslissen of u meteen naar de dierenarts moet, of dat het kan wachten tot werktijd.</p>
-        </div>
-        <div class="kn-card" onclick="kbShowArticle(10)">
+        </a>
+        <a class="kn-card" href="/kennisbank/overgewicht-bij-huisdieren-een-groeiend-probleem">
           <div class="kn-meta">Voeding · 5 min</div>
           <h3>Overgewicht herkennen en aanpakken</h3>
           <p>Bijna de helft van de Nederlandse huisdieren is te zwaar. Hoe ziet u het, en wat doet u eraan?</p>
-        </div>
+        </a>
       </div>
     </div>
   </section>
@@ -3063,18 +3079,18 @@ body.has-compare-bar { padding-bottom: 90px; }
       <h2>Gegevens van uw dier</h2>
       <div class="tool-form">
         <div>
-          <label>Diersoort</label>
+          <label for="vpAnimal">Diersoort</label>
           <select id="vpAnimal" onchange="renderVaccinatiePlanner()">
             <option value="hond">Hond</option>
             <option value="kat">Kat</option>
           </select>
         </div>
         <div>
-          <label>Geboortedatum</label>
+          <label for="vpBirthdate">Geboortedatum</label>
           <input type="date" id="vpBirthdate" onchange="renderVaccinatiePlanner()">
         </div>
         <div>
-          <label>Reizen naar buitenland?</label>
+          <label for="vpAbroad">Reizen naar buitenland?</label>
           <select id="vpAbroad" onchange="renderVaccinatiePlanner()">
             <option value="no">Nee</option>
             <option value="yes">Ja (rabiës wordt aanbevolen)</option>
@@ -3340,23 +3356,23 @@ body.has-compare-bar { padding-bottom: 90px; }
 
           <div class="form-row-grid">
             <div class="form-row">
-              <label>Uw naam *</label>
-              <input type="text" name="naam" required placeholder="Voor- en achternaam">
+              <label for="ctc-naam">Uw naam *</label>
+              <input type="text" id="ctc-naam" name="naam" required placeholder="Voor- en achternaam">
             </div>
             <div class="form-row">
-              <label>E-mail *</label>
-              <input type="email" name="email" required placeholder="naam@voorbeeld.nl">
+              <label for="ctc-email">E-mail *</label>
+              <input type="email" id="ctc-email" name="email" required placeholder="naam@voorbeeld.nl">
             </div>
           </div>
 
           <div class="form-row-grid">
             <div class="form-row">
-              <label>Telefoon</label>
-              <input type="tel" name="telefoon" placeholder="06 - 1234 5678">
+              <label for="ctc-telefoon">Telefoon</label>
+              <input type="tel" id="ctc-telefoon" name="telefoon" placeholder="06 - 1234 5678">
             </div>
             <div class="form-row">
-              <label>Onderwerp *</label>
-              <select name="onderwerp" required>
+              <label for="ctc-onderwerp">Onderwerp *</label>
+              <select id="ctc-onderwerp" name="onderwerp" required>
                 <option value="">Kies een onderwerp...</option>
                 <option>Algemene vraag</option>
                 <option>Correctie kliniekgegevens</option>
@@ -3370,8 +3386,8 @@ body.has-compare-bar { padding-bottom: 90px; }
           </div>
 
           <div class="form-row">
-            <label>Uw bericht *</label>
-            <textarea name="bericht" rows="6" required placeholder="Beschrijf uw vraag of opmerking zo duidelijk mogelijk..."></textarea>
+            <label for="ctc-bericht">Uw bericht *</label>
+            <textarea id="ctc-bericht" name="bericht" rows="6" required placeholder="Beschrijf uw vraag of opmerking zo duidelijk mogelijk..."></textarea>
           </div>
 
           <button type="submit" class="btn btn-primary btn-block btn-lg">Verstuur bericht</button>
@@ -3504,7 +3520,7 @@ body.has-compare-bar { padding-bottom: 90px; }
     <div class="spoed-search-box">
       <div class="spoed-search-row">
         <div class="spoed-search-field">
-          <label>Uw postcode</label>
+          <label for="spoedPostcode">Uw postcode</label>
           <input type="text" id="spoedPostcode" placeholder="bv. 5854 CZ" inputmode="numeric" maxlength="7" autocomplete="postal-code">
         </div>
         <button class="btn btn-primary" onclick="filterSpoedByPostcode()">📍 Zoek dichtstbijzijnde</button>
@@ -3529,7 +3545,7 @@ body.has-compare-bar { padding-bottom: 90px; }
           <div class="search-field">
             <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="14" rx="2"/><path d="M3 10h18"/><path d="M7 14h4"/></svg>
             <div class="search-field-content">
-              <label>Postcode of plaats</label>
+              <label for="searchPostcode2">Postcode of plaats</label>
               <input type="search" id="searchPostcode2" placeholder="bijv. 3511 AA of Utrecht" autocomplete="postal-code" maxlength="40" enterkeyhint="search">
             </div>
           </div>
@@ -3537,7 +3553,7 @@ body.has-compare-bar { padding-bottom: 90px; }
           <div class="search-field">
             <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
             <div class="search-field-content">
-              <label>Trefwoord (optioneel)</label>
+              <label for="searchKeyword">Trefwoord (optioneel)</label>
               <input type="search" id="searchKeyword" placeholder="Naam van kliniek..." enterkeyhint="search">
             </div>
           </div>
@@ -3603,59 +3619,59 @@ body.has-compare-bar { padding-bottom: 90px; }
           <p class="form-section-desc">Basis-identiteit van uw kliniek.</p>
 
           <div class="form-row">
-            <label>Bedrijfsnaam <span class="req">*</span></label>
-            <input type="text" name="bedrijfsnaam" required placeholder="Dierenkliniek Voorbeeld">
+            <label for="am-bedrijfsnaam">Bedrijfsnaam <span class="req">*</span></label>
+            <input type="text" id="am-bedrijfsnaam" name="bedrijfsnaam" required placeholder="Dierenkliniek Voorbeeld">
           </div>
 
           <div class="form-row">
-            <label>Handelsnaam (indien anders)</label>
-            <input type="text" name="handelsnaam" placeholder="Optioneel">
+            <label for="am-handelsnaam">Handelsnaam (indien anders)</label>
+            <input type="text" id="am-handelsnaam" name="handelsnaam" placeholder="Optioneel">
           </div>
 
           <div class="form-row-grid">
             <div class="form-row">
-              <label>KVK-nummer <span class="req">*</span></label>
-              <input type="text" name="kvk" required placeholder="12345678" pattern="[0-9]{8}" maxlength="8">
+              <label for="am-kvk">KVK-nummer <span class="req">*</span></label>
+              <input type="text" id="am-kvk" name="kvk" required placeholder="12345678" pattern="[0-9]{8}" maxlength="8">
             </div>
             <div class="form-row">
-              <label>BTW-nummer</label>
-              <input type="text" name="btw" placeholder="NL123456789B01">
-            </div>
-          </div>
-
-          <div class="form-row">
-            <label>Website <span class="req">*</span></label>
-            <input type="url" name="website" required placeholder="https://www.uw-kliniek.nl">
-          </div>
-
-          <div class="form-row-grid">
-            <div class="form-row">
-              <label>Straat + huisnummer <span class="req">*</span></label>
-              <input type="text" name="adres" required placeholder="Hoofdstraat 12">
-            </div>
-            <div class="form-row">
-              <label>Postcode <span class="req">*</span></label>
-              <input type="text" name="postcode" required placeholder="3511 AA" pattern="[0-9]{4}\s?[A-Za-z]{2}">
+              <label for="am-btw">BTW-nummer</label>
+              <input type="text" id="am-btw" name="btw" placeholder="NL123456789B01">
             </div>
           </div>
 
           <div class="form-row">
-            <label>Plaats <span class="req">*</span></label>
-            <input type="text" name="plaats" required placeholder="Utrecht">
+            <label for="am-website">Website <span class="req">*</span></label>
+            <input type="url" id="am-website" name="website" required placeholder="https://www.uw-kliniek.nl">
           </div>
 
           <div class="form-row-grid">
             <div class="form-row">
-              <label>Algemeen telefoonnummer <span class="req">*</span></label>
-              <input type="tel" name="telefoon" required placeholder="030 - 1234567">
+              <label for="am-adres">Straat + huisnummer <span class="req">*</span></label>
+              <input type="text" id="am-adres" name="adres" required placeholder="Hoofdstraat 12">
             </div>
             <div class="form-row">
-              <label>Algemeen e-mailadres <span class="req">*</span></label>
-              <input type="email" name="email" required placeholder="info@uw-kliniek.nl">
+              <label for="am-postcode">Postcode <span class="req">*</span></label>
+              <input type="text" id="am-postcode" name="postcode" required placeholder="3511 AA" pattern="[0-9]{4}\s?[A-Za-z]{2}">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <label for="am-plaats">Plaats <span class="req">*</span></label>
+            <input type="text" id="am-plaats" name="plaats" required placeholder="Utrecht">
+          </div>
+
+          <div class="form-row-grid">
+            <div class="form-row">
+              <label for="am-telefoon">Algemeen telefoonnummer <span class="req">*</span></label>
+              <input type="tel" id="am-telefoon" name="telefoon" required placeholder="030 - 1234567">
             </div>
             <div class="form-row">
-              <label>WhatsApp-nummer <span style="color:#6b7280; font-weight:400; font-size:12px;">(optioneel — komt als aparte groene knop op uw kliniek-pagina)</span></label>
-              <input type="tel" name="whatsapp" placeholder="06 - 12345678">
+              <label for="am-email">Algemeen e-mailadres <span class="req">*</span></label>
+              <input type="email" id="am-email" name="email" required placeholder="info@uw-kliniek.nl">
+            </div>
+            <div class="form-row">
+              <label for="am-whatsapp">WhatsApp-nummer <span style="color:#6b7280; font-weight:400; font-size:12px;">(optioneel — komt als aparte groene knop op uw kliniek-pagina)</span></label>
+              <input type="tel" id="am-whatsapp" name="whatsapp" placeholder="06 - 12345678">
             </div>
           </div>
         </fieldset>
@@ -3667,23 +3683,23 @@ body.has-compare-bar { padding-bottom: 90px; }
 
           <div class="form-row-grid">
             <div class="form-row">
-              <label>Naam <span class="req">*</span></label>
-              <input type="text" name="contact_naam" required placeholder="Voor- en achternaam">
+              <label for="am-contact-naam">Naam <span class="req">*</span></label>
+              <input type="text" id="am-contact-naam" name="contact_naam" required placeholder="Voor- en achternaam">
             </div>
             <div class="form-row">
-              <label>Functie</label>
-              <input type="text" name="contact_functie" placeholder="Praktijkeigenaar / Manager">
+              <label for="am-contact-functie">Functie</label>
+              <input type="text" id="am-contact-functie" name="contact_functie" placeholder="Praktijkeigenaar / Manager">
             </div>
           </div>
 
           <div class="form-row-grid">
             <div class="form-row">
-              <label>E-mail <span class="req">*</span></label>
-              <input type="email" name="contact_email" required placeholder="naam@uw-kliniek.nl">
+              <label for="am-contact-email">E-mail <span class="req">*</span></label>
+              <input type="email" id="am-contact-email" name="contact_email" required placeholder="naam@uw-kliniek.nl">
             </div>
             <div class="form-row">
-              <label>Telefoon (direct)</label>
-              <input type="tel" name="contact_telefoon" placeholder="06 - 12345678">
+              <label for="am-contact-telefoon">Telefoon (direct)</label>
+              <input type="tel" id="am-contact-telefoon" name="contact_telefoon" placeholder="06 - 12345678">
             </div>
           </div>
         </fieldset>
@@ -3694,14 +3710,14 @@ body.has-compare-bar { padding-bottom: 90px; }
           <p class="form-section-desc">Deze tekst verschijnt op uw vermelding. Maak het persoonlijk en concreet — wat maakt uw kliniek uniek?</p>
 
           <div class="form-row">
-            <label>Korte omschrijving (1-2 zinnen)</label>
-            <input type="text" name="korte_omschrijving" maxlength="160" placeholder="Bijv. Familievriendelijke kliniek met aandacht voor kat én hond, gevestigd sinds 1998.">
+            <label for="am-korte-omschrijving">Korte omschrijving (1-2 zinnen)</label>
+            <input type="text" id="am-korte-omschrijving" name="korte_omschrijving" maxlength="160" placeholder="Bijv. Familievriendelijke kliniek met aandacht voor kat én hond, gevestigd sinds 1998.">
             <small class="form-hint">Maximaal 160 tekens. Verschijnt onder de naam van uw kliniek.</small>
           </div>
 
           <div class="form-row">
-            <label>Uitgebreide omschrijving</label>
-            <textarea name="omschrijving" rows="5" maxlength="1500" placeholder="Vertel over uw kliniek, werkwijze, sfeer, geschiedenis, en wat u onderscheidt van anderen."></textarea>
+            <label for="am-omschrijving">Uitgebreide omschrijving</label>
+            <textarea id="am-omschrijving" name="omschrijving" rows="5" maxlength="1500" placeholder="Vertel over uw kliniek, werkwijze, sfeer, geschiedenis, en wat u onderscheidt van anderen."></textarea>
             <small class="form-hint">Maximaal 1500 tekens. Wordt op uw vermelding-pagina getoond.</small>
           </div>
 
@@ -3721,8 +3737,8 @@ body.has-compare-bar { padding-bottom: 90px; }
           </div>
 
           <div class="form-row">
-            <label>Specialisaties &amp; focus-gebieden</label>
-            <textarea name="specialisaties" rows="3" placeholder="Bijv. Gebitsbehandelingen, gedragsbegeleiding, oogheelkunde, exoten-zorg…"></textarea>
+            <label for="am-specialisaties">Specialisaties &amp; focus-gebieden</label>
+            <textarea id="am-specialisaties" name="specialisaties" rows="3" placeholder="Bijv. Gebitsbehandelingen, gedragsbegeleiding, oogheelkunde, exoten-zorg…"></textarea>
             <small class="form-hint">Vrije tekst — wat doet u extra goed of waar bent u in gespecialiseerd?</small>
           </div>
 
@@ -3757,18 +3773,18 @@ body.has-compare-bar { padding-bottom: 90px; }
           <p class="form-section-desc">Laat leeg of zet "gesloten" voor dagen waarop u dicht bent. Bijvoorbeeld "08:00-12:00, 13:30-17:30" voor middagpauze.</p>
 
           <div class="oh-grid">
-            <div class="form-row"><label>Maandag</label><input type="text" name="oh_ma" placeholder="08:00-17:00 of 'gesloten'"></div>
-            <div class="form-row"><label>Dinsdag</label><input type="text" name="oh_di" placeholder="08:00-17:00"></div>
-            <div class="form-row"><label>Woensdag</label><input type="text" name="oh_wo" placeholder="08:00-17:00"></div>
-            <div class="form-row"><label>Donderdag</label><input type="text" name="oh_do" placeholder="08:00-17:00"></div>
-            <div class="form-row"><label>Vrijdag</label><input type="text" name="oh_vr" placeholder="08:00-17:00"></div>
-            <div class="form-row"><label>Zaterdag</label><input type="text" name="oh_za" placeholder="gesloten of 09:00-12:00"></div>
-            <div class="form-row"><label>Zondag</label><input type="text" name="oh_zo" placeholder="gesloten"></div>
+            <div class="form-row"><label for="am-oh-ma">Maandag</label><input type="text" id="am-oh-ma" name="oh_ma" placeholder="08:00-17:00 of 'gesloten'"></div>
+            <div class="form-row"><label for="am-oh-di">Dinsdag</label><input type="text" id="am-oh-di" name="oh_di" placeholder="08:00-17:00"></div>
+            <div class="form-row"><label for="am-oh-wo">Woensdag</label><input type="text" id="am-oh-wo" name="oh_wo" placeholder="08:00-17:00"></div>
+            <div class="form-row"><label for="am-oh-do">Donderdag</label><input type="text" id="am-oh-do" name="oh_do" placeholder="08:00-17:00"></div>
+            <div class="form-row"><label for="am-oh-vr">Vrijdag</label><input type="text" id="am-oh-vr" name="oh_vr" placeholder="08:00-17:00"></div>
+            <div class="form-row"><label for="am-oh-za">Zaterdag</label><input type="text" id="am-oh-za" name="oh_za" placeholder="gesloten of 09:00-12:00"></div>
+            <div class="form-row"><label for="am-oh-zo">Zondag</label><input type="text" id="am-oh-zo" name="oh_zo" placeholder="gesloten"></div>
           </div>
 
           <div class="form-row">
-            <label>Spoedbeleid buiten openingstijden</label>
-            <select name="spoedbeleid">
+            <label for="am-spoedbeleid">Spoedbeleid buiten openingstijden</label>
+            <select id="am-spoedbeleid" name="spoedbeleid">
               <option value="">— Maak een keuze —</option>
               <option value="24-7-zelf">Wij zijn 24/7 zelf bereikbaar voor onze klanten</option>
               <option value="doorverwezen">Doorverwijzing naar collega-praktijk / spoedkliniek</option>
@@ -3777,8 +3793,8 @@ body.has-compare-bar { padding-bottom: 90px; }
           </div>
 
           <div class="form-row">
-            <label>Toelichting spoed (optioneel)</label>
-            <textarea name="spoed_toelichting" rows="2" placeholder="Bijv. 'Buiten openingstijden verwijzen wij door naar Dierenspoedkliniek X (telefoon: 030-...)'"></textarea>
+            <label for="am-spoed-toelichting">Toelichting spoed (optioneel)</label>
+            <textarea id="am-spoed-toelichting" name="spoed_toelichting" rows="2" placeholder="Bijv. 'Buiten openingstijden verwijzen wij door naar Dierenspoedkliniek X (telefoon: 030-...)'"></textarea>
           </div>
         </fieldset>
 
@@ -3788,13 +3804,13 @@ body.has-compare-bar { padding-bottom: 90px; }
           <p class="form-section-desc">Wie werkt er bij u? Voor Plus- en Premium-pakketten kunnen we deze namen ook op uw vermelding tonen.</p>
 
           <div class="form-row">
-            <label>Dierenartsen</label>
-            <textarea name="dierenartsen" rows="4" placeholder="Eén per regel. Optioneel met titel of specialisatie.&#10;Bijv.:&#10;Drs. Marieke Jansen — praktijkeigenaar, gebitsbehandelingen&#10;Drs. Pieter de Vries — chirurgie&#10;Drs. Anna Bakker"></textarea>
+            <label for="am-dierenartsen">Dierenartsen</label>
+            <textarea id="am-dierenartsen" name="dierenartsen" rows="4" placeholder="Eén per regel. Optioneel met titel of specialisatie.&#10;Bijv.:&#10;Drs. Marieke Jansen — praktijkeigenaar, gebitsbehandelingen&#10;Drs. Pieter de Vries — chirurgie&#10;Drs. Anna Bakker"></textarea>
           </div>
 
           <div class="form-row">
-            <label>Paraveterinair / dierenarts-assistenten</label>
-            <textarea name="assistenten" rows="3" placeholder="Eén per regel. Voornaam volstaat.&#10;Bijv.:&#10;Lisa, Senior assistente&#10;Tom&#10;Sophie"></textarea>
+            <label for="am-assistenten">Paraveterinair / dierenarts-assistenten</label>
+            <textarea id="am-assistenten" name="assistenten" rows="3" placeholder="Eén per regel. Voornaam volstaat.&#10;Bijv.:&#10;Lisa, Senior assistente&#10;Tom&#10;Sophie"></textarea>
           </div>
         </fieldset>
 
@@ -3805,23 +3821,23 @@ body.has-compare-bar { padding-bottom: 90px; }
 
           <div class="form-row-grid">
             <div class="form-row">
-              <label>Facebook</label>
-              <input type="url" name="facebook" placeholder="https://facebook.com/uw-kliniek">
+              <label for="am-facebook">Facebook</label>
+              <input type="url" id="am-facebook" name="facebook" placeholder="https://facebook.com/uw-kliniek">
             </div>
             <div class="form-row">
-              <label>Instagram</label>
-              <input type="url" name="instagram" placeholder="https://instagram.com/uw-kliniek">
+              <label for="am-instagram">Instagram</label>
+              <input type="url" id="am-instagram" name="instagram" placeholder="https://instagram.com/uw-kliniek">
             </div>
           </div>
 
           <div class="form-row-grid">
             <div class="form-row">
-              <label>LinkedIn</label>
-              <input type="url" name="linkedin" placeholder="https://linkedin.com/company/...">
+              <label for="am-linkedin">LinkedIn</label>
+              <input type="url" id="am-linkedin" name="linkedin" placeholder="https://linkedin.com/company/...">
             </div>
             <div class="form-row">
-              <label>Google Business pagina</label>
-              <input type="url" name="google" placeholder="https://maps.google.com/...">
+              <label for="am-google">Google Business pagina</label>
+              <input type="url" id="am-google" name="google" placeholder="https://maps.google.com/...">
             </div>
           </div>
         </fieldset>
@@ -3877,8 +3893,8 @@ body.has-compare-bar { padding-bottom: 90px; }
           <legend>9. Tot slot</legend>
 
           <div class="form-row">
-            <label>Vraag of opmerking</label>
-            <textarea name="opmerking" rows="3" placeholder="Iets wat we moeten weten? Vragen over de pakketten, planning, of iets anders?"></textarea>
+            <label for="am-opmerking">Vraag of opmerking</label>
+            <textarea id="am-opmerking" name="opmerking" rows="3" placeholder="Iets wat we moeten weten? Vragen over de pakketten, planning, of iets anders?"></textarea>
           </div>
 
           <div class="checkbox-stack">
@@ -4104,31 +4120,31 @@ body.has-compare-bar { padding-bottom: 90px; }
           <input type="hidden" name="partner" value="dierenklinieken">
           <div class="form-row-grid">
             <div class="form-row">
-              <label>Klinieksnaam <span class="req">*</span></label>
-              <input type="text" name="kliniek" required placeholder="Dierenkliniek Voorbeeld">
+              <label for="wi-kliniek">Klinieksnaam <span class="req">*</span></label>
+              <input type="text" id="wi-kliniek" name="kliniek" required placeholder="Dierenkliniek Voorbeeld">
             </div>
             <div class="form-row">
-              <label>Plaats <span class="req">*</span></label>
-              <input type="text" name="plaats" required placeholder="Utrecht">
+              <label for="wi-plaats">Plaats <span class="req">*</span></label>
+              <input type="text" id="wi-plaats" name="plaats" required placeholder="Utrecht">
             </div>
           </div>
           <div class="form-row-grid">
             <div class="form-row">
-              <label>Uw naam <span class="req">*</span></label>
-              <input type="text" name="naam" required placeholder="Voor- en achternaam">
+              <label for="wi-naam">Uw naam <span class="req">*</span></label>
+              <input type="text" id="wi-naam" name="naam" required placeholder="Voor- en achternaam">
             </div>
             <div class="form-row">
-              <label>Telefoon</label>
-              <input type="tel" name="telefoon" placeholder="06 - 12345678">
+              <label for="wi-telefoon">Telefoon</label>
+              <input type="tel" id="wi-telefoon" name="telefoon" placeholder="06 - 12345678">
             </div>
           </div>
           <div class="form-row">
-            <label>E-mail <span class="req">*</span></label>
-            <input type="email" name="email" required placeholder="naam@voorbeeld.nl">
+            <label for="wi-email">E-mail <span class="req">*</span></label>
+            <input type="email" id="wi-email" name="email" required placeholder="naam@voorbeeld.nl">
           </div>
           <div class="form-row">
-            <label>Heeft u al een eigen website?</label>
-            <select name="huidige_site">
+            <label for="wi-huidige-site">Heeft u al een eigen website?</label>
+            <select id="wi-huidige-site" name="huidige_site">
               <option value="">— Maak een keuze —</option>
               <option value="ja">Ja, maar wil graag iets nieuws</option>
               <option value="ja-tevreden">Ja, en daar ben ik tevreden over</option>
@@ -4137,8 +4153,8 @@ body.has-compare-bar { padding-bottom: 90px; }
             </select>
           </div>
           <div class="form-row">
-            <label>Vragen of opmerkingen</label>
-            <textarea name="opmerking" rows="3" placeholder="Optioneel — laat ons weten waar u nieuwsgierig naar bent."></textarea>
+            <label for="wi-opmerking">Vragen of opmerkingen</label>
+            <textarea id="wi-opmerking" name="opmerking" rows="3" placeholder="Optioneel — laat ons weten waar u nieuwsgierig naar bent."></textarea>
           </div>
           <button type="submit" class="btn btn-primary btn-block btn-lg" style="margin-top: 8px;">
             Ja, plan een vrijblijvend gesprek →
@@ -4501,36 +4517,36 @@ body.has-compare-bar { padding-bottom: 90px; }
         <p>Kies een categorie om alle artikelen te bekijken</p>
       </div>
       <div class="kb-cat-grid">
-        <div class="kb-cat-tile" onclick="kbShowCategory('spoed')">
+        <a class="kb-cat-tile" href="/kennisbank/categorie-spoed">
           <div class="kb-cat-icon" style="background:#C62828">⚡</div>
           <h3>Eerste hulp &amp; spoed</h3>
           <div class="count">5 artikelen</div>
-        </div>
-        <div class="kb-cat-tile" onclick="kbShowCategory('preventie')">
+        </a>
+        <a class="kb-cat-tile" href="/kennisbank/categorie-preventie">
           <div class="kb-cat-icon" style="background:#00754A">🛡️</div>
           <h3>Preventie &amp; vaccinaties</h3>
           <div class="count">11 artikelen</div>
-        </div>
-        <div class="kb-cat-tile" onclick="kbShowCategory('voeding')">
+        </a>
+        <a class="kb-cat-tile" href="/kennisbank/categorie-voeding">
           <div class="kb-cat-icon" style="background:#C2410C">🍎</div>
           <h3>Voeding &amp; gewicht</h3>
           <div class="count">6 artikelen</div>
-        </div>
-        <div class="kb-cat-tile" onclick="kbShowCategory('gedrag')">
+        </a>
+        <a class="kb-cat-tile" href="/kennisbank/categorie-gedrag">
           <div class="kb-cat-icon" style="background:#9B59B6">❤️</div>
           <h3>Gedrag &amp; welzijn</h3>
           <div class="count">4 artikelen</div>
-        </div>
-        <div class="kb-cat-tile" onclick="kbShowCategory('levensfasen')">
+        </a>
+        <a class="kb-cat-tile" href="/kennisbank/categorie-levensfasen">
           <div class="kb-cat-icon" style="background:#0070AC">📅</div>
           <h3>Puppy, volwassen, senior</h3>
           <div class="count">3 artikelen</div>
-        </div>
-        <div class="kb-cat-tile" onclick="kbShowCategory('praktisch')">
+        </a>
+        <a class="kb-cat-tile" href="/kennisbank/categorie-praktisch">
           <div class="kb-cat-icon" style="background:#FFB800">📖</div>
           <h3>Praktische zaken</h3>
           <div class="count">7 artikelen</div>
-        </div>
+        </a>
       </div>
     </div>
   </section>
@@ -4542,41 +4558,41 @@ body.has-compare-bar { padding-bottom: 90px; }
         <p>Specifieke informatie voor uw type huisdier</p>
       </div>
       <div class="kb-animal-grid">
-        <div class="kb-animal-tile" onclick="kbShowAnimal('hond')">
+        <a class="kb-animal-tile" href="/kennisbank/dier-hond">
           <div class="emoji">🐕</div>
           <div class="name">Hond</div>
           <div class="count">15 artikelen</div>
-        </div>
-        <div class="kb-animal-tile" onclick="kbShowAnimal('kat')">
+        </a>
+        <a class="kb-animal-tile" href="/kennisbank/dier-kat">
           <div class="emoji">🐈</div>
           <div class="name">Kat</div>
           <div class="count">10 artikelen</div>
-        </div>
-        <div class="kb-animal-tile" onclick="kbShowAnimal('konijn')">
+        </a>
+        <a class="kb-animal-tile" href="/kennisbank/dier-konijn">
           <div class="emoji">🐰</div>
           <div class="name">Konijn</div>
           <div class="count">3 artikelen</div>
-        </div>
-        <div class="kb-animal-tile" onclick="kbShowAnimal('knaagdier')">
+        </a>
+        <a class="kb-animal-tile" href="/kennisbank/dier-knaagdier">
           <div class="emoji">🐹</div>
           <div class="name">Knaagdieren</div>
           <div class="count">3 artikelen</div>
-        </div>
-        <div class="kb-animal-tile" onclick="kbShowAnimal('vogel')">
+        </a>
+        <a class="kb-animal-tile" href="/kennisbank/dier-vogel">
           <div class="emoji">🦜</div>
           <div class="name">Vogels</div>
           <div class="count">1 artikel</div>
-        </div>
-        <div class="kb-animal-tile" onclick="kbShowAnimal('reptiel')">
+        </a>
+        <a class="kb-animal-tile" href="/kennisbank/dier-reptiel">
           <div class="emoji">🦎</div>
           <div class="name">Reptielen</div>
           <div class="count">1 artikel</div>
-        </div>
-        <div class="kb-animal-tile" onclick="kbShowAnimal('paard')">
+        </a>
+        <a class="kb-animal-tile" href="/kennisbank/dier-paard">
           <div class="emoji">🐴</div>
           <div class="name">Paarden</div>
           <div class="count">1 artikel</div>
-        </div>
+        </a>
       </div>
     </div>
   </section>
@@ -4588,7 +4604,7 @@ body.has-compare-bar { padding-bottom: 90px; }
         <p>De nieuwste artikelen in onze kennisbank</p>
       </div>
       <div class="kb-articles-grid">
-        <div class="kb-article-card" onclick="kbShowArticle(36)">
+        <a class="kb-article-card" href="/kennisbank/net-een-nieuw-huisdier-checklist-voor-de-eerste-maand">
           <div class="kb-art-meta">
             <span class="cat-pill" style="background:#00754A">Preventie &amp; vaccinaties</span>
             <span class="read-time">5 min</span>
@@ -4596,8 +4612,8 @@ body.has-compare-bar { padding-bottom: 90px; }
           <h3>Net een nieuw huisdier? Checklist voor de eerste maand</h3>
           <p>Een praktische checklist met alles wat u moet regelen in de eerste maand met een nieuwe hond of kat.</p>
           <div class="read-link">Lees verder →</div>
-        </div>
-        <div class="kb-article-card" onclick="kbShowArticle(35)">
+        </a>
+        <a class="kb-article-card" href="/kennisbank/mijn-dier-is-gechipt-waar-staat-het-geregistreerd">
           <div class="kb-art-meta">
             <span class="cat-pill" style="background:#FFB800;color:#6B4F00">Praktische zaken</span>
             <span class="read-time">4 min</span>
@@ -4605,8 +4621,8 @@ body.has-compare-bar { padding-bottom: 90px; }
           <h3>Mijn dier is gechipt — waar staat het geregistreerd?</h3>
           <p>Hoe werkt chipregistratie in Nederland en hoe vind u de eigenaar van een gevonden dier?</p>
           <div class="read-link">Lees verder →</div>
-        </div>
-        <div class="kb-article-card" onclick="kbShowArticle(34)">
+        </a>
+        <a class="kb-article-card" href="/kennisbank/wat-kost-een-dierenarts-algemene-richtprijzen">
           <div class="kb-art-meta">
             <span class="cat-pill" style="background:#FFB800;color:#6B4F00">Praktische zaken</span>
             <span class="read-time">5 min</span>
@@ -4614,8 +4630,8 @@ body.has-compare-bar { padding-bottom: 90px; }
           <h3>Wat kost een dierenarts? Algemene richtprijzen</h3>
           <p>Indicatieve marktcijfers voor consult, vaccinatie, sterilisatie en spoedhulp. Plus uitleg over dierverzekeringen.</p>
           <div class="read-link">Lees verder →</div>
-        </div>
-        <div class="kb-article-card" onclick="kbShowArticle(33)">
+        </a>
+        <a class="kb-article-card" href="/kennisbank/ontwormen-en-vlooien-een-praktisch-schema">
           <div class="kb-art-meta">
             <span class="cat-pill" style="background:#00754A">Preventie &amp; vaccinaties</span>
             <span class="read-time">5 min</span>
@@ -4623,8 +4639,8 @@ body.has-compare-bar { padding-bottom: 90px; }
           <h3>Ontwormen en vlooien — een praktisch schema</h3>
           <p>Wanneer ontwormen, welke middelen werken, en hoe pakt u een vlooienplaag effectief aan.</p>
           <div class="read-link">Lees verder →</div>
-        </div>
-        <div class="kb-article-card" onclick="kbShowArticle(32)">
+        </a>
+        <a class="kb-article-card" href="/kennisbank/vaccinatieschema-voor-honden-en-katten-wanneer-welke-prik">
           <div class="kb-art-meta">
             <span class="cat-pill" style="background:#00754A">Preventie &amp; vaccinaties</span>
             <span class="read-time">6 min</span>
@@ -4632,8 +4648,8 @@ body.has-compare-bar { padding-bottom: 90px; }
           <h3>Vaccinatieschema voor honden en katten</h3>
           <p>Welke vaccinaties op welke leeftijd, plus aanvullende vaccinaties voor reizen of risicogroepen.</p>
           <div class="read-link">Lees verder →</div>
-        </div>
-        <div class="kb-article-card" onclick="kbShowArticle(31)">
+        </a>
+        <a class="kb-article-card" href="/kennisbank/eerste-hulp-bij-dieren-wat-te-doen-bij-een-spoedgeval">
           <div class="kb-art-meta">
             <span class="cat-pill" style="background:#C62828">Eerste hulp &amp; spoed</span>
             <span class="read-time">8 min</span>
@@ -4641,7 +4657,7 @@ body.has-compare-bar { padding-bottom: 90px; }
           <h3>Eerste hulp bij dieren — wat te doen bij een spoedgeval</h3>
           <p>Een complete gids voor vergiftigingen, bloedingen en andere spoedsituaties. Plus wanneer u écht moet bellen.</p>
           <div class="read-link">Lees verder →</div>
-        </div>
+        </a>
       </div>
     </div>
   </section>
@@ -5183,37 +5199,37 @@ body.has-compare-bar { padding-bottom: 90px; }
       <p>Vul uw gegevens in en wij nemen binnen 24 uur contact met u op.</p>
       <div class="form-row-grid">
         <div class="form-row">
-          <label>Naam kliniek *</label>
-          <input type="text" name="kliniek" required placeholder="Dierenkliniek X">
+          <label for="su-kliniek">Naam kliniek *</label>
+          <input type="text" id="su-kliniek" name="kliniek" required placeholder="Dierenkliniek X">
         </div>
         <div class="form-row">
-          <label>Plaats *</label>
-          <input type="text" name="plaats" required placeholder="Utrecht">
-        </div>
-      </div>
-      <div class="form-row-grid">
-        <div class="form-row">
-          <label>Uw naam *</label>
-          <input type="text" name="naam" required placeholder="Voor- en achternaam">
-        </div>
-        <div class="form-row">
-          <label>Uw functie</label>
-          <input type="text" name="functie" placeholder="Praktijkeigenaar">
+          <label for="su-plaats">Plaats *</label>
+          <input type="text" id="su-plaats" name="plaats" required placeholder="Utrecht">
         </div>
       </div>
       <div class="form-row-grid">
         <div class="form-row">
-          <label>E-mail *</label>
-          <input type="email" name="email" required placeholder="info@uw-kliniek.nl">
+          <label for="su-naam">Uw naam *</label>
+          <input type="text" id="su-naam" name="naam" required placeholder="Voor- en achternaam">
         </div>
         <div class="form-row">
-          <label>Telefoon</label>
-          <input type="tel" name="telefoon" placeholder="030 - 1234567">
+          <label for="su-functie">Uw functie</label>
+          <input type="text" id="su-functie" name="functie" placeholder="Praktijkeigenaar">
+        </div>
+      </div>
+      <div class="form-row-grid">
+        <div class="form-row">
+          <label for="su-email">E-mail *</label>
+          <input type="email" id="su-email" name="email" required placeholder="info@uw-kliniek.nl">
+        </div>
+        <div class="form-row">
+          <label for="su-telefoon">Telefoon</label>
+          <input type="tel" id="su-telefoon" name="telefoon" placeholder="030 - 1234567">
         </div>
       </div>
       <div class="form-row">
-        <label>Pakket interesse *</label>
-        <select name="pakket" required>
+        <label for="su-pakket">Pakket interesse *</label>
+        <select id="su-pakket" name="pakket" required>
           <option>Basis (gratis, al actief)</option>
           <option selected>Plus (€395/jaar) — populair</option>
           <option>Plus + Topvermelding (op aanvraag)</option>
@@ -5222,8 +5238,8 @@ body.has-compare-bar { padding-bottom: 90px; }
         </select>
       </div>
       <div class="form-row">
-        <label>Vraag of opmerking</label>
-        <textarea name="opmerking" rows="3" placeholder="Optioneel"></textarea>
+        <label for="su-opmerking">Vraag of opmerking</label>
+        <textarea id="su-opmerking" name="opmerking" rows="3" placeholder="Optioneel"></textarea>
       </div>
       <button type="submit" class="btn btn-primary btn-block btn-lg">Verstuur aanmelding</button>
       <p style="font-size: 13px; color: var(--ink-3); margin-top: 12px; text-align: center;">
@@ -5770,7 +5786,7 @@ function renderClinicResultCard(c, withDistance) {
                   : c.tier === 'plus' ? '<span class="tier-badge tier-plus">Plus</span>'
                   : '';
   return `
-    <div class="result-card tier-${c.tier}" onclick="window.location.href='/${clinicSlug(c)}';" style="cursor:pointer;">
+    <div class="result-card tier-${c.tier}">
       <div class="result-thumb">
         ${avatarHtml(c)}
       </div>
@@ -5785,8 +5801,8 @@ function renderClinicResultCard(c, withDistance) {
         </div>
       </div>
       <div class="result-actions">
-        <a class="btn btn-primary btn-sm" href="/${clinicSlug(c)}" onclick="event.stopPropagation();" style="text-decoration:none;">Bekijk profiel →</a>
-        ${showContact && c.phone ? `<a href="tel:${c.phone.replace(/\s|-/g,'')}" class="btn btn-outline btn-sm" onclick="event.stopPropagation()" style="margin-top:6px;">📞 Bellen</a>` : ''}
+        <a class="btn btn-primary btn-sm stretched-link" href="/${clinicSlug(c)}" style="text-decoration:none;">Bekijk profiel →</a>
+        ${showContact && c.phone ? `<a href="tel:${c.phone.replace(/\s|-/g,'')}" class="btn btn-outline btn-sm">📞 Bellen</a>` : ''}
       </div>
     </div>
   `;
@@ -5827,14 +5843,14 @@ function renderSpoedClinics(originLatLng) {
       const phoneClean = c.phone ? c.phone.replace(/\s|-/g,'') : '';
       const distLabel = c._dist < 10 ? `${c._dist.toFixed(1)} km` : `${Math.round(c._dist)} km`;
       const gmapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(c.address + ', ' + c.postcode + ' ' + c.city)}`;
-      html += `<div class="clinic-row" onclick="window.location.href='/${clinicSlug(c)}';" style="cursor:pointer;">
+      html += `<div class="clinic-row">
         <div class="clinic-row-info">
-          <div class="name"><span class="distance-pill">${distLabel}</span>${c.name}</div>
+          <div class="name"><span class="distance-pill">${distLabel}</span><a class="stretched-link" href="/${clinicSlug(c)}" style="color:inherit;text-decoration:none;">${c.name}</a></div>
           <div class="meta">${c.address}, ${c.city}</div>
         </div>
         <div class="clinic-row-actions">
-          <a href="${gmapsUrl}" target="_blank" rel="noopener" class="action-route" onclick="event.stopPropagation()">📍 Route</a>
-          ${c.phone ? `<a href="tel:${phoneClean}" class="action-phone" onclick="event.stopPropagation()">📞 ${c.phone}</a>` : ''}
+          <a href="${gmapsUrl}" target="_blank" rel="noopener" class="action-route">📍 Route</a>
+          ${c.phone ? `<a href="tel:${phoneClean}" class="action-phone">📞 ${c.phone}</a>` : ''}
         </div>
       </div>`;
     });
@@ -5859,14 +5875,14 @@ function renderSpoedClinics(originLatLng) {
     spoedKlin.sort((a,b) => a.name.localeCompare(b.name, 'nl')).forEach(c => {
       const phoneClean = c.phone ? c.phone.replace(/\s|-/g,'') : '';
       const gmapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(c.address + ', ' + c.postcode + ' ' + c.city)}`;
-      html += `<div class="clinic-row" onclick="window.location.href='/${clinicSlug(c)}';" style="cursor:pointer;">
+      html += `<div class="clinic-row">
         <div class="clinic-row-info">
-          <div class="name">${c.name}</div>
+          <div class="name"><a class="stretched-link" href="/${clinicSlug(c)}" style="color:inherit;text-decoration:none;">${c.name}</a></div>
           <div class="meta">${c.address}, ${c.city}</div>
         </div>
         <div class="clinic-row-actions">
-          <a href="${gmapsUrl}" target="_blank" rel="noopener" class="action-route" onclick="event.stopPropagation()">📍 Route</a>
-          ${c.phone ? `<a href="tel:${phoneClean}" class="action-phone" onclick="event.stopPropagation()">📞 ${c.phone}</a>` : ''}
+          <a href="${gmapsUrl}" target="_blank" rel="noopener" class="action-route">📍 Route</a>
+          ${c.phone ? `<a href="tel:${phoneClean}" class="action-phone">📞 ${c.phone}</a>` : ''}
         </div>
       </div>`;
     });
@@ -5989,7 +6005,7 @@ function renderFeatured() {
   const featured = dedupeByName([...tops.slice(0, 4), ...pluses.slice(0, 4)]);
   const grid = document.getElementById('featuredGrid');
   grid.innerHTML = featured.map(c => `
-    <div class="clinic-card tier-${c.tier}" onclick="window.location.href='/${clinicSlug(c)}';" style="cursor:pointer;">
+    <a class="clinic-card tier-${c.tier}" href="/${clinicSlug(c)}">
       <div class="clinic-card-img">
         ${avatarHtml(c)}
         ${c.tier === 'top' ? '<span class="clinic-badge" style="background:linear-gradient(135deg,#FFD93D,#FFB800);color:#6B4F00;">⭐ Gesponsord</span>' : ''}
@@ -6005,7 +6021,7 @@ function renderFeatured() {
           ${c.tier === 'plus' ? '<span class="tag" style="background:var(--dk-blue-50);color:var(--dk-blue-deep);">Plus-lid</span>' : ''}
         </div>
       </div>
-    </div>
+    </a>
   `).join('');
 }
 
@@ -6243,7 +6259,7 @@ function renderSearchResults() {
                     : c.tier === 'plus' ? '<span class="tier-badge tier-plus">Plus</span>'
                     : '';
     return `
-    <div class="result-card tier-${c.tier}" onclick="window.location.href='/${clinicSlug(c)}';" style="cursor:pointer;">
+    <div class="result-card tier-${c.tier}">
       <div class="result-thumb">
         ${avatarHtml(c)}
       </div>
@@ -6257,11 +6273,11 @@ function renderSearchResults() {
           ${c._distance !== undefined ? `<span class="result-distance"><svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="2" x2="12" y2="22"/><path d="M2 12h20"/></svg> ${c._distance.toFixed(1).replace('.', ',')} km</span>` : ''}
           ${showContact && c.phone ? `<span><svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> ${c.phone}</span>` : ''}
         </div>
-        
+
       </div>
       <div class="result-actions">
-        <a class="btn btn-primary btn-sm" href="/${clinicSlug(c)}" onclick="event.stopPropagation();" style="text-decoration:none;">Bekijk profiel →</a>
-        ${showContact && c.phone ? `<a href="tel:${c.phone.replace(/\s|-/g,'')}" class="btn btn-outline btn-sm" onclick="event.stopPropagation()" style="margin-top:6px;">📞 Bellen</a>` : ''}
+        <a class="btn btn-primary btn-sm stretched-link" href="/${clinicSlug(c)}" style="text-decoration:none;">Bekijk profiel →</a>
+        ${showContact && c.phone ? `<a href="tel:${c.phone.replace(/\s|-/g,'')}" class="btn btn-outline btn-sm">📞 Bellen</a>` : ''}
       </div>
     </div>
   `;}).join('');
@@ -7951,7 +7967,7 @@ function kbShowAnimal(slug) {
 function renderKbArticleCard(a) {
   const cat = KB_CATEGORIES.find(c => c.slug === a.category);
   const animal = a.animal ? KB_ANIMALS.find(an => an.slug === a.animal) : null;
-  return `<div class="kb-article-card" onclick="kbShowArticle(${a.id})">
+  return `<a class="kb-article-card" href="/kennisbank/${articleSlug(a)}">
     <div class="kb-art-meta">
       ${cat ? `<span class="cat-pill" style="background:${cat.color}${cat.slug === 'praktisch' ? ';color:#6B4F00' : ''}">${cat.name}</span>` : ''}
       ${animal ? `<span class="animal-emoji" title="${animal.name}">${animal.emoji}</span>` : ''}
@@ -7960,7 +7976,7 @@ function renderKbArticleCard(a) {
     <h3>${a.title}</h3>
     <p>${a.excerpt}</p>
     <div class="read-link">Lees verder →</div>
-  </div>`;
+  </a>`;
 }
 
 function renderKbList(articles) {
