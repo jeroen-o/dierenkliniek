@@ -21042,24 +21042,6 @@
     "tier": "basic"
   },
   {
-    "id": 1102,
-    "name": "Gezondheidspraktijk Linda / Opti-Animal",
-    "city": "Zuiddorpe",
-    "address": "Hoofdweg Noord 28",
-    "postcode": "4574 RA",
-    "phone": "06-23626834",
-    "email": "info@gezondheidspraktijklinda.nl",
-    "website": "https://www.opti-natuurshop.nl/",
-    "rating": 0,
-    "reviews": 0,
-    "specs": [],
-    "tags": [],
-    "lat": 51.2378,
-    "lng": 3.9078,
-    "desc": "Veterinaire kliniek in Zuiddorpe. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
-  },
-  {
     "id": 1103,
     "name": "Dierenartsenpraktijk Oostkapelle",
     "city": "Oostkapelle",
