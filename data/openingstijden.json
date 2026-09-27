@@ -11042,5 +11042,15 @@
     "do": "09:00-12:00, 12:30-19:30",
     "vr": "09:00-12:00, 12:30-17:00",
     "bron": "CSV-import, 2026-09-27"
+  },
+  "dierenartspraktijk-wijchen-dierenarts-in-wijchen": {
+    "ma": "09:00-18:00",
+    "di": "09:00-18:00",
+    "wo": "09:00-18:00",
+    "do": "09:00-18:00",
+    "vr": "09:00-18:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "bron": "opgave praktijk, 2026-09-27 — reguliere spreekuurtijden op afspraak; buiten deze tijden en in het weekend 24 uur bereikbaar voor spoed"
   }
 }

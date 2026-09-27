@@ -28294,13 +28294,13 @@
     "address": "Woeziksestraat 339",
     "postcode": "6604 CB",
     "phone": "024-6412208",
-    "email": "",
-    "website": "",
+    "email": "info@dierenartswijchen.nl",
+    "website": "https://dierenartswijchen.nl/",
     "specs": [],
-    "tags": [],
+    "tags": ["spoed"],
     "lat": 51.8071,
     "lng": 5.7303,
-    "desc": "Veterinaire kliniek in Wijchen. Volledige zorg voor gezelschapsdieren.",
+    "desc": "Veterinaire kliniek in Wijchen. Volledige zorg voor gezelschapsdieren. Op afspraak, met spoedbereikbaarheid buiten openingstijden.",
     "tier": "basic"
   }
 ]
