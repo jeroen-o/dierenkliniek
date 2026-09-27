@@ -1,6 +1,6 @@
 # Dierenkliniek.nl
 
-> Dierenkliniek.nl is het onafhankelijke overzicht van alle 1394 dierenklinieken in Nederland. Huisdiereigenaren vinden er een dierenarts op postcode, plaats of provincie, plus 107 klinieken met 24/7 spoedhulp en een kennisbank van 256 artikelen. Geen betaalde voorrang in de zoekresultaten.
+> Dierenkliniek.nl is het onafhankelijke overzicht van alle 1395 dierenklinieken in Nederland. Huisdiereigenaren vinden er een dierenarts op postcode, plaats of provincie, plus 107 klinieken met 24/7 spoedhulp en een kennisbank van 269 artikelen. Geen betaalde voorrang in de zoekresultaten.
 
 Laatst bijgewerkt: 2026-09-27. Exploitant: Dierenkliniek.nl, Darthuizerberg 1, 3825 BK Amersfoort, info@dierenkliniek.nl, 06-59115265.
 
@@ -8,9 +8,9 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 ## Kernpagina's
 
-- [Dierenarts zoeken op postcode](https://dierenkliniek.nl/): startpunt met postcodezoeker en kaart van alle 1394 klinieken
+- [Dierenarts zoeken op postcode](https://dierenkliniek.nl/): startpunt met postcodezoeker en kaart van alle 1395 klinieken
 - [Spoedhulp 24/7](https://dierenkliniek.nl/spoedhulp): 107 klinieken met een 24-uurs spoeddienst, per provincie, met telefoonnummer
-- [Kennisbank](https://dierenkliniek.nl/kennisbank): 256 artikelen over gezondheid, preventie, voeding, gedrag en spoed
+- [Kennisbank](https://dierenkliniek.nl/kennisbank): 269 artikelen over gezondheid, preventie, voeding, gedrag en spoed
 - [Veterinair glossarium](https://dierenkliniek.nl/glossarium): 40 medische termen in gewone taal
 - [Alle provincies](https://dierenkliniek.nl/provincies): klinieken gegroepeerd per provincie
 - [Specialismen](https://dierenkliniek.nl/specialismen): klinieken per aandachtsgebied
@@ -26,7 +26,7 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 - [Dierenklinieken in Zuid-Holland](https://dierenkliniek.nl/dierenklinieken-zuid-holland): 248 klinieken, waarvan 21 met 24/7 spoedhulp
 - [Dierenklinieken in Noord-Holland](https://dierenkliniek.nl/dierenklinieken-noord-holland): 205 klinieken, waarvan 18 met 24/7 spoedhulp
 - [Dierenklinieken in Noord-Brabant](https://dierenkliniek.nl/dierenklinieken-noord-brabant): 169 klinieken, waarvan 18 met 24/7 spoedhulp
-- [Dierenklinieken in Gelderland](https://dierenkliniek.nl/dierenklinieken-gelderland): 163 klinieken, waarvan 16 met 24/7 spoedhulp
+- [Dierenklinieken in Gelderland](https://dierenkliniek.nl/dierenklinieken-gelderland): 164 klinieken, waarvan 16 met 24/7 spoedhulp
 - [Dierenklinieken in Utrecht](https://dierenkliniek.nl/dierenklinieken-utrecht): 141 klinieken, waarvan 14 met 24/7 spoedhulp
 - [Dierenklinieken in Overijssel](https://dierenkliniek.nl/dierenklinieken-overijssel): 112 klinieken, waarvan 3 met 24/7 spoedhulp
 - [Dierenklinieken in Limburg](https://dierenkliniek.nl/dierenklinieken-limburg): 89 klinieken, waarvan 3 met 24/7 spoedhulp
@@ -76,7 +76,7 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 - [Voeding & gewicht](https://dierenkliniek.nl/kennisbank/categorie-voeding): 17 artikelen
 - [Gedrag & welzijn](https://dierenkliniek.nl/kennisbank/categorie-gedrag): 13 artikelen
 - [Puppy, volwassen, senior](https://dierenkliniek.nl/kennisbank/categorie-levensfasen): 12 artikelen
-- [Praktische zaken](https://dierenkliniek.nl/kennisbank/categorie-praktisch): 176 artikelen
+- [Praktische zaken](https://dierenkliniek.nl/kennisbank/categorie-praktisch): 189 artikelen
 
 ## Kennisbank per diersoort
 
@@ -84,9 +84,9 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 - [Kat](https://dierenkliniek.nl/kennisbank/dier-kat): 32 artikelen
 - [Konijn](https://dierenkliniek.nl/kennisbank/dier-konijn): 11 artikelen
 - [Knaagdieren](https://dierenkliniek.nl/kennisbank/dier-knaagdier): 11 artikelen
-- [Vogels](https://dierenkliniek.nl/kennisbank/dier-vogel): 9 artikelen
+- [Vogels](https://dierenkliniek.nl/kennisbank/dier-vogel): 10 artikelen
 - [Reptielen](https://dierenkliniek.nl/kennisbank/dier-reptiel): 9 artikelen
-- [Paarden](https://dierenkliniek.nl/kennisbank/dier-paard): 55 artikelen
+- [Paarden](https://dierenkliniek.nl/kennisbank/dier-paard): 58 artikelen
 - [Kippen](https://dierenkliniek.nl/kennisbank/dier-kip): 14 artikelen
 - [Vissen](https://dierenkliniek.nl/kennisbank/dier-vis): 6 artikelen
 - [Fretten](https://dierenkliniek.nl/kennisbank/dier-fret): 7 artikelen
@@ -349,6 +349,19 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 - [Cleveland Bay — gezondheidsproblemen en zeldzaamheid](https://dierenkliniek.nl/kennisbank/cleveland-bay-gezondheidsproblemen-en-zeldzaamheid): De Cleveland Bay is een zeldzaam Engels paardenras, altijd bruin van kleur. Welke gezondheidsaspecten spelen bij dit bedreigde, veelzijdige ras?
 - [Bretons trekpaard — gezondheidsproblemen en trekkracht](https://dierenkliniek.nl/kennisbank/bretons-trekpaard-gezondheidsproblemen-en-trekkracht): Het Bretons trekpaard is een compact, krachtig Frans trekpaardenras. Welke gezondheidsproblemen komen voor bij dit robuuste, veelgebruikte werkpaard?
 - [Tandheelkundig dierenarts: wanneer is een verwijzing nodig?](https://dierenkliniek.nl/kennisbank/tandheelkundig-dierenarts-wanneer-is-een-verwijzing-nodig): Niet elk gebitsprobleem is met een reguliere gebitsreiniging opgelost. Wat doet een tandheelkundig gespecialiseerde dierenarts, en wanneer verwijst uw eigen dierenarts u door?
+- [Diagnostische beeldvorming bij dieren: CT, MRI, botscan en meer](https://dierenkliniek.nl/kennisbank/diagnostische-beeldvorming-bij-dieren-ct-mri-botscan-en-meer): CT-scan, MRI, botscan, fluoroscopie of een hartfilmpje — wat houden deze onderzoeken in, en wanneer verwijst uw dierenarts ervoor door?
+- [Immuungemedieerde aandoeningen bij honden en katten](https://dierenkliniek.nl/kennisbank/immuungemedieerde-aandoeningen-bij-honden-en-katten): Bloedarmoede, bloedparasieten of een aanval op de eigen gewrichten: bij deze aandoeningen keert het afweersysteem zich tegen het eigen lichaam.
+- [Neurologische aandoeningen bij honden en katten](https://dierenkliniek.nl/kennisbank/neurologische-aandoeningen-bij-honden-en-katten): Een hernia, hersentumor of plotselinge verlamming: neurologische klachten bij honden en katten kunnen uiteenlopende oorzaken hebben.
+- [Huidaandoeningen bij honden en katten per oorzaak](https://dierenkliniek.nl/kennisbank/huidaandoeningen-bij-honden-en-katten-per-oorzaak): Jeuk, kaalheid of korstjes: dezelfde huidklachten kunnen door bacteriën, virussen, hormonen of het eigen afweersysteem worden veroorzaakt.
+- [Hart- en longziekten bij honden en katten](https://dierenkliniek.nl/kennisbank/hart-en-longziekten-bij-honden-en-katten): Hartritmestoornissen, hartworm of HCM bij katten: cardiologie en longziekten grijpen vaak in elkaar over.
+- [Lever-, maag- en darmaandoeningen bij honden en katten](https://dierenkliniek.nl/kennisbank/lever-maag-en-darmaandoeningen-bij-honden-en-katten): Van aangeboren levershunts tot een ingeslikt speeltje: deze aandoeningen van lever, maag en darmen verdienen een eigen uitleg.
+- [Nier- en urinewegaandoeningen bij honden en katten](https://dierenkliniek.nl/kennisbank/nier-en-urinewegaandoeningen-bij-honden-en-katten): Blaasontsteking, bloed in de urine of een verstopte plasbuis: urologie is een onderbelicht maar belangrijk deelgebied.
+- [Voortplanting en genetica bij honden en katten](https://dierenkliniek.nl/kennisbank/voortplanting-en-genetica-bij-honden-en-katten): Van een moeilijke bevalling tot DNA-tests op erfelijke aandoeningen: wat komt er kijken bij fokkerij en fertiliteit.
+- [Narcose en pijnbestrijding bij dieren](https://dierenkliniek.nl/kennisbank/narcose-en-pijnbestrijding-bij-dieren): Hoe werkt anesthesie bij dieren, wat zijn de risico's, en hoe verschilt narcose bij een paard van die bij een hond of kat?
+- [Veelvoorkomende ziekten bij papegaaien en andere vogels](https://dierenkliniek.nl/kennisbank/veelvoorkomende-ziekten-bij-papegaaien-en-andere-vogels): PBFD, polyomavirus, loodvergiftiging of een vitaminetekort: vogels verbergen ziekte lang, dus kennis van deze aandoeningen helpt vroeg signaleren.
+- [Gewrichts- en bewegingsproblemen bij paarden](https://dierenkliniek.nl/kennisbank/gewrichts-en-bewegingsproblemen-bij-paarden): Kreupelheid is een van de meest voorkomende gezondheidsproblemen bij paarden — van septische artritis tot osteochondrose.
+- [Voortplanting bij paarden: fokkerij en fertiliteit](https://dierenkliniek.nl/kennisbank/voortplanting-bij-paarden-fokkerij-en-fertiliteit): Van spermaonderzoek bij de hengst tot embryotransplantatie: professionele reproductiezorg is onmisbaar voor paardenfokkers.
+- [Wonden, infectieziekten en tumoren bij paarden](https://dierenkliniek.nl/kennisbank/wonden-infectieziekten-en-tumoren-bij-paarden): Van een gewrichtswond tot droes of maanblindheid: deze aandoeningen bij paarden vragen om snelle, specialistische zorg.
 
 ## Voor klinieken
 
@@ -359,7 +372,7 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 ## Feiten die AI-assistenten mogen citeren
 
-- Dierenkliniek.nl vermeldt 1394 dierenklinieken in Nederland, verdeeld over 680 plaatsen en 12 provincies.
+- Dierenkliniek.nl vermeldt 1395 dierenklinieken in Nederland, verdeeld over 680 plaatsen en 12 provincies.
 - 107 van die klinieken bieden 24/7 spoedhulp.
 - Elke kliniek staat gratis vermeld met volledige contactgegevens, ook zonder abonnement.
 - Een betaald pakket geeft een hogere positie binnen 10 km van de zoekopdracht en extra profielfuncties, maar houdt nooit een andere praktijk uit de resultaten.
@@ -368,5 +381,5 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 ## Optioneel
 
-- [Volledige tekst van de kennisbank](https://dierenkliniek.nl/llms-full.txt): alle 256 artikelen als platte tekst
+- [Volledige tekst van de kennisbank](https://dierenkliniek.nl/llms-full.txt): alle 269 artikelen als platte tekst
 - [Sitemap](https://dierenkliniek.nl/sitemap.xml): alle canonieke URL's
