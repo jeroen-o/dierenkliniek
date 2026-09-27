@@ -90,14 +90,12 @@
     "bron": "opgave praktijk per e-mail, 2026-09-16"
   },
   "barendrecht-dierenarts-in-zutphen": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "ma": "08:00-17:00",
+    "di": "08:00-17:00",
+    "wo": "08:00-17:00",
+    "do": "08:00-17:00",
+    "vr": "08:00-17:00",
+    "bron": "CSV-import, 2026-09-27"
   },
   "beterbeest-dierenartsen-dierenarts-in-amersfoort": {
     "ma": "09:00-17:00",
@@ -130,14 +128,11 @@
     "onbevestigd": true
   },
   "care-4-animals-dierenarts-in-duiven": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
     "wo": "09:00-17:00",
     "do": "09:00-17:00",
     "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "di": "gesloten",
+    "bron": "CSV-import, 2026-09-27"
   },
   "caressa-dierenziekenhuis-utrecht-dierenarts-in-utrecht": {
     "ma": "12:30-17:00",
@@ -658,14 +653,13 @@
     "onbevestigd": true
   },
   "dierenarts-purmerend-dierenarts-in-purmerend": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "ma": "08:00-21:00",
+    "di": "08:00-21:00",
+    "wo": "08:00-21:00",
+    "do": "08:00-21:00",
+    "vr": "08:00-21:00",
+    "za": "10:00-14:00",
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenarts-reitdiep-dierenarts-in-groningen": {
     "ma": "12:30-17:00",
@@ -768,14 +762,12 @@
     "onbevestigd": true
   },
   "dierenartsenpraktijk-beekdal-dierenarts-in-gorssel": {
-    "ma": "12:30-17:00",
+    "ma": "09:00-17:00",
     "di": "09:00-17:00",
     "wo": "09:00-17:00",
     "do": "09:00-17:00",
     "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenartsenpraktijk-beltrum-dierenarts-in-beltrum": {
     "ma": "12:30-17:00",
@@ -898,14 +890,10 @@
     "onbevestigd": true
   },
   "dierenartsenpraktijk-flevoland-dierenarts-in-zeewolde": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "ma": "08:00-17:00, 18:15-19:30",
+    "di": "08:00-17:00, 18:15-19:30",
+    "do": "08:00-17:00, 18:15-19:30",
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenartsenpraktijk-horst-e-o-dierenarts-in-horst": {
     "ma": "12:30-17:00",
@@ -1258,14 +1246,14 @@
     "onbevestigd": true
   },
   "dierenkliniek-alkmaar-dierenarts-in-alkmaar": {
-    "ma": "12:30-17:00",
+    "ma": "09:00-17:00",
     "di": "09:00-17:00",
     "wo": "09:00-17:00",
     "do": "09:00-17:00",
     "vr": "09:00-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenkliniek-almeloord-dierenarts-in-almelo": {
     "ma": "12:30-17:00",
@@ -1458,14 +1446,14 @@
     "onbevestigd": true
   },
   "dierenkliniek-camminghaburen-dierenarts-in-leeuwarden": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:00-18:00",
+    "di": "08:00-18:00",
+    "wo": "08:00-18:00",
+    "do": "08:00-18:00",
+    "vr": "08:00-18:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenkliniek-capelle-dierenarts-in-capelle-aan-de-ijssel": {
     "ma": "12:30-17:00",
@@ -1498,14 +1486,12 @@
     "onbevestigd": true
   },
   "dierenkliniek-dallenga-dierenarts-in-appingedam": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "ma": "09:00-17:30",
+    "di": "09:00-17:30",
+    "wo": "09:00-17:30",
+    "do": "09:00-17:30",
+    "vr": "09:00-17:30",
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenkliniek-de-ark-oost-souburg-dierenarts-in-oost-souburg": {
     "ma": "08:30-17:00",
@@ -1712,14 +1698,14 @@
     "onbevestigd": true
   },
   "dierenkliniek-de-waalsprong-dierenarts-in-nijmegen": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:30-19:00",
+    "di": "08:30-18:00",
+    "wo": "08:30-19:00",
+    "do": "08:30-18:00",
+    "vr": "08:30-19:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenkliniek-de-waard-dierenarts-in-alblasserdam": {
     "ma": "08:00-17:00",
@@ -2062,14 +2048,8 @@
     "onbevestigd": true
   },
   "dierenkliniek-ijzendijke-dierenarts-in-ijzendijke": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "vr": "08:00-19:30",
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenkliniek-in-de-buurt-dierenarts-in-odijk": {
     "ma": "12:30-17:00",
@@ -2392,14 +2372,12 @@
     "onbevestigd": true
   },
   "dierenkliniek-pijnappel-dierenarts-in-nijmegen": {
-    "ma": "12:30-17:00",
+    "ma": "09:00-17:00",
     "di": "09:00-17:00",
     "wo": "09:00-17:00",
     "do": "09:00-17:00",
     "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenkliniek-poolseweg-dierenarts-in-breda": {
     "ma": "12:30-17:00",
@@ -2502,14 +2480,14 @@
     "onbevestigd": true
   },
   "dierenkliniek-sneek-dierenarts-in-sneek": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:00-18:00",
+    "di": "08:00-18:00",
+    "wo": "08:00-18:00",
+    "do": "08:00-18:00",
+    "vr": "08:00-18:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenkliniek-soesterberg-dierenarts-in-soesterberg": {
     "ma": "12:30-17:00",
@@ -2761,14 +2739,12 @@
     "onbevestigd": true
   },
   "dierenkliniek-venlo-dierenarts-in-venlo": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "ma": "08:30-12:30, 13:00-15:00, 16:30-19:00",
+    "di": "08:30-12:30, 13:00-15:00",
+    "wo": "08:30-12:30, 13:00-15:00, 16:30-19:00",
+    "do": "08:30-12:30, 13:00-15:00",
+    "vr": "08:30-12:30, 13:00-15:00, 16:30-18:00",
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenklinieken-heerde-epe-dierenarts-in-epe": {
     "ma": "12:30-17:00",
@@ -2831,14 +2807,14 @@
     "bron": "opgave praktijk per e-mail, 2026-09-18; praktijk is verhuisd van Diemen naar Almere-Poort en heet nu Dierenkliniek van Broekhoven"
   },
   "dierenziekenhuis-drachten-dierenarts-in-drachten": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:00-17:30",
+    "di": "08:00-17:30",
+    "wo": "08:00-17:30",
+    "do": "08:00-17:30",
+    "vr": "08:00-17:30",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenziekenhuis-eindhoven-dierenarts-in-eindhoven": {
     "ma": "12:30-17:00",
@@ -2981,14 +2957,8 @@
     "onbevestigd": true
   },
   "diergeneeskundig-centrum-hopmans-dierenarts-in-roden": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "vr": "11:00-12:00",
+    "bron": "CSV-import, 2026-09-27"
   },
   "diergeneeskundig-centrum-hopmans-dierenarts-in-groningen": {
     "ma": "12:30-17:00",
@@ -3031,14 +3001,8 @@
     "onbevestigd": true
   },
   "diergeneeskundig-centrum-winterswijk-dierenarts-in-winterswijk": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
     "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "CSV-import, 2026-09-27"
   },
   "diergezondheidscentrum-zuid-limburg-dierenarts-in-heerlen": {
     "ma": "12:30-17:00",
@@ -4511,14 +4475,14 @@
     "onbevestigd": true
   },
   "duintop-dierenkliniek-locatie-middelburg-dierenarts-in-middelburg": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "09:00-18:00",
+    "di": "09:00-18:00",
+    "wo": "09:00-18:00",
+    "do": "09:00-18:00",
+    "vr": "09:00-18:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenkliniek-enschede-dierenarts-in-enschede": {
     "ma": "12:30-17:00",
@@ -4551,14 +4515,12 @@
     "onbevestigd": true
   },
   "dierenkliniek-eikenlaan-dierenarts-in-groningen": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "ma": "08:00-17:00",
+    "di": "08:00-17:00",
+    "wo": "08:00-17:00",
+    "do": "08:00-17:00",
+    "vr": "08:00-17:00",
+    "bron": "CSV-import, 2026-09-27"
   },
   "van-stad-tot-wad-diergezondheidscentrum-groningen-dierenarts-in-groningen": {
     "ma": "12:30-17:00",
@@ -6631,24 +6593,22 @@
     "onbevestigd": true
   },
   "dierenkliniek-almere-buiten-dierenarts-in-almere": {
-    "ma": "12:30-17:00",
+    "ma": "09:00-17:00",
     "di": "09:00-17:00",
     "wo": "09:00-17:00",
     "do": "09:00-17:00",
     "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenkliniek-amersfoortweg-dierenarts-in-almere": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
+    "ma": "09:00-21:00",
+    "di": "09:00-21:00",
+    "wo": "09:00-21:00",
+    "do": "09:00-21:00",
+    "vr": "09:00-18:00",
+    "za": "12:00-14:00",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenkliniek-batavia-dierenarts-in-lelystad": {
     "ma": "12:30-17:00",
@@ -6661,14 +6621,12 @@
     "onbevestigd": true
   },
   "dierenkliniek-vrieze-b-v-dierenarts-in-almere": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "ma": "09:00-12:00, 13:00-16:30, 17:30-19:30",
+    "di": "09:00-12:00, 13:00-16:30, 17:30-19:30",
+    "wo": "09:00-12:00, 13:00-16:30, 17:30-19:30",
+    "do": "09:00-12:00, 13:00-16:30, 17:30-19:30",
+    "vr": "09:00-12:00, 13:00-16:30, 17:30-19:30",
+    "bron": "CSV-import, 2026-09-27"
   },
   "eduvet-dierenkliniek-lelystad-dierenarts-in-lelystad": {
     "ma": "12:30-17:00",
@@ -6751,14 +6709,12 @@
     "onbevestigd": true
   },
   "dierenartsenprakt-giekerk-hardegarijp-veenw-dierenarts-in-hurdegaryp": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "ma": "08:30-17:30",
+    "di": "08:30-17:30",
+    "wo": "08:30-17:30",
+    "do": "08:30-17:30",
+    "vr": "08:30-17:30",
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenartsenpraktijk-harkema-pot-dierenarts-in-bolsward": {
     "ma": "12:30-17:00",
@@ -6771,14 +6727,12 @@
     "onbevestigd": true
   },
   "dierenartsenpraktijk-it-griene-hert-dierenarts-in-wommels": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "ma": "08:00-18:00",
+    "di": "08:00-18:00",
+    "wo": "08:00-18:00",
+    "do": "08:00-18:00",
+    "vr": "08:00-18:00",
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenartsenpraktijk-kollum-buitenpost-dierenarts-in-kollum": {
     "ma": "12:30-17:00",
@@ -6791,14 +6745,14 @@
     "onbevestigd": true
   },
   "dierenartsenpraktijk-lemsterland-dierenarts-in-lemmer": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:00-18:00",
+    "di": "08:00-18:00",
+    "wo": "08:00-18:00",
+    "do": "08:00-18:00",
+    "vr": "08:00-18:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenartsenpraktijk-reduzum-grou-dierenarts-in-grou": {
     "ma": "12:30-17:00",
@@ -6811,14 +6765,12 @@
     "onbevestigd": true
   },
   "dierenartspraktijk-it-griene-hert-dierenarts-in-witmarsum": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "ma": "08:00-18:00",
+    "di": "08:00-18:00",
+    "wo": "08:00-18:00",
+    "do": "08:00-18:00",
+    "vr": "08:00-18:00",
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenartspraktijk-jaspers-focks-dierenarts-in-sint-annaparochie": {
     "ma": "12:30-17:00",
@@ -6851,14 +6803,14 @@
     "onbevestigd": true
   },
   "dierenkliniek-lemmer-dierenarts-in-lemmer": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:00-18:00",
+    "di": "08:00-18:00",
+    "wo": "08:00-18:00",
+    "do": "08:00-18:00",
+    "vr": "08:00-18:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenkliniek-nijlan-dierenarts-in-leeuwarden": {
     "ma": "12:30-17:00",
@@ -7101,14 +7053,14 @@
     "onbevestigd": true
   },
   "dierenartsencentrum-ede-bennekom-dierenarts-in-ede-gld": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:30-18:00",
+    "di": "08:30-18:00",
+    "wo": "08:30-18:00",
+    "do": "08:30-18:00",
+    "vr": "08:30-18:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenartsenprakt-voorthuizen-uddel-garderen-dierenarts-in-voorthuizen": {
     "ma": "12:30-17:00",
@@ -7151,14 +7103,9 @@
     "onbevestigd": true
   },
   "dierenartsenpraktijk-midden-nederland-dierenarts-in-kootwijkerbroek": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenartsenpraktijk-oost-betuwe-dierenarts-in-bemmel": {
     "ma": "12:30-17:00",
@@ -7211,14 +7158,13 @@
     "onbevestigd": true
   },
   "dierenartsenpraktijk-wenters-dierenarts-in-winterswijk": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "ma": "08:00-19:00",
+    "di": "08:00-19:00",
+    "wo": "08:00-19:00",
+    "do": "08:00-19:00",
+    "vr": "08:00-19:00",
+    "za": "09:00-12:00",
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenartsenpraktijk-zelhem-halle-b-v-dierenarts-in-zelhem": {
     "ma": "12:30-17:00",
@@ -7261,14 +7207,12 @@
     "onbevestigd": true
   },
   "dierenkliniek-de-kwaker-dierenarts-in-deil": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "ma": "08:30-18:00",
+    "di": "08:30-18:00",
+    "wo": "08:30-18:00",
+    "do": "08:30-18:00",
+    "vr": "08:30-18:00",
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenkliniek-arnhem-zuid-west-dierenarts-in-arnhem": {
     "ma": "12:30-17:00",
@@ -7281,14 +7225,12 @@
     "onbevestigd": true
   },
   "dierenkliniek-broerdijk-dierenarts-in-nijmegen": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "ma": "09:00-18:00",
+    "di": "09:00-18:00",
+    "wo": "09:00-18:00",
+    "do": "09:00-18:00",
+    "vr": "09:00-18:00",
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenkliniek-de-batavieren-dierenarts-in-haaften": {
     "ma": "12:30-17:00",
@@ -7351,14 +7293,12 @@
     "onbevestigd": true
   },
   "dierenkliniek-mheenpark-dierenarts-in-apeldoorn": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "ma": "08:00-19:00",
+    "di": "08:00-19:00",
+    "wo": "08:00-19:00",
+    "do": "08:00-19:00",
+    "vr": "08:00-19:00",
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenkliniek-oosterbeek-dierenarts-in-oosterbeek": {
     "ma": "12:30-17:00",
@@ -7521,14 +7461,13 @@
     "onbevestigd": true
   },
   "maatschap-d-a-p-vaassen-en-omstreken-dierenarts-in-vaassen": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "ma": "08:00-18:30",
+    "di": "08:00-18:30",
+    "wo": "08:00-18:30",
+    "do": "08:00-18:30",
+    "vr": "08:00-18:30",
+    "za": "09:00-12:00",
+    "bron": "CSV-import, 2026-09-27"
   },
   "maatschap-j-e-zaaijer-smit-en-d-zaaijer-dierenarts-in-laren-gld": {
     "ma": "12:30-17:00",
@@ -7681,14 +7620,14 @@
     "onbevestigd": true
   },
   "dierenartsenpraktijk-schildwolde-dierenarts-in-schildwolde": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:00-12:00, 13:00-17:00",
+    "di": "08:00-12:00, 13:00-17:00",
+    "wo": "08:00-12:00, 13:00-17:00",
+    "do": "08:00-12:00, 13:00-17:00",
+    "vr": "08:00-12:00, 13:00-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenartsenpraktijk-van-zeebroeck-dierenarts-in-losdorp": {
     "ma": "12:30-17:00",
@@ -7731,14 +7670,12 @@
     "onbevestigd": true
   },
   "maatschap-r-klaver-en-i-m-baasten-dierenarts-in-delfzijl": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "ma": "13:00-14:00, 18:30-19:30",
+    "di": "13:00-14:00, 18:30-19:30",
+    "wo": "13:00-14:00, 18:30-19:30",
+    "do": "13:00-14:00, 18:30-19:30",
+    "vr": "13:00-14:00, 18:30-19:30",
+    "bron": "CSV-import, 2026-09-27"
   },
   "mts-roorda-de-jong-dierenarts-in-noordhorn": {
     "ma": "12:30-17:00",
@@ -7781,14 +7718,8 @@
     "onbevestigd": true
   },
   "dierenarts-reuver-dierenarts-in-reuver": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "vr": "09:30-18:30",
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenartsen-praktijk-schoonzicht-dierenarts-in-wijlre": {
     "ma": "12:30-17:00",
@@ -7821,14 +7752,8 @@
     "onbevestigd": true
   },
   "dierenartsenpraktijk-de-keizer-dierenarts-in-kessel-lb": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "za": "09:30-12:00",
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenartsenpraktijk-ell-dierenarts-in-ell": {
     "ma": "12:30-17:00",
@@ -7861,14 +7786,12 @@
     "onbevestigd": true
   },
   "dierenartspraktijk-meijel-dierenarts-in-meijel": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "ma": "09:00-12:30",
+    "di": "09:00-12:30",
+    "wo": "09:00-12:30",
+    "do": "09:00-12:30",
+    "vr": "09:00-12:30",
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenartspraktijk-paping-dierenarts-in-maastricht": {
     "ma": "12:30-17:00",
@@ -7971,14 +7894,13 @@
     "onbevestigd": true
   },
   "dierenkliniek-maaskant-b-v-dierenarts-in-elsloo-lb": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "09:00-19:00",
+    "di": "09:00-19:00",
+    "wo": "09:00-19:00",
+    "do": "09:00-19:00",
+    "vr": "09:00-19:00",
     "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenkliniek-onderbanken-dierenarts-in-c-schinveld": {
     "ma": "12:30-17:00",
@@ -8011,14 +7933,12 @@
     "onbevestigd": true
   },
   "dierenkliniek-smeets-b-v-dierenarts-in-kerkrade": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "ma": "09:00-18:00",
+    "di": "09:00-18:00",
+    "wo": "09:00-18:00",
+    "do": "09:00-18:00",
+    "vr": "09:00-18:00",
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenkliniek-spiertz-dierenarts-in-geleen": {
     "ma": "12:30-17:00",
@@ -8031,14 +7951,12 @@
     "onbevestigd": true
   },
   "dierenkliniek-venlo-dierenarts-in-tegelen": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "ma": "08:30-12:30, 13:00-15:00, 16:30-19:00",
+    "di": "08:30-12:30, 13:00-15:00",
+    "wo": "08:30-12:30, 13:00-15:00, 16:30-19:00",
+    "do": "08:30-12:30, 13:00-15:00",
+    "vr": "08:30-12:30, 13:00-15:00, 16:30-18:00",
+    "bron": "CSV-import, 2026-09-27"
   },
   "diergezondheidscentrum-nicolai-dierenarts-in-nuth": {
     "ma": "12:30-17:00",
@@ -8271,14 +8189,14 @@
     "onbevestigd": true
   },
   "dierenartsengroep-dirven-dierenarts-in-chaam": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
+    "ma": "08:00-19:30",
+    "di": "08:00-19:30",
+    "wo": "08:00-18:30",
+    "do": "08:00-18:30",
+    "vr": "08:00-19:30",
+    "za": "09:00-12:30",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenartsengroep-west-brabant-etten-leur-dierenarts-in-etten-leur": {
     "ma": "12:30-17:00",
@@ -8441,14 +8359,12 @@
     "onbevestigd": true
   },
   "dierenkliniek-drunen-dierenarts-in-drunen": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "ma": "08:30-18:00",
+    "di": "08:30-18:00",
+    "wo": "08:30-18:00",
+    "do": "08:30-18:00",
+    "vr": "08:30-18:00",
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenkliniek-etten-leur-dierenarts-in-etten-leur": {
     "ma": "12:30-17:00",
@@ -8501,14 +8417,14 @@
     "onbevestigd": true
   },
   "dierenkliniek-overhage-dierenarts-in-cuijk": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:00-17:30",
+    "di": "08:00-17:30",
+    "wo": "08:00-17:30",
+    "do": "08:00-17:30",
+    "vr": "08:00-17:30",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenkliniek-rosmalen-kruisstraat-dierenarts-in-rosmalen": {
     "ma": "12:30-17:00",
@@ -8641,14 +8557,12 @@
     "onbevestigd": true
   },
   "dr-pet-dierenarts-in-den-bosch": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "ma": "09:00-18:00",
+    "di": "09:00-18:00",
+    "wo": "09:00-18:00",
+    "do": "09:00-18:00",
+    "vr": "09:00-18:00",
+    "bron": "CSV-import, 2026-09-27"
   },
   "equine-embryo-service-dierenarts-in-heusden-gem-asten": {
     "ma": "12:30-17:00",
@@ -9071,14 +8985,12 @@
     "onbevestigd": true
   },
   "dierenkliniek-amsterdam-noord-dierenarts-in-amsterdam": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "ma": "08:30-17:00, 17:30-19:00",
+    "di": "08:30-17:00, 17:30-19:00",
+    "wo": "08:30-17:00, 17:30-19:00",
+    "do": "08:30-17:00, 17:30-19:00",
+    "vr": "08:30-17:00, 17:30-19:00",
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenkliniek-centro-dierenarts-in-heemskerk": {
     "ma": "12:30-17:00",
@@ -9631,14 +9543,14 @@
     "onbevestigd": true
   },
   "dierenkliniek-hengelo-dierenarts-in-hengelo-ov": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "gesloten",
+    "di": "08:30-17:00",
+    "wo": "08:30-17:00",
+    "do": "08:30-17:00",
+    "vr": "gesloten",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenkliniek-ijsselmuiden-dierenarts-in-ijsselmuiden": {
     "ma": "12:30-17:00",
@@ -11006,14 +10918,13 @@
     "bron": "praktijkopgave, gecontroleerd 2026-09-26"
   },
   "dierenkliniek-terneuzen-dierenarts-in-terneuzen": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "ma": "08:30-19:00",
+    "di": "08:30-18:00",
+    "wo": "08:30-19:00",
+    "do": "08:30-18:00",
+    "vr": "08:30-18:00",
+    "za": "10:00-12:00",
+    "bron": "CSV-import, 2026-09-27"
   },
   "dierenkliniek-middelburg-dierenarts-in-middelburg": {
     "ma": "12:30-17:00",
@@ -11024,5 +10935,112 @@
     "za": "gesloten",
     "zo": "gesloten",
     "onbevestigd": true
+  },
+  "gezondheidscentrum-voor-pluimvee-bv-dierenarts-in-emmen": {
+    "vr": "08:30-17:00",
+    "bron": "CSV-import, 2026-09-27"
+  },
+  "dierenarts-fischer-en-co-dierenarts-in-bolsward": {
+    "ma": "08:00-18:00",
+    "di": "08:00-18:00",
+    "wo": "08:00-18:00",
+    "do": "08:00-18:00",
+    "vr": "08:00-18:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "bron": "CSV-import, 2026-09-27"
+  },
+  "dierenartsenpraktijk-danswijk-dierenarts-in-almere": {
+    "ma": "09:00-17:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-17:00",
+    "bron": "CSV-import, 2026-09-27"
+  },
+  "dierenartsenpraktijk-noordoostpolder-dierenarts-in-emmeloord": {
+    "ma": "08:00-15:00",
+    "di": "08:00-15:00",
+    "wo": "08:00-15:00",
+    "do": "08:00-15:00",
+    "vr": "08:00-15:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "bron": "CSV-import, 2026-09-27"
+  },
+  "dierenkliniek-uithoorn-dierenarts-in-uithoorn": {
+    "ma": "10:00-14:00",
+    "di": "10:00-14:00",
+    "wo": "10:00-14:00",
+    "do": "10:00-14:00",
+    "vr": "10:00-14:00",
+    "bron": "CSV-import, 2026-09-27"
+  },
+  "dierenkliniek-zandvoort-dierenarts-in-zandvoort": {
+    "ma": "08:30-17:00",
+    "di": "08:30-17:00",
+    "wo": "08:30-17:00",
+    "do": "08:30-17:00",
+    "vr": "08:30-17:00",
+    "bron": "CSV-import, 2026-09-27"
+  },
+  "dierenartsen-amersfoort-dierenarts-in-amersfoort": {
+    "ma": "09:00-18:00",
+    "di": "09:00-17:00",
+    "wo": "09:00-18:00",
+    "do": "09:00-17:00",
+    "vr": "09:00-19:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "bron": "CSV-import, 2026-09-27"
+  },
+  "dierenkliniek-houten-oost-dierenarts-in-maarssen": {
+    "ma": "09:00-18:00",
+    "di": "09:00-20:00",
+    "wo": "09:00-20:00",
+    "do": "09:00-20:00",
+    "vr": "09:00-18:00",
+    "bron": "CSV-import, 2026-09-27"
+  },
+  "dierenkliniek-woerden-dierenarts-in-woerden": {
+    "za": "10:00-16:00",
+    "bron": "CSV-import, 2026-09-27"
+  },
+  "dierenartsenpraktijk-haaksbergen-dierenarts-in-haaksbergen": {
+    "ma": "08:00-09:00",
+    "di": "08:00-09:00",
+    "wo": "08:00-09:00",
+    "do": "08:00-09:00",
+    "vr": "08:00-09:00",
+    "za": "08:00-09:00",
+    "bron": "CSV-import, 2026-09-27"
+  },
+  "dierenkliniek-dordrecht-dierenarts-in-dordrecht": {
+    "ma": "08:00-20:00",
+    "di": "08:00-18:00",
+    "wo": "08:00-20:00",
+    "do": "08:00-18:00",
+    "vr": "08:00-20:00",
+    "za": "10:00-14:00",
+    "zo": "gesloten",
+    "bron": "CSV-import, 2026-09-27"
+  },
+  "dierenkliniek-dordrecht-centrum-dierenarts-in-dordrecht": {
+    "ma": "08:00-20:00",
+    "di": "08:00-18:00",
+    "wo": "08:00-20:00",
+    "do": "08:00-18:00",
+    "vr": "08:00-20:00",
+    "za": "10:00-14:00",
+    "zo": "gesloten",
+    "bron": "CSV-import, 2026-09-27"
+  },
+  "dierenkliniek-voorburg-dierenarts-in-voorburg": {
+    "ma": "09:00-12:00, 12:30-19:30",
+    "di": "09:00-12:00, 12:30-17:00",
+    "wo": "09:00-12:00, 12:30-19:30",
+    "do": "09:00-12:00, 12:30-19:30",
+    "vr": "09:00-12:00, 12:30-17:00",
+    "bron": "CSV-import, 2026-09-27"
   }
 }

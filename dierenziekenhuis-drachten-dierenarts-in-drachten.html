@@ -47,7 +47,8 @@
   "telephone": "0512-513627",
   "email": "info@dierenziekenhuisdrachten.nl",
   "sameAs": [
-    "http://www.dierenziekenhuisdrachten.nl/"
+    "http://www.dierenziekenhuisdrachten.nl/",
+    "https://www.facebook.com/398110816880747"
   ]
 }
 </script>
@@ -147,8 +148,53 @@
         "Katten",
         "Konijnen"
       ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Monday",
+          "opens": "08:00",
+          "closes": "17:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Tuesday",
+          "opens": "08:00",
+          "closes": "17:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Wednesday",
+          "opens": "08:00",
+          "closes": "17:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Thursday",
+          "opens": "08:00",
+          "closes": "17:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Friday",
+          "opens": "08:00",
+          "closes": "17:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Saturday",
+          "opens": "00:00",
+          "closes": "00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Sunday",
+          "opens": "00:00",
+          "closes": "00:00"
+        }
+      ],
       "sameAs": [
-        "http://www.dierenziekenhuisdrachten.nl/"
+        "http://www.dierenziekenhuisdrachten.nl/",
+        "https://www.facebook.com/398110816880747"
       ],
       "subjectOf": {
         "@id": "https://dierenkliniek.nl/dierenziekenhuis-drachten-dierenarts-in-drachten#webpage"
@@ -194,7 +240,7 @@
           "name": "Wat zijn de openingstijden van Dierenziekenhuis Drachten?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Bij ons staan deze tijden genoteerd: maandag 12:30 tot 17:00, dinsdag 09:00 tot 17:00, woensdag 09:00 tot 17:00, donderdag 09:00 tot 17:00, vrijdag 09:00 tot 17:00, zaterdag gesloten, zondag gesloten. Ze zijn nog niet door de praktijk zelf bevestigd, dus bel 0512-513627 voordat u langskomt."
+            "text": "Dierenziekenhuis Drachten is geopend op maandag 08:00 tot 17:30, dinsdag 08:00 tot 17:30, woensdag 08:00 tot 17:30, donderdag 08:00 tot 17:30, vrijdag 08:00 tot 17:30, zaterdag gesloten, zondag gesloten."
           }
         },
         {
@@ -289,6 +335,7 @@
         <li><strong>Telefoon:</strong> <a href="tel:0512513627">0512-513627</a></li>
         <li><strong>E-mail:</strong> <a href="mailto:info@dierenziekenhuisdrachten.nl">info@dierenziekenhuisdrachten.nl</a></li>
         <li><strong>Website:</strong> <a href="http://www.dierenziekenhuisdrachten.nl/" target="_blank" rel="noopener">http://www.dierenziekenhuisdrachten.nl/</a></li>
+        <li><strong>Social:</strong> <span class="kliniek-social"><a href="https://www.facebook.com/398110816880747" target="_blank" rel="me noopener" aria-label="Facebook" title="Dierenziekenhuis Drachten op Facebook"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" width="20" height="20"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.96.93-1.96 1.89v2.25h3.33l-.53 3.49h-2.8V24C19.61 23.1 24 18.1 24 12.07z"/></svg></a></span></li>
     </ul>
   </div>
 
@@ -298,16 +345,16 @@
     <table class="openingstijden">
       <caption class="visueel-verborgen">Openingstijden</caption>
       <tbody>
-        <tr><th scope="row">Maandag</th><td>12:30 - 17:00</td></tr>
-        <tr><th scope="row">Dinsdag</th><td>09:00 - 17:00</td></tr>
-        <tr><th scope="row">Woensdag</th><td>09:00 - 17:00</td></tr>
-        <tr><th scope="row">Donderdag</th><td>09:00 - 17:00</td></tr>
-        <tr><th scope="row">Vrijdag</th><td>09:00 - 17:00</td></tr>
+        <tr><th scope="row">Maandag</th><td>08:00 - 17:30</td></tr>
+        <tr><th scope="row">Dinsdag</th><td>08:00 - 17:30</td></tr>
+        <tr><th scope="row">Woensdag</th><td>08:00 - 17:30</td></tr>
+        <tr><th scope="row">Donderdag</th><td>08:00 - 17:30</td></tr>
+        <tr><th scope="row">Vrijdag</th><td>08:00 - 17:30</td></tr>
         <tr><th scope="row">Zaterdag</th><td class="dicht">Gesloten</td></tr>
         <tr><th scope="row">Zondag</th><td class="dicht">Gesloten</td></tr>
       </tbody>
     </table>
-    <p class="tijden-onbevestigd">Deze tijden zijn nog niet door de praktijk bevestigd. Bel voordat u langskomt.</p>
+    <p class="tijden-bron">Bron: CSV-import, 2026-09-27</p>
     
   </div>
 
@@ -317,7 +364,7 @@
     <details><summary>Waar is Dierenziekenhuis Drachten gevestigd?</summary><p>Het adres is De Bolder 74, 9206 AR Drachten, provincie Friesland.</p></details>
     <details><summary>Biedt Dierenziekenhuis Drachten 24/7 spoedhulp?</summary><p>Bij Dierenziekenhuis Drachten staat geen eigen 24/7 spoeddienst vermeld. De dichtstbijzijnde kliniek met 24-uurs spoedhulp in onze data is DAP Tusken Diken en Feanen in Drogeham, op ongeveer 11 km. Bel altijd eerst.</p></details>
     <details><summary>Welke specialisaties heeft Dierenziekenhuis Drachten?</summary><p>Bij deze praktijk staan de volgende aandachtsgebieden vermeld: Katten, Konijnen.</p></details>
-    <details><summary>Wat zijn de openingstijden van Dierenziekenhuis Drachten?</summary><p>Bij ons staan deze tijden genoteerd: maandag 12:30 tot 17:00, dinsdag 09:00 tot 17:00, woensdag 09:00 tot 17:00, donderdag 09:00 tot 17:00, vrijdag 09:00 tot 17:00, zaterdag gesloten, zondag gesloten. Ze zijn nog niet door de praktijk zelf bevestigd, dus bel 0512-513627 voordat u langskomt.</p></details>
+    <details><summary>Wat zijn de openingstijden van Dierenziekenhuis Drachten?</summary><p>Dierenziekenhuis Drachten is geopend op maandag 08:00 tot 17:30, dinsdag 08:00 tot 17:30, woensdag 08:00 tot 17:30, donderdag 08:00 tot 17:30, vrijdag 08:00 tot 17:30, zaterdag gesloten, zondag gesloten.</p></details>
     <details><summary>Hoe scoort Dierenziekenhuis Drachten vergeleken met andere klinieken in Drachten?</summary><p>Dierenziekenhuis Drachten scoort 4,8/5 op basis van 290 beoordelingen. Het gemiddelde van 3 beoordeelde klinieken in Drachten is 4,4/5.</p></details>
     <details><summary>Zijn er meer dierenklinieken in Drachten?</summary><p>Ja, naast Dierenziekenhuis Drachten staan er nog 3 andere klinieken vermeld in Drachten: A7 Noord dierenartsen, Dierenkliniek de Posten, Dierenartsenpraktijk De Drait Drachten. Bekijk de pagina Dierenarts Drachten voor alle contactgegevens, of de provinciepagina voor heel Friesland.</p></details>
   </div>

@@ -22,7 +22,8 @@
     "lat": 53.1932,
     "lng": 5.9974,
     "desc": "Veterinaire kliniek in Burgum. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/A7NoordDierenartsen"
   },
   {
     "id": 2,
@@ -47,7 +48,8 @@
     "lat": 53.1046,
     "lng": 6.0989,
     "desc": "Veterinaire kliniek in Drachten. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/A7NoordDierenartsen"
   },
   {
     "id": 3,
@@ -120,7 +122,9 @@
     "lat": 53.0322,
     "lng": 5.6587,
     "desc": "Veterinaire kliniek in Sneek. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/SterkliniekLeeuwarden",
+    "instagram": "https://www.instagram.com/anicura.leeuwarden"
   },
   {
     "id": 6,
@@ -143,7 +147,9 @@
     "lat": 51.5618,
     "lng": 5.138,
     "desc": "Veterinaire kliniek in Berkel-Enschot. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/AniCuraNederland",
+    "instagram": "https://www.instagram.com/anicura.nl"
   },
   {
     "id": 7,
@@ -243,7 +249,9 @@
     "lat": 52.132734,
     "lng": 6.209943,
     "desc": "Veterinaire kliniek in Zutphen. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DierenDokters.Zutphen",
+    "instagram": "https://www.instagram.com/dierendokterszutphen"
   },
   {
     "id": 12,
@@ -342,7 +350,9 @@
     "lat": 51.9483,
     "lng": 6.012,
     "desc": "Veterinaire kliniek in Duiven. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/care4animalsduiven",
+    "instagram": "https://www.instagram.com/care4animals_dierenarts_spoed"
   },
   {
     "id": 18,
@@ -390,7 +400,9 @@
     "lat": 52.3324,
     "lng": 5.5436,
     "desc": "Veterinaire kliniek in Zeewolde. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/CentrumDierenartsZeewolde",
+    "instagram": "https://www.instagram.com/centrum_dierenarts_zeewolde"
   },
   {
     "id": 20,
@@ -536,7 +548,8 @@
     "lat": 51.4046,
     "lng": 5.7497,
     "desc": "Veterinaire kliniek in Asten. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/VeterinairCentrumSomeren"
   },
   {
     "id": 28,
@@ -634,7 +647,9 @@
     "lat": 52.2055,
     "lng": 6.0758,
     "desc": "Veterinaire kliniek in Klarenbeek. Volledige zorg voor gezelschapsdieren, landbouwhuisdieren en paarden.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenartsenpraktijk.dedriehoek.5",
+    "instagram": "https://www.instagram.com/dap.de.driehoek"
   },
   {
     "id": 33,
@@ -705,7 +720,8 @@
     "lat": 53.1865,
     "lng": 5.5448,
     "desc": "Veterinaire kliniek in Franeker. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dapnoordwestfriesland"
   },
   {
     "id": 39,
@@ -849,7 +865,8 @@
     "lat": 53.2012,
     "lng": 6.0844,
     "desc": "Veterinaire kliniek in Drogeham. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/Tusken-Diken-en-Feanen-Dierenartsenpraktijk-234620979957700"
   },
   {
     "id": 46,
@@ -920,7 +937,9 @@
     "lat": 52.0998,
     "lng": 6.3162,
     "desc": "Veterinaire kliniek in Vorden. Volledige zorg voor gezelschapsdieren.",
-    "tier": "plus"
+    "tier": "plus",
+    "facebook": "https://www.facebook.com/degraafschapdierenartsen",
+    "instagram": "https://www.instagram.com/degraafschapdierenartsen"
   },
   {
     "id": 50,
@@ -970,7 +989,9 @@
     "lat": 52.0856,
     "lng": 6.1545,
     "desc": "Veterinaire kliniek in Brummen. Volledige zorg voor gezelschapsdieren.",
-    "tier": "plus"
+    "tier": "plus",
+    "facebook": "https://www.facebook.com/degraafschapdierenartsen",
+    "instagram": "https://www.instagram.com/degraafschapdierenartsen"
   },
   {
     "id": 52,
@@ -1045,7 +1066,9 @@
     "lat": 52.1206,
     "lng": 6.0656,
     "desc": "Veterinaire kliniek in Eerbeek. Volledige zorg voor gezelschapsdieren.",
-    "tier": "plus"
+    "tier": "plus",
+    "facebook": "https://www.facebook.com/degraafschapdierenartsen",
+    "instagram": "https://www.instagram.com/degraafschapdierenartsen"
   },
   {
     "id": 55,
@@ -1070,7 +1093,9 @@
     "lat": 52.2659,
     "lng": 6.793,
     "desc": "Veterinaire kliniek in Hengelo Gld. Volledige zorg voor gezelschapsdieren.",
-    "tier": "plus"
+    "tier": "plus",
+    "facebook": "https://www.facebook.com/degraafschapdierenartsen",
+    "instagram": "https://www.instagram.com/degraafschapdierenartsen"
   },
   {
     "id": 56,
@@ -1095,7 +1120,9 @@
     "lat": 52.0826,
     "lng": 6.4445,
     "desc": "Veterinaire kliniek in Ruurlo. Volledige zorg voor gezelschapsdieren.",
-    "tier": "plus"
+    "tier": "plus",
+    "facebook": "https://www.facebook.com/degraafschapdierenartsen",
+    "instagram": "https://www.instagram.com/degraafschapdierenartsen"
   },
   {
     "id": 58,
@@ -1120,7 +1147,9 @@
     "lat": 51.9697,
     "lng": 6.2127,
     "desc": "Veterinaire kliniek in Wehl. Volledige zorg voor gezelschapsdieren.",
-    "tier": "plus"
+    "tier": "plus",
+    "facebook": "https://www.facebook.com/degraafschapdierenartsen",
+    "instagram": "https://www.instagram.com/degraafschapdierenartsen"
   },
   {
     "id": 59,
@@ -1242,7 +1271,8 @@
     "lat": 52.0421,
     "lng": 5.6675,
     "desc": "Veterinaire kliniek in Ede. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/deklompdierenartsen"
   },
   {
     "id": 64,
@@ -1266,7 +1296,8 @@
     "lat": 51.9214,
     "lng": 5.8442,
     "desc": "Veterinaire kliniek in Elst (Gelderland). Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/deklompdierenartsen"
   },
   {
     "id": 65,
@@ -1338,7 +1369,8 @@
     "lat": 52.524,
     "lng": 5.7156,
     "desc": "Veterinaire kliniek in Dronten. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DeltaDierenartsenDronten"
   },
   {
     "id": 68,
@@ -1459,7 +1491,8 @@
     "lat": 51.6471,
     "lng": 5.9501,
     "desc": "Veterinaire kliniek in Boxmeer. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenartsboxmeer"
   },
   {
     "id": 74,
@@ -1625,7 +1658,8 @@
     "lat": 52.506,
     "lng": 4.9594,
     "desc": "Veterinaire kliniek in Purmerend. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DierenartsPurmerend"
   },
   {
     "id": 83,
@@ -1792,7 +1826,8 @@
     "lat": 51.6276,
     "lng": 4.9408,
     "desc": "Veterinaire kliniek in Dongen. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierendongen"
   },
   {
     "id": 92,
@@ -1887,7 +1922,8 @@
     "lat": 52.1894,
     "lng": 6.2542,
     "desc": "Veterinaire kliniek in Gorssel. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/Dierenartsenpraktijk-Beekdal-473548419472654"
   },
   {
     "id": 96,
@@ -1953,7 +1989,10 @@
     "lat": 53.0676,
     "lng": 5.5286,
     "desc": "Veterinaire kliniek in Bolsward. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/vetterlan",
+    "instagram": "https://www.instagram.com/vetterlan.dierenartsen",
+    "linkedin": "https://www.linkedin.com/company/vetterlan"
   },
   {
     "id": 99,
@@ -1976,7 +2015,8 @@
     "lat": 51.7561,
     "lng": 5.305,
     "desc": "Veterinaire kliniek in Hedel. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "instagram": "https://www.instagram.com/dapbommelerwaard"
   },
   {
     "id": 100,
@@ -2070,7 +2110,8 @@
     "lat": 51.4944,
     "lng": 4.2871,
     "desc": "Veterinaire kliniek in Bergen op Zoom. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenkliniektussenmarkenamer"
   },
   {
     "id": 105,
@@ -2144,7 +2185,10 @@
     "lat": 52.8412,
     "lng": 6.3676,
     "desc": "Veterinaire kliniek in Dwingeloo. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dapdwingeloo",
+    "instagram": "https://www.instagram.com/dap_dwingeloo_appelscha",
+    "linkedin": "https://www.linkedin.com/in/dorine-jonkers-26597324"
   },
   {
     "id": 108,
@@ -2193,7 +2237,9 @@
     "lat": 52.3324,
     "lng": 5.5436,
     "desc": "Veterinaire kliniek in Zeewolde. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/p/Dierenartsenpraktijk-Flevoland-100077860414224",
+    "instagram": "https://www.instagram.com/dierenartsenpraktijkflevoland"
   },
   {
     "id": 110,
@@ -2218,7 +2264,9 @@
     "lat": 51.4499,
     "lng": 6.0468,
     "desc": "Veterinaire kliniek in Horst. Volledige zorg voor gezelschapsdieren.",
-    "tier": "top"
+    "tier": "top",
+    "facebook": "https://www.facebook.com/DapHorst",
+    "instagram": "https://www.instagram.com/dierenartsenpraktijk_horst_eo"
   },
   {
     "id": 111,
@@ -2504,7 +2552,8 @@
     "lat": 51.8125,
     "lng": 5.2477,
     "desc": "Veterinaire kliniek in zaltbommel. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenartsenpraktijk.zaltbommel"
   },
   {
     "id": 129,
@@ -2599,7 +2648,8 @@
     "lat": 50.8857,
     "lng": 5.7507,
     "desc": "Veterinaire kliniek in Meerssen. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/Dierenartsenpraktijk-Claudia-Gorissen-100076289342796"
   },
   {
     "id": 133,
@@ -3145,7 +3195,9 @@
     "lat": 52.9967,
     "lng": 6.5625,
     "desc": "Veterinaire kliniek in Assen. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/Sterkliniek-Dierenartsen-Assen-463334343678506",
+    "instagram": "https://www.instagram.com/anicura.nl"
   },
   {
     "id": 160,
@@ -3217,7 +3269,9 @@
     "lat": 52.2117,
     "lng": 5.2871,
     "desc": "Veterinaire kliniek in Baarn. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DklBaarn",
+    "instagram": "https://www.instagram.com/dkbaarn"
   },
   {
     "id": 163,
@@ -3288,7 +3342,8 @@
     "lat": 51.8595,
     "lng": 5.771,
     "desc": "Veterinaire kliniek in Beuningen. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenkliniekbeuningen"
   },
   {
     "id": 167,
@@ -3524,7 +3579,9 @@
     "lat": 53.2014,
     "lng": 5.7999,
     "desc": "Veterinaire kliniek in Leeuwarden. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenkliniekcamminghaburen",
+    "instagram": "https://www.instagram.com/dkcamminghaburen"
   },
   {
     "id": 178,
@@ -3647,7 +3704,10 @@
     "lng": 3.5973,
     "desc": "Veterinaire kliniek in Oost-Souburg. Volledige zorg voor gezelschapsdieren.",
     "tier": "basic",
-    "whatsapp": "+31638086075"
+    "whatsapp": "+31638086075",
+    "facebook": "https://www.facebook.com/dierenkliniekdeark",
+    "instagram": "https://www.instagram.com/dierenkliniekdeark",
+    "linkedin": "https://www.linkedin.com/company/dierenkliniek-de-ark"
   },
   {
     "id": 184,
@@ -3671,7 +3731,8 @@
     "lat": 51.3346,
     "lng": 3.8259,
     "desc": "Dierenkliniek in Terneuzen (Zeeuws-Vlaanderen).",
-    "tier": "basic"
+    "tier": "basic",
+    "instagram": "https://www.instagram.com/dierenkliniekterneuzen"
   },
   {
     "id": 185,
@@ -3697,7 +3758,10 @@
     "lng": 3.5736,
     "desc": "Dierenkliniek in Vlissingen (Paauwenburg), voortgekomen uit de voormalige praktijken Dierenkliniek van der Wolf en anderen.",
     "tier": "basic",
-    "whatsapp": "+31638086074"
+    "whatsapp": "+31638086074",
+    "facebook": "https://www.facebook.com/dierenkliniekdeark",
+    "instagram": "https://www.instagram.com/dierenkliniekdeark",
+    "linkedin": "https://www.linkedin.com/company/dierenkliniek-de-ark"
   },
   {
     "id": 186,
@@ -3720,7 +3784,9 @@
     "lat": 52.2244,
     "lng": 5.4811,
     "desc": "Veterinaire kliniek in Nijkerk. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenkliniekdearker",
+    "instagram": "https://www.instagram.com/dierenkliniekdearker"
   },
   {
     "id": 187,
@@ -3745,7 +3811,10 @@
     "lng": 3.6109,
     "desc": "Veterinaire kliniek in Middelburg. Volledige zorg voor gezelschapsdieren.",
     "tier": "basic",
-    "whatsapp": "+31619468803"
+    "whatsapp": "+31619468803",
+    "facebook": "https://www.facebook.com/dierenkliniekdeark",
+    "instagram": "https://www.instagram.com/dierenkliniekdeark",
+    "linkedin": "https://www.linkedin.com/company/dierenkliniek-de-ark"
   },
   {
     "id": 191,
@@ -4081,7 +4150,9 @@
     "lat": 51.3704,
     "lng": 6.1724,
     "desc": "Veterinaire kliniek in Venlo. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/Dierenkliniek-de-Postwagen-184156361712569",
+    "instagram": "https://www.instagram.com/dierenkliniekdepostwagen"
   },
   {
     "id": 207,
@@ -4177,7 +4248,9 @@
     "lat": 51.8126,
     "lng": 5.8372,
     "desc": "Veterinaire kliniek in Nijmegen. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenkliniekdewaalsprong",
+    "instagram": "https://www.instagram.com/dierenkliniekdewaalsprong"
   },
   {
     "id": 212,
@@ -4373,7 +4446,9 @@
     "lat": 51.5077,
     "lng": 3.7858,
     "desc": "Veterinaire kliniek in Heinkenszand. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DKDierzorg",
+    "instagram": "https://www.instagram.com/anicuradierzorg"
   },
   {
     "id": 220,
@@ -4607,7 +4682,8 @@
     "lat": 52.71,
     "lng": 5.7488,
     "desc": "Veterinaire kliniek in Emmeloord. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/Gezelschapsdieren"
   },
   {
     "id": 230,
@@ -4675,7 +4751,9 @@
     "lat": 51.5719,
     "lng": 4.7683,
     "desc": "Veterinaire kliniek in Breda. Volledige zorg voor gezelschapsdieren.",
-    "tier": "top"
+    "tier": "top",
+    "facebook": "https://www.facebook.com/AniCuraNederland",
+    "instagram": "https://www.instagram.com/anicura.nl"
   },
   {
     "id": 233,
@@ -4772,7 +4850,9 @@
     "lat": 51.8336,
     "lng": 4.1339,
     "desc": "Veterinaire kliniek in Hellevoetsluis. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenkliniekhellevoetsluis",
+    "instagram": "https://www.instagram.com/anicura.nl"
   },
   {
     "id": 237,
@@ -4935,7 +5015,8 @@
     "lat": 53.1633,
     "lng": 6.7572,
     "desc": "Veterinaire kliniek in Hoogezand. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DierenkliniekHoogezand"
   },
   {
     "id": 245,
@@ -4960,7 +5041,8 @@
     "lat": 52.6425,
     "lng": 5.0597,
     "desc": "Veterinaire kliniek in Hoorn. Volledige zorg voor gezelschapsdieren.",
-    "tier": "plus"
+    "tier": "plus",
+    "facebook": "https://www.facebook.com/dierenkliniekhoorn"
   },
   {
     "id": 246,
@@ -4985,7 +5067,8 @@
     "lat": 52.0203,
     "lng": 5.0408,
     "desc": "Veterinaire kliniek in IJsselstein. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenkliniekijsselstein"
   },
   {
     "id": 247,
@@ -5010,7 +5093,8 @@
     "lat": 51.3179,
     "lng": 3.626,
     "desc": "Veterinaire kliniek in IJzendijke. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/Dierenkliniek-IJzendijke-1553355881594173"
   },
   {
     "id": 248,
@@ -5055,7 +5139,8 @@
     "lat": 52.5185,
     "lng": 5.4714,
     "desc": "Veterinaire kliniek in Lelystad. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenkliniekJol"
   },
   {
     "id": 250,
@@ -5129,7 +5214,9 @@
     "lat": 51.928194,
     "lng": 4.508343,
     "desc": "Veterinaire kliniek in Rotterdam. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenkliniekkralingen",
+    "instagram": "https://www.instagram.com/dierenkliniekkralingen"
   },
   {
     "id": 254,
@@ -5480,7 +5567,8 @@
     "lat": 51.9244,
     "lng": 4.4777,
     "desc": "Veterinaire kliniek in Rotterdam. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/Dierenkliniek-Trimsalon-Nesselande-299899653547585"
   },
   {
     "id": 272,
@@ -5671,7 +5759,9 @@
     "lat": 50.999,
     "lng": 5.8693,
     "desc": "Veterinaire kliniek in Sittard. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/opdedieksittard",
+    "instagram": "https://www.instagram.com/dierenkliniekopdediek"
   },
   {
     "id": 281,
@@ -5861,7 +5951,9 @@
     "lat": 51.8716,
     "lng": 4.6028,
     "desc": "Veterinaire kliniek in Ridderkerk. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenkliniekridderkerk",
+    "instagram": "https://www.instagram.com/dierenkliniekridderkerk"
   },
   {
     "id": 289,
@@ -5909,7 +6001,9 @@
     "lat": 52.3676,
     "lng": 4.9041,
     "desc": "Veterinaire kliniek in Amsterdam. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenkliniekrivierenbuurt",
+    "instagram": "https://www.instagram.com/dierenkliniekrivierenbuurt"
   },
   {
     "id": 291,
@@ -6128,7 +6222,9 @@
     "lat": 51.8451,
     "lng": 4.3293,
     "desc": "Veterinaire kliniek in Spijkenisse. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenkliniekspijkenisse",
+    "instagram": "https://www.instagram.com/dierenkliniekspijkenisse"
   },
   {
     "id": 300,
@@ -6341,7 +6437,8 @@
     "lat": 51.5253,
     "lng": 5.9758,
     "desc": "Veterinaire kliniek in Venray. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DierenkliniekVenray"
   },
   {
     "id": 310,
@@ -6538,7 +6635,10 @@
     "lat": 52.8786,
     "lng": 5.8945,
     "desc": "Veterinaire kliniek in Wolvega. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/people/Dierenkliniek-Wolvega-Rundvee/100063657337618",
+    "instagram": "https://www.instagram.com/dierenkliniekwolvegarundvee",
+    "linkedin": "https://www.linkedin.com/company/dierenkliniek-wolvega"
   },
   {
     "id": 319,
@@ -6633,7 +6733,9 @@
     "lat": 53.081,
     "lng": 6.6649,
     "desc": "Veterinaire kliniek in Zuidlaren. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/AniCuraNederland",
+    "instagram": "https://www.instagram.com/anicura.nl"
   },
   {
     "id": 323,
@@ -6753,7 +6855,9 @@
     "lat": 52.3508,
     "lng": 5.2647,
     "desc": "Veterinaire kliniek in Almere. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/AniCuraNederland",
+    "instagram": "https://www.instagram.com/anicura.nl"
   },
   {
     "id": 328,
@@ -6843,7 +6947,8 @@
     "lat": 53.1046,
     "lng": 6.0989,
     "desc": "Veterinaire kliniek in Drachten. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/398110816880747"
   },
   {
     "id": 332,
@@ -6938,7 +7043,9 @@
     "lat": 52.3779,
     "lng": 5.7841,
     "desc": "Veterinaire kliniek in Nunspeet. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dgc.nunspeet",
+    "instagram": "https://www.instagram.com/explore/locations/1017806640/dierenkliniek-nunspeet"
   },
   {
     "id": 336,
@@ -7180,7 +7287,8 @@
     "lat": 52.0337,
     "lng": 5.3471,
     "desc": "Veterinaire kliniek in Doorn. Volledige zorg voor gezelschapsdieren.",
-    "tier": "plus"
+    "tier": "plus",
+    "facebook": "https://www.facebook.com/dierenkliniekdoorn"
   },
   {
     "id": 347,
@@ -7203,7 +7311,9 @@
     "lat": 53.1377,
     "lng": 6.4259,
     "desc": "Veterinaire kliniek in Roden. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dchopmans",
+    "instagram": "https://www.instagram.com/explore/locations/1024975621/diergeneeskundig-centrum-hopmans"
   },
   {
     "id": 348,
@@ -7322,7 +7432,8 @@
     "lat": 51.974,
     "lng": 6.7233,
     "desc": "Veterinaire kliniek in Winterswijk. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DiergeneeskundigCentrumWinterswijk"
   },
   {
     "id": 353,
@@ -7492,7 +7603,8 @@
     "lat": 51.9894,
     "lng": 6.5705,
     "desc": "Veterinaire kliniek in Lichtenvoorde. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/oosthofdierenartsen"
   },
   {
     "id": 364,
@@ -7542,7 +7654,8 @@
     "lat": 52.0354,
     "lng": 6.6164,
     "desc": "Veterinaire kliniek in Groenlo. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/oosthofdierenartsen"
   },
   {
     "id": 366,
@@ -7591,7 +7704,9 @@
     "lat": 51.4046,
     "lng": 5.7497,
     "desc": "Veterinaire kliniek in Asten. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dap1h",
+    "instagram": "https://www.instagram.com/dap1hpanningen"
   },
   {
     "id": 369,
@@ -7784,7 +7899,9 @@
     "lat": 51.988908,
     "lng": 5.896609,
     "desc": "Veterinaire kliniek in Arnhem. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/HuisdierenkliniekHornstra",
+    "instagram": "https://www.instagram.com/huisdierenkliniek_hornstra"
   },
   {
     "id": 378,
@@ -7808,7 +7925,9 @@
     "lat": 52.8615,
     "lng": 6.5126,
     "desc": "Veterinaire kliniek in Beilen. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/Huisdierenpraktijk-Beilen-224655557602285",
+    "instagram": "https://www.instagram.com/huisdierenpraktijkbeilen"
   },
   {
     "id": 379,
@@ -8002,7 +8121,8 @@
     "lat": 53.3267,
     "lng": 5.8437,
     "desc": "Veterinaire kliniek in Blije. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/elkedierenarts"
   },
   {
     "id": 392,
@@ -8050,7 +8170,9 @@
     "lat": 51.9425,
     "lng": 6.4664,
     "desc": "Veterinaire kliniek in Varsseveld. Volledige zorg voor gezelschapsdieren.",
-    "tier": "plus"
+    "tier": "plus",
+    "facebook": "https://www.facebook.com/Slingeland-Dierenartsen-500996529961092",
+    "instagram": "https://www.instagram.com/slingelanddierenartsen"
   },
   {
     "id": 394,
@@ -8287,7 +8409,8 @@
     "lat": 51.9655,
     "lng": 6.2882,
     "desc": "Veterinaire kliniek in Doetinchem. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dapdz"
   },
   {
     "id": 404,
@@ -8882,7 +9005,8 @@
     "lat": 52.3508,
     "lng": 5.2647,
     "desc": "Veterinaire kliniek in Almere. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/people/DAS-dierenkliniek-almere-stad/61573529405004"
   },
   {
     "id": 434,
@@ -9423,7 +9547,9 @@
     "lat": 52.2647,
     "lng": 5.6109,
     "desc": "Veterinaire kliniek in Putten. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DierenkliniekPutten",
+    "instagram": "https://www.instagram.com/dierenartsputten"
   },
   {
     "id": 463,
@@ -10011,7 +10137,9 @@
     "lat": 52.4778,
     "lng": 6.0732,
     "desc": "Veterinaire kliniek in Hattem. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DierenkliniekHattem",
+    "instagram": "https://www.instagram.com/dierenkliniekhattem"
   },
   {
     "id": 494,
@@ -10090,7 +10218,9 @@
     "lat": 51.9851,
     "lng": 5.8987,
     "desc": "Veterinaire kliniek in Arnhem. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/mijndierenartsnederrijn",
+    "instagram": "https://www.instagram.com/mijndierenartsnederrijn1a"
   },
   {
     "id": 498,
@@ -10149,7 +10279,9 @@
     "lat": 51.8126,
     "lng": 5.8372,
     "desc": "Veterinaire kliniek in Nijmegen. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DierenkliniekDukenburg",
+    "instagram": "https://www.instagram.com/dierenkliniekdukenburg"
   },
   {
     "id": 501,
@@ -10229,7 +10361,9 @@
     "lat": 52.1376,
     "lng": 6.1932,
     "desc": "Veterinaire kliniek in Zutphen. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/degraafschapdierenartsen",
+    "instagram": "https://www.instagram.com/degraafschapdierenartsen"
   },
   {
     "id": 505,
@@ -10269,7 +10403,8 @@
     "lat": 52.9595,
     "lng": 5.9183,
     "desc": "Veterinaire kliniek in Heerenveen. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenartsenheerenveen"
   },
   {
     "id": 507,
@@ -10310,7 +10445,9 @@
     "lat": 52.1376,
     "lng": 6.1932,
     "desc": "Veterinaire kliniek in Zutphen. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/degraafschapdierenartsen",
+    "instagram": "https://www.instagram.com/degraafschapdierenartsen"
   },
   {
     "id": 509,
@@ -10332,7 +10469,8 @@
     "lat": 51.5097,
     "lng": 5.3935,
     "desc": "Veterinaire kliniek in Best. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DierenkliniekVerstappen"
   },
   {
     "id": 510,
@@ -10515,7 +10653,9 @@
     "lat": 51.5043,
     "lng": 3.8881,
     "desc": "Dierenartspraktijk in Goes, onderdeel van de Dier & Arts-groep.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/kliniekdierenarts",
+    "instagram": "https://www.instagram.com/dapmosselmanenverboom"
   },
   {
     "id": 522,
@@ -10536,7 +10676,8 @@
     "lat": 51.4988,
     "lng": 3.6109,
     "desc": "Veterinaire kliniek in Middelburg. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/people/Duintop-Dierenkliniek/100063650104799"
   },
   {
     "id": 523,
@@ -10556,7 +10697,9 @@
     "lat": 52.2215,
     "lng": 6.8937,
     "desc": "Veterinaire kliniek in Enschede. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenkliniek.enschede",
+    "instagram": "https://www.instagram.com/dierenkliniekenschede"
   },
   {
     "id": 525,
@@ -10616,7 +10759,8 @@
     "lat": 53.2194,
     "lng": 6.5665,
     "desc": "Veterinaire kliniek in Groningen. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenartsgroningen"
   },
   {
     "id": 528,
@@ -10674,7 +10818,8 @@
     "lat": 53.1633,
     "lng": 6.7572,
     "desc": "Veterinaire kliniek in Hoogezand. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/NoorderDierenkliniek"
   },
   {
     "id": 531,
@@ -10695,7 +10840,8 @@
     "lat": 53.3215,
     "lng": 6.8602,
     "desc": "Veterinaire kliniek in Appingedam. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dapvanzeebroeck"
   },
   {
     "id": 532,
@@ -11221,7 +11367,9 @@
     "lat": 52.0007,
     "lng": 5.677,
     "desc": "Veterinaire kliniek in Bennekom. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/BosweideDierenartsen",
+    "instagram": "https://www.instagram.com/bosweidedierenartsen"
   },
   {
     "id": 558,
@@ -11241,7 +11389,9 @@
     "lat": 51.8542,
     "lng": 4.4117,
     "desc": "Veterinaire kliniek in Poortugaal. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenzorggroephoogvliet",
+    "instagram": "https://www.instagram.com/dierenzorggroeprotterdam"
   },
   {
     "id": 559,
@@ -11261,7 +11411,8 @@
     "lat": 51.9776,
     "lng": 5.7402,
     "desc": "Veterinaire kliniek in Renkum. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DierenartsenpraktijkDeDorskamp"
   },
   {
     "id": 560,
@@ -11281,7 +11432,9 @@
     "lat": 52.8957,
     "lng": 5.598,
     "desc": "Veterinaire kliniek in Balk. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dapgaasterland",
+    "instagram": "https://www.instagram.com/dapgaasterland"
   },
   {
     "id": 561,
@@ -11363,7 +11516,8 @@
     "lat": 51.6978,
     "lng": 5.3037,
     "desc": "Veterinaire kliniek in 's-Hertogenbosch. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DierenkliniekDenBosch"
   },
   {
     "id": 565,
@@ -11501,7 +11655,8 @@
     "lat": 53.1426,
     "lng": 7.0395,
     "desc": "Veterinaire kliniek in Winschoten. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenartsenpraktijkoostgroningen"
   },
   {
     "id": 572,
@@ -11690,7 +11845,8 @@
     "lat": 52.77,
     "lng": 6.35,
     "desc": "Veterinaire kliniek in Ruinen.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/Dierenartsenpraktijk-De-Wolden-480255258709594"
   },
   {
     "id": 581,
@@ -11753,7 +11909,8 @@
     "lat": 52.6667,
     "lng": 6.4167,
     "desc": "Veterinaire kliniek in Zuidwolde.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/Dierenartsenpraktijk-De-Wolden-480255258709594"
   },
   {
     "id": 584,
@@ -11774,7 +11931,8 @@
     "lat": 52.8556,
     "lng": 6.3206,
     "desc": "Veterinaire kliniek in Diever.",
-    "tier": "basic"
+    "tier": "basic",
+    "instagram": "https://www.instagram.com/drentsfriesewolddierenartsen"
   },
   {
     "id": 585,
@@ -11963,7 +12121,8 @@
     "lat": 53.15,
     "lng": 6.5,
     "desc": "Veterinaire kliniek in Peize.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/www.dierenartsenpeize.nl"
   },
   {
     "id": 594,
@@ -12026,7 +12185,8 @@
     "lat": 53.3327,
     "lng": 6.5181,
     "desc": "Veterinaire kliniek in Winsum.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DierenkliniekWinsum"
   },
   {
     "id": 597,
@@ -12110,7 +12270,9 @@
     "lat": 51.0408,
     "lng": 5.79,
     "desc": "Veterinaire kliniek in Born.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/opdedieksittard",
+    "instagram": "https://www.instagram.com/dierenkliniekopdediek"
   },
   {
     "id": 601,
@@ -12131,7 +12293,8 @@
     "lat": 53.3303,
     "lng": 6.7322,
     "desc": "Veterinaire kliniek in Loppersum.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/vanstadtotwad"
   },
   {
     "id": 602,
@@ -12173,7 +12336,9 @@
     "lat": 50.9669,
     "lng": 5.7654,
     "desc": "Veterinaire kliniek in Stein.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/opdedieksittard",
+    "instagram": "https://www.instagram.com/dierenkliniekopdediek"
   },
   {
     "id": 604,
@@ -12346,7 +12511,9 @@
     "lat": 53.211923,
     "lng": 5.788138,
     "desc": "Veterinaire kliniek in Leeuwarden. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/AniCuraNederland",
+    "instagram": "https://www.instagram.com/anicura.nl"
   },
   {
     "id": 613,
@@ -12382,7 +12549,9 @@
     "lat": 52.194038,
     "lng": 5.934828,
     "desc": "Veterinaire kliniek in Apeldoorn. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/AniCuraApeldoorn",
+    "instagram": "https://www.instagram.com/anicuraapeldoorn"
   },
   {
     "id": 615,
@@ -12796,7 +12965,9 @@
     "lat": 51.655447,
     "lng": 3.90628,
     "desc": "Veterinaire kliniek in Zierikzee. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/Dierenartsenpraktijk-Schouwen-Duiveland-294612877218806",
+    "instagram": "https://www.instagram.com/sterkliniekschouwenduiveland"
   },
   {
     "id": 638,
@@ -12814,7 +12985,9 @@
     "lat": 51.322469,
     "lng": 3.853942,
     "desc": "Veterinaire kliniek in Terneuzen. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/anicuradzzv",
+    "instagram": "https://www.instagram.com/explore/locations/1014879838/dierenziekenhuis-zeeuws-vlaanderen"
   },
   {
     "id": 639,
@@ -13358,7 +13531,8 @@
     "lat": 51.9851,
     "lng": 5.8987,
     "desc": "Dierenziekenhuis in Arnhem. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "linkedin": "https://www.linkedin.com/company/evidensia-dierenziekenhuis"
   },
   {
     "id": 669,
@@ -14124,7 +14298,8 @@
     "lat": 51.716107,
     "lng": 3.792599,
     "desc": "Veterinaire kliniek in Noordwelle. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dczeeland"
   },
   {
     "id": 709,
@@ -14142,7 +14317,9 @@
     "lat": 51.912249,
     "lng": 5.65647,
     "desc": "Veterinaire kliniek in Dodewaard. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/kliniekdierenwaard",
+    "instagram": "https://www.instagram.com/kliniekdierenwaard"
   },
   {
     "id": 710,
@@ -14289,7 +14466,9 @@
     "lat": 52.779,
     "lng": 6.23279,
     "desc": "Veterinaire kliniek in Havelte. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenkliniekdewoldberg",
+    "instagram": "https://www.instagram.com/anicura.nl"
   },
   {
     "id": 718,
@@ -14325,7 +14504,9 @@
     "lat": 53.0009,
     "lng": 6.54094,
     "desc": "Veterinaire kliniek in Assen. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenartsdeen",
+    "instagram": "https://www.instagram.com/dierenartsdeen"
   },
   {
     "id": 720,
@@ -14379,7 +14560,8 @@
     "lat": 53.1015,
     "lng": 6.68311,
     "desc": "Veterinaire kliniek in Zuidlaren. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/pg/dapdehondsrug"
   },
   {
     "id": 723,
@@ -14397,7 +14579,9 @@
     "lat": 53.005,
     "lng": 6.76369,
     "desc": "Veterinaire kliniek in Gieten. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenartsengieten",
+    "instagram": "https://www.instagram.com/dierenarts_natasja"
   },
   {
     "id": 724,
@@ -14415,7 +14599,8 @@
     "lat": 52.7152,
     "lng": 6.85989,
     "desc": "Veterinaire kliniek in Nieuw-Amsterdam. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/Dierenkliniek-Makatsi-371110819644710"
   },
   {
     "id": 725,
@@ -14433,7 +14618,8 @@
     "lat": 52.7186,
     "lng": 6.87614,
     "desc": "Veterinaire kliniek in Nieuw-Amsterdam. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DiergeneeskundigCentrumZODrenthe"
   },
   {
     "id": 726,
@@ -14451,7 +14637,8 @@
     "lat": 52.6775,
     "lng": 6.7447,
     "desc": "Veterinaire kliniek in Coevorden. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DiergeneeskundigCentrumZODrenthe"
   },
   {
     "id": 727,
@@ -14487,7 +14674,9 @@
     "lat": 52.8284,
     "lng": 6.85613,
     "desc": "Veterinaire kliniek in Klijndijk. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/ArtsEnDier",
+    "instagram": "https://www.instagram.com/artsendier"
   },
   {
     "id": 729,
@@ -14505,7 +14694,8 @@
     "lat": 52.8528,
     "lng": 6.59994,
     "desc": "Veterinaire kliniek in Westerbork. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/100101658637662"
   },
   {
     "id": 730,
@@ -14577,7 +14767,8 @@
     "lat": 52.3379,
     "lng": 5.21875,
     "desc": "Veterinaire kliniek in Almere. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenkliniekalmerehaven"
   },
   {
     "id": 734,
@@ -14703,7 +14894,8 @@
     "lat": 52.97583,
     "lng": 6.48111,
     "desc": "Veterinaire kliniek in Bovensmilde. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/Jonker-Dierenarts-Interne-Geneeskunde-349665341715261"
   },
   {
     "id": 741,
@@ -14847,7 +15039,9 @@
     "lat": 53.1157,
     "lng": 5.5939,
     "desc": "Veterinaire kliniek in Wommels. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/Dierenartsenpraktijk-It-Griene-Hert-339603859473872",
+    "instagram": "https://www.instagram.com/dierenartsitgrienehert"
   },
   {
     "id": 749,
@@ -14865,7 +15059,8 @@
     "lat": 53.284,
     "lng": 6.15291,
     "desc": "Veterinaire kliniek in Kollum. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DAPKollumBuitenpost"
   },
   {
     "id": 750,
@@ -14901,7 +15096,9 @@
     "lat": 53.0931,
     "lng": 5.82809,
     "desc": "Veterinaire kliniek in Grou. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DAPGROU",
+    "instagram": "https://www.instagram.com/dierenartspraktijk_grou"
   },
   {
     "id": 752,
@@ -14919,7 +15116,9 @@
     "lat": 53.1017,
     "lng": 5.46874,
     "desc": "Veterinaire kliniek in Witmarsum. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/Dierenartsenpraktijk-It-Griene-Hert-339603859473872",
+    "instagram": "https://www.instagram.com/dierenartsitgrienehert"
   },
   {
     "id": 753,
@@ -15009,7 +15208,8 @@
     "lat": 53.1852,
     "lng": 5.78586,
     "desc": "Veterinaire kliniek in Leeuwarden. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenkliniek.nijlan.7"
   },
   {
     "id": 758,
@@ -15063,7 +15263,8 @@
     "lat": 53.2651,
     "lng": 5.76269,
     "desc": "Veterinaire kliniek in Stiens. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenartsstiens"
   },
   {
     "id": 761,
@@ -15207,7 +15408,9 @@
     "lat": 51.7986,
     "lng": 5.72375,
     "desc": "Veterinaire kliniek in Wijchen. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenartswijchen",
+    "instagram": "https://www.instagram.com/dierenartswijchen"
   },
   {
     "id": 769,
@@ -15243,7 +15446,9 @@
     "lat": 51.779,
     "lng": 5.92468,
     "desc": "Veterinaire kliniek in Groesbeek. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dapgroesbeek",
+    "instagram": "https://www.instagram.com/dapgroesbeek"
   },
   {
     "id": 771,
@@ -15315,7 +15520,8 @@
     "lat": 51.972,
     "lng": 5.66442,
     "desc": "Veterinaire kliniek in Wageningen. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DeDierenartsWageningen"
   },
   {
     "id": 775,
@@ -15333,7 +15539,9 @@
     "lat": 52.0633,
     "lng": 6.18709,
     "desc": "Veterinaire kliniek in Steenderen. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/degraafschapdierenartsen",
+    "instagram": "https://www.instagram.com/degraafschapdierenartsen"
   },
   {
     "id": 776,
@@ -15387,7 +15595,9 @@
     "lat": 52.4693,
     "lng": 5.99419,
     "desc": "Veterinaire kliniek in Wezep. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dgcbovenveluwe",
+    "instagram": "https://www.instagram.com/dgcbovenveluwe"
   },
   {
     "id": 779,
@@ -15405,7 +15615,9 @@
     "lat": 52.3457,
     "lng": 5.62716,
     "desc": "Veterinaire kliniek in Harderwijk. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DierenartsenAnimalCare",
+    "linkedin": "https://www.linkedin.com/company/dierenartsen-animalcare/about"
   },
   {
     "id": 780,
@@ -15423,7 +15635,8 @@
     "lat": 52.1855,
     "lng": 5.94153,
     "desc": "Veterinaire kliniek in Ugchelen. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DierenartsenUgchelen.nl"
   },
   {
     "id": 781,
@@ -15441,7 +15654,9 @@
     "lat": 52.0465,
     "lng": 5.66512,
     "desc": "Veterinaire kliniek in Ede Gld. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DierenartsencentrumEdeBennekom",
+    "instagram": "https://www.instagram.com/dierenartsede"
   },
   {
     "id": 782,
@@ -15459,7 +15674,8 @@
     "lat": 52.1826,
     "lng": 5.60168,
     "desc": "Veterinaire kliniek in Voorthuizen. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dapvug"
   },
   {
     "id": 783,
@@ -15513,7 +15729,9 @@
     "lat": 52.0348,
     "lng": 5.65981,
     "desc": "Veterinaire kliniek in Ede Gld. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/pages/category/Veterinarian/Dierenkliniek-Kruizinga-531369883596828",
+    "instagram": "https://www.instagram.com/dierenkliniekkruizinga"
   },
   {
     "id": 786,
@@ -15531,7 +15749,9 @@
     "lat": 52.164,
     "lng": 5.67588,
     "desc": "Veterinaire kliniek in Kootwijkerbroek. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/Dierenartsenpraktijk-Midden-Nederland-568384456523992",
+    "instagram": "https://www.instagram.com/dapmiddennederland"
   },
   {
     "id": 787,
@@ -15567,7 +15787,8 @@
     "lat": 51.8071,
     "lng": 5.7303,
     "desc": "Veterinaire kliniek in Wijchen. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenartsenpraktijktweestromenland"
   },
   {
     "id": 789,
@@ -15585,7 +15806,8 @@
     "lat": 51.8602,
     "lng": 5.76221,
     "desc": "Veterinaire kliniek in Beuningen Gld. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenartsenpraktijktweestromenland"
   },
   {
     "id": 790,
@@ -15621,7 +15843,9 @@
     "lat": 52.2213,
     "lng": 5.4689,
     "desc": "Veterinaire kliniek in Nijkerk Gld. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "instagram": "https://www.instagram.com/explore/locations/503635089687802/dierenartsenpraktijk-nijkerk-wellensiek",
+    "linkedin": "https://www.linkedin.com/company/wellensiek-dierenartsen"
   },
   {
     "id": 792,
@@ -15639,7 +15863,8 @@
     "lat": 51.9712,
     "lng": 6.71437,
     "desc": "Veterinaire kliniek in Winterswijk. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dapwenters"
   },
   {
     "id": 793,
@@ -15657,7 +15882,8 @@
     "lat": 52.0057,
     "lng": 6.36051,
     "desc": "Veterinaire kliniek in Zelhem. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DAPZDV"
   },
   {
     "id": 794,
@@ -15765,7 +15991,8 @@
     "lat": 51.8356,
     "lng": 5.88642,
     "desc": "Veterinaire kliniek in Nijmegen. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/Nijmegendierenkliniekbroerdijk"
   },
   {
     "id": 800,
@@ -15783,7 +16010,8 @@
     "lat": 51.8275,
     "lng": 5.21164,
     "desc": "Veterinaire kliniek in Haaften. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/Bata4enHaaften"
   },
   {
     "id": 801,
@@ -15837,7 +16065,9 @@
     "lat": 51.8442,
     "lng": 5.83884,
     "desc": "Veterinaire kliniek in Nijmegen. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DierenkliniekHees",
+    "instagram": "https://www.instagram.com/dierenkliniekhees"
   },
   {
     "id": 804,
@@ -15891,7 +16121,8 @@
     "lat": 52.221,
     "lng": 5.98191,
     "desc": "Veterinaire kliniek in Apeldoorn. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DierenkliniekMheenpark"
   },
   {
     "id": 807,
@@ -15963,7 +16194,8 @@
     "lat": 52.2331,
     "lng": 6.093,
     "desc": "Veterinaire kliniek in Twello. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierkliniektwello"
   },
   {
     "id": 811,
@@ -15981,7 +16213,9 @@
     "lat": 51.9895,
     "lng": 5.93703,
     "desc": "Veterinaire kliniek in Arnhem. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenkliniekvelperweg",
+    "instagram": "https://www.instagram.com/dierenkliniek_velperweg"
   },
   {
     "id": 812,
@@ -16143,7 +16377,9 @@
     "lat": 52.0462,
     "lng": 6.09854,
     "desc": "Veterinaire kliniek in Dieren. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/kliniekdieren",
+    "instagram": "https://www.instagram.com/kliniekvoorgezelschapsdieren"
   },
   {
     "id": 821,
@@ -16197,7 +16433,9 @@
     "lat": 52.2814,
     "lng": 5.96717,
     "desc": "Veterinaire kliniek in Vaassen. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/Dierenartsenpraktijk-Vaassen-100418528779181",
+    "instagram": "https://www.instagram.com/dapvaassen"
   },
   {
     "id": 824,
@@ -16359,7 +16597,8 @@
     "lat": 51.9928,
     "lng": 5.70351,
     "desc": "Veterinaire kliniek in Wageningen. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/Wagenrenk"
   },
   {
     "id": 833,
@@ -16503,7 +16742,8 @@
     "lat": 53.376,
     "lng": 6.83408,
     "desc": "Veterinaire kliniek in Losdorp. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dapvanzeebroeck"
   },
   {
     "id": 841,
@@ -16701,7 +16941,9 @@
     "lat": 50.8944,
     "lng": 5.97366,
     "desc": "Veterinaire kliniek in Heerlen. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/Dierenartsencentrumheerlen",
+    "instagram": "https://www.instagram.com/dac_heerlen"
   },
   {
     "id": 853,
@@ -16737,7 +16979,8 @@
     "lat": 51.278,
     "lng": 6.02405,
     "desc": "Veterinaire kliniek in Kessel Lb. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DierenartsenpraktijkDeKeizer"
   },
   {
     "id": 855,
@@ -16791,7 +17034,8 @@
     "lat": 50.9534,
     "lng": 5.94071,
     "desc": "Veterinaire kliniek in Merkelbeek. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenartsdaan"
   },
   {
     "id": 858,
@@ -16809,7 +17053,8 @@
     "lat": 51.3462,
     "lng": 5.88139,
     "desc": "Veterinaire kliniek in Meijel. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenartspraktijkmeijel"
   },
   {
     "id": 859,
@@ -16845,7 +17090,8 @@
     "lat": 51.2361,
     "lng": 6.05221,
     "desc": "Veterinaire kliniek in Swalmen. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenkliniekdewijher"
   },
   {
     "id": 861,
@@ -16953,7 +17199,8 @@
     "lat": 50.8162,
     "lng": 5.89405,
     "desc": "Veterinaire kliniek in Gulpen. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenkliniekgulpenmargraten"
   },
   {
     "id": 867,
@@ -17007,7 +17254,8 @@
     "lat": 50.9465,
     "lng": 5.77219,
     "desc": "Veterinaire kliniek in Elsloo Lb. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/Dierenkliniek-Maaskant-191538904250395"
   },
   {
     "id": 871,
@@ -17061,7 +17309,9 @@
     "lat": 51.1577,
     "lng": 6.01376,
     "desc": "Veterinaire kliniek in Melick. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenkliniekroerdalen.nl",
+    "instagram": "https://www.instagram.com/dierenkliniek_roerdalen"
   },
   {
     "id": 874,
@@ -17133,7 +17383,8 @@
     "lat": 50.9097,
     "lng": 5.86946,
     "desc": "Veterinaire kliniek in Nuth. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/p/Diergezondheidscentrum-Nicolai-100063654607731"
   },
   {
     "id": 878,
@@ -17151,7 +17402,8 @@
     "lat": 50.8742,
     "lng": 6.05737,
     "desc": "Veterinaire kliniek in Kerkrade. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenarts.ramakers"
   },
   {
     "id": 879,
@@ -17205,7 +17457,8 @@
     "lat": 51.2746,
     "lng": 5.75011,
     "desc": "Veterinaire kliniek in Nederweert. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "linkedin": "https://www.linkedin.com/company/lintjeshof/about"
   },
   {
     "id": 882,
@@ -17511,7 +17764,8 @@
     "lat": 51.2651,
     "lng": 5.58711,
     "desc": "Veterinaire kliniek in Budel. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/meemortel"
   },
   {
     "id": 899,
@@ -17781,7 +18035,9 @@
     "lat": 51.5683,
     "lng": 4.77692,
     "desc": "Veterinaire kliniek in Breda. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/AniCuraNederland",
+    "instagram": "https://www.instagram.com/anicura.nl"
   },
   {
     "id": 914,
@@ -17853,7 +18109,9 @@
     "lat": 51.6787,
     "lng": 5.13132,
     "desc": "Veterinaire kliniek in Drunen. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenkliniekdrunen",
+    "instagram": "https://www.instagram.com/dkdrunen"
   },
   {
     "id": 918,
@@ -17961,7 +18219,9 @@
     "lat": 51.7282,
     "lng": 5.86586,
     "desc": "Veterinaire kliniek in Cuijk. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DierenkliniekOverhage",
+    "instagram": "https://www.instagram.com/dierenkliniek.overhage"
   },
   {
     "id": 924,
@@ -18033,7 +18293,8 @@
     "lat": 51.4795,
     "lng": 4.28228,
     "desc": "Veterinaire kliniek in Bergen Op Zoom. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/pages/Dierenkliniek-Ter-Gouwe/173321899480654"
   },
   {
     "id": 928,
@@ -18159,7 +18420,9 @@
     "lat": 51.5886,
     "lng": 5.17298,
     "desc": "Veterinaire kliniek in Oisterwijk. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DiergeneeskundigCentrumOisterwijk",
+    "instagram": "https://www.instagram.com/dco_oisterwijk"
   },
   {
     "id": 935,
@@ -18213,7 +18476,9 @@
     "lat": 51.7081,
     "lng": 5.37595,
     "desc": "Veterinaire kliniek in Den Bosch. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DierenkliniekDeGrooteVriend",
+    "instagram": "https://www.instagram.com/dierenkliniekdegrootevriend"
   },
   {
     "id": 938,
@@ -18987,7 +19252,8 @@
     "lat": 52.3898,
     "lng": 4.94753,
     "desc": "Veterinaire kliniek in Amsterdam. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenkliniekamsterdamnoord"
   },
   {
     "id": 985,
@@ -19995,7 +20261,8 @@
     "lat": 52.272,
     "lng": 6.77797,
     "desc": "Veterinaire kliniek in Hengelo Ov. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenkliniek.hengelo"
   },
   {
     "id": 1042,
@@ -20607,7 +20874,8 @@
     "lat": 51.9635,
     "lng": 5.5676,
     "desc": "Veterinaire kliniek in Rhenen. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dz.veenendaal"
   },
   {
     "id": 1077,
@@ -20661,7 +20929,9 @@
     "lat": 52.0212,
     "lng": 5.18672,
     "desc": "Veterinaire kliniek in Houten. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenkliniekwulven.nl",
+    "instagram": "https://www.instagram.com/dierenkliniekwulven"
   },
   {
     "id": 1080,
@@ -20877,7 +21147,9 @@
     "lat": 51.6974,
     "lng": 3.75057,
     "desc": "Veterinaire kliniek in Burgh-Haamstede. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/Dierenartsenpraktijk-Schouwen-Duiveland-294612877218806",
+    "instagram": "https://www.instagram.com/sterkliniekschouwenduiveland"
   },
   {
     "id": 1092,
@@ -20931,7 +21203,8 @@
     "lat": 51.4485,
     "lng": 3.56811,
     "desc": "Eerstelijns dierenkliniek in Vlissingen (voorheen DAP A.J. Diender), gericht op betaalbare zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DierenkliniekADW"
   },
   {
     "id": 1095,
@@ -21057,7 +21330,8 @@
     "lat": 51.5659,
     "lng": 3.54536,
     "desc": "Gezelschapsdierenpraktijk in Oostkapelle (Walcheren) met twee dierenartsen en vier paraveterinairen.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/p/Dierenartsenpraktijk-Oostkapelle-100046406568979"
   },
   {
     "id": 1104,
@@ -21615,7 +21889,10 @@
     "lat": 51.9118,
     "lng": 4.33343,
     "desc": "Veterinaire kliniek in Vlaardingen. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenkliniekbilliton",
+    "instagram": "https://www.instagram.com/dierenkliniekbilliton",
+    "linkedin": "https://www.linkedin.com/in/dierenkliniek-billiton-009328202"
   },
   {
     "id": 1138,
@@ -21651,7 +21928,9 @@
     "lat": 51.9344,
     "lng": 4.49665,
     "desc": "Veterinaire kliniek in Rotterdam. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/AniCuraNederland",
+    "instagram": "https://www.instagram.com/anicura.nl"
   },
   {
     "id": 1140,
@@ -22029,7 +22308,10 @@
     "lat": 52.0311,
     "lng": 4.44476,
     "desc": "Veterinaire kliniek in Pijnacker. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenkliniekpijnacker",
+    "instagram": "https://www.instagram.com/dierenkliniekpijnacker",
+    "linkedin": "https://www.linkedin.com/company/dierenkliniek-pijnacker"
   },
   {
     "id": 1161,
@@ -22065,7 +22347,9 @@
     "lat": 52.0616,
     "lng": 4.51171,
     "desc": "Veterinaire kliniek in Zoetermeer. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenkliniekzoetermeerseghwaert",
+    "instagram": "https://www.instagram.com/dierenkliniekzoetermeerseghw"
   },
   {
     "id": 1163,
@@ -22479,7 +22763,8 @@
     "lat": 52.36773918,
     "lng": 5.25588495,
     "desc": "Veterinaire kliniek in Almere. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dapdanswijk"
   },
   {
     "id": 1187,
@@ -23123,7 +23408,8 @@
     "lat": 51.493,
     "lng": 4.0517,
     "desc": "Dierenartspraktijk in Yerseke (Zuid-Beveland), sinds voorjaar 2025 gevestigd aan het Schuttershof.",
-    "tier": "basic"
+    "tier": "basic",
+    "instagram": "https://www.instagram.com/julderdierenarts"
   },
   {
     "id": 1222,
@@ -23180,7 +23466,9 @@
     "lat": 51.5043,
     "lng": 3.8881,
     "desc": "Dierenartspraktijk in Goes, onderdeel van DAP Lingehoeve Midden-Zeeland (ook vestiging in Heinkenszand).",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DierenartsMiddenZeeland",
+    "instagram": "https://www.instagram.com/lingehoevemiddenzeeland"
   },
   {
     "id": 1225,
@@ -23199,7 +23487,9 @@
     "lat": 51.5077,
     "lng": 3.7858,
     "desc": "Nevenvestiging in Heinkenszand van DAP Lingehoeve Midden-Zeeland (hoofdvestiging Goes).",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DierenartsMiddenZeeland",
+    "instagram": "https://www.instagram.com/lingehoevemiddenzeeland"
   },
   {
     "id": 1226,
@@ -23291,7 +23581,9 @@
     "lat": 52.72417,
     "lng": 6.99028,
     "desc": "Dierenartspraktijk in Klazienaveen.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/ArtsEnDier",
+    "instagram": "https://www.instagram.com/artsendier"
   },
   {
     "id": 1231,
@@ -23462,7 +23754,8 @@
     "lat": 52.69155009,
     "lng": 6.2247148,
     "desc": "Dierenartspraktijk in Meppel.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DierenkliniekMeppel"
   },
   {
     "id": 1240,
@@ -23500,7 +23793,8 @@
     "lat": 52.7794,
     "lng": 6.9069,
     "desc": "Dierenartspraktijk in Emmen.",
-    "tier": "basic"
+    "tier": "basic",
+    "linkedin": "https://www.linkedin.com/company/gezondheidscentrum-voor-pluimvee-emmen"
   },
   {
     "id": 1242,
@@ -23557,7 +23851,8 @@
     "lat": 52.69155009,
     "lng": 6.2247148,
     "desc": "Dierenartspraktijk in Meppel.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DAPZWD"
   },
   {
     "id": 1245,
@@ -23782,7 +24077,8 @@
     "lat": 53.17477,
     "lng": 5.42244,
     "desc": "Dierenartspraktijk in Harlingen.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dapnoordwestfriesland"
   },
   {
     "id": 1257,
@@ -23944,7 +24240,8 @@
     "lat": 52.45417,
     "lng": 5.69417,
     "desc": "Dierenartspraktijk in Biddinghuizen.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DeltaDierenartsenDronten"
   },
   {
     "id": 1266,
@@ -23963,7 +24260,8 @@
     "lat": 52.524,
     "lng": 5.7156,
     "desc": "Dierenartspraktijk in Dronten.",
-    "tier": "basic"
+    "tier": "basic",
+    "instagram": "https://www.instagram.com/dierenkliniekdronten"
   },
   {
     "id": 1267,
@@ -24058,7 +24356,8 @@
     "lat": 52.71,
     "lng": 5.7488,
     "desc": "Dierenartspraktijk in Emmeloord.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dapnoplvv"
   },
   {
     "id": 1272,
@@ -24096,7 +24395,8 @@
     "lat": 53.1037,
     "lng": 6.8767,
     "desc": "Dierenartspraktijk in Veendam.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DierenkliniekVeendamStadskanaal"
   },
   {
     "id": 1274,
@@ -24115,7 +24415,9 @@
     "lat": 52.9882,
     "lng": 6.951,
     "desc": "Dierenartspraktijk in Stadskanaal.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/ArtsEnDier",
+    "instagram": "https://www.instagram.com/artsendier"
   },
   {
     "id": 1275,
@@ -24359,7 +24661,9 @@
     "lat": 51.5719,
     "lng": 4.7683,
     "desc": "Dierenartspraktijk in Breda.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/AniCuraNederland",
+    "instagram": "https://www.instagram.com/anicura.nl"
   },
   {
     "id": 1288,
@@ -24378,7 +24682,8 @@
     "lat": 52.1615,
     "lng": 6.4152,
     "desc": "Dierenartspraktijk in Lochem.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DierenkliniekLochem"
   },
   {
     "id": 1289,
@@ -24397,7 +24702,9 @@
     "lat": 52.0023,
     "lng": 5.9787,
     "desc": "Dierenartspraktijk in Velp.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/degraafschapdierenartsen",
+    "instagram": "https://www.instagram.com/degraafschapdierenartsen"
   },
   {
     "id": 1290,
@@ -24606,7 +24913,8 @@
     "lat": 52.70757,
     "lng": 5.27412,
     "desc": "Dierenartspraktijk in Enkhuizen.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DierenkliniekEnkhuizen"
   },
   {
     "id": 1301,
@@ -24815,7 +25123,9 @@
     "lat": 52.2389,
     "lng": 4.8295,
     "desc": "Dierenartspraktijk in Uithoorn.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenartsenpraktijkuam",
+    "instagram": "https://www.instagram.com/explore/locations/924623270986819/dierenartsenpraktijk-uithoorn-aalsmeer-mijdrecht-wilnis"
   },
   {
     "id": 1312,
@@ -24948,7 +25258,8 @@
     "lat": 52.1255,
     "lng": 5.19987,
     "desc": "Dierenartspraktijk in Bilthoven.",
-    "tier": "basic"
+    "tier": "basic",
+    "instagram": "https://www.instagram.com/dierenkliniek_de_bilt"
   },
   {
     "id": 1319,
@@ -25024,7 +25335,8 @@
     "lat": 52.1364,
     "lng": 5.0411,
     "desc": "Dierenartspraktijk in Maarssen.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/Dierenarts.Schonauwen"
   },
   {
     "id": 1323,
@@ -25233,7 +25545,10 @@
     "lat": 52.433,
     "lng": 6.58477,
     "desc": "Dierenartspraktijk in Daarlerveen.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/domeinenbank",
+    "instagram": "https://www.instagram.com/domeinenbank",
+    "linkedin": "https://www.linkedin.com/company/domeinenbank"
   },
   {
     "id": 1334,
@@ -25271,7 +25586,10 @@
     "lat": 52.7873,
     "lng": 6.1183,
     "desc": "Dierenartspraktijk in Steenwijk.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dehaarautomotive",
+    "instagram": "https://www.instagram.com/dehaarautomotive",
+    "linkedin": "https://www.linkedin.com/company/de-haar-lease-b-v-"
   },
   {
     "id": 1336,
@@ -25556,7 +25874,8 @@
     "lat": 51.90167,
     "lng": 4.1625,
     "desc": "Dierenartspraktijk in Brielle.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dacbrielle"
   },
   {
     "id": 1351,
@@ -25594,7 +25913,9 @@
     "lat": 51.8133,
     "lng": 4.6901,
     "desc": "Dierenartspraktijk in Dordrecht.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DierenkliniekDordrecht",
+    "instagram": "https://www.instagram.com/dierenkliniekdordrecht"
   },
   {
     "id": 1353,
@@ -25632,7 +25953,9 @@
     "lat": 51.8133,
     "lng": 4.6901,
     "desc": "Dierenartspraktijk in Dordrecht.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DierenkliniekDordrecht",
+    "instagram": "https://www.instagram.com/dierenkliniekdordrecht"
   },
   {
     "id": 1355,
@@ -25784,7 +26107,9 @@
     "lat": 52.0258,
     "lng": 4.175,
     "desc": "Dierenartspraktijk in Monster.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/pages/Dierenkliniek-Westland/228708083860890",
+    "instagram": "https://www.instagram.com/dierenkliniekwestland"
   },
   {
     "id": 1363,
@@ -25822,7 +26147,8 @@
     "lat": 53.1046,
     "lng": 6.0989,
     "desc": "Dierenartspraktijk in Drachten.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/A7NoordDierenartsen"
   },
   {
     "id": 1365,
@@ -25974,7 +26300,9 @@
     "lat": 51.365025,
     "lng": 5.29564,
     "desc": "Dierenartspraktijk in Duizel.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/Pleegmerrie",
+    "instagram": "https://www.instagram.com/pleegmerriesdennenoord"
   },
   {
     "id": 1373,
@@ -25993,7 +26321,8 @@
     "lat": 52.1042,
     "lng": 6.6261,
     "desc": "Dierenartspraktijk in Eibergen.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/oosthofdierenartsen"
   },
   {
     "id": 1374,
@@ -26031,7 +26360,9 @@
     "lat": 50.8514,
     "lng": 5.6909,
     "desc": "Dierenartspraktijk in Maastricht.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/AniCuraNederland",
+    "instagram": "https://www.instagram.com/anicura.nl"
   },
   {
     "id": 1377,
@@ -26544,7 +26875,8 @@
     "lat": 52.1561,
     "lng": 5.3878,
     "desc": "Dierenartspraktijk in Amersfoort.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/1508260366135423"
   },
   {
     "id": 1404,
@@ -26829,7 +27161,8 @@
     "lat": 52.0855,
     "lng": 4.8836,
     "desc": "Dierenartspraktijk in Woerden.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/kliniekvoordierenwoerden"
   },
   {
     "id": 1419,
@@ -26981,7 +27314,9 @@
     "lat": 52.2215,
     "lng": 6.8937,
     "desc": "Dierenartspraktijk in Enschede.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/dierenkliniek.enschede",
+    "instagram": "https://www.instagram.com/dierenkliniekenschede"
   },
   {
     "id": 1427,
@@ -27095,7 +27430,8 @@
     "lat": 52.5425,
     "lng": 5.92009,
     "desc": "Dierenartspraktijk in Kampen.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/BBDeStapel"
   },
   {
     "id": 1433,
@@ -27418,7 +27754,9 @@
     "lat": 51.8557,
     "lng": 4.5347,
     "desc": "Dierenartspraktijk in Barendrecht.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/AniCuraNederland",
+    "instagram": "https://www.instagram.com/anicura.nl"
   },
   {
     "id": 1450,
@@ -27513,7 +27851,8 @@
     "lat": 51.8295,
     "lng": 4.9701,
     "desc": "Dierenartspraktijk in Gorinchem.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DierenziekenhuisGorinchem"
   },
   {
     "id": 1455,
@@ -27646,7 +27985,9 @@
     "lat": 52.22191,
     "lng": 4.491631,
     "desc": "Dierenartspraktijk in Voorhout.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/AniCuraNederland",
+    "instagram": "https://www.instagram.com/anicura.nl"
   },
   {
     "id": 1462,
@@ -27722,7 +28063,9 @@
     "lat": 52.070977,
     "lng": 4.359454,
     "desc": "Dierenartspraktijk in Voorburg.",
-    "tier": "basic"
+    "tier": "basic",
+    "facebook": "https://www.facebook.com/DierenkliniekVanMontfoort",
+    "instagram": "https://www.instagram.com/dkvanmontfoort"
   },
   {
     "id": 1466,

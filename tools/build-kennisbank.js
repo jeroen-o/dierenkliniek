@@ -48,33 +48,103 @@ const DISCLAIMER = `<div class="callout">
   bekijk de <a href="/spoedhulp">klinieken met 24/7 spoedhulp</a>.
 </div>`;
 
-// Rasartikelen (20 stuks) delen allemaal category "praktisch" met tal van
-// niet-rasgerelateerde artikelen, dus de gewone sameAnimal/sameCategory-
-// volgorde in related() haalde zelden een ander ras naar boven. Expliciete
-// lijst, zodat een bezoeker op één rasartikel de andere rassen vindt.
-const RAS_SLUGS = new Set([
-  'australian-shepherd-gezondheidsproblemen-en-beweging-behoeften',
-  'beagle-gezondheidsproblemen-en-verzorging',
-  'berner-sennenhond-gezondheidsproblemen-en-korte-levensduur',
-  'bichon-frise-gezondheidsproblemen-en-vachtverzorging',
-  'border-collie-gezondheidsproblemen-en-beweging-behoeften',
-  'boxer-gezondheidsproblemen-en-aandachtspunten',
-  'cavalier-king-charles-spaniel-hartklachten-en-meer',
-  'chihuahua-veelvoorkomende-gezondheidsproblemen-en-verzorging',
-  'cocker-spaniel-gezondheidsproblemen-van-deze-vrolijke-jachthond',
-  'duitse-dog-gezondheidsproblemen-en-zeer-korte-levensduur',
-  'duitse-herder-veelvoorkomende-gezondheidsproblemen-en-preventie',
-  'dwergpoedel-gezondheidsproblemen-en-verzorging',
-  'franse-bulldog-gezondheidsproblemen-door-platte-snuit-en-meer',
-  'golden-retriever-veelvoorkomende-gezondheidsproblemen-en-levensverwachting',
-  'jack-russell-terrier-gezondheidsproblemen-en-energie-behoeften',
-  'labrador-retriever-veelvoorkomende-gezondheidsproblemen-en-preventie',
-  'mopshond-ernstige-gezondheidsproblemen-door-platte-snuit',
-  'nederlands-kooikerhondje-erfelijke-aandoeningen-en-behoud-van-het-ras',
-  'rottweiler-gezondheidsproblemen-en-verantwoord-bezit',
-  'shih-tzu-gezondheidsproblemen-door-platte-snuit-en-klein-formaat',
-  'teckel-rugproblemen-en-verzorging-van-de-worstenhond',
-]);
+// Rasartikelen delen allemaal category "praktisch" met tal van niet-
+// rasgerelateerde artikelen, dus de gewone sameAnimal/sameCategory-volgorde
+// in related() haalde zelden een ander ras naar boven. Expliciete lijst per
+// diersoort, zodat een bezoeker op één rasartikel de andere rassen van
+// dezelfde diersoort vindt (rassen van een andere diersoort zijn voor de
+// bezoeker niet relevant, dus geen kruislinks over diersoorten heen).
+const RAS_SLUGS_BY_ANIMAL = {
+  hond: new Set([
+    // Bestaande 20.
+    'australian-shepherd-gezondheidsproblemen-en-beweging-behoeften',
+    'beagle-gezondheidsproblemen-en-verzorging',
+    'berner-sennenhond-gezondheidsproblemen-en-korte-levensduur',
+    'bichon-frise-gezondheidsproblemen-en-vachtverzorging',
+    'border-collie-gezondheidsproblemen-en-beweging-behoeften',
+    'boxer-gezondheidsproblemen-en-aandachtspunten',
+    'cavalier-king-charles-spaniel-hartklachten-en-meer',
+    'chihuahua-veelvoorkomende-gezondheidsproblemen-en-verzorging',
+    'cocker-spaniel-gezondheidsproblemen-van-deze-vrolijke-jachthond',
+    'duitse-dog-gezondheidsproblemen-en-zeer-korte-levensduur',
+    'duitse-herder-veelvoorkomende-gezondheidsproblemen-en-preventie',
+    'dwergpoedel-gezondheidsproblemen-en-verzorging',
+    'franse-bulldog-gezondheidsproblemen-door-platte-snuit-en-meer',
+    'golden-retriever-veelvoorkomende-gezondheidsproblemen-en-levensverwachting',
+    'jack-russell-terrier-gezondheidsproblemen-en-energie-behoeften',
+    'labrador-retriever-veelvoorkomende-gezondheidsproblemen-en-preventie',
+    'mopshond-ernstige-gezondheidsproblemen-door-platte-snuit',
+    'nederlands-kooikerhondje-erfelijke-aandoeningen-en-behoud-van-het-ras',
+    'rottweiler-gezondheidsproblemen-en-verantwoord-bezit',
+    'shih-tzu-gezondheidsproblemen-door-platte-snuit-en-klein-formaat',
+    'teckel-rugproblemen-en-verzorging-van-de-worstenhond',
+    // Nieuwe 20 (niet-overlappend met bovenstaande).
+    'akita-gezondheidsproblemen-en-onafhankelijk-karakter',
+    'bull-terrier-gezondheidsproblemen-en-eivormige-kop',
+    'dalmatier-gezondheidsproblemen-en-de-gevlekte-vacht',
+    'drentsche-patrijshond-gezondheidsproblemen-en-jachtinstinct',
+    'engelse-springer-spaniel-gezondheidsproblemen-en-energie',
+    'hovawart-gezondheidsproblemen-en-waakinstinct',
+    'keeshond-gezondheidsproblemen-en-nederlandse-geschiedenis',
+    'leonberger-gezondheidsproblemen-en-formaat',
+    'maltezer-gezondheidsproblemen-en-witte-vacht',
+    'mechelse-herder-gezondheidsproblemen-en-werkdrift',
+    'pomeriaan-gezondheidsproblemen-en-verzorging',
+    'siberische-husky-gezondheidsproblemen-en-bewegingsbehoefte',
+    'sint-bernard-gezondheidsproblemen-en-formaat',
+    'stabijhoun-gezondheidsproblemen-en-nederlands-erfgoed',
+    'staffordshire-bull-terrier-gezondheidsproblemen-en-imago',
+    'weimaraner-gezondheidsproblemen-en-jachtinstinct',
+    'west-highland-white-terrier-gezondheidsproblemen-en-huid',
+    'wetterhoun-gezondheidsproblemen-en-fries-erfgoed',
+    'whippet-gezondheidsproblemen-en-snelheid',
+    'yorkshire-terrier-gezondheidsproblemen-en-verzorging',
+  ]),
+  kat: new Set([
+    'abessijn-gezondheidsproblemen-en-levendig-karakter',
+    'bengaalse-kat-gezondheidsproblemen-en-hoge-energie',
+    'britse-korthaar-gezondheidsproblemen-en-verzorging',
+    'cornish-rex-gezondheidsproblemen-en-dunne-vacht',
+    'devon-rex-gezondheidsproblemen-en-gekrulde-vacht',
+    'heilige-birmaan-gezondheidsproblemen-en-verzorging',
+    'maine-coon-gezondheidsproblemen-bij-het-grootste-kattenras',
+    'noorse-boskat-gezondheidsproblemen-en-vachtverzorging',
+    'perzische-kat-gezondheidsproblemen-door-de-platte-snuit',
+    'ragdoll-gezondheidsproblemen-en-het-ontspannen-karakter',
+    'russisch-blauw-gezondheidsproblemen-en-rustig-karakter',
+    'scottish-fold-gezondheidsproblemen-door-de-gevouwen-oren',
+    'siamese-kat-gezondheidsproblemen-en-het-pratende-karakter',
+    'sphynx-gezondheidsproblemen-door-de-haarloze-huid',
+    'turkse-van-gezondheidsproblemen-en-zwemgedrag',
+  ]),
+  paard: new Set([
+    'andalusier-pre-gezondheidsproblemen-en-elegantie',
+    'appaloosa-gezondheidsproblemen-en-gevlekte-vacht',
+    'arabier-gezondheidsproblemen-en-uithoudingsvermogen',
+    'belgisch-warmbloed-gezondheidsproblemen-en-springvermogen',
+    'camargue-paard-gezondheidsproblemen-en-wilde-oorsprong',
+    'connemara-pony-gezondheidsproblemen-en-veelzijdigheid',
+    'engels-volbloed-gezondheidsproblemen-en-snelheid',
+    'fries-paard-gezondheidsproblemen-en-nederlands-erfgoed',
+    'gelderlander-gezondheidsproblemen-en-veelzijdigheid',
+    'groninger-paard-gezondheidsproblemen-en-nederlands-erfgoed',
+    'haflinger-gezondheidsproblemen-en-veelzijdigheid',
+    'hannoveraan-gezondheidsproblemen-en-sportcarriere',
+    'ijslander-gezondheidsproblemen-en-extra-gangen',
+    'kwpn-nederlands-warmbloed-gezondheidsproblemen-en-sportgebruik',
+    'lipizzaner-gezondheidsproblemen-en-late-ontwikkeling',
+    'lusitano-gezondheidsproblemen-en-karakter',
+    'noors-fjordenpaard-gezondheidsproblemen-en-kenmerkende-manen',
+    'oldenburger-gezondheidsproblemen-en-bouw',
+    'percheron-gezondheidsproblemen-en-formaat',
+    'quarter-horse-gezondheidsproblemen-en-explosieve-kracht',
+    'shetlander-gezondheidsproblemen-en-overgewicht',
+    'shire-paard-gezondheidsproblemen-bij-het-grootste-paardenras',
+    'tinker-ierse-cob-gezondheidsproblemen-en-beenbeharing',
+    'trakehner-gezondheidsproblemen-en-veredeld-warmbloed',
+    'welsh-pony-gezondheidsproblemen-en-veelzijdigheid',
+  ]),
+};
 
 // Onderwerpclusters: AI-zoekmachines (Google AI Mode e.d.) splitsen één vraag
 // vaak op in deelvragen, bijv. "kat drinkt veel" → oorzaken, wanneer naar de
@@ -135,8 +205,9 @@ function clusterBlok(a) {
 // dat zou dezelfde twee, drie links dubbel op de pagina zetten.
 function related(a) {
   const clusterSlugs = new Set((CLUSTERS.find(c => c.slugs.includes(a.slug)) || { slugs: [] }).slugs);
-  const rasGenoten = RAS_SLUGS.has(a.slug)
-    ? articles.filter(x => x.id !== a.id && RAS_SLUGS.has(x.slug))
+  const rasSet = a.animal && RAS_SLUGS_BY_ANIMAL[a.animal];
+  const rasGenoten = rasSet && rasSet.has(a.slug)
+    ? articles.filter(x => x.id !== a.id && rasSet.has(x.slug))
     : [];
   const sameAnimal = articles.filter(x => x.id !== a.id && a.animal && x.animal === a.animal && !rasGenoten.includes(x));
   const sameCat = articles.filter(x => x.id !== a.id && x.category === a.category && !rasGenoten.includes(x) && !sameAnimal.includes(x));

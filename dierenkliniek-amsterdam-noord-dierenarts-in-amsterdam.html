@@ -47,7 +47,8 @@
   "telephone": "020-6364681",
   "email": "info@dierenkliniekamsterdamnoord.nl",
   "sameAs": [
-    "http://www.dierenkliniekamsterdamnoord.nl/"
+    "http://www.dierenkliniekamsterdamnoord.nl/",
+    "https://www.facebook.com/dierenkliniekamsterdamnoord"
   ]
 }
 </script>
@@ -143,8 +144,71 @@
         "latitude": 52.3898,
         "longitude": 4.94753
       },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Monday",
+          "opens": "08:30",
+          "closes": "17:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Monday",
+          "opens": "17:30",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Tuesday",
+          "opens": "08:30",
+          "closes": "17:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Tuesday",
+          "opens": "17:30",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Wednesday",
+          "opens": "08:30",
+          "closes": "17:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Wednesday",
+          "opens": "17:30",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Thursday",
+          "opens": "08:30",
+          "closes": "17:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Thursday",
+          "opens": "17:30",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Friday",
+          "opens": "08:30",
+          "closes": "17:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Friday",
+          "opens": "17:30",
+          "closes": "19:00"
+        }
+      ],
       "sameAs": [
-        "http://www.dierenkliniekamsterdamnoord.nl/"
+        "http://www.dierenkliniekamsterdamnoord.nl/",
+        "https://www.facebook.com/dierenkliniekamsterdamnoord"
       ],
       "subjectOf": {
         "@id": "https://dierenkliniek.nl/dierenkliniek-amsterdam-noord-dierenarts-in-amsterdam#webpage"
@@ -182,7 +246,7 @@
           "name": "Wat zijn de openingstijden van Dierenkliniek Amsterdam-Noord?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Bij ons staan deze tijden genoteerd: maandag 12:30 tot 17:00, dinsdag 09:00 tot 17:00, woensdag 09:00 tot 17:00, donderdag 09:00 tot 17:00, vrijdag 09:00 tot 17:00, zaterdag gesloten, zondag gesloten. Ze zijn nog niet door de praktijk zelf bevestigd, dus bel 020-6364681 voordat u langskomt."
+            "text": "Dierenkliniek Amsterdam-Noord is geopend op maandag 08:30 tot 17:00 en 17:30 tot 19:00, dinsdag 08:30 tot 17:00 en 17:30 tot 19:00, woensdag 08:30 tot 17:00 en 17:30 tot 19:00, donderdag 08:30 tot 17:00 en 17:30 tot 19:00, vrijdag 08:30 tot 17:00 en 17:30 tot 19:00."
           }
         },
         {
@@ -269,6 +333,7 @@
         <li><strong>Telefoon:</strong> <a href="tel:0206364681">020-6364681</a></li>
         <li><strong>E-mail:</strong> <a href="mailto:info@dierenkliniekamsterdamnoord.nl">info@dierenkliniekamsterdamnoord.nl</a></li>
         <li><strong>Website:</strong> <a href="http://www.dierenkliniekamsterdamnoord.nl/" target="_blank" rel="noopener">http://www.dierenkliniekamsterdamnoord.nl/</a></li>
+        <li><strong>Social:</strong> <span class="kliniek-social"><a href="https://www.facebook.com/dierenkliniekamsterdamnoord" target="_blank" rel="me noopener" aria-label="Facebook" title="Dierenkliniek Amsterdam-Noord op Facebook"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" width="20" height="20"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.96.93-1.96 1.89v2.25h3.33l-.53 3.49h-2.8V24C19.61 23.1 24 18.1 24 12.07z"/></svg></a></span></li>
     </ul>
   </div>
 
@@ -278,16 +343,14 @@
     <table class="openingstijden">
       <caption class="visueel-verborgen">Openingstijden</caption>
       <tbody>
-        <tr><th scope="row">Maandag</th><td>12:30 - 17:00</td></tr>
-        <tr><th scope="row">Dinsdag</th><td>09:00 - 17:00</td></tr>
-        <tr><th scope="row">Woensdag</th><td>09:00 - 17:00</td></tr>
-        <tr><th scope="row">Donderdag</th><td>09:00 - 17:00</td></tr>
-        <tr><th scope="row">Vrijdag</th><td>09:00 - 17:00</td></tr>
-        <tr><th scope="row">Zaterdag</th><td class="dicht">Gesloten</td></tr>
-        <tr><th scope="row">Zondag</th><td class="dicht">Gesloten</td></tr>
+        <tr><th scope="row">Maandag</th><td>08:30 - 17:00 en 17:30 - 19:00</td></tr>
+        <tr><th scope="row">Dinsdag</th><td>08:30 - 17:00 en 17:30 - 19:00</td></tr>
+        <tr><th scope="row">Woensdag</th><td>08:30 - 17:00 en 17:30 - 19:00</td></tr>
+        <tr><th scope="row">Donderdag</th><td>08:30 - 17:00 en 17:30 - 19:00</td></tr>
+        <tr><th scope="row">Vrijdag</th><td>08:30 - 17:00 en 17:30 - 19:00</td></tr>
       </tbody>
     </table>
-    <p class="tijden-onbevestigd">Deze tijden zijn nog niet door de praktijk bevestigd. Bel voordat u langskomt.</p>
+    <p class="tijden-bron">Bron: CSV-import, 2026-09-27</p>
     
   </div>
 
@@ -296,7 +359,7 @@
     <details><summary>Wat is het telefoonnummer van Dierenkliniek Amsterdam-Noord?</summary><p>Dierenkliniek Amsterdam-Noord is bereikbaar op 020-6364681. De praktijk zit aan Oudorperstraat 18, 1023 SW Amsterdam (Noord-Holland).</p></details>
     <details><summary>Waar is Dierenkliniek Amsterdam-Noord gevestigd?</summary><p>Het adres is Oudorperstraat 18, 1023 SW Amsterdam, provincie Noord-Holland.</p></details>
     <details><summary>Biedt Dierenkliniek Amsterdam-Noord 24/7 spoedhulp?</summary><p>Bij Dierenkliniek Amsterdam-Noord staat geen eigen 24/7 spoeddienst vermeld. De dichtstbijzijnde kliniek met 24-uurs spoedhulp in onze data is Dierenkliniek Stad Amsterdam in Amsterdam, op ongeveer 4 km. Bel altijd eerst.</p></details>
-    <details><summary>Wat zijn de openingstijden van Dierenkliniek Amsterdam-Noord?</summary><p>Bij ons staan deze tijden genoteerd: maandag 12:30 tot 17:00, dinsdag 09:00 tot 17:00, woensdag 09:00 tot 17:00, donderdag 09:00 tot 17:00, vrijdag 09:00 tot 17:00, zaterdag gesloten, zondag gesloten. Ze zijn nog niet door de praktijk zelf bevestigd, dus bel 020-6364681 voordat u langskomt.</p></details>
+    <details><summary>Wat zijn de openingstijden van Dierenkliniek Amsterdam-Noord?</summary><p>Dierenkliniek Amsterdam-Noord is geopend op maandag 08:30 tot 17:00 en 17:30 tot 19:00, dinsdag 08:30 tot 17:00 en 17:30 tot 19:00, woensdag 08:30 tot 17:00 en 17:30 tot 19:00, donderdag 08:30 tot 17:00 en 17:30 tot 19:00, vrijdag 08:30 tot 17:00 en 17:30 tot 19:00.</p></details>
     <details><summary>Zijn er meer dierenklinieken in Amsterdam?</summary><p>Ja, naast Dierenkliniek Amsterdam-Noord staan er nog 40 andere klinieken vermeld in Amsterdam: DierenDokters Amsterdam, Dierenkliniek Bokhove, Dierenkliniek Buitenveldert, Dierenkliniek Europaplein, Dierenkliniek Rivierenbuurt, Dierenkliniek Vondelpark, Dierenkliniek Stad Amsterdam, Caressa Dierenkliniek 76 Amsterdam, Dierenkliniek Het Hart van Zuid, Dierenkliniek Amsterdam - locatie Westerpark, Caressa Dierenkliniek Amsterdam Centrum Oost, Dierenkliniek Amsterdam - locatie Rembrandtpark, Dierenkliniek Osdorp, Caressa Dierenziekenhuis Amsterdam Sloten, Caressa Dierenkliniek Amsterdam IJburg, Dierenkliniek Amsterdam - locatie Frederik Hendrikstraat, Medisch Centrum voor Dieren - Amsterdam, Ranzijn Dierenarts Amsterdam, Dierenkliniek De Jordaan, Centrum voor Alternatieve Diergeneeskunde, Cooper Pet Care, Dierenarts aan huis in Amsterdam, Haarlem &amp; Zaandam, Dierenartsenpraktijk Zunderdorp, Dierenartspraktijk Centrum en West, Dierenartspraktijk Gein, Dierenkliniek Hoofdweg, Dierenkliniek Overtoom, Heukels Orthomanueel Dierenarts, Stadion Dierenkliniek, Sterkliniek Dierenartsen Amsterdam, Dierenartsenpraktijk Goverts Winius &amp; Zwart, Amsterdam Cats Clinic, Amsterdam Animal Hospital, Dierenkliniek Indische Buurt, Dierenkliniek Nieuw-West, Dierenkliniek de Waag, Dierenkliniek Watergraafsmeer, Dierenkliniek Amsterdam Oud-Zuid, Dierenkliniek Slotervaart, Paws Diergeneeskunde. Bekijk de pagina Dierenarts Amsterdam voor alle contactgegevens, of de provinciepagina voor heel Noord-Holland.</p></details>
   </div>
 
