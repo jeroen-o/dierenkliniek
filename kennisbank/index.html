@@ -1833,6 +1833,15 @@
     <a class="pill" href="/kennisbank/dier-fret">🦦 Fretten (7)</a>
   </div>
 </div>
+<div class="card" id="kbZoekKaart">
+  <form id="kbZoekForm" onsubmit="return false;" role="search" style="display:flex;gap:8px;flex-wrap:wrap;">
+    <input type="search" id="kbZoekInput" placeholder="Zoek in de kennisbank, bijv. tandheelkunde, hartworm, konijn..." aria-label="Zoek in de kennisbank" style="flex:1;min-width:220px;padding:12px 16px;border:1.5px solid #e5e7eb;border-radius:10px;font-size:15px;">
+    <button type="button" id="kbZoekWisBtn" class="btn btn-outline" style="display:none;" onclick="kbZoekWis()">Wissen</button>
+  </form>
+  <p id="kbZoekStatus" style="margin-top:10px;color:#6b7280;font-size:13.5px;"></p>
+  <div class="grid-cards" id="kbZoekResultaten" style="margin-top:6px;"></div>
+</div>
+<div id="kbCategorieen">
 <section class="card">
   <h2><a href="/kennisbank/categorie-spoed" style="color:inherit;">Eerste hulp &amp; spoed</a> <span style="color:#627080;font-weight:500;font-size:16px;">(15)</span></h2>
   <div class="grid-cards">
@@ -2939,6 +2948,7 @@
   </a>
 </div>
 </section>
+</div>
 <section class="card">
   <h2>Direct een dierenarts vinden</h2>
   <p>Zoek een kliniek in uw plaats of bekijk het volledige overzicht van alle 1395 dierenklinieken in Nederland.</p>
@@ -2958,6 +2968,65 @@
   </div>
   <p style="margin-top:16px;"><a class="btn" href="/">Zoek op postcode →</a> <a class="btn btn-outline" href="/spoedhulp">⚡ Spoedhulp 24/7</a></p>
 </section>
+<script>
+(function() {
+  var meta = null, volledig = null;
+  var input = document.getElementById('kbZoekInput');
+  var status = document.getElementById('kbZoekStatus');
+  var resultaten = document.getElementById('kbZoekResultaten');
+  var categorieen = document.getElementById('kbCategorieen');
+  var wisBtn = document.getElementById('kbZoekWisBtn');
+  var timer = null;
+
+  function laadMeta() {
+    if (meta) return Promise.resolve(meta);
+    return fetch('/data/kennisbank-meta.json').then(function(r) { return r.json(); })
+      .then(function(rijen) { meta = rijen; return meta; })
+      .catch(function() { meta = []; return meta; });
+  }
+  function laadVolledig() {
+    if (volledig) return Promise.resolve(volledig);
+    return fetch('/data/kennisbank-zoek.json').then(function(r) { return r.json(); })
+      .then(function(rijen) { volledig = {}; rijen.forEach(function(r) { volledig[r.id] = r.t; }); return volledig; })
+      .catch(function() { volledig = {}; return volledig; });
+  }
+  function render(lijst, q) {
+    resultaten.innerHTML = lijst.map(function(a) {
+      var excerpt = (a.excerpt || '').slice(0, 110);
+      var meer = a.excerpt && a.excerpt.length > 110 ? '…' : '';
+      return `<a class="link-card" href="/kennisbank/${a.slug}"><h3>${a.title.replace(/</g, '&lt;')}</h3><p>${excerpt.replace(/</g, '&lt;')}${meer}</p></a>`;
+    }).join('');
+    status.textContent = lijst.length + ' resultaat' + (lijst.length === 1 ? '' : 'en') + ' voor "' + q + '"';
+  }
+  function zoek() {
+    var q = input.value.toLowerCase().trim();
+    wisBtn.style.display = q ? '' : 'none';
+    if (!q) {
+      resultaten.innerHTML = '';
+      status.textContent = '';
+      categorieen.style.display = '';
+      return;
+    }
+    categorieen.style.display = 'none';
+    laadMeta().then(function(rijen) {
+      var direct = rijen.filter(function(a) {
+        return a.title.toLowerCase().indexOf(q) !== -1 || (a.excerpt || '').toLowerCase().indexOf(q) !== -1;
+      });
+      if (direct.length || q.length < 3) { render(direct, q); return; }
+      status.textContent = 'Zoeken in volledige artikelteksten…';
+      laadVolledig().then(function(tekst) {
+        var uitgebreid = rijen.filter(function(a) { return (tekst[a.id] || '').indexOf(q) !== -1; });
+        render(uitgebreid, q);
+      });
+    });
+  }
+  window.kbZoekWis = function() { input.value = ''; zoek(); input.focus(); };
+  input.addEventListener('input', function() {
+    clearTimeout(timer);
+    timer = setTimeout(zoek, 200);
+  });
+})();
+</script>
 </main>
 <footer class="site-footer">
   <div class="footer-container">

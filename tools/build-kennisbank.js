@@ -400,8 +400,77 @@ function indexPage() {
     }).filter(Boolean).join('\n    ')}
   </div>
 </div>
+<div class="card" id="kbZoekKaart">
+  <form id="kbZoekForm" onsubmit="return false;" role="search" style="display:flex;gap:8px;flex-wrap:wrap;">
+    <input type="search" id="kbZoekInput" placeholder="Zoek in de kennisbank, bijv. tandheelkunde, hartworm, konijn..." aria-label="Zoek in de kennisbank" style="flex:1;min-width:220px;padding:12px 16px;border:1.5px solid #e5e7eb;border-radius:10px;font-size:15px;">
+    <button type="button" id="kbZoekWisBtn" class="btn btn-outline" style="display:none;" onclick="kbZoekWis()">Wissen</button>
+  </form>
+  <p id="kbZoekStatus" style="margin-top:10px;color:#6b7280;font-size:13.5px;"></p>
+  <div class="grid-cards" id="kbZoekResultaten" style="margin-top:6px;"></div>
+</div>
+<div id="kbCategorieen">
 ${catSections}
-${cityLinks()}`;
+</div>
+${cityLinks()}
+<script>
+(function() {
+  var meta = null, volledig = null;
+  var input = document.getElementById('kbZoekInput');
+  var status = document.getElementById('kbZoekStatus');
+  var resultaten = document.getElementById('kbZoekResultaten');
+  var categorieen = document.getElementById('kbCategorieen');
+  var wisBtn = document.getElementById('kbZoekWisBtn');
+  var timer = null;
+
+  function laadMeta() {
+    if (meta) return Promise.resolve(meta);
+    return fetch('/data/kennisbank-meta.json').then(function(r) { return r.json(); })
+      .then(function(rijen) { meta = rijen; return meta; })
+      .catch(function() { meta = []; return meta; });
+  }
+  function laadVolledig() {
+    if (volledig) return Promise.resolve(volledig);
+    return fetch('/data/kennisbank-zoek.json').then(function(r) { return r.json(); })
+      .then(function(rijen) { volledig = {}; rijen.forEach(function(r) { volledig[r.id] = r.t; }); return volledig; })
+      .catch(function() { volledig = {}; return volledig; });
+  }
+  function render(lijst, q) {
+    resultaten.innerHTML = lijst.map(function(a) {
+      var excerpt = (a.excerpt || '').slice(0, 110);
+      var meer = a.excerpt && a.excerpt.length > 110 ? '…' : '';
+      return \`<a class="link-card" href="/kennisbank/\${a.slug}"><h3>\${a.title.replace(/</g, '&lt;')}</h3><p>\${excerpt.replace(/</g, '&lt;')}\${meer}</p></a>\`;
+    }).join('');
+    status.textContent = lijst.length + ' resultaat' + (lijst.length === 1 ? '' : 'en') + ' voor "' + q + '"';
+  }
+  function zoek() {
+    var q = input.value.toLowerCase().trim();
+    wisBtn.style.display = q ? '' : 'none';
+    if (!q) {
+      resultaten.innerHTML = '';
+      status.textContent = '';
+      categorieen.style.display = '';
+      return;
+    }
+    categorieen.style.display = 'none';
+    laadMeta().then(function(rijen) {
+      var direct = rijen.filter(function(a) {
+        return a.title.toLowerCase().indexOf(q) !== -1 || (a.excerpt || '').toLowerCase().indexOf(q) !== -1;
+      });
+      if (direct.length || q.length < 3) { render(direct, q); return; }
+      status.textContent = 'Zoeken in volledige artikelteksten…';
+      laadVolledig().then(function(tekst) {
+        var uitgebreid = rijen.filter(function(a) { return (tekst[a.id] || '').indexOf(q) !== -1; });
+        render(uitgebreid, q);
+      });
+    });
+  }
+  window.kbZoekWis = function() { input.value = ''; zoek(); input.focus(); };
+  input.addEventListener('input', function() {
+    clearTimeout(timer);
+    timer = setTimeout(zoek, 200);
+  });
+})();
+</script>`;
 
   return L.page({
     title: `Kennisbank — ${articles.length} artikelen over diergezondheid | Dierenkliniek.nl`,
@@ -485,3 +554,12 @@ const urls = [
 ];
 fs.writeFileSync(path.join(__dirname, 'kennisbank-urls.json'), JSON.stringify(urls, null, 2));
 console.log('kennisbank: ' + n + ' bestanden, ' + urls.length + " URL's");
+
+// Lichte metadata voor de zoekbalk op /kennisbank/: titel/excerpt/categorie,
+// geen volledige artikeltekst (die staat al los in kennisbank-zoek.json en
+// wordt pas na een zoekactie geladen).
+const meta = articles.map(a => ({
+  id: a.id, slug: a.slug, title: a.title, excerpt: a.excerpt,
+  category: a.category, animal: a.animal
+}));
+fs.writeFileSync(path.join(ROOT, 'data', 'kennisbank-meta.json'), JSON.stringify(meta));
