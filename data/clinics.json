@@ -23212,12 +23212,15 @@
     "website": "https://www.dierenartsenborratrappeniers.nl/",
     "specs": [
       "Honden",
-      "Katten"
+      "Katten",
+      "Konijnen",
+      "Chirurgie",
+      "Tandheelkunde"
     ],
-    "tags": [],
+    "tags": ["spoed"],
     "lat": 51.4986,
     "lng": 3.5378,
-    "desc": "Dierenartspraktijk in Biggekerke (Walcheren) van Jan Borra en Barbara Trappeniers.",
+    "desc": "Kleine eerstelijnspraktijk in Biggekerke (Walcheren) van Jan Borra en Barbara Trappeniers, voor honden, katten, konijnen en andere kleine gezelschapsdieren, landbouwhuisdieren én paarden — u ziet steeds dezelfde dierenarts. Naast reguliere zorg (vaccinaties, castratie/sterilisatie, kleine chirurgie, gebitsbehandeling inclusief kiesextracties, bloedonderzoek) ook paardenzorg: kreupelheidsonderzoek, gebitsverzorging, voortplanting en kleine chirurgie. Uitstekend netwerk voor snelle doorverwijzing (röntgen, echo, spoedbloedonderzoek). 24 uur per dag, 7 dagen per week bereikbaar voor spoedgevallen van eigen patiënten; paardenspoed uitsluitend op Walcheren. Online afspraak maken kan ook via dierenartsen-borra-trappeniers.boek-dierenarts.online.",
     "tier": "basic"
   },
   {
