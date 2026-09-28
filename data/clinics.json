@@ -18955,24 +18955,6 @@
     "tier": "basic"
   },
   {
-    "id": 974,
-    "name": "Dierenartsenpraktijk Uithoorn-Aalsmeer-Mijdrecht-Wilnis",
-    "city": "Aalsmeer",
-    "address": "Rameaulaantje 20",
-    "postcode": "1431 XZ",
-    "phone": "0297-326734",
-    "email": "info@dierenartsenpraktijkuithoorn-aalsmeer.nl",
-    "website": "http://www.dierenartsenpraktijkuithoorn-aalsmeer.nl/",
-    "rating": 0,
-    "reviews": 0,
-    "specs": [],
-    "tags": [],
-    "lat": 52.2524,
-    "lng": 4.76689,
-    "desc": "Veterinaire kliniek in Aalsmeer. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
-  },
-  {
     "id": 975,
     "name": "Dierenartsenpraktijk Zunderdorp",
     "city": "Amsterdam",
