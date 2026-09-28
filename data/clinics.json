@@ -28188,5 +28188,21 @@
     "lng": 5.7303,
     "desc": "Veterinaire kliniek in Wijchen. Volledige zorg voor gezelschapsdieren. Op afspraak, met spoedbereikbaarheid buiten openingstijden.",
     "tier": "basic"
+  },
+  {
+    "id": 1480,
+    "name": "Dierenarts Nieuwkoop",
+    "city": "Nieuwkoop",
+    "address": "Nieuwveenseweg 14",
+    "postcode": "2421 LC",
+    "phone": "0172-796375",
+    "email": "info@dierenartsnieuwkoop.nl",
+    "website": "",
+    "specs": [],
+    "tags": [],
+    "lat": 52.1875,
+    "lng": 4.717,
+    "desc": "Veterinaire kliniek in Nieuwkoop. Buiten openingstijden kan een afspraak gemaakt worden bij de hoofdvestiging in Alphen aan den Rijn.",
+    "tier": "basic"
   }
 ]

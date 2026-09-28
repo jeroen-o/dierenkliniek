@@ -11034,5 +11034,15 @@
     "za": "10:30-12:00",
     "zo": "gesloten",
     "bron": "opgave praktijk per e-mail, 2026-09-28"
+  },
+  "dierenarts-nieuwkoop-dierenarts-in-nieuwkoop": {
+    "ma": "09:00-12:15, 12:45-17:15",
+    "di": "12:45-20:00",
+    "wo": "09:00-12:15, 12:45-17:15",
+    "do": "12:45-20:00",
+    "vr": "09:00-12:15, 12:45-17:15",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "bron": "opgave praktijk, 2026-09-28 — gesloten tussen 12:15-12:45 voor gezamenlijke lunch; buiten deze tijden ook terecht op de hoofdvestiging in Alphen aan den Rijn"
   }
 }
