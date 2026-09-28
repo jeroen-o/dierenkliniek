@@ -31,7 +31,7 @@
   "@type": "VeterinaryCare",
   "name": "Kliniek voor Gezelschapsdieren Uitgeest",
   "url": "https://dierenkliniek.nl/kliniek-voor-gezelschapsdieren-uitgeest-dierenarts-in-uitgeest",
-  "description": "Dierenarts in Uitgeest gespecialiseerd in Exoten, Echografie, Vogels, Cardiologie.",
+  "description": "Veterinaire kliniek in Uitgeest. Volledige zorg voor gezelschapsdieren. Woensdagochtend uitsluitend voor verkoop van voer en medicatie.",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Prinses Beatrixlaan 12",
@@ -117,7 +117,7 @@
       "url": "https://dierenkliniek.nl/kliniek-voor-gezelschapsdieren-uitgeest-dierenarts-in-uitgeest",
       "telephone": "0251 - 31 22 27",
       "email": "info@kvg-uitgeest.nl",
-      "description": "Dierenarts in Uitgeest gespecialiseerd in Exoten, Echografie, Vogels, Cardiologie.",
+      "description": "Veterinaire kliniek in Uitgeest. Volledige zorg voor gezelschapsdieren. Woensdagochtend uitsluitend voor verkoop van voer en medicatie.",
       "image": "https://dierenkliniek.nl/og-image.png",
       "hasMap": "https://www.google.com/maps/search/?api=1&query=Kliniek%20voor%20Gezelschapsdieren%20Uitgeest%2C%20Prinses%20Beatrixlaan%2012%2C%201911%20HR%20Uitgeest",
       "areaServed": [
@@ -143,11 +143,49 @@
         "latitude": 52.5283,
         "longitude": 4.7047
       },
-      "knowsAbout": [
-        "Exoten",
-        "Echografie",
-        "Vogels",
-        "Cardiologie"
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Monday",
+          "opens": "08:30",
+          "closes": "17:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Tuesday",
+          "opens": "08:30",
+          "closes": "17:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Wednesday",
+          "opens": "09:00",
+          "closes": "12:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Thursday",
+          "opens": "09:00",
+          "closes": "17:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Friday",
+          "opens": "00:00",
+          "closes": "00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Saturday",
+          "opens": "00:00",
+          "closes": "00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Sunday",
+          "opens": "00:00",
+          "closes": "00:00"
+        }
       ],
       "sameAs": [
         "http://www.kvg-uitgeest.nl/"
@@ -185,18 +223,10 @@
         },
         {
           "@type": "Question",
-          "name": "Welke specialisaties heeft Kliniek voor Gezelschapsdieren Uitgeest?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Bij deze praktijk staan de volgende aandachtsgebieden vermeld: Exoten, Echografie, Vogels, Cardiologie."
-          }
-        },
-        {
-          "@type": "Question",
           "name": "Wat zijn de openingstijden van Kliniek voor Gezelschapsdieren Uitgeest?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Bij ons staan deze tijden genoteerd: maandag 12:30 tot 17:00, dinsdag 09:00 tot 17:00, woensdag 09:00 tot 17:00, donderdag 09:00 tot 17:00, vrijdag 09:00 tot 17:00, zaterdag gesloten, zondag gesloten. Ze zijn nog niet door de praktijk zelf bevestigd, dus bel 0251 - 31 22 27 voordat u langskomt."
+            "text": "Kliniek voor Gezelschapsdieren Uitgeest is geopend op maandag 08:30 tot 17:30, dinsdag 08:30 tot 17:00, woensdag 09:00 tot 12:00, donderdag 09:00 tot 17:00, vrijdag gesloten, zaterdag gesloten, zondag gesloten."
           }
         },
         {
@@ -269,8 +299,8 @@
   <h1>Kliniek voor Gezelschapsdieren Uitgeest</h1>
   <p class="subtitle">Dierenarts in Uitgeest</p>
   <div class="card">
-    <p>Dierenarts in Uitgeest gespecialiseerd in Exoten, Echografie, Vogels, Cardiologie.</p>
-    <div class="specs"><span class="spec">Exoten</span><span class="spec">Echografie</span><span class="spec">Vogels</span><span class="spec">Cardiologie</span></div>
+    <p>Veterinaire kliniek in Uitgeest. Volledige zorg voor gezelschapsdieren. Woensdagochtend uitsluitend voor verkoop van voer en medicatie.</p>
+    
     <div style="margin-top: 24px;">
       <a href="https://www.google.com/maps/dir/?api=1&destination=Prinses%20Beatrixlaan%2012%2C%201911%20HR%20Uitgeest" class="btn" target="_blank" rel="noopener">📍 Route via Google Maps</a>
       <a href="tel:0251312227" class="btn btn-outline">📞 Bel 0251 - 31 22 27</a>
@@ -292,16 +322,16 @@
     <table class="openingstijden">
       <caption class="visueel-verborgen">Openingstijden</caption>
       <tbody>
-        <tr><th scope="row">Maandag</th><td>12:30 - 17:00</td></tr>
-        <tr><th scope="row">Dinsdag</th><td>09:00 - 17:00</td></tr>
-        <tr><th scope="row">Woensdag</th><td>09:00 - 17:00</td></tr>
+        <tr><th scope="row">Maandag</th><td>08:30 - 17:30</td></tr>
+        <tr><th scope="row">Dinsdag</th><td>08:30 - 17:00</td></tr>
+        <tr><th scope="row">Woensdag</th><td>09:00 - 12:00</td></tr>
         <tr><th scope="row">Donderdag</th><td>09:00 - 17:00</td></tr>
-        <tr><th scope="row">Vrijdag</th><td>09:00 - 17:00</td></tr>
+        <tr><th scope="row">Vrijdag</th><td class="dicht">Gesloten</td></tr>
         <tr><th scope="row">Zaterdag</th><td class="dicht">Gesloten</td></tr>
         <tr><th scope="row">Zondag</th><td class="dicht">Gesloten</td></tr>
       </tbody>
     </table>
-    <p class="tijden-onbevestigd">Deze tijden zijn nog niet door de praktijk bevestigd. Bel voordat u langskomt.</p>
+    <p class="tijden-bron">Bron: opgave praktijk per e-mail, 2026-09-28 (woensdag uitsluitend voor verkoop van voer en medicatie)</p>
     
   </div>
 
@@ -310,8 +340,7 @@
     <details><summary>Wat is het telefoonnummer van Kliniek voor Gezelschapsdieren Uitgeest?</summary><p>Kliniek voor Gezelschapsdieren Uitgeest is bereikbaar op 0251 - 31 22 27. De praktijk zit aan Prinses Beatrixlaan 12, 1911 HR Uitgeest (Noord-Holland).</p></details>
     <details><summary>Waar is Kliniek voor Gezelschapsdieren Uitgeest gevestigd?</summary><p>Het adres is Prinses Beatrixlaan 12, 1911 HR Uitgeest, provincie Noord-Holland.</p></details>
     <details><summary>Biedt Kliniek voor Gezelschapsdieren Uitgeest 24/7 spoedhulp?</summary><p>Bij Kliniek voor Gezelschapsdieren Uitgeest staat geen eigen 24/7 spoeddienst vermeld. De dichtstbijzijnde kliniek met 24-uurs spoedhulp in onze data is Dierenkliniek Stad Wormerveer in Wormerveer, op ongeveer 7 km. Bel altijd eerst.</p></details>
-    <details><summary>Welke specialisaties heeft Kliniek voor Gezelschapsdieren Uitgeest?</summary><p>Bij deze praktijk staan de volgende aandachtsgebieden vermeld: Exoten, Echografie, Vogels, Cardiologie.</p></details>
-    <details><summary>Wat zijn de openingstijden van Kliniek voor Gezelschapsdieren Uitgeest?</summary><p>Bij ons staan deze tijden genoteerd: maandag 12:30 tot 17:00, dinsdag 09:00 tot 17:00, woensdag 09:00 tot 17:00, donderdag 09:00 tot 17:00, vrijdag 09:00 tot 17:00, zaterdag gesloten, zondag gesloten. Ze zijn nog niet door de praktijk zelf bevestigd, dus bel 0251 - 31 22 27 voordat u langskomt.</p></details>
+    <details><summary>Wat zijn de openingstijden van Kliniek voor Gezelschapsdieren Uitgeest?</summary><p>Kliniek voor Gezelschapsdieren Uitgeest is geopend op maandag 08:30 tot 17:30, dinsdag 08:30 tot 17:00, woensdag 09:00 tot 12:00, donderdag 09:00 tot 17:00, vrijdag gesloten, zaterdag gesloten, zondag gesloten.</p></details>
     <details><summary>Zijn er meer dierenklinieken in Uitgeest?</summary><p>Ja, naast Kliniek voor Gezelschapsdieren Uitgeest staat er nog 1 andere kliniek vermeld in Uitgeest: Dierenkliniek Uitgeest. Bekijk de pagina Dierenarts Uitgeest voor alle contactgegevens, of de provinciepagina voor heel Noord-Holland.</p></details>
   </div>
 
@@ -370,16 +399,13 @@
       <a class="spec" href="/spoedhulp">⚡ Spoedhulp 24/7</a>
       <a class="spec" href="/kennisbank/">Kennisbank</a>
       <a class="spec" href="/glossarium">Veterinair glossarium</a>
-      <a class="spec" href="/specialisme-exoten">Exoten</a>
-      <a class="spec" href="/specialisme-echografie">Echografie</a>
-      <a class="spec" href="/specialisme-vogels">Vogels</a>
-      <a class="spec" href="/specialisme-cardiologie">Cardiologie</a>
+      
     </div>
   </div>
 
   <div class="card">
     <h2>Meer informatie</h2>
-    <p>Deze vermelding maakt deel uit van <a href="/">Dierenkliniek.nl</a> — het onafhankelijke overzicht van alle 1395 dierenklinieken in Nederland.</p>
+    <p>Deze vermelding maakt deel uit van <a href="/">Dierenkliniek.nl</a> — het onafhankelijke overzicht van alle 1390 dierenklinieken in Nederland.</p>
     <p style="margin-top: 12px;">Bent u de eigenaar van deze kliniek? <a href="/?view=aanmelden">Vul het aanmeldformulier in</a> om uw vermelding aan te vullen.</p>
   </div>
 

@@ -1966,7 +1966,7 @@
     ],
     "lat": 51.8717,
     "lng": 4.251,
-    "desc": "Veterinaire kliniek in Heenvliet. Volledige zorg voor gezelschapsdieren.",
+    "desc": "Veterinaire kliniek in Heenvliet. Volledige zorg voor gezelschapsdieren. Uitsluitend op afspraak.",
     "tier": "basic"
   },
   {
@@ -4241,7 +4241,8 @@
     "reviews": 419,
     "specs": [
       "Honden",
-      "Katten"
+      "Katten",
+      "Konijnen"
     ],
     "tags": [
       "verified"
@@ -8939,7 +8940,6 @@
     "email": "haarlem@dierenziekenhuizen.nl",
     "website": "https://dierenziekenhuizen.nl/locaties/dierenarts-dierenziekenhuis-haarlem/",
     "specs": [
-      "Konijnen",
       "Tandheelkunde"
     ],
     "tags": [],
@@ -9101,9 +9101,8 @@
     "email": "info@jdejongdierenartsen.nl",
     "website": "https://www.jdejongdierenartsen.nl/",
     "specs": [
-      "Knaagdieren",
-      "Exoten",
-      "Dermatologie"
+      "Dermatologie",
+      "Tandheelkunde"
     ],
     "tags": [],
     "lat": 52.6024,
@@ -9202,7 +9201,6 @@
     "email": "oudenoord@evidierenartsen.nl",
     "website": "https://www.evidierenartsen.nl/nl-nl/locaties/evi-dierenartsen-oudenoord",
     "specs": [
-      "Vogels",
       "Dermatologie",
       "Honden"
     ],
@@ -9542,14 +9540,11 @@
     "phone": "0341 - 35 34 51",
     "email": "info@dierenkliniekputten.nl",
     "website": "https://dierenkliniekputten.nl/",
-    "specs": [
-      "Knaagdieren",
-      "Exoten"
-    ],
+    "specs": [],
     "tags": [],
     "lat": 52.2647,
     "lng": 5.6109,
-    "desc": "Veterinaire kliniek in Putten. Volledige zorg voor gezelschapsdieren.",
+    "desc": "Veterinaire kliniek in Putten. Volledige zorg voor gezelschapsdieren. Uitsluitend op afspraak; 24 uur per dag bereikbaar voor spoedgevallen.",
     "tier": "basic",
     "facebook": "https://www.facebook.com/DierenkliniekPutten",
     "instagram": "https://www.instagram.com/dierenartsputten"
@@ -11004,8 +10999,7 @@
     "website": "https://www.dierenklinieken.net/nl-nl/dierenklinieken/dierenkliniek-volendam",
     "specs": [
       "Konijnen",
-      "Tandheelkunde",
-      "Cardiologie"
+      "Tandheelkunde"
     ],
     "tags": [],
     "lat": 52.4923,
@@ -11022,16 +11016,11 @@
     "phone": "0251 - 31 22 27",
     "email": "info@kvg-uitgeest.nl",
     "website": "http://www.kvg-uitgeest.nl/",
-    "specs": [
-      "Exoten",
-      "Echografie",
-      "Vogels",
-      "Cardiologie"
-    ],
+    "specs": [],
     "tags": [],
     "lat": 52.5283,
     "lng": 4.7047,
-    "desc": "Veterinaire kliniek in Uitgeest. Volledige zorg voor gezelschapsdieren.",
+    "desc": "Veterinaire kliniek in Uitgeest. Volledige zorg voor gezelschapsdieren. Woensdagochtend uitsluitend voor verkoop van voer en medicatie.",
     "tier": "basic"
   },
   {
@@ -11681,27 +11670,6 @@
     "lat": 52.5557,
     "lng": 4.8453,
     "desc": "Veterinaire kliniek in De Rijp.",
-    "tier": "basic"
-  },
-  {
-    "id": 574,
-    "name": "Dierenkliniek van Kop tot Staart - locatie De Goorn",
-    "city": "De Goorn",
-    "address": "Kantbeugel 1",
-    "postcode": "1648 HW",
-    "phone": "0229-507025",
-    "email": "informatie@vankoptotstaart.nl",
-    "website": "https://vankoptotstaart.nl/",
-    "rating": 4.5,
-    "reviews": 0,
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.6,
-    "lng": 4.9833,
-    "desc": "Veterinaire kliniek in De Goorn.",
     "tier": "basic"
   },
   {
@@ -14214,56 +14182,20 @@
   },
   {
     "id": 705,
-    "name": "DierenTop Kliniek voor Gezelschapsdieren Bergen",
+    "name": "Veterinair Centrum Holland Noord - Bergen",
     "city": "Bergen",
     "address": "Natteweg 2D",
     "postcode": "1862 CX",
     "phone": "072-5815864",
-    "email": "info@dierentop.nl",
-    "website": "https://www.dierentop.nl",
+    "email": "info@vchn.nl",
+    "website": "https://www.vchn.nl",
     "rating": 0,
     "reviews": 0,
     "specs": [],
     "tags": [],
     "lat": 52.667251,
     "lng": 4.707336,
-    "desc": "Veterinaire kliniek in Bergen. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
-  },
-  {
-    "id": 706,
-    "name": "DierenTop Kliniek voor Gezelschapsdieren Egmond",
-    "city": "Egmond aan den Hoef",
-    "address": "Prinses Irenelaan 68",
-    "postcode": "1934 EJ",
-    "phone": "072-5069905",
-    "email": "info@dierentop.nl",
-    "website": "https://www.dierentop.nl",
-    "rating": 0,
-    "reviews": 0,
-    "specs": [],
-    "tags": [],
-    "lat": 52.625732,
-    "lng": 4.65633,
-    "desc": "Veterinaire kliniek in Egmond aan den Hoef. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
-  },
-  {
-    "id": 707,
-    "name": "DierenTop Kliniek voor Gezelschapsdieren Warmenhuizen",
-    "city": "Warmenhuizen",
-    "address": "De Huisweid 11A",
-    "postcode": "1749 EL",
-    "phone": "0226-392838",
-    "email": "info@dierentop.nl",
-    "website": "https://www.dierentop.nl",
-    "rating": 0,
-    "reviews": 0,
-    "specs": [],
-    "tags": [],
-    "lat": 52.723806,
-    "lng": 4.732556,
-    "desc": "Veterinaire kliniek in Warmenhuizen. Volledige zorg voor gezelschapsdieren.",
+    "desc": "Veterinaire kliniek in Bergen. Volledige zorg voor gezelschapsdieren. Opvolger van DierenTop Kliniek voor Gezelschapsdieren Bergen, onderdeel van Veterinair Centrum Holland Noord (VCHN).",
     "tier": "basic"
   },
   {
@@ -14374,7 +14306,7 @@
     "tags": [],
     "lat": 52.910044,
     "lng": 4.970667,
-    "desc": "Veterinaire kliniek in Hippolytushoef. Volledige zorg voor gezelschapsdieren.",
+    "desc": "Veterinaire kliniek in Hippolytushoef. Volledige zorg voor gezelschapsdieren. Behandeling uitsluitend op afspraak; bel voor het afhalen van medicatie en voer.",
     "tier": "basic"
   },
   {
@@ -15624,7 +15556,7 @@
   },
   {
     "id": 781,
-    "name": "Dierenartsencentrum Ede-Bennekom",
+    "name": "Dierenarts Ede",
     "city": "Ede Gld",
     "address": "Molenstraat 158",
     "postcode": "6712 CW",
@@ -16820,24 +16752,6 @@
     "tier": "basic"
   },
   {
-    "id": 846,
-    "name": "Veterinary Technics B.V.",
-    "city": "Hoogezand",
-    "address": "Produktieweg 11",
-    "postcode": "9601 MA",
-    "phone": "0598-393534",
-    "email": "info@veterinarytechnics.com",
-    "website": "https://www.veterinarytechnics.com/",
-    "rating": 0,
-    "reviews": 0,
-    "specs": [],
-    "tags": [],
-    "lat": 53.1648,
-    "lng": 6.73025,
-    "desc": "Veterinaire kliniek in Hoogezand. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
-  },
-  {
     "id": 848,
     "name": "Biebijen Dierenartsen",
     "city": "Beek",
@@ -17036,7 +16950,7 @@
     "tags": [],
     "lat": 51.3462,
     "lng": 5.88139,
-    "desc": "Veterinaire kliniek in Meijel. Volledige zorg voor gezelschapsdieren.",
+    "desc": "Veterinaire kliniek in Meijel. Volledige zorg voor gezelschapsdieren. Buiten openingstijden altijd bereikbaar voor spoed via het reguliere telefoonnummer.",
     "tier": "basic",
     "facebook": "https://www.facebook.com/dierenartspraktijkmeijel"
   },
@@ -17245,7 +17159,7 @@
     "id": 871,
     "name": "Dierenkliniek Onderbanken",
     "city": "Schinveld",
-    "address": "Beekstraat 20",
+    "address": "Beekstraat 18",
     "postcode": "6451 CC",
     "phone": "045-5642260",
     "email": "info@dierenkliniek-onderbanken.nl",
@@ -17829,7 +17743,7 @@
     "city": "Klaaswaal",
     "address": "Henry Dunantplein 17",
     "postcode": "3286 XG",
-    "phone": "0165-330466",
+    "phone": "0186-748833",
     "email": "dapvierschaar@gmail.com",
     "website": "https://www.dierenartsenpraktijk-de-vierschaar.nl/",
     "rating": 0,
@@ -17973,7 +17887,7 @@
     "city": "Bladel",
     "address": "Sniederslaan 67A",
     "postcode": "5531 EM",
-    "phone": "0497-361818",
+    "phone": "0497-782780",
     "email": "info@dierenklinieksniederslaan.nl",
     "website": "https://www.dierenklinieksniederslaan.nl/",
     "rating": 0,
@@ -18520,13 +18434,13 @@
   },
   {
     "id": 941,
-    "name": "Evidensia Vets&Pets kliniek Tussen Mark en Amer",
+    "name": "Dierenkliniek Tussen Mark en Amer locatie Hooge Zwaluwe",
     "city": "Hooge Zwaluwe",
     "address": "Watertorenstraat 9",
     "postcode": "4927 RG",
     "phone": "0162-690010",
     "email": "info@tussenmarkenamer.nl",
-    "website": "https://ivcevidensia.nl/",
+    "website": "https://www.tussenmarkenamer.nl/",
     "rating": 0,
     "reviews": 0,
     "specs": [],
@@ -18538,13 +18452,13 @@
   },
   {
     "id": 942,
-    "name": "Evidensia Vets&Pets kliniek Zevenbergen",
+    "name": "Dierenkliniek Tussen Mark en Amer locatie Zevenbergen",
     "city": "Zevenbergen",
     "address": "Kuringen 2A",
     "postcode": "4761 VA",
     "phone": "0168-324489",
     "email": "info@tussenmarkenamer.nl",
-    "website": "https://ivcevidensia.nl/",
+    "website": "https://www.tussenmarkenamer.nl/",
     "rating": 0,
     "reviews": 0,
     "specs": [],
@@ -19243,7 +19157,7 @@
     "id": 986,
     "name": "Dierenkliniek de Haardstede",
     "city": "Huizen",
-    "address": "Haardstedelaan 7",
+    "address": "Haardstedelaan 1A",
     "postcode": "1271 NK",
     "phone": "035-5251512",
     "email": "info@dierenkliniekdehaardstede.nl",
@@ -19315,7 +19229,7 @@
     "id": 991,
     "name": "Dierenkliniek de Zuiderdracht B.V.",
     "city": "Oosterblokker",
-    "address": "Zuiderdracht 40",
+    "address": "Zuiderdracht 40a",
     "postcode": "1696 AL",
     "phone": "0229-262139",
     "email": "info@dierenkliniekdezuiderdracht.nl",
@@ -19426,7 +19340,7 @@
     "address": "Kenaupark 13",
     "postcode": "2011 MP",
     "phone": "023-5310880",
-    "email": "info@dierenkliniekkenaupark.nl",
+    "email": "balie@dierenkliniekkenaupark.nl",
     "website": "http://www.dierenkliniekkenaupark.nl/",
     "rating": 0,
     "reviews": 0,
@@ -19747,8 +19661,8 @@
     "id": 1015,
     "name": "Stadion Dierenkliniek",
     "city": "Amsterdam",
-    "address": "Stadionweg 250-1",
-    "postcode": "1076 PC",
+    "address": "Achillesstraat 62",
+    "postcode": "1076 RE",
     "phone": "020-6738798",
     "email": "info@stadiondierenkliniek.nl",
     "website": "http://www.stadiondierenkliniek.nl/",
@@ -19942,24 +19856,6 @@
     "tier": "basic"
   },
   {
-    "id": 1026,
-    "name": "Dierenartsenpraktijk Noord Oost Twente",
-    "city": "Ootmarsum",
-    "address": "Eerste Stegge 18",
-    "postcode": "7631 AE",
-    "phone": "0541-352268",
-    "email": "info@dapnot.nl",
-    "website": "http://www.dapnot.nl/",
-    "rating": 0,
-    "reviews": 0,
-    "specs": [],
-    "tags": [],
-    "lat": 52.4106,
-    "lng": 6.9151,
-    "desc": "Veterinaire kliniek in Ootmarsum. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
-  },
-  {
     "id": 1027,
     "name": "Dierenartsenpraktijk Oosteinde",
     "city": "Vriezenveen",
@@ -20141,7 +20037,7 @@
   },
   {
     "id": 1037,
-    "name": "Dierenkliniek de Vijf Heuvels",
+    "name": "Schipbeek Dierenartsen",
     "city": "Markelo",
     "address": "Spelleweg 12",
     "postcode": "7475 GV",
@@ -20154,7 +20050,7 @@
     "tags": [],
     "lat": 52.2415,
     "lng": 6.50132,
-    "desc": "Veterinaire kliniek in Markelo. Volledige zorg voor gezelschapsdieren.",
+    "desc": "Veterinaire kliniek in Markelo. Volledige zorg voor gezelschapsdieren. Opvolger van Dierenkliniek de Vijf Heuvels. Buiten openingstijden altijd telefonisch bereikbaar.",
     "tier": "basic"
   },
   {
@@ -20385,11 +20281,15 @@
     "website": "http://www.dapzw.nl/",
     "rating": 0,
     "reviews": 0,
-    "specs": [],
-    "tags": [],
+    "specs": [
+      "Spoed 24/7"
+    ],
+    "tags": [
+      "spoed"
+    ],
     "lat": 52.5936,
     "lng": 6.09712,
-    "desc": "Veterinaire kliniek in Hasselt. Volledige zorg voor gezelschapsdieren.",
+    "desc": "Veterinaire kliniek in Hasselt. Volledige zorg voor gezelschapsdieren. 24/7 geopend voor spoed.",
     "tier": "basic"
   },
   {
@@ -20556,20 +20456,20 @@
   },
   {
     "id": 1061,
-    "name": "Dierenarts De Laak | Dierenkliniek in Vathorst",
+    "name": "Dierenarts Vathorst",
     "city": "Amersfoort",
-    "address": "Enkhuizenstraat 73",
-    "postcode": "3826 BP",
+    "address": "Wageningseberg 102",
+    "postcode": "3825 GR",
     "phone": "033-2850623",
-    "email": "info@dierenartsdelaak.nl",
-    "website": "http://www.dierenartsdelaak.nl/",
+    "email": "info@dierenarts-vathorst.nl",
+    "website": "http://www.dierenarts-vathorst.nl/",
     "rating": 0,
     "reviews": 0,
     "specs": [],
     "tags": [],
     "lat": 52.1954,
     "lng": 5.4349,
-    "desc": "Veterinaire kliniek in Amersfoort. Volledige zorg voor gezelschapsdieren.",
+    "desc": "Veterinaire kliniek in Amersfoort. Volledige zorg voor gezelschapsdieren. Voorheen bekend als Dierenarts De Laak | Dierenkliniek in Vathorst.",
     "tier": "basic"
   },
   {
@@ -20939,8 +20839,8 @@
     "id": 1082,
     "name": "Kliniek voor Dieren Woerden",
     "city": "Woerden",
-    "address": "Amsterdamlaan 1",
-    "postcode": "3446 AK",
+    "address": "Helsinkilaan 6",
+    "postcode": "3446 AH",
     "phone": "0348-414114",
     "email": "info@kliniekvoordierenwoerden.nl",
     "website": "https://kliniekvoordierenwoerden.nl/",
@@ -21013,7 +20913,7 @@
     "city": "Vleuten",
     "address": "Burchtwal 1",
     "postcode": "3452 MG",
-    "phone": "06-15071588",
+    "phone": "030-6620025",
     "email": "info@markdierenarts.nl",
     "website": "https://markdierenarts.nl/",
     "rating": 0,
@@ -23031,11 +22931,15 @@
     "website": "http://dierenartsenpraktijk-ulicoten.nl/",
     "rating": 0,
     "reviews": 0,
-    "specs": [],
-    "tags": [],
+    "specs": [
+      "Spoed 24/7"
+    ],
+    "tags": [
+      "spoed"
+    ],
     "lat": 51.45837558,
     "lng": 4.85447918,
-    "desc": "Veterinaire kliniek in Ulicoten. Volledige zorg voor gezelschapsdieren.",
+    "desc": "Veterinaire kliniek in Ulicoten. Volledige zorg voor gezelschapsdieren. 24 uur per dag, 7 dagen per week bereikbaar voor spoedgevallen.",
     "tier": "basic"
   },
   {

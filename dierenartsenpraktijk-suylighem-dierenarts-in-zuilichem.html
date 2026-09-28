@@ -143,6 +143,50 @@
         "latitude": 51.80232789,
         "longitude": 5.13470628
       },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Monday",
+          "opens": "08:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Tuesday",
+          "opens": "08:00",
+          "closes": "17:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Wednesday",
+          "opens": "08:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Thursday",
+          "opens": "08:00",
+          "closes": "17:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Friday",
+          "opens": "08:00",
+          "closes": "17:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Saturday",
+          "opens": "00:00",
+          "closes": "00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "https://schema.org/Sunday",
+          "opens": "00:00",
+          "closes": "00:00"
+        }
+      ],
       "sameAs": [
         "http://dap-s.nl/"
       ],
@@ -175,6 +219,14 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Bij Dierenartsenpraktijk Suylighem staat geen eigen 24/7 spoeddienst vermeld. De dichtstbijzijnde kliniek met 24-uurs spoedhulp in onze data is Dierenziekenhuis Gorinchem in Gorinchem, op ongeveer 12 km. Bel altijd eerst."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wat zijn de openingstijden van Dierenartsenpraktijk Suylighem?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dierenartsenpraktijk Suylighem is geopend op maandag 08:00 tot 19:00, dinsdag 08:00 tot 17:00, woensdag 08:00 tot 19:00, donderdag 08:00 tot 17:00, vrijdag 08:00 tot 17:00, zaterdag gesloten, zondag gesloten."
           }
         },
         {
@@ -265,11 +317,30 @@
   </div>
 
 <!-- dk:seo-start -->
+  <div class="card">
+    <h2>Openingstijden</h2>
+    <table class="openingstijden">
+      <caption class="visueel-verborgen">Openingstijden</caption>
+      <tbody>
+        <tr><th scope="row">Maandag</th><td>08:00 - 19:00</td></tr>
+        <tr><th scope="row">Dinsdag</th><td>08:00 - 17:00</td></tr>
+        <tr><th scope="row">Woensdag</th><td>08:00 - 19:00</td></tr>
+        <tr><th scope="row">Donderdag</th><td>08:00 - 17:00</td></tr>
+        <tr><th scope="row">Vrijdag</th><td>08:00 - 17:00</td></tr>
+        <tr><th scope="row">Zaterdag</th><td class="dicht">Gesloten</td></tr>
+        <tr><th scope="row">Zondag</th><td class="dicht">Gesloten</td></tr>
+      </tbody>
+    </table>
+    <p class="tijden-bron">Bron: opgave praktijk per e-mail, 2026-09-28</p>
+    
+  </div>
+
   <div class="card faq">
     <h2>Veelgestelde vragen over Dierenartsenpraktijk Suylighem</h2>
     <details><summary>Wat is het telefoonnummer van Dierenartsenpraktijk Suylighem?</summary><p>Dierenartsenpraktijk Suylighem is bereikbaar op 0418-671802. De praktijk zit aan Mertstraat 2 D, 5305 TE Zuilichem (Gelderland).</p></details>
     <details><summary>Waar is Dierenartsenpraktijk Suylighem gevestigd?</summary><p>Het adres is Mertstraat 2 D, 5305 TE Zuilichem, provincie Gelderland.</p></details>
     <details><summary>Biedt Dierenartsenpraktijk Suylighem 24/7 spoedhulp?</summary><p>Bij Dierenartsenpraktijk Suylighem staat geen eigen 24/7 spoeddienst vermeld. De dichtstbijzijnde kliniek met 24-uurs spoedhulp in onze data is Dierenziekenhuis Gorinchem in Gorinchem, op ongeveer 12 km. Bel altijd eerst.</p></details>
+    <details><summary>Wat zijn de openingstijden van Dierenartsenpraktijk Suylighem?</summary><p>Dierenartsenpraktijk Suylighem is geopend op maandag 08:00 tot 19:00, dinsdag 08:00 tot 17:00, woensdag 08:00 tot 19:00, donderdag 08:00 tot 17:00, vrijdag 08:00 tot 17:00, zaterdag gesloten, zondag gesloten.</p></details>
     <details><summary>Zijn er meer dierenklinieken in Zuilichem?</summary><p>Nee, Dierenartsenpraktijk Suylighem is de enige kliniek die wij in Zuilichem vermeld hebben staan. Op de provinciepagina van Gelderland vindt u wel andere klinieken in de omgeving.</p></details>
   </div>
 
@@ -322,7 +393,7 @@
 
   <div class="card">
     <h2>Meer informatie</h2>
-    <p>Deze vermelding maakt deel uit van <a href="/">Dierenkliniek.nl</a> — het onafhankelijke overzicht van alle 1395 dierenklinieken in Nederland.</p>
+    <p>Deze vermelding maakt deel uit van <a href="/">Dierenkliniek.nl</a> — het onafhankelijke overzicht van alle 1390 dierenklinieken in Nederland.</p>
     <p style="margin-top: 12px;">Bent u de eigenaar van deze kliniek? <a href="/?view=aanmelden">Vul het aanmeldformulier in</a> om uw vermelding aan te vullen.</p>
   </div>
 
