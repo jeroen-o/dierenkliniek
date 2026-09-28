@@ -10293,15 +10293,15 @@
     "zo": "gesloten",
     "onbevestigd": true
   },
-  "dierenkliniek-dierenarts-in-alphen-aan-den-rijn": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+  "diergeneeskundig-centrum-alphen-dierenarts-in-alphen-aan-den-rijn": {
+    "ma": "08:00-12:15, 12:45-20:00",
+    "di": "08:00-12:15, 12:45-20:00",
+    "wo": "08:00-12:15, 12:45-20:00",
+    "do": "08:00-12:15, 12:45-20:00",
+    "vr": "08:00-12:15, 12:45-20:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk, 2026-09-28 — gesloten tussen 12:15-12:45 voor gezamenlijke lunch; in het weekend uitsluitend spoedgevallen, spoednummer na 21:00 uur: 085-4831300"
   },
   "dierenkliniek-billiton-dierenarts-in-vlaardingen": {
     "ma": "12:30-17:00",
