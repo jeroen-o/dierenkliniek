@@ -1,6 +1,6 @@
 # Dierenkliniek.nl
 
-> Dierenkliniek.nl is het onafhankelijke overzicht van alle 1390 dierenklinieken in Nederland. Huisdiereigenaren vinden er een dierenarts op postcode, plaats of provincie, plus 111 klinieken met 24/7 spoedhulp en een kennisbank van 269 artikelen. Geen betaalde voorrang in de zoekresultaten.
+> Dierenkliniek.nl is het onafhankelijke overzicht van alle 1390 dierenklinieken in Nederland. Huisdiereigenaren vinden er een dierenarts op postcode, plaats of provincie, plus 111 klinieken met 24/7 spoedhulp en een kennisbank van 289 artikelen. Geen betaalde voorrang in de zoekresultaten.
 
 Laatst bijgewerkt: 2026-09-28. Exploitant: Dierenkliniek.nl, Darthuizerberg 1, 3825 BK Amersfoort, info@dierenkliniek.nl, 06-59115265.
 
@@ -10,7 +10,7 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 - [Dierenarts zoeken op postcode](https://dierenkliniek.nl/): startpunt met postcodezoeker en kaart van alle 1390 klinieken
 - [Spoedhulp 24/7](https://dierenkliniek.nl/spoedhulp): 111 klinieken met een 24-uurs spoeddienst, per provincie, met telefoonnummer
-- [Kennisbank](https://dierenkliniek.nl/kennisbank): 269 artikelen over gezondheid, preventie, voeding, gedrag en spoed
+- [Kennisbank](https://dierenkliniek.nl/kennisbank): 289 artikelen over gezondheid, preventie, voeding, gedrag en spoed
 - [Veterinair glossarium](https://dierenkliniek.nl/glossarium): 40 medische termen in gewone taal
 - [Alle provincies](https://dierenkliniek.nl/provincies): klinieken gegroepeerd per provincie
 - [Specialismen](https://dierenkliniek.nl/specialismen): klinieken per aandachtsgebied
@@ -71,22 +71,22 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 ## Kennisbank per categorie
 
-- [Eerste hulp & spoed](https://dierenkliniek.nl/kennisbank/categorie-spoed): 15 artikelen
-- [Preventie & vaccinaties](https://dierenkliniek.nl/kennisbank/categorie-preventie): 23 artikelen
-- [Voeding & gewicht](https://dierenkliniek.nl/kennisbank/categorie-voeding): 17 artikelen
+- [Eerste hulp & spoed](https://dierenkliniek.nl/kennisbank/categorie-spoed): 20 artikelen
+- [Preventie & vaccinaties](https://dierenkliniek.nl/kennisbank/categorie-preventie): 26 artikelen
+- [Voeding & gewicht](https://dierenkliniek.nl/kennisbank/categorie-voeding): 18 artikelen
 - [Gedrag & welzijn](https://dierenkliniek.nl/kennisbank/categorie-gedrag): 13 artikelen
-- [Puppy, volwassen, senior](https://dierenkliniek.nl/kennisbank/categorie-levensfasen): 12 artikelen
-- [Praktische zaken](https://dierenkliniek.nl/kennisbank/categorie-praktisch): 189 artikelen
+- [Puppy, volwassen, senior](https://dierenkliniek.nl/kennisbank/categorie-levensfasen): 14 artikelen
+- [Praktische zaken](https://dierenkliniek.nl/kennisbank/categorie-praktisch): 198 artikelen
 
 ## Kennisbank per diersoort
 
-- [Hond](https://dierenkliniek.nl/kennisbank/dier-hond): 64 artikelen
-- [Kat](https://dierenkliniek.nl/kennisbank/dier-kat): 32 artikelen
-- [Konijn](https://dierenkliniek.nl/kennisbank/dier-konijn): 11 artikelen
+- [Hond](https://dierenkliniek.nl/kennisbank/dier-hond): 70 artikelen
+- [Kat](https://dierenkliniek.nl/kennisbank/dier-kat): 36 artikelen
+- [Konijn](https://dierenkliniek.nl/kennisbank/dier-konijn): 12 artikelen
 - [Knaagdieren](https://dierenkliniek.nl/kennisbank/dier-knaagdier): 11 artikelen
 - [Vogels](https://dierenkliniek.nl/kennisbank/dier-vogel): 10 artikelen
 - [Reptielen](https://dierenkliniek.nl/kennisbank/dier-reptiel): 9 artikelen
-- [Paarden](https://dierenkliniek.nl/kennisbank/dier-paard): 58 artikelen
+- [Paarden](https://dierenkliniek.nl/kennisbank/dier-paard): 60 artikelen
 - [Kippen](https://dierenkliniek.nl/kennisbank/dier-kip): 14 artikelen
 - [Vissen](https://dierenkliniek.nl/kennisbank/dier-vis): 6 artikelen
 - [Fretten](https://dierenkliniek.nl/kennisbank/dier-fret): 7 artikelen
@@ -362,6 +362,26 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 - [Gewrichts- en bewegingsproblemen bij paarden](https://dierenkliniek.nl/kennisbank/gewrichts-en-bewegingsproblemen-bij-paarden): Kreupelheid is een van de meest voorkomende gezondheidsproblemen bij paarden — van septische artritis tot osteochondrose.
 - [Voortplanting bij paarden: fokkerij en fertiliteit](https://dierenkliniek.nl/kennisbank/voortplanting-bij-paarden-fokkerij-en-fertiliteit): Van spermaonderzoek bij de hengst tot embryotransplantatie: professionele reproductiezorg is onmisbaar voor paardenfokkers.
 - [Wonden, infectieziekten en tumoren bij paarden](https://dierenkliniek.nl/kennisbank/wonden-infectieziekten-en-tumoren-bij-paarden): Van een gewrichtswond tot droes of maanblindheid: deze aandoeningen bij paarden vragen om snelle, specialistische zorg.
+- [Blaasontsteking bij katten — herkennen en behandelen](https://dierenkliniek.nl/kennisbank/blaasontsteking-bij-katten-herkennen-en-behandelen): Blaasontsteking en FLUTD komen veel voor bij katten, vooral bij mannelijke dieren. Welke signalen wijzen op een probleem en wanneer is het spoedeisend?
+- [Nagels knippen bij honden en katten — stap voor stap](https://dierenkliniek.nl/kennisbank/nagels-knippen-bij-honden-en-katten-stap-voor-stap): Te lange nagels veroorzaken pijn en standsafwijkingen. Hoe knipt u veilig thuis, wat is het snelle en wat doet u bij per ongeluk doorknippen?
+- [Bloed in de urine bij honden — oorzaken en spoedgeval?](https://dierenkliniek.nl/kennisbank/bloed-in-de-urine-bij-honden-oorzaken-en-spoedgeval): Rode of roze urine bij uw hond kan wijzen op een blaasontsteking, stenen of iets ernstiger. Wanneer is het spoedeisend?
+- [Hond in de auto beveiligen — veiligheid en wetgeving](https://dierenkliniek.nl/kennisbank/hond-in-de-auto-beveiligen-veiligheid-en-wetgeving): Een loslopende hond in de auto is gevaarlijk en in sommige gevallen beboetbaar. Welke opties zijn er en wat werkt het beste?
+- [Tandextractie bij honden en katten — wat kunt u verwachten?](https://dierenkliniek.nl/kennisbank/tandextractie-bij-honden-en-katten-wat-kunt-u-verwachten): Een dierenarts adviseert een tandextractie — wat houdt dat in, hoe verloopt het herstel en wat kost het?
+- [Hondenpension kiezen — waarop moet u letten?](https://dierenkliniek.nl/kennisbank/hondenpension-kiezen-waarop-moet-u-letten): Niet elk hondenpension is hetzelfde. Welke eisen stelt de wet, waarop let u bij een bezoek en hoe voorkomt u kennelhoest en stress bij uw hond?
+- [Dieet na sterilisatie — voeding aanpassen voor hond en kat](https://dierenkliniek.nl/kennisbank/dieet-na-sterilisatie-voeding-aanpassen-voor-hond-en-kat): Na sterilisatie neemt de energiebehoefte af met 20–30%. Wanneer overschakelen, hoeveel minder geven en welke voeding kiest u?
+- [Kat niest veel — oorzaken en wanneer ingrijpen](https://dierenkliniek.nl/kennisbank/kat-niest-veel-oorzaken-en-wanneer-ingrijpen): Af en toe niezen is normaal, maar veelvuldig niezen bij katten kan wijzen op een infectie, allergie of iets ernstiger. Hoe onderscheidt u dit?
+- [Oogproblemen bij konijnen — herkennen en behandelen](https://dierenkliniek.nl/kennisbank/oogproblemen-bij-konijnen-herkennen-en-behandelen): Ooguitvloeiing, gesloten ogen of een witte vlek op het oog: konijnen zijn gevoelig voor diverse oogproblemen. Welke zijn er en hoe urgent zijn ze?
+- [Artritis bij katten — onzichtbare pijn herkennen](https://dierenkliniek.nl/kennisbank/artritis-bij-katten-onzichtbare-pijn-herkennen): Artrose bij katten wordt chronisch onderschat omdat katten pijn verbergen. Welke subtiele signalen zijn er en wat kan de dierenarts doen?
+- [Parasietenpreventie in de zomer — checklist voor hond, kat en konijn](https://dierenkliniek.nl/kennisbank/parasietenpreventie-in-de-zomer-checklist-voor-hond-kat-en-konijn): Vlooien, teken, eikenprocessievlinders en myggen zijn 's zomers actiever. Een praktische checklist voor bescherming van uw huisdieren.
+- [Huidschimmel (ringworm) bij huisdieren — besmettelijk voor mensen](https://dierenkliniek.nl/kennisbank/huidschimmel-ringworm-bij-huisdieren-besmettelijk-voor-mensen): Ringworm is geen worm maar een schimmelinfectie die van dier op mens kan overgaan. Hoe herkent u het, hoe behandelt u het en hoe voorkomt u verspreiding?
+- [Oorontsteking bij katten — oorzaken en behandeling](https://dierenkliniek.nl/kennisbank/oorontsteking-bij-katten-oorzaken-en-behandeling): Katten krabben aan het oor, schudden met de kop of hebben donkere korreltjes in het oor — tekenen van een probleem. Wat zijn de oorzaken en hoe helpt u uw kat?
+- [Uw huisdier ziek in het buitenland — wat te doen?](https://dierenkliniek.nl/kennisbank/uw-huisdier-ziek-in-het-buitenland-wat-te-doen): Als uw hond of kat in het buitenland ziek wordt, heeft u een dierenarts nodig en misschien een noodtransport. Hoe bereidt u zich voor?
+- [Tekenziekte (Lyme) bij honden — herkennen en voorkomen](https://dierenkliniek.nl/kennisbank/tekenziekte-lyme-bij-honden-herkennen-en-voorkomen): Lyme-borreliose bij honden veroorzaakt koorts, kreupelheid en nierproblemen. Hoe herkent u het, hoe behandelt u het en hoe beschermt u uw hond?
+- [Hittestress bij paarden — herkennen en voorkomen in de zomer](https://dierenkliniek.nl/kennisbank/hittestress-bij-paarden-herkennen-en-voorkomen-in-de-zomer): Paarden zijn kwetsbaar voor oververhitting, zeker na inspanning bij heet weer. Welke signalen zijn er en hoe koelt u een paard veilig af?
+- [Puppy of kitten kopen — fokker of adoptie, wat te overwegen?](https://dierenkliniek.nl/kennisbank/puppy-of-kitten-kopen-fokker-of-adoptie-wat-te-overwegen): Een nieuwe hond of kat aanschaffen via een fokker of via adoptie: beide opties hebben voor- en nadelen. Welke vragen stelt u en waarop let u?
+- [Kortademige hond — wanneer is het een spoedgeval?](https://dierenkliniek.nl/kennisbank/kortademige-hond-wanneer-is-het-een-spoedgeval): Snelle of moeizame ademhaling bij uw hond kan onschuldig zijn of een levensbedreigende oorzaak hebben. Hoe onderscheidt u dit snel?
+- [Klauwenverzorging bij paarden — hoefscore en hoefverzorging](https://dierenkliniek.nl/kennisbank/klauwenverzorging-bij-paarden-hoefscore-en-hoefverzorging): Goede hoefverzorging is de basis van het welzijn van een paard. Wanneer heeft uw paard een hoefsmid nodig en wat zijn de tekenen van hoefproblemen?
+- [Tandproblemen bij kleine honden — Chihuahua, Yorkshire, Maltees](https://dierenkliniek.nl/kennisbank/tandproblemen-bij-kleine-honden-chihuahua-yorkshire-maltees): Kleine honden hebben proportioneel meer gebitsproblemen dan grote rassen. Waarom is dat en wat kunt u preventief doen?
 
 ## Voor klinieken
 
@@ -381,5 +401,5 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 ## Optioneel
 
-- [Volledige tekst van de kennisbank](https://dierenkliniek.nl/llms-full.txt): alle 269 artikelen als platte tekst
+- [Volledige tekst van de kennisbank](https://dierenkliniek.nl/llms-full.txt): alle 289 artikelen als platte tekst
 - [Sitemap](https://dierenkliniek.nl/sitemap.xml): alle canonieke URL's
