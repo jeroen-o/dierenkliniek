@@ -300,7 +300,7 @@ ${buurt.map(({ o, d }) => `        <a href="/${clinicSlug(o)}" class="nearby-car
   <h1>${esc(c.name)}</h1>
   <p class="subtitle">Dierenarts in ${esc(c.city)}</p>
   <div class="card">
-    <p>${esc(L.beschrijvingVoor(c))}</p>
+    <p>${L.linkify(esc(L.beschrijvingVoor(c)))}</p>
     ${specs.length ? `<div class="specs">${specs.map(s => `<span class="spec">${esc(s)}</span>`).join('')}</div>` : ''}
     <div style="margin-top: 24px;">
       ${knoppen.join('\n      ')}

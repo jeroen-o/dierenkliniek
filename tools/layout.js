@@ -29,6 +29,21 @@ const esc = (s) => String(s == null ? '' : s)
 
 const stripTags = (s) => String(s || '').replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
 
+// Zet URL's in een (al met esc() geëscapete) tekst om in klikbare links, voor
+// vrije tekst (c.desc) die af en toe een website of boekingslink noemt.
+const URL_RE = /(https?:\/\/[^\s<]+)|((?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+(?:nl|com|online|org|eu|net)(?:\/[^\s<]*)?)/gi;
+function linkify(escapedText) {
+  return String(escapedText || '').replace(URL_RE, (match) => {
+    let trail = '';
+    while (/[.,;:!?)]$/.test(match)) {
+      trail = match.slice(-1) + trail;
+      match = match.slice(0, -1);
+    }
+    const href = /^https?:\/\//i.test(match) ? match : `https://${match}`;
+    return `<a href="${href}" target="_blank" rel="noopener">${match}</a>${trail}`;
+  });
+}
+
 function slugify(s) {
   return String(s || '')
     .toLowerCase()
@@ -337,5 +352,5 @@ function provinceOf(c) {
   return PROVINCE_LOOKUP[pc.slice(0, 2)] || null;
 }
 
-module.exports = { SITE, ROOT, page, esc, stripTags, slugify, breadcrumbLd, breadcrumbHtml, faqLd, faqHtml, ORGANIZATION, SOCIALE_PROFIELEN, SOCIAL_GLYPHS,
+module.exports = { SITE, ROOT, page, esc, linkify, stripTags, slugify, breadcrumbLd, breadcrumbHtml, faqLd, faqHtml, ORGANIZATION, SOCIALE_PROFIELEN, SOCIAL_GLYPHS,
   clinicSlug, citySlug, provinceOf, PROVINCE_LOOKUP, PROVINCE_DESCRIPTIONS, CLINIC_SLUG_OVERRIDES, HEADER, FOOTER, sjabloon, EXTRA_CSS, beschrijvingVoor, A11Y_HEAD };
