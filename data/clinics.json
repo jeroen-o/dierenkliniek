@@ -528,31 +528,6 @@
     "tier": "basic"
   },
   {
-    "id": 27,
-    "name": "Veterinair Centrum Someren - Asten",
-    "city": "Asten",
-    "address": "Dijkstraat 1",
-    "postcode": "5721 AM",
-    "phone": "0493-441044",
-    "email": "vcs@vc-someren.nl",
-    "website": "https://vc-someren.nl/",
-    "rating": 4,
-    "reviews": 305,
-    "specs": [
-      "Echografie",
-      "Spoed 24/7"
-    ],
-    "tags": [
-      "verified",
-      "spoed"
-    ],
-    "lat": 51.4046,
-    "lng": 5.7497,
-    "desc": "Veterinaire kliniek in Asten. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic",
-    "facebook": "https://www.facebook.com/VeterinairCentrumSomeren"
-  },
-  {
     "id": 28,
     "name": "DAP Berghem, Dierenartsenpraktijk",
     "city": "Berghem",
@@ -5235,15 +5210,17 @@
     "reviews": 209,
     "specs": [
       "Konijnen",
+      "Knaagdieren",
       "Exoten",
-      "Echografie"
+      "Echografie",
+      "Tandheelkunde"
     ],
     "tags": [
       "verified"
     ],
     "lat": 51.9244,
     "lng": 4.4777,
-    "desc": "Veterinaire kliniek in Rotterdam. Volledige zorg voor gezelschapsdieren.",
+    "desc": "Dierenarts in Rotterdam (Kralingseweg) gespecialiseerd in honden, katten, konijnen en knaagdieren, met röntgen, echografie en tandheelkunde. Onderdeel van AniCura Rotterdam/Capelle, met zusterlocaties in Ommoord, Centrum, Schiebroek en Kralingen. Bij spoed binnen of buiten openingstijden wordt u via het praktijknummer doorgeschakeld naar de dienstdoende dierenarts.",
     "tier": "basic"
   },
   {
@@ -12349,11 +12326,15 @@
     "website": "https://www.anicura.nl/",
     "rating": 0,
     "reviews": 0,
-    "specs": [],
-    "tags": [],
+    "specs": [
+      "Dermatologie"
+    ],
+    "tags": [
+      "verified"
+    ],
     "lat": 51.95757,
     "lng": 4.470748,
-    "desc": "Veterinaire kliniek in Rotterdam. Volledige zorg voor gezelschapsdieren.",
+    "desc": "Dierenarts in Rotterdam (Schiebroek) voor honden en katten, gespecialiseerd in dermatologie en interne geneeskunde. Onderdeel van AniCura Rotterdam/Capelle, met zusterlocaties in Kralingseweg, Ommoord, Centrum en Kralingen. Bij spoed binnen of buiten openingstijden wordt u via het praktijknummer doorgeschakeld naar de dienstdoende dierenarts.",
     "tier": "basic"
   },
   {
@@ -12821,11 +12802,20 @@
     "website": "https://www.anicura.nl/",
     "rating": 0,
     "reviews": 0,
-    "specs": [],
-    "tags": [],
+    "specs": [
+      "Vogels",
+      "Konijnen",
+      "Knaagdieren",
+      "Dermatologie",
+      "Echografie",
+      "Tandheelkunde"
+    ],
+    "tags": [
+      "verified"
+    ],
     "lat": 51.954202,
     "lng": 4.523905,
-    "desc": "Veterinaire kliniek in Rotterdam. Volledige zorg voor gezelschapsdieren.",
+    "desc": "Dierenarts in Rotterdam (Ommoord/Hillegersberg) voor honden, katten, vogels, reptielen, konijnen en knaagdieren. Specialismen: oogheelkunde, dermatologie, CT-scan, echografie, orthopedie, tandheelkunde en interne geneeskunde. Onderdeel van AniCura Rotterdam/Capelle, met zusterlocaties in Kralingseweg, Centrum, Schiebroek en Kralingen. Bij spoed binnen of buiten openingstijden wordt u via het praktijknummer doorgeschakeld naar de dienstdoende dierenarts.",
     "tier": "basic"
   },
   {
@@ -12839,11 +12829,17 @@
     "website": "https://www.anicura.nl/",
     "rating": 0,
     "reviews": 0,
-    "specs": [],
-    "tags": [],
+    "specs": [
+      "Vogels",
+      "Echografie",
+      "Tandheelkunde"
+    ],
+    "tags": [
+      "verified"
+    ],
     "lat": 51.920403,
     "lng": 4.471302,
-    "desc": "Veterinaire kliniek in Rotterdam. Volledige zorg voor gezelschapsdieren.",
+    "desc": "Dierenarts in Rotterdam (Centrum) voor honden, katten en vogels, met tandheelkunde en echografie. Onderdeel van AniCura Rotterdam/Capelle, met zusterlocaties in Kralingseweg, Ommoord, Schiebroek en Kralingen. Bij spoed binnen of buiten openingstijden wordt u via het praktijknummer doorgeschakeld naar de dienstdoende dierenarts.",
     "tier": "basic"
   },
   {
@@ -12858,10 +12854,12 @@
     "rating": 0,
     "reviews": 0,
     "specs": [],
-    "tags": [],
+    "tags": [
+      "verified"
+    ],
     "lat": 51.921378,
     "lng": 4.508476,
-    "desc": "Veterinaire kliniek in Rotterdam. Volledige zorg voor gezelschapsdieren.",
+    "desc": "Dierenarts in Rotterdam (Kralingen) voor honden en katten. Onderdeel van AniCura Rotterdam/Capelle, met zusterlocaties in Kralingseweg, Ommoord, Centrum en Schiebroek. Bij spoed binnen of buiten openingstijden wordt u via het praktijknummer doorgeschakeld naar de dienstdoende dierenarts.",
     "tier": "basic"
   },
   {
@@ -19586,60 +19584,6 @@
     "tier": "basic"
   },
   {
-    "id": 1012,
-    "name": "Plusdierenkliniek De Saen",
-    "city": "Zaandam",
-    "address": "Tjotterlaan 14b",
-    "postcode": "1503 LB",
-    "phone": "075-6173911",
-    "email": "desaen@plusdierenklinieken.nl",
-    "website": "http://www.plusdierenklinieken.nl/",
-    "rating": 0,
-    "reviews": 0,
-    "specs": [],
-    "tags": [],
-    "lat": 52.4459,
-    "lng": 4.83643,
-    "desc": "Veterinaire kliniek in Zaandam. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
-  },
-  {
-    "id": 1013,
-    "name": "Plusdierenkliniek Saendelft",
-    "city": "Assendelft",
-    "address": "Kaaikhof 32",
-    "postcode": "1567 JP",
-    "phone": "088-3437343",
-    "email": "saendelft@plusdierenklinieken.nl",
-    "website": "http://www.plusdierenklinieken.nl/",
-    "rating": 0,
-    "reviews": 0,
-    "specs": [],
-    "tags": [],
-    "lat": 52.4887,
-    "lng": 4.75253,
-    "desc": "Veterinaire kliniek in Assendelft. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
-  },
-  {
-    "id": 1014,
-    "name": "Plusdierenkliniek Westerwatering",
-    "city": "Zaandam",
-    "address": "Langeweide 166",
-    "postcode": "1507 NH",
-    "phone": "075-6160761",
-    "email": "westerwatering@plusdierenklinieken.nl",
-    "website": "http://www.plusdierenklinieken.nl/",
-    "rating": 0,
-    "reviews": 0,
-    "specs": [],
-    "tags": [],
-    "lat": 52.4477,
-    "lng": 4.80274,
-    "desc": "Veterinaire kliniek in Zaandam. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
-  },
-  {
     "id": 1015,
     "name": "Stadion Dierenkliniek",
     "city": "Amsterdam",
@@ -20945,7 +20889,7 @@
   },
   {
     "id": 1089,
-    "name": "Wijnbergen Dierenartspraktijk Hoogland",
+    "name": "Dierenartspraktijk Hoogland",
     "city": "Hoogland",
     "address": "Zevenhuizerstraat 118a",
     "postcode": "3828 BH",
@@ -20958,7 +20902,7 @@
     "tags": [],
     "lat": 52.1898,
     "lng": 5.37982,
-    "desc": "Veterinaire kliniek in Hoogland. Volledige zorg voor gezelschapsdieren.",
+    "desc": "Voorheen bekend als Wijnbergen Dierenartspraktijk Hoogland; mevrouw Wijnbergen is met pensioen, de praktijk heet nu Dierenartspraktijk Hoogland.",
     "tier": "basic"
   },
   {

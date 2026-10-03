@@ -204,16 +204,6 @@
     "zo": "gesloten",
     "bron": "opgave praktijk per e-mail (Hiltje Smink), 2026-09-16"
   },
-  "dap-asten-dierenarts-in-asten": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
   "dap-berghem-dierenartsenpraktijk-dierenarts-in-berghem": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
@@ -2102,14 +2092,14 @@
     "onbevestigd": true
   },
   "dierenkliniek-kralingseweg-dierenarts-in-rotterdam": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:30-19:00",
+    "di": "08:30-19:00",
+    "wo": "08:30-17:00",
+    "do": "08:30-19:00",
+    "vr": "08:30-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail (Dylan Heinsmann, AniCura), 2026-09-29"
   },
   "dierenkliniek-landgraaf-dierenarts-in-landgraaf": {
     "ma": "12:30-17:00",
@@ -3585,14 +3575,14 @@
     "onbevestigd": true
   },
   "caressa-dierenziekenhuis-amsterdam-sloten-dierenarts-in-amsterdam": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:45-17:00",
+    "di": "08:45-17:00",
+    "wo": "08:45-17:00",
+    "do": "08:45-17:00",
+    "vr": "08:45-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail (Debbie van Miltenburg, Evidensia), 2026-10-01"
   },
   "caressa-dierenkliniek-amsterdam-ijburg-dierenarts-in-amsterdam": {
     "ma": "12:30-17:00",
@@ -5285,12 +5275,12 @@
   "anicura-dierenkliniek-rotterdam-schiebroek-dierenarts-in-rotterdam": {
     "ma": "08:30-16:30",
     "di": "08:30-16:30",
-    "wo": "08:30-16:30",
+    "wo": "08:30-17:00",
     "do": "08:30-19:00",
     "vr": "08:30-16:30",
     "za": "gesloten",
     "zo": "gesloten",
-    "bron": "opgave praktijk per e-mail, 2026-09-17; uitsluitend op afspraak"
+    "bron": "opgave praktijk per e-mail (Dylan Heinsmann, AniCura), 2026-09-29; uitsluitend op afspraak"
   },
   "anicura-barendrecht-carnisselande-dierenarts-in-barendrecht": {
     "ma": "12:30-17:00",
@@ -5543,34 +5533,34 @@
     "onbevestigd": true
   },
   "anicura-dierenkliniek-rotterdam-ommoord-hillegersberg-dierenarts-in-rotterdam": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
+    "ma": "08:30-21:00",
+    "di": "08:30-21:00",
+    "wo": "08:30-21:00",
+    "do": "08:30-21:00",
+    "vr": "08:30-21:00",
+    "za": "08:30-17:00",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail (Dylan Heinsmann, AniCura), 2026-09-29"
   },
   "anicura-dierenkliniek-rotterdam-centrum-dierenarts-in-rotterdam": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:30-20:00",
+    "di": "08:30-17:00",
+    "wo": "08:30-20:00",
+    "do": "08:30-20:00",
+    "vr": "08:30-20:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail (Dylan Heinsmann, AniCura), 2026-09-29"
   },
   "anicura-dierenkliniek-rotterdam-kralingen-dierenarts-in-rotterdam": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:30-20:00",
+    "di": "08:30-17:00",
+    "wo": "08:30-17:00",
+    "do": "08:30-17:00",
+    "vr": "08:30-16:30",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail (Dylan Heinsmann, AniCura), 2026-09-29"
   },
   "anicura-het-ravelijn-steenwijk-dierenarts-in-steenwijk": {
     "ma": "12:30-17:00",
@@ -6540,7 +6530,7 @@
     "vr": "09:00-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "bevestigd door praktijk per e-mail, 2026-09-29"
   },
   "dierenkliniek-almere-haven-dierenarts-in-almere": {
     "ma": "12:30-17:00",
@@ -9164,36 +9154,6 @@
     "zo": "gesloten",
     "onbevestigd": true
   },
-  "plusdierenkliniek-de-saen-dierenarts-in-zaandam": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
-  "plusdierenkliniek-saendelft-dierenarts-in-assendelft": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
-  "plusdierenkliniek-westerwatering-dierenarts-in-zaandam": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
-  },
   "stadion-dierenkliniek-dierenarts-in-amsterdam": {
     "ma": "09:00-18:00",
     "di": "09:00-18:00",
@@ -9905,14 +9865,14 @@
     "onbevestigd": true
   },
   "wijnbergen-dierenartspraktijk-hoogland-dierenarts-in-hoogland": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "09:00-17:30",
+    "di": "09:00-19:30",
+    "wo": "08:00-17:30",
+    "do": "09:00-17:30",
+    "vr": "09:00-17:30",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail (Kim, DAP Hoogland), 2026-09-30 — op vrijdag in oneven weken tot 19:30 geopend"
   },
   "anicura-dierzorg-kruiningen-dierenarts-in-kruiningen": {
     "ma": "12:30-17:00",
@@ -10534,14 +10494,14 @@
     "onbevestigd": true
   },
   "dierenkliniek-pijnacker-dierenarts-in-pijnacker": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:30-18:00",
+    "di": "08:30-18:00",
+    "wo": "08:30-18:00",
+    "do": "08:30-18:00",
+    "vr": "08:30-18:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-09-29; 24/7 bereikbaar via WhatsApp voor vragen en advies"
   },
   "dierenkliniek-rijnoever-dierenarts-in-alphen-aan-den-rijn": {
     "ma": "12:30-17:00",
