@@ -1,6 +1,6 @@
 # Dierenkliniek.nl
 
-> Dierenkliniek.nl is het onafhankelijke overzicht van alle 1387 dierenklinieken in Nederland. Huisdiereigenaren vinden er een dierenarts op postcode, plaats of provincie, plus 111 klinieken met 24/7 spoedhulp en een kennisbank van 289 artikelen. Geen betaalde voorrang in de zoekresultaten.
+> Dierenkliniek.nl is het onafhankelijke overzicht van alle 1387 dierenklinieken in Nederland. Huisdiereigenaren vinden er een dierenarts op postcode, plaats of provincie, plus 111 klinieken met 24/7 spoedhulp en een kennisbank van 293 artikelen. Geen betaalde voorrang in de zoekresultaten.
 
 Laatst bijgewerkt: 2026-10-05. Exploitant: Dierenkliniek.nl, Darthuizerberg 1, 3825 BK Amersfoort, info@dierenkliniek.nl, 06-59115265.
 
@@ -10,7 +10,7 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 - [Dierenarts zoeken op postcode](https://dierenkliniek.nl/): startpunt met postcodezoeker en kaart van alle 1387 klinieken
 - [Spoedhulp 24/7](https://dierenkliniek.nl/spoedhulp): 111 klinieken met een 24-uurs spoeddienst, per provincie, met telefoonnummer
-- [Kennisbank](https://dierenkliniek.nl/kennisbank): 289 artikelen over gezondheid, preventie, voeding, gedrag en spoed
+- [Kennisbank](https://dierenkliniek.nl/kennisbank): 293 artikelen over gezondheid, preventie, voeding, gedrag en spoed
 - [Veterinair glossarium](https://dierenkliniek.nl/glossarium): 40 medische termen in gewone taal
 - [Alle provincies](https://dierenkliniek.nl/provincies): klinieken gegroepeerd per provincie
 - [Specialismen](https://dierenkliniek.nl/specialismen): klinieken per aandachtsgebied
@@ -71,12 +71,12 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 ## Kennisbank per categorie
 
-- [Eerste hulp & spoed](https://dierenkliniek.nl/kennisbank/categorie-spoed): 20 artikelen
-- [Preventie & vaccinaties](https://dierenkliniek.nl/kennisbank/categorie-preventie): 26 artikelen
+- [Eerste hulp & spoed](https://dierenkliniek.nl/kennisbank/categorie-spoed): 21 artikelen
+- [Preventie & vaccinaties](https://dierenkliniek.nl/kennisbank/categorie-preventie): 27 artikelen
 - [Voeding & gewicht](https://dierenkliniek.nl/kennisbank/categorie-voeding): 18 artikelen
 - [Gedrag & welzijn](https://dierenkliniek.nl/kennisbank/categorie-gedrag): 13 artikelen
 - [Puppy, volwassen, senior](https://dierenkliniek.nl/kennisbank/categorie-levensfasen): 14 artikelen
-- [Praktische zaken](https://dierenkliniek.nl/kennisbank/categorie-praktisch): 198 artikelen
+- [Praktische zaken](https://dierenkliniek.nl/kennisbank/categorie-praktisch): 200 artikelen
 
 ## Kennisbank per diersoort
 
@@ -88,7 +88,7 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 - [Reptielen](https://dierenkliniek.nl/kennisbank/dier-reptiel): 9 artikelen
 - [Paarden](https://dierenkliniek.nl/kennisbank/dier-paard): 60 artikelen
 - [Kippen](https://dierenkliniek.nl/kennisbank/dier-kip): 14 artikelen
-- [Vissen](https://dierenkliniek.nl/kennisbank/dier-vis): 6 artikelen
+- [Vissen](https://dierenkliniek.nl/kennisbank/dier-vis): 10 artikelen
 - [Fretten](https://dierenkliniek.nl/kennisbank/dier-fret): 7 artikelen
 
 ## Alle artikelen
@@ -382,6 +382,10 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 - [Kortademige hond — wanneer is het een spoedgeval?](https://dierenkliniek.nl/kennisbank/kortademige-hond-wanneer-is-het-een-spoedgeval): Snelle of moeizame ademhaling bij uw hond kan onschuldig zijn of een levensbedreigende oorzaak hebben. Hoe onderscheidt u dit snel?
 - [Klauwenverzorging bij paarden — hoefscore en hoefverzorging](https://dierenkliniek.nl/kennisbank/klauwenverzorging-bij-paarden-hoefscore-en-hoefverzorging): Goede hoefverzorging is de basis van het welzijn van een paard. Wanneer heeft uw paard een hoefsmid nodig en wat zijn de tekenen van hoefproblemen?
 - [Tandproblemen bij kleine honden — Chihuahua, Yorkshire, Maltees](https://dierenkliniek.nl/kennisbank/tandproblemen-bij-kleine-honden-chihuahua-yorkshire-maltees): Kleine honden hebben proportioneel meer gebitsproblemen dan grote rassen. Waarom is dat en wat kunt u preventief doen?
+- [Koi Herpes Virus (KHV) bij koi — herkennen en voorkomen](https://dierenkliniek.nl/kennisbank/koi-herpes-virus-khv-bij-koi-herkennen-en-voorkomen): Koi Herpes Virus is een zeer besmettelijke, vaak dodelijke virusziekte bij koikarpers. Welke signalen wijzen op KHV, en hoe voorkomt u een uitbraak in uw vijver?
+- [Karperluis en vislluis bij koi — parasieten herkennen en behandelen](https://dierenkliniek.nl/kennisbank/karperluis-en-vislluis-bij-koi-parasieten-herkennen-en-behandelen): Karperluis en vislluis zijn veelvoorkomende huidparasieten bij koikarpers. Hoe herkent u ze, en welke behandeling is nodig om uw vijver weer parasietvrij te krijgen?
+- [Witte stip bij koi — oorzaak, symptomen en behandeling](https://dierenkliniek.nl/kennisbank/witte-stip-bij-koi-oorzaak-symptomen-en-behandeling): Witte stip (Ich) is een veelvoorkomende parasitaire infectie bij koikarpers, vaak veroorzaakt door stress of temperatuurschommelingen. Hoe herkent en behandelt u het?
+- [Vijverwaterkwaliteit voor koi — de basis voor een gezonde vijver](https://dierenkliniek.nl/kennisbank/vijverwaterkwaliteit-voor-koi-de-basis-voor-een-gezonde-vijver): Vrijwel alle gezondheidsproblemen bij koikarpers hangen samen met de waterkwaliteit. Welke parameters zijn belangrijk, en hoe houdt u ze stabiel?
 
 ## Voor klinieken
 
@@ -401,5 +405,5 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 ## Optioneel
 
-- [Volledige tekst van de kennisbank](https://dierenkliniek.nl/llms-full.txt): alle 289 artikelen als platte tekst
+- [Volledige tekst van de kennisbank](https://dierenkliniek.nl/llms-full.txt): alle 293 artikelen als platte tekst
 - [Sitemap](https://dierenkliniek.nl/sitemap.xml): alle canonieke URL's

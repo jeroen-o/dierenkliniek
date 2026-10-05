@@ -1,7 +1,7 @@
 # Dierenkliniek.nl — volledige kennisbank
 
 Bron: https://dierenkliniek.nl/kennisbank · Laatst bijgewerkt: 2026-10-05
-289 artikelen, 40 glossariumtermen.
+293 artikelen, 40 glossariumtermen.
 
 Deze tekst is algemene voorlichting voor huisdiereigenaren en vervangt geen
 diagnose van een dierenarts. Bij spoed: bel altijd eerst de kliniek.
@@ -18590,6 +18590,268 @@ A: Ze hebben dezelfde 42 tanden als grote rassen, maar dan in een veel kleinere 
 
 V: Wat is retentie van melktanden en waarom is dat een probleem?
 A: Dat is wanneer een melktand niet op tijd uitvalt en naast de doorkomende permanente tand blijft staan. Dit verplaatst de nieuwe tand en veroorzaakt tandvleesontsteking — retentietanden moeten operatief verwijderd worden.
+
+
+--------------------------------------------------------------------------------
+# Koi Herpes Virus (KHV) bij koi — herkennen en voorkomen
+
+URL: https://dierenkliniek.nl/kennisbank/koi-herpes-virus-khv-bij-koi-herkennen-en-voorkomen
+Categorie: Eerste hulp & spoed · Diersoort: Vissen · Leestijd: 5 min
+
+Samenvatting: Koi Herpes Virus is een zeer besmettelijke, vaak dodelijke virusziekte bij koikarpers. Welke signalen wijzen op KHV, en hoe voorkomt u een uitbraak in uw vijver?
+
+Koi Herpes Virus (KHV, ook wel Cyprinid herpesvirus 3) is een van de gevreesdste ziektes onder koiliefhebbers. Het virus verspreidt zich razendsnel via vijverwater en kan binnen een paar dagen tot grote sterfte leiden, vooral bij watertemperaturen tussen de 18 en 27 °C.
+
+## Symptomen van KHV
+
+
+- Ademhalingsproblemen — vissen hangen naar adem happend aan het wateroppervlak of bij de inlaat.
+
+
+- Beschadigde kieuwen — bleke plekken, necrose of een onaangename geur aan de kieuwen.
+
+
+- Huid- en slijmvliesveranderingen — overmatige slijmproductie of juist verdroogde, ruwe plekken op de huid.
+
+
+- Lethargie en verminderde eetlust — vissen zonderen zich af en reageren traag.
+
+
+- Plotselinge, hoge sterfte — vaak het eerste signaal dat koivissers krijgen, soms binnen enkele dagen na de eerste symptomen.
+
+## Hoe verspreidt KHV zich?
+
+Het virus verspreidt zich via vijverwater, materialen (netten, emmers) en direct contact tussen vissen. Nieuwe koi, maar ook bezoek aan koishows of het delen van apparatuur tussen vijvers, zijn veelvoorkomende besmettingsroutes. Vissen die een infectie overleven, kunnen drager blijven en het virus bij stress opnieuw gaan uitscheiden.
+
+## Wat te doen bij verdenking van KHV
+
+Bij verdenking van KHV is snel handelen belangrijk: isoleer de vijver (geen water, netten of vissen delen met andere vijvers) en neem contact op met een dierenarts met ervaring in koikarpers voor diagnostiek, bijvoorbeeld via PCR-onderzoek. Er bestaat geen behandeling die het virus zelf verwijdert; de zorg is vooral ondersteunend en gericht op het beperken van verdere verspreiding.
+
+## Voorkomen is beter dan genezen
+
+
+- Quarantaineer nieuwe koi minimaal 2-4 weken, bij voorkeur bij een temperatuur die het virus activeert, voordat u ze bij de andere vissen zet.
+
+
+- Vraag bij aankoop naar de gezondheidsstatus en herkomst van de vis.
+
+
+- Deel geen netten, emmers of ander vijvermateriaal tussen verschillende vijvers.
+
+
+- Houd de vissen stressvrij: stabiele waterkwaliteit en temperatuur verminderen de kans dat latent aanwezig virus actief wordt.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Is KHV gevaarlijk voor andere vissoorten of voor mensen?
+A: KHV is specifiek voor (koi)karpers en verwante soorten en vormt geen gevaar voor mensen, honden, katten of andere huisdieren.
+
+V: Kan een koi die KHV heeft overleefd weer gezond worden?
+A: Een overlevende vis kan uiterlijk weer gezond lijken, maar blijft vaak drager van het virus en kan het bij stress opnieuw uitscheiden. Zo’n vis blijft daarom een risico voor andere koi in de vijver.
+
+
+--------------------------------------------------------------------------------
+# Karperluis en vislluis bij koi — parasieten herkennen en behandelen
+
+URL: https://dierenkliniek.nl/kennisbank/karperluis-en-vislluis-bij-koi-parasieten-herkennen-en-behandelen
+Categorie: Praktische zaken · Diersoort: Vissen · Leestijd: 4 min
+
+Samenvatting: Karperluis en vislluis zijn veelvoorkomende huidparasieten bij koikarpers. Hoe herkent u ze, en welke behandeling is nodig om uw vijver weer parasietvrij te krijgen?
+
+Koikarpers krijgen regelmatig te maken met uitwendige parasieten die zich aan de huid of kieuwen hechten. De twee bekendste zijn de karperluis (Argulus) en de vislluis (Lernaea, ook wel ankerworm genoemd) — ondanks de naam geen echte luizen, maar kreeftachtigen die zich aan de vis vasthechten.
+
+## Karperluis (Argulus)
+
+Karperluis is een platte, ronde parasiet van enkele millimeters die zich met zuignappen aan de huid vasthecht en bloed zuigt. Besmette koi laten vaak flitsend zwemgedrag zien, schuren langs de vijverwand of springen uit het water om de parasiet kwijt te raken. Op de huid zijn kleine, ronde, soms bewegende vlekjes zichtbaar.
+
+## Vislluis / ankerworm (Lernaea)
+
+Deze parasiet boort zich met een anker-achtige kop in de huid of spierweefsel en laat een draadachtig, enkele centimeters lang lichaam naar buiten hangen. De hechtingsplek raakt vaak ontstoken en is gevoelig voor secundaire bacteriële of schimmelinfecties.
+
+## Gevolgen voor de vis
+
+
+- Huidbeschadiging en open wondjes, die weer ingangspoort zijn voor bacteriën of schimmels.
+
+
+- Stress en verminderde weerstand, zeker bij zware besmetting met meerdere parasieten tegelijk.
+
+
+- Bij jonge of verzwakte vissen kan een zware besmetting levensbedreigend zijn.
+
+## Behandeling
+
+Losse parasieten kunnen soms voorzichtig met een pincet worden verwijderd, maar dat lost de onderliggende besmetting in de vijver niet op: de eitjes en larven overleven vaak in het water of op de vijverbodem. Een gerichte behandeling van de hele vijver met een middel tegen kreeftachtige parasieten, voorgeschreven of geadviseerd door een dierenarts met koi-ervaring, is meestal nodig om de cyclus echt te doorbreken. Herhaling van de behandeling na een aantal weken is vaak nodig om ook net uitgekomen larven te vangen.
+
+## Voorkomen
+
+Quarantaine van nieuwe vissen en regelmatige controle van de vijver — juist in het voor- en najaar, wanneer deze parasieten actief worden — helpen een zware besmetting te voorkomen.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Kan ik karperluis of vislluis zelf verwijderen zonder dierenarts?
+A: Een los exemplaar kan voorzichtig met een pincet verwijderd worden, maar dat behandelt de rest van de vijver niet. Bij meerdere aangetaste vissen is een gerichte vijverbehandeling nodig om de parasietencyclus te doorbreken.
+
+V: Wanneer in het jaar komen deze parasieten het meest voor?
+A: Vooral in het voor- en najaar, bij wisselende watertemperaturen, zijn karperluis en vislluis actief. Een controle van de vissen op deze momenten helpt vroege besmetting op te sporen.
+
+
+--------------------------------------------------------------------------------
+# Witte stip bij koi — oorzaak, symptomen en behandeling
+
+URL: https://dierenkliniek.nl/kennisbank/witte-stip-bij-koi-oorzaak-symptomen-en-behandeling
+Categorie: Praktische zaken · Diersoort: Vissen · Leestijd: 4 min
+
+Samenvatting: Witte stip (Ich) is een veelvoorkomende parasitaire infectie bij koikarpers, vaak veroorzaakt door stress of temperatuurschommelingen. Hoe herkent en behandelt u het?
+
+Witte stip, ook wel Ich genoemd (naar de parasiet Ichthyophthirius multifiliis), is een van de meest voorkomende parasitaire infecties bij koikarpers. De aandoening is goed te herkennen, maar vraagt bij koi — door het grote vijvervolume — wel een andere aanpak dan bij een aquarium.
+
+## Symptomen
+
+
+- Kleine, witte stipjes op huid, vinnen en kieuwen, vergelijkbaar met zoutkorrels.
+
+
+- Schuren langs de vijverwand of bodem (flashing) door jeuk.
+
+
+- Verhoogde slijmproductie op de huid.
+
+
+- Versnelde ademhaling bij aantasting van de kieuwen.
+
+
+- Lusteloosheid en verminderde eetlust.
+
+## Wat veroorzaakt een uitbraak?
+
+De parasiet is in lage aantallen vaak al aanwezig in vijverwater, maar een uitbraak ontstaat meestal door stress: een plotselinge temperatuurdaling, slechte waterkwaliteit, transport of het toevoegen van nieuwe vissen zonder quarantaine. Een verzwakt immuunsysteem geeft de parasiet de kans om zich snel te vermeerderen.
+
+## Levenscyclus en waarom tijd belangrijk is
+
+De volwassen parasiet zit beschermd onder de huid, waar behandelmiddelen niet goed bij kunnen. Pas als deze loslaat en zich in het water deelt in nieuwe, vrij zwemmende parasieten, is behandeling effectief. Daarom duurt een volledige behandeling meestal een aantal dagen tot ruim een week, afhankelijk van de watertemperatuur: bij hogere temperaturen verloopt de cyclus sneller.
+
+## Behandeling
+
+Behandeling van de hele vijver is nodig, niet alleen van de zichtbaar aangetaste vis. Middelen tegen Ich, een lichte verhoging van de watertemperatuur (wat de levenscyclus versnelt en de behandeling effectiever maakt) en het optimaliseren van de waterkwaliteit ondersteunen het herstel. Overleg bij twijfel over dosering of bij een zwaar aangetaste vijver met een dierenarts met koi-ervaring.
+
+## Voorkomen
+
+Quarantaine van nieuwe vissen, stabiele waterparameters en het vermijden van plotselinge temperatuurschommelingen verkleinen de kans op een uitbraak aanzienlijk.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Waarom werkt een behandeling tegen witte stip niet meteen?
+A: De parasiet zit een deel van zijn levenscyclus beschermd onder de huid, waar middelen niet bij kunnen. Pas in het vrij zwemmende stadium is de parasiet gevoelig, waardoor een behandeling meestal een aantal dagen tot ruim een week in beslag neemt.
+
+V: Helpt het om de watertemperatuur te verhogen bij witte stip?
+A: Een lichte temperatuurverhoging versnelt de levenscyclus van de parasiet, waardoor behandelmiddelen eerder effectief worden. Doe dit geleidelijk om de vissen niet extra te belasten.
+
+
+--------------------------------------------------------------------------------
+# Vijverwaterkwaliteit voor koi — de basis voor een gezonde vijver
+
+URL: https://dierenkliniek.nl/kennisbank/vijverwaterkwaliteit-voor-koi-de-basis-voor-een-gezonde-vijver
+Categorie: Preventie & vaccinaties · Diersoort: Vissen · Leestijd: 5 min
+
+Samenvatting: Vrijwel alle gezondheidsproblemen bij koikarpers hangen samen met de waterkwaliteit. Welke parameters zijn belangrijk, en hoe houdt u ze stabiel?
+
+Koikarpers zijn relatief robuuste vissen, maar leven volledig in het water dat hen omringt: schommelingen in waterkwaliteit zijn een van de belangrijkste oorzaken van stress, verzwakte weerstand en uitbraken van ziektes en parasieten.
+
+## De belangrijkste parameters
+
+
+- Ammoniak en nitriet — beide zijn giftig voor koi, ook al in lage concentraties. Ze ontstaan uit visuitwerpselen en onverteerd voer en moeten door de biologische filtering worden omgezet.
+
+
+- Nitraat — het eindproduct van de stikstofcyclus, minder giftig maar bij hoge concentraties nog altijd belastend. Regelmatige gedeeltelijke waterverversing houdt dit laag.
+
+
+- pH — bij voorkeur stabiel tussen 7 en 8,5. Grote schommelingen binnen één dag zijn schadelijker dan een enigszins afwijkende, maar stabiele waarde.
+
+
+- Zuurstof — zeker bij warm weer, wanneer water minder zuurstof vasthoudt, kan een tekort ontstaan. Extra beluchting helpt in warme periodes.
+
+
+- Temperatuur — koi zijn koudbloedig; hun stofwisseling en weerstand hangt direct samen met de watertemperatuur. Snelle schommelingen vormen een grotere belasting dan een geleidelijke seizoensverandering.
+
+## De stikstofcyclus op gang houden
+
+Een vijver met voldoende biologische filtercapaciteit zet ammoniak via nitriet om in het minder schadelijke nitraat. Deze cyclus bouwt zich op na het starten of grondig schoonmaken van een filter, en is kwetsbaar bij plotselinge belasting — bijvoorbeeld door veel nieuwe vissen in één keer of door overvoeding.
+
+## Praktische controle
+
+
+- Test ammoniak, nitriet, pH en (in het groeiseizoen) nitraat regelmatig met een testkit, zeker bij een nieuwe vijver of na toevoeging van vissen.
+
+
+- Ververs regelmatig een deel van het water in plaats van zelden een grote hoeveelheid ineens — dat voorkomt schokeffecten.
+
+
+- Voer niet meer dan de vissen in een paar minuten opeten, vooral niet bij lage watertemperaturen wanneer de spijsvertering trager verloopt.
+
+
+- Laat bij twijfel over de oorzaak van terugkerende gezondheidsproblemen de waterkwaliteit beoordelen door een dierenarts met koi-ervaring — vaak ligt de oorzaak niet bij de vis zelf, maar bij de vijver.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Hoe vaak moet ik het vijverwater verversen?
+A: Regelmatig een klein deel verversen (bijvoorbeeld 10-15% per week) is beter dan zelden een grote waterwissel: dat voorkomt plotselinge schommelingen in waterparameters die de vissen belasten.
+
+V: Waarom blijven mijn koi ziek ondanks behandeling?
+A: Als gezondheidsproblemen terugkeren ondanks behandeling, ligt de oorzaak vaak bij de onderliggende waterkwaliteit in plaats van bij de vis zelf. Een check van ammoniak, nitriet, pH en zuurstof is dan een logische eerste stap.
 
 
 --------------------------------------------------------------------------------
