@@ -28151,5 +28151,21 @@
     "lng": 4.717,
     "desc": "Veterinaire kliniek in Nieuwkoop. Buiten openingstijden kan een afspraak gemaakt worden bij de hoofdvestiging in Alphen aan den Rijn.",
     "tier": "basic"
+  },
+  {
+    "id": 1481,
+    "name": "Dierenarts voor Koi - Drs. Meggy van Sluijs-Carati",
+    "city": "Zevenbergen",
+    "address": "Koekoeksedijk 40B",
+    "postcode": "4761 PJ",
+    "phone": "06-27032927",
+    "email": "info@dierenartsvoorkoi.nl",
+    "website": "https://www.dierenartsvoorkoi.nl/",
+    "specs": [],
+    "tags": [],
+    "lat": 51.64,
+    "lng": 4.615,
+    "desc": "Dierenarts gespecialiseerd in koikarpers, voor particulieren en koidealers: huisbezoek op afspraak, parasitair en microscopisch onderzoek, bacteriologisch/virologisch onderzoek (waaronder Koi Herpes Virus), echografie (hart, kuit, zwemblaas), wondbehandeling en vischirurgie (o.a. tumoren, vinnen, beugeltjes). Ook bedrijfsbegeleiding voor koidealers met regelmatige controle van vissen en vijverwaterkwaliteit.",
+    "tier": "basic"
   }
 ]
