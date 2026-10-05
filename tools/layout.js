@@ -290,12 +290,12 @@ function page(opts) {
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#00A1E4">
 ${extraHead}
-<script type="application/ld+json">
-${JSON.stringify(graph, null, 2)}
-</script>
 <link rel="stylesheet" href="/css/stad.css">
 <link rel="stylesheet" href="/css/extra.css">
 ${A11Y_HEAD}
+<script type="application/ld+json">
+${JSON.stringify(graph, null, 2)}
+</script>
 </head>
 <body>
 <a href="#main-content" class="skip-link">Ga direct naar de inhoud</a>

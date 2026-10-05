@@ -149,9 +149,9 @@ function head({ title, ogTitle, description, canonical, ogType, geo, jsonld, css
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#00A1E4">
-${jsonld.map(o => `<script type="application/ld+json">\n${JSON.stringify(o, null, 2)}\n</script>`).join('\n')}
 <link rel="stylesheet" href="${cssHref}">
 ${L.A11Y_HEAD}
+${jsonld.map(o => `<script type="application/ld+json">\n${JSON.stringify(o, null, 2)}\n</script>`).join('\n')}
 </head>
 <body>
 <a href="#main-content" class="skip-link">Ga direct naar de inhoud</a>
