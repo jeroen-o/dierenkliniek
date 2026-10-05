@@ -1,6 +1,6 @@
 # Dierenkliniek.nl
 
-> Dierenkliniek.nl is het onafhankelijke overzicht van alle 1387 dierenklinieken in Nederland. Huisdiereigenaren vinden er een dierenarts op postcode, plaats of provincie, plus 111 klinieken met 24/7 spoedhulp en een kennisbank van 394 artikelen. Geen betaalde voorrang in de zoekresultaten.
+> Dierenkliniek.nl is het onafhankelijke overzicht van alle 1387 dierenklinieken in Nederland. Huisdiereigenaren vinden er een dierenarts op postcode, plaats of provincie, plus 111 klinieken met 24/7 spoedhulp en een kennisbank van 408 artikelen. Geen betaalde voorrang in de zoekresultaten.
 
 Laatst bijgewerkt: 2026-10-05. Exploitant: Dierenkliniek.nl, Darthuizerberg 1, 3825 BK Amersfoort, info@dierenkliniek.nl, 06-59115265.
 
@@ -10,7 +10,7 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 - [Dierenarts zoeken op postcode](https://dierenkliniek.nl/): startpunt met postcodezoeker en kaart van alle 1387 klinieken
 - [Spoedhulp 24/7](https://dierenkliniek.nl/spoedhulp): 111 klinieken met een 24-uurs spoeddienst, per provincie, met telefoonnummer
-- [Kennisbank](https://dierenkliniek.nl/kennisbank): 394 artikelen over gezondheid, preventie, voeding, gedrag en spoed
+- [Kennisbank](https://dierenkliniek.nl/kennisbank): 408 artikelen over gezondheid, preventie, voeding, gedrag en spoed
 - [Veterinair glossarium](https://dierenkliniek.nl/glossarium): 40 medische termen in gewone taal
 - [Alle provincies](https://dierenkliniek.nl/provincies): klinieken gegroepeerd per provincie
 - [Specialismen](https://dierenkliniek.nl/specialismen): klinieken per aandachtsgebied
@@ -71,12 +71,12 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 ## Kennisbank per categorie
 
-- [Eerste hulp & spoed](https://dierenkliniek.nl/kennisbank/categorie-spoed): 21 artikelen
-- [Preventie & vaccinaties](https://dierenkliniek.nl/kennisbank/categorie-preventie): 112 artikelen
+- [Eerste hulp & spoed](https://dierenkliniek.nl/kennisbank/categorie-spoed): 22 artikelen
+- [Preventie & vaccinaties](https://dierenkliniek.nl/kennisbank/categorie-preventie): 116 artikelen
 - [Voeding & gewicht](https://dierenkliniek.nl/kennisbank/categorie-voeding): 18 artikelen
-- [Gedrag & welzijn](https://dierenkliniek.nl/kennisbank/categorie-gedrag): 13 artikelen
+- [Gedrag & welzijn](https://dierenkliniek.nl/kennisbank/categorie-gedrag): 16 artikelen
 - [Puppy, volwassen, senior](https://dierenkliniek.nl/kennisbank/categorie-levensfasen): 14 artikelen
-- [Praktische zaken](https://dierenkliniek.nl/kennisbank/categorie-praktisch): 216 artikelen
+- [Praktische zaken](https://dierenkliniek.nl/kennisbank/categorie-praktisch): 222 artikelen
 
 ## Kennisbank per diersoort
 
@@ -491,6 +491,20 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 - [Agaatslak als huisdier — verzorging en schelpgezondheid](https://dierenkliniek.nl/kennisbank/agaatslak-als-huisdier-verzorging-en-schelpgezondheid): Agaatslakken zijn grote Afrikaanse landslakken die veel vocht en kalk nodig hebben. Wat is er nodig voor een gezonde schelp en een goede verzorging?
 - [Witbuikegel als huisdier — verzorging en gezondheid](https://dierenkliniek.nl/kennisbank/witbuikegel-als-huisdier-verzorging-en-gezondheid): De Witbuikegel is de kleinste Afrikaanse egelsoort en een populair, overwegend nachtactief huisdier. Wat heeft dit dier nodig aan verblijf en voeding?
 - [Kortstaartopossum als huisdier — verzorging voor beginners](https://dierenkliniek.nl/kennisbank/kortstaartopossum-als-huisdier-verzorging-voor-beginners): De Kortstaartopossum is een nachtactief buideldier dat altijd alleen wordt gehouden. Welke temperatuur, voeding en verzorging zijn nodig?
+- [Een huisdier aanschaffen — waar moet u op letten?](https://dierenkliniek.nl/kennisbank/een-huisdier-aanschaffen-waar-moet-u-op-letten): Van geschiktheid en kosten tot gezondheidscheck en wettelijke regels: een verantwoorde aanschaf begint met de juiste voorbereiding.
+- [Welk huisdier past bij kinderen van welke leeftijd?](https://dierenkliniek.nl/kennisbank/welk-huisdier-past-bij-kinderen-van-welke-leeftijd): Van konijn tot vogelspin: niet elk dier is geschikt voor elke kinderleeftijd. Een overzicht per diergroep en leeftijdscategorie.
+- [Huisdieren veilig door de feestdagen — Sinterklaas, Kerst en oud en nieuw](https://dierenkliniek.nl/kennisbank/huisdieren-veilig-door-de-feestdagen-sinterklaas-kerst-en-oud-en-nieuw): Giftig eten, kerstversiering, kaarsen en vuurwerk: de feestdagen brengen voor huisdieren specifieke risico's met zich mee. Hoe beperkt u die?
+- [Therapietrouw bij huisdieren — een medicijnkuur echt afmaken](https://dierenkliniek.nl/kennisbank/therapietrouw-bij-huisdieren-een-medicijnkuur-echt-afmaken): Bij dieren verloopt een medicijnkuur in ongeveer 40 procent van de gevallen niet helemaal volgens voorschrift. Hoe zorgt u dat de behandeling wél slaagt?
+- [Huisdier thuis laten tijdens vakantie — oppas of pension regelen](https://dierenkliniek.nl/kennisbank/huisdier-thuis-laten-tijdens-vakantie-oppas-of-pension-regelen): Een pension kiezen of een oppas aan huis regelen: waar moet u op letten, welke vaccinaties zijn vereist en wat moet u achterlaten?
+- [Huisdier voorbereiden op de komst van een baby](https://dierenkliniek.nl/kennisbank/huisdier-voorbereiden-op-de-komst-van-een-baby): Een nieuwe baby verandert het huishouden ingrijpend — ook voor het huisdier. Hoe bereidt u uw hond, kat of ander huisdier daar tijdig op voor?
+- [De invloed van huisdieren op de ontwikkeling van kinderen](https://dierenkliniek.nl/kennisbank/de-invloed-van-huisdieren-op-de-ontwikkeling-van-kinderen): Onderzoek laat zien dat een huisdier de sociaal-emotionele en lichamelijke ontwikkeling van een kind kan beïnvloeden. Wat zijn de voordelen, en wat de risico's?
+- [Kinderen en een "eigen" huisdier — wie is verantwoordelijk?](https://dierenkliniek.nl/kennisbank/kinderen-en-een-eigen-huisdier-wie-is-verantwoordelijk): Een huisdier dat "van het kind" heet, blijft juridisch en praktisch de verantwoordelijkheid van de ouders. Hoe verdeelt u zorgtaken leeftijdsgericht?
+- [Consumentenrecht bij de aankoop van een huisdier](https://dierenkliniek.nl/kennisbank/consumentenrecht-bij-de-aankoop-van-een-huisdier): Welke garantie heeft u bij aankoop van een ziek of erfelijk belast huisdier, en welke stappen kunt u zetten bij een geschil met de verkoper?
+- [Vermist of gevonden huisdier — wat zijn uw rechten en plichten?](https://dierenkliniek.nl/kennisbank/vermist-of-gevonden-huisdier-wat-zijn-uw-rechten-en-plichten): Wat moet u doen als uw huisdier vermist is, en welke verplichtingen gelden er als u zelf een dier vindt? De juridische kant op een rij.
+- [Hondsdolheid (rabiës) — risico, symptomen en wat te doen](https://dierenkliniek.nl/kennisbank/hondsdolheid-rabies-risico-symptomen-en-wat-te-doen): Hondsdolheid is wereldwijd nog altijd dodelijk voor mens en dier. In Nederland is het risico klein, maar bij reizen en vleermuiscontact blijft waakzaamheid nodig.
+- [Salmonellose — besmetting via huisdieren voorkomen](https://dierenkliniek.nl/kennisbank/salmonellose-besmetting-via-huisdieren-voorkomen): Reptielen en terraria zijn een bekende bron van salmonella-besmetting bij mensen. Welke hygiënemaatregelen beperken het risico echt?
+- [Toxoplasmose en katten — risico's voor zwangere vrouwen](https://dierenkliniek.nl/kennisbank/toxoplasmose-en-katten-risicos-voor-zwangere-vrouwen): Toxoplasma gondii kan via de kattenbak worden overgedragen en is risicovol tijdens de zwangerschap. Welke hygiënemaatregelen beperken het risico?
+- [Zoonosen — ziektes die van huisdier op mens overgaan](https://dierenkliniek.nl/kennisbank/zoonosen-ziektes-die-van-huisdier-op-mens-overgaan): Van kattenkrabziekte tot wormen: zoönosen zijn ziektes die van dier op mens overgaan. Hoe ontstaan ze, en hoe beperkt u het risico?
 
 ## Voor klinieken
 
@@ -510,5 +524,5 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 ## Optioneel
 
-- [Volledige tekst van de kennisbank](https://dierenkliniek.nl/llms-full.txt): alle 394 artikelen als platte tekst
+- [Volledige tekst van de kennisbank](https://dierenkliniek.nl/llms-full.txt): alle 408 artikelen als platte tekst
 - [Sitemap](https://dierenkliniek.nl/sitemap.xml): alle canonieke URL's

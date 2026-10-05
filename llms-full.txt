@@ -1,7 +1,7 @@
 # Dierenkliniek.nl — volledige kennisbank
 
 Bron: https://dierenkliniek.nl/kennisbank · Laatst bijgewerkt: 2026-10-05
-394 artikelen, 40 glossariumtermen.
+408 artikelen, 40 glossariumtermen.
 
 Deze tekst is algemene voorlichting voor huisdiereigenaren en vervangt geen
 diagnose van een dierenarts. Bij spoed: bel altijd eerst de kliniek.
@@ -24323,6 +24323,766 @@ A: Nee, dit wordt afgeraden. Kortstaartopossums zijn onverdraagzaam tegenover so
 
 V: Is een Kortstaartopossum overdag actief?
 A: Nee, het is een nachtactief dier dat overdag vooral slaapt en schuilt. Verwacht de meeste activiteit in de avond en nacht.
+
+
+--------------------------------------------------------------------------------
+# Een huisdier aanschaffen — waar moet u op letten?
+
+URL: https://dierenkliniek.nl/kennisbank/een-huisdier-aanschaffen-waar-moet-u-op-letten
+Categorie: Praktische zaken · Leestijd: 6 min
+
+Samenvatting: Van geschiktheid en kosten tot gezondheidscheck en wettelijke regels: een verantwoorde aanschaf begint met de juiste voorbereiding.
+
+Een huisdier aanschaffen is een beslissing voor jaren, soms voor tientallen jaren. Een goede voorbereiding voorkomt dat een dier later terugkomt bij een asiel omdat het toch niet paste bij het gezin.
+
+## Drie kernvragen vooraf
+
+Voordat u een dier aanschaft, is het goed uzelf drie vragen te stellen: waarom wilt u een dier, bent u er geschikt voor, en welk dier past echt bij uw situatie? Geschiktheid hangt af van beschikbare tijd, ruimte in huis, instemming van alle huisgenoten, eventuele allergierisico's en voldoende kennis van wat het specifieke dier nodig heeft.
+
+## Kosten vooraf en achteraf
+
+Naast de eenmalige kosten voor verblijf en inrichting zijn er terugkerende kosten: voer, gebitscontrole, tekenbestrijding, vaccinaties, en bij sommige dieren hondenbelasting of een trimsalon of hoefsmid. Overweeg vooraf zowel een ziektekostenverzekering als een WA-verzekering voor eventuele schade die het dier veroorzaakt.
+
+## Gezondheidscheck bij aankoop
+
+Controleer bij aanschaf altijd huid en vacht, ogen, oren, neus, anus of cloaca, de ademhaling, de ontlasting en het bewegingspatroon van het dier. Vraag ook naar de vaccinatiestatus. Honden en katten mogen wettelijk pas vanaf zeven weken bij de moeder weg; een aquarium of terrarium moet minstens twee weken inregelen voordat er dieren in kunnen. Bij paarden en pony's is een aankoopkeuring door een onafhankelijke dierenarts gebruikelijk.
+
+## Wettelijke verplichtingen
+
+Sinds 1 juli 2024 geldt de huis- en hobbydierenlijst: alleen zoogdieren op die lijst mogen worden gehouden, met een overgangsregeling voor bestaande dieren. Daarnaast gelden onder meer CITES-regels voor beschermde soorten, een identificatie- en registratieplicht voor honden en landbouwhuisdieren, en verplichte rabiësvaccinatie bij reizen met hond, kat of fret (chip plus vaccinatie vanaf 12 weken, met drie weken wachttijd — dus minimaal 15 weken oud).
+
+## Rechtsbescherming
+
+Leg de aanschaf schriftelijk vast in een koopcontract. Bij een consumentenkoop (aankoop bij een bedrijfsmatige verkoper) geldt een wettelijke garantietermijn. Let op: een dierenpaspoort of chipregistratie is géén eigendomsbewijs. Bij aanschaf in het buitenland is het risico op ziektedragende dieren groter; vraag altijd naar de benodigde importpapieren.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Vanaf welke leeftijd mag een puppy of kitten bij de moeder weg?
+A: Wettelijk mogen honden en katten pas vanaf zeven weken oud bij de moeder en het nest weg. Een fokker die eerder verkoopt, handelt in strijd met de regels.
+
+V: Is een dierenpaspoort een eigendomsbewijs?
+A: Nee, een dierenpaspoort en de chipregistratie dienen uitsluitend ter identificatie van het dier, niet als bewijs van eigendom. Een schriftelijk koopcontract is daarvoor het aangewezen document.
+
+
+--------------------------------------------------------------------------------
+# Welk huisdier past bij kinderen van welke leeftijd?
+
+URL: https://dierenkliniek.nl/kennisbank/welk-huisdier-past-bij-kinderen-van-welke-leeftijd
+Categorie: Praktische zaken · Leestijd: 6 min
+
+Samenvatting: Van konijn tot vogelspin: niet elk dier is geschikt voor elke kinderleeftijd. Een overzicht per diergroep en leeftijdscategorie.
+
+Niet elk huisdier is geschikt voor een gezin met jonge kinderen, en geschiktheid verschilt sterk per leeftijd van het kind. Ouders blijven altijd eindverantwoordelijk voor de verzorging en het toezicht, ongeacht de leeftijd van het kind.
+
+## Algemene vuistregel per leeftijd
+
+Vanaf ongeveer zes jaar zijn kinderen beter te instrueren over de omgang met een dier. Vanaf tien jaar kunnen ze een deel van de verzorging zelfstandig op zich nemen. Vanaf twaalf jaar komen meer, kwetsbaardere diersoorten in beeld, zoals reptielen en bepaalde vogels. Combineer nooit een pup of kitten met een baby in huis — beide vragen evenveel aandacht en toezicht.
+
+## Honden en katten
+
+Kies bij honden voor rustige, stabiele en goed trainbare types; vermijd zowel overdreven onstuimige rassen als heel kleine, tere rassen die snel letsel oplopen bij ruw spel. Goede socialisatie met kinderen is essentieel. Bij katten verdient het de voorkeur een dier te kiezen dat zelf de interactie met kinderen opzoekt; de socialisatie van een kitten vindt plaats tussen de tweede en zevende levensweek.
+
+## Konijnen en knaagdieren
+
+Konijnen zijn, ondanks hun imago, geen ideaal knuffeldier voor kleine kinderen. Cavia's, gerbils, degoes en chinchilla's passen evenmin goed bij heel jonge kinderen. Van de hamstersoorten is vooral de Russische dwerghamster relatief geschikt; ratten en muizen passen beter bij oudere kinderen. Houd er rekening mee dat veel van deze dieren groepsdieren zijn die minimaal met twee gehouden moeten worden, en dat voedingsfouten hen snel ernstig ziek kunnen maken.
+
+## Vogels, reptielen en vissen
+
+Zangvogels zoals de grasparkiet of valkparkiet passen doorgaans pas vanaf een jaar of twaalf; grotere, complexere vogels zoals kaketoes en ara's worden afgeraden, mede omdat deze vijftien tot twintig jaar oud kunnen worden en kinderen vogels niet zomaar mogen vastpakken. Reptielen en amfibieën zijn voor jonge kinderen af te raden en komen pas vanaf een jaar of twaalf, onder toezicht, in beeld — gifslangen en grote pythons sowieso niet. Vissen passen beter bij wat oudere kinderen; begin met eenvoudig te houden soorten.
+
+## Hygiëne blijft belangrijk
+
+Was bij elk huisdier de handen na contact, behandel het dier preventief tegen parasieten, en kies bij een kind met astma of allergie liever geen dier met haren of veren.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Is een konijn een geschikt eerste huisdier voor een jong kind?
+A: Minder dan vaak gedacht: konijnen zijn van nature geen knuffeldieren en worden door de meeste kinderen verkeerd gehanteerd, wat voor het dier stressvol is. Overweeg de leeftijd van het kind en het karakter van het specifieke dier goed.
+
+V: Vanaf welke leeftijd kan een kind meehelpen met de verzorging?
+A: Vanaf ongeveer zes jaar zijn kinderen beter te instrueren, en vanaf een jaar of tien kunnen ze een deel van de verzorging zelfstandig doen. Volledige verantwoordelijkheid blijft echter altijd bij de ouders liggen.
+
+
+--------------------------------------------------------------------------------
+# Huisdieren veilig door de feestdagen — Sinterklaas, Kerst en oud en nieuw
+
+URL: https://dierenkliniek.nl/kennisbank/huisdieren-veilig-door-de-feestdagen-sinterklaas-kerst-en-oud-en-nieuw
+Categorie: Preventie & vaccinaties · Leestijd: 5 min
+
+Samenvatting: Giftig eten, kerstversiering, kaarsen en vuurwerk: de feestdagen brengen voor huisdieren specifieke risico's met zich mee. Hoe beperkt u die?
+
+De feestdagen rond Sinterklaas, Kerst en oud en nieuw zijn voor veel gezinnen gezellig, maar brengen voor huisdieren een aantal specifieke risico's met zich mee — van giftig voedsel tot vuurwerkstress.
+
+## Een huisdier is geen cadeau
+
+Geef een huisdier nooit cadeau aan iemand die er niet zelf uitdrukkelijk om heeft gevraagd. Wilt u een kind verrassen met een huisdier, geef dan eerst het hok of de benodigdheden, en kies pas daarna samen met het kind het dier zelf uit.
+
+## Giftig eten rond de feestdagen
+
+Chocolade kan voor honden dodelijk zijn, en ook druiven, rozijnen en macadamianoten zijn giftig voor honden. Avocado is giftig voor vrijwel alle diersoorten. Ui, knoflook, bieslook en prei (de alliumsoorten) zijn vooral gevaarlijk voor honden en katten. Laat chocolade en noten niet binnen bereik liggen, hang niets eetbaars in de kerstboom, en geef extraatjes in de voerbak in plaats van van tafel. Bel bij een vermoeden van vergiftiging direct de dierenarts.
+
+## Versiering en de kerstboom
+
+Gebruik bij voorkeur onbreekbare versiering en zet metalen haakjes goed vast of vervang ze door touwtjes: een los haakje kan bij inslikken de darmwand beschadigen. Laat een dier niet drinken uit het water van de kerstboomstandaard en voorkom dat het naalden of takken opeet. Giftige feestplanten zijn onder meer hulst, kerstroos en amaryllis (sterk giftig), en in mindere mate cyclamen en kerstster. Klachten als braken, diarree en sloomheid zijn meestal binnen 24 uur weer over, maar neem bij twijfel contact op met de dierenarts.
+
+## Verwarmingspannen, kaarsen en geurproducten
+
+Oververhitte antiaanbaklagen (PTFE) zijn acuut dodelijk voor vogels. Geurkaarsen en elektrische verdampers kunnen ook schadelijk zijn voor vogels, ratten en muizen. Laat brandende kaarsen nooit onbewaakt en beveilig een open haard met een vuurscherm.
+
+## Vuurwerk rond de jaarwisseling
+
+Houd honden tijdens de jaarwisseling binnen en laat ze aangelijnd uit. Haal katten ruim voor zonsondergang naar binnen. Een chip vergroot de kans dat een weggeschoten dier wordt teruggevonden. Dek een buitenverblijf desnoods af met een brandwerende deken en ruim vuurwerkresten op zodra dat veilig kan.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Hoeveel chocolade is gevaarlijk voor een hond?
+A: Dat hangt af van het gewicht van de hond en het type chocolade (pure chocolade is gevaarlijker dan melkchocolade), maar chocolade kan al in relatief kleine hoeveelheden ernstige vergiftigingsverschijnselen en zelfs de dood veroorzaken. Neem bij vermoeden van inname altijd direct contact op met de dierenarts.
+
+V: Hoe bereid ik mijn hond het beste voor op vuurwerk?
+A: Houd de hond tijdens de jaarwisseling binnen, laat hem aangelijnd uit en zorg voor een vertrouwde, rustige plek in huis. Bij ernstige vuurwerkangst kan de dierenarts tijdig, vóór de jaarwisseling, ondersteunende middelen adviseren.
+
+
+--------------------------------------------------------------------------------
+# Therapietrouw bij huisdieren — een medicijnkuur echt afmaken
+
+URL: https://dierenkliniek.nl/kennisbank/therapietrouw-bij-huisdieren-een-medicijnkuur-echt-afmaken
+Categorie: Praktische zaken · Leestijd: 4 min
+
+Samenvatting: Bij dieren verloopt een medicijnkuur in ongeveer 40 procent van de gevallen niet helemaal volgens voorschrift. Hoe zorgt u dat de behandeling wél slaagt?
+
+Een dierenarts schrijft een medicijnkuur voor met een reden: te vroeg stoppen of onregelmatig toedienen kan de behandeling minder effectief maken of, bij antibiotica, bijdragen aan resistentie. Toch verloopt de medicatie bij dieren in ongeveer 40 procent van de gevallen niet helemaal zoals voorgeschreven — een percentage dat in dezelfde orde van grootte ligt als bij medicijngebruik door mensen zelf.
+
+## Waarom het misgaat
+
+Veelvoorkomende redenen zijn dat het dier zich verzet tegen toediening, de eigenaar vergeet een dosis, bijwerkingen optreden waardoor eigenaren zelf stoppen, of de klachten al snel verminderen waardoor de kuur niet wordt afgemaakt.
+
+## Wat helpt
+
+
+- Maak het doel duidelijk — bespreek met de dierenarts waarom de behandeling nodig is en hoe lang deze duurt.
+
+
+- Vraag een demonstratie — laat de dierenarts of assistent voordoen hoe het medicijn het beste toegediend wordt, en vraag naar de bijsluiter.
+
+
+- Schakel hulp in — als toediening alleen niet lukt, kan een huisgenoot of buur helpen.
+
+
+- Overweeg een andere toedieningsvorm — werken tabletten niet, dan is bij veel medicijnen een vloeibare vorm of een andere smaak beschikbaar.
+
+
+- Gebruik hulpmiddelen — een herinnering op de telefoon of een kalender voorkomt gemiste doses.
+
+
+- Houd contact bij bijwerkingen — stop niet zomaar zelf, maar overleg met de dierenarts en maak controleafspraken.
+
+## Medicijnen bewaren
+
+Bewaar medicijnen droog, uit direct zonlicht en op de temperatuur die op de verpakking staat vermeld, en altijd buiten bereik van huisdieren. Lever ongebruikte restanten in bij de apotheek of dierenarts — gooi ze nooit bij het gewone huisvuil.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Mag ik stoppen met een medicijnkuur zodra mijn dier zich beter voelt?
+A: Nee, een voorgeschreven kuur is bedoeld om volledig te worden afgemaakt, ook als de klachten al eerder lijken te verdwijnen. Vroegtijdig stoppen kan de behandeling minder effectief maken. Overleg bij twijfel altijd met de dierenarts voordat u stopt.
+
+V: Wat doe ik met medicijnen die over zijn na de kuur?
+A: Lever ongebruikte restanten in bij de apotheek of dierenarts. Gooi medicijnen nooit bij het huisvuil of door de gootsteen.
+
+
+--------------------------------------------------------------------------------
+# Huisdier thuis laten tijdens vakantie — oppas of pension regelen
+
+URL: https://dierenkliniek.nl/kennisbank/huisdier-thuis-laten-tijdens-vakantie-oppas-of-pension-regelen
+Categorie: Praktische zaken · Leestijd: 5 min
+
+Samenvatting: Een pension kiezen of een oppas aan huis regelen: waar moet u op letten, welke vaccinaties zijn vereist en wat moet u achterlaten?
+
+Als uw huisdier tijdens de vakantie thuisblijft, is goede opvang — een pension of een oppas aan huis — minstens zo belangrijk als de reis zelf. Regel dit ruim van tevoren, zeker in drukke vakantieperiodes.
+
+## Een pension kiezen
+
+Regel een plek maanden vooruit, maak kennis met het pension en ga zelf kijken voordat u boekt. Controleer of honden en katten gescheiden van elkaar worden gehuisvest. De meeste pensions eisen dat de vaccinaties die in het dierenpaspoort staan actueel zijn: bij honden onder meer tegen parvovirus, hondenziekte (ziekte van Carré) en hepatitis, vaak aangevuld met een enting tegen kennelhoest (Bordetella bronchiseptica). Katten moeten doorgaans zijn geënt tegen kattenziekte en niesziekte, konijnen tegen myxomatose en RHD.
+
+## Chip en registratie
+
+Chippen en registreren is wettelijk verplicht voor honden en wordt ook voor katten aanbevolen. Controleer vóór vertrek of de chipregistratie nog klopt, bijvoorbeeld via het landelijke chipportaal.
+
+## Wat u achterlaat bij een oppas
+
+Laat schriftelijke instructies achter met: de gegevens van uw dierenarts, uw eigen telefoonnummer, het nummer van uw vakantieadres, een noodcontactpersoon, en het dierenpaspoort met chipregistratiebewijs. Spreek vooraf af wat er moet gebeuren bij ziekte of overlijden van het dier tijdens uw afwezigheid. Behandel het dier bij voorkeur enkele dagen voor opname tegen parasieten, en opnieuw na terugkomst.
+
+## Per diersoort
+
+
+- Vissen — meet vooraf de wekelijkse verdamping van het aquarium, laat de verzorger de watertemperatuur zo nodig bijstellen en geef een lijst van de aanwezige soorten mee.
+
+
+- Fretten — vragen meerdere keren per dag aandacht; zoek bij voorkeur een gespecialiseerde opvang.
+
+
+- Konijnen en knaagdieren — kunnen doorgaans naar een pension of oppas, met uitzondering van chinchilla's, die liever thuisblijven.
+
+
+- Vogels — papegaaien en parkieten vragen extra aandacht; noteer bij geringde vogels altijd het ringnummer.
+
+
+- Reptielen en amfibieën — blijven het liefst thuis, aangezien de dagelijkse verzorging specifieke kennis vraagt; zoek eventueel een ervaren hobbygenoot als huisoppas.
+
+
+- Paarden — gaan naar een pension of krijgen thuis minimaal dagelijks verzorging; regel zo nodig een bijrijder en geef de gegevens van de hoefsmid door.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Welke vaccinaties vraagt een hondenpension doorgaans?
+A: De meeste pensions vragen een actuele vaccinatie tegen parvovirus, hondenziekte (ziekte van Carré) en hepatitis, vaak aangevuld met een enting tegen kennelhoest. Informeer bij het specifieke pension naar de precieze eisen en boek de laatste vaccinatie op tijd vóór vertrek.
+
+V: Kan ik mijn konijn gewoon naar een pension brengen?
+A: In de meeste gevallen wel, mits het dier goed beweegt en gezond is. Chinchilla's zijn een uitzondering: die blijven over het algemeen liever in hun vertrouwde omgeving thuis.
+
+
+--------------------------------------------------------------------------------
+# Huisdier voorbereiden op de komst van een baby
+
+URL: https://dierenkliniek.nl/kennisbank/huisdier-voorbereiden-op-de-komst-van-een-baby
+Categorie: Gedrag & welzijn · Leestijd: 6 min
+
+Samenvatting: Een nieuwe baby verandert het huishouden ingrijpend — ook voor het huisdier. Hoe bereidt u uw hond, kat of ander huisdier daar tijdig op voor?
+
+De komst van een baby is een grote verandering, ook voor een huisdier dat gewend is aan een vaste dagelijkse routine. Een geleidelijke voorbereiding, ruim vóór de bevalling, maakt de overgang voor het dier een stuk minder stressvol.
+
+## Begin ruim op tijd
+
+Start de voorbereiding al tijdens de zwangerschap en denk niet alleen aan de eerste weken, maar ook vooruit naar de fase waarin de baby gaat kruipen en lopen. Verplaats bijvoorbeeld de kattenbak in kleine stappen naar de uiteindelijke plek, zet dierenvoer buiten bereik van een toekomstig kruipend kind, en beveilig terraria met extra sloten.
+
+## Gedrag tijdig bijsturen
+
+Werk vóór de geboorte aan ongewenst gedrag zoals agressie, angst, te uitbundig spel, niet luisteren of blaffen bij de deurbel. Bij papegaaien is het zinvol af te leren de eigenaar als partner te zien en krijsen of agressief gedrag bij te sturen. Voer ook nieuwe huisregels tijdig in, bijvoorbeeld dat de hond niet meer op de bank of in de slaapkamer mag — invoeren na de geboorte van de baby voelt voor het dier als een straf die met de baby samenhangt.
+
+## Wennen aan babygeluiden
+
+Laat het dier in de weken voor de bevalling geleidelijk wennen aan babygeluiden, bijvoorbeeld via een opname op laag volume die u langzaam harder zet. Oefenen met een ingesmeerde babypop kan helpen bij de wenperiode.
+
+## Aandacht geleidelijk aanpassen
+
+Bouw de hoeveelheid aandacht voor het dier geleidelijk af naar een realistisch niveau na de geboorte, maar houd wel bewuste, korte kwaliteitsmomenten in stand. Vermijd dat het dier onbewust meer aandacht krijgt juist wanneer de baby slaapt — dat kan de associatie tussen baby en minder aandacht versterken.
+
+## De eerste kennismaking
+
+Laat bij de eerste kennismaking de partner zonder baby het dier begroeten, houd een hond aan de lijn, en laat een andere volwassene de baby vasthouden. Koppel de aanwezigheid van de baby aan iets positiefs, bijvoorbeeld door het dier tegelijk voer of aandacht te geven.
+
+## Veiligheid blijft voorop staan
+
+Laat een jong kind nooit alleen met een huisdier en zorg voor een kindvrije plek waar het dier zich kan terugtrekken. Straf grommen of blazen nooit af — dat is een waarschuwingssignaal, geen ongewenst gedrag op zich. Schakel bij twijfel een gedragsdeskundige in. Houd er rekening mee dat een hond een kind tot ongeveer twaalf jaar als lager in rang kan zien en het zonder sturing van een volwassene zelf kan proberen te corrigeren.
+
+## Gezondheid op orde
+
+Laat de dierenarts de gezondheid van het dier controleren en zorg dat vaccinaties, ontworming en bescherming tegen vlooien, teken en mijten actueel zijn. Beperk voor een zwangere het risico op toxoplasmose: tuinier met handschoenen, laat een ander de kattenbak verschonen, dek de zandbak af en was altijd de handen na contact met de kat of de tuin.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Mag ik mijn hond straffen als hij gromt naar de baby?
+A: Nee, grommen of blazen is een waarschuwingssignaal en geen ongewenst gedrag dat afgestraft moet worden. Straffen kan ervoor zorgen dat het dier dit signaal overslaat en direct overgaat tot bijten. Neem het signaal serieus en schakel bij aanhoudende spanning een gedragsdeskundige in.
+
+V: Hoe laat ik mijn huisdier wennen aan een baby in huis?
+A: Begin ruim vóór de geboorte: pas geleidelijk de dagelijkse routine en huisregels aan, laat het dier wennen aan babygeluiden op laag volume, en zorg bij de eerste kennismaking voor een rustige, positieve introductie zonder dat het kind direct wordt vastgehouden door degene die het dier begroet.
+
+
+--------------------------------------------------------------------------------
+# De invloed van huisdieren op de ontwikkeling van kinderen
+
+URL: https://dierenkliniek.nl/kennisbank/de-invloed-van-huisdieren-op-de-ontwikkeling-van-kinderen
+Categorie: Gedrag & welzijn · Leestijd: 5 min
+
+Samenvatting: Onderzoek laat zien dat een huisdier de sociaal-emotionele en lichamelijke ontwikkeling van een kind kan beïnvloeden. Wat zijn de voordelen, en wat de risico's?
+
+Een huisdier in huis kan meer betekenen voor een kind dan gezelschap alleen. Onderzoek naar de relatie tussen kinderen en huisdieren richt zich op vier gebieden: sociaal-emotionele ontwikkeling, cognitieve ontwikkeling, lichamelijke gezondheidseffecten, en de keerzijde — de risico's.
+
+## Sociaal-emotionele ontwikkeling
+
+Een goede band met een huisdier kan bijdragen aan zelfvertrouwen, sociale vaardigheden en empathie bij kinderen. Deze positieve invloed lijkt het sterkst rond het begin van de puberteit. Opvallend is dat een eerste huisdier vóór het zesde levensjaar, of juist pas als tiener, vaker samengaat met een positiever zelfbeeld dan wanneer het eerste huisdier tussen het zesde en tiende jaar wordt aangeschaft.
+
+## Wat kinderen er zelf van vinden
+
+In onderzoek onder kinderen van drie tot dertien jaar gaf ongeveer 90 procent aan voordeel te zien in het hebben van een huisdier.
+
+## Lichamelijke effecten
+
+Het aaien van een huisdier verlaagt aantoonbaar de hartslag en bloeddruk. Vroeg contact met dieren hangt mogelijk samen met een lager risico op allergieën later in het leven, al lopen de onderzoeksresultaten hierover uiteen en is het verband niet eenduidig vastgesteld.
+
+## De band is bepalend
+
+De positieve effecten hangen sterk af van de kwaliteit van de band tussen kind en dier. Ouders blijven eindverantwoordelijk en doen er goed aan de zorgtaken af te stemmen op de leeftijd en het kunnen van het kind — te veel verantwoordelijkheid bij een kind leggen kan juist tot negatieve ervaringen leiden in plaats van positieve.
+
+## Risico's en nadelen
+
+Tegenover de voordelen staan reële risico's: zoönosen (ziekten die van dier op mens overgaan), allergieën en bijtincidenten. Ook emotioneel kan een huisdier een last met zich meebrengen, bijvoorbeeld verdriet, frustratie of teleurstelling, zeker rond ziekte of overlijden van het dier. Omdat gezinsfactoren, opvoedingsstijl en persoonlijke voorkeuren sterk meespelen, is het lastig om harde oorzakelijke verbanden tussen een huisdier en de ontwikkeling van een kind aan te tonen.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Is aaien van een huisdier daadwerkelijk goed voor de gezondheid van een kind?
+A: Onderzoek laat zien dat het aaien van een huisdier de hartslag en bloeddruk verlaagt, wat op een ontspannend effect wijst. Dit is een van de aangetoonde lichamelijke effecten, naast mogelijke voordelen voor de sociaal-emotionele ontwikkeling.
+
+V: Zijn er ook nadelen aan het opgroeien met een huisdier?
+A: Ja: reële risico's zijn zoönosen, allergieën en bijtincidenten, en emotioneel kan een huisdier verdriet of teleurstelling met zich meebrengen, bijvoorbeeld bij ziekte of overlijden van het dier.
+
+
+--------------------------------------------------------------------------------
+# Kinderen en een "eigen" huisdier — wie is verantwoordelijk?
+
+URL: https://dierenkliniek.nl/kennisbank/kinderen-en-een-eigen-huisdier-wie-is-verantwoordelijk
+Categorie: Gedrag & welzijn · Leestijd: 4 min
+
+Samenvatting: Een huisdier dat "van het kind" heet, blijft juridisch en praktisch de verantwoordelijkheid van de ouders. Hoe verdeelt u zorgtaken leeftijdsgericht?
+
+Veel kinderen krijgen op een gegeven moment "hun eigen" huisdier. In de praktijk blijft de verantwoordelijkheid voor voeding, huisvesting en welzijn echter altijd bij de ouders liggen, ook als het dier officieel bij het kind hoort.
+
+## Leeftijd bepaalt wat haalbaar is
+
+Kinderen tot en met ongeveer vier jaar beheersen hun impulsen nog onvoldoende en kunnen een dier onbedoeld pijn doen, ook zonder kwade bedoelingen. Pas rond het tiende levensjaar hebben kinderen doorgaans genoeg kennis en verantwoordelijkheidsgevoel om een deel van de verzorging zelfstandig te doen.
+
+## Samen doen werkt het beste
+
+Verantwoordelijkheid voor een huisdier ontstaat niet vanzelf, maar door het samen te doen: ouders houden toezicht en controleren of taken daadwerkelijk worden uitgevoerd. Zorgtaken moeten passen bij de leeftijd en het kunnen van het kind — te zware taken leiden eerder tot verwaarlozing van het dier dan tot verantwoordelijkheidsgevoel bij het kind. Spelenderwijs leren werkt het beste: laat het kind zien en zelf ervaren wat een dier nodig heeft.
+
+## Een realistisch tijdsperspectief
+
+Huisdieren leven, afhankelijk van de soort, van ongeveer een jaar tot meer dan dertig jaar — vaak langer dan de interesseduur van een kind. Het is een bekend patroon dat kinderen na verloop van tijd hun belangstelling voor het dier verliezen, waarna de dagelijkse zorg alsnog bij de ouders terechtkomt. Een dier dat niet (meer) aan de verwachtingen voldoet, is dan ook een veelgenoemde reden om het af te staan.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Vanaf welke leeftijd kan een kind zelfstandig voor een huisdier zorgen?
+A: Pas rond een jaar of tien hebben kinderen doorgaans voldoende kennis en verantwoordelijkheidsgevoel om een deel van de verzorging zelfstandig te doen. Volledig zelfstandig, zonder toezicht van een volwassene, is bij geen enkele leeftijd verstandig.
+
+V: Wat gebeurt er vaak als een kind de interesse in zijn huisdier verliest?
+A: De dagelijkse zorg komt dan alsnog bij de ouders terecht. Dit is een bekend patroon en een belangrijke reden om bij aanschaf vooraf goed na te denken over wie uiteindelijk verantwoordelijk blijft voor de jarenlange verzorging.
+
+
+--------------------------------------------------------------------------------
+# Consumentenrecht bij de aankoop van een huisdier
+
+URL: https://dierenkliniek.nl/kennisbank/consumentenrecht-bij-de-aankoop-van-een-huisdier
+Categorie: Praktische zaken · Leestijd: 5 min
+
+Samenvatting: Welke garantie heeft u bij aankoop van een ziek of erfelijk belast huisdier, en welke stappen kunt u zetten bij een geschil met de verkoper?
+
+Juridisch gezien is een dier in Nederland een "zaak" in de zin van het Burgerlijk Wetboek (artikel 3:2a), met als belangrijke uitzondering regels die in strijd zouden zijn met de openbare orde of goede zeden. Dat betekent dat de gewone regels van het kooprecht grotendeels ook voor de aankoop van een huisdier gelden.
+
+## Consumentenkoop versus particuliere koop
+
+Er is een belangrijk onderscheid tussen een consumentenkoop (aankoop bij een bedrijfsmatige verkoper, zoals een fokker die handel drijft of een dierenwinkel) en een koop tussen twee particulieren. Bij een consumentenkoop heeft u als koper aanzienlijk meer wettelijke bescherming dan bij een particuliere koop.
+
+## Garantietermijn
+
+Sinds april 2022 geldt bij een consumentenkoop een garantietermijn van één jaar (voorheen zes maanden). In dat eerste jaar ligt de bewijslast dat een gebrek al bij aflevering aanwezig was bij de verkoper; daarna verschuift die bewijslast naar de koper. Bij een geconstateerd gebrek kan de verkoper kiezen voor herstel, vervanging of ontbinding van de koop; een schadevergoeding blijft doorgaans beperkt tot het aankoopbedrag.
+
+## Bedenktijd bij koop op afstand
+
+Bij een aankoop op afstand (bijvoorbeeld via internet) geldt een bedenktijd van 14 dagen vanaf de dag na levering, met recht op volledige terugbetaling. Kosten voor vaccinatie, chippen en verzending mogen daarbij niet worden afgetrokken; retourkosten zijn voor de koper, tenzij de verkoper vooraf niet correct over het retourrecht heeft geïnformeerd — in dat laatste geval loopt de bedenktijd zelfs op tot een jaar.
+
+## Uw plichten als koper
+
+Als koper heeft u een onderzoeksplicht vóór de aankoop en moet u een geconstateerd gebrek binnen twee maanden na ontdekking melden bij de verkoper. Bij erfelijke aandoeningen staat u als koper over het algemeen sterker, maar een extra schadevergoeding boven het aankoopbedrag volgt alleen wanneer de verkoper verwijtbaar heeft gehandeld, bijvoorbeeld door bewust niet te testen op bekende erfelijke problemen bij het ras.
+
+## Stappen bij een geschil
+
+Laat een vermoed gebrek vaststellen door een dierenarts, bewaar alle schriftelijke communicatie met de verkoper en bewaar facturen. Vervolgens kunt u, afhankelijk van de verkoper, naar de Geschillencommissie Gezelschapsdieren stappen (die uitsluitend zaken tegen bij Dibevo aangesloten verkopers behandelt) of, als laatste stap, naar de rechter. Houd er rekening mee dat een rechtszaak al snel honderden euro's kost en minstens een jaar in beslag neemt — een schriftelijk koopcontract bij aanschaf voorkomt veel van dit soort problemen.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Hoe lang heb ik garantie als ik een hond koop bij een fokker die er een bedrijf van maakt?
+A: Bij een consumentenkoop geldt sinds april 2022 een garantietermijn van één jaar. In dat jaar ligt de bewijslast dat een gebrek al bij aflevering bestond bij de verkoper; na dat jaar verschuift die bewijslast naar u als koper.
+
+V: Kan ik altijd naar de Geschillencommissie Gezelschapsdieren stappen bij een geschil?
+A: Nee, deze commissie behandelt uitsluitend klachten tegen verkopers die zijn aangesloten bij brancheorganisatie Dibevo. Is de verkoper niet aangesloten, dan resteert uiteindelijk de gang naar de rechter.
+
+
+--------------------------------------------------------------------------------
+# Vermist of gevonden huisdier — wat zijn uw rechten en plichten?
+
+URL: https://dierenkliniek.nl/kennisbank/vermist-of-gevonden-huisdier-wat-zijn-uw-rechten-en-plichten
+Categorie: Praktische zaken · Leestijd: 5 min
+
+Samenvatting: Wat moet u doen als uw huisdier vermist is, en welke verplichtingen gelden er als u zelf een dier vindt? De juridische kant op een rij.
+
+Een vermist huisdier is voor eigenaren altijd ingrijpend, en ook juridisch is er meer aan de hand dan veel mensen denken. In het Burgerlijk Wetboek wordt een dier behandeld als een "zaak" waarop regels over eigendom, bezit en houderschap van toepassing zijn.
+
+## Als uw dier vermist is
+
+Als eigenaar moet u aantoonbaar alles in het werk stellen om uw dier terug te krijgen — doet u dat niet, dan kan uw eigendomsrecht op termijn vervallen. Meld de vermissing bij de gemeente of een door de gemeente aangewezen asiel, bij de politie, de dierenambulance en bij Amivedi, en controleer via het landelijke chipportaal. Zoek daarnaast ook actief zelf: licht uw dierenarts in, verspreid flyers in de buurt, gebruik lokale buurt-apps en vraag buren hun schuur of tuin te controleren.
+
+## Als u zelf een dier vindt
+
+Een vinder is verplicht aangifte te doen bij de gemeente of het aangewezen asiel en moet het dier laten controleren op een chip. Is het dier gechipt, dan is contact opnemen met de eigenaar verplicht; dit nalaten kan juridisch als diefstal worden aangemerkt, en teruggave aan de eigenaar is verplicht. Reageert er na een jaar niemand op de vondst, dan kan de vinder zelf eigenaar worden en de gemaakte verzorgingskosten terugvorderen (artikel 5:8 lid 3 Burgerlijk Wetboek).
+
+## Doorverkocht of gestolen dieren
+
+Een koper die een dier in goed vertrouwen heeft gekocht, zonder enig vermoeden van fraude, mag het dier in de regel houden, mits hij de gegevens van de verkoper kan tonen. De oorspronkelijke eigenaar kan een doorverkocht dier tot drie jaar na de diefstal terugeisen, en zelfs tot twintig jaar als de dief het dier zelf is blijven houden. Bij honden, die sinds 1 april 2013 verplicht geïdentificeerd moeten zijn, ondermijnt een ontbrekend paspoort of chip het beroep van een koper op "goede trouw" aanzienlijk.
+
+## Achtergelaten dieren
+
+Een door de eigenaar achtergelaten dier wordt door de gemeente opgevangen, meestal via het plaatselijke asiel. De oorspronkelijke eigenaar heeft doorgaans twee weken de tijd om het dier op te halen en betaalt dan de gemaakte opvangkosten; deze termijn kan vervallen bij onevenredig hoge kosten of om diergeneeskundige redenen. Ook een eigenaar die zelf is aangehouden, blijft overigens wettelijk zorgplichtig voor zijn dier. De Wet dieren verbiedt in algemene zin het toebrengen van pijn en letsel (artikel 2.1 lid 1) en regelt de zorgplicht van de houder (artikel 2.2 lid 8).
+
+## Bewijs in een procedure
+
+In een juridische procedure telt emotionele binding met een dier niet mee als bewijs van eigendom. Bewijs loopt via foto's, dierenartsnota's en getuigen — chip en paspoort zijn daarbij uitsluitend identificatiemiddelen, geen eigendomsbewijs op zich.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Mag ik een gevonden hond zomaar houden als niemand zich meldt?
+A: Pas na een jaar zonder reactie van de oorspronkelijke eigenaar kan een vinder zelf eigenaar worden, en dan ook de gemaakte verzorgingskosten terugvorderen. Daarvoor moet u wel eerst aangifte hebben gedaan bij de gemeente of het aangewezen asiel en het dier hebben laten controleren op een chip.
+
+V: Is mijn chipregistratie voldoende bewijs dat een dier van mij is?
+A: Nee, een chip en een dierenpaspoort dienen uitsluitend ter identificatie. In een juridisch geschil telt ander bewijs, zoals foto's, dierenartsnota's en getuigenverklaringen, zwaarder mee.
+
+
+--------------------------------------------------------------------------------
+# Hondsdolheid (rabiës) — risico, symptomen en wat te doen
+
+URL: https://dierenkliniek.nl/kennisbank/hondsdolheid-rabies-risico-symptomen-en-wat-te-doen
+Categorie: Eerste hulp & spoed · Leestijd: 5 min
+
+Samenvatting: Hondsdolheid is wereldwijd nog altijd dodelijk voor mens en dier. In Nederland is het risico klein, maar bij reizen en vleermuiscontact blijft waakzaamheid nodig.
+
+Hondsdolheid, ofwel rabiës, is een virusziekte die via de speekselklieren wordt overgedragen, meestal door een beet. De ziekte komt wereldwijd nog altijd voor in meer dan 150 landen en eist jaarlijks meer dan 55.000 mensenlevens, met name in gebieden waar honden niet op grote schaal worden gevaccineerd.
+
+## Situatie in Nederland
+
+In Nederland is sinds 2014 geen binnenlandse besmetting bij huisdieren meer vastgesteld. Wel dragen sommige vleermuizen hier verwante virussen (EBLV-1 en EBLV-2), waardoor contact met vleermuizen altijd met voorzichtigheid moet worden benaderd.
+
+## Verloop van de ziekte
+
+De incubatietijd van rabiës loopt sterk uiteen: van enkele dagen tot wel een jaar, met een gemiddelde van drie weken tot twee maanden. De ziekte begint met algemene klachten: rillingen, koorts, verminderde eetlust, hoofdpijn en pijn rond de plek van de beet. Daarna ontstaat bij ongeveer 80 procent van de gevallen de "woedende" vorm, met hyperactiviteit, nekstijfheid, toevallen, angst voor water en lucht, en schuim om de mond; de resterende 20 procent ontwikkelt een verlammende vorm. Beide vormen eindigen onbehandeld in coma en overlijden.
+
+## Preventie
+
+Vermijd in Nederland rechtstreeks contact met vleermuizen en gebruik bij onvermijdelijk contact dikke handschoenen, met reiniging achteraf met 70% alcohol. Bel bij contact met een vleermuis de lokale vleermuizenwerkgroep, de gemeente of de GGD. In het buitenland geldt: raak zieke dieren niet aan, knuffel geen onbekende honden of katten, en neem geen zwervende dieren mee naar huis.
+
+## Na mogelijke blootstelling
+
+Reinig een bijtwond onmiddellijk grondig met water, zeep en een borstel, ontsmet met jodium of alcohol, en ga meteen naar een arts. Een postexpositiebehandeling bestaat doorgaans uit vier vaccinaties verspreid over twee tot vier weken; wie al eerder preventief is gevaccineerd, heeft meestal genoeg aan twee extra inentingen.
+
+## Vaccinatie van huisdieren
+
+Voor huisdieren die naar het buitenland reizen, is rabiësvaccinatie verplicht; de meeste vaccins zijn drie jaar geldig. Artsen en dierenartsen zijn wettelijk verplicht een mogelijke rabiësbesmetting te melden bij de GGD en de NVWA.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Moet ik me zorgen maken over hondsdolheid in Nederland?
+A: Het risico in Nederland is klein: sinds 2014 is er geen binnenlandse besmetting bij huisdieren vastgesteld. Wel dragen sommige vleermuizen verwante virussen, dus vermijd direct contact met vleermuizen en neem bij contact altijd voorzorgsmaatregelen.
+
+V: Wat moet ik doen als mijn hond in het buitenland gebeten is door een onbekend dier?
+A: Reinig de wond zo snel mogelijk grondig met water en zeep, raadpleeg direct een lokale dierenarts of arts, en informeer bij terugkeer in Nederland uw eigen dierenarts. Snel handelen is bij een mogelijke rabiësblootstelling essentieel.
+
+
+--------------------------------------------------------------------------------
+# Salmonellose — besmetting via huisdieren voorkomen
+
+URL: https://dierenkliniek.nl/kennisbank/salmonellose-besmetting-via-huisdieren-voorkomen
+Categorie: Preventie & vaccinaties · Leestijd: 4 min
+
+Samenvatting: Reptielen en terraria zijn een bekende bron van salmonella-besmetting bij mensen. Welke hygiënemaatregelen beperken het risico echt?
+
+Salmonella is een veelvoorkomende bacterie met wereldwijd meer dan 2400 bekende typen, waarvan er ongeveer 1000 ook in Nederland voorkomen. Jaarlijks raken in Nederland naar schatting 10.000 tot 100.000 mensen besmet, van wie 20 tot 30 mensen aan de gevolgen overlijden.
+
+## Ziekteverloop
+
+De incubatietijd bedraagt gemiddeld 24 tot 48 uur na besmetting, al kan dit bij sommige mensen oplopen tot meer dan een week. De ziekte zelf duurt doorgaans drie tot zeven dagen, waarbij koorts meestal binnen drie dagen weer zakt. Bij minder dan vijf procent van de besmettingen verspreidt de bacterie zich ernstiger via de bloedbaan.
+
+## De rol van reptielen
+
+Ongeveer de helft van de wilde reptielen en naar schatting tachtig procent van de terraria draagt salmonella, zonder dat het dier zelf ziek wordt. De geschatte kans op een daadwerkelijke salmonellabesmetting via een terrarium ligt rond de vijf procent. Extra kwetsbaar voor een ernstig beloop zijn kinderen tot vier jaar en mensen vanaf 75 jaar; bij baby's onder een jaar wordt het houden van reptielen in huis afgeraden.
+
+## Hygiëne in de keuken
+
+Verhit voedsel boven de 70 graden, ontdooi vlees altijd in de koelkast in plaats van op het aanrecht, gebruik aparte snijplanken voor vlees en groente, en was keukendoeken op minimaal 60 graden.
+
+## Hygiëne rond het terrarium
+
+Was en desinfecteer de handen met 70% alcohol na contact met een reptiel of het terrarium, gebruik bij voorkeur een aparte wasplaats en draag handschoenen bij het schoonmaken. Houd reptielen buiten de keuken, woonkamer en eetruimte, en vermijd contact tussen reptielen en kinderen onder de vijf jaar, zwangere vrouwen en ouderen.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Betekent een salmonella-positieve reptiel dat mijn dier ziek is?
+A: Nee, reptielen dragen salmonella vaak zonder er zelf ziek van te worden. Het risico zit in de overdracht naar mensen via contact met het dier of het terrarium, niet in de gezondheid van het reptiel zelf.
+
+V: Mag een gezin met een baby een reptiel in huis houden?
+A: Dit wordt afgeraden zolang er een baby onder het jaar in huis is, vanwege het verhoogde risico op een ernstig verlopende salmonellabesmetting bij heel jonge kinderen.
+
+
+--------------------------------------------------------------------------------
+# Toxoplasmose en katten — risico's voor zwangere vrouwen
+
+URL: https://dierenkliniek.nl/kennisbank/toxoplasmose-en-katten-risicos-voor-zwangere-vrouwen
+Categorie: Preventie & vaccinaties · Leestijd: 4 min
+
+Samenvatting: Toxoplasma gondii kan via de kattenbak worden overgedragen en is risicovol tijdens de zwangerschap. Welke hygiënemaatregelen beperken het risico?
+
+Toxoplasmose wordt veroorzaakt door de parasiet Toxoplasma gondii. Ongeveer 70 tot 80 procent van de mensen raakt op enig moment in het leven besmet, meestal zonder er iets van te merken. Het risico wordt vooral relevant rond een zwangerschap en bij mensen met een verminderde weerstand.
+
+## De rol van de kat
+
+Tussen de 20 en 60 procent van de katten heeft ooit antistoffen tegen de parasiet ontwikkeld, maar minder dan één procent scheidt daadwerkelijk eitjes uit via de ontlasting. Een pas besmette kat doet dit gedurende ongeveer veertien dagen, en de uitgescheiden eitjes worden pas na één tot vijf dagen in de omgeving besmettelijk — tijdige verschoning van de kattenbak is dus een effectieve maatregel.
+
+## Risico tijdens de zwangerschap
+
+Als een zwangere vrouw voor het eerst wordt besmet, is de kans dat de parasiet het ongeboren kind bereikt 20 tot 50 procent. Naast zwangeren zijn ook baby's, jonge kinderen, ouderen en mensen met een verzwakte afweer (bijvoorbeeld door chemotherapie, hiv of een orgaantransplantatie) een risicogroep.
+
+## Maatregelen rond de kat
+
+Houd de kat bij voorkeur binnen en geef alleen gekookt voer of commercieel kattenvoer (geen rauw vlees). Was de handen na elk contact met de kat. Verschoon de kattenbak dagelijks, bij voorkeur met handschoenen, en ontsmet de bak regelmatig door hem vijf tot tien minuten onder te dompelen in kokend water. Gooi gebruikte kattenbakvulling in een afgesloten plastic zak bij het restafval — nooit bij het groente-, fruit- en tuinafval.
+
+## Maatregelen in huis en tuin
+
+Was groente en fruit altijd goed, verhit vlees tot minimaal 70 graden (een magnetron is hiervoor onbetrouwbaar), en maak werkbladen in de keuken goed schoon na contact met rauw vlees. Dek een zandbak in de tuin af als deze niet in gebruik is, en draag handschoenen bij het tuinieren.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Moet ik mijn kat wegdoen als ik zwanger ben?
+A: Nee, dat is niet nodig. Met goede hygiëne — niet zelf de kattenbak verschonen of dit dagelijks met handschoenen doen, handen wassen na contact, en de kat geen rauw vlees geven — blijft het risico beperkt.
+
+V: Hoe lang na besmetting is een kattenbak daadwerkelijk besmettelijk?
+A: De uitgescheiden eitjes van de parasiet worden pas na één tot vijf dagen besmettelijk. Dagelijks verschonen van de kattenbak is daarom een effectieve maatregel om besmetting te voorkomen.
+
+
+--------------------------------------------------------------------------------
+# Zoonosen — ziektes die van huisdier op mens overgaan
+
+URL: https://dierenkliniek.nl/kennisbank/zoonosen-ziektes-die-van-huisdier-op-mens-overgaan
+Categorie: Preventie & vaccinaties · Leestijd: 5 min
+
+Samenvatting: Van kattenkrabziekte tot wormen: zoönosen zijn ziektes die van dier op mens overgaan. Hoe ontstaan ze, en hoe beperkt u het risico?
+
+Een zoönose is een ziekte die van dier op mens kan overgaan. Besmetting verloopt via verschillende routes: direct contact zoals krabben, bijten of aaien, maar ook indirect via de omgeving (zand, aarde, uitwerpselen), via insecten en teken, of via onvoldoende verhitte melk, eieren of vlees.
+
+## Soorten verwekkers
+
+
+- Parasieten — onder meer vlooien, luizen, teken, mijten, spoelwormen, Toxoplasma en Giardia.
+
+
+- Schimmels — veroorzaken ronde, rode, jeukende huidplekken, in de volksmond bekend als ringworm.
+
+
+- Bacteriën — waaronder kattenkrabziekte (Bartonella henselae), leptospirose, salmonella en Q-koorts.
+
+
+- Virussen — zoals hondsdolheid en het Seoulvirus (een hantavirus).
+
+## Kattenkrabziekte: een concreet voorbeeld
+
+Jaarlijks krijgen in Nederland naar schatting 300 tot 1000 mensen kattenkrabziekte, vooral kinderen onder de tien jaar. Na drie tot vijf dagen ontstaan kleine puistjes op de krab- of bijtplek, gevolgd door een gezwollen lymfeklier (tot ongeveer vijf centimeter) na één tot twee weken.
+
+## Bijtwonden zijn geen kleinigheid
+
+In Nederland worden jaarlijks ongeveer 50.000 hondenbeten medisch behandeld, en ongeveer de helft van alle kattenbeten raakt ontstoken — kattentanden zijn smal en scherp en brengen bacteriën diep in het weefsel. Behandel een bijtwond altijd direct hygiënisch (schoonmaken, ontsmetten) en zoek bij twijfel de huisarts of een EHBO-post op.
+
+## Preventieve maatregelen
+
+
+- Ontworm honden en katten circa vier keer per jaar en bescherm ze jaarlijks tegen vlooien en teken.
+
+
+- Laat huisdieren jaarlijks door de dierenarts controleren en op tijd vaccineren.
+
+
+- Draag handschoenen bij het tuinieren en dek een zandbak af wanneer deze niet in gebruik is.
+
+
+- Maak de kattenbak dagelijks schoon.
+
+## Extra kwetsbare groepen
+
+Kinderen, ouderen, zwangere vrouwen en mensen met een verminderde weerstand lopen een hoger risico op een ernstig verloop bij een zoönose. Bij twijfel over een mogelijke besmetting is het verstandig zowel de huisarts als de dierenarts te informeren.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Hoe vaak moet ik mijn huisdier ontwormen om het risico op zoönosen te beperken?
+A: Voor honden en katten wordt doorgaans geadviseerd ongeveer vier keer per jaar te ontwormen, aangevuld met jaarlijkse bescherming tegen vlooien en teken. Vraag uw dierenarts naar een schema dat past bij de leefstijl van uw dier.
+
+V: Is elke kattenbeet reden om naar de huisarts te gaan?
+A: Kattenbeten raken relatief vaak ontstoken — ongeveer de helft — omdat kattentanden smal en scherp zijn en bacteriën diep het weefsel in brengen. Reinig de wond direct goed en raadpleeg bij twijfel, zwelling of roodheid de huisarts of een EHBO-post.
 
 
 --------------------------------------------------------------------------------
