@@ -1,6 +1,6 @@
 # Dierenkliniek.nl
 
-> Dierenkliniek.nl is het onafhankelijke overzicht van alle 1387 dierenklinieken in Nederland. Huisdiereigenaren vinden er een dierenarts op postcode, plaats of provincie, plus 111 klinieken met 24/7 spoedhulp en een kennisbank van 382 artikelen. Geen betaalde voorrang in de zoekresultaten.
+> Dierenkliniek.nl is het onafhankelijke overzicht van alle 1387 dierenklinieken in Nederland. Huisdiereigenaren vinden er een dierenarts op postcode, plaats of provincie, plus 111 klinieken met 24/7 spoedhulp en een kennisbank van 394 artikelen. Geen betaalde voorrang in de zoekresultaten.
 
 Laatst bijgewerkt: 2026-10-05. Exploitant: Dierenkliniek.nl, Darthuizerberg 1, 3825 BK Amersfoort, info@dierenkliniek.nl, 06-59115265.
 
@@ -10,7 +10,7 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 - [Dierenarts zoeken op postcode](https://dierenkliniek.nl/): startpunt met postcodezoeker en kaart van alle 1387 klinieken
 - [Spoedhulp 24/7](https://dierenkliniek.nl/spoedhulp): 111 klinieken met een 24-uurs spoeddienst, per provincie, met telefoonnummer
-- [Kennisbank](https://dierenkliniek.nl/kennisbank): 382 artikelen over gezondheid, preventie, voeding, gedrag en spoed
+- [Kennisbank](https://dierenkliniek.nl/kennisbank): 394 artikelen over gezondheid, preventie, voeding, gedrag en spoed
 - [Veterinair glossarium](https://dierenkliniek.nl/glossarium): 40 medische termen in gewone taal
 - [Alle provincies](https://dierenkliniek.nl/provincies): klinieken gegroepeerd per provincie
 - [Specialismen](https://dierenkliniek.nl/specialismen): klinieken per aandachtsgebied
@@ -76,7 +76,7 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 - [Voeding & gewicht](https://dierenkliniek.nl/kennisbank/categorie-voeding): 18 artikelen
 - [Gedrag & welzijn](https://dierenkliniek.nl/kennisbank/categorie-gedrag): 13 artikelen
 - [Puppy, volwassen, senior](https://dierenkliniek.nl/kennisbank/categorie-levensfasen): 14 artikelen
-- [Praktische zaken](https://dierenkliniek.nl/kennisbank/categorie-praktisch): 204 artikelen
+- [Praktische zaken](https://dierenkliniek.nl/kennisbank/categorie-praktisch): 216 artikelen
 
 ## Kennisbank per diersoort
 
@@ -91,6 +91,9 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 - [Vissen](https://dierenkliniek.nl/kennisbank/dier-vis): 10 artikelen
 - [Fretten](https://dierenkliniek.nl/kennisbank/dier-fret): 7 artikelen
 - [Amfibieën](https://dierenkliniek.nl/kennisbank/dier-amfibie): 4 artikelen
+- [Weidedieren](https://dierenkliniek.nl/kennisbank/dier-weidedier): 5 artikelen
+- [Ongewervelden](https://dierenkliniek.nl/kennisbank/dier-ongewervelde): 5 artikelen
+- [Overige dieren](https://dierenkliniek.nl/kennisbank/dier-overig): 2 artikelen
 
 ## Alle artikelen
 
@@ -476,6 +479,18 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 - [Kikkers en padden als huisdier — verzorging basisprincipes](https://dierenkliniek.nl/kennisbank/kikkers-en-padden-als-huisdier-verzorging-basisprincipes): Van de roodoogmakikikker tot de Afrikaanse dwergpad: kikkers en padden vragen een vochtig terrarium en specifieke voeding. Wat komt erbij kijken?
 - [Vuursalamander — verzorging en terrarium-eisen](https://dierenkliniek.nl/kennisbank/vuursalamander-verzorging-en-terrarium-eisen): De opvallend zwart-gele vuursalamander is een populaire terrariumbewoner. Welke temperatuur, vochtigheid en inrichting heeft dit dier nodig?
 - [Veelvoorkomende ziektebeelden bij amfibieën — overzicht](https://dierenkliniek.nl/kennisbank/veelvoorkomende-ziektebeelden-bij-amfibieen-overzicht): Van rode-pootjesziekte tot schimmelinfecties: amfibieën zoals kikkers, padden en salamanders zijn gevoelig voor specifieke aandoeningen. Een overzicht.
+- [Ezel als huisdier — verzorging en gezelschap](https://dierenkliniek.nl/kennisbank/ezel-als-huisdier-verzorging-en-gezelschap): Ezels zijn slimme, sociale dieren die eenzaamheid slecht verdragen en een ander voerregime nodig hebben dan paarden. Waar moet u op letten?
+- [Geit als huisdier — verzorging en omheining](https://dierenkliniek.nl/kennisbank/geit-als-huisdier-verzorging-en-omheining): Geiten zijn leergierige klimmers die goed moeten worden omheind. Wat heeft een geit nodig op het gebied van huisvesting, voeding en gezondheid?
+- [Lama en alpaca als huisdier — verzorging en karakter](https://dierenkliniek.nl/kennisbank/lama-en-alpaca-als-huisdier-verzorging-en-karakter): Lama's en alpaca's zijn kameelachtigen uit het Andesgebied die aanraking doorgaans niet waarderen. Wat vragen deze dieren op het gebied van ruimte en verzorging?
+- [Schaap als huisdier — verzorging en kuddegedrag](https://dierenkliniek.nl/kennisbank/schaap-als-huisdier-verzorging-en-kuddegedrag): Schapen zijn rustige kuddedieren die nooit alleen gehouden mogen worden. Welke verzorging, huisvesting en gezondheidsaandacht hebben ze nodig?
+- [Varken als huisdier — verzorging en wroetgedrag](https://dierenkliniek.nl/kennisbank/varken-als-huisdier-verzorging-en-wroetgedrag): Varkens zijn slimme, op mensen gerichte dieren die moeten kunnen wroeten. Wat is er nodig voor een varken als huisdier, van minivarken tot groter ras?
+- [Vogelspin als huisdier — verzorging voor beginners](https://dierenkliniek.nl/kennisbank/vogelspin-als-huisdier-verzorging-voor-beginners): Vogelspinnen zijn rustige maar giftige terrariumdieren die niet geschikt zijn om vast te houden. Wat heeft een vogelspin nodig?
+- [Schorpioen als huisdier — verzorging en gif](https://dierenkliniek.nl/kennisbank/schorpioen-als-huisdier-verzorging-en-gif): Schorpioenen zijn nachtactieve terrariumdieren die strikt alleen gehouden worden. Welke temperatuur, voeding en voorzorgen horen daarbij?
+- [Wandelende tak en bidsprinkhaan — verzorging als insect-huisdier](https://dierenkliniek.nl/kennisbank/wandelende-tak-en-bidsprinkhaan-verzorging-als-insect-huisdier): Wandelende takken en bidsprinkhanen zijn kwetsbare, camouflerende insecten voor in het terrarium. Waar moet u op letten bij verzorging en vervellen?
+- [Landheremietkreeft — verzorging en groepshouderij](https://dierenkliniek.nl/kennisbank/landheremietkreeft-verzorging-en-groepshouderij): Landheremietkreeften zijn sociale terrariumdieren die altijd in groepjes worden gehouden en geregeld van schelp wisselen. Wat is er nodig?
+- [Agaatslak als huisdier — verzorging en schelpgezondheid](https://dierenkliniek.nl/kennisbank/agaatslak-als-huisdier-verzorging-en-schelpgezondheid): Agaatslakken zijn grote Afrikaanse landslakken die veel vocht en kalk nodig hebben. Wat is er nodig voor een gezonde schelp en een goede verzorging?
+- [Witbuikegel als huisdier — verzorging en gezondheid](https://dierenkliniek.nl/kennisbank/witbuikegel-als-huisdier-verzorging-en-gezondheid): De Witbuikegel is de kleinste Afrikaanse egelsoort en een populair, overwegend nachtactief huisdier. Wat heeft dit dier nodig aan verblijf en voeding?
+- [Kortstaartopossum als huisdier — verzorging voor beginners](https://dierenkliniek.nl/kennisbank/kortstaartopossum-als-huisdier-verzorging-voor-beginners): De Kortstaartopossum is een nachtactief buideldier dat altijd alleen wordt gehouden. Welke temperatuur, voeding en verzorging zijn nodig?
 
 ## Voor klinieken
 
@@ -495,5 +510,5 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 ## Optioneel
 
-- [Volledige tekst van de kennisbank](https://dierenkliniek.nl/llms-full.txt): alle 382 artikelen als platte tekst
+- [Volledige tekst van de kennisbank](https://dierenkliniek.nl/llms-full.txt): alle 394 artikelen als platte tekst
 - [Sitemap](https://dierenkliniek.nl/sitemap.xml): alle canonieke URL's
