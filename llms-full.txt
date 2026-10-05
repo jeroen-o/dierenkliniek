@@ -1,7 +1,7 @@
 # Dierenkliniek.nl — volledige kennisbank
 
 Bron: https://dierenkliniek.nl/kennisbank · Laatst bijgewerkt: 2026-10-05
-378 artikelen, 40 glossariumtermen.
+382 artikelen, 40 glossariumtermen.
 
 Deze tekst is algemene voorlichting voor huisdiereigenaren en vervangt geen
 diagnose van een dierenarts. Bij spoed: bel altijd eerst de kliniek.
@@ -23442,6 +23442,228 @@ A: BOAS (brachycephaal obstructief syndroom) ontstaat doordat de sterk verkorte 
 
 V: Waarom komt PKD zo vaak voor bij het Exotisch korthaar?
 A: Het Exotisch korthaar is nauw verwant aan de Perzische kat, waarbij polycysteuze nieraandoening historisch veel voorkwam. Een DNA-test of echografisch onderzoek bij fokdieren kan dragers opsporen en zo de kans op zieke kittens sterk verminderen.
+
+
+--------------------------------------------------------------------------------
+# Axolotl — verzorging en aquarium-eisen
+
+URL: https://dierenkliniek.nl/kennisbank/axolotl-verzorging-en-aquarium-eisen
+Categorie: Praktische zaken · Diersoort: Amfibieën · Leestijd: 4 min
+
+Samenvatting: De axolotl is een volledig aquatische salamander die nooit aan land komt. Welke eisen stelt dit bijzondere dier aan water en aquarium?
+
+De axolotl is een Mexicaanse salamandersoort die, in tegenstelling tot vrijwel alle andere amfibieën, zijn hele leven in het water blijft en nooit de gedaanteverwisseling naar een landdier doormaakt (neotenie). Dat maakt de verzorging wezenlijk anders dan bij kikkers of andere salamanders: een axolotl heeft een aquarium nodig, geen terrarium.
+
+## Water en aquarium
+
+
+- Lage watertemperatuur — axolotls zijn gevoelig voor warmte en doen het best bij 16-18°C; boven de 23-24°C neemt de kans op stress en ziekte sterk toe.
+
+
+- Geen grind of kleine kiezels — axolotls happen naar voedsel en kunnen kleine steentjes inslikken, met een verstopping in het spijsverteringskanaal als risico. Zand of een kaal glazen bodempje is veiliger.
+
+
+- Gefilterd, zuurstofrijk water — een filter met beperkte stroming (axolotls houden niet van sterke waterbeweging) en regelmatige gedeeltelijke waterverversing zijn essentieel.
+
+
+- Schuilplekken — axolotls zijn schuwe dieren die baat hebben bij voldoende schuilgelegenheid in het aquarium.
+
+## Voeding
+
+Axolotls zijn vleeseters: wormen, kleine garnalen en speciaal axolotl- of forelkorrelvoer vormen de basis van het dieet. Jonge dieren worden dagelijks gevoerd, volwassen axolotls twee tot drie keer per week.
+
+## Gezondheid en bijzonderheden
+
+Een bekend kenmerk van de axolotl is het regeneratievermogen: verloren ledematen, staartdelen en zelfs delen van organen kunnen aangroeien. Dat betekent niet dat verwondingen onschuldig zijn — een slechte waterkwaliteit is de meest voorkomende oorzaak van huidinfecties en schimmelgroei bij dit dier. Axolotls kunnen 10 tot 15 jaar oud worden bij goede verzorging.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Kan een axolotl samen met vissen in één aquarium?
+A: Dit wordt afgeraden: vissen kunnen de kieuwen van de axolotl beschadigen door eraan te knabbelen, en de meeste vissoorten hebben een hogere watertemperatuur nodig dan voor de axolotl gezond is.
+
+V: Waarom mag het water van een axolotl niet te warm worden?
+A: Axolotls zijn van oorsprong afkomstig uit koude bergmeren in Mexico en raken bij hogere temperaturen gestrest, wat hun afweer verzwakt en de kans op infecties vergroot. Boven de 24°C wordt het risico aanzienlijk.
+
+
+--------------------------------------------------------------------------------
+# Kikkers en padden als huisdier — verzorging basisprincipes
+
+URL: https://dierenkliniek.nl/kennisbank/kikkers-en-padden-als-huisdier-verzorging-basisprincipes
+Categorie: Praktische zaken · Diersoort: Amfibieën · Leestijd: 4 min
+
+Samenvatting: Van de roodoogmakikikker tot de Afrikaanse dwergpad: kikkers en padden vragen een vochtig terrarium en specifieke voeding. Wat komt erbij kijken?
+
+Kikkers en padden worden steeds vaker als terrariumdier gehouden. De exacte eisen verschillen per soort, maar een aantal basisprincipes geldt voor vrijwel alle in gevangenschap gehouden kikkers en padden.
+
+## Terrarium en vochtigheid
+
+
+- Hoge luchtvochtigheid — de meeste kikkersoorten hebben 60-100% luchtvochtigheid nodig; een te droog terrarium leidt tot uitdroging via de doorlaatbare huid.
+
+
+- Waterbak of waterpartij — afhankelijk van de soort is permanent toegang tot schoon water nodig, soms voor het grootste deel van de leefruimte (bij meer aquatische soorten) en soms alleen als drinkplek.
+
+
+- Geen leidingwater zonder behandeling — chloor en andere toevoegingen in kraanwater zijn schadelijk voor de gevoelige huid; waterconditioner of gefilterd water is veiliger.
+
+
+- Beplanting en schuilplekken — de meeste soorten zijn schuw en hebben voldoende bladeren, bast of andere schuilgelegenheid nodig om stress te beperken.
+
+## Voeding
+
+Vrijwel alle kikkers en padden zijn insecteneters: krekels, fruitvliegjes (voor kleine soorten) en meelwormen vormen de basis, bestoven met een calcium- en vitaminesupplement om tekorten te voorkomen.
+
+## Veelvoorkomende gezondheidsproblemen
+
+De meeste gezondheidsklachten bij kikkers en padden in gevangenschap zijn terug te voeren op een verkeerd leefklimaat: een te droog terrarium, slechte waterkwaliteit of een voedingstekort. Huidinfecties en opgezwollen of dof uitziende huid zijn vaak de eerste zichtbare signalen dat er iets niet klopt in de leefomgeving.
+
+## Belangrijk: handen wassen
+
+De huid van kikkers en padden is zeer doorlaatbaar en gevoelig voor stoffen op de handen, zoals zeep, parfum of insectenspray. Was uw handen grondig (zonder zeepresten) voordat u een kikker of pad vastpakt, en beperk hanteren tot het noodzakelijke.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Mag ik een kikker met blote handen vastpakken?
+A: Beperk dit tot het noodzakelijke en was uw handen eerst grondig af zonder zeepresten: de doorlaatbare huid van kikkers neemt stoffen van de handen snel op, wat irritatie of vergiftiging kan veroorzaken.
+
+V: Waarom is luchtvochtigheid zo belangrijk voor kikkers en padden?
+A: Kikkers en padden ademen deels via de huid en verliezen snel vocht in een droge omgeving. Te lage luchtvochtigheid leidt tot uitdroging en maakt de huid kwetsbaarder voor infecties.
+
+
+--------------------------------------------------------------------------------
+# Vuursalamander — verzorging en terrarium-eisen
+
+URL: https://dierenkliniek.nl/kennisbank/vuursalamander-verzorging-en-terrarium-eisen
+Categorie: Praktische zaken · Diersoort: Amfibieën · Leestijd: 4 min
+
+Samenvatting: De opvallend zwart-gele vuursalamander is een populaire terrariumbewoner. Welke temperatuur, vochtigheid en inrichting heeft dit dier nodig?
+
+De vuursalamander, herkenbaar aan de felgele tot oranje vlekken op een zwarte huid, is een van de meest gehouden salamandersoorten in terraria. In tegenstelling tot de axolotl leeft deze soort als volwassen dier overwegend op het land, met af en toe een bezoek aan water.
+
+## Terrarium-eisen
+
+
+- Koele temperaturen — de vuursalamander is afkomstig uit vochtige, schaduwrijke bosgebieden en houdt niet van warmte; 15-20°C is ideaal, en temperaturen boven de 25°C zijn gevaarlijk.
+
+
+- Hoge luchtvochtigheid — een vochtige bodemlaag (bijvoorbeeld van kokosvezel of mos) en regelmatig besproeien houden de luchtvochtigheid op peil.
+
+
+- Ondiepe waterbak — nodig om af en toe in te zwemmen en voor de voortplanting, maar de salamander verblijft als volwassen dier vooral op het land.
+
+
+- Schuilplekken — bast, mos en andere beschutting zijn belangrijk, aangezien dit een schuw, overwegend 's nachts actief dier is.
+
+## Voeding
+
+Vuursalamanders eten insecten en andere kleine ongewervelden: krekels, wasmotlarven en regenwormen vormen een geschikt dieet, met calciumsupplement bestoven voor jonge, groeiende dieren.
+
+## Gezondheid en bijzonderheden
+
+De opvallende kleuren van de vuursalamander zijn een waarschuwingssignaal: de huid produceert een gifstof (samandarine) als afweer tegen roofdieren. Was na contact altijd de handen en voorkom contact met ogen of mond. Oververhitting en een te droog terrarium zijn de meest voorkomende oorzaken van gezondheidsproblemen bij dit dier in gevangenschap.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Is een vuursalamander giftig voor de eigenaar?
+A: De huid produceert een gifstof die irriterend kan zijn bij contact met ogen, mond of beschadigde huid. Was na het hanteren altijd de handen en vermijd contact met het gezicht.
+
+V: Kan een vuursalamander bij kamertemperatuur worden gehouden?
+A: Een gewone, verwarmde woonkamer is vaak te warm: deze soort heeft juist koele temperaturen nodig (15-20°C) en kan oververhit raken bij temperaturen boven de 25°C.
+
+
+--------------------------------------------------------------------------------
+# Veelvoorkomende ziektebeelden bij amfibieën — overzicht
+
+URL: https://dierenkliniek.nl/kennisbank/veelvoorkomende-ziektebeelden-bij-amfibieen-overzicht
+Categorie: Praktische zaken · Diersoort: Amfibieën · Leestijd: 4 min
+
+Samenvatting: Van rode-pootjesziekte tot schimmelinfecties: amfibieën zoals kikkers, padden en salamanders zijn gevoelig voor specifieke aandoeningen. Een overzicht.
+
+Bij amfibieën hangt vrijwel elk ziektebeeld nauw samen met het leefklimaat: temperatuur, luchtvochtigheid en waterkwaliteit zijn bij deze diergroep nog bepalender voor de gezondheid dan bij de meeste andere huisdieren.
+
+## Rode-pootjesziekte (bacteriële sepsis)
+
+Deze bacteriële infectie, te herkennen aan roodverkleuring van de buik en pootjes, ontstaat vrijwel altijd door een slechte waterkwaliteit of te lage weerstand door stress. Onbehandeld kan dit snel fataal verlopen; bij de eerste tekenen is dierenartsenzorg nodig.
+
+## Schimmelinfecties
+
+Witte, wattenachtige plekken op huid of eieren wijzen vaak op een schimmelinfectie, die bij amfibieën meestal de kop opsteekt bij een te vochtig of vervuild terrarium in combinatie met verzwakte dieren.
+
+## Chytridiomycose (Bd/Bsal)
+
+Deze schimmelziekte, veroorzaakt door de Batrachochytrium-schimmel, tast de huid aan — cruciaal voor amfibieën, die er deels via ademen. De ziekte is wereldwijd een belangrijke oorzaak van sterfte onder amfibieën en zeer besmettelijk tussen dieren onderling.
+
+## Uitdroging
+
+Door de doorlaatbare huid drogen amfibieën snel uit bij onvoldoende luchtvochtigheid of een tekort aan water. Ingevallen ogen en een verkreukelde, dofte huid zijn vroege signalen.
+
+## Metabolische botziekte
+
+Net als bij reptielen kan een tekort aan calcium en vitamine D3 bij amfibieën leiden tot zwakke botten en misvormingen, vooral bij jonge, groeiende dieren.
+
+## Preventie staat voorop
+
+Bij amfibieën is de leefomgeving vrijwel altijd de sleutel: stabiele temperatuur, voldoende luchtvochtigheid, schoon water en een rustige, stressarme omgeving voorkomen het merendeel van de hierboven genoemde problemen.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Is chytridiomycose te behandelen?
+A: Vroege behandeling met antischimmelmiddelen onder begeleiding van een dierenarts kan effectief zijn, maar de ziekte is zeer besmettelijk en verspreidt zich snel tussen dieren, dus voorkomen (quarantaine van nieuwe dieren) is belangrijker dan genezen.
+
+V: Waarom wordt bij amfibieën zo vaak naar de waterkwaliteit gekeken bij ziekte?
+A: De dunne, doorlaatbare huid van amfibieën staat in direct contact met het water of de vochtige omgeving, waardoor verontreinigingen en bacteriën veel sneller tot ziekte leiden dan bij dieren met een minder doorlaatbare huid.
 
 
 --------------------------------------------------------------------------------

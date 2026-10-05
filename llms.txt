@@ -1,6 +1,6 @@
 # Dierenkliniek.nl
 
-> Dierenkliniek.nl is het onafhankelijke overzicht van alle 1387 dierenklinieken in Nederland. Huisdiereigenaren vinden er een dierenarts op postcode, plaats of provincie, plus 111 klinieken met 24/7 spoedhulp en een kennisbank van 378 artikelen. Geen betaalde voorrang in de zoekresultaten.
+> Dierenkliniek.nl is het onafhankelijke overzicht van alle 1387 dierenklinieken in Nederland. Huisdiereigenaren vinden er een dierenarts op postcode, plaats of provincie, plus 111 klinieken met 24/7 spoedhulp en een kennisbank van 382 artikelen. Geen betaalde voorrang in de zoekresultaten.
 
 Laatst bijgewerkt: 2026-10-05. Exploitant: Dierenkliniek.nl, Darthuizerberg 1, 3825 BK Amersfoort, info@dierenkliniek.nl, 06-59115265.
 
@@ -10,7 +10,7 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 - [Dierenarts zoeken op postcode](https://dierenkliniek.nl/): startpunt met postcodezoeker en kaart van alle 1387 klinieken
 - [Spoedhulp 24/7](https://dierenkliniek.nl/spoedhulp): 111 klinieken met een 24-uurs spoeddienst, per provincie, met telefoonnummer
-- [Kennisbank](https://dierenkliniek.nl/kennisbank): 378 artikelen over gezondheid, preventie, voeding, gedrag en spoed
+- [Kennisbank](https://dierenkliniek.nl/kennisbank): 382 artikelen over gezondheid, preventie, voeding, gedrag en spoed
 - [Veterinair glossarium](https://dierenkliniek.nl/glossarium): 40 medische termen in gewone taal
 - [Alle provincies](https://dierenkliniek.nl/provincies): klinieken gegroepeerd per provincie
 - [Specialismen](https://dierenkliniek.nl/specialismen): klinieken per aandachtsgebied
@@ -76,7 +76,7 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 - [Voeding & gewicht](https://dierenkliniek.nl/kennisbank/categorie-voeding): 18 artikelen
 - [Gedrag & welzijn](https://dierenkliniek.nl/kennisbank/categorie-gedrag): 13 artikelen
 - [Puppy, volwassen, senior](https://dierenkliniek.nl/kennisbank/categorie-levensfasen): 14 artikelen
-- [Praktische zaken](https://dierenkliniek.nl/kennisbank/categorie-praktisch): 200 artikelen
+- [Praktische zaken](https://dierenkliniek.nl/kennisbank/categorie-praktisch): 204 artikelen
 
 ## Kennisbank per diersoort
 
@@ -90,6 +90,7 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 - [Kippen](https://dierenkliniek.nl/kennisbank/dier-kip): 14 artikelen
 - [Vissen](https://dierenkliniek.nl/kennisbank/dier-vis): 10 artikelen
 - [Fretten](https://dierenkliniek.nl/kennisbank/dier-fret): 7 artikelen
+- [Amfibieën](https://dierenkliniek.nl/kennisbank/dier-amfibie): 4 artikelen
 
 ## Alle artikelen
 
@@ -471,6 +472,10 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 - [Manx — gezondheidsproblemen en staartloosheid](https://dierenkliniek.nl/kennisbank/manx-gezondheidsproblemen-en-staartloosheid): De Manx is gevoelig voor het ernstige Manxsyndroom, een directe uitkomst van het erfelijke staartloosheid-gen van dit kattenras.
 - [Oosters korthaar — gezondheidsproblemen en moeilijke bevalling](https://dierenkliniek.nl/kennisbank/oosters-korthaar-gezondheidsproblemen-en-moeilijke-bevalling): Het Oosters korthaar is een hoogrisicoras met moeilijke bevallingen, aangeboren doofheid, blindheid door PRA en erfelijke nierziekte PKD bij katten.
 - [Exotisch korthaar — gezondheidsproblemen en platte snuit](https://dierenkliniek.nl/kennisbank/exotisch-korthaar-gezondheidsproblemen-en-platte-snuit): Het Exotisch korthaar is een hoogrisicoras: de platte snuit veroorzaakt BOAS, en ook nierziekte PKD en tandresorptie komen er vaak voor bij katten.
+- [Axolotl — verzorging en aquarium-eisen](https://dierenkliniek.nl/kennisbank/axolotl-verzorging-en-aquarium-eisen): De axolotl is een volledig aquatische salamander die nooit aan land komt. Welke eisen stelt dit bijzondere dier aan water en aquarium?
+- [Kikkers en padden als huisdier — verzorging basisprincipes](https://dierenkliniek.nl/kennisbank/kikkers-en-padden-als-huisdier-verzorging-basisprincipes): Van de roodoogmakikikker tot de Afrikaanse dwergpad: kikkers en padden vragen een vochtig terrarium en specifieke voeding. Wat komt erbij kijken?
+- [Vuursalamander — verzorging en terrarium-eisen](https://dierenkliniek.nl/kennisbank/vuursalamander-verzorging-en-terrarium-eisen): De opvallend zwart-gele vuursalamander is een populaire terrariumbewoner. Welke temperatuur, vochtigheid en inrichting heeft dit dier nodig?
+- [Veelvoorkomende ziektebeelden bij amfibieën — overzicht](https://dierenkliniek.nl/kennisbank/veelvoorkomende-ziektebeelden-bij-amfibieen-overzicht): Van rode-pootjesziekte tot schimmelinfecties: amfibieën zoals kikkers, padden en salamanders zijn gevoelig voor specifieke aandoeningen. Een overzicht.
 
 ## Voor klinieken
 
@@ -490,5 +495,5 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 ## Optioneel
 
-- [Volledige tekst van de kennisbank](https://dierenkliniek.nl/llms-full.txt): alle 378 artikelen als platte tekst
+- [Volledige tekst van de kennisbank](https://dierenkliniek.nl/llms-full.txt): alle 382 artikelen als platte tekst
 - [Sitemap](https://dierenkliniek.nl/sitemap.xml): alle canonieke URL's
