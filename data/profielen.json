@@ -2,8 +2,15 @@
   "dierenkliniek-venray-dierenarts-in-venray": {
     "omschrijving": "Ons team — Leo Benders, dierenarts: \"Sinds november 2014 werk ik in het team van Dierenkliniek Venray. Ik word gelukkig en blij van het dagelijkse intensieve contact met mens en dier. Het kunnen oplossen van de meest voorkomende ziektekundige problemen in combinatie met het diep uitspitten van speciale gevallen geeft mij super veel voldoening. Naast het werk in de spreekkamer kunt u mij vaak aantreffen in de operatiekamer: binnen ons team neem ik de weke-delen-chirurgie voor mijn rekening, waarbij tandheelkunde een speciale plek in mijn hart heeft. Zo'n 80% van de honden en katten heeft in meer of mindere mate last van tandvleesontstekingen en/of gebitsproblemen — door preventieve zorg en tijdig operatief ingrijpen kunt u de kwaliteit van leven van uw huisdier flink verbeteren. Achter de schermen verzorg ik onder meer het teammanagement en de PR.\"",
     "fotos": [
-      { "bestand": "fotos/dierenkliniek-venray-leo-benders.jpg", "alt": "Leo Benders, dierenarts bij Dierenkliniek Venray, in de spreekkamer" }
+      {
+        "bestand": "fotos/dierenkliniek-venray-leo-benders.jpg",
+        "alt": "Leo Benders, dierenarts bij Dierenkliniek Venray, in de spreekkamer"
+      }
     ],
     "bron": "aangeleverd door de praktijk, team-pagina dierenkliniekvenray.nl, 2026-09-27"
+  },
+  "vetadent-dierentandarts-kerkrade-dierenarts-in-kerkrade": {
+    "omschrijving": "Behandeling uitsluitend volgens afspraak. U kunt parkeren aan de rechterzijde van de dierenkliniek op onze eigen parkeerplaatsen, ter hoogte van Rolduckerstraat 62 (6461 VM Kerkrade). De Rolduckerstraat is een eenrichtingsstraat, alleen bereikbaar via de Oranjestraat of Koninginnestraat. Parkeren langs de kant van de weg in de Rolduckerstraat is alleen toegestaan voor houders van een parkeervergunning. De ingang van de kliniek bevindt zich direct om de hoek van de parkeerplaatsen, bij O.L. Vrouwestraat 65.",
+    "bron": "opgave praktijk per e-mail, 2026-10-09"
   }
 }
