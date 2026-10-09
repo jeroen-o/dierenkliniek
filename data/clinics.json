@@ -23418,25 +23418,6 @@
     "instagram": "https://www.instagram.com/artsendier"
   },
   {
-    "id": 1231,
-    "name": "Dierenartsenpraktijk Norg",
-    "city": "Norg",
-    "address": "Asserstraat 45",
-    "postcode": "9331 JB",
-    "phone": "0592-612979",
-    "email": "",
-    "website": "https://www.dapnorg.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 53.0661,
-    "lng": 6.4594,
-    "desc": "Dierenartspraktijk in Norg.",
-    "tier": "basic"
-  },
-  {
     "id": 1232,
     "name": "Dierenarts Suzan Hordijk",
     "city": "Gees",
@@ -23629,25 +23610,6 @@
     "linkedin": "https://www.linkedin.com/company/gezondheidscentrum-voor-pluimvee-emmen"
   },
   {
-    "id": 1242,
-    "name": "Hilvering Dierenarts",
-    "city": "Coevorden",
-    "address": "Lesturgeonstraat 9",
-    "postcode": "7741 CL",
-    "phone": "06-53863997",
-    "email": "",
-    "website": "",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.6775,
-    "lng": 6.7447,
-    "desc": "Dierenartspraktijk in Coevorden.",
-    "tier": "basic"
-  },
-  {
     "id": 1243,
     "name": "Ineko BV",
     "city": "Assen",
@@ -23722,44 +23684,6 @@
     "tier": "basic"
   },
   {
-    "id": 1247,
-    "name": "T. Postma",
-    "city": "Zuidwolde",
-    "address": "Steenbergen 2",
-    "postcode": "7921 BV",
-    "phone": "0528-373689",
-    "email": "",
-    "website": "",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.6667,
-    "lng": 6.4167,
-    "desc": "Dierenartspraktijk in Zuidwolde.",
-    "tier": "basic"
-  },
-  {
-    "id": 1248,
-    "name": "Platenkamp & Evenhuis Services VOF",
-    "city": "De Kiel",
-    "address": "Rolderstraat 57",
-    "postcode": "7849 PB",
-    "phone": "06-38917233",
-    "email": "",
-    "website": "",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.86222,
-    "lng": 6.74611,
-    "desc": "Dierenartspraktijk in De Kiel.",
-    "tier": "basic"
-  },
-  {
     "id": 1249,
     "name": "G. Wagenaar",
     "city": "Ruinerwold",
@@ -23776,25 +23700,6 @@
     "lat": 52.7228,
     "lng": 6.2506,
     "desc": "Dierenartspraktijk in Ruinerwold.",
-    "tier": "basic"
-  },
-  {
-    "id": 1250,
-    "name": "Xander Tuitjer",
-    "city": "Gasselternijveenschemond",
-    "address": "Noordzijde 267",
-    "postcode": "9515 PH",
-    "phone": "06-25292454",
-    "email": "",
-    "website": "https://www.xander-tuitjer.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.99556,
-    "lng": 6.89722,
-    "desc": "Dierenartspraktijk in Gasselternijveenschemond.",
     "tier": "basic"
   },
   {
@@ -24005,22 +23910,6 @@
     "tier": "basic"
   },
   {
-    "id": 1262,
-    "name": "Paardenkliniek Garijp",
-    "city": "Garyp",
-    "address": "Easterein 29",
-    "postcode": "9263 PA",
-    "phone": "0511-522214",
-    "email": "",
-    "website": "https://www.paardenkliniekgarijp.nl",
-    "specs": [],
-    "tags": [],
-    "lat": 53.16667,
-    "lng": 5.96667,
-    "desc": "Dierenartspraktijk in Garyp.",
-    "tier": "basic"
-  },
-  {
     "id": 1263,
     "name": "Sport-/Paardenkliniek Wolvega",
     "city": "Oldeholtpade",
@@ -24115,25 +24004,6 @@
     "tier": "basic"
   },
   {
-    "id": 1268,
-    "name": "Dierotheek",
-    "city": "Vollenhove",
-    "address": "De Weyert 20A",
-    "postcode": "8325 EM",
-    "phone": "0527-243242",
-    "email": "",
-    "website": "https://www.dierotheek.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.682209,
-    "lng": 5.963612,
-    "desc": "Dierenartspraktijk in Vollenhove.",
-    "tier": "basic"
-  },
-  {
     "id": 1269,
     "name": "Dierenarts aan de deur",
     "city": "Zeewolde",
@@ -24150,25 +24020,6 @@
     "lat": 52.3324,
     "lng": 5.5436,
     "desc": "Dierenartspraktijk in Zeewolde.",
-    "tier": "basic"
-  },
-  {
-    "id": 1270,
-    "name": "Dierenartsen Praktijk Dronten",
-    "city": "Dronten",
-    "address": "De Zuid 30",
-    "postcode": "8251 BH",
-    "phone": "0321-318206",
-    "email": "",
-    "website": "https://www.dierenartsenpraktijkelburg.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.524,
-    "lng": 5.7156,
-    "desc": "Dierenartspraktijk in Dronten.",
     "tier": "basic"
   },
   {
@@ -24768,25 +24619,6 @@
     "tier": "basic"
   },
   {
-    "id": 1302,
-    "name": "Dierenkliniek Ijmuiden",
-    "city": "IJmuiden",
-    "address": "Piet Heinstraat 13",
-    "postcode": "1972 ET",
-    "phone": "0255-510014",
-    "email": "",
-    "website": "https://www.dierenkliniekijmuiden.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.448713,
-    "lng": 4.596685,
-    "desc": "Dierenartspraktijk in IJmuiden.",
-    "tier": "basic"
-  },
-  {
     "id": 1303,
     "name": "Dierenkliniek Laren",
     "city": "Laren",
@@ -24803,25 +24635,6 @@
     "lat": 52.25,
     "lng": 5.233,
     "desc": "Dierenartspraktijk in Laren.",
-    "tier": "basic"
-  },
-  {
-    "id": 1304,
-    "name": "Dierenkliniek Medemblik",
-    "city": "Middenmeer",
-    "address": "Westfrieseweg 141",
-    "postcode": "1674 CC",
-    "phone": "0226-452488",
-    "email": "",
-    "website": "https://www.dierenkliniekmedemblik.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.805308,
-    "lng": 5.006643,
-    "desc": "Dierenartspraktijk in Middenmeer.",
     "tier": "basic"
   },
   {
@@ -24863,25 +24676,6 @@
     "tier": "basic"
   },
   {
-    "id": 1307,
-    "name": "Dierenkliniek Oostzaan",
-    "city": "Oostzaan",
-    "address": "Kerkbuurt 26-28",
-    "postcode": "1511 BA",
-    "phone": "075-6843540",
-    "email": "",
-    "website": "https://www.dierenkliniekoostzaan.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.433,
-    "lng": 4.883,
-    "desc": "Dierenartspraktijk in Oostzaan.",
-    "tier": "basic"
-  },
-  {
     "id": 1308,
     "name": "Dierenkliniek Schiphol",
     "city": "Schiphol-Rijk",
@@ -24898,25 +24692,6 @@
     "lat": 52.28,
     "lng": 4.7567,
     "desc": "Dierenartspraktijk in Schiphol-Rijk.",
-    "tier": "basic"
-  },
-  {
-    "id": 1309,
-    "name": "Dierenkliniek Texel",
-    "city": "Den Hoorn Texel",
-    "address": "Hoge Waal 15",
-    "postcode": "1791 HB",
-    "phone": "0222-319177",
-    "email": "",
-    "website": "https://www.dierenkliniektexel.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 53.02439,
-    "lng": 4.75128,
-    "desc": "Dierenartspraktijk in Den Hoorn Texel.",
     "tier": "basic"
   },
   {
@@ -24958,25 +24733,6 @@
     "tier": "basic",
     "facebook": "https://www.facebook.com/dierenartsenpraktijkuam",
     "instagram": "https://www.instagram.com/explore/locations/924623270986819/dierenartsenpraktijk-uithoorn-aalsmeer-mijdrecht-wilnis"
-  },
-  {
-    "id": 1312,
-    "name": "Dierenkliniek Velsen-Noord",
-    "city": "Velsen-Noord",
-    "address": "Pontweg 59",
-    "postcode": "1951 TM",
-    "phone": "0251-650500",
-    "email": "",
-    "website": "https://www.dierenkliniekvelsennoord.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.4722,
-    "lng": 4.6442,
-    "desc": "Dierenartspraktijk in Velsen-Noord.",
-    "tier": "basic"
   },
   {
     "id": 1313,
@@ -25113,44 +24869,6 @@
     "tier": "basic"
   },
   {
-    "id": 1320,
-    "name": "Dierenkliniek De Meern",
-    "city": "De Meern",
-    "address": "Zijdeweg 5",
-    "postcode": "3454 DL",
-    "phone": "030-6767300",
-    "email": "",
-    "website": "https://www.dierenkliniekdemeern.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.07806,
-    "lng": 5.02806,
-    "desc": "Dierenartspraktijk in De Meern.",
-    "tier": "basic"
-  },
-  {
-    "id": 1321,
-    "name": "Dierenkliniek Hoevelaken",
-    "city": "Hoevelaken",
-    "address": "Veldweg 7",
-    "postcode": "3871 MV",
-    "phone": "033-2534000",
-    "email": "",
-    "website": "https://www.dierenkliniekhoevelaken.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.167,
-    "lng": 5.467,
-    "desc": "Dierenartspraktijk in Hoevelaken.",
-    "tier": "basic"
-  },
-  {
     "id": 1322,
     "name": "Dierenkliniek Houten Oost",
     "city": "Maarssen",
@@ -25169,25 +24887,6 @@
     "desc": "Dierenartspraktijk in Maarssen.",
     "tier": "basic",
     "facebook": "https://www.facebook.com/Dierenarts.Schonauwen"
-  },
-  {
-    "id": 1323,
-    "name": "Dierenkliniek Kamerik",
-    "city": "Kamerik",
-    "address": "Oud Kamerik 50",
-    "postcode": "3471 KE",
-    "phone": "0348-404040",
-    "email": "",
-    "website": "https://www.dierenkliniekkamerik.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.11111,
-    "lng": 4.89306,
-    "desc": "Dierenartspraktijk in Kamerik.",
-    "tier": "basic"
   },
   {
     "id": 1324,
@@ -25266,44 +24965,6 @@
     "tier": "basic"
   },
   {
-    "id": 1328,
-    "name": "Dierenkliniek Tull en 't Waal",
-    "city": "'t Goy",
-    "address": "Waalseweg 1",
-    "postcode": "3997 MB",
-    "phone": "030-6040707",
-    "email": "",
-    "website": "https://www.dierenkliniektvtwaal.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.00222,
-    "lng": 5.22278,
-    "desc": "Dierenartspraktijk in 't Goy.",
-    "tier": "basic"
-  },
-  {
-    "id": 1329,
-    "name": "Dierenkliniek Vleuten",
-    "city": "Vleuten",
-    "address": "Richterstraat 17",
-    "postcode": "3451 PW",
-    "phone": "030-6779200",
-    "email": "",
-    "website": "https://www.dierenklinievleuten.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.1023,
-    "lng": 5.0086,
-    "desc": "Dierenartspraktijk in Vleuten.",
-    "tier": "basic"
-  },
-  {
     "id": 1330,
     "name": "Dierenkliniek Zeist",
     "city": "Huis ter Heide",
@@ -25342,25 +25003,6 @@
     "tier": "basic"
   },
   {
-    "id": 1332,
-    "name": "Felisa Katten Kliniek",
-    "city": "Houten",
-    "address": "Voordaan 4a",
-    "postcode": "3992 LC",
-    "phone": "030-7509282",
-    "email": "",
-    "website": "https://www.felisakattenkliniek.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.0337,
-    "lng": 5.1681,
-    "desc": "Dierenartspraktijk in Houten.",
-    "tier": "basic"
-  },
-  {
     "id": 1333,
     "name": "Dierenartsenpraktijk Daarlerveen",
     "city": "Daarlerveen",
@@ -25381,25 +25023,6 @@
     "facebook": "https://www.facebook.com/domeinenbank",
     "instagram": "https://www.instagram.com/domeinenbank",
     "linkedin": "https://www.linkedin.com/company/domeinenbank"
-  },
-  {
-    "id": 1334,
-    "name": "Dierenkliniek Genemuiden",
-    "city": "Genemuiden",
-    "address": "Zwolseweg 23",
-    "postcode": "8281 BG",
-    "phone": "038-3852740",
-    "email": "",
-    "website": "https://www.dierenkliniekgenemuiden.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.62444,
-    "lng": 6.03972,
-    "desc": "Dierenartspraktijk in Genemuiden.",
-    "tier": "basic"
   },
   {
     "id": 1335,
@@ -25440,44 +25063,6 @@
     "lat": 52.57,
     "lng": 6.63438,
     "desc": "Dierenartspraktijk in Hardenberg.",
-    "tier": "basic"
-  },
-  {
-    "id": 1337,
-    "name": "Dierenkliniek Hardenberg Oost",
-    "city": "Hardenberg",
-    "address": "Europaplein 18",
-    "postcode": "7772 XM",
-    "phone": "0523-269400",
-    "email": "",
-    "website": "https://www.dierenkliniekhardenbergoost.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.57,
-    "lng": 6.63438,
-    "desc": "Dierenartspraktijk in Hardenberg.",
-    "tier": "basic"
-  },
-  {
-    "id": 1338,
-    "name": "Dierenkliniek Lemelerveld",
-    "city": "Lemelerveld",
-    "address": "Lemelerveld",
-    "postcode": "",
-    "phone": "0572-362510",
-    "email": "",
-    "website": "",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.4453,
-    "lng": 6.3401,
-    "desc": "Dierenartspraktijk in Lemelerveld.",
     "tier": "basic"
   },
   {
@@ -25538,25 +25123,6 @@
     "tier": "basic"
   },
   {
-    "id": 1342,
-    "name": "Dierenkliniek Wierden",
-    "city": "Wierden",
-    "address": "Nijverheidsstraat 2",
-    "postcode": "7641 BN",
-    "phone": "0546-574800",
-    "email": "",
-    "website": "https://www.dierenkliniekwierden.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.3518,
-    "lng": 6.591,
-    "desc": "Dierenartspraktijk in Wierden.",
-    "tier": "basic"
-  },
-  {
     "id": 1343,
     "name": "Dierenartsenpraktijk Markelo",
     "city": "Markelo",
@@ -25614,44 +25180,6 @@
     "tier": "basic"
   },
   {
-    "id": 1346,
-    "name": "Dierenkliniek Goor",
-    "city": "Goor",
-    "address": "Haaksbergerstraat 2",
-    "postcode": "7471 DZ",
-    "phone": "0547-261800",
-    "email": "",
-    "website": "https://www.dierenkliniekgoor.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.2295,
-    "lng": 6.5722,
-    "desc": "Dierenartspraktijk in Goor.",
-    "tier": "basic"
-  },
-  {
-    "id": 1347,
-    "name": "Dierenkliniek Delden",
-    "city": "Delden",
-    "address": "Goorseweg 44",
-    "postcode": "7491 BL",
-    "phone": "074-3764510",
-    "email": "",
-    "website": "https://www.dierenkliniekdelden.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.2625,
-    "lng": 6.71111,
-    "desc": "Dierenartspraktijk in Delden.",
-    "tier": "basic"
-  },
-  {
     "id": 1348,
     "name": "Dierenkliniek Bornerbroek",
     "city": "Bornerbroek",
@@ -25668,25 +25196,6 @@
     "lat": 52.30889,
     "lng": 6.65528,
     "desc": "Dierenartspraktijk in Bornerbroek.",
-    "tier": "basic"
-  },
-  {
-    "id": 1349,
-    "name": "Dierenartsenpraktijk Reefman",
-    "city": "Laren Gld",
-    "address": "Twelloseweg 9",
-    "postcode": "7234 BH",
-    "phone": "0573-405555",
-    "email": "",
-    "website": "",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.192,
-    "lng": 6.36632,
-    "desc": "Dierenartspraktijk in Laren Gld.",
     "tier": "basic"
   },
   {
@@ -25750,25 +25259,6 @@
     "instagram": "https://www.instagram.com/dierenkliniekdordrecht"
   },
   {
-    "id": 1353,
-    "name": "Dierenkliniek Dordrecht Noord",
-    "city": "Dordrecht",
-    "address": "Oranjepark 1",
-    "postcode": "3316 BN",
-    "phone": "078-6131688",
-    "email": "",
-    "website": "https://www.dierenkliniekdordrechtnoord.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 51.8133,
-    "lng": 4.6901,
-    "desc": "Dierenartspraktijk in Dordrecht.",
-    "tier": "basic"
-  },
-  {
     "id": 1354,
     "name": "Dierenkliniek Dordrecht Centrum",
     "city": "Dordrecht",
@@ -25788,44 +25278,6 @@
     "tier": "basic",
     "facebook": "https://www.facebook.com/DierenkliniekDordrecht",
     "instagram": "https://www.instagram.com/dierenkliniekdordrecht"
-  },
-  {
-    "id": 1355,
-    "name": "Dierenkliniek Hardinxveld-Giessendam",
-    "city": "Hardinxveld-Giessendam",
-    "address": "Hoogeweg 1",
-    "postcode": "3373 AC",
-    "phone": "0184-614800",
-    "email": "",
-    "website": "https://www.dierenkliniekhardinxveld.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 51.817,
-    "lng": 4.833,
-    "desc": "Dierenartspraktijk in Hardinxveld-Giessendam.",
-    "tier": "basic"
-  },
-  {
-    "id": 1356,
-    "name": "Dierenkliniek Hoek van Holland",
-    "city": "Hoek van Holland",
-    "address": "Nieuweweg 5",
-    "postcode": "3151 CS",
-    "phone": "0174-389200",
-    "email": "",
-    "website": "https://www.dierenkliniekhoekvanholland.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 51.98111,
-    "lng": 4.12861,
-    "desc": "Dierenartspraktijk in Hoek van Holland.",
-    "tier": "basic"
   },
   {
     "id": 1357,
@@ -26002,44 +25454,6 @@
     "tier": "basic"
   },
   {
-    "id": 1366,
-    "name": "Dierenkliniek Blommaart",
-    "city": "Almere",
-    "address": "Andy Warholstraat 15",
-    "postcode": "1328 LA",
-    "phone": "036-5497104",
-    "email": "",
-    "website": "https://www.dapblommaart.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.3508,
-    "lng": 5.2647,
-    "desc": "Dierenartspraktijk in Almere.",
-    "tier": "basic"
-  },
-  {
-    "id": 1367,
-    "name": "Dierenkliniek De Geldersedreef",
-    "city": "Lelystad",
-    "address": "Griend 11-05",
-    "postcode": "8225 VG",
-    "phone": "0320-250188",
-    "email": "",
-    "website": "https://www.dkdegeldersedreef.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.5185,
-    "lng": 5.4714,
-    "desc": "Dierenartspraktijk in Lelystad.",
-    "tier": "basic"
-  },
-  {
     "id": 1368,
     "name": "Dierenkliniek Berg & Daal",
     "city": "Almere",
@@ -26075,25 +25489,6 @@
     "lat": 53.2194,
     "lng": 6.5665,
     "desc": "Dierenartspraktijk in Groningen.",
-    "tier": "basic"
-  },
-  {
-    "id": 1370,
-    "name": "Dierenkliniek Buitenwoe",
-    "city": "Veendam",
-    "address": "Buitenwoelkade 2",
-    "postcode": "9641 GH",
-    "phone": "0598-612074",
-    "email": "",
-    "website": "https://www.buitenwoel.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 53.1037,
-    "lng": 6.8767,
-    "desc": "Dierenartspraktijk in Veendam.",
     "tier": "basic"
   },
   {
@@ -26176,27 +25571,6 @@
     "tier": "basic"
   },
   {
-    "id": 1375,
-    "name": "Sterkliniek dierenartsen Maastricht",
-    "city": "Maastricht",
-    "address": "De Beente 28",
-    "postcode": "6229 AV",
-    "phone": "043-3560555",
-    "email": "",
-    "website": "https://www.skmaastricht.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 50.8514,
-    "lng": 5.6909,
-    "desc": "Dierenartspraktijk in Maastricht.",
-    "tier": "basic",
-    "facebook": "https://www.facebook.com/AniCuraNederland",
-    "instagram": "https://www.instagram.com/anicura.nl"
-  },
-  {
     "id": 1377,
     "name": "Dierenkliniek Weert",
     "city": "Weert",
@@ -26213,44 +25587,6 @@
     "lat": 51.2581,
     "lng": 5.68876,
     "desc": "Dierenartspraktijk in Weert.",
-    "tier": "basic"
-  },
-  {
-    "id": 1378,
-    "name": "Dierenkliniek Alkmaar West",
-    "city": "Heiloo",
-    "address": "Kennemerstraatweg 64",
-    "postcode": "1851 BL",
-    "phone": "072-5330240",
-    "email": "",
-    "website": "https://www.dierenkliniekalkmaerwest.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.6024,
-    "lng": 4.7032,
-    "desc": "Dierenartspraktijk in Heiloo.",
-    "tier": "basic"
-  },
-  {
-    "id": 1379,
-    "name": "Dierenkliniek de Tulp",
-    "city": "Alkmaar",
-    "address": "Drechterwaard 22",
-    "postcode": "1824 WE",
-    "phone": "072-5619540",
-    "email": "",
-    "website": "https://www.dierenkliniektulp.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.6324,
-    "lng": 4.7534,
-    "desc": "Dierenartspraktijk in Alkmaar.",
     "tier": "basic"
   },
   {
@@ -26406,25 +25742,6 @@
     "tier": "basic"
   },
   {
-    "id": 1388,
-    "name": "Dierenartsenpraktijk Den Helder",
-    "city": "Den Helder",
-    "address": "Colensostraat 13",
-    "postcode": "1782 DC",
-    "phone": "0223-616222",
-    "email": "",
-    "website": "https://www.dierenkliniekdenhelder.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.9557,
-    "lng": 4.7592,
-    "desc": "Dierenartspraktijk in Den Helder.",
-    "tier": "basic"
-  },
-  {
     "id": 1389,
     "name": "Dierenkliniek Haarlem Oost",
     "city": "Haarlem",
@@ -26444,101 +25761,6 @@
     "tier": "basic"
   },
   {
-    "id": 1390,
-    "name": "Dierenkliniek Haarlem Noord",
-    "city": "Haarlem",
-    "address": "Vergierdeweg 2",
-    "postcode": "2024 DB",
-    "phone": "023-5333445",
-    "email": "",
-    "website": "https://www.dierenkliniekhaarlemnord.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.3874,
-    "lng": 4.6462,
-    "desc": "Dierenartspraktijk in Haarlem.",
-    "tier": "basic"
-  },
-  {
-    "id": 1391,
-    "name": "Dierenkliniek Haarlem West",
-    "city": "Haarlem",
-    "address": "Zijlweg 2",
-    "postcode": "2012 DE",
-    "phone": "023-5274220",
-    "email": "",
-    "website": "https://www.dierenkliniek-haarlemnwest.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.3874,
-    "lng": 4.6462,
-    "desc": "Dierenartspraktijk in Haarlem.",
-    "tier": "basic"
-  },
-  {
-    "id": 1392,
-    "name": "Dierenkliniek Heerhugowaard",
-    "city": "Heerhugowaard",
-    "address": "Middenmeerweg 5",
-    "postcode": "1703 SE",
-    "phone": "072-5718150",
-    "email": "",
-    "website": "https://www.dierenkliniekheerhugowaard.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.675,
-    "lng": 4.829,
-    "desc": "Dierenartspraktijk in Heerhugowaard.",
-    "tier": "basic"
-  },
-  {
-    "id": 1393,
-    "name": "Dierenkliniek Hoorn-Noord",
-    "city": "Hoorn",
-    "address": "Nieuwe Steen 20",
-    "postcode": "1625 HV",
-    "phone": "0229-234500",
-    "email": "",
-    "website": "https://www.dierenkliniekhoornnoord.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.6425,
-    "lng": 5.0597,
-    "desc": "Dierenartspraktijk in Hoorn.",
-    "tier": "basic"
-  },
-  {
-    "id": 1394,
-    "name": "Dierenkliniek Huizen",
-    "city": "Huizen",
-    "address": "Oud Bussummerweg 58",
-    "postcode": "1272 KA",
-    "phone": "035-5254545",
-    "email": "",
-    "website": "https://www.dierenkliniekhuizen.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.2992,
-    "lng": 5.2419,
-    "desc": "Dierenartspraktijk in Huizen.",
-    "tier": "basic"
-  },
-  {
     "id": 1395,
     "name": "Dierenkliniek Muiden",
     "city": "Muiderberg",
@@ -26555,25 +25777,6 @@
     "lat": 52.3247,
     "lng": 5.0742,
     "desc": "Dierenartspraktijk in Muiderberg.",
-    "tier": "basic"
-  },
-  {
-    "id": 1396,
-    "name": "Dierenkliniek Weesp",
-    "city": "Weesp",
-    "address": "Nieuwstraat 51",
-    "postcode": "1381 BE",
-    "phone": "0294-412780",
-    "email": "",
-    "website": "https://www.dierenkliniekweesp.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.306683,
-    "lng": 5.042353,
-    "desc": "Dierenartspraktijk in Weesp.",
     "tier": "basic"
   },
   {
@@ -26612,63 +25815,6 @@
     "lat": 52.3393,
     "lng": 4.7855,
     "desc": "Dierenartspraktijk in Badhoevedorp.",
-    "tier": "basic"
-  },
-  {
-    "id": 1399,
-    "name": "Paws Diergeneeskunde",
-    "city": "Amsterdam",
-    "address": "Keizersgracht 567",
-    "postcode": "1017 DR",
-    "phone": "020-5222320",
-    "email": "",
-    "website": "https://www.pawsamsterdam.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.372404,
-    "lng": 4.875005,
-    "desc": "Dierenartspraktijk in Amsterdam.",
-    "tier": "basic"
-  },
-  {
-    "id": 1400,
-    "name": "Dierenkliniek Amersfoort West",
-    "city": "Amersfoort",
-    "address": "Modestraat 1",
-    "postcode": "3826 SG",
-    "phone": "033-4808060",
-    "email": "",
-    "website": "https://www.dierenkliniekamersfoortwest.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.1561,
-    "lng": 5.3878,
-    "desc": "Dierenartspraktijk in Amersfoort.",
-    "tier": "basic"
-  },
-  {
-    "id": 1401,
-    "name": "Dierenkliniek Birkhoven",
-    "city": "Amersfoort",
-    "address": "Koningin Julianaplein 6",
-    "postcode": "3817 HJ",
-    "phone": "033-4616700",
-    "email": "",
-    "website": "https://www.dierenkliniekbirkhoven.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.1561,
-    "lng": 5.3878,
-    "desc": "Dierenartspraktijk in Amersfoort.",
     "tier": "basic"
   },
   {
@@ -26711,25 +25857,6 @@
     "facebook": "https://www.facebook.com/1508260366135423"
   },
   {
-    "id": 1404,
-    "name": "Dierenarts Amersfoort",
-    "city": "Amersfoort",
-    "address": "Ringweg-Zuid 210",
-    "postcode": "3824 MK",
-    "phone": "033-4804040",
-    "email": "",
-    "website": "https://www.dierenartscentrumamersfoort.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.1561,
-    "lng": 5.3878,
-    "desc": "Dierenartspraktijk in Amersfoort.",
-    "tier": "basic"
-  },
-  {
     "id": 1405,
     "name": "Dierenkliniek Bilthoven",
     "city": "Bilthoven",
@@ -26746,25 +25873,6 @@
     "lat": 52.1255,
     "lng": 5.19987,
     "desc": "Dierenartspraktijk in Bilthoven.",
-    "tier": "basic"
-  },
-  {
-    "id": 1406,
-    "name": "Dierenartsenpraktijk Harmelen",
-    "city": "Harmelen",
-    "address": "Harmelerwaard 1A",
-    "postcode": "3481 MH",
-    "phone": "0348-443120",
-    "email": "",
-    "website": "https://www.dapharmonia.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.0838,
-    "lng": 4.9527,
-    "desc": "Dierenartspraktijk in Harmelen.",
     "tier": "basic"
   },
   {
@@ -26882,82 +25990,6 @@
     "tier": "basic"
   },
   {
-    "id": 1413,
-    "name": "Dierenkliniek Utrecht Centrum",
-    "city": "Utrecht",
-    "address": "Blauwstraat 14",
-    "postcode": "3512 LG",
-    "phone": "030-2370880",
-    "email": "",
-    "website": "https://www.dierenkliniekcentrum.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.0907,
-    "lng": 5.1214,
-    "desc": "Dierenartspraktijk in Utrecht.",
-    "tier": "basic"
-  },
-  {
-    "id": 1414,
-    "name": "Dierenkliniek Utrecht Noord",
-    "city": "Utrecht",
-    "address": "Theodorus Dobbestraat 5",
-    "postcode": "3572 TA",
-    "phone": "030-2711444",
-    "email": "",
-    "website": "https://www.dierenkliniekutrechtnoord.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.0907,
-    "lng": 5.1214,
-    "desc": "Dierenartspraktijk in Utrecht.",
-    "tier": "basic"
-  },
-  {
-    "id": 1415,
-    "name": "Dierenkliniek Utrecht Oost",
-    "city": "Utrecht",
-    "address": "Ptolemaeuslaan 1",
-    "postcode": "3528 BT",
-    "phone": "030-2400740",
-    "email": "",
-    "website": "https://www.dierenkliniekutrechtoost.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.0907,
-    "lng": 5.1214,
-    "desc": "Dierenartspraktijk in Utrecht.",
-    "tier": "basic"
-  },
-  {
-    "id": 1416,
-    "name": "Dierenkliniek Utrecht West",
-    "city": "Utrecht",
-    "address": "Grebbeberglaan 2",
-    "postcode": "3527 VX",
-    "phone": "030-2440280",
-    "email": "",
-    "website": "https://www.dierenkliniekutrechtwest.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.0907,
-    "lng": 5.1214,
-    "desc": "Dierenartspraktijk in Utrecht.",
-    "tier": "basic"
-  },
-  {
     "id": 1417,
     "name": "Dierenkliniek Utrecht-Zuilen",
     "city": "Utrecht",
@@ -26995,25 +26027,6 @@
     "desc": "Dierenartspraktijk in Woerden.",
     "tier": "basic",
     "facebook": "https://www.facebook.com/kliniekvoordierenwoerden"
-  },
-  {
-    "id": 1419,
-    "name": "Dierkliniek De Uithof",
-    "city": "Utrecht",
-    "address": "Universiteitsweg 99",
-    "postcode": "3584 CJ",
-    "phone": "030-2535434",
-    "email": "",
-    "website": "https://www.dierkliniekdeuithof.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.0907,
-    "lng": 5.1214,
-    "desc": "Dierenartspraktijk in Utrecht.",
-    "tier": "basic"
   },
   {
     "id": 1420,
@@ -27092,44 +26105,6 @@
     "tier": "basic"
   },
   {
-    "id": 1424,
-    "name": "Dierenkliniek De Pol",
-    "city": "Almelo",
-    "address": "Polweg 2",
-    "postcode": "7601 PE",
-    "phone": "0546-814042",
-    "email": "",
-    "website": "https://www.dierenkliniekdepol.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.3565,
-    "lng": 6.6628,
-    "desc": "Dierenartspraktijk in Almelo.",
-    "tier": "basic"
-  },
-  {
-    "id": 1425,
-    "name": "Dierenartsenpraktijk Denekamp",
-    "city": "Denekamp",
-    "address": "Roossink 15",
-    "postcode": "7591 PR",
-    "phone": "0541-351850",
-    "email": "",
-    "website": "https://www.dapdenekamp.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.3742,
-    "lng": 7.0089,
-    "desc": "Dierenartspraktijk in Denekamp.",
-    "tier": "basic"
-  },
-  {
     "id": 1426,
     "name": "Dierenartsenpraktijk Dinkelland",
     "city": "Enschede",
@@ -27151,25 +26126,6 @@
     "instagram": "https://www.instagram.com/dierenkliniekenschede"
   },
   {
-    "id": 1427,
-    "name": "Dierenkliniek de Zonneberg",
-    "city": "Enschede",
-    "address": "Ossenkoppelerhoek 115",
-    "postcode": "7544 PH",
-    "phone": "053-4365200",
-    "email": "",
-    "website": "https://www.dezonneberg.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.2215,
-    "lng": 6.8937,
-    "desc": "Dierenartspraktijk in Enschede.",
-    "tier": "basic"
-  },
-  {
     "id": 1428,
     "name": "Dierenkliniek Glanerbrug",
     "city": "Enschede",
@@ -27186,102 +26142,6 @@
     "lat": 52.2215,
     "lng": 6.8937,
     "desc": "Dierenartspraktijk in Enschede.",
-    "tier": "basic"
-  },
-  {
-    "id": 1429,
-    "name": "Dierenartsenpraktijk Enschede",
-    "city": "Hengelo",
-    "address": "Bultstraat 3",
-    "postcode": "7553 EZ",
-    "phone": "074-2913060",
-    "email": "",
-    "website": "https://www.dierenartsenenschede.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.2659,
-    "lng": 6.793,
-    "desc": "Dierenartspraktijk in Hengelo.",
-    "tier": "basic"
-  },
-  {
-    "id": 1430,
-    "name": "Dierenkliniek Hengelo Oost",
-    "city": "Hengelo",
-    "address": "Breemarsweg 144",
-    "postcode": "7553 LZ",
-    "phone": "074-2760700",
-    "email": "",
-    "website": "https://www.dierenkliniekhengelooost.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.2659,
-    "lng": 6.793,
-    "desc": "Dierenartspraktijk in Hengelo.",
-    "tier": "basic"
-  },
-  {
-    "id": 1431,
-    "name": "Dierenkliniek Hengelo Noord",
-    "city": "Hengelo",
-    "address": "Bekmeerweg 38",
-    "postcode": "7554 SM",
-    "phone": "074-2420000",
-    "email": "",
-    "website": "https://www.dierenkliniekhengelonrd.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.2659,
-    "lng": 6.793,
-    "desc": "Dierenartspraktijk in Hengelo.",
-    "tier": "basic"
-  },
-  {
-    "id": 1432,
-    "name": "Dierenartsenpraktijk de Stapel Kampen",
-    "city": "Kampen",
-    "address": "Buiten de Veste 10",
-    "postcode": "8261 LA",
-    "phone": "038-3317555",
-    "email": "",
-    "website": "https://www.destapel.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.5425,
-    "lng": 5.92009,
-    "desc": "Dierenartspraktijk in Kampen.",
-    "tier": "basic",
-    "facebook": "https://www.facebook.com/BBDeStapel"
-  },
-  {
-    "id": 1433,
-    "name": "Dierenartsenpraktijk De Pelikaan",
-    "city": "Almelo",
-    "address": "Pelikaanhof 5",
-    "postcode": "7609 CD",
-    "phone": "0546-815101",
-    "email": "",
-    "website": "https://www.depellikaan.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.3565,
-    "lng": 6.6628,
-    "desc": "Dierenartspraktijk in Almelo.",
     "tier": "basic"
   },
   {
@@ -27456,25 +26316,6 @@
     "tier": "basic"
   },
   {
-    "id": 1443,
-    "name": "Dierenkliniek Deventer Noord",
-    "city": "Deventer",
-    "address": "Industrieweg 78",
-    "postcode": "7421 BW",
-    "phone": "0570-619898",
-    "email": "",
-    "website": "https://www.dierenkliniekdeventernoord.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.2661,
-    "lng": 6.1552,
-    "desc": "Dierenartspraktijk in Deventer.",
-    "tier": "basic"
-  },
-  {
     "id": 1444,
     "name": "Dierenkliniek Olst",
     "city": "Olst",
@@ -27551,25 +26392,6 @@
     "tier": "basic"
   },
   {
-    "id": 1448,
-    "name": "Dierenkliniek Alphen aan den Rijn",
-    "city": "Alphen aan den Rijn",
-    "address": "Steekterweg 78",
-    "postcode": "2408 AC",
-    "phone": "0172-422266",
-    "email": "",
-    "website": "https://www.dierenkliniekalphen.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.1359,
-    "lng": 4.66632,
-    "desc": "Dierenartspraktijk in Alphen aan den Rijn.",
-    "tier": "basic"
-  },
-  {
     "id": 1449,
     "name": "Dierenkliniek Barendrecht",
     "city": "Barendrecht",
@@ -27629,44 +26451,6 @@
     "tier": "basic"
   },
   {
-    "id": 1452,
-    "name": "Dierenkliniek Gouda",
-    "city": "Gouda",
-    "address": "Wethouder Venteweg 55",
-    "postcode": "2804 CB",
-    "phone": "0182-513200",
-    "email": "",
-    "website": "https://www.dierenkliniekgouda.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.0114,
-    "lng": 4.7106,
-    "desc": "Dierenartspraktijk in Gouda.",
-    "tier": "basic"
-  },
-  {
-    "id": 1453,
-    "name": "Dierenkliniek Gouda-Noord",
-    "city": "Gouda",
-    "address": "Goudse Rijweg 154",
-    "postcode": "2809 HD",
-    "phone": "0182-572600",
-    "email": "",
-    "website": "https://www.dierenkliniekgoudanoord.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.0114,
-    "lng": 4.7106,
-    "desc": "Dierenartspraktijk in Gouda.",
-    "tier": "basic"
-  },
-  {
     "id": 1454,
     "name": "Dierenkliniek Gorinchem",
     "city": "Gorinchem",
@@ -27685,82 +26469,6 @@
     "desc": "Dierenartspraktijk in Gorinchem.",
     "tier": "basic",
     "facebook": "https://www.facebook.com/DierenziekenhuisGorinchem"
-  },
-  {
-    "id": 1455,
-    "name": "Dierenkliniek Gravenzande",
-    "city": "'s-Gravenzande",
-    "address": "Haagweg 100",
-    "postcode": "2694 DX",
-    "phone": "0174-414200",
-    "email": "",
-    "website": "https://www.dierenkliniek-gravenzande.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.0024,
-    "lng": 4.1721,
-    "desc": "Dierenartspraktijk in 's-Gravenzande.",
-    "tier": "basic"
-  },
-  {
-    "id": 1456,
-    "name": "Dierenkliniek Hendrik-Ido-Ambacht",
-    "city": "Hendrik-Ido-Ambacht",
-    "address": "Middeldiepstraat 85",
-    "postcode": "3342 KE",
-    "phone": "078-6845200",
-    "email": "",
-    "website": "https://www.dierenkliniekHendrik.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 51.8456,
-    "lng": 4.6457,
-    "desc": "Dierenartspraktijk in Hendrik-Ido-Ambacht.",
-    "tier": "basic"
-  },
-  {
-    "id": 1457,
-    "name": "Dierenkliniek Krimpen aan den IJssel",
-    "city": "Krimpen aan den IJssel",
-    "address": "Dr. Albert Schweitzerlaan 19",
-    "postcode": "2922 CK",
-    "phone": "010-4847820",
-    "email": "",
-    "website": "https://www.dierenkliniekkrimpen.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 51.9105,
-    "lng": 4.5854,
-    "desc": "Dierenartspraktijk in Krimpen aan den IJssel.",
-    "tier": "basic"
-  },
-  {
-    "id": 1458,
-    "name": "Dierenkliniek Leiden",
-    "city": "Leiden",
-    "address": "Rooijakkerstraat 9",
-    "postcode": "2312 CJ",
-    "phone": "071-5141200",
-    "email": "",
-    "website": "https://www.dierenkliniekLeiden.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.1601,
-    "lng": 4.497,
-    "desc": "Dierenartspraktijk in Leiden.",
-    "tier": "basic"
   },
   {
     "id": 1459,
@@ -27938,25 +26646,6 @@
     "tier": "basic"
   },
   {
-    "id": 1468,
-    "name": "Dierenkliniek Den Haag-Zuidwest",
-    "city": "Den Haag",
-    "address": "Escamplaan 600",
-    "postcode": "2547 AL",
-    "phone": "070-3993500",
-    "email": "",
-    "website": "https://www.dierenkliniekdenhaagsw.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.0705,
-    "lng": 4.3007,
-    "desc": "Dierenartspraktijk in Den Haag.",
-    "tier": "basic"
-  },
-  {
     "id": 1469,
     "name": "Dierenkliniek Den Haag-Noord",
     "city": "Voorburg",
@@ -27973,25 +26662,6 @@
     "lat": 52.070977,
     "lng": 4.359454,
     "desc": "Dierenartspraktijk in Voorburg.",
-    "tier": "basic"
-  },
-  {
-    "id": 1470,
-    "name": "Dierenkliniek Den Haag Leyenburg",
-    "city": "Den Haag",
-    "address": "Leyweg 5",
-    "postcode": "2545 BM",
-    "phone": "070-3988500",
-    "email": "",
-    "website": "https://www.dierenkliniekleyenburg.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.0705,
-    "lng": 4.3007,
-    "desc": "Dierenartspraktijk in Den Haag.",
     "tier": "basic"
   },
   {
