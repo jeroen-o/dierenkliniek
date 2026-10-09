@@ -14138,15 +14138,14 @@
     "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
   },
   "vetadent-dierentandarts-kerkrade-dierenarts-in-kerkrade": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:00-17:00",
+    "di": "08:00-17:00",
+    "wo": "08:00-17:00",
+    "do": "08:00-17:00",
+    "vr": "08:00-13:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "opgave praktijk, 2026-10-09"
   },
   "dierenarts-voor-koi-drs-meggy-van-sluijs-carati-dierenarts-in-zevenbergen": {
     "ma": "09:00-17:00",
