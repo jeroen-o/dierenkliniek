@@ -21761,6 +21761,24 @@
     "tier": "basic"
   },
   {
+    "id": 1482,
+    "name": "Dierenkliniek de Beestenhoek - Bleiswijk",
+    "city": "Bleiswijk",
+    "address": "Dorpsstraat 87",
+    "postcode": "2665 BH",
+    "phone": "010-5218122",
+    "email": "dierenkliniek@debeestenhoek.nl",
+    "website": "https://www.debeestenhoek.nl/",
+    "rating": 0,
+    "reviews": 0,
+    "specs": [],
+    "tags": [],
+    "lat": 52.0017,
+    "lng": 4.5494,
+    "desc": "Tweede vestiging van Dierenkliniek de Beestenhoek, in Bleiswijk. Volledige zorg voor gezelschapsdieren.",
+    "tier": "basic"
+  },
+  {
     "id": 1142,
     "name": "Dierenkliniek De Bollenstreek B.V.",
     "city": "Noordwijkerhout",

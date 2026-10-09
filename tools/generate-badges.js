@@ -198,7 +198,10 @@ async function svgToPng(browser, svg, size) {
   if (!ontbrekend.length) { console.log('alle klinieken hebben al een badge'); return; }
   console.log(`${ontbrekend.length} klinieken zonder badge, genereren...`);
 
-  const browser = await chromium.launch();
+  // Deze omgeving provisioneert Chromium op een eigen pad dat niet matcht met
+  // wat Playwright standaard verwacht.
+  const exe = '/opt/pw-browsers/chromium';
+  const browser = await chromium.launch(fs.existsSync(exe) ? { executablePath: exe } : {});
   for (const c of ontbrekend) {
     const slug = L.clinicSlug(c);
     const partnerSvg = PARTNER_SVG(c.name);

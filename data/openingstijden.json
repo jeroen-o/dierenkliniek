@@ -10304,14 +10304,14 @@
     "onbevestigd": true
   },
   "dierenkliniek-de-beestenhoek-dierenarts-in-bergschenhoek": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
+    "ma": "08:30-20:00",
+    "di": "08:30-18:00",
+    "wo": "08:30-20:00",
+    "do": "08:30-18:00",
+    "vr": "08:30-20:00",
+    "za": "10:00-12:00",
     "zo": "gesloten",
-    "onbevestigd": true
+    "bron": "opgave praktijk per e-mail, 2026-10-09"
   },
   "dierenkliniek-de-bollenstreek-b-v-dierenarts-in-noordwijkerhout": {
     "ma": "12:30-17:00",
@@ -11014,5 +11014,15 @@
     "za": "gesloten",
     "zo": "gesloten",
     "bron": "opgave praktijk, 2026-09-28 — telefonisch bereikbaar voor afspraken tussen 8-14u (voor dezelfde dag tussen 8-9u bellen); ophalen medicijnen/voer tot 14u30; 24/7 spoedbereikbaar voor eigen patiënten"
+  },
+  "dierenkliniek-de-beestenhoek-bleiswijk-dierenarts-in-bleiswijk": {
+    "ma": "09:00-17:00",
+    "di": "09:00-20:00",
+    "wo": "09:00-17:00",
+    "do": "09:00-20:00",
+    "vr": "09:00-17:00",
+    "za": "gesloten",
+    "zo": "gesloten",
+    "bron": "opgave praktijk per e-mail, 2026-10-09"
   }
 }
