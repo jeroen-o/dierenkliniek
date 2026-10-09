@@ -1,7 +1,7 @@
 # Dierenkliniek.nl — volledige kennisbank
 
 Bron: https://dierenkliniek.nl/kennisbank · Laatst bijgewerkt: 2026-10-09
-408 artikelen, 40 glossariumtermen.
+425 artikelen, 40 glossariumtermen.
 
 Deze tekst is algemene voorlichting voor huisdiereigenaren en vervangt geen
 diagnose van een dierenarts. Bij spoed: bel altijd eerst de kliniek.
@@ -25083,6 +25083,1396 @@ A: Voor honden en katten wordt doorgaans geadviseerd ongeveer vier keer per jaar
 
 V: Is elke kattenbeet reden om naar de huisarts te gaan?
 A: Kattenbeten raken relatief vaak ontstoken — ongeveer de helft — omdat kattentanden smal en scherp zijn en bacteriën diep het weefsel in brengen. Reinig de wond direct goed en raadpleeg bij twijfel, zwelling of roodheid de huisarts of een EHBO-post.
+
+
+--------------------------------------------------------------------------------
+# Parvovirose bij honden: symptomen, behandeling, vaccinatie
+
+URL: https://dierenkliniek.nl/kennisbank/parvovirose-bij-honden-symptomen-behandeling-vaccinatie
+Categorie: Eerste hulp & spoed · Diersoort: Hond · Leestijd: 5 min
+
+Samenvatting: Parvovirose (hondenparvo) is een zeer besmettelijk virus dat vooral puppy's treft met braken en bloederige diarree, en is onbehandeld vaak dodelijk.
+
+## Wat is parvovirose bij honden?
+Parvovirose (hondenparvo) is een zeer besmettelijke virusziekte die vooral de darmwand en het beenmerg aanvalt, met braken, heftige vaak bloederige diarree en snelle uitdroging als belangrijkste signalen. Zonder snelle behandeling is de ziekte, zeker bij puppy's, vaak dodelijk; met tijdige zorg overleeft een groot deel van de honden. Het virus heet het canine parvovirus en komt het meest voor bij puppy's tussen de zes weken en zes maanden oud, maar ook oudere, onvolledig gevaccineerde honden kunnen besmet raken.
+
+## Hoe raakt een hond besmet met parvo?
+Het virus wordt verspreid via de ontlasting van besmette honden en is extreem hardnekkig: het kan maanden tot zelfs jaren overleven in de omgeving, op bodems, speelgoed, kleding en schoenen. Een hond hoeft dus geen direct contact te hebben met een zieke hond om besmet te raken — snuffelen aan besmette grond of ontlasting is al genoeg. Dit maakt parvo bijzonder lastig te bestrijden op plekken waar veel honden samenkomen, zoals parken, pensions en asielen.
+
+## Wat zijn de symptomen van parvo?
+De eerste klachten verschijnen meestal drie tot zeven dagen na besmetting en kunnen razendsnel verergeren. Let op de volgende signalen:
+
+- Lusteloosheid en plotselinge sloomheid
+
+- Volledig verlies van eetlust
+
+- Braken, vaak herhaaldelijk
+
+- Heftige, waterige en vaak bloederige diarree met een kenmerkende, zeer onaangename geur
+
+- Koorts of juist een te lage lichaamstemperatuur
+
+- Snelle uitdroging: ingevallen ogen, droge tandvlees, lusteloosheid
+
+- Buikpijn, zichtbaar aan een gebogen houding of kreunen
+
+Omdat braken en diarree enorm veel vocht en elektrolyten kosten, kan een puppy binnen een dag of twee ernstig uitgedroogd en levensbedreigend ziek worden.
+
+## Wanneer is parvo een spoedgeval?
+Parvovirose is altijd een spoedgeval. Zodra je bij een jonge of onvolledig gevaccineerde hond braken in combinatie met (bloederige) diarree en lusteloosheid ziet, moet je direct contact opnemen met een dierenarts, ook buiten kantooruren. Hoe eerder de behandeling start, hoe groter de overlevingskans. Wacht niet af om te zien of het 'vanzelf overgaat' — bij parvo kan uitstel letterlijk het verschil tussen leven en dood betekenen.
+
+## Hoe wordt parvo vastgesteld en behandeld?
+De dierenarts kan met een sneltest op ontlasting vaak binnen enkele minuten een vermoeden bevestigen. Omdat er geen medicijn is dat het virus zelf doodt, bestaat de behandeling uit intensieve ondersteunende zorg terwijl het lichaam van de hond zelf het virus moet overwinnen. Dit gebeurt meestal met een opname in de kliniek en omvat:
+
+- Intraveneus infuus om uitdroging te bestrijden en elektrolyten aan te vullen
+
+- Medicijnen tegen misselijkheid en braken
+
+- Antibiotica om secundaire bacteriële infecties te voorkomen, omdat de beschadigde darmwand en het verzwakte afweersysteem hier gevoelig voor zijn
+
+- Pijnbestrijding
+
+- Strikte isolatie om verspreiding naar andere honden te voorkomen
+
+De behandeling duurt doorgaans meerdere dagen en is intensief, maar met tijdige en goede zorg overleeft een groot deel van de honden de infectie. Hoe jonger en verzwakter de hond bij aanvang, hoe voorzichtiger de prognose.
+
+## Hoe voorkom je parvo? (vaccinatie)
+De beste bescherming tegen parvo is vaccinatie. Puppy's krijgen daarom al vanaf een leeftijd van zes tot acht weken de eerste entingen, met herhalingen volgens het vaccinatieschema van de dierenarts totdat de bescherming volledig is opgebouwd, meestal rond de zestien weken. Tot die tijd is een puppy nog niet volledig beschermd en is het verstandig om contact met onbekende honden en hun ontlasting te vermijden, en drukke plekken zoals parken nog te mijden. Volwassen honden hebben daarna periodieke herhalingsvaccinaties nodig om beschermd te blijven. Daarnaast helpt het om de omgeving van een besmette hond goed te ontsmetten met een middel dat specifiek werkzaam is tegen parvovirus, omdat gewone schoonmaakmiddelen het virus niet doden.
+
+## Twijfel? Neem contact op
+Herken je bij jouw hond symptomen die wijzen op parvo, wacht dan niet. Neem direct contact op met je dierenarts of een spoedkliniek voor onderzoek en, indien nodig, snelle behandeling.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Is parvo besmettelijk voor andere honden?
+A: Ja, parvo is zeer besmettelijk tussen honden onderling, via direct contact met een zieke hond maar ook indirect via besmette ontlasting, grond, speelgoed, kleding of schoenen. Een besmette hond moet geïsoleerd worden van andere honden.
+
+V: Kan een volwassen, volledig gevaccineerde hond nog parvo krijgen?
+A: Dat is zeldzaam maar niet onmogelijk, bijvoorbeeld bij een verzwakt afweersysteem of wanneer de vaccinatie niet (meer) volledig beschermt. Volwassen honden worden over het algemeen minder ernstig ziek dan puppy's.
+
+V: Is parvo gevaarlijk voor mensen of katten?
+A: Nee, het canine parvovirus is specifiek voor honden (en sommige wilde hondachtigen) en vormt geen risico voor mensen, katten of andere huisdieren.
+
+V: Hoe lang blijft een hond besmettelijk na herstel van parvo?
+A: Een herstelde hond kan nog enkele weken virus uitscheiden via de ontlasting. Overleg met je dierenarts wanneer contact met andere honden weer veilig is.
+
+V: Hoe ontsmet je de omgeving na een parvobesmetting?
+A: Gebruik een desinfectiemiddel dat expliciet werkzaam is tegen parvovirus, bijvoorbeeld op basis van natriumhypochloriet. Gewone zeep of alledaagse schoonmaakmiddelen doden het virus niet voldoende.
+
+
+--------------------------------------------------------------------------------
+# Hondenziekte (distemper) bij honden: symptomen en vaccin
+
+URL: https://dierenkliniek.nl/kennisbank/hondenziekte-distemper-bij-honden-symptomen-en-vaccin
+Categorie: Preventie & vaccinaties · Diersoort: Hond · Leestijd: 5 min
+
+Samenvatting: Hondenziekte (distemper) is een besmettelijk virus dat longen, darmen en zenuwstelsel aantast; vaccinatie beschermt effectief.
+
+## Wat is hondenziekte (distemper)?
+Hondenziekte, ook wel distemper genoemd, is een ernstige, besmettelijke virusziekte die luchtwegen, darmen en uiteindelijk ook het zenuwstelsel kan aantasten, met koorts, hoesten, braken en diarree als vroege signalen. De ziekte wordt veroorzaakt door het canine distembervirus en treft niet alleen honden, maar ook andere diersoorten zoals vossen, wasberen en fretten. Dankzij wijdverbreide vaccinatie komt de ziekte in Nederland minder vaak voor dan vroeger, maar ze duikt nog altijd op, vooral bij onvoldoende gevaccineerde honden en via contact met wilde dieren.
+
+## Hoe verspreidt het distembervirus zich?
+Besmetting gebeurt voornamelijk via druppeltjes uit neus en ogen van een besmet dier, bijvoorbeeld door hoesten, niezen of direct contact. Ook via gedeelde voer- en drinkbakken kan het virus overgaan. Het virus is wat minder hardnekkig in de omgeving dan bijvoorbeeld het parvovirus, maar verspreidt zich snel in groepen honden die dicht bij elkaar leven, zoals in asielen of fokkerijen.
+
+## Wat zijn de symptomen van hondenziekte?
+De ziekte verloopt vaak in fasen en de symptomen kunnen sterk verschillen in ernst:
+
+- Koorts, vaak met wisselende hevigheid
+
+- Loopneus en afscheiding uit de ogen
+
+- Hoesten en benauwdheid door luchtweginfectie
+
+- Braken en diarree
+
+- Verlies van eetlust en vermagering
+
+- Verharding van de neus- en voetzoolhuid (ook wel 'hard pad disease' genoemd)
+
+- In een later stadium: neurologische verschijnselen zoals spiertrekkingen, ongecoördineerde bewegingen, toevallen en verlammingen
+
+Deze neurologische schade kan ook optreden bij honden die de eerste fase van de ziekte goed doorstaan leken te hebben, soms pas weken tot maanden later, en is vaak blijvend.
+
+## Wanneer is hondenziekte een spoedgeval?
+Bij koorts in combinatie met luchtweg- en maag-darmklachten, en zeker bij neurologische verschijnselen zoals trekkingen of coördinatieproblemen, is onmiddellijk dierenartsbezoek noodzakelijk. Neurologische symptomen zijn een teken dat het virus het zenuwstelsel heeft bereikt en vormen altijd een reden voor spoedonderzoek.
+
+## Hoe wordt hondenziekte behandeld?
+De dierenarts stelt de diagnose op basis van het ziektebeeld, aangevuld met laboratoriumonderzoek, bijvoorbeeld van bloed of uitstrijkjes. Net als bij parvo bestaat er geen medicijn dat het virus zelf uitschakelt. De behandeling is daarom ondersteunend en gericht op het bestrijden van symptomen en complicaties:
+
+- Infuustherapie tegen uitdroging
+
+- Antibiotica tegen secundaire bacteriële infecties, vooral van de longen
+
+- Medicatie tegen braken en, indien nodig, tegen toevallen
+
+- Zuurstoftherapie bij ernstige benauwdheid
+
+- Goede verpleging en voeding om het lichaam kracht te geven
+
+De prognose hangt sterk af van hoe ernstig de infectie is en of het zenuwstelsel is aangedaan. Honden met alleen milde luchtweg- of darmklachten herstellen vaker volledig, terwijl neurologische schade vaak blijvend is en de kwaliteit van leven van de hond kan beperken.
+
+## Hoe voorkom je hondenziekte? (vaccinatie)
+Vaccinatie is de meest effectieve manier om hondenziekte te voorkomen en maakt standaard deel uit van het basisvaccinatieschema voor puppy's, met herhalingsvaccinaties op volwassen leeftijd. Omdat ook wilde dieren zoals vossen het virus kunnen verspreiden, blijft vaccinatie belangrijk, ook voor honden die vooral thuis of in minder drukke omgevingen leven. Zorg daarnaast dat je hond niet in contact komt met zwerfhonden of wilde dieren met verdachte symptomen, en houd het vaccinatieschema van je dierenarts aan.
+
+## Twijfel? Neem contact op
+Zie je bij je hond een combinatie van koorts, hoesten, afscheiding uit ogen of neus, of merk je vreemde bewegingen of trekkingen, wacht dan niet af en neem contact op met je dierenarts.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Is hondenziekte gevaarlijk voor mensen?
+A: Nee, het distembervirus is niet overdraagbaar op mensen. Het kan wel andere diersoorten zoals vossen, wasberen en fretten besmetten.
+
+V: Kunnen katten hondenziekte krijgen?
+A: Nee, katten zijn niet gevoelig voor het canine distembervirus; zij hebben hun eigen virussen. Wasberen, vossen en fretten zijn wel gevoelig.
+
+V: Kan een hond hondenziekte overleven zonder blijvende schade?
+A: Ja, zeker als de infectie mild blijft en het zenuwstelsel niet wordt aangetast. Bij neurologische betrokkenheid blijven er echter vaak restverschijnselen zoals spiertrekkingen bestaan.
+
+V: Hoe lang na besmetting kunnen neurologische klachten optreden?
+A: Dat kan variëren van enkele dagen tot meerdere weken of zelfs maanden na de eerste besmetting, ook als de hond daarvoor leek te herstellen.
+
+V: Beschermt één vaccinatie mijn puppy al volledig tegen hondenziekte?
+A: Nee, puppy's hebben een reeks vaccinaties nodig volgens het schema van de dierenarts voordat de bescherming volledig is opgebouwd.
+
+
+--------------------------------------------------------------------------------
+# Kennelhoest bij honden: oorzaak, symptomen en behandeling
+
+URL: https://dierenkliniek.nl/kennisbank/kennelhoest-bij-honden-oorzaak-symptomen-en-behandeling
+Categorie: Preventie & vaccinaties · Diersoort: Hond · Leestijd: 4 min
+
+Samenvatting: Kennelhoest geeft een hardnekkige, droge hoest en is zeer besmettelijk tussen honden, maar meestal niet gevaarlijk.
+
+## Wat is kennelhoest?
+Kennelhoest, officieel infectieuze tracheobronchitis genoemd, is een besmettelijke ontsteking van de luchtpijp en de luchtwegen bij honden, die zich uit in een plotselinge, droge, hese hoest. De ziekte wordt veroorzaakt door verschillende virussen en bacteriën, waarvan de bacterie Bordetella bronchiseptica en het canine parainfluenzavirus de bekendste zijn, en is bij een verder gezonde hond meestal niet gevaarlijk. De naam komt van het feit dat de ziekte zich snel verspreidt op plekken waar veel honden samenkomen, zoals kennels, pensions, trainingsgroepen en hondenscholen.
+
+## Hoe verspreidt kennelhoest zich?
+De infectie verspreidt zich via de lucht, door hoesten en niezen, en via gedeelde voer- en waterbakken of speelgoed. Honden die dicht bij elkaar verblijven, lopen het grootste risico, maar ook een enkele ontmoeting met een besmette hond tijdens een wandeling kan al genoeg zijn.
+
+## Wat zijn de symptomen van kennelhoest?
+Het meest kenmerkende symptoom is een plotselinge, droge, hese hoest die soms klinkt als een gans of alsof de hond iets in de keel heeft vastzitten. Andere mogelijke verschijnselen zijn:
+
+- Hoestbuien, vaak uitgelokt door opwinding, inspanning of druk op de halsband
+
+- Soms kokhalzen of opgeven van wit slijm na een hoestbui
+
+- Milde loopneus of tranende ogen
+
+- Lichte lusteloosheid, al blijft de eetlust meestal goed
+
+- In milde gevallen verder een vrijwel normaal gedrag
+
+Bij de meeste honden blijft de ziekte beperkt tot deze vervelende, aanhoudende hoest die enkele dagen tot ongeveer twee weken kan duren.
+
+## Wanneer is kennelhoest een spoedgeval?
+Kennelhoest is bij een verder gezonde volwassen hond meestal niet gevaarlijk en gaat vaak vanzelf over. Let wel op alarmsignalen die wijzen op een ernstiger verloop, zoals longontsteking, en neem dan direct contact op met de dierenarts:
+
+- Koorts
+
+- Duidelijke benauwdheid of snelle, moeizame ademhaling
+
+- Volledig verlies van eetlust of ernstige lusteloosheid
+
+- Aanhoudend hoesten dat na twee weken niet verbetert of juist verergert
+
+Pups, oudere honden en honden met een onderliggende longaandoening of verzwakt afweersysteem lopen een hoger risico op complicaties en moeten bij twijfel sneller gezien worden.
+
+## Hoe wordt kennelhoest behandeld?
+De dierenarts stelt de diagnose meestal op basis van het typische hoestpatroon en de voorgeschiedenis, zoals recent verblijf in een pension of bezoek aan de hondenschool. Bij een milde infectie is vaak geen specifieke behandeling nodig, behalve rust en het vermijden van drukte op de luchtpijp, bijvoorbeeld door tijdelijk een tuigje in plaats van een halsband te gebruiken. Bij een hardnekkiger verloop of wanneer een bacteriële component wordt vermoed, kan de dierenarts antibiotica voorschrijven, eventueel aangevuld met hoestremmers of ontstekingsremmende medicatie. Bij verdenking op longontsteking is intensievere behandeling nodig, soms met opname.
+
+## Hoe voorkom je kennelhoest? (vaccinatie)
+Er bestaat een vaccin tegen de belangrijkste veroorzakers van kennelhoest, vaak toegediend als neusdruppel of via een injectie. Dit vaccin wordt met name aangeraden voor honden die regelmatig in contact komen met andere honden, bijvoorbeeld via een hondenpension, trimsalon, hondenschool of hondenuitlaatservice; sommige pensions eisen deze vaccinatie zelfs verplicht. Omdat het vaccin niet tegen alle mogelijke oorzaken van kennelhoest beschermt, kan een gevaccineerde hond soms toch milde klachten krijgen, maar het verloop is dan meestal lichter. Goede hygiëne en het mijden van contact met zichtbaar hoestende honden helpen eveneens om verspreiding te beperken.
+
+## Twijfel? Neem contact op
+Hoest je hond opvallend en aanhoudend, zeker na contact met andere honden, laat dit dan beoordelen door de dierenarts, vooral wanneer er koorts, benauwdheid of lusteloosheid bij komt.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Is kennelhoest besmettelijk voor andere honden?
+A: Ja, kennelhoest is zeer besmettelijk tussen honden onderling, via de lucht en via gedeelde bakken of speelgoed. Houd een hoestende hond daarom uit de buurt van andere honden.
+
+V: Is kennelhoest gevaarlijk voor mensen of katten?
+A: Nee, kennelhoest is specifiek voor honden en wordt niet overgedragen op mensen. Katten kunnen in zeldzame gevallen door Bordetella bronchiseptica worden besmet, maar dit is ongewoon.
+
+V: Hoe lang is een hond met kennelhoest besmettelijk voor andere honden?
+A: Dat kan oplopen tot enkele weken, ook nadat de hoest zelf al minder is geworden. Houd bij twijfel contact met andere honden nog even beperkt.
+
+V: Mag mijn hond nog wandelen met kennelhoest?
+A: Korte, rustige wandelingen kunnen meestal wel, maar vermijd drukke plekken met veel andere honden en laat opwinding en zware inspanning achterwege, omdat dit hoestbuien uitlokt.
+
+V: Beschermt het kennelhoestvaccin voor 100 procent?
+A: Nee, het vaccin vermindert de kans op besmetting en vooral de ernst van de klachten, maar beschermt niet tegen alle mogelijke verwekkers van kennelhoest.
+
+
+--------------------------------------------------------------------------------
+# Leptospirose bij honden: symptomen en risico voor mensen
+
+URL: https://dierenkliniek.nl/kennisbank/leptospirose-bij-honden-symptomen-en-risico-voor-mensen
+Categorie: Eerste hulp & spoed · Diersoort: Hond · Leestijd: 5 min
+
+Samenvatting: Leptospirose is een bacteriële infectie die nieren en lever aantast en als zoönose ook op mensen kan overgaan. Vaccinatie is beschikbaar.
+
+## Wat is leptospirose bij honden?
+Leptospirose is een bacteriële infectieziekte die vooral de nieren en de lever aantast, met koorts, braken, verhoogde dorst en soms gele verkleuring van het tandvlees als kenmerkende signalen. De ziekte wordt veroorzaakt door bacteriën van het geslacht Leptospira en wordt bij mensen ook wel de ziekte van Weil genoemd. Leptospirose is een zoönose, wat betekent dat de ziekte kan overgaan van dier op mens, en kan bij honden snel levensbedreigend worden door acuut nier- of leverfalen.
+
+## Hoe raakt een hond besmet met leptospirose?
+Leptospira-bacteriën worden voornamelijk verspreid via de urine van besmette dieren, met knaagdieren zoals ratten als belangrijkste bron. De bacterie kan lange tijd overleven in vochtige omgevingen zoals plassen, sloten, moerasachtig terrein en vochtige grond. Een hond kan besmet raken door:
+
+- Drinken van of spelen in besmet (stilstaand) water
+
+- Contact met urine van besmette knaagdieren of andere honden
+
+- Wondjes in de huid waar de bacterie doorheen kan binnendringen
+
+Honden die veel buiten zijn, graven, jagen of zwemmen in natuurlijk water lopen een hoger risico.
+
+## Wat zijn de symptomen van leptospirose?
+De symptomen van leptospirose zijn nogal uiteenlopend en kunnen variëren van mild tot zeer ernstig, afhankelijk van welke organen het sterkst worden aangetast:
+
+- Koorts en algehele malaise
+
+- Braken en verminderde eetlust
+
+- Verhoogde dorst en verandering in de hoeveelheid urine, soms juist veel minder plassen
+
+- Vermoeidheid en spierpijn, zichtbaar aan een stijve of pijnlijke gang
+
+- Gele verkleuring van tandvlees, huid of ogen (gelbzucht), wat wijst op leverschade
+
+- In ernstige gevallen: bloedingen, ademhalingsproblemen en acuut nierfalen
+
+## Wanneer is leptospirose een spoedgeval?
+Leptospirose kan zeer snel verslechteren tot een levensbedreigende situatie door acuut nier- of leverfalen. Bij koorts, braken, lusteloosheid en vooral bij een duidelijke verandering in plasgedrag (veel minder of juist veel meer plassen) of geel verkleurd tandvlees, is direct dierenartsbezoek noodzakelijk. Wacht niet af, want schade aan nieren en lever kan al binnen enkele dagen ernstig en blijvend worden.
+
+## Hoe wordt leptospirose vastgesteld en behandeld?
+De diagnose wordt gesteld met bloed- en urineonderzoek, waarbij de dierenarts kijkt naar de nier- en leverfunctie en specifieke tests gebruikt om de bacterie aan te tonen. Behandeling bestaat meestal uit:
+
+- Antibiotica, die effectief zijn tegen de bacterie zelf
+
+- Intraveneus infuus om uitdroging te bestrijden en de nierfunctie te ondersteunen
+
+- Ondersteunende zorg bij braken, pijn en eventuele leverproblemen
+
+- In ernstige gevallen met nierfalen: intensieve behandeling, soms inclusief dialyse in gespecialiseerde klinieken
+
+Hoe eerder de behandeling start, hoe beter de prognose. Bij ernstige orgaanschade kan de ziekte echter ook met behandeling fataal zijn of blijvende nierschade achterlaten.
+
+## Is leptospirose besmettelijk voor mensen?
+Omdat leptospirose een zoönose is, is het belangrijk om voorzichtig te zijn met de urine van een besmette hond. Draag handschoenen bij het opruimen van urine of ontlasting, was je handen goed en ontsmet oppervlakken waar de hond heeft geplast. Overleg bij twijfel met de dierenarts of huisarts over de nodige voorzorgsmaatregelen, zeker als er kinderen of mensen met een verminderde weerstand in huis zijn.
+
+## Hoe voorkom je leptospirose? (vaccinatie)
+Er is een vaccin beschikbaar tegen de meest voorkomende varianten van de Leptospira-bacterie, en dit maakt vaak deel uit van het reguliere vaccinatieschema, met jaarlijkse herhaling. Omdat er meerdere varianten van de bacterie bestaan en niet elk vaccin tegen alle varianten beschermt, is het zinvol om met de dierenarts te overleggen welk vaccin het beste past bij het risico in jouw regio. Daarnaast helpt het om je hond niet te laten drinken uit plassen, sloten of ander stilstaand water, en knaagdieren rond huis en tuin zoveel mogelijk te weren.
+
+## Twijfel? Neem contact op
+Zie je bij je hond koorts, braken, veranderd plasgedrag of gele verkleuring van het tandvlees, neem dan direct contact op met de dierenarts.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Kan ik leptospirose van mijn hond krijgen?
+A: Ja, leptospirose is een zoönose en kan via urine van een besmette hond op mensen overgaan. Goede hygiëne, zoals handen wassen en handschoenen gebruiken bij het opruimen van urine, is daarom belangrijk.
+
+V: Is leptospirose in Nederland een groot risico voor honden?
+A: De bacterie komt in Nederland voor, vooral in gebieden met veel knaagdieren of stilstaand water. Het risico is reëel genoeg dat vaccinatie standaard wordt aangeraden, zeker voor honden die veel buiten en bij water komen.
+
+V: Hoe snel na besmetting worden honden ziek van leptospirose?
+A: De incubatietijd is meestal enkele dagen tot ongeveer twee weken, waarna de symptomen vaak redelijk plotseling optreden.
+
+V: Beschermt het vaccin tegen alle vormen van leptospirose?
+A: Nee, er bestaan meerdere varianten van de bacterie en een vaccin beschermt niet automatisch tegen allemaal. Overleg met je dierenarts welke varianten in het gebruikte vaccin zitten.
+
+V: Kan een hond die herstelt van leptospirose nog nierschade overhouden?
+A: Ja, bij ernstige infecties kan blijvende nier- of leverschade overblijven, ook na succesvolle behandeling. Periodieke controle van de nierfunctie kan dan nodig zijn.
+
+
+--------------------------------------------------------------------------------
+# Baarmoederontsteking (pyometra) bij honden: spoedgeval
+
+URL: https://dierenkliniek.nl/kennisbank/baarmoederontsteking-pyometra-bij-honden-spoedgeval
+Categorie: Eerste hulp & spoed · Diersoort: Hond · Leestijd: 5 min
+
+Samenvatting: Pyometra is een baarmoederontsteking bij ongesteriliseerde teven die onbehandeld binnen dagen levensbedreigend kan worden.
+
+## Wat is pyometra bij honden?
+Pyometra is een ernstige bacteriële ontsteking van de baarmoeder bij ongesteriliseerde teven, waarbij de baarmoeder zich vult met pus; dit is een acuut spoedgeval dat onbehandeld kan leiden tot bloedvergiftiging of een scheur in de baarmoeder. De aandoening ontstaat meestal enkele weken tot maanden na de laatste loopsheid, wanneer hormonale veranderingen de baarmoederwand gevoeliger maken voor bacteriële infecties.
+
+## Welke teven lopen risico op pyometra?
+Pyometra komt vooral voor bij oudere, ongesteriliseerde teven, maar kan in principe op elke leeftijd na de eerste loopsheid optreden. Het risico neemt toe met de leeftijd en met het aantal loopsheidscycli dat een teef heeft doorgemaakt zonder drachtig te zijn geworden. Teven die hormonale middelen hebben gekregen om loopsheid uit te stellen, hebben eveneens een verhoogd risico.
+
+## Wat zijn de symptomen van pyometra?
+De verschijnselen van pyometra kunnen per hond verschillen, onder andere afhankelijk van of de baarmoederhals nog open is (waardoor pus naar buiten kan lopen) of gesloten is (waardoor alle pus binnen blijft en de buik opzwelt). Let op:
+
+- Afscheiding uit de vulva: bij een open vorm vaak bruinrode tot etterige, onaangenaam ruikende afscheiding
+
+- Opgezette of dikke buik, vooral bij de gesloten vorm
+
+- Verhoogde dorst en meer plassen
+
+- Lusteloosheid en verminderde eetlust
+
+- Koorts, al ontbreekt deze soms juist bij een ernstig ziek dier
+
+- Braken
+
+- Algehele zwakte, soms snel verergerend
+
+De gesloten vorm is extra gevaarlijk, omdat er geen zichtbare afscheiding is die op een probleem wijst, waardoor eigenaren de ernst van de situatie makkelijker onderschatten totdat de teef al flink ziek is.
+
+## Wanneer is pyometra een spoedgeval?
+Pyometra is altijd een spoedgeval. Zodra een ongesteriliseerde teef binnen een paar maanden na een loopsheid klachten vertoont zoals afscheiding uit de vulva, een bolle buik, lusteloosheid, verminderde eetlust of koorts, moet ze direct door een dierenarts worden onderzocht. Onbehandeld kan de aandoening binnen enkele dagen leiden tot bloedvergiftiging, orgaanfalen of een scheur in de baarmoeder, met levensgevaar als gevolg.
+
+## Hoe wordt pyometra behandeld?
+De dierenarts stelt de diagnose vaak op basis van de voorgeschiedenis (recente loopsheid), lichamelijk onderzoek, bloedonderzoek en echografie van de buik, waarmee een gezwollen, met vocht gevulde baarmoeder goed zichtbaar is. De voorkeursbehandeling is een spoedoperatie waarbij de baarmoeder en eierstokken worden verwijderd (ovariohysterectomie), vergelijkbaar met een sterilisatie maar dan onder spoedomstandigheden en met een zieke patiënt, wat het risico van de operatie verhoogt. Daarnaast krijgt de teef meestal:
+
+- Intraveneus infuus om de teef te stabiliseren vóór en na de operatie
+
+- Antibiotica tegen de bacteriële infectie
+
+- Pijnbestrijding
+
+- Intensieve nazorg en monitoring, zeker als er al tekenen van bloedvergiftiging waren
+
+In zeldzame gevallen, bijvoorbeeld bij een teef die nog voor de fok wordt ingezet, kan een dierenarts overwegen om medicamenteus te behandelen in plaats van te opereren, maar dit is risicovoller, werkt niet altijd en de kans op terugkeer van pyometra bij een volgende loopsheid blijft dan bestaan. Een operatie blijft daarom de meest betrouwbare en meest aanbevolen oplossing.
+
+## Hoe voorkom je pyometra?
+De meest effectieve manier om pyometra te voorkomen is het laten steriliseren van de teef (het verwijderen van baarmoeder en eierstokken), meestal op jongvolwassen leeftijd. Een gesteriliseerde teef kan geen pyometra meer krijgen omdat de baarmoeder niet meer aanwezig is. Bespreek met je dierenarts wat het beste moment is voor sterilisatie, afhankelijk van ras, grootte en gezondheid van je hond, en wat de voor- en nadelen zijn als je overweegt je teef niet te laten steriliseren.
+
+## Twijfel? Neem contact op
+Merk je bij je ongesteriliseerde teef afscheiding, een bolle buik, lusteloosheid of koorts na een recente loopsheid, wacht dan niet en neem direct contact op met de dierenarts.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Kan een gesteriliseerde teef nog pyometra krijgen?
+A: Nee, als zowel de baarmoeder als de eierstokken zijn verwijderd, kan pyometra niet meer optreden omdat het orgaan dat ontstoken raakt, er niet meer is.
+
+V: Is pyometra altijd te zien aan afscheiding?
+A: Nee, bij de gesloten vorm blijft de baarmoederhals dicht en is er geen zichtbare afscheiding, terwijl de situatie wel levensbedreigend kan zijn. Let daarom ook op een bolle buik, lusteloosheid en verminderde eetlust.
+
+V: Hoe snel na loopsheid kan pyometra ontstaan?
+A: Meestal treedt het op binnen vier tot twaalf weken na het einde van de loopsheid, maar de precieze periode kan per hond verschillen.
+
+V: Is de operatie bij pyometra risicovoller dan een gewone sterilisatie?
+A: Ja, omdat de teef al ziek is, de baarmoeder gezwollen en fragiel is, en er kans is op bloedvergiftiging. Een snelle ingreep verkleint de risico's aanzienlijk vergeleken met wachten.
+
+V: Kan pyometra ook bij heel jonge honden voorkomen?
+A: Het komt vooral voor bij oudere teven, maar kan in theorie bij elke ongesteriliseerde teef na de eerste loopsheid ontstaan, ook op jongere leeftijd.
+
+
+--------------------------------------------------------------------------------
+# Patellaluxatie bij honden: losse knieschijf, oorzaak en behandeling
+
+URL: https://dierenkliniek.nl/kennisbank/patellaluxatie-bij-honden-losse-knieschijf-oorzaak-en-behandeling
+Categorie: Puppy, volwassen, senior · Diersoort: Hond · Leestijd: 5 min
+
+Samenvatting: Patellaluxatie is een losse knieschijf die uit positie glipt; vooral kleine hondenrassen zijn hiervoor gevoelig.
+
+## Wat is patellaluxatie bij honden?
+Patellaluxatie is een aandoening waarbij de knieschijf (patella) niet op haar vaste plek in een groefje van het dijbeen blijft liggen, maar naar binnen of naar buiten uit die groef glipt, meestal zichtbaar als het af en toe intrekken van een achterpoot tijdens het lopen. De aandoening is meestal aangeboren of erfelijk en komt veel vaker voor bij kleine en middelgrote hondenrassen, zoals chihuahua's, yorkshireterriërs, pomeranians en franse bulldogs.
+
+## Wat veroorzaakt patellaluxatie?
+Patellaluxatie is meestal een aangeboren of erfelijke aandoening, al kan ze in zeldzamere gevallen ook ontstaan door een trauma zoals een val of botsing. De aandoening komt veel vaker voor bij kleine en middelgrote hondenrassen, al kunnen ook grotere rassen last hebben van met name de naar buiten luxerende variant. Vaak is al op jonge leeftijd, soms al als puppy, te zien dat er iets niet helemaal in orde is met de beweging van een achterpoot.
+
+## Welke gradaties van patellaluxatie zijn er?
+Dierenartsen verdelen patellaluxatie meestal in vier graden, van licht naar ernstig:
+
+- Graad 1: de knieschijf kan met de hand uit positie worden geduwd, maar schiet daarna vanzelf weer terug; de hond heeft in het dagelijks leven zelden klachten
+
+- Graad 2: de knieschijf schiet af en toe spontaan uit positie, bijvoorbeeld bij bepaalde bewegingen, en gaat soms vanzelf weer terug
+
+- Graad 3: de knieschijf staat meestal buiten positie, maar kan met de hand terug op zijn plek worden gezet
+
+- Graad 4: de knieschijf staat permanent uit positie en kan niet meer teruggezet worden
+
+Hoe hoger de graad, hoe groter de kans op blijvende kreupelheid en op slijtage van het kniegewricht op de lange termijn.
+
+## Wat zijn de symptomen van patellaluxatie?
+De meest kenmerkende verschijnselen zijn:
+
+- Af en toe plotseling 'overslaan' of huppelen op drie poten, waarbij de aangedane achterpoot even wordt opgetrokken
+
+- Na een paar passen weer normaal lopen, alsof er niets gebeurd is (typisch bij lichtere gradaties)
+
+- Stijfheid na rust, vooral bij oudere honden met al wat gewrichtsslijtage
+
+- Bij ernstigere gradaties: een duidelijk afwijkende, wat 'knikkende' manier van lopen of structureel minder steunen op de aangedane poot
+
+## Wanneer is patellaluxatie een spoedgeval?
+Patellaluxatie op zichzelf is meestal geen acuut spoedgeval, omdat het vaak een sluipend en chronisch verlopend probleem is. Toch zijn er situaties waarin je wel snel een dierenarts moet raadplegen:
+
+- De hond kan plotseling helemaal niet meer steunen op de poot
+
+- Er is duidelijke pijn, zwelling of warmte rond de knie, wat kan wijzen op een bijkomend letsel zoals een gescheurde kruisband
+
+- De klachten verergeren snel in korte tijd
+
+In die gevallen is nader onderzoek nodig om andere of bijkomende problemen aan het kniegewricht uit te sluiten.
+
+## Hoe wordt patellaluxatie behandeld?
+De dierenarts stelt de diagnose meestal door de knie te onderzoeken en te voelen of, en hoe makkelijk, de knieschijf uit positie te bewegen is, aangevuld met röntgenonderzoek om de gradatie en de stand van het gewricht goed te beoordelen. De behandeling hangt sterk af van de ernst:
+
+- Bij lichte gradaties (1 en soms 2) met weinig klachten kan afwachtend beleid, gewichtscontrole en opbouw van spiermassa rond de knie vaak voldoende zijn
+
+- Bij matige tot ernstige gradaties (2 tot 4), of wanneer de hond merkbaar hinder ondervindt, wordt meestal een operatie aangeraden om de knieschijf weer op zijn plek te krijgen en te houden, bijvoorbeeld door het groefje te verdiepen of de aanhechting van een pees te verplaatsen
+
+- Na een operatie is een periode van rust en gecontroleerde revalidatie nodig om het gewricht goed te laten herstellen
+
+Zonder behandeling kan een ernstige, langdurige patellaluxatie leiden tot chronische pijn en versnelde slijtage (artrose) van het kniegewricht.
+
+## Is patellaluxatie te voorkomen?
+Omdat patellaluxatie vaak erfelijk is, is verantwoord fokbeleid de belangrijkste manier om de aandoening in bepaalde rassen te verminderen. Als eigenaar kun je zelf bijdragen door je hond op een gezond gewicht te houden, omdat overgewicht extra druk op de knieën legt, en door overbelasting op jonge leeftijd (zoals te intensief springen bij puppy's) te vermijden. Bij rassen die gevoelig zijn voor de aandoening is het verstandig om de knieën al vroeg door de dierenarts te laten controleren.
+
+## Twijfel? Neem contact op
+Zie je dat je hond regelmatig een achterpoot optrekt tijdens het lopen of springen, laat dit dan beoordelen door de dierenarts om de gradatie vast te stellen en samen te bepalen welke aanpak het beste past.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Moet elke hond met patellaluxatie geopereerd worden?
+A: Nee, bij lichte gradaties met weinig tot geen klachten kiezen dierenartsen vaak voor afwachtend beleid met gewichtscontrole en spierversterking. Bij duidelijke klachten of hogere gradaties wordt een operatie vaker aangeraden.
+
+V: Welke hondenrassen krijgen het vaakst patellaluxatie?
+A: Vooral kleine en middelgrote rassen zoals chihuahua's, yorkshireterriërs, pomeranians en franse bulldogs, omdat de aanleg bij deze rassen vaker erfelijk voorkomt.
+
+V: Kan patellaluxatie aan één poot leiden tot problemen in de andere poot?
+A: Ja, omdat de hond de andere achterpoot vaak extra belast ter compensatie, wat het risico op overbelasting en slijtage aan die poot kan vergroten.
+
+V: Hoe lang duurt het herstel na een operatie aan de knieschijf?
+A: Dit verschilt per hond en type ingreep, maar reken doorgaans op enkele weken rust gevolgd door geleidelijke, begeleide revalidatie voordat de poot weer volledig belast mag worden.
+
+V: Is patellaluxatie te voorkomen door training of voeding?
+A: Niet volledig, omdat de aanleg vaak erfelijk is, maar een gezond gewicht en het vermijden van overbelasting op jonge leeftijd kunnen wel helpen om klachten te beperken of uit te stellen.
+
+
+--------------------------------------------------------------------------------
+# Hernia bij honden (IVDD): symptomen en spoedbehandeling
+
+URL: https://dierenkliniek.nl/kennisbank/hernia-bij-honden-ivdd-symptomen-en-spoedbehandeling
+Categorie: Eerste hulp & spoed · Diersoort: Hond · Leestijd: 4 min
+
+Samenvatting: Hernia (IVDD) bij honden geeft rugpijn, zwakte of verlamming door druk op het ruggenmerg. Bij uitval van de poten: direct naar de dierenarts.
+
+## Wat is een hernia (IVDD) bij honden?
+Een hernia bij honden, in vaktaal tussenwervelschijfaandoening of IVDD, ontstaat wanneer een tussenwervelschijf in de rug scheurt of verzakt en tegen het ruggenmerg drukt. Dit geeft plotselinge rugpijn en kan leiden tot zwakte, wankel lopen of volledige verlamming van de achterpoten. De aandoening komt het vaakst voor bij honden met korte poten en een lang lijf, zoals de teckel, en verlamming is altijd een spoedgeval.
+Tussen de wervels liggen kleine, schokdempende kussentjes met een stevige buitenkant en een zachtere, geleiachtige kern. Bij IVDD scheurt of verzwakt die buitenkant, waardoor de kern naar buiten puilt of doorbreekt en op het ruggenmerg of de omliggende zenuwen drukt. Hoe meer druk, hoe ernstiger de uitval van de zenuwfunctie.
+
+### Welke hondenrassen hebben het meeste risico op hernia?
+Rassen met relatief korte poten en een lang lijf zijn sterk oververtegenwoordigd: de teckel, de basset, de Franse bulldog, de Pekingees, de Shih Tzu en de Welsh Corgi. Bij deze zogeheten chondrodystrofe rassen is de tussenwervelschijf al vanaf jonge leeftijd kwetsbaarder en verkalkt eerder, waardoor een hernia soms al ontstaat bij iets onschuldigs als een sprongetje van de bank. Bij grotere rassen, zoals de Duitse herder of de Dobermann, ontstaat een hernia vaak geleidelijker door slijtage op oudere leeftijd.
+
+### Wat zijn de symptomen van een hernia bij de hond?
+De verschijnselen lopen sterk uiteen, van mild tot zeer ernstig:
+
+- Pijn in de rug of nek: een gebogen rug, niet meer willen springen of traplopen, kreunen bij optillen, een gespannen buik.
+
+- Verminderde eetlust of lusteloosheid, soms gepaard met trillen.
+
+- Wankele of slepende achterpoten: de hond loopt onvast, sleept met de nagels over de grond of kruist met de poten.
+
+- Plotselinge verlamming van een of beide achterpoten, waarbij de hond niet meer kan staan of lopen.
+
+- Verlies van controle over blaas of darmen, of juist niet meer kunnen plassen.
+
+### Wanneer is een hernia bij de hond een spoedgeval?
+Plotselinge verlamming, verlies van gevoel in de poten, of het niet meer kunnen plassen zijn altijd spoedsignalen. Hoe langer het ruggenmerg onder druk staat, hoe groter de kans op blijvende schade. Een simpele test: knijp voorzichtig tussen de tenen van een achterpoot. Trekt de hond de poot niet terug en kijkt hij niet om, dan is het dieper gevoel mogelijk al verdwenen en is haast geboden. Ook bij hevige, acute pijn zonder duidelijke uitval is dezelfde dag een dierenarts bezoeken verstandig, want de situatie kan snel verslechteren.
+
+## Hoe wordt een hernia bij honden behandeld?
+De dierenarts beoordeelt eerst pijn, reflexen en bewegingscontrole. Voor een definitieve diagnose en exacte locatie is vaak een CT-scan of MRI nodig, meestal bij een gespecialiseerde kliniek. Bij lichte gevallen, waarbij de hond nog kan lopen, bestaat de behandeling uit strikte rust (crate rust, enkele weken), pijnstilling en ontstekingsremmers (conservatieve behandeling). Bij matige tot ernstige uitval is een spoedoperatie vaak de beste optie: het uitgepuilde schijfmateriaal wordt verwijderd om de druk op het ruggenmerg weg te nemen. Hoe sneller dit gebeurt na het verlies van gevoel, hoe beter de kans op herstel; na ongeveer 24 tot 48 uur zonder dieper gevoel neemt de kans op volledig herstel sterk af.
+
+### Hoe verloopt het herstel na een hernia-operatie?
+Na een operatie of tijdens conservatieve behandeling is rust essentieel: geen rennen, springen of traplopen gedurende meerdere weken. Fysiotherapie en hydrotherapie (zwemmen of lopen op een onderwaterloopband) ondersteunen het herstel van spierkracht en coördinatie. Honden met blijvende zwakte redden het vaak goed met een harnas met handvat of, in hardnekkige gevallen, een hondenrolstoel.
+
+## Hoe voorkom je een hernia bij je hond?
+Volledig voorkomen kan niet altijd, vooral niet bij rassen met aanleg, maar het risico is wel te verkleinen. Houd het gewicht van de hond op peil, want overgewicht belast de rug extra. Vermijd bij risicorassen onnodig springen van hoge meubels of uit de auto, gebruik een opstapje, en til de hond correct op met ondersteuning van zowel borst als achterwerk. Bij teckel-achtige honden die al eerder rugklachten hebben gehad, is voorzichtigheid dubbel belangrijk, want een eerste hernia verhoogt de kans op een volgende.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Kan een hernia bij honden ook zonder operatie genezen?
+A: Bij lichte klachten zonder noemenswaardige uitval herstelt een deel van de honden goed met strikte rust en medicatie. Bij ernstige uitval of verlamming is de kans op herstel zonder operatie veel kleiner.
+
+V: Hoe lang duurt het herstel na een hernia-operatie bij een hond?
+A: De eerste weken na de operatie is strikte rust nodig. Volledig herstel, inclusief opbouw van spierkracht, duurt meestal twee tot drie maanden, soms langer bij ernstigere gevallen.
+
+V: Is een hernia bij honden erfelijk?
+A: De aanleg voor vroege verkalking van de tussenwervelschijven, zoals bij de teckel, is grotendeels erfelijk bepaald. Fokkers kunnen hierop selecteren, maar een garantie tegen hernia geeft dit niet.
+
+V: Kan een hond na een hernia weer normaal lopen?
+A: Veel honden herstellen goed, vooral als snel is ingegrepen. Bij blijvende zwakte zijn hulpmiddelen en aangepaste fysiotherapie vaak voldoende voor een goede kwaliteit van leven.
+
+V: Moet ik met mijn hond naar de dierenarts bij alleen af en toe kreunen bij het opstaan?
+A: Ja, ook milde of wisselende rugpijn is een signaal om te laten controleren, want het kan wijzen op een beginnende hernia die bij vroege behandeling beter te managen is.
+
+
+--------------------------------------------------------------------------------
+# Cushing en Addison bij honden: bijnierziekten vergeleken
+
+URL: https://dierenkliniek.nl/kennisbank/cushing-en-addison-bij-honden-bijnierziekten-vergeleken
+Categorie: Praktische zaken · Diersoort: Hond · Leestijd: 4 min
+
+Samenvatting: Cushing geeft te veel, Addison te weinig bijnierhormoon bij honden. Verschillende symptomen, verschillende behandeling, beide goed te managen.
+
+## Wat is het verschil tussen Cushing en Addison bij honden?
+Cushing (hyperadrenocorticisme) en Addison (hypoadrenocorticisme) zijn tegenovergestelde bijnierziekten bij honden. Bij Cushing maken de bijnieren te veel cortisol aan, wat leidt tot veel drinken en plassen, een hangbuik en haaruitval. Bij Addison maken de bijnieren juist te weinig cortisol (en aldosteron) aan, wat zwakte, braken en in ernstige gevallen een levensbedreigende crisis veroorzaakt. Beide aandoeningen zijn met levenslange medicatie goed te behandelen, maar vereisen een andere aanpak.
+Boven elke nier van een hond ligt een klein orgaan, de bijnier, dat onder andere cortisol aanmaakt: een hormoon met invloed op stressreacties, stofwisseling, immuunsysteem en bloeddruk. Omdat Cushing en Addison in feite tegenovergestelde verstoringen van hetzelfde systeem zijn, zien ze er in de praktijk heel anders uit.
+
+## Wat zijn de symptomen van Cushing bij honden?
+
+### Wat veroorzaakt Cushing bij honden?
+Cushing ontstaat meestal op een van twee manieren. Het vaakst (zo'n 80 tot 85 procent van de gevallen) is er een klein, meestal goedaardig gezwelletje in de hypofyse, het kliertje in de hersenen dat de bijnieren aanstuurt. De andere oorzaak is een tumor in de bijnier zelf, die zelfstandig te veel cortisol aanmaakt. Daarnaast kan Cushing-achtige symptomen ontstaan door langdurig gebruik van corticosteroïden (iatrogene Cushing).
+
+### Herkenningssignalen van Cushing
+
+- Veel meer drinken en plassen dan normaal
+
+- Een opvallend grotere eetlust
+
+- Een hangbuik, vaak met verminderde spiermassa op de poten
+
+- Dunner, breekbaarder wordende huid en haaruitval, vooral op de flanken
+
+- Lusteloosheid, maar soms ook juist rustelozer gedrag
+
+Omdat deze symptomen vaak langzaam opbouwen, worden ze nogal eens afgedaan als 'gewoon ouder worden'.
+
+### Hoe wordt Cushing bij honden behandeld?
+De diagnose wordt gesteld met bloedonderzoek, hormoontests (zoals de ACTH-stimulatietest of de lage-dosis dexamethasontest) en vaak een buikecho. Bij de hypofyse-vorm wordt meestal gekozen voor medicatie die de cortisolproductie remt, levenslang en onder regelmatige controle. Bij een bijniertumor kan een operatie een optie zijn. Cushing is meestal niet te genezen, maar goed te managen: met de juiste medicatie kunnen honden nog jarenlang een goede kwaliteit van leven hebben.
+
+## Wat zijn de symptomen van Addison bij honden?
+
+### Wat veroorzaakt Addison bij honden?
+Bij Addison werken de bijnieren onvoldoende, meestal doordat het eigen immuunsysteem bijnierweefsel beschadigt. Hierdoor ontstaat een tekort aan cortisol en vaak ook aldosteron, een hormoon dat de zout- en vochtbalans regelt. Addison treft relatief vaak jongere tot middelbare honden en komt iets vaker voor bij rassen als de Nova Scotia Duck Tolling Retriever, de Poedel en de Dobermann.
+
+### Herkenningssignalen van Addison
+
+- Wisselende lusteloosheid en zwakte, soms met goede en slechte dagen
+
+- Verminderde eetlust, braken of diarree
+
+- Gewichtsverlies
+
+- Trillen of niet goed kunnen opstaan
+
+- Bij een acute, ernstige episode (Addison-crisis): plotse collaps, een zeer lage hartslag, uitdroging en shock
+
+### Wanneer is Addison bij honden een spoedgeval?
+Een Addison-crisis is levensbedreigend en vereist onmiddellijke dierenartshulp: infusen om de vocht- en zoutbalans te herstellen en spoedmedicatie met hormonen. Honden die al bekend zijn met Addison en plotseling instorten of extreem zwak worden, moeten direct gezien worden.
+
+### Hoe wordt Addison bij honden behandeld?
+De diagnose wordt bevestigd met bloedonderzoek naar zoutwaarden (natrium en kalium) en de ACTH-stimulatietest. De behandeling bestaat uit levenslange hormoonvervanging, vaak als periodieke injectie of dagelijkse tablet. Met de juiste dosering en regelmatige controle kunnen honden met Addison een vrijwel normaal leven leiden.
+
+## Is Cushing of Addison bij honden te voorkomen?
+Voor beide ziekten bestaat geen directe preventie, omdat het vaak gaat om spontane tumoren of immuunreacties. Wel is het belangrijk corticosteroïden nooit abrupt te stoppen zonder overleg met de dierenarts, om iatrogene Cushing en bijniruitval te voorkomen. Alertheid op de eerste, vage signalen en tijdig bloedonderzoek bij oudere of chronisch vermoeide honden helpt om beide aandoeningen vroeg op te sporen.
+
+## Leven met een hond met Cushing of Addison
+Een diagnose van Cushing of Addison betekent niet dat het einde van een vrolijk hondenleven in zicht is. Bij beide aandoeningen draait het vooral om een goede samenwerking met de dierenarts: de juiste dosering vinden, trouw de controleafspraken nalopen en op tijd ingrijpen bij veranderend gedrag. Houd een logboek van drinkgedrag, eetlust en energieniveau bij, zeker in de eerste maanden na de diagnose, dit maakt het voor de dierenarts makkelijker om de medicatie goed af te stellen. Bij Addison is het verstandig om altijd een kleine voorraad extra cortisonmedicatie en de contactgegevens van de dierenarts bij de hand te hebben, voor het geval er onverwacht stress optreedt, zoals een logeerpartij, verhuizing of dierenartsbezoek voor iets anders.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Kunnen Cushing en Addison bij honden met elkaar verward worden?
+A: De symptomen lijken in het begin soms op elkaar, zoals lusteloosheid, maar de kernklachten verschillen: Cushing geeft juist extra dorst, honger en een hangbuik, terwijl Addison vaker gepaard gaat met wisselende zwakte en braken.
+
+V: Is het gevaarlijk als mijn hond een dosis Cushing- of Addison-medicatie mist?
+A: Bij Addison kan het missen van medicatie sneller leiden tot een crisis, zeker bij stress of ziekte. Bij Cushing is een gemiste dosis meestal minder acuut, maar overleg bij twijfel altijd met de dierenarts.
+
+V: Kan stress een Addison-crisis bij honden uitlokken?
+A: Ja, stress, een operatie, infectie of andere lichamelijke belasting kan bij honden met Addison een crisis uitlokken omdat het lichaam dan extra cortisol nodig heeft dat de bijnieren niet kunnen leveren.
+
+V: Hoe vaak moet een hond met Cushing of Addison gecontroleerd worden?
+A: In de beginfase van de behandeling vinden controles regelmatig plaats, soms elke paar weken, om de juiste dosering te vinden. Daarna is meestal een controle elke drie tot zes maanden voldoende.
+
+V: Is een bijniertumor bij Cushing altijd kwaadaardig?
+A: Niet altijd; bijniertumoren kunnen goedaardig of kwaadaardig zijn. Beeldvorming en eventueel onderzoek na een operatie geven hierover meer duidelijkheid.
+
+
+--------------------------------------------------------------------------------
+# Staar en PRA bij honden: verschil, symptomen, behandeling
+
+URL: https://dierenkliniek.nl/kennisbank/staar-en-pra-bij-honden-verschil-symptomen-behandeling
+Categorie: Praktische zaken · Diersoort: Hond · Leestijd: 4 min
+
+Samenvatting: Staar is troebeling van de ooglens, PRA is afsterven van het netvlies. Beide geven zichtverlies bij honden, maar vragen andere behandeling.
+
+## Wat is het verschil tussen staar en PRA bij honden?
+Staar (cataract) en PRA (progressieve retina-atrofie) zijn beide oogaandoeningen bij honden die tot zichtverlies leiden, maar op heel verschillende manieren. Staar is een troebeling van de ooglens, soms operatief te verhelpen. PRA is een erfelijke, geleidelijke afsterving van het netvlies, waarvoor geen genezende behandeling bestaat. Staar is vaak te herkennen aan een witte waas in het oog; PRA begint meestal met nachtblindheid zonder zichtbare oogverandering.
+
+## Wat is staar (cataract) bij honden?
+Diep in het oog zit de ooglens, normaal gesproken helder en doorzichtig, die licht bundelt op het netvlies. Bij staar wordt deze lens troebel, deels of helemaal, waardoor er minder of geen licht meer doorheen komt. Het oog kan er wittig of blauwig-grijs uitzien, vooral goed zichtbaar als je recht in het oog kijkt.
+
+### Wat veroorzaakt staar bij honden?
+
+- Erfelijke aanleg: bij rassen als de Labrador, de Poedel en de Siberische Husky komt jong-ontstane staar vaker voor door erfelijke aanleg.
+
+- Ouderdom: bij veel honden ontstaat op latere leeftijd een milde, geleidelijke lensvertroebeling, vaak minder ernstig dan echte staar (nucleaire sclerose).
+
+- Diabetes mellitus (suikerziekte): bij honden met diabetes ontstaat vaak snel, soms binnen enkele weken, een volledige staar door hoge glucosewaarden.
+
+- Verwondingen of ontstekingen aan het oog.
+
+### Wat zijn de symptomen van staar bij honden?
+Naast de zichtbare witte waas merk je vaak dat de hond onzekerder beweegt, vooral in een onbekende omgeving of bij schemering, tegen meubels aan loopt, of minder goed een bal kan vangen.
+
+### Hoe wordt staar bij honden behandeld?
+De enige echte behandeling voor staar is een operatie, waarbij de troebele lens wordt verwijderd en vaak vervangen door een kunstlens, door een gespecialiseerde dierenoogarts. Niet elke hond is geschikt voor een operatie. Zonder operatie blijft de hond blind of slechtziend aan het aangedane oog, maar dit is op zichzelf niet schadelijk, zolang er geen bijkomende ontsteking optreedt. Onbehandelde staar kan wel leiden tot een pijnlijke ontsteking binnen het oog (lensinduced uveïtis) of glaucoom, dus controle blijft belangrijk.
+
+## Wat is PRA (progressieve retina-atrofie) bij honden?
+PRA is een erfelijke aandoening waarbij de lichtgevoelige cellen van het netvlies geleidelijk afsterven. Het netvlies blijft intact van vorm, maar verliest zijn functie. PRA treft meestal beide ogen gelijktijdig en in gelijke mate.
+
+### Welke hondenrassen hebben risico op PRA?
+PRA is erfelijk en komt voor bij rassen als de Labrador, de Cocker Spaniël, de Poedel, de Border Collie en de Schapendoes. Er bestaan verschillende genetische vormen die op verschillende leeftijden beginnen. Voor een deel van deze vormen bestaat een DNA-test waarmee fokkers dragers kunnen opsporen.
+
+### Wat zijn de eerste symptomen van PRA bij honden?
+Het eerste teken is meestal nachtblindheid: de hond ziet slecht in het donker of bij schemering, botst tegen dingen aan of durft niet meer naar buiten in de avond. Dit komt doordat de staafjes, de cellen voor zien bij weinig licht, als eerste worden aangetast. Geleidelijk, over maanden tot jaren, breidt het zichtverlies zich uit naar overdag, tot uiteindelijk volledige blindheid. De pupillen staan vaak wijder open dan normaal en hebben soms een groenige glans bij het schijnen met een lampje.
+
+### Is PRA bij honden te behandelen?
+Voor PRA bestaat geen genezende behandeling; het is een onomkeerbaar, geleidelijk proces. De dierenarts kan helpen bij begeleiding en schrijft soms voedingssupplementen met antioxidanten voor, al is het bewijs voor vertraging beperkt. Honden passen zich vaak verrassend goed aan aan blindheid, zeker als de omgeving vertrouwd en stabiel blijft.
+
+## Zijn staar en PRA bij honden te voorkomen?
+Bij PRA is de belangrijkste preventie fokkerij: DNA-tests en ooguitslagen van fokdieren vóór de fok verkleinen de kans op nakomelingen met de aandoening aanzienlijk. Bij staar is preventie beperkter mogelijk, behalve bij de diabetes-gerelateerde vorm: een goed gereguleerde suikerziekte verlaagt het risico op snelle staarontwikkeling. Regelmatige oogcontroles, vooral bij risicorassen, helpen beide aandoeningen vroeg te herkennen.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Hoe weet ik of mijn hond staar of PRA heeft zonder dierenarts?
+A: Dat is thuis niet met zekerheid vast te stellen. Een witte waas in het oog wijst vaker op staar, terwijl slecht zien in het donker zonder zichtbare oogverandering vaker op PRA wijst, maar alleen een dierenarts of oogspecialist kan dit bevestigen.
+
+V: Kan een hond met PRA ook staar krijgen?
+A: Ja, PRA en staar kunnen samen voorkomen, en PRA kan op termijn zelfs secundair staar veroorzaken, wat onderscheid soms lastiger maakt.
+
+V: Is een hond met PRA ongelukkig als hij blind wordt?
+A: De meeste honden passen zich geleidelijk goed aan, zeker omdat het proces langzaam verloopt en ze op reuk en gehoor kunnen vertrouwen. Een vaste indeling van huis en tuin helpt enorm.
+
+V: Wordt een staaroperatie bij honden vergoed door de dierenverzekering?
+A: Dit verschilt per verzekeraar en polis. Sommige verzekeringen vergoeden een staaroperatie, andere sluiten erfelijke of leeftijdsgebonden oogaandoeningen uit, dus check de polisvoorwaarden vooraf.
+
+V: Kan een pup al getest worden op PRA voordat er symptomen zijn?
+A: Ja, voor diverse rasspecifieke vormen van PRA bestaat een DNA-test die al bij jonge pups uitsluitsel kan geven, ruim voordat zichtbare symptomen optreden.
+
+
+--------------------------------------------------------------------------------
+# Prostaatproblemen bij de reu: symptomen en behandeling
+
+URL: https://dierenkliniek.nl/kennisbank/prostaatproblemen-bij-de-reu-symptomen-en-behandeling
+Categorie: Praktische zaken · Diersoort: Hond · Leestijd: 4 min
+
+Samenvatting: Prostaatvergroting, -ontsteking of cysten komen vooral voor bij oudere, ongecastreerde reuen en geven moeite met plassen of poepen.
+
+## Wat zijn prostaatproblemen bij de reu?
+Prostaatproblemen bij de reu zijn aandoeningen van de prostaat, een orgaan onder de blaas dat alleen bij mannelijke honden voorkomt. Onder invloed van het hormoon testosteron kan de prostaat vergroten (benigne prostaathyperplasie), ontsteken (prostatitis) of cysten en abcessen vormen. Dit geeft klachten als moeite met plassen of poepen, bloed in de urine en pijn. Castratie is bij veel van deze problemen zowel preventief als behandelend effectief.
+
+## Welke prostaatproblemen komen voor bij honden?
+
+### Benigne prostaathyperplasie (BPH)
+Dit is de meest voorkomende prostaataandoening bij de reu en betekent een goedaardige vergroting van de prostaat. Het ontstaat door jarenlange blootstelling aan testosteron en komt voor bij het grootste deel van de ongecastreerde reuen vanaf middelbare leeftijd. BPH is op zichzelf niet gevaarlijk, maar kan wel klachten geven door de toegenomen omvang.
+
+### Prostatitis (ontsteking)
+Een ontsteking van de prostaat, vaak door een bacteriële infectie, kan acuut of chronisch optreden. Dit gaat vaker gepaard met pijn, koorts en algehele malaise dan een simpele vergroting.
+
+### Prostaatcysten en abcessen
+Soms ontstaan in een vergrote prostaat vochtblaasjes (cysten) of, bij infectie, pusholtes (abcessen), die flink groot kunnen worden en op omliggende organen drukken.
+
+### Prostaattumoren
+Minder vaak, maar belangrijk om te noemen: prostaatkanker komt bij honden voor, en komt in tegenstelling tot BPH juist vaker voor bij gecastreerde reuen. Deze vorm is doorgaans agressiever en lastiger te behandelen.
+
+## Wat zijn de symptomen van prostaatproblemen bij honden?
+
+- Moeite met plassen: een dunne straal, kleine beetjes, of helemaal niet kunnen plassen
+
+- Moeite met poepen of een dunnere ontlasting door druk op de endeldarm
+
+- Bloed in de urine of druppels bloed los van het plassen
+
+- Een stijve, ongemakkelijke manier van lopen, met de achterpoten wat gespreid
+
+- Bij ontsteking of abces: koorts, lusteloosheid, pijn in de buik, verminderde eetlust
+
+### Wanneer zijn prostaatklachten bij de reu een spoedgeval?
+Volledige onmogelijkheid om te plassen is een spoedgeval, omdat een volle blaas die niet geleegd kan worden tot nierschade kan leiden. Ook hoge koorts in combinatie met pijn in de onderbuik, mogelijk wijzend op een prostaatabces, vraagt om snelle beoordeling, want een abces kan doorbreken en een levensbedreigende buikvliesontsteking veroorzaken.
+
+## Hoe worden prostaatproblemen bij de reu behandeld?
+De dierenarts onderzoekt de prostaat vaak via rectaal onderzoek en aanvullend met echografie van de buik, bloedonderzoek en soms een punctie.
+
+- BPH: castratie is de meest effectieve behandeling, omdat de prostaat zonder testosteron snel in omvang afneemt, vaak al binnen enkele weken.
+
+- Prostatitis: een langdurige antibioticakuur, gecombineerd met castratie om herhaling te voorkomen.
+
+- Cysten en abcessen: afhankelijk van de grootte drainage of chirurgie, naast antibiotica bij infectie.
+
+- Tumoren: ontstekingsremmers, bestraling of soms chemotherapie; castratie helpt hier niet, omdat deze tumoren niet hormoon-afhankelijk groeien.
+
+## Helpt castratie tegen prostaatproblemen bij de reu?
+Castratie op jongere leeftijd verkleint de kans op BPH, prostatitis en prostaatcysten sterk, omdat de prostaat zonder testosteron niet overmatig groeit. Opvallend is dat castratie juist geassocieerd wordt met een iets hoger risico op de agressievere vorm van prostaatkanker, al is deze vorm sowieso zeldzaam. De keuze om een reu wel of niet te castreren, en op welke leeftijd, is een individuele afweging die het beste met de dierenarts besproken wordt.
+
+## Wat kun je zelf merken en doen als eigenaar?
+Omdat vroege prostaatklachten vaak subtiel beginnen, zoals iets vaker druppelen of net iets moeizamer poepen, is het zinvol om bij een oudere, ongecastreerde reu regelmatig te letten op de manier van plassen en poepen. Verandering in de houding tijdens het plassen, een langzamer tempo, of vermijding van traplopen en opstaan kan al een vroeg signaal zijn. Wacht bij twijfel niet te lang met een afspraak bij de dierenarts, want vroege opsporing van BPH of een beginnende ontsteking maakt de behandeling eenvoudiger en voorkomt dat zich alsnog een abces of cyste ontwikkelt.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Lost castratie altijd alle prostaatklachten bij een hond op?
+A: Bij een goedaardige vergroting (BPH) werkt castratie zeer goed en vaak snel. Bij een bestaande infectie of cyste is castratie vaak een belangrijk onderdeel van de behandeling, maar niet altijd voldoende als enige maatregel.
+
+V: Op welke leeftijd krijgen reuen meestal prostaatklachten?
+A: BPH neemt vanaf ongeveer vijf jaar sterk toe en komt bij de meeste oudere, ongecastreerde reuen in enige mate voor. Prostatitis en abcessen kunnen op elke leeftijd ontstaan, maar vaker bij oudere reuen met al bestaande prostaatvergroting.
+
+V: Kan een reu met prostaatklachten nog gebruikt worden voor de fok?
+A: Bij een actieve infectie of ontsteking wordt fokken afgeraden tot volledig herstel; bij blijvende prostaatproblemen is het raadzaam dit met een dierenarts te bespreken voordat verder gefokt wordt.
+
+V: Is bloed in de urine bij een reu altijd prostaatgerelateerd?
+A: Niet altijd; bloed in de urine kan ook wijzen op een blaasontsteking, blaasstenen of andere aandoeningen. Alleen onderzoek door de dierenarts kan de oorzaak vaststellen.
+
+V: Hoe lang duurt het herstel na behandeling van een prostaatontsteking bij de hond?
+A: Een antibioticakuur voor prostatitis duurt vaak vier tot zes weken, langer dan bij een gewone blaasontsteking, omdat het weefsel moeilijker te doordringen is voor medicatie.
+
+
+--------------------------------------------------------------------------------
+# Epilepsie bij paarden: oorzaken en wat te doen bij insult
+
+URL: https://dierenkliniek.nl/kennisbank/epilepsie-bij-paarden-oorzaken-en-wat-te-doen-bij-insult
+Categorie: Eerste hulp & spoed · Diersoort: Paarden · Leestijd: 4 min
+
+Samenvatting: Epilepsie bij paarden is zeldzaam maar ernstig; een insult vraagt direct dierenartscontact, zeker bij herhaling of lange duur.
+
+## Wat is epilepsie bij paarden?
+Epilepsie bij paarden is een zeldzame aandoening waarbij abnormale elektrische activiteit in de hersenen leidt tot herhaalde insulten (aanvallen), zoals trillen, vallen of schoppende bewegingen met tijdelijk bewustzijnsverlies. Het komt veel minder vaak voor dan bij honden of katten. Bekende vormen zijn de goedaardige 'benign epilepsy of foals', die vaak voor het eerste levensjaar vanzelf verdwijnt, en idiopathische epilepsie bij (Egyptische) Arabische paarden. Een insult bij een paard is altijd een spoedsituatie die om veterinair advies vraagt.
+
+## Wat veroorzaakt insulten bij paarden?
+
+### Wat is benign epilepsy of foals (veulenepilepsie)?
+Een opvallende, relatief goed beschreven vorm is de 'benign epilepsy of foals', vooral gezien bij Arabische veulens, al kan het ook bij andere rassen voorkomen. Deze vorm begint meestal tussen enkele weken en een paar maanden oud. Tussen de aanvallen door vertonen deze veulens volledig normaal gedrag, en de aandoening verdwijnt in de meeste gevallen vanzelf rond de leeftijd van zes tot twaalf maanden, zonder blijvende gevolgen.
+
+### Wat is idiopathische epilepsie bij Egyptische Arabieren?
+Bij bepaalde lijnen binnen het Egyptische Arabische ras is een vorm van idiopathische epilepsie beschreven die op jonge leeftijd begint en, in tegenstelling tot de veulenvorm, soms aanhoudt tot op volwassen leeftijd. Er wordt een erfelijke component vermoed, al is de precieze genetische achtergrond nog niet volledig opgehelderd.
+
+### Andere oorzaken van insulten bij volwassen paarden
+Bij volwassen paarden is een insult vaker het gevolg van een onderliggend probleem dan van 'pure' epilepsie:
+
+- Littekenweefsel in de hersenen na een eerdere hoofdverwonding
+
+- Hersenontsteking, bijvoorbeeld door een virus of bacteriële infectie
+
+- Lever- of nierfalen, waarbij afvalstoffen zich opstapelen en de hersenen beïnvloeden
+
+- Vergiftiging, bijvoorbeeld door giftige planten, schimmels in voer, of chemicaliën
+
+- Extreem lage bloedsuikerwaarden of verstoorde elektrolytenbalans
+
+- Hersentumoren, al zijn deze relatief zeldzaam bij paarden
+
+Omdat insulten bij volwassen paarden zo vaak een onderliggende oorzaak hebben, spreekt men dan minder snel van 'epilepsie' in de strikte zin, en meer van symptomatische insulten.
+
+## Hoe herken je een insult bij een paard?
+Een insult bij een paard kan verschillende vormen aannemen: van een kort moment van verstarring, trillen van de spieren en wegzakken, tot een volledige aanval waarbij het paard valt, de poten schoppende bewegingen maken, kauwbewegingen of schuimbekken optreden en het paard tijdelijk het bewustzijn verliest. Een aanval duurt meestal kort, van enkele seconden tot een paar minuten, waarna het paard vaak verward en vermoeid overeind komt.
+
+## Wat moet je doen bij een insult (spoedaspecten)?
+Een insult bij een paard is altijd een spoedsituatie en vraagt om onmiddellijk veterinair advies, ook al stopt de aanval vaak vanzelf. Belangrijke stappen:
+
+- Blijf zelf op veilige afstand. Een vallend of schoppend paard kan zware verwondingen toebrengen, ook onbedoeld.
+
+- Verwijder gevaarlijke objecten uit de buurt als dat veilig kan, zoals emmers, trapjes of scherpe randen.
+
+- Probeer het paard niet vast te houden of op te tillen tijdens de aanval zelf.
+
+- Bel direct de dierenarts, zeker bij de eerste aanval, als de aanval langer dan een paar minuten duurt, of bij meerdere aanvallen kort na elkaar (status epilepticus), wat levensbedreigend is.
+
+- Noteer de duur en het verloop van de aanval zo goed mogelijk, dit helpt de dierenarts bij de diagnose.
+
+## Hoe wordt epilepsie bij paarden vastgesteld en behandeld?
+De dierenarts doet uitgebreid onderzoek om onderliggende oorzaken op te sporen: bloedonderzoek, neurologisch onderzoek en, indien nodig, beeldvorming van de hersenen bij een gespecialiseerde kliniek. Bij veulenepilepsie is vaak afwachten met symptomatische ondersteuning voldoende, omdat de aandoening meestal vanzelf verdwijnt; bij frequente of heftige aanvallen kan tijdelijk anti-epileptische medicatie worden ingezet. Bij volwassen paarden met een onderliggende oorzaak wordt die oorzaak zo veel mogelijk behandeld, en kan bij herhaalde insulten langdurige anti-epileptische medicatie nodig zijn.
+
+## Is epilepsie bij paarden te voorkomen?
+Voor erfelijke of idiopathische vormen bestaat geen directe preventie, al kunnen fokkers bij bekende belaste lijnen voorzichtig zijn met verdere verspreiding. Voor insulten door een onderliggende oorzaak helpt het hoofdverwondingen te voorkomen (bijvoorbeeld door een veilige stalinrichting), vergiftiging te vermijden door voer en weiland regelmatig te controleren op schimmels en giftige planten, en algemene gezondheidsproblemen zoals lever- en nierfunctie tijdig op te volgen bij een dierenarts.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Groeit een veulen altijd uit 'benign epilepsy of foals'?
+A: In de meeste beschreven gevallen verdwijnt deze vorm vanzelf tussen zes en twaalf maanden, zonder blijvende gevolgen. Toch is het belangrijk om elk veulen met insulten door een dierenarts te laten onderzoeken, om andere oorzaken uit te sluiten.
+
+V: Mag een paard met epilepsie nog bereden worden?
+A: Dit is sterk afhankelijk van de frequentie en onvoorspelbaarheid van de aanvallen en moet per geval met de dierenarts besproken worden, vanwege het risico voor zowel het paard als de ruiter bij een onverwachte aanval.
+
+V: Hoe onderscheidt een dierenarts epilepsie van flauwvallen (syncope) bij een paard?
+A: Bij een insult zijn er vaak kenmerkende spierbewegingen, kauwbewegingen en een langere hersteltijd, terwijl flauwvallen meestal korter duurt en sneller volledig herstel geeft. Aanvullend onderzoek, zoals bloedwaarden en hartonderzoek, helpt bij het onderscheid.
+
+V: Is epilepsie bij paarden besmettelijk voor andere paarden?
+A: Nee, epilepsie zelf is niet besmettelijk. Wel kunnen sommige onderliggende oorzaken van insulten, zoals een virale hersenontsteking, besmettelijk zijn, wat de dierenarts zal uitsluiten bij het onderzoek.
+
+V: Welke medicatie wordt gebruikt bij paarden met herhaalde insulten?
+A: Veelgebruikte anti-epileptica bij paarden zijn onder andere fenobarbital en kaliumbromide, maar de keuze en dosering worden altijd afgestemd op het individuele paard door de behandelend dierenarts.
+
+
+--------------------------------------------------------------------------------
+# Kattenziekte (panleukopenie): symptomen en behandeling
+
+URL: https://dierenkliniek.nl/kennisbank/kattenziekte-panleukopenie-symptomen-en-behandeling
+Categorie: Eerste hulp & spoed · Diersoort: Kat · Leestijd: 4 min
+
+Samenvatting: Kattenziekte is een zeer besmettelijk, vaak dodelijk virus bij katten met plotselinge koorts, braken en diarree.
+
+## Wat is kattenziekte?
+Kattenziekte, ook wel feline panleukopenie genoemd, is een zeer besmettelijke virusinfectie bij katten die wordt veroorzaakt door het feline parvovirus en zich uit in plotselinge hoge koorts, heftig braken, bloederige diarree en snelle uitdroging. Zonder snelle behandeling is de ziekte, vooral bij kittens, vaak binnen een paar dagen fataal. Het virus valt snel delende cellen aan, zoals die in het beenmerg en de darmwand. Daardoor daalt het aantal witte bloedcellen sterk (panleukopenie betekent letterlijk 'tekort aan alle witte bloedcellen'), waardoor de kat nauwelijks weerstand heeft tegen andere infecties. Het virus is extreem besmettelijk en kan maanden tot jaren overleven in de omgeving, op voerbakken, kattenbakken, kleding en handen.
+
+## Hoe wordt kattenziekte overgedragen?
+Besmetting gebeurt via direct contact met zieke katten, maar ook indirect via ontlasting, braaksel, speeksel, en voorwerpen die met het virus in aanraking zijn geweest. Ook mensen kunnen het virus onbedoeld meedragen op schoenen of kleding. Niet-gevaccineerde kittens tussen zes weken en zes maanden oud lopen het grootste risico, maar ook oudere, niet-gevaccineerde katten kunnen ernstig ziek worden.
+
+## Symptomen
+
+- Plotselinge, hoge koorts
+
+- Volledig verlies van eetlust
+
+- Braken, vaak heftig en herhaald
+
+- Waterige tot bloederige diarree
+
+- Sterke uitdroging
+
+- Lusteloosheid en zwakte, de kat kan nauwelijks nog staan
+
+- Buikpijn, de kat zit vaak gebogen boven de voerbak zonder te eten
+
+Bij zwangere poezen kan het virus ook de ongeboren kittens aantasten, wat kan leiden tot aangeboren afwijkingen in de kleine hersenen (cerebellaire hypoplasie), waardoor kittens met coördinatieproblemen worden geboren.
+
+## Wanneer is het een spoedgeval?
+Kattenziekte is altijd een spoedgeval. Een kitten of kat met plotselinge heftige diarree, braken, hoge koorts en lusteloosheid moet zo snel mogelijk naar de dierenarts, zeker als de vaccinatiestatus onbekend of onvolledig is. Door de snelle uitdroging en de klap op het afweersysteem kan een kat binnen één tot twee dagen overlijden zonder behandeling. Hoe eerder de behandeling start, hoe groter de overlevingskans.
+
+## Behandeling
+Er is geen medicijn dat het virus zelf doodt; de behandeling is ondersteunend en richt zich op het overbruggen van de kritieke periode totdat het eigen afweersysteem het virus onder controle krijgt. Dit gebeurt meestal met een opname in de kliniek, waarbij de kat een infuus krijgt tegen uitdroging, medicatie tegen misselijkheid en braken, en vaak antibiotica om secundaire bacteriële infecties te voorkomen nu de weerstand zo laag is. Soms is een bloedtransfusie of plasma nodig. Voeding wordt zo snel mogelijk weer opgestart, eventueel via een sondevoeding, omdat de darmwand baat heeft bij herstel. Intensieve verzorging gedurende enkele dagen tot een week is vaak nodig, en strikte hygiëne en isolatie zijn belangrijk om verspreiding naar andere katten te voorkomen.
+
+## Preventie: vaccinatie is essentieel
+Kattenziekte is één van de ziekten waartegen standaard wordt gevaccineerd in de basisenting voor katten (de zogenoemde kitten-cocktail of 'niesziekte-kattenziekte'-vaccinatie). Kittens krijgen meestal een reeks vaccinaties vanaf zes tot acht weken, met herhalingen tot ze volwassen zijn, en daarna periodieke herhalingsvaccinaties. Omdat het virus zo lang in de omgeving kan overleven, is vaccinatie ook belangrijk voor katten die zelden naar buiten gaan: het virus kan letterlijk mee naar binnen komen op schoenen. Nieuwe katten of kittens in huis kunnen het beste pas na volledige vaccinatie in contact komen met andere katten, en spullen van een zieke kat (bakken, bedjes, kattenbak) moeten grondig ontsmet of vervangen worden, bij voorkeur met een bleekmiddel-oplossing die effectief is tegen parvovirussen.
+
+## Twijfel? Bel de dierenarts
+Herkent u bovenstaande symptomen bij uw kat of kitten, wacht dan niet af. Neem direct contact op met een dierenkliniek, ook als het weekend of avond is. Snel ingrijpen maakt het verschil tussen leven en dood.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Kan een volwassen, gevaccineerde kat nog kattenziekte krijgen?
+A: Dat is zeldzaam maar niet onmogelijk, vooral als de vaccinatiereeks niet volledig is afgerond of als het al lang geleden is herhaald. Volledig en tijdig gevaccineerde katten zijn wel sterk beschermd.
+
+V: Is kattenziekte besmettelijk voor mensen of honden?
+A: Nee, het feline parvovirus is specifiek voor katten en besmet geen mensen. Het is wel verwant aan het parvovirus bij honden, maar dat is een ander virus dat katten niet infecteert en omgekeerd.
+
+V: Hoe lang blijft een huis besmettelijk na kattenziekte?
+A: Het virus kan zonder goede desinfectie wel een jaar of langer op oppervlakken overleven. Grondig schoonmaken met een bleekoplossing en het vervangen van textiel en kattenbakmateriaal is sterk aan te raden voordat een nieuwe, niet-volledig gevaccineerde kat het huis binnenkomt.
+
+V: Overleven alle katten met goede zorg?
+A: Nee, ondanks intensieve behandeling overlijdt een deel van de katten, vooral jonge kittens. De overlevingskans stijgt aanzienlijk als de behandeling binnen de eerste dag na de eerste symptomen start.
+
+
+--------------------------------------------------------------------------------
+# Kattenaids (FIV) en kattenleukemie (FeLV) bij katten
+
+URL: https://dierenkliniek.nl/kennisbank/kattenaids-fiv-en-kattenleukemie-felv-bij-katten
+Categorie: Puppy, volwassen, senior · Diersoort: Kat · Leestijd: 5 min
+
+Samenvatting: FIV (kattenaids) en FeLV (leukemie) zijn twee virussen die de afweer van katten aantasten; verschil, symptomen en leven ermee.
+
+## Wat zijn FIV en FeLV?
+FIV (kattenaids, feline immunodeficiëntievirus) en FeLV (kattenleukemie, feline leukemievirus) zijn twee verschillende retrovirussen die de afweer van katten geleidelijk aantasten: FIV vooral via bijtwonden bij vechtende katten, FeLV via speeksel en wederzijdse verzorging. Beide worden met een eenvoudige bloedtest opgespoord en zijn, zeker FIV, vaak jarenlang te beheersen zonder dat de kat zich ziek voelt. Kattenaids (FIV) en kattenleukemie (FeLV) worden vaak in één adem genoemd, maar het zijn twee aparte virussen met een ander verloop, andere overdracht en een andere prognose. Beide tasten het afweersysteem aan, maar op een eigen manier.
+
+## Wat is FIV (kattenaids)?
+FIV is, net als het aidsvirus bij mensen, een retrovirus dat de witte bloedcellen van het afweersysteem geleidelijk aantast. Het virus wordt vooral overgedragen via diepe bijtwonden, dus bij vechtende, ongecastreerde buitenkatten komt het vaker voor. Overdracht via sociaal contact (samen eten, wassen) is zeldzaam. Een poes kan het virus ook aan haar kittens doorgeven. Veel FIV-positieve katten blijven jarenlang, soms levenslang, klachtenvrij, omdat het virus heel langzaam werkt. Pas als het afweersysteem flink is aangetast, ontstaan problemen: terugkerende infecties van tandvlees, mond, huid, luchtwegen en blaas, langzame genezing van wondjes, gewichtsverlies en algehele malaise.
+
+## FeLV (kattenleukemie)
+FeLV is een ander retrovirus dat zich makkelijker verspreidt, via speeksel, neusslijm, urine en ontlasting, bijvoorbeeld door wederzijds wassen, delen van voerbakjes, of van moeder op kitten tijdens de dracht of via de melk. Jonge katten zijn veel gevoeliger voor een blijvende infectie dan volwassen katten, wiens afweersysteem het virus vaker zelf opruimt. Bij katten die wel chronisch besmet blijven, veroorzaakt FeLV op de langere termijn vaak bloedarmoede, een verzwakt afweersysteem met herhaalde infecties, en bij een deel van de katten ook bepaalde vormen van kanker, zoals lymfeklierkanker. De gemiddelde levensverwachting van een chronisch FeLV-positieve kat is helaas duidelijk korter dan die van een gezonde kat.
+
+## Symptomen om op te letten
+
+- Terugkerende infecties van mond, tandvlees, huid of luchtwegen
+
+- Langdurige of steeds terugkerende koorts
+
+- Gewichtsverlies en verminderde eetlust
+
+- Bleke slijmvliezen (mogelijk bloedarmoede, vooral bij FeLV)
+
+- Vergrote lymfeklieren
+
+- Wondjes of infecties die slecht genezen
+
+## Diagnose
+Beide virussen worden opgespoord met een eenvoudige bloedtest die de dierenarts vaak binnen enkele minuten kan uitvoeren. Bij een positieve uitslag wordt soms een bevestigende test gedaan, omdat een eerste test af en toe een vals-positief resultaat geeft, vooral bij FeLV bij jonge kittens die het virus nog zelf kunnen opruimen.
+
+## Leven met een besmette kat
+Een positieve test is geen doodvonnis. Veel FIV-positieve katten leiden een nagenoeg normaal, jarenlang leven als ze binnen blijven (ook om verspreiding naar andere katten te voorkomen en zichzelf te beschermen tegen extra infecties), goed gevoed worden en twee keer per jaar gecontroleerd worden door de dierenarts. Bij FeLV-positieve katten is extra voorzichtigheid nodig: regelmatige controles, snel ingrijpen bij elke infectie, en een rustige, stressarme leefomgeving omdat stress de afweer verder verzwakt. Besmette katten kunnen prima samenleven met niet-besmette katten als er geen bijtincidenten zijn, al wordt voorzichtigheid en gescheiden houden vaak aangeraden, zeker bij FeLV.
+
+## Behandeling
+Er bestaat geen genezende behandeling voor FIV of FeLV zelf; de aanpak is gericht op het snel en adequaat behandelen van infecties en complicaties zodra ze optreden, en het ondersteunen van de algemene gezondheid met goede voeding en regelmatige controles.
+
+## Preventie
+Voor FeLV bestaat een vaccinatie die zeker voor kittens en katten met buitentoegang wordt aangeraden. Voor FIV is in Nederland geen vaccin breed beschikbaar. De beste preventie is het binnen houden van katten, katten laten castreren of steriliseren (dit vermindert vechtgedrag enorm), en nieuwe katten altijd laten testen voordat ze met andere katten in contact komen.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Kunnen mensen FIV of FeLV van hun kat krijgen?
+A: Nee, beide virussen zijn specifiek voor katten en kunnen niet overgaan op mensen of andere diersoorten zoals honden.
+
+V: Moet een FIV-positieve kat apart gehouden worden van andere katten?
+A: Niet per se apart, maar wel binnen, en bijtincidenten moeten voorkomen worden. In een rustig huishouden zonder vechtgedrag kan een FIV-positieve kat vaak samenleven met gezonde katten.
+
+V: Hoe lang kan een kat met FeLV nog leven?
+A: Dat verschilt sterk per kat. Sommige katten leven nog jaren met goede zorg, andere katten ontwikkelen binnen enkele jaren ernstige complicaties. Regelmatige controle bij de dierenarts helpt om problemen vroeg op te sporen.
+
+V: Kan een kitten van een besmette moeder gezond zijn?
+A: Ja, niet elk kitten raakt besmet. Laat kittens van een FIV- of FeLV-positieve moeder altijd testen, het liefst pas na een paar maanden omdat testen op zeer jonge leeftijd minder betrouwbaar kunnen zijn.
+
+
+--------------------------------------------------------------------------------
+# FIP bij katten: symptomen en nieuwe behandelmogelijkheden
+
+URL: https://dierenkliniek.nl/kennisbank/fip-bij-katten-symptomen-en-nieuwe-behandelmogelijkheden
+Categorie: Puppy, volwassen, senior · Diersoort: Kat · Leestijd: 5 min
+
+Samenvatting: FIP bij katten was vrijwel altijd dodelijk, maar nieuwe antivirale middelen zoals GS-441524 bieden nu echte genezingskansen.
+
+## Wat is FIP bij katten?
+FIP (feline infectieuze peritonitis) is een ernstige ziekte bij katten die ontstaat wanneer het veelvoorkomende, meestal onschuldige feline coronavirus in het lichaam muteert naar een agressieve vorm; typische signalen zijn aanhoudende koorts, gewichtsverlies en een opgezette buik of benauwdheid. Vroeger was FIP vrijwel altijd fataal, maar nieuwe antivirale middelen op basis van GS-441524 (verwant aan remdesivir) bieden sinds enkele jaren een reële genezingskans. FIP ontstaat uit een veelvoorkomend en op zichzelf vrij onschuldig virus: het feline coronavirus. Dit coronavirus (dat niets te maken heeft met het coronavirus dat mensen ziek maakt) komt bij veel katten voor, vooral in huishoudens of opvangcentra met meerdere katten, en veroorzaakt meestal alleen milde, kortdurende diarree of helemaal geen klachten. Bij een klein deel van de besmette katten muteert het virus echter in het lichaam tot een agressievere vorm die FIP veroorzaakt. Waarom dit bij de ene kat wel gebeurt en bij de andere niet, is nog niet volledig opgehelderd, maar jonge katten, kittens uit een drukke omgeving en bepaalde rassen lijken een hoger risico te lopen.
+
+## Twee vormen van FIP
+Er wordt onderscheid gemaakt tussen de 'natte' vorm, waarbij vocht zich opstapelt in de buik- of borstholte waardoor de buik opzwelt of de kat moeilijk ademt, en de 'droge' vorm, waarbij zich kleine knobbeltjes (granulomen) vormen in organen zoals de lever, nieren, ogen of het zenuwstelsel. Sommige katten vertonen een mengvorm. Beide vormen gaan vaak gepaard met aanhoudende, wisselende koorts die niet reageert op gewone antibiotica, gewichtsverlies, lusteloosheid en verminderde eetlust.
+
+## Symptomen
+
+- Aanhoudende koorts die op en neer gaat en niet reageert op antibiotica
+
+- Gewichtsverlies ondanks normale of verminderde eetlust
+
+- Opgezette, bolle buik (natte vorm)
+
+- Benauwdheid door vocht rond de longen (natte vorm)
+
+- Geelzucht (gele verkleuring van ogen en tandvlees) in ernstige gevallen
+
+- Troebele ogen, oogontsteking of neurologische symptomen zoals wankel lopen of toevallen (droge vorm)
+
+- Algehele lusteloosheid en groeiachterstand bij kittens
+
+## Diagnose
+FIP is helaas niet altijd eenvoudig met zekerheid vast te stellen. De dierenarts combineert bloedonderzoek, beeldvorming (echo, röntgen), analyse van opgehoopt vocht en soms gespecialiseerd PCR-onderzoek om tot een waarschijnlijkheidsdiagnose te komen. Leeftijd (vooral kittens en jonge katten tot twee jaar), herkomst (bijvoorbeeld uit een nest of opvang met meerdere katten) en het ziektebeeld spelen allemaal een rol in de inschatting.
+
+## Wanneer is het spoed?
+Een kat met aanhoudende onverklaarde koorts, een snel opzwellende buik of plotselinge benauwdheid moet zo snel mogelijk worden onderzocht. Bij vocht rond de longen kan de ademhaling binnen korte tijd ernstig verslechteren, wat direct medisch ingrijpen vereist.
+
+## Behandeling: van bijna altijd dodelijk naar behandelbaar
+Tot enkele jaren geleden was FIP voor vrijwel elke kat dodelijk, en bestond de 'behandeling' vooral uit ondersteunende zorg en uiteindelijk afscheid nemen. Dit beeld is de afgelopen jaren veranderd door de ontwikkeling van antivirale middelen op basis van de stof GS-441524 (nauw verwant aan remdesivir, bekend van de behandeling van andere virusinfecties). Deze middelen remmen de vermenigvuldiging van het gemuteerde virus en hebben bij een groot deel van de behandelde katten tot volledig herstel geleid, ook bij katten die eerder als terminaal werden beschouwd. De behandeling bestaat meestal uit dagelijkse injecties of tabletten gedurende tachtig dagen, met nauwkeurige opvolging en bloedcontroles. Deze middelen zijn niet in alle landen en klinieken op dezelfde manier officieel geregistreerd en beschikbaar, en de behandeling kan intensief en kostbaar zijn, maar de kans op genezing is tegenwoordig voor veel katten reëel. Bespreek met de dierenarts wat lokaal de mogelijkheden en kosten zijn.
+
+## Preventie
+Er is geen volledig sluitende preventie, omdat het onderliggende coronavirus zo wijdverspreid is. Het risico kan wel worden verlaagd door overbevolking en stress bij katten te vermijden, kattenbakken schoon en goed verspreid te houden (minder kattenbakken dan katten vergroot de kans op besmetting via ontlasting), en nieuwe katten rustig te introduceren. Een specifiek FIP-vaccin wordt in de praktijk weinig gebruikt vanwege beperkte effectiviteit.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Is FIP besmettelijk voor andere katten in huis?
+A: Het onderliggende coronavirus is besmettelijk via ontlasting, maar FIP zelf (de gemuteerde vorm) ontstaat individueel in het lichaam van de kat zelf en springt niet rechtstreeks over van kat naar kat als FIP.
+
+V: Hoe duur is de nieuwe FIP-behandeling?
+A: De kosten verschillen sterk per land, kliniek en de duur van de behandeling, en kunnen aanzienlijk zijn omdat het om een langdurig dagelijks medicijnschema gaat. Vraag de dierenarts naar een concrete inschatting voor uw situatie.
+
+V: Kan een kat die van FIP genezen is het weer krijgen?
+A: Terugval kan voorkomen, vooral als de behandeling te vroeg is gestopt of niet volledig is afgemaakt. Goede opvolging met controles tijdens en na de behandeling is daarom belangrijk.
+
+V: Waarom krijgen vooral jonge katten FIP?
+A: Het afweersysteem van jonge katten is nog niet volledig uitgerijpt, waardoor het coronavirus bij hen makkelijker kan muteren naar de agressieve FIP-vorm. Ook stress en een hoge dichtheid aan katten, zoals in een nest of opvang, spelen een rol.
+
+
+--------------------------------------------------------------------------------
+# Hyperthyreoïdie bij katten: symptomen en behandeling
+
+URL: https://dierenkliniek.nl/kennisbank/hyperthyreoidie-bij-katten-symptomen-en-behandeling
+Categorie: Puppy, volwassen, senior · Diersoort: Kat · Leestijd: 5 min
+
+Samenvatting: Hyperthyreoïdie is de meest voorkomende hormoonziekte bij oudere katten: gewichtsverlies ondanks goed eten en hyperactiviteit.
+
+## Wat is hyperthyreoïdie bij katten?
+Hyperthyreoïdie is een te snel werkende schildklier en is de meest voorkomende hormoonaandoening bij oudere katten; typische signalen zijn gewichtsverlies ondanks een goede of juist sterk toegenomen eetlust, hyperactiviteit en een versnelde hartslag. Het wordt vrijwel altijd veroorzaakt door een goedaardige knobbel in de schildklier en is goed te behandelen met medicatie, operatie, radioactief jodium of een speciaal dieet. Bij katten wordt de aandoening bijna altijd veroorzaakt door een goedaardige vergroting (knobbeltjes) van één of beide schildklierkwabben in de hals, die te veel schildklierhormoon aanmaken. Bij katten wordt dit bijna altijd veroorzaakt door een goedaardige vergroting (knobbeltjes) van één of beide schildklierkwabben in de hals, die te veel schildklierhormoon aanmaken. Dit hormoon regelt in feite het 'gaspedaal' van de stofwisseling, en bij een overmaat draait het hele lichaam op te hoog toerental. Het is veruit de meest voorkomende hormoonaandoening bij katten vanaf ongeveer tien jaar, en komt steeds vaker voor naarmate katten ouder worden.
+
+## Symptomen
+
+- Gewichtsverlies, vaak opvallend, ondanks een normale of zelfs sterk toegenomen eetlust
+
+- Hyperactiviteit, rusteloosheid, 's nachts rondlopen en miauwen
+
+- Versnelde hartslag en soms een merkbaar hartruis
+
+- Overmatig drinken en plassen
+
+- Braken of diarree
+
+- Een ruige, slecht verzorgde vacht
+
+- Soms juist lusteloosheid en zwakte in plaats van hyperactiviteit (de zogenoemde 'apathische' vorm)
+
+Omdat de symptomen soms lijken op 'gewoon ouder worden', wordt hyperthyreoïdie niet altijd meteen herkend door eigenaren. Een kat die ineens weer 'jong en energiek' lijkt terwijl hij ook vermagert, is juist een belangrijk signaal.
+
+## Waarom het ernstig kan worden
+Onbehandeld belast hyperthyreoïdie het hart en andere organen zwaar. Op de lange termijn kan het leiden tot een verdikte hartspier en hartfalen, en het kan ook de bloeddruk flink verhogen, wat weer schade kan geven aan ogen, nieren en hersenen. Daarnaast kan hyperthyreoïdie een onderliggend nierprobleem maskeren, omdat de verhoogde doorbloeding van de nieren de nierfunctie tijdelijk beter laat lijken dan die in werkelijkheid is.
+
+## Diagnose
+De dierenarts voelt vaak al een vergrote schildklier bij het voelen van de hals, maar de diagnose wordt bevestigd met een bloedtest die het schildklierhormoon (T4) meet. Vaak wordt gelijktijdig de nierfunctie gecontroleerd en de bloeddruk gemeten, omdat deze vaak samen voorkomen bij oudere katten.
+
+## Behandeling
+Er zijn verschillende behandelopties, die vaak samen met de dierenarts worden afgewogen op basis van leeftijd, algemene gezondheid en de voorkeur van de eigenaar.
+
+### Medicatie
+Tabletten of een likbare gel met de stof methimazol (of een afgeleide) remmen de aanmaak van schildklierhormoon. Dit is de meest gebruikte en toegankelijke behandeling, maar moet meestal levenslang en dagelijks worden toegediend, met periodieke bloedcontroles om de dosering goed af te stemmen.
+
+### Operatieve verwijdering
+De vergrote schildklier(kwab) kan chirurgisch worden verwijderd. Dit kan in veel gevallen een definitieve oplossing bieden, maar brengt operatierisico's met zich mee, zeker bij oudere katten met bijkomende aandoeningen, en er is een kans dat later de andere kwab ook overactief wordt.
+
+### Radioactief jodium
+Deze behandeling, waarbij de kat een eenmalige dosis radioactief jodium krijgt die zich specifiek ophoopt in het overactieve schildklierweefsel en dit vernietigt, geldt als een zeer effectieve en vaak definitieve behandeling met weinig bijwerkingen. Het nadeel is dat het alleen in gespecialiseerde centra kan worden uitgevoerd en de kat na behandeling enige tijd geïsoleerd moet verblijven vanwege de straling.
+
+### Dieet
+Er bestaat ook een speciaal, zeer jodiumbeperkt dieet, omdat jodium nodig is voor de aanmaak van schildklierhormoon. Dit dieet moet de kat dan wel exclusief en levenslang eten, zonder andere voeding, snacks of buiten jagen, wat in de praktijk niet voor elke kat haalbaar is.
+
+## Vooruitzicht
+Met een goed afgestemde behandeling kunnen katten met hyperthyreoïdie vaak nog jarenlang een goede kwaliteit van leven hebben. Regelmatige controle van schildklierwaarden, nierfunctie en bloeddruk blijft belangrijk, ook na het starten van behandeling.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Is hyperthyreoïdie te voorkomen?
+A: Er is geen bekende manier om de aandoening te voorkomen, maar vroege opsporing door regelmatige gezondheidschecks bij oudere katten (vanaf ongeveer tien jaar) maakt behandeling eenvoudiger en effectiever.
+
+V: Kan een kat met hyperthyreoïdie zonder behandeling nog lang leven?
+A: Onbehandeld verslechtert de aandoening geleidelijk en ontstaat vaak schade aan hart, bloeddruk en andere organen, wat de levensduur en kwaliteit van leven uiteindelijk flink beperkt.
+
+V: Waarom wordt vaak eerst de nierfunctie gecontroleerd?
+A: Omdat hyperthyreoïdie de nierfunctie tijdelijk beter kan laten lijken, kan een onderliggend nierprobleem pas na het starten van de behandeling duidelijk worden. De dierenarts houdt hier bewust rekening mee.
+
+V: Komt hyperthyreoïdie ook voor bij jonge katten?
+A: Het komt vrijwel uitsluitend voor bij oudere katten, meestal vanaf ongeveer tien jaar, en is zeer zeldzaam bij jonge, volwassen katten.
+
+
+--------------------------------------------------------------------------------
+# Epilepsie bij katten: oorzaken en wat te doen bij een aanval
+
+URL: https://dierenkliniek.nl/kennisbank/epilepsie-bij-katten-oorzaken-en-wat-te-doen-bij-een-aanval
+Categorie: Eerste hulp & spoed · Diersoort: Kat · Leestijd: 4 min
+
+Samenvatting: Epilepsie komt minder vaak voor bij katten dan bij honden, en heeft vaker een aanwijsbare oorzaak zoals FIP of hoge bloeddruk.
+
+## Wat is epilepsie bij katten?
+Epilepsie bij katten is een aandoening waarbij het brein periodiek abnormale elektrische activiteit vertoont, wat aanvallen (toevallen) met vallen, stijfheid en trappelen veroorzaakt. Het komt minder vaak voor dan bij honden, en heeft bij katten vaker een aanwijsbare onderliggende oorzaak, zoals FIP, hoge bloeddruk of een hersentumor, dan dat het 'puur' idiopathisch is.
+
+## Wat zijn de oorzaken van epilepsie bij katten?
+Bij katten wordt een aanval vaker veroorzaakt door een onderliggend probleem dan dat het 'puur' idiopathisch (zonder aanwijsbare oorzaak) is. Mogelijke oorzaken zijn onder meer: hersentumoren (vooral bij oudere katten), infecties van het centrale zenuwstelsel zoals FIP met neurologische verschijnselen, hoge bloeddruk met gevolgen voor de hersenen, lever- of nierproblemen die giftige stoffen in het bloed laten oplopen, lage bloedsuikerspiegel, vergiftiging, hoofdletsel, en in zeldzamere gevallen een echte, idiopathische epilepsie zonder aanwijsbare oorzaak, die dan meestal al op jongere leeftijd begint.
+
+## Hoe ziet een aanval eruit?
+Tijdens een toeval kan een kat plotseling vallen, stijf worden, met de poten trappelen, kwijlen, ongecontroleerd plassen of ontlasten, en soms klauwende of bijtende bewegingen maken. De kat is tijdens de aanval niet aanspreekbaar en heeft er geen controle over. Na de aanval (de zogenoemde postictale fase) kan de kat verward, tijdelijk blind, onrustig of juist heel slaperig zijn, dit kan enkele minuten tot uren duren.
+
+## Wat te doen tijdens een aanval
+
+- Blijf rustig en zorg dat de kat niet kan vallen of zich kan bezeren, bijvoorbeeld door iets zachts rond hem te leggen
+
+- Raak de kat zo weinig mogelijk aan en houd zeker uw handen weg bij de bek; een kat die een toeval heeft, kan onbewust bijten
+
+- Dim het licht en beperk geluid, dit kan helpen de aanval niet te verlengen
+
+- Neem de tijd op: hoe lang duurt de aanval precies
+
+- Film de aanval indien mogelijk, dit helpt de dierenarts enorm bij het stellen van een diagnose
+
+- Bel de dierenarts zodra de aanval voorbij is, of eerder als deze langer duurt dan vijf minuten
+
+## Wanneer is het spoed?
+Een aanval die langer dan vijf minuten duurt, meerdere aanvallen kort na elkaar zonder dat de kat volledig bijkomt, of de eerste aanval ooit, zijn allemaal reden om direct naar de dierenarts of een spoedkliniek te gaan. Langdurige aanvallen (status epilepticus) kunnen leiden tot gevaarlijke lichaamstemperatuurstijging en hersenschade, en vereisen spoedbehandeling met medicatie om de aanval te stoppen.
+
+## Onderzoek en behandeling
+Omdat bij katten vaak een onderliggende oorzaak aan de aanvallen ten grondslag ligt, zal de dierenarts breed onderzoek doen: bloedonderzoek naar orgaanfunctie en bloedsuiker, bloeddrukmeting, en bij aanhoudende twijfel eventueel beeldvorming van de hersenen (CT of MRI) bij een specialist. Wordt een onderliggende oorzaak gevonden, dan richt de behandeling zich primair daarop, bijvoorbeeld behandeling van hoge bloeddruk of een infectie. Is er geen aanwijsbare oorzaak (idiopathische epilepsie), dan kan de dierenarts, net als bij honden, anti-epileptische medicatie voorschrijven om de frequentie en ernst van aanvallen te verminderen. Deze medicatie moet meestal dagelijks en langdurig gegeven worden, met regelmatige controle.
+
+## Vooruitzicht
+De prognose hangt sterk af van de onderliggende oorzaak. Bij een behandelbare oorzaak kunnen de aanvallen soms helemaal verdwijnen. Bij idiopathische epilepsie of een niet te verhelpen oorzaak is het doel vaak het zoveel mogelijk onder controle houden van de aanvallen met medicatie, zodat de kat een zo normaal mogelijk leven kan leiden.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Is epilepsie bij katten erfelijk?
+A: Bij honden is een erfelijke component bij bepaalde rassen beter onderzocht; bij katten is hierover minder bekend, al lijkt idiopathische epilepsie bij sommige kattenlijnen vaker voor te komen.
+
+V: Kan stress een aanval bij een kat uitlokken?
+A: Stress en opwinding kunnen bij katten die al gevoelig zijn voor aanvallen soms als trigger werken, al is dit minder goed onderzocht dan bij honden.
+
+V: Moet een kat na één enkele aanval al medicatie krijgen?
+A: Niet per se. De dierenarts bekijkt eerst of er een onderliggende oorzaak is en hoe vaak en hevig de aanvallen zijn, voordat levenslange medicatie wordt gestart.
+
+V: Kan een kat tussen aanvallen door een heel normaal leven leiden?
+A: Ja, buiten de aanvallen om gedragen veel katten met epilepsie zich volkomen normaal, zeker als de aanvallen met behandeling onder controle zijn.
+
+
+--------------------------------------------------------------------------------
+# Epilepsie bij honden: rasgevoeligheid, aanval en medicatie
+
+URL: https://dierenkliniek.nl/kennisbank/epilepsie-bij-honden-rasgevoeligheid-aanval-en-medicatie
+Categorie: Eerste hulp & spoed · Diersoort: Hond · Leestijd: 5 min
+
+Samenvatting: Epilepsie is de meest voorkomende hersenaandoening bij honden; vaak erfelijk bij Border Collies, Labradors en Beagles.
+
+## Wat is epilepsie bij honden?
+Epilepsie bij honden is de meest voorkomende neurologische aandoening bij de hond en treft naar schatting enkele procenten van alle honden; het gaat om periodieke, ongecontroleerde aanvallen (toevallen) door abnormale elektrische activiteit in de hersenen. Bij honden gaat het vaak om idiopathische epilepsie, een vermoedelijk erfelijke vorm die duidelijk vaker voorkomt bij specifieke rassen zoals de Border Collie, de Labrador Retriever en de Beagle, en die om een eigen, langdurig medicatiebeleid vraagt.
+
+## Idiopathische versus symptomatische epilepsie bij honden
+Bij honden wordt onderscheid gemaakt tussen idiopathische epilepsie en symptomatische epilepsie. Idiopathische epilepsie is de meest voorkomende vorm en betekent dat er geen aanwijsbare onderliggende oorzaak in de hersenen wordt gevonden; vermoedelijk speelt erfelijkheid hier een grote rol. Deze vorm begint meestal tussen het eerste en vijfde levensjaar en komt duidelijk vaker voor bij bepaalde rassen, waaronder de Border Collie, de Labrador Retriever, de Beagle, de Duitse Herder, de Golden Retriever en de Australische Herder, wat wijst op een genetische component. Symptomatische epilepsie heeft wel een aanwijsbare oorzaak, zoals een hersentumor, een eerdere hoofdverwonding, een infectie van het centrale zenuwstelsel, lever- of nierfalen, of vergiftiging. Deze vorm komt vaker voor bij honden die pas op oudere leeftijd voor het eerst aanvallen krijgen.
+
+## Hoe ziet een aanval eruit?
+Een klassieke aanval (een zogenoemde gegeneraliseerde aanval) verloopt vaak in fasen. Vooraf kan de hond zich al vreemd gedragen, onrustig, aanhankelijk of juist angstig (de aura-fase). Tijdens de aanval zelf valt de hond vaak om, wordt stijf, trappelt of maakt zwemmende bewegingen met de poten, kwijlt, kauwt met de kaken, en kan ongecontroleerd plassen of poepen. De hond is hierbij niet bij bewustzijn en reageert niet op aanspreken. Na de aanval (postictale fase) is de hond vaak verward, tijdelijk blind, extreem dorstig of hongerig, onrustig of juist heel slaperig; dit kan van minuten tot soms een hele dag duren. Sommige honden hebben ook kleinere, partiële aanvallen, waarbij slechts een deel van het lichaam trekt of er vreemd, kortdurend afwezig gedrag optreedt.
+
+## Wat te doen tijdens een aanval
+
+- Blijf kalm; de hond is zich niet bewust van wat er gebeurt en voelt op dat moment geen angst zoals u die misschien wel voelt
+
+- Verwijder voorwerpen in de buurt waar de hond zich aan kan verwonden, maar forceer de hond niet in een bepaalde houding
+
+- Raak de bek niet aan; honden kunnen tijdens een aanval onbewust en krachtig bijten, ook hun eigen baasje
+
+- Zorg voor een rustige, donkere, stille omgeving zonder fel licht of harde geluiden
+
+- Neem de tijd op zodra de aanval begint
+
+- Film de aanval als dat veilig kan; dit is enorm waardevol voor de dierenarts
+
+- Houd de hond na de aanval warm en rustig totdat hij volledig is bijgekomen
+
+## Status epilepticus: een levensbedreigend spoedgeval
+Een aanval die langer dan vijf minuten aanhoudt, of meerdere aanvallen kort na elkaar zonder volledig bewustzijnsherstel tussendoor, wordt status epilepticus genoemd en is een acuut levensbedreigend spoedgeval. Door de aanhoudende spiersamentrekkingen kan de lichaamstemperatuur gevaarlijk snel stijgen (hyperthermie), en kan er blijvende hersenschade ontstaan. Rijd in dit geval direct naar de dichtstbijzijnde (spoed)dierenkliniek; onderweg bellen zodat men zich kan voorbereiden, bespaart kostbare tijd. In de kliniek wordt de aanval met spoedmedicatie, vaak via een infuus of rectaal toegediend, zo snel mogelijk gestopt.
+
+## Diagnose
+De dierenarts stelt de diagnose op basis van het verhaal van de aanvallen (vandaar het belang van een video), lichamelijk en neurologisch onderzoek, en bloedonderzoek om andere oorzaken zoals lever-, nier- of bloedsuikerproblemen uit te sluiten. Bij twijfel of bij atypische aanvallen kan verwijzing naar een specialist voor beeldvorming van de hersenen (MRI) en eventueel ruggenmergvocht-onderzoek aan de orde zijn.
+
+## Behandeling op lange termijn
+Niet elke hond met één enkele aanval krijgt direct medicatie; de dierenarts kijkt naar de frequentie en ernst. Bij regelmatig terugkerende aanvallen wordt meestal gestart met dagelijkse anti-epileptische medicatie, zoals fenobarbital of kaliumbromide, vaak aangevuld of vervangen door nieuwere middelen zoals levetiracetam, afhankelijk van de hond en eventuele bijwerkingen. Deze medicatie moet zeer consequent en op vaste tijden gegeven worden; plotseling stoppen kan juist een zware aanval uitlokken. Regelmatige bloedcontroles zijn nodig om de medicatiespiegel en de belasting van lever en nieren te controleren. Het doel van de behandeling is niet altijd het volledig stoppen van alle aanvallen, maar wel het sterk verminderen van frequentie en ernst, zodat de hond een goede kwaliteit van leven houdt.
+
+## Vooruitzicht
+Met een goed ingestelde behandeling leiden veel honden met epilepsie nog jarenlang een goed leven. Rassen met een erfelijke aanleg hebben soms een iets lastiger te reguleren vorm, maar ook bij hen is met geduld en goede medicatie-opvolging vaak een stabiele situatie te bereiken.
+
+## Is dit uw vakgebied?
+
+Dit artikel is geschreven op basis van algemene diergeneeskundige kennis. Bent u dierenarts of specialist op dit gebied? Claim dit artikel om uw naam, praktijk en contactgegevens eraan te koppelen als vakinhoudelijk aanspreekpunt voor lezers — en lever desgewenst uw eigen tekst en foto's aan.
+
+Geclaimd door: — (nog niet geclaimd)
+
+Claim dit artikel
+
+## Mist u een onderwerp?
+
+Staat een vraag, ziektebeeld of onderwerp hier nog niet behandeld? Draag zelf een artikel of onderwerp aan — als dierenarts, specialist of gewoon als huisdiereigenaar met een goede suggestie. Vakinhoudelijke bijdragen van dierenartsen worden bij plaatsing voorzien van naam en praktijkvermelding.
+
+Artikel aanmelden
+
+Veelgestelde vragen:
+V: Is epilepsie bij honden te genezen?
+A: Idiopathische epilepsie is niet te genezen, maar wel vaak goed te beheersen met medicatie. Bij symptomatische epilepsie kan het behandelen van de onderliggende oorzaak de aanvallen soms wel doen verdwijnen.
+
+V: Welke rassen hebben een grotere kans op epilepsie?
+A: Border Collies, Labrador Retrievers, Beagles, Duitse Herders, Golden Retrievers en Australische Herders worden vaker genoemd als rassen met een verhoogd, vermoedelijk erfelijk risico op idiopathische epilepsie.
+
+V: Mag een hond met epilepsie nog fokken?
+A: Bij een vermoede erfelijke vorm wordt afgeraden om met deze hond te fokken, om verspreiding van de aanleg binnen de rasgroep te beperken.
+
+V: Kan medicatie zonder gevaar gestopt worden als de hond lang geen aanval heeft gehad?
+A: Medicatie nooit zelf abrupt stoppen; dit kan juist een zware aanval of status epilepticus uitlokken. Afbouwen gebeurt alleen geleidelijk en in overleg met de dierenarts.
+
+V: Kan een hond tijdens een aanval zichzelf verwonden?
+A: Ja, door het ongecontroleerd bewegen kan een hond tegen meubels of randen stoten. Zorg voor een veilige, vrije ruimte rondom de hond zonder hem vast te houden of te forceren.
 
 
 --------------------------------------------------------------------------------

@@ -1,6 +1,6 @@
 # Dierenkliniek.nl
 
-> Dierenkliniek.nl is het onafhankelijke overzicht van alle 1318 dierenklinieken in Nederland. Huisdiereigenaren vinden er een dierenarts op postcode, plaats of provincie, plus 112 klinieken met 24/7 spoedhulp en een kennisbank van 408 artikelen. Geen betaalde voorrang in de zoekresultaten.
+> Dierenkliniek.nl is het onafhankelijke overzicht van alle 1318 dierenklinieken in Nederland. Huisdiereigenaren vinden er een dierenarts op postcode, plaats of provincie, plus 112 klinieken met 24/7 spoedhulp en een kennisbank van 425 artikelen. Geen betaalde voorrang in de zoekresultaten.
 
 Laatst bijgewerkt: 2026-10-09. Exploitant: Dierenkliniek.nl, Darthuizerberg 1, 3825 BK Amersfoort, info@dierenkliniek.nl, 06-59115265.
 
@@ -10,7 +10,7 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 - [Dierenarts zoeken op postcode](https://dierenkliniek.nl/): startpunt met postcodezoeker en kaart van alle 1318 klinieken
 - [Spoedhulp 24/7](https://dierenkliniek.nl/spoedhulp): 112 klinieken met een 24-uurs spoeddienst, per provincie, met telefoonnummer
-- [Kennisbank](https://dierenkliniek.nl/kennisbank): 408 artikelen over gezondheid, preventie, voeding, gedrag en spoed
+- [Kennisbank](https://dierenkliniek.nl/kennisbank): 425 artikelen over gezondheid, preventie, voeding, gedrag en spoed
 - [Veterinair glossarium](https://dierenkliniek.nl/glossarium): 40 medische termen in gewone taal
 - [Alle provincies](https://dierenkliniek.nl/provincies): klinieken gegroepeerd per provincie
 - [Specialismen](https://dierenkliniek.nl/specialismen): klinieken per aandachtsgebied
@@ -71,22 +71,22 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 ## Kennisbank per categorie
 
-- [Eerste hulp & spoed](https://dierenkliniek.nl/kennisbank/categorie-spoed): 22 artikelen
-- [Preventie & vaccinaties](https://dierenkliniek.nl/kennisbank/categorie-preventie): 116 artikelen
+- [Eerste hulp & spoed](https://dierenkliniek.nl/kennisbank/categorie-spoed): 30 artikelen
+- [Preventie & vaccinaties](https://dierenkliniek.nl/kennisbank/categorie-preventie): 118 artikelen
 - [Voeding & gewicht](https://dierenkliniek.nl/kennisbank/categorie-voeding): 18 artikelen
 - [Gedrag & welzijn](https://dierenkliniek.nl/kennisbank/categorie-gedrag): 16 artikelen
-- [Puppy, volwassen, senior](https://dierenkliniek.nl/kennisbank/categorie-levensfasen): 14 artikelen
-- [Praktische zaken](https://dierenkliniek.nl/kennisbank/categorie-praktisch): 222 artikelen
+- [Puppy, volwassen, senior](https://dierenkliniek.nl/kennisbank/categorie-levensfasen): 18 artikelen
+- [Praktische zaken](https://dierenkliniek.nl/kennisbank/categorie-praktisch): 225 artikelen
 
 ## Kennisbank per diersoort
 
-- [Hond](https://dierenkliniek.nl/kennisbank/dier-hond): 145 artikelen
-- [Kat](https://dierenkliniek.nl/kennisbank/dier-kat): 46 artikelen
+- [Hond](https://dierenkliniek.nl/kennisbank/dier-hond): 156 artikelen
+- [Kat](https://dierenkliniek.nl/kennisbank/dier-kat): 51 artikelen
 - [Konijn](https://dierenkliniek.nl/kennisbank/dier-konijn): 12 artikelen
 - [Knaagdieren](https://dierenkliniek.nl/kennisbank/dier-knaagdier): 11 artikelen
 - [Vogels](https://dierenkliniek.nl/kennisbank/dier-vogel): 10 artikelen
 - [Reptielen](https://dierenkliniek.nl/kennisbank/dier-reptiel): 9 artikelen
-- [Paarden](https://dierenkliniek.nl/kennisbank/dier-paard): 60 artikelen
+- [Paarden](https://dierenkliniek.nl/kennisbank/dier-paard): 61 artikelen
 - [Kippen](https://dierenkliniek.nl/kennisbank/dier-kip): 14 artikelen
 - [Vissen](https://dierenkliniek.nl/kennisbank/dier-vis): 10 artikelen
 - [Fretten](https://dierenkliniek.nl/kennisbank/dier-fret): 7 artikelen
@@ -505,6 +505,23 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 - [Salmonellose — besmetting via huisdieren voorkomen](https://dierenkliniek.nl/kennisbank/salmonellose-besmetting-via-huisdieren-voorkomen): Reptielen en terraria zijn een bekende bron van salmonella-besmetting bij mensen. Welke hygiënemaatregelen beperken het risico echt?
 - [Toxoplasmose en katten — risico's voor zwangere vrouwen](https://dierenkliniek.nl/kennisbank/toxoplasmose-en-katten-risicos-voor-zwangere-vrouwen): Toxoplasma gondii kan via de kattenbak worden overgedragen en is risicovol tijdens de zwangerschap. Welke hygiënemaatregelen beperken het risico?
 - [Zoonosen — ziektes die van huisdier op mens overgaan](https://dierenkliniek.nl/kennisbank/zoonosen-ziektes-die-van-huisdier-op-mens-overgaan): Van kattenkrabziekte tot wormen: zoönosen zijn ziektes die van dier op mens overgaan. Hoe ontstaan ze, en hoe beperkt u het risico?
+- [Parvovirose bij honden: symptomen, behandeling, vaccinatie](https://dierenkliniek.nl/kennisbank/parvovirose-bij-honden-symptomen-behandeling-vaccinatie): Parvovirose (hondenparvo) is een zeer besmettelijk virus dat vooral puppy's treft met braken en bloederige diarree, en is onbehandeld vaak dodelijk.
+- [Hondenziekte (distemper) bij honden: symptomen en vaccin](https://dierenkliniek.nl/kennisbank/hondenziekte-distemper-bij-honden-symptomen-en-vaccin): Hondenziekte (distemper) is een besmettelijk virus dat longen, darmen en zenuwstelsel aantast; vaccinatie beschermt effectief.
+- [Kennelhoest bij honden: oorzaak, symptomen en behandeling](https://dierenkliniek.nl/kennisbank/kennelhoest-bij-honden-oorzaak-symptomen-en-behandeling): Kennelhoest geeft een hardnekkige, droge hoest en is zeer besmettelijk tussen honden, maar meestal niet gevaarlijk.
+- [Leptospirose bij honden: symptomen en risico voor mensen](https://dierenkliniek.nl/kennisbank/leptospirose-bij-honden-symptomen-en-risico-voor-mensen): Leptospirose is een bacteriële infectie die nieren en lever aantast en als zoönose ook op mensen kan overgaan. Vaccinatie is beschikbaar.
+- [Baarmoederontsteking (pyometra) bij honden: spoedgeval](https://dierenkliniek.nl/kennisbank/baarmoederontsteking-pyometra-bij-honden-spoedgeval): Pyometra is een baarmoederontsteking bij ongesteriliseerde teven die onbehandeld binnen dagen levensbedreigend kan worden.
+- [Patellaluxatie bij honden: losse knieschijf, oorzaak en behandeling](https://dierenkliniek.nl/kennisbank/patellaluxatie-bij-honden-losse-knieschijf-oorzaak-en-behandeling): Patellaluxatie is een losse knieschijf die uit positie glipt; vooral kleine hondenrassen zijn hiervoor gevoelig.
+- [Hernia bij honden (IVDD): symptomen en spoedbehandeling](https://dierenkliniek.nl/kennisbank/hernia-bij-honden-ivdd-symptomen-en-spoedbehandeling): Hernia (IVDD) bij honden geeft rugpijn, zwakte of verlamming door druk op het ruggenmerg. Bij uitval van de poten: direct naar de dierenarts.
+- [Cushing en Addison bij honden: bijnierziekten vergeleken](https://dierenkliniek.nl/kennisbank/cushing-en-addison-bij-honden-bijnierziekten-vergeleken): Cushing geeft te veel, Addison te weinig bijnierhormoon bij honden. Verschillende symptomen, verschillende behandeling, beide goed te managen.
+- [Staar en PRA bij honden: verschil, symptomen, behandeling](https://dierenkliniek.nl/kennisbank/staar-en-pra-bij-honden-verschil-symptomen-behandeling): Staar is troebeling van de ooglens, PRA is afsterven van het netvlies. Beide geven zichtverlies bij honden, maar vragen andere behandeling.
+- [Prostaatproblemen bij de reu: symptomen en behandeling](https://dierenkliniek.nl/kennisbank/prostaatproblemen-bij-de-reu-symptomen-en-behandeling): Prostaatvergroting, -ontsteking of cysten komen vooral voor bij oudere, ongecastreerde reuen en geven moeite met plassen of poepen.
+- [Epilepsie bij paarden: oorzaken en wat te doen bij insult](https://dierenkliniek.nl/kennisbank/epilepsie-bij-paarden-oorzaken-en-wat-te-doen-bij-insult): Epilepsie bij paarden is zeldzaam maar ernstig; een insult vraagt direct dierenartscontact, zeker bij herhaling of lange duur.
+- [Kattenziekte (panleukopenie): symptomen en behandeling](https://dierenkliniek.nl/kennisbank/kattenziekte-panleukopenie-symptomen-en-behandeling): Kattenziekte is een zeer besmettelijk, vaak dodelijk virus bij katten met plotselinge koorts, braken en diarree.
+- [Kattenaids (FIV) en kattenleukemie (FeLV) bij katten](https://dierenkliniek.nl/kennisbank/kattenaids-fiv-en-kattenleukemie-felv-bij-katten): FIV (kattenaids) en FeLV (leukemie) zijn twee virussen die de afweer van katten aantasten; verschil, symptomen en leven ermee.
+- [FIP bij katten: symptomen en nieuwe behandelmogelijkheden](https://dierenkliniek.nl/kennisbank/fip-bij-katten-symptomen-en-nieuwe-behandelmogelijkheden): FIP bij katten was vrijwel altijd dodelijk, maar nieuwe antivirale middelen zoals GS-441524 bieden nu echte genezingskansen.
+- [Hyperthyreoïdie bij katten: symptomen en behandeling](https://dierenkliniek.nl/kennisbank/hyperthyreoidie-bij-katten-symptomen-en-behandeling): Hyperthyreoïdie is de meest voorkomende hormoonziekte bij oudere katten: gewichtsverlies ondanks goed eten en hyperactiviteit.
+- [Epilepsie bij katten: oorzaken en wat te doen bij een aanval](https://dierenkliniek.nl/kennisbank/epilepsie-bij-katten-oorzaken-en-wat-te-doen-bij-een-aanval): Epilepsie komt minder vaak voor bij katten dan bij honden, en heeft vaker een aanwijsbare oorzaak zoals FIP of hoge bloeddruk.
+- [Epilepsie bij honden: rasgevoeligheid, aanval en medicatie](https://dierenkliniek.nl/kennisbank/epilepsie-bij-honden-rasgevoeligheid-aanval-en-medicatie): Epilepsie is de meest voorkomende hersenaandoening bij honden; vaak erfelijk bij Border Collies, Labradors en Beagles.
 
 ## Voor klinieken
 
@@ -524,5 +541,5 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 ## Optioneel
 
-- [Volledige tekst van de kennisbank](https://dierenkliniek.nl/llms-full.txt): alle 408 artikelen als platte tekst
+- [Volledige tekst van de kennisbank](https://dierenkliniek.nl/llms-full.txt): alle 425 artikelen als platte tekst
 - [Sitemap](https://dierenkliniek.nl/sitemap.xml): alle canonieke URL's
