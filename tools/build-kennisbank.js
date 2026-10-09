@@ -36,11 +36,59 @@ const articles = KB_ARTICLES.map(a => ({
 const bySlug = Object.fromEntries(articles.map(a => [a.slug, a]));
 if (Object.keys(bySlug).length !== articles.length) throw new Error('Dubbele artikel-slug');
 
-// Grootste steden voor interne linking naar de stadpagina's.
-const cityCounts = {};
-for (const c of CLINICS) cityCounts[c.city] = (cityCounts[c.city] || 0) + 1;
-const topCities = Object.entries(cityCounts).sort((a, b) => b[1] - a[1]).slice(0, 12)
-  .map(([city, n]) => ({ city, n, url: '/dierenarts-' + L.slugify(city) }));
+// Alle steden met minstens één kliniek, voor interne linking naar de
+// stadpagina's. Elk artikel linkt naar een eigen, voor dat artikel-id
+// deterministische selectie (zie cityLinks hieronder) in plaats van steeds
+// dezelfde paar grote steden — dat verspreidt interne linkwaarde over veel
+// meer stad- én kliniekpagina's dan de twaalf grootste alleen.
+const allCities = [...new Set(CLINICS.map(c => c.city))].sort()
+  .map(city => ({ city, url: '/' + L.citySlug(city) }));
+
+// Diersoort → specialisatie-tag in clinics.json (specs[]), voor artikelen die
+// aan een specifiek dier hangen. Niet elk dier heeft een eigen specialisatie-
+// tag; die artikelen vallen terug op de volledige kliniekenlijst.
+const SPEC_VOOR_DIER = {
+  hond: 'Honden', kat: 'Katten', konijn: 'Konijnen', knaagdier: 'Knaagdieren', vogel: 'Vogels'
+};
+
+// Eenvoudige, deterministische (dus build-stabiele) selectie van n items uit
+// arr, startend bij een met seed afgeleide index en lopend met een vaste,
+// met arr.length coprieme stap — zodat elk artikel een andere, maar steeds
+// dezelfde combinatie te zien krijgt.
+function slugHash(s) {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0;
+  return h;
+}
+
+function seededPick(arr, n, seed, distinctKey) {
+  if (!arr.length) return [];
+  const step = 97; // priemgetal; copriem met vrijwel elke arr.length in deze dataset
+  const out = [];
+  const seen = new Set();
+  let i = seed % arr.length;
+  for (let tries = 0; tries < arr.length && out.length < n; tries++) {
+    const item = arr[i];
+    const key = distinctKey ? distinctKey(item) : item;
+    if (!seen.has(key)) { seen.add(key); out.push(item); }
+    i = (i + step) % arr.length;
+  }
+  return out;
+}
+
+function clinicsVoorArtikel(a) {
+  const spec = a.animal && SPEC_VOOR_DIER[a.animal];
+  const spoedVoorkeur = a.category === 'spoed';
+  let pool = CLINICS;
+  if (spoedVoorkeur) {
+    const spoed = CLINICS.filter(c => (c.specs || []).includes('Spoed 24/7'));
+    if (spoed.length >= 4) pool = spoed;
+  } else if (spec) {
+    const gefilterd = CLINICS.filter(c => (c.specs || []).includes(spec));
+    if (gefilterd.length >= 4) pool = gefilterd;
+  }
+  return seededPick(pool, 4, a.id, c => c.city);
+}
 
 const DISCLAIMER = `<div class="callout">
   <strong>Let op:</strong> dit artikel is algemene voorlichting en vervangt geen diagnose van een dierenarts.
@@ -250,13 +298,21 @@ function cardGrid(list, level = 'h3') {
 </div>`;
 }
 
-function cityLinks() {
+function cityLinks(a) {
+  // Per artikel een eigen, deterministische selectie steden én specifieke
+  // klinieken (zie seededPick/clinicsVoorArtikel) — verspreidt interne
+  // linkwaarde over veel meer stad- en kliniekpagina's dan een vaste lijst.
+  const steden = seededPick(allCities, 4, a.id * 31 + 7, c => c.city);
+  const klinieken = clinicsVoorArtikel(a);
   return `<section class="card">
   <h2>Direct een dierenarts vinden</h2>
   <p>Zoek een kliniek in uw plaats of bekijk het volledige overzicht van alle ${CLINICS.length} dierenklinieken in Nederland.</p>
   <div class="tag-row">
-    ${topCities.map(c => `<a class="pill" href="${c.url}">Dierenarts ${L.esc(c.city)}</a>`).join('\n    ')}
+    ${steden.map(c => `<a class="pill" href="${c.url}">Dierenarts ${L.esc(c.city)}</a>`).join('\n    ')}
   </div>
+  ${klinieken.length ? `<ul style="margin-top:12px;">
+    ${klinieken.map(c => `<li><a href="/${L.clinicSlug(c)}">${L.esc(c.name)} — ${L.esc(c.city)}</a></li>`).join('\n    ')}
+  </ul>` : ''}
   <p style="margin-top:16px;"><a class="btn" href="/">Zoek op postcode →</a> <a class="btn btn-outline" href="/spoedhulp">⚡ Spoedhulp 24/7</a></p>
 </section>`;
 }
@@ -322,7 +378,7 @@ ${clusterBlok(a)}
   <p style="margin-top:16px;"><a href="/kennisbank/">Alle ${articles.length} artikelen in de kennisbank →</a></p>
 </section>
 
-${cityLinks()}`;
+${cityLinks(a)}`;
 
   // Titel binnen de weergavegrens van Google houden: het merksuffix vervalt
   // zodra de artikeltitel zelf al lang is.
@@ -411,7 +467,7 @@ function indexPage() {
 <div id="kbCategorieen">
 ${catSections}
 </div>
-${cityLinks()}
+${cityLinks({ id: 0, animal: null, category: null })}
 <script>
 (function() {
   var meta = null, volledig = null;
@@ -525,7 +581,11 @@ function facetPage(kind, item, list) {
   ${cardGrid(list, 'h2')}
   <p style="margin-top:16px;"><a href="/kennisbank/">← Terug naar de kennisbank</a></p>
 </section>
-${cityLinks()}`;
+${cityLinks({
+    id: slugHash(slug),
+    animal: kind === 'dier' ? item.slug : null,
+    category: isCat ? item.slug : null
+  })}`;
 
   return L.page({
     title, description: desc, canonical: '/kennisbank/' + slug,
