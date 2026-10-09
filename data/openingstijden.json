@@ -11312,15 +11312,14 @@
     "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
   },
   "dierenartsenpraktijk-stadskanaal-dierenarts-in-stadskanaal": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "09:00-09:30, 14:00-18:00",
+    "di": "09:00-09:30, 14:00-18:00",
+    "wo": "09:00-09:30, 14:00-18:00",
+    "do": "09:00-09:30, 14:00-18:00",
+    "vr": "09:00-09:30, 14:00-18:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "opgave praktijk, 2026-10-09"
   },
   "dierenartsenpraktijk-tolhuis-dierenarts-in-leeuwarden": {
     "ma": "09:00-17:00",
