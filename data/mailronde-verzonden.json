@@ -3908,5 +3908,30 @@
   "info@dierenkliniekmijnzicht.nl": {
     "id": "532",
     "op": "2026-09-27T19:03:59.196Z"
+  },
+  "info@matthijsremmen.nl": {
+    "id": 1472,
+    "op": "2026-10-09T13:54:35.928Z",
+    "type": "openingstijden-check"
+  },
+  "info@dierentandheelkunde.nl": {
+    "id": 1474,
+    "op": "2026-10-09T13:54:35.928Z",
+    "type": "openingstijden-check"
+  },
+  "doktereef4u@gmail.com": {
+    "id": 1475,
+    "op": "2026-10-09T13:54:35.928Z",
+    "type": "openingstijden-check"
+  },
+  "info@veta-dent.nl": {
+    "id": 1478,
+    "op": "2026-10-09T13:54:35.928Z",
+    "type": "openingstijden-check"
+  },
+  "info@dierenartsvoorkoi.nl": {
+    "id": 1481,
+    "op": "2026-10-09T13:54:35.928Z",
+    "type": "openingstijden-check"
   }
 }
