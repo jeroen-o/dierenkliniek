@@ -133,6 +133,15 @@ for (const c of CLINICS) {
   const dichtstbijzijndeSpoed = (!isSpoed && c.lat && c.lng)
     ? spoedMetCoords.filter(o => o !== c).map(o => ({ o, d: afstandKm(c, o) })).sort((a, b) => a.d - b.d)[0]
     : null;
+  // Voor klinieken die de enige vermelding in hun stad zijn (151 stuks zonder
+  // specs/spoed/rating/bevestigde tijden): zonder dit is hun enige
+  // onderscheidende FAQ-antwoord "nee, enige kliniek" — elders woordelijk
+  // identiek voor elke solo-praktijk. De dichtstbijzijnde andere kliniek
+  // landelijk (niet beperkt tot dezelfde stad) is een feit dat voor elke
+  // kliniek anders uitvalt.
+  const dichtstbijzijndeAndere = (anderenInStad.length === 0 && c.lat && c.lng)
+    ? CLINICS.filter(o => o !== c && o.lat && o.lng).map(o => ({ o, d: afstandKm(c, o) })).sort((a, b) => a.d - b.d)[0]
+    : null;
 
   const faqs = [
     {
@@ -169,7 +178,7 @@ for (const c of CLINICS) {
       q: `Zijn er meer dierenklinieken in ${c.city}?`,
       a: anderenInStad.length
         ? `Ja, naast ${c.name} ${anderenInStad.length === 1 ? 'staat er nog 1 andere kliniek' : `staan er nog ${anderenInStad.length} andere klinieken`} vermeld in ${c.city}: ${anderenInStad.map(o => o.name).join(', ')}. Bekijk de pagina Dierenarts ${c.city} voor alle contactgegevens${prov ? `, of de provinciepagina voor heel ${prov}` : ''}.`
-        : `Nee, ${c.name} is de enige kliniek die wij in ${c.city} vermeld hebben staan${prov ? `. Op de provinciepagina van ${prov} vindt u wel andere klinieken in de omgeving` : ''}.`
+        : `Nee, ${c.name} is de enige kliniek die wij in ${c.city} vermeld hebben staan.${dichtstbijzijndeAndere ? ` De dichtstbijzijnde andere kliniek in onze data is ${dichtstbijzijndeAndere.o.name} in ${dichtstbijzijndeAndere.o.city}, op ongeveer ${dichtstbijzijndeAndere.d.toFixed(0)} km.` : prov ? ` Op de provinciepagina van ${prov} vindt u wel andere klinieken in de omgeving.` : ''}`
     }
   ].filter(Boolean);
 

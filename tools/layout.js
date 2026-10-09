@@ -215,7 +215,14 @@ function breadcrumbHtml(items) {
 // specialisme of 24/7-spoeddienst vermeldt, gebruiken we dat in plaats van de
 // placeholder. Een kliniek met een eigen, afwijkende tekst in c.desc (43
 // stuks) behoudt die altijd; hier verzinnen we niets bij wat we niet weten.
-const GENERIEKE_DESC = /^Veterinaire kliniek in [^.]+\.(\s*Volledige zorg voor gezelschapsdieren\.)?$/;
+//
+// Zonder specialisme/spoeddienst (490 van de 1388 klinieken) was de zin
+// vlak: "Dierenarts in {stad}." — identiek voor elke kliniek zonder
+// specs/spoed in dezelfde stad (402 pagina's deelden zo'n exacte,
+// woordelijke duplicate-beschrijving, tot 15 klinieken in Amsterdam aan
+// toe). Het eigen adres is altijd aanwezig en per kliniek uniek, dus dat
+// sluit de zin af — geen aanname, alleen al bekende data aan elkaar geknoopt.
+const GENERIEKE_DESC = /^(Veterinaire kliniek|Dierenartspraktijk) in [^.]+\.(\s*Volledige zorg voor gezelschapsdieren\.)?$/;
 function beschrijvingVoor(c) {
   if (c.desc && !GENERIEKE_DESC.test(c.desc)) return c.desc;
   const specs = c.specs || [];
@@ -224,6 +231,7 @@ function beschrijvingVoor(c) {
   if (isSpoed && specs.length) zin += ` met 24/7 spoedhulp, gespecialiseerd in ${specs.join(', ')}`;
   else if (isSpoed) zin += ' met 24/7 spoedhulp';
   else if (specs.length) zin += ` gespecialiseerd in ${specs.join(', ')}`;
+  if (c.address) zin += `, aan ${c.address}`;
   return zin + '.';
 }
 
