@@ -11026,26 +11026,22 @@
     "bron": "opgave praktijk per e-mail, 2026-10-09"
   },
   "dierenartsenpraktijk-bolsward-dierenarts-in-bolsward": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:30-17:00",
+    "di": "08:30-17:00",
+    "wo": "08:30-17:00",
+    "do": "08:30-17:00",
+    "vr": "08:30-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://www.vetterlan.nl/), 2026-10-09"
   },
   "dierenkliniek-van-broekhoven-dierenarts-in-almere": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "ma": "08:30-17:00",
+    "di": "08:30-17:00",
+    "wo": "08:30-13:00",
+    "do": "08:30-17:00",
+    "vr": "08:30-17:00",
+    "bron": "webonderzoek (https://www.dierenartsalmerepoort.nl/), 2026-10-09"
   },
   "huisdierenziekenhuis-honselersdijk-dierenarts-in-honselersdijk": {
     "ma": "09:00-17:00",
@@ -11070,81 +11066,70 @@
     "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
   },
   "dierenkliniek-de-langstraat-dierenarts-in-waalwijk": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
+    "ma": "08:00-12:30, 13:00-18:00",
+    "di": "08:00-12:30, 13:00-18:00",
+    "wo": "08:00-12:30, 13:00-18:00",
+    "do": "08:00-12:30, 13:00-18:00",
+    "vr": "08:00-12:30, 13:00-18:00",
+    "za": "09:00-12:30, 13:00-17:00",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://www.dierenkliniekdelangstraat.nl/), 2026-10-09"
   },
   "dierenkliniek-mijnzicht-dierenarts-in-brunssum": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "09:00-13:00, 13:00-17:00",
+    "di": "09:00-13:00, 13:00-17:00",
+    "wo": "09:00-13:00, 13:00-17:00",
+    "do": "09:00-13:00, 13:00-17:00",
+    "vr": "09:00-13:00, 13:00-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://www.dierenkliniekmijnzicht.nl/contact), 2026-10-09"
   },
   "dierenkliniek-brunssum-de-dikke-kater-dierenarts-in-brunssum": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
+    "ma": "08:30-17:30",
+    "di": "08:30-17:30",
+    "wo": "08:30-17:30",
+    "do": "08:30-19:30",
+    "vr": "08:30-17:30",
+    "za": "09:00-12:00",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://www.dierenkliniek-brunssum.com/contact-en-openingstijden), 2026-10-09"
   },
   "dierenartsenpraktijk-dep-millingen-dierenarts-in-millingen-aan-de-rijn": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "gesloten",
+    "di": "gesloten",
+    "wo": "gesloten",
+    "do": "gesloten",
+    "vr": "08:00-09:30",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://www.dapgroesbeek.nl/contact.html), 2026-10-09"
   },
   "dierenartspraktijk-hoogland-dierenarts-in-hoogland": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "ma": "09:00-17:30",
+    "di": "09:00-19:30",
+    "wo": "08:00-17:30",
+    "do": "09:00-17:30",
+    "vr": "09:00-17:30 (even weken), 09:00-19:30 (oneven weken)",
+    "bron": "webonderzoek (http://www.dierenartshoogland.nl/), 2026-10-09"
   },
   "dierenartsenpraktijk-andreas-stad-dierenarts-in-dordrecht": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "ma": "09:00-12:30, 13:00-19:00",
+    "di": "09:00-12:30, 13:00-19:00",
+    "wo": "09:00-12:30, 13:00-17:30",
+    "do": "09:00-12:30, 13:00-17:30",
+    "vr": "09:00-12:30, 13:00-17:30",
+    "bron": "webonderzoek (http://dapstad.nl/), 2026-10-09"
   },
   "dierenartsenpraktijk-anima-dierenarts-in-nieuw-beijerland": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:30-12:00, 13:00-19:00",
+    "di": "08:30-12:00, 13:00-17:00",
+    "wo": "08:30-12:00, 13:00-19:00",
+    "do": "08:30-12:00, 13:00-17:00",
+    "vr": "08:30-12:00, 13:00-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (http://dierenartsenpraktijkanima.nl/), 2026-10-09"
   },
   "dierenartsenpraktijk-bolwerk-dierenarts-in-kampen": {
     "ma": "09:00-17:00",
@@ -11163,54 +11148,45 @@
     "wo": "09:00-17:00",
     "do": "09:00-17:00",
     "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (http://dierenartsboonstra.nl/), 2026-10-09"
   },
   "dierenartsenpraktijk-breukelen-dierenarts-in-breukelen": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:30-17:00, 18:30-20:00",
+    "di": "08:30-17:00",
+    "wo": "08:30-17:00, 18:30-20:00",
+    "do": "08:30-17:00",
+    "vr": "08:30-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://petla.app/en/tierarzt-finden/breukelen), 2026-10-09"
   },
   "dierenartsenpraktijk-de-hespelaar-dierenarts-in-den-hout": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
+    "ma": "08:00-12:45, 13:30-18:00",
+    "di": "08:00-12:45, 13:30-18:00",
+    "wo": "08:00-12:45, 13:30-18:00",
+    "do": "08:00-12:45, 13:30-18:00",
+    "vr": "08:00-12:45, 13:30-18:00",
+    "za": "08:00-09:00",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://www.dehespelaar.nl/contact), 2026-10-09"
   },
   "dierenartsenpraktijk-de-hondsrug-dierenarts-in-midlaren": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "ma": "08:30-12:00, 13:00-17:00",
+    "di": "08:30-12:00, 13:00-17:00",
+    "wo": "08:30-12:00, 13:00-17:00",
+    "do": "08:30-12:00, 13:00-17:00",
+    "vr": "08:30-12:00, 13:00-17:00",
+    "bron": "webonderzoek (https://www.dierenartsenpraktijkdehondsrug.nl/), 2026-10-09"
   },
   "dierenartsenpraktijk-deurze-smilde-assen-dierenarts-in-smilde": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:00-12:30, 13:30-17:00",
+    "di": "08:00-12:30, 13:30-17:00",
+    "wo": "08:00-12:30, 13:30-17:00",
+    "do": "08:00-12:30, 13:30-17:00",
+    "vr": "08:00-12:30, 13:30-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://www.dierenartsassen.nl/nl-nl/openingstijden-en-contact), 2026-10-09"
   },
   "dierenartsenpraktijk-dier-en-arts-goes-dierenarts-in-s-gravenpolder": {
     "ma": "09:00-17:00",
@@ -11224,37 +11200,29 @@
     "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
   },
   "dierenartsenpraktijk-enschede-boekelo-dierenarts-in-enschede": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "ma": "08:30-16:30",
+    "di": "08:30-16:30",
+    "wo": "08:30-16:30",
+    "do": "08:30-16:30",
+    "vr": "08:30-16:30",
+    "bron": "webonderzoek (http://dapboekelo.nl/), 2026-10-09"
   },
   "dierenartsenpraktijk-goverts-winius-en-zwart-dierenarts-in-amsterdam": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "ma": "09:00-19:00",
+    "di": "09:00-14:00",
+    "wo": "14:00-19:00",
+    "do": "09:00-11:00, 14:00-19:00",
+    "vr": "09:00-19:00",
+    "za": "11:00-16:00",
+    "bron": "webonderzoek (https://www.skda.nl/), 2026-10-09"
   },
   "dierenartsenpraktijk-leek-dierenarts-in-leek": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "ma": "08:30-17:30",
+    "di": "08:30-17:30",
+    "wo": "08:30-17:30",
+    "do": "08:30-17:30",
+    "vr": "08:30-17:00",
+    "bron": "webonderzoek (https://dierenartsencentrum.nl/contact/), 2026-10-09"
   },
   "dierenartsenpraktijk-leezer-dierenarts-in-rijswijk": {
     "ma": "09:00-17:00",
@@ -11268,91 +11236,80 @@
     "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
   },
   "dierenartsenpraktijk-oer-de-tjonger-dierenarts-in-langelille": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:30-17:00",
+    "di": "08:30-17:00",
+    "wo": "08:30-17:00",
+    "do": "08:30-17:00",
+    "vr": "08:30-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://oerdetjonger.nl/Contact-en-Route/), 2026-10-09"
   },
   "dierenartsenpraktijk-puiflijk-dierenarts-in-puiflijk": {
     "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "di": "09:00-13:00",
+    "wo": "12:00-19:00",
+    "do": "09:00-13:00",
+    "vr": "12:00-19:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (http://dierenartsenpraktijkpuiflijk.nl/), 2026-10-09"
   },
   "dierenartsenpraktijk-sint-michielsgestel-dierenarts-in-sint-michielsgestel": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:30-12:30, 13:30-18:00",
+    "di": "08:30-12:30, 13:30-18:00",
+    "wo": "08:30-12:30, 13:30-18:00",
+    "do": "08:30-12:30, 13:30-18:00",
+    "vr": "08:30-12:30, 13:30-18:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://petla.app/en/tierarzt-finden/sint-michielsgestel), 2026-10-09"
   },
   "dierenartsenpraktijk-spierdijk-dierenarts-in-spierdijk": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "ma": "08:00-12:30, 13:00-17:30",
+    "di": "08:00-12:30, 13:00-17:30",
+    "wo": "08:00-12:30, 13:00-17:30",
+    "do": "08:00-12:30, 13:00-17:30",
+    "vr": "08:00-12:30, 13:00-17:30",
+    "bron": "webonderzoek (https://www.dapspierdijkobdam.nl/openingstijden.html), 2026-10-09"
   },
   "dierenartsenpraktijk-stadskanaal-dierenarts-in-stadskanaal": {
-    "ma": "09:00-09:30, 14:00-18:00",
-    "di": "09:00-09:30, 14:00-18:00",
-    "wo": "09:00-09:30, 14:00-18:00",
-    "do": "09:00-09:30, 14:00-18:00",
-    "vr": "09:00-09:30, 14:00-18:00",
+    "ma": "09:00-18:00",
+    "di": "09:00-18:00",
+    "wo": "09:00-18:00",
+    "do": "09:00-18:00",
+    "vr": "09:00-18:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "bron": "opgave praktijk, 2026-10-09"
+    "bron": "webonderzoek (https://www.dierenartsenindebuurt.nl/bedrijf/dierenartsenpraktijk-stadskanaal-624/), 2026-10-09"
   },
   "dierenartsenpraktijk-tolhuis-dierenarts-in-leeuwarden": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "09:00-18:00",
+    "di": "09:00-18:00",
+    "wo": "09:00-18:00",
+    "do": "09:00-18:00",
+    "vr": "09:00-18:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://petla.app/en/tierarzt-finden/leeuwarden), 2026-10-09"
   },
   "maatschap-dierenartsenpraktijk-zw-drenthe-dierenarts-in-meppel": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "ma": "08:00-17:30",
+    "di": "08:00-17:30",
+    "wo": "08:00-17:30",
+    "do": "08:00-17:30",
+    "vr": "08:00-17:30",
+    "za": "08:00-12:00",
+    "bron": "webonderzoek (http://www.dierenartsenpraktijkmeppel.nl/), 2026-10-09"
   },
   "westeinder-dierenartsenpraktijk-dierenarts-in-leimuiden": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "16:00-18:30",
+    "di": "16:00-17:30",
+    "wo": "16:00-18:30",
+    "do": "gesloten",
+    "vr": "16:00-18:30",
     "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (http://www.dap-westeinder.nl/), 2026-10-09"
   },
   "dierenartspraktijk-terschelling-dierenarts-in-midsland": {
     "ma": "09:00-17:00",
@@ -11377,37 +11334,34 @@
     "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
   },
   "dierenkliniek-de-eendracht-dierenarts-in-tholen": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "09:00-12:00, 13:00-18:00",
+    "di": "09:00-12:00, 13:00-18:00",
+    "wo": "09:00-12:00, 13:00-18:00",
+    "do": "09:00-12:00, 13:00-18:00",
+    "vr": "09:00-12:00, 13:00-18:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://dierenkliniektholen.nl/contact/), 2026-10-09"
   },
   "dierenartspraktijk-van-anrooij-locatie-kortgene-dierenarts-in-kortgene": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:00-13:00",
+    "di": "08:00-13:00",
+    "wo": "08:00-13:00",
+    "do": "08:00-13:00",
+    "vr": "08:00-13:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://www.dapvananrooij.nl/locaties/kortgene/), 2026-10-09"
   },
   "dierenartsenpraktijk-wemeldinge-dierenarts-in-wemeldinge": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "09:00-18:00",
+    "di": "09:00-18:00",
+    "wo": "09:00-18:00",
+    "do": "09:00-18:00",
+    "vr": "09:00-18:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://petla.app/nl/tierarzt-finden/wemeldinge/dierenartsenpraktijk-wemeldinge), 2026-10-09"
   },
   "dierenartspraktijk-den-bommel-dierenarts-in-den-bommel": {
     "ma": "09:00-17:00",
@@ -11421,70 +11375,59 @@
     "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
   },
   "karin-voor-dieren-dierenarts-in-biggekerke": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://karinvoordieren.nl/), 2026-10-09"
   },
   "dierenartspraktijk-van-anrooij-dierenarts-in-goes": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:00-18:00",
+    "di": "08:00-18:00",
+    "wo": "08:00-18:00",
+    "do": "08:00-18:00",
+    "vr": "08:00-18:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://www.dapvananrooij.nl/locaties/goes/), 2026-10-09"
   },
   "nova-spoed-en-verwijskliniek-dierenarts-in-baarn": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "ma": "00:00-24:00",
+    "di": "00:00-24:00",
+    "wo": "00:00-24:00",
+    "do": "00:00-24:00",
+    "vr": "00:00-24:00",
+    "za": "00:00-24:00",
+    "zo": "00:00-24:00",
+    "bron": "webonderzoek (https://nova-verwijskliniek.nl/spoedzorg/), 2026-10-09"
   },
   "julder-dierenarts-dierenarts-in-yerseke": {
     "ma": "09:00-17:00",
-    "di": "09:00-17:00",
+    "di": "09:00-19:00",
     "wo": "09:00-17:00",
     "do": "09:00-17:00",
     "vr": "09:00-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://www.google.com/search?q=Julder+Dierenarts+Yerseke), 2026-10-09"
   },
   "dierenarts-bouke-romijn-medvos-dierenarts-in-zonnemaire": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "ma": "16:00-23:00",
+    "di": "16:00-23:00",
+    "wo": "16:00-23:00",
+    "do": "16:00-23:00",
+    "vr": "16:00-23:00",
+    "za": "00:00-24:00",
+    "zo": "00:00-24:00",
+    "bron": "webonderzoek (https://www.google.com/search?q=Medvos+Bouke+Romijn+dierenarts+Zonnemaire), 2026-10-09"
   },
   "dap-lingehoeve-midden-zeeland-dierenarts-in-goes": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:00-17:30",
+    "di": "08:00-17:30",
+    "wo": "08:00-17:30",
+    "do": "08:00-17:30",
+    "vr": "08:00-17:30",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://www.google.com/search?q=Lingehoeve+Midden-Zeeland+Goes), 2026-10-09"
   },
   "dap-lingehoeve-midden-zeeland-vestiging-heinkenszand-dierenarts-in-heinkenszand": {
     "ma": "09:00-17:00",
@@ -11509,15 +11452,14 @@
     "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
   },
   "oostermoer-dierenartsen-dierenarts-in-gieten": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:00-18:30",
+    "di": "08:00-18:30",
+    "wo": "08:00-18:30",
+    "do": "08:00-18:30",
+    "vr": "08:00-18:30",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://oostermoerdierenartsen.nl/), 2026-10-09"
   },
   "paardenkliniek-aa-en-hunze-dierenarts-in-schoonloo": {
     "ma": "09:00-17:00",
@@ -11531,15 +11473,14 @@
     "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
   },
   "dierenartspraktijk-van-werven-bv-dierenarts-in-hollandscheveld": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "13:00-13:30, 18:30-19:30",
+    "di": "13:00-13:30, 18:30-19:30",
+    "wo": "13:00-13:30",
+    "do": "13:00-13:30, 18:30-19:30",
+    "vr": "13:00-13:30, 18:30-19:30",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://www.google.com/search?q=Dierenartspraktijk+van+Werven+Hollandscheveld+Otto+Zomerweg+75), 2026-10-09"
   },
   "dierenkliniek-arts-en-dier-klazienaveen-dierenarts-in-klazienaveen": {
     "ma": "09:00-17:00",
@@ -11549,8 +11490,7 @@
     "vr": "09:00-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://www.artsendier.nl/), 2026-10-09"
   },
   "dierenartsenpraktijk-norg-dierenarts-in-norg": {
     "ma": "09:00-17:00",
@@ -11564,15 +11504,10 @@
     "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
   },
   "dierenarts-suzan-hordijk-dierenarts-in-gees": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "vr": "gesloten",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://www.dekapschuur.nl/), 2026-10-09"
   },
   "j-alen-dierenarts-in-emmen": {
     "ma": "09:00-17:00",
@@ -11619,15 +11554,14 @@
     "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
   },
   "dierenartsenpraktijk-arts-en-dier-dierenarts-in-emmen": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
+    "ma": "09:00-18:00",
+    "di": "09:00-18:00",
+    "wo": "09:00-18:00",
+    "do": "09:00-18:00",
+    "vr": "09:00-18:00",
+    "za": "10:00-14:00",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://www.artsendier.nl/vestigingen/), 2026-10-09"
   },
   "dierenartsenpraktijk-weggemans-dierenarts-in-hooghalen": {
     "ma": "09:00-17:00",
@@ -11641,15 +11575,14 @@
     "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
   },
   "dierenkliniek-meppel-dierenarts-in-meppel": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
+    "ma": "08:30-12:15, 13:00-18:00",
+    "di": "08:30-12:15, 13:00-18:00",
+    "wo": "08:30-12:15, 13:00-18:00",
+    "do": "08:30-12:15, 13:00-18:00",
+    "vr": "08:30-12:15, 13:00-18:00",
+    "za": "09:00-12:00",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://dkmeppel.nl/contact/), 2026-10-09"
   },
   "r-duiven-dierenarts-in-wapserveen": {
     "ma": "09:00-17:00",
@@ -11773,37 +11706,30 @@
     "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
   },
   "dierenartsencentrum-noordwolde-dierenarts-in-noordwolde": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:30-17:30",
+    "di": "08:30-17:30",
+    "wo": "08:30-17:30",
+    "do": "08:30-17:30",
+    "vr": "08:30-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://dierenartsencentrum.nl/contact/), 2026-10-09"
   },
   "dierenkliniek-marum-dierenarts-in-bakkeveen": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "ma": "08:30-17:30",
+    "di": "08:30-17:30",
+    "wo": "08:30-17:30",
+    "do": "08:30-17:30",
+    "vr": "08:30-17:00",
+    "bron": "webonderzoek (https://dierenartsencentrum.nl/contact/), 2026-10-09"
   },
   "arts-en-dier-bears-paardenkliniek-dierenarts-in-bears": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "13:30-17:00",
+    "wo": "13:30-17:00",
+    "vr": "13:30-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://www.artsendier.nl/), 2026-10-09"
   },
   "y-vd-brug-dierenarts-in-steggerda": {
     "ma": "09:00-17:00",
@@ -11828,37 +11754,34 @@
     "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
   },
   "dierenartsencombinatie-gorredijk-dierenarts-in-gorredijk": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:00-17:00",
+    "di": "08:00-17:00",
+    "wo": "08:00-17:00",
+    "do": "08:00-17:00",
+    "vr": "08:00-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://dierenartsensevenwolden.nl/), 2026-10-09"
   },
   "dierenarts-d-b-dijkman-dierenarts-in-marsum": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:00-17:00",
+    "di": "08:00-17:00",
+    "wo": "08:00-18:00",
+    "do": "08:00-17:00",
+    "vr": "08:00-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://www.dapdijkman.nl), 2026-10-09"
   },
   "equilife-paardenartsen-dierenarts-in-weidum": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:00-17:00",
+    "di": "08:00-17:00",
+    "wo": "08:00-17:00",
+    "do": "08:00-17:00",
+    "vr": "08:00-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://www.google.com/search?q=EquiLife+Paardenartsen+Weidum), 2026-10-09"
   },
   "karel-lewin-dierenarts-dierenarts-in-gorredijk": {
     "ma": "09:00-17:00",
@@ -11894,15 +11817,14 @@
     "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
   },
   "sport-paardenkliniek-wolvega-dierenarts-in-oldeholtpade": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:00-18:00",
+    "di": "08:00-18:00",
+    "wo": "08:00-18:00",
+    "do": "08:00-18:00",
+    "vr": "08:00-18:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://petla.app/en/tierarzt-finden/oldeholtpade), 2026-10-09"
   },
   "vof-de-vries-dierenarts-in-hallum": {
     "ma": "09:00-17:00",
@@ -11916,15 +11838,14 @@
     "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
   },
   "delta-dierenartsen-dierenarts-in-biddinghuizen": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "13:00-15:00",
+    "di": "16:00-19:00",
+    "wo": "gesloten",
+    "do": "gesloten",
+    "vr": "gesloten",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://deltadierenartsen.nl/dierenarts/dierenarts-biddinghuizen/), 2026-10-09"
   },
   "dierenkliniek-dronten-dierenarts-in-dronten": {
     "ma": "09:00-17:00",
@@ -12026,15 +11947,14 @@
     "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
   },
   "dierenkliniek-marum-dierenarts-in-marum": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:30-17:30",
+    "di": "08:30-17:30",
+    "wo": "08:30-17:30",
+    "do": "08:30-17:30",
+    "vr": "08:30-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://dierenartsencentrum.nl/contact/), 2026-10-09"
   },
   "dierenarts-j-reinders-dierenarts-in-grijpskerk": {
     "ma": "09:00-17:00",
@@ -12048,15 +11968,14 @@
     "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
   },
   "asterloo-kliniek-dierenarts-in-heiligerlee": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "13:00-20:00",
+    "di": "13:00-20:00",
+    "wo": "13:00-20:00",
+    "do": "gesloten",
+    "vr": "13:00-20:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://www.google.com/search?q=Asterloo+Kliniek+Heiligerlee+Halteweg+2), 2026-10-09"
   },
   "dier-en-welzijn-noord-nederland-dierenarts-in-muntendam": {
     "ma": "09:00-17:00",
@@ -12086,21 +12005,19 @@
     "wo": "09:00-17:00",
     "do": "09:00-17:00",
     "vr": "09:00-17:00",
-    "za": "gesloten",
+    "za": "09:00-17:00",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://www.google.com/search?q=Dierenartspraktijk+Old+Ambt+Beerta+Hoofdstraat+195), 2026-10-09"
   },
   "dierenkliniek-vlagtwedde-dierenarts-in-vlagtwedde": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:00-12:00, 13:00-17:00, 18:00-20:00",
+    "di": "08:00-12:00, 13:00-17:00, 18:00-20:00",
+    "wo": "08:00-12:00, 13:00-17:00, 18:00-20:00",
+    "do": "08:00-12:00, 13:00-17:00, 18:00-20:00",
+    "vr": "08:00-12:00, 13:00-17:00, 18:00-20:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (http://www.dierenkliniekvlagtwedde.nl/nederlands/tekst/home.html), 2026-10-09"
   },
   "paardenarts-jorre-meersman-dierenarts-in-muntendam": {
     "ma": "09:00-17:00",
@@ -12125,15 +12042,14 @@
     "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
   },
   "dierenartspraktijk-k-de-vries-dierenarts-in-midwolde": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:00-13:00",
+    "di": "08:00-13:00",
+    "wo": "08:00-13:00",
+    "do": "08:00-13:00",
+    "vr": "08:00-13:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://dapkdevries.nl/), 2026-10-09"
   },
   "specialisten-dierenkliniek-binnenhof-dierenarts-in-almkerk": {
     "ma": "09:00-17:00",
@@ -12158,15 +12074,14 @@
     "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
   },
   "dierenkliniek-lochem-dierenarts-in-lochem": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
+    "ma": "08:00-18:00",
+    "di": "08:00-18:00",
+    "wo": "08:00-18:00",
+    "do": "08:00-19:00",
+    "vr": "08:00-18:00",
+    "za": "08:30-10:00",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://www.dierenklinieklochem.nl/contact/locatie-lochem.html), 2026-10-09"
   },
   "de-graafschap-dierenartsen-dierenarts-in-velp": {
     "ma": "09:00-17:00",
@@ -12176,8 +12091,7 @@
     "vr": "09:00-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://www.google.com/search?q=%22De+Graafschap+Dierenartsen+Velp%22+openingstijden), 2026-10-09"
   },
   "dierenkliniek-peel-en-maas-dierenarts-in-maasbree": {
     "ma": "09:00-17:00",
@@ -12257,15 +12171,14 @@
     "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
   },
   "dierenkliniek-castricum-dierenarts-in-castricum": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
+    "ma": "08:30-12:30, 13:30-19:00",
+    "di": "08:30-12:30, 13:30-19:00",
+    "wo": "08:30-12:30, 13:30-19:00",
+    "do": "08:30-12:30, 13:30-19:00",
+    "vr": "08:30-12:30, 13:30-19:00",
+    "za": "11:00-14:00",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://www.dierenkliniekcastricum.nl/over-de-praktijk/openingstijden/), 2026-10-09"
   },
   "dierenkliniek-diemen-dierenarts-in-ouderkerk-aan-de-amstel": {
     "ma": "09:00-17:00",
@@ -12444,15 +12357,14 @@
     "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
   },
   "dierenkliniek-zwaag-dierenarts-in-zwaag": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
+    "ma": "09:00-17:00, 18:00-20:00",
+    "di": "09:00-17:00, 18:00-20:00",
+    "wo": "09:00-15:00",
+    "do": "09:00-17:00, 18:00-20:00",
+    "vr": "09:00-17:00, 18:00-20:00",
+    "za": "10:00-17:00",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://www.dierenkliniekzwaag.nl/openingstijden.html), 2026-10-09"
   },
   "dierenkliniek-monnickendam-dierenarts-in-monnickendam": {
     "ma": "09:00-17:00",
@@ -12466,15 +12378,14 @@
     "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
   },
   "dierenkliniek-de-bilt-dierenarts-in-bilthoven": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "09:00-20:00",
+    "di": "09:00-18:00",
+    "wo": "09:00-20:00",
+    "do": "09:00-20:00",
+    "vr": "09:00-18:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://dierenkliniekdebilt.nl/contact-ons/), 2026-10-09"
   },
   "diergeneeskundig-centrum-de-bilt-dierenarts-in-bilthoven": {
     "ma": "09:00-17:00",
@@ -12807,26 +12718,24 @@
     "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
   },
   "dierenkliniek-brielle-dierenarts-in-brielle": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:00-19:30",
+    "di": "08:00-17:00",
+    "wo": "08:00-19:30",
+    "do": "08:00-17:00",
+    "vr": "08:00-19:30",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://www.dierenkliniekbrielle.nl/contact), 2026-10-09"
   },
   "dierenkliniek-capelle-aan-den-ijssel-dierenarts-in-capelle-aan-den-ijssel": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:00-19:00",
+    "di": "08:00-19:00",
+    "wo": "08:00-19:00",
+    "do": "08:00-19:00",
+    "vr": "08:00-19:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://www.dierenkliniekcapelle.nl/contact), 2026-10-09"
   },
   "dierenkliniek-dordrecht-noord-dierenarts-in-dordrecht": {
     "ma": "09:00-17:00",
@@ -12862,15 +12771,14 @@
     "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
   },
   "dierenkliniek-katwijk-dierenarts-in-katwijk": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "09:00-20:00",
+    "di": "09:00-18:00",
+    "wo": "09:00-20:00",
+    "do": "09:00-18:00",
+    "vr": "09:00-18:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://www.dierenkliniekkatwijk.com/praktijk/openingstijden/), 2026-10-09"
   },
   "dierenkliniek-maasland-dierenarts-in-maasland": {
     "ma": "09:00-17:00",
@@ -12917,15 +12825,14 @@
     "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
   },
   "dierenkliniek-westland-dierenarts-in-monster": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:00-17:30",
+    "di": "08:00-17:30",
+    "wo": "08:00-17:30",
+    "do": "08:00-17:30",
+    "vr": "08:00-17:30",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://www.dierenkliniekwestland.nl/nl/openingstijden), 2026-10-09"
   },
   "dierenartsenpraktijk-de-drait-drachten-dierenarts-in-drachten": {
     "ma": "09:00-17:00",
@@ -12983,15 +12890,14 @@
     "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
   },
   "dierenartspraktijk-beijum-dierenarts-in-groningen": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:30-12:00, 12:45-17:30",
+    "di": "08:30-12:00, 12:45-17:30",
+    "wo": "08:30-12:00, 12:45-17:30",
+    "do": "08:30-12:00, 12:45-17:30",
+    "vr": "08:30-12:00, 12:45-17:30",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://www.dierenartsbeijum.nl/contact/), 2026-10-09"
   },
   "dierenkliniek-buitenwoe-dierenarts-in-veendam": {
     "ma": "09:00-17:00",
@@ -13016,15 +12922,14 @@
     "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
   },
   "dierenkliniek-dennenoord-dierenarts-in-duizel": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
+    "ma": "08:30-18:00",
+    "di": "08:30-18:00",
+    "wo": "08:30-18:00",
+    "do": "08:30-18:00",
+    "vr": "08:30-17:00",
+    "za": "08:00-12:00",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://dierenkliniekdennenoord.nl/contact/), 2026-10-09"
   },
   "de-oosthof-gelre-dierenartsen-dierenarts-in-eibergen": {
     "ma": "09:00-17:00",
@@ -13060,15 +12965,14 @@
     "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
   },
   "dierenkliniek-weert-dierenarts-in-weert": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "09:00-12:30, 13:30-17:30",
+    "di": "09:00-12:30, 13:30-17:30",
+    "wo": "09:00-12:30, 13:30-17:30",
+    "do": "09:00-12:30, 13:30-17:30",
+    "vr": "09:00-12:30, 13:30-17:30",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://www.dierenkliniekweert.nl/contact/), 2026-10-09"
   },
   "dierenkliniek-alkmaar-west-dierenarts-in-heiloo": {
     "ma": "09:00-17:00",
@@ -13177,8 +13081,7 @@
     "vr": "09:00-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://www.mobieledierenkliniekhetgooi.nl/contact/), 2026-10-09"
   },
   "dierenartsenpraktijk-den-helder-dierenarts-in-den-helder": {
     "ma": "09:00-17:00",
@@ -13358,14 +13261,13 @@
   },
   "dierenkliniek-bilthoven-dierenarts-in-bilthoven": {
     "ma": "09:00-17:00",
-    "di": "09:00-17:00",
+    "di": "09:00-17:00, 19:00-20:00",
     "wo": "09:00-17:00",
-    "do": "09:00-17:00",
+    "do": "09:00-17:00, 19:00-20:00",
     "vr": "09:00-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://www.dierenartsvanbekhoven.nl/), 2026-10-09"
   },
   "dierenartsenpraktijk-harmelen-dierenarts-in-harmelen": {
     "ma": "09:00-17:00",
@@ -13940,15 +13842,14 @@
     "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
   },
   "dierenkliniek-maassluis-dierenarts-in-maassluis": {
-    "ma": "09:00-17:00",
+    "ma": "09:00-18:30",
     "di": "09:00-17:00",
-    "wo": "09:00-17:00",
+    "wo": "09:00-13:00",
     "do": "09:00-17:00",
     "vr": "09:00-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://dierenkliniekdepolder.nl/locaties-en-openingstijden/), 2026-10-09"
   },
   "dierenkliniek-naaldwijk-dierenarts-in-naaldwijk": {
     "ma": "09:00-17:00",
@@ -13962,15 +13863,14 @@
     "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
   },
   "dierenkliniek-noordwijk-dierenarts-in-voorhout": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:00-12:30, 13:30-17:00",
+    "di": "08:00-12:30, 13:30-19:30",
+    "wo": "09:00-12:30, 13:30-17:00",
+    "do": "09:00-12:30, 13:30-17:00",
+    "vr": "08:00-12:30, 13:30-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://www.anicura.nl/klinieken/zuid-holland/noordwijk/contact/), 2026-10-09"
   },
   "dierenkliniek-oegstgeest-dierenarts-in-oegstgeest": {
     "ma": "09:00-17:00",
@@ -14061,15 +13961,14 @@
     "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
   },
   "dierenkliniek-den-haag-mariahoeve-dierenarts-in-den-haag": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:30-17:00",
+    "di": "08:30-17:00",
+    "wo": "08:30-17:00",
+    "do": "08:30-17:00",
+    "vr": "08:30-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://www.dierenkliniekmariahoeve.nl/), 2026-10-09"
   },
   "remmenex-matthijs-remmen-dierentandarts-tandheelkundig-dierenarts-dierenarts-in-bilthoven": {
     "ma": "09:00-17:00",
@@ -14083,48 +13982,42 @@
     "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
   },
   "dierentandheelkunde-paul-theuns-de-wagenrenk-dierenarts-in-wageningen": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:30-17:00",
+    "di": "08:30-17:00",
+    "wo": "08:30-17:00",
+    "do": "08:30-17:00",
+    "vr": "08:30-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://wagenrenk.com/contact/), 2026-10-09"
   },
   "dierentandheelkunde-paul-theuns-leusden-dierenarts-in-leusden": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
+    "ma": "gesloten",
+    "di": "gesloten",
+    "wo": "gesloten",
     "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "vr": "gesloten",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://dierentandheelkunde.nl/contact/), 2026-10-09"
   },
   "praktijk-dokter-eef-dierentandarts-dierenarts-in-doorn": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
+    "ma": "08:30-17:00",
+    "di": "08:30-17:00",
+    "wo": "08:30-17:00",
+    "do": "08:30-17:00",
+    "vr": "08:30-17:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "bron": "webonderzoek (https://www.google.com/search?q=Praktijk+Dokter+Eef+Dierentandarts+Doorn+Sterkenburgerlaan+63), 2026-10-09"
   },
   "universiteitskliniek-voor-gezelschapsdieren-tandheelkunde-dierenarts-in-utrecht": {
-    "ma": "09:00-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true,
-    "bron": "standaardtijden (nog niet door praktijk bevestigd), 2026-10-09"
+    "ma": "08:00-16:30",
+    "di": "08:00-16:30",
+    "wo": "08:00-16:30",
+    "do": "08:00-16:30",
+    "vr": "08:00-16:30",
+    "bron": "webonderzoek (https://diergeneeskunde.nl/telefoonnummers/), 2026-10-09"
   },
   "vetdent-dierentandarts-amsterdam-dierenarts-in-amsterdam": {
     "ma": "09:00-17:00",
@@ -14145,7 +14038,7 @@
     "vr": "08:00-13:00",
     "za": "gesloten",
     "zo": "gesloten",
-    "bron": "opgave praktijk, 2026-10-09"
+    "bron": "webonderzoek (https://www.veta-dent.nl/contact), 2026-10-09"
   },
   "dierenarts-voor-koi-drs-meggy-van-sluijs-carati-dierenarts-in-zevenbergen": {
     "ma": "09:00-17:00",
