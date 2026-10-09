@@ -10020,7 +10020,7 @@
     "address": "Elzenweg 27A",
     "postcode": "5144 MB",
     "phone": "0416 - 33 40 00",
-    "email": "info@dierenkliniekdelangstraat.nl",
+    "email": "",
     "website": "https://www.dierenkliniekdelangstraat.nl/",
     "specs": [
       "Cardiologie",
@@ -13399,8 +13399,13 @@
     "website": "https://evidensiadierenziekenhuis.nl/dierenziekenhuizen/amsterdam/",
     "rating": 0,
     "reviews": 0,
-    "specs": ["Tandheelkunde","Spoed 24/7"],
-    "tags": ["spoed"],
+    "specs": [
+      "Tandheelkunde",
+      "Spoed 24/7"
+    ],
+    "tags": [
+      "spoed"
+    ],
     "lat": 52.3084,
     "lng": 4.8662,
     "desc": "Dierenziekenhuis in Amstelveen. Volledige zorg voor gezelschapsdieren, inclusief kaakchirurgie en stomatologie. 24 uur per dag, 7 dagen per week geopend voor spoed en verwijzing.",
@@ -13440,8 +13445,12 @@
     "website": "https://evidensiadierenziekenhuis.nl/dierenziekenhuizen/barendrecht/",
     "rating": 0,
     "reviews": 0,
-    "specs": ["Tandheelkunde"],
-    "tags": ["spoed"],
+    "specs": [
+      "Tandheelkunde"
+    ],
+    "tags": [
+      "spoed"
+    ],
     "lat": 51.8557,
     "lng": 4.5347,
     "desc": "Dierenziekenhuis in Barendrecht. Volledige zorg voor gezelschapsdieren, inclusief kaakchirurgie en stomatologie. 7 dagen per week geopend voor spoed en verwijzing.",
@@ -21659,7 +21668,9 @@
     "rating": 0,
     "reviews": 0,
     "specs": [],
-    "tags": ["spoed"],
+    "tags": [
+      "spoed"
+    ],
     "lat": 52.1359,
     "lng": 4.66632,
     "desc": "Veterinaire kliniek in Alphen Aan Den Rijn. In het weekend uitsluitend spoedgevallen. Spoednummer na 21:00 uur: 085-4831300.",
@@ -22637,7 +22648,7 @@
     "address": "Schuitweg 1",
     "postcode": "4431 BA",
     "phone": "0113-313050",
-    "email": "info@dierenartssgravenpolder.nl",
+    "email": "",
     "website": "http://dierenartssgravenpolder.nl/",
     "rating": 0,
     "reviews": 0,
@@ -23070,7 +23081,7 @@
     "address": "Johan Frisolaan 52",
     "postcode": "3258 AJ",
     "phone": "06-81183711",
-    "email": "info@dierenartsdenbommel.nl",
+    "email": "",
     "website": "https://www.dierenartsdenbommel.nl/",
     "specs": [
       "Honden",
@@ -23089,7 +23100,7 @@
     "address": "Kerkplein 19",
     "postcode": "4373 AA",
     "phone": "06-51910130",
-    "email": "info@karinvoordieren.nl",
+    "email": "",
     "website": "https://karinvoordieren.nl/",
     "specs": [
       "Honden",
@@ -23179,7 +23190,9 @@
       "Chirurgie",
       "Tandheelkunde"
     ],
-    "tags": ["spoed"],
+    "tags": [
+      "spoed"
+    ],
     "lat": 51.4986,
     "lng": 3.5378,
     "desc": "Kleine eerstelijnspraktijk in Biggekerke (Walcheren) van Jan Borra en Barbara Trappeniers, voor honden, katten, konijnen en andere kleine gezelschapsdieren, landbouwhuisdieren én paarden — u ziet steeds dezelfde dierenarts. Naast reguliere zorg (vaccinaties, castratie/sterilisatie, kleine chirurgie, gebitsbehandeling inclusief kiesextracties, bloedonderzoek) ook paardenzorg: kreupelheidsonderzoek, gebitsverzorging, voortplanting en kleine chirurgie. Uitstekend netwerk voor snelle doorverwijzing (röntgen, echo, spoedbloedonderzoek). 24 uur per dag, 7 dagen per week bereikbaar voor spoedgevallen van eigen patiënten; paardenspoed uitsluitend op Walcheren. Online afspraak maken kan ook via dierenartsen-borra-trappeniers.boek-dierenarts.online.",
@@ -25480,7 +25493,7 @@
     ],
     "tags": [],
     "lat": 52.267,
-    "lng": 7.0,
+    "lng": 7,
     "desc": "Dierenartspraktijk in Losser.",
     "tier": "basic"
   },
@@ -28148,7 +28161,9 @@
     "email": "info@dierenartswijchen.nl",
     "website": "https://dierenartswijchen.nl/",
     "specs": [],
-    "tags": ["spoed"],
+    "tags": [
+      "spoed"
+    ],
     "lat": 51.8071,
     "lng": 5.7303,
     "desc": "Veterinaire kliniek in Wijchen. Volledige zorg voor gezelschapsdieren. Op afspraak, met spoedbereikbaarheid buiten openingstijden.",
