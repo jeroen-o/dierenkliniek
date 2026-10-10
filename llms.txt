@@ -1,6 +1,6 @@
 # Dierenkliniek.nl
 
-> Dierenkliniek.nl is het onafhankelijke overzicht van alle 1318 dierenklinieken in Nederland. Huisdiereigenaren vinden er een dierenarts op postcode, plaats of provincie, plus 112 klinieken met 24/7 spoedhulp en een kennisbank van 491 artikelen. Geen betaalde voorrang in de zoekresultaten.
+> Dierenkliniek.nl is het onafhankelijke overzicht van alle 1318 dierenklinieken in Nederland. Huisdiereigenaren vinden er een dierenarts op postcode, plaats of provincie, plus 112 klinieken met 24/7 spoedhulp en een kennisbank van 500 artikelen. Geen betaalde voorrang in de zoekresultaten.
 
 Laatst bijgewerkt: 2026-10-10. Exploitant: Dierenkliniek.nl, Darthuizerberg 1, 3825 BK Amersfoort, info@dierenkliniek.nl, 06-59115265.
 
@@ -10,7 +10,7 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 - [Dierenarts zoeken op postcode](https://dierenkliniek.nl/): startpunt met postcodezoeker en kaart van alle 1318 klinieken
 - [Spoedhulp 24/7](https://dierenkliniek.nl/spoedhulp): 112 klinieken met een 24-uurs spoeddienst, per provincie, met telefoonnummer
-- [Kennisbank](https://dierenkliniek.nl/kennisbank): 491 artikelen over gezondheid, preventie, voeding, gedrag en spoed
+- [Kennisbank](https://dierenkliniek.nl/kennisbank): 500 artikelen over gezondheid, preventie, voeding, gedrag en spoed
 - [Veterinair glossarium](https://dierenkliniek.nl/glossarium): 40 medische termen in gewone taal
 - [Alle provincies](https://dierenkliniek.nl/provincies): klinieken gegroepeerd per provincie
 - [Specialismen](https://dierenkliniek.nl/specialismen): klinieken per aandachtsgebied
@@ -72,16 +72,16 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 ## Kennisbank per categorie
 
 - [Eerste hulp & spoed](https://dierenkliniek.nl/kennisbank/categorie-spoed): 41 artikelen
-- [Preventie & vaccinaties](https://dierenkliniek.nl/kennisbank/categorie-preventie): 126 artikelen
+- [Preventie & vaccinaties](https://dierenkliniek.nl/kennisbank/categorie-preventie): 128 artikelen
 - [Voeding & gewicht](https://dierenkliniek.nl/kennisbank/categorie-voeding): 18 artikelen
-- [Gedrag & welzijn](https://dierenkliniek.nl/kennisbank/categorie-gedrag): 16 artikelen
+- [Gedrag & welzijn](https://dierenkliniek.nl/kennisbank/categorie-gedrag): 19 artikelen
 - [Puppy, volwassen, senior](https://dierenkliniek.nl/kennisbank/categorie-levensfasen): 22 artikelen
-- [Praktische zaken](https://dierenkliniek.nl/kennisbank/categorie-praktisch): 268 artikelen
+- [Praktische zaken](https://dierenkliniek.nl/kennisbank/categorie-praktisch): 272 artikelen
 
 ## Kennisbank per diersoort
 
-- [Hond](https://dierenkliniek.nl/kennisbank/dier-hond): 188 artikelen
-- [Kat](https://dierenkliniek.nl/kennisbank/dier-kat): 65 artikelen
+- [Hond](https://dierenkliniek.nl/kennisbank/dier-hond): 193 artikelen
+- [Kat](https://dierenkliniek.nl/kennisbank/dier-kat): 67 artikelen
 - [Konijn](https://dierenkliniek.nl/kennisbank/dier-konijn): 17 artikelen
 - [Knaagdieren](https://dierenkliniek.nl/kennisbank/dier-knaagdier): 13 artikelen
 - [Vogels](https://dierenkliniek.nl/kennisbank/dier-vogel): 13 artikelen
@@ -588,6 +588,15 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 - [Kinderen en vogels: veilig samen omgaan](https://dierenkliniek.nl/kennisbank/kinderen-en-vogels-veilig-samen-omgaan): Een papegaai kan flink bijten, een parkiet kan snel overlijden door ruw hanteren; weet het verschil.
 - [Kinderen en reptielen: veilig samen omgaan](https://dierenkliniek.nl/kennisbank/kinderen-en-reptielen-veilig-samen-omgaan): Salmonella is het belangrijkste risico; was altijd handen na contact met een reptiel.
 - [Kinderen en paarden: veiligheid in de stal en bij het rijden](https://dierenkliniek.nl/kennisbank/kinderen-en-paarden-veiligheid-in-de-stal-en-bij-het-rijden): Nooit achter een paard staan, altijd een goedgekeurde helm, en begeleiding bij elke les.
+- [Puppy zindelijk maken: stappenplan dat werkt](https://dierenkliniek.nl/kennisbank/puppy-zindelijk-maken-stappenplan-dat-werkt): Een puppy zindelijk maken lukt met een vast ritme, veel kansen om buiten te plassen en belonen, meestal binnen enkele weken tot maanden.
+- [Kat krabt aan meubels: oorzaak en oplossing](https://dierenkliniek.nl/kennisbank/kat-krabt-aan-meubels-oorzaak-en-oplossing): Een kat krabt aan meubels omdat krabben normaal gedrag is; een goed geplaatste krabpaal en consequent ombuigen lossen dit meestal op.
+- [Hond blaft overmatig: oorzaken en aanpak](https://dierenkliniek.nl/kennisbank/hond-blaft-overmatig-oorzaken-en-aanpak): Overmatig blaffen bij honden komt meestal door verveling, aandacht vragen, alarmgedrag of scheidingsangst; een gerichte aanpak per oorzaak helpt het beste.
+- [Wat kost chippen van een hond of kat?](https://dierenkliniek.nl/kennisbank/wat-kost-chippen-van-een-hond-of-kat): Chippen kost doorgaans een eenmalig bedrag bij de dierenarts, plus losse registratiekosten; prijzen verschillen per praktijk en regio.
+- [Wat kost castreren of steriliseren van een hond of kat?](https://dierenkliniek.nl/kennisbank/wat-kost-castreren-of-steriliseren-van-een-hond-of-kat): De kosten van castreren of steriliseren verschillen per diersoort, geslacht en grootte; teven en honden kosten doorgaans meer dan reuen en katten.
+- [Wat kost een hond per maand? Totale kosten op een rij](https://dierenkliniek.nl/kennisbank/wat-kost-een-hond-per-maand-totale-kosten-op-een-rij): De maandelijkse kosten van een hond bestaan uit voer, verzekering, preventieve zorg en verzorging; een grote hond kost doorgaans meer dan een kleine.
+- [Wat kost een kat per maand? Totale kosten op een rij](https://dierenkliniek.nl/kennisbank/wat-kost-een-kat-per-maand-totale-kosten-op-een-rij): De maandelijkse kosten van een kat zijn doorgaans lager dan die van een hond, maar voer, kattenbakvulling en zorg tellen samen toch op.
+- [Is mijn hond te dik? Zo bepaal je het gewicht zelf](https://dierenkliniek.nl/kennisbank/is-mijn-hond-te-dik-zo-bepaal-je-het-gewicht-zelf): Voel de ribben, kijk naar de taille van bovenaf en de buiklijn van opzij om zelf te bepalen of je hond overgewicht heeft.
+- [Hond scheren in de zomer: wel of niet verstandig?](https://dierenkliniek.nl/kennisbank/hond-scheren-in-de-zomer-wel-of-niet-verstandig): Een hond scheren in de zomer wordt meestal afgeraden, omdat de vacht juist beschermt tegen hitte en UV; borstelen en schaduw zijn vaak beter.
 
 ## Voor klinieken
 
@@ -607,5 +616,5 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 ## Optioneel
 
-- [Volledige tekst van de kennisbank](https://dierenkliniek.nl/llms-full.txt): alle 491 artikelen als platte tekst
+- [Volledige tekst van de kennisbank](https://dierenkliniek.nl/llms-full.txt): alle 500 artikelen als platte tekst
 - [Sitemap](https://dierenkliniek.nl/sitemap.xml): alle canonieke URL's
