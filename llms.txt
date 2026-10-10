@@ -1,6 +1,6 @@
 # Dierenkliniek.nl
 
-> Dierenkliniek.nl is het onafhankelijke overzicht van alle 1318 dierenklinieken in Nederland. Huisdiereigenaren vinden er een dierenarts op postcode, plaats of provincie, plus 112 klinieken met 24/7 spoedhulp en een kennisbank van 500 artikelen. Geen betaalde voorrang in de zoekresultaten.
+> Dierenkliniek.nl is het onafhankelijke overzicht van alle 1318 dierenklinieken in Nederland. Huisdiereigenaren vinden er een dierenarts op postcode, plaats of provincie, plus 112 klinieken met 24/7 spoedhulp en een kennisbank van 507 artikelen. Geen betaalde voorrang in de zoekresultaten.
 
 Laatst bijgewerkt: 2026-10-10. Exploitant: Dierenkliniek.nl, Darthuizerberg 1, 3825 BK Amersfoort, info@dierenkliniek.nl, 06-59115265.
 
@@ -10,7 +10,7 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 - [Dierenarts zoeken op postcode](https://dierenkliniek.nl/): startpunt met postcodezoeker en kaart van alle 1318 klinieken
 - [Spoedhulp 24/7](https://dierenkliniek.nl/spoedhulp): 112 klinieken met een 24-uurs spoeddienst, per provincie, met telefoonnummer
-- [Kennisbank](https://dierenkliniek.nl/kennisbank): 500 artikelen over gezondheid, preventie, voeding, gedrag en spoed
+- [Kennisbank](https://dierenkliniek.nl/kennisbank): 507 artikelen over gezondheid, preventie, voeding, gedrag en spoed
 - [Veterinair glossarium](https://dierenkliniek.nl/glossarium): 40 medische termen in gewone taal
 - [Alle provincies](https://dierenkliniek.nl/provincies): klinieken gegroepeerd per provincie
 - [Specialismen](https://dierenkliniek.nl/specialismen): klinieken per aandachtsgebied
@@ -71,17 +71,17 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 ## Kennisbank per categorie
 
-- [Eerste hulp & spoed](https://dierenkliniek.nl/kennisbank/categorie-spoed): 41 artikelen
-- [Preventie & vaccinaties](https://dierenkliniek.nl/kennisbank/categorie-preventie): 128 artikelen
+- [Eerste hulp & spoed](https://dierenkliniek.nl/kennisbank/categorie-spoed): 43 artikelen
+- [Preventie & vaccinaties](https://dierenkliniek.nl/kennisbank/categorie-preventie): 130 artikelen
 - [Voeding & gewicht](https://dierenkliniek.nl/kennisbank/categorie-voeding): 18 artikelen
-- [Gedrag & welzijn](https://dierenkliniek.nl/kennisbank/categorie-gedrag): 19 artikelen
+- [Gedrag & welzijn](https://dierenkliniek.nl/kennisbank/categorie-gedrag): 22 artikelen
 - [Puppy, volwassen, senior](https://dierenkliniek.nl/kennisbank/categorie-levensfasen): 22 artikelen
 - [Praktische zaken](https://dierenkliniek.nl/kennisbank/categorie-praktisch): 272 artikelen
 
 ## Kennisbank per diersoort
 
-- [Hond](https://dierenkliniek.nl/kennisbank/dier-hond): 193 artikelen
-- [Kat](https://dierenkliniek.nl/kennisbank/dier-kat): 67 artikelen
+- [Hond](https://dierenkliniek.nl/kennisbank/dier-hond): 196 artikelen
+- [Kat](https://dierenkliniek.nl/kennisbank/dier-kat): 69 artikelen
 - [Konijn](https://dierenkliniek.nl/kennisbank/dier-konijn): 17 artikelen
 - [Knaagdieren](https://dierenkliniek.nl/kennisbank/dier-knaagdier): 13 artikelen
 - [Vogels](https://dierenkliniek.nl/kennisbank/dier-vogel): 13 artikelen
@@ -597,6 +597,13 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 - [Wat kost een kat per maand? Totale kosten op een rij](https://dierenkliniek.nl/kennisbank/wat-kost-een-kat-per-maand-totale-kosten-op-een-rij): De maandelijkse kosten van een kat zijn doorgaans lager dan die van een hond, maar voer, kattenbakvulling en zorg tellen samen toch op.
 - [Is mijn hond te dik? Zo bepaal je het gewicht zelf](https://dierenkliniek.nl/kennisbank/is-mijn-hond-te-dik-zo-bepaal-je-het-gewicht-zelf): Voel de ribben, kijk naar de taille van bovenaf en de buiklijn van opzij om zelf te bepalen of je hond overgewicht heeft.
 - [Hond scheren in de zomer: wel of niet verstandig?](https://dierenkliniek.nl/kennisbank/hond-scheren-in-de-zomer-wel-of-niet-verstandig): Een hond scheren in de zomer wordt meestal afgeraden, omdat de vacht juist beschermt tegen hitte en UV; borstelen en schaduw zijn vaak beter.
+- [Ontworming bij honden: schema en hoe vaak ontwormen?](https://dierenkliniek.nl/kennisbank/ontworming-bij-honden-schema-en-hoe-vaak-ontwormen): Pups ontworm je elke 2 weken tot 3 maanden, volwassen honden meestal 4x per jaar.
+- [Ontworming bij katten: schema en hoe vaak ontwormen?](https://dierenkliniek.nl/kennisbank/ontworming-bij-katten-schema-en-hoe-vaak-ontwormen): Buitenkatten ontworm je 4 tot 6x per jaar, binnenkatten vaak 2 tot 4x per jaar.
+- [Verhuizen met je hond: zo wen je hem aan een nieuw huis](https://dierenkliniek.nl/kennisbank/verhuizen-met-je-hond-zo-wen-je-hem-aan-een-nieuw-huis): Laat je hond rustig per kamer kennismaken, neem bekende spullen mee en bouw buiten rustig op.
+- [Verhuizen met je kat: zo wen je haar aan een nieuw huis](https://dierenkliniek.nl/kennisbank/verhuizen-met-je-kat-zo-wen-je-haar-aan-een-nieuw-huis): Geef je kat geleidelijk toegang tot kamers, pas het chipadres aan en laat een buitenkat pas later weer naar buiten.
+- [Bijtincident met een hond: wat moet je direct doen?](https://dierenkliniek.nl/kennisbank/bijtincident-met-een-hond-wat-moet-je-direct-doen): Maak de wond schoon, zoek bij mensen medische hulp en laat de hond zo nodig door een dierenarts nakijken.
+- [Dierenambulance of dierenarts bellen: wat is het verschil?](https://dierenkliniek.nl/kennisbank/dierenambulance-of-dierenarts-bellen-wat-is-het-verschil): Bel de dierenambulance voor gewonde of zwerfdieren en vervoer, de dierenarts voor behandeling van je eigen huisdier.
+- [Gedragstherapeut inschakelen voor hond of kat: wanneer nodig?](https://dierenkliniek.nl/kennisbank/gedragstherapeut-inschakelen-voor-hond-of-kat-wanneer-nodig): Een gedragstherapeut is nodig bij aanhoudende agressie, extreme angst of destructief gedrag dat zelf aanpakken niet oplost.
 
 ## Voor klinieken
 
@@ -616,5 +623,5 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 ## Optioneel
 
-- [Volledige tekst van de kennisbank](https://dierenkliniek.nl/llms-full.txt): alle 500 artikelen als platte tekst
+- [Volledige tekst van de kennisbank](https://dierenkliniek.nl/llms-full.txt): alle 507 artikelen als platte tekst
 - [Sitemap](https://dierenkliniek.nl/sitemap.xml): alle canonieke URL's
