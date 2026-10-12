@@ -6,6 +6,7 @@ const path = require('path');
 const L = require('./layout');
 const DATA = require('./extract-data');
 const KB_DATES = require('./kb-dates');
+const CLINIC_DATES = require('./clinic-dates');
 
 const ROOT = L.ROOT;
 const SITE = L.SITE;
@@ -79,14 +80,25 @@ const kb = [
 ];
 
 /* ---- klinieken en steden ---- */
-const klinieken = CLINICS.map(c => L.clinicSlug(c))
-  .filter(s => exists(s + '.html'))
-  .sort()
-  .map(s => u('/' + s, '0.6', 'monthly'));
+// Echte lastmod per kliniek i.p.v. overal de builddatum — zie clinic-dates.js:
+// dezelfde reden als bij de kennisbank hierboven (anders negeert Google het
+// signaal zodra het voor alle 1.300+ pagina's identiek is).
+const klinieken = CLINICS
+  .filter(c => exists(L.clinicSlug(c) + '.html'))
+  .sort((a, b) => L.clinicSlug(a).localeCompare(L.clinicSlug(b)))
+  .map(c => u('/' + L.clinicSlug(c), '0.6', 'monthly', CLINIC_DATES.datumsVoor(c.id, TODAY).dateModified));
 
-const steden = cities.map(c => L.citySlug(c))
-  .filter(s => exists(s + '.html'))
-  .map(s => u('/' + s, '0.8', 'weekly'));
+// Stadpagina's volgen de meest recente wijziging van hun eigen klinieken,
+// zodat een correctie aan een vermelding ook de stadpagina's lastmod optilt.
+const steden = cities
+  .filter(c => exists(L.citySlug(c) + '.html'))
+  .map(city => {
+    const laatsteWijziging = CLINICS
+      .filter(c => c.city === city)
+      .map(c => CLINIC_DATES.datumsVoor(c.id, TODAY).dateModified)
+      .sort().pop() || TODAY;
+    return u('/' + L.citySlug(city), '0.8', 'weekly', laatsteWijziging);
+  });
 
 fs.writeFileSync(path.join(ROOT, 'sitemap-hoofdpaginas.xml'), urlset(hoofd));
 fs.writeFileSync(path.join(ROOT, 'sitemap-artikelen.xml'), urlset(kb));

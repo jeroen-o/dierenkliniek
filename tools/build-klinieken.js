@@ -204,11 +204,14 @@ function kliniekPagina(c) {
     : anderen.length > 0
       ? ` Vergelijk met ${anderen.length === 1 ? 'nog 1 andere kliniek' : 'nog ' + anderen.length + ' andere klinieken'} in ${c.city}.`
       : '';
+  // Rating als trustsignaal in de snippet — staat vooraan, vlak na de naam,
+  // zodat 'm bij elke inkorting blijft staan (contactzin sneuvelt eerder).
+  const ratingZin = (c.rating && c.reviews) ? ` ★${c.rating} (${c.reviews} reviews).` : '';
   const description = kortGenoeg(
-    `${c.name} in ${c.city}. ${c.address}, ${c.postcode} ${c.city}.${onderscheid}${contactZin ? ' ' + contactZin.charAt(0).toUpperCase() + contactZin.slice(1) + '.' : ''}`,
+    `${c.name} in ${c.city}.${ratingZin} ${c.address}, ${c.postcode} ${c.city}.${onderscheid}${contactZin ? ' ' + contactZin.charAt(0).toUpperCase() + contactZin.slice(1) + '.' : ''}`,
     kortGenoeg(
-      `${c.name}, dierenarts in ${c.city}.${onderscheid}${contactZin ? ' ' + contactZin.charAt(0).toUpperCase() + contactZin.slice(1) + '.' : ''}`,
-      `${c.name}, dierenarts in ${c.city}.${onderscheid}`
+      `${c.name}, dierenarts in ${c.city}.${ratingZin}${onderscheid}${contactZin ? ' ' + contactZin.charAt(0).toUpperCase() + contactZin.slice(1) + '.' : ''}`,
+      `${c.name}, dierenarts in ${c.city}.${ratingZin}${onderscheid}`
     )
   );
 
