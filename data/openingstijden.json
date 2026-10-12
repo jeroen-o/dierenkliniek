@@ -9274,14 +9274,13 @@
     "onbevestigd": true
   },
   "dierenartsenpraktijk-riessen-dierenarts-in-rijssen": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
+    "ma": "09:00-18:30",
+    "di": "09:00-18:30",
     "wo": "09:00-17:00",
-    "do": "09:00-17:00",
+    "do": "09:00-18:30",
     "vr": "09:00-17:00",
     "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "zo": "gesloten"
   },
   "dierenartsenpraktijk-robert-stolzstraat-dierenarts-in-hengelo-ov": {
     "ma": "12:30-17:00",
