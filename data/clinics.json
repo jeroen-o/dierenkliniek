@@ -26854,5 +26854,23 @@
     "lng": 4.615,
     "desc": "Dierenarts gespecialiseerd in koikarpers, voor particulieren en koidealers: huisbezoek op afspraak, parasitair en microscopisch onderzoek, bacteriologisch/virologisch onderzoek (waaronder Koi Herpes Virus), echografie (hart, kuit, zwemblaas), wondbehandeling en vischirurgie (o.a. tumoren, vinnen, beugeltjes). Ook bedrijfsbegeleiding voor koidealers met regelmatige controle van vissen en vijverwaterkwaliteit.",
     "tier": "basic"
+  },
+  {
+    "id": 1483,
+    "name": "Het Dierenartsencentrum - Leek",
+    "city": "Marum",
+    "address": "Auwemalaan 1A",
+    "postcode": "9356 AG",
+    "phone": "0594 513203",
+    "email": "marum@dierenartsencentrum.nl",
+    "website": "http://dierenartsencentrum.nl/",
+    "rating": 4.5,
+    "reviews": 70,
+    "specs": [],
+    "tags": [],
+    "lat": 53.1636,
+    "lng": 6.3328,
+    "desc": "Vestiging van Het Dierenartsencentrum (Oosterwolde, Noordwolde, Marum, Leek), gelegen in Tolbert. Volledige zorg voor gezelschapsdieren.",
+    "tier": "basic"
   }
 ]
