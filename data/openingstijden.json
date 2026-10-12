@@ -4693,14 +4693,13 @@
     "onbevestigd": true
   },
   "pets-health-dierenkliniek-eemland-dierenarts-in-soest": {
-    "ma": "12:30-17:00",
-    "di": "09:00-17:00",
-    "wo": "09:00-17:00",
-    "do": "09:00-17:00",
-    "vr": "09:00-17:00",
-    "za": "gesloten",
-    "zo": "gesloten",
-    "onbevestigd": true
+    "ma": "08:00-18:00",
+    "di": "08:00-18:00",
+    "wo": "08:00-18:00",
+    "do": "08:00-18:00",
+    "vr": "08:00-18:00",
+    "za": "08:00-17:00",
+    "zo": "gesloten"
   },
   "dierenkliniek-benschop-oudewater-locatie-oudewater-dierenarts-in-oudewater": {
     "ma": "12:30-17:00",

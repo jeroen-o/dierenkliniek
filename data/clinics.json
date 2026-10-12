@@ -11107,7 +11107,7 @@
     "postcode": "3768 HE",
     "phone": "033 - 204 80 48",
     "email": "info@eemland.petshealth.nl",
-    "website": "https://www.pets-health.nl/vestigingen/dierenkliniek-eemland",
+    "website": "https://www.pets-health-eemland.nl/",
     "specs": [
       "Chirurgie",
       "Knaagdieren"
@@ -22711,24 +22711,6 @@
     "lat": 52.1540401,
     "lng": 6.71363456,
     "desc": "Veterinaire kliniek in Haaksbergen. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
-  },
-  {
-    "id": 1194,
-    "name": "Dierenartsenpraktijk Leek",
-    "city": "Leek",
-    "address": "De Hulstlaan 8",
-    "postcode": "9351 EB",
-    "phone": "0594-513203",
-    "email": "info@dierenartsenpraktijkleek.nl",
-    "website": "http://dierenartsenpraktijkleek.nl/",
-    "rating": 0,
-    "reviews": 0,
-    "specs": [],
-    "tags": [],
-    "lat": 53.16167845,
-    "lng": 6.38469418,
-    "desc": "Veterinaire kliniek in Leek. Volledige zorg voor gezelschapsdieren.",
     "tier": "basic"
   },
   {
