@@ -337,6 +337,58 @@
 <!-- dk:seo-end -->
 
   <div class="card">
+    <h2>Contact opnemen met Dierenkliniek Den Bosch West</h2>
+    <p style="margin-bottom: 20px;">Liever niet bellen? Vul onderstaand formulier in — het opent een e-mail met uw gegevens, kant-en-klaar om naar de praktijk te versturen.</p>
+    <form class="terugbel-form" data-kliniek-email="west@dierenkliniekdenbosch.nl" data-kliniek-naam="Dierenkliniek Den Bosch West" onsubmit="submitTerugbel(event)">
+      <div class="form-row-grid">
+        <div class="form-row">
+          <label for="tb-diersoort-564">Diersoort</label>
+          <select id="tb-diersoort-564" name="diersoort">
+            <option value="">Maak een keuze</option>
+            <option>Hond</option>
+            <option>Kat</option>
+            <option>Konijn</option>
+            <option>Knaagdier</option>
+            <option>Vogel</option>
+            <option>Reptiel</option>
+            <option>Paard</option>
+            <option>Anders</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="tb-dagdeel-564">Voorkeursdagdeel</label>
+          <select id="tb-dagdeel-564" name="dagdeel">
+            <option value="">Geen voorkeur</option>
+            <option>Ochtend</option>
+            <option>Middag</option>
+            <option>Avond</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-row">
+        <label for="tb-klacht-564">Korte omschrijving</label>
+        <textarea id="tb-klacht-564" name="klacht" placeholder="Bijv. kreupel sinds gisteren, wondje aan de poot, controle-afspraak..."></textarea>
+      </div>
+      <div class="form-row-grid">
+        <div class="form-row">
+          <label for="tb-naam-564">Uw naam <span class="req">*</span></label>
+          <input type="text" id="tb-naam-564" name="uw_naam" required>
+        </div>
+        <div class="form-row">
+          <label for="tb-telefoon-564">Uw telefoonnummer <span class="req">*</span></label>
+          <input type="tel" id="tb-telefoon-564" name="uw_telefoon" required placeholder="06 - 12345678">
+        </div>
+      </div>
+      <div class="form-row">
+        <label for="tb-email-564">Uw e-mailadres</label>
+        <input type="email" id="tb-email-564" name="uw_email" placeholder="Optioneel, voor een bevestiging">
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Contactaanvraag versturen</button>
+      <p class="form-note">Dit opent een e-mail naar Dierenkliniek Den Bosch West met uw gegevens — u verstuurt 'm zelf vanuit uw eigen mailprogramma.</p>
+    </form>
+  </div>
+
+  <div class="card">
     <h2>Andere klinieken in 's-Hertogenbosch</h2>
     <p style="margin-bottom: 16px;">Er zijn nog <strong>3</strong> andere dierenklinieken in 's-Hertogenbosch:</p>
     <div class="nearby-grid">
@@ -543,5 +595,6 @@ function copyBadgeCode(btn) {
   });
 }
 </script>
+<script src="/js/terugbel.js" defer></script>
 </body>
 </html>

@@ -327,6 +327,58 @@
 <!-- dk:seo-end -->
 
   <div class="card">
+    <h2>Contact opnemen met Dierenkliniek 't Hooy Velt, Sterkliniek Emmen</h2>
+    <p style="margin-bottom: 20px;">Liever niet bellen? Vul onderstaand formulier in — het opent een e-mail met uw gegevens, kant-en-klaar om naar de praktijk te versturen.</p>
+    <form class="terugbel-form" data-kliniek-email="info@hooyvelt.nl" data-kliniek-naam="Dierenkliniek 't Hooy Velt, Sterkliniek Emmen" onsubmit="submitTerugbel(event)">
+      <div class="form-row-grid">
+        <div class="form-row">
+          <label for="tb-diersoort-149">Diersoort</label>
+          <select id="tb-diersoort-149" name="diersoort">
+            <option value="">Maak een keuze</option>
+            <option>Hond</option>
+            <option>Kat</option>
+            <option>Konijn</option>
+            <option>Knaagdier</option>
+            <option>Vogel</option>
+            <option>Reptiel</option>
+            <option>Paard</option>
+            <option>Anders</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="tb-dagdeel-149">Voorkeursdagdeel</label>
+          <select id="tb-dagdeel-149" name="dagdeel">
+            <option value="">Geen voorkeur</option>
+            <option>Ochtend</option>
+            <option>Middag</option>
+            <option>Avond</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-row">
+        <label for="tb-klacht-149">Korte omschrijving</label>
+        <textarea id="tb-klacht-149" name="klacht" placeholder="Bijv. kreupel sinds gisteren, wondje aan de poot, controle-afspraak..."></textarea>
+      </div>
+      <div class="form-row-grid">
+        <div class="form-row">
+          <label for="tb-naam-149">Uw naam <span class="req">*</span></label>
+          <input type="text" id="tb-naam-149" name="uw_naam" required>
+        </div>
+        <div class="form-row">
+          <label for="tb-telefoon-149">Uw telefoonnummer <span class="req">*</span></label>
+          <input type="tel" id="tb-telefoon-149" name="uw_telefoon" required placeholder="06 - 12345678">
+        </div>
+      </div>
+      <div class="form-row">
+        <label for="tb-email-149">Uw e-mailadres</label>
+        <input type="email" id="tb-email-149" name="uw_email" placeholder="Optioneel, voor een bevestiging">
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Contactaanvraag versturen</button>
+      <p class="form-note">Dit opent een e-mail naar Dierenkliniek 't Hooy Velt, Sterkliniek Emmen met uw gegevens — u verstuurt 'm zelf vanuit uw eigen mailprogramma.</p>
+    </form>
+  </div>
+
+  <div class="card">
     <h2>Andere klinieken in Emmen</h2>
     <p style="margin-bottom: 16px;">Er zijn nog <strong>4</strong> andere dierenklinieken in Emmen:</p>
     <div class="nearby-grid">
@@ -539,5 +591,6 @@ function copyBadgeCode(btn) {
   });
 }
 </script>
+<script src="/js/terugbel.js" defer></script>
 </body>
 </html>

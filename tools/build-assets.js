@@ -49,6 +49,7 @@ for (const [naam, inhoud] of Object.entries(bestanden)) {
 }
 
 fs.writeFileSync(path.join(JS_DIR, 'a11y-widget.js'), fs.readFileSync(path.join(SJABLOON, 'a11y-widget.js'), 'utf8'));
+fs.writeFileSync(path.join(JS_DIR, 'terugbel.js'), fs.readFileSync(path.join(SJABLOON, 'terugbel.js'), 'utf8'));
 
 console.log(`css-bestanden geschreven: ${Object.keys(bestanden).map(n => `${n} (${minifyCss(bestanden[n]).length}b)`).join(', ')}`);
-console.log('js-bestanden geschreven: a11y-widget.js');
+console.log('js-bestanden geschreven: a11y-widget.js, terugbel.js');

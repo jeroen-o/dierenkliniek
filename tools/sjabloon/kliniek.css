@@ -136,3 +136,19 @@
   .kliniek-social a { display: inline-flex; color: #4A5C70; }
   .kliniek-social a:hover { color: #00A1E4; }
   .kliniek-social svg { width: 20px; height: 20px; fill: currentColor; display: block; }
+
+  .terugbel-form .form-row { margin-bottom: 16px; }
+  .terugbel-form label { display: block; font-size: 14px; font-weight: 600; margin-bottom: 6px; color: #0a1628; }
+  .terugbel-form .form-row-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .terugbel-form input, .terugbel-form select, .terugbel-form textarea {
+    width: 100%; padding: 10px 12px; border: 1px solid #d1d5db; border-radius: 8px;
+    font-size: 15px; font-family: inherit; background: white; color: #0a1628;
+  }
+  .terugbel-form textarea { resize: vertical; min-height: 80px; }
+  .terugbel-form .req { color: #DC2626; }
+  .terugbel-form .form-note { font-size: 13px; color: #6b7280; margin-top: 10px; }
+  .terugbel-form textarea.terugbel-fallback {
+    width: 100%; min-height: 200px; margin-top: 16px; padding: 12px;
+    font-family: monospace; font-size: 12px; border: 2px solid #00A1E4; border-radius: 8px;
+  }
+  @media (max-width: 600px) { .terugbel-form .form-row-grid { grid-template-columns: 1fr; } }

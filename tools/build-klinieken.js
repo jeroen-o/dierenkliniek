@@ -267,6 +267,63 @@ function kliniekPagina(c) {
     socialLinks.length ? `<li><strong>Social:</strong> <span class="kliniek-social">${socialLinks.join(' ')}</span></li>` : ''
   ].filter(Boolean);
 
+  // Terugbelverzoek: alleen zinvol als er een e-mailadres is waar de
+  // mailto: naartoe kan — zonder e-mail laten we de bestaande bel/route-
+  // knoppen hierboven staan als enige contactroute.
+  const terugbelBlok = c.email ? `  <div class="card">
+    <h2>Contact opnemen met ${esc(c.name)}</h2>
+    <p style="margin-bottom: 20px;">Liever niet bellen? Vul onderstaand formulier in — het opent een e-mail met uw gegevens, kant-en-klaar om naar de praktijk te versturen.</p>
+    <form class="terugbel-form" data-kliniek-email="${esc(c.email)}" data-kliniek-naam="${esc(c.name)}" onsubmit="submitTerugbel(event)">
+      <div class="form-row-grid">
+        <div class="form-row">
+          <label for="tb-diersoort-${c.id}">Diersoort</label>
+          <select id="tb-diersoort-${c.id}" name="diersoort">
+            <option value="">Maak een keuze</option>
+            <option>Hond</option>
+            <option>Kat</option>
+            <option>Konijn</option>
+            <option>Knaagdier</option>
+            <option>Vogel</option>
+            <option>Reptiel</option>
+            <option>Paard</option>
+            <option>Anders</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="tb-dagdeel-${c.id}">Voorkeursdagdeel</label>
+          <select id="tb-dagdeel-${c.id}" name="dagdeel">
+            <option value="">Geen voorkeur</option>
+            <option>Ochtend</option>
+            <option>Middag</option>
+            <option>Avond</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-row">
+        <label for="tb-klacht-${c.id}">Korte omschrijving</label>
+        <textarea id="tb-klacht-${c.id}" name="klacht" placeholder="Bijv. kreupel sinds gisteren, wondje aan de poot, controle-afspraak..."></textarea>
+      </div>
+      <div class="form-row-grid">
+        <div class="form-row">
+          <label for="tb-naam-${c.id}">Uw naam <span class="req">*</span></label>
+          <input type="text" id="tb-naam-${c.id}" name="uw_naam" required>
+        </div>
+        <div class="form-row">
+          <label for="tb-telefoon-${c.id}">Uw telefoonnummer <span class="req">*</span></label>
+          <input type="tel" id="tb-telefoon-${c.id}" name="uw_telefoon" required placeholder="06 - 12345678">
+        </div>
+      </div>
+      <div class="form-row">
+        <label for="tb-email-${c.id}">Uw e-mailadres</label>
+        <input type="email" id="tb-email-${c.id}" name="uw_email" placeholder="Optioneel, voor een bevestiging">
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Contactaanvraag versturen</button>
+      <p class="form-note">Dit opent een e-mail naar ${esc(c.name)} met uw gegevens — u verstuurt 'm zelf vanuit uw eigen mailprogramma.</p>
+    </form>
+  </div>
+
+` : '';
+
   const anderenBlok = anderen.length ? `  <div class="card">
     <h2>Andere klinieken in ${esc(c.city)}</h2>
     <p style="margin-bottom: 16px;">${anderen.length === 1
@@ -316,11 +373,12 @@ ${buurt.map(({ o, d }) => `        <a href="/${clinicSlug(o)}" class="nearby-car
     </ul>
   </div>
 
-${anderenBlok}${buurtBlok}</main>
+${terugbelBlok}${anderenBlok}${buurtBlok}</main>
 ${L.FOOTER}
 <script>
 ${BADGE_JS}
 </script>
+${c.email ? '<script src="/js/terugbel.js" defer></script>' : ''}
 </body>
 </html>
 `;
