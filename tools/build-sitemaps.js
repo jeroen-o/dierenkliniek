@@ -63,7 +63,7 @@ const hoofd = [
     .map(s => u('/' + s, '0.7', 'monthly')),
   // Views zonder eigen statische pagina, maar wel index,follow
   // (zie NOINDEX_VIEWS in index.html).
-  ...['aanmelden', 'vaccinatieplanner', 'kostenwijzer', 'beslisboom']
+  ...['aanmelden', 'vaccinatieplanner', 'kostenwijzer', 'beslisboom', 'kliniek-voorstellen']
     .map(v => u('/?view=' + v, '0.6', 'monthly')),
   ...['privacy', 'voorwaarden', 'cookies']
     .map(v => u('/?view=' + v, '0.3', 'yearly')),

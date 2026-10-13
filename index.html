@@ -4151,6 +4151,84 @@ body.has-compare-bar { padding-bottom: 90px; }
   </section>
 </div>
 
+<!-- ============ DIERENARTS VOORSTELLEN — huisdiereigenaren dragen hun eigen dierenarts aan ============ -->
+<div class="view" data-view="kliniek-voorstellen">
+  <section class="hero" style="padding: 56px 0 40px;">
+    <div class="container">
+      <div class="hero-content" style="max-width: 720px;">
+        <div class="eyebrow">
+          <span class="dot"></span>
+          Dierenarts voorstellen
+        </div>
+        <h1 class="hero-title" style="font-size: 40px; line-height: 1.1;">Staat uw dierenarts er nog niet bij?</h1>
+        <p class="hero-sub">
+          Draag uw eigen dierenarts of dierenkliniek voor — wij nemen contact met de praktijk op om de vermelding toe te voegen. Gratis en vrijblijvend, voor u en voor de kliniek.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding: 32px 0 80px; background: var(--bg-soft);">
+    <div class="container" style="max-width: 620px;">
+
+      <form id="voorstelForm" class="aanmeld-form" onsubmit="submitVoorstel(event)">
+
+        <fieldset class="form-section">
+          <legend>Uw dierenarts</legend>
+          <p class="form-section-desc">Vul in wat u weet — hoe meer, hoe sneller wij de praktijk kunnen vinden en benaderen.</p>
+
+          <div class="form-row">
+            <label for="vt-kliniek-naam">Naam van de praktijk <span class="req">*</span></label>
+            <input type="text" id="vt-kliniek-naam" name="kliniek_naam" required placeholder="Bijv. Dierenartsenpraktijk Voorbeeld">
+          </div>
+
+          <div class="form-row-grid">
+            <div class="form-row">
+              <label for="vt-kliniek-telefoon">Telefoonnummer van de praktijk</label>
+              <input type="tel" id="vt-kliniek-telefoon" name="kliniek_telefoon" placeholder="030 - 1234567">
+            </div>
+            <div class="form-row">
+              <label for="vt-kliniek-plaats">Plaats <span class="req">*</span></label>
+              <input type="text" id="vt-kliniek-plaats" name="kliniek_plaats" required placeholder="Utrecht">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <label for="vt-kliniek-postcode">Postcode (indien bekend)</label>
+            <input type="text" id="vt-kliniek-postcode" name="kliniek_postcode" placeholder="3511 AA" pattern="[0-9]{4}\s?[A-Za-z]{2}">
+          </div>
+        </fieldset>
+
+        <fieldset class="form-section">
+          <legend>Uw gegevens</legend>
+          <p class="form-section-desc">Alleen voor het geval wij iets willen navragen — wordt niet gepubliceerd.</p>
+
+          <div class="form-row-grid">
+            <div class="form-row">
+              <label for="vt-uw-naam">Uw naam</label>
+              <input type="text" id="vt-uw-naam" name="uw_naam" placeholder="Optioneel">
+            </div>
+            <div class="form-row">
+              <label for="vt-uw-email">Uw e-mailadres</label>
+              <input type="email" id="vt-uw-email" name="uw_email" placeholder="Optioneel">
+            </div>
+          </div>
+        </fieldset>
+
+        <button type="submit" class="btn btn-primary btn-block btn-lg" style="margin-top: 32px;">
+          Dierenarts voordragen
+        </button>
+
+        <p style="text-align: center; font-size: 14px; color: var(--ink-3); margin-top: 16px;">
+          Wij nemen contact op met de praktijk om de vermelding (kosteloos) toe te voegen of compleet te maken.
+        </p>
+
+      </form>
+
+    </div>
+  </section>
+</div>
+
 <!-- ============ WEBSITES VOOR KLINIEKEN — service-pagina ============ -->
 
 <!-- ============ WEBSITES VOOR DIERENKLINIEKEN ============ -->
@@ -5653,6 +5731,7 @@ body.has-compare-bar { padding-bottom: 90px; }
           <li><a href="/?view=kostenwijzer" onclick="navigate('kostenwijzer');return false;">Dierenarts kosten wijzer</a></li>
           <li><a href="/?view=beslisboom" onclick="navigate('beslisboom');return false;">Beslisboom spoed</a></li>
           <li><a href="/glossarium">Glossarium</a></li>
+          <li><a href="/?view=kliniek-voorstellen" onclick="navigate('kliniek-voorstellen');return false;">Dierenarts voorstellen</a></li>
         </ul>
       </div>
       <div>
@@ -6176,6 +6255,7 @@ const VIEW_META = {
   cookies: { title: 'Cookieverklaring — dierenkliniek.nl', desc: 'Welke cookies Dierenkliniek.nl gebruikt en waarom.' },
   'artikel-claimen': { title: 'Artikel claimen — dierenkliniek.nl', desc: 'Koppel uw naam en praktijk aan een kennisbank-artikel als vakinhoudelijk aanspreekpunt, en lever desgewenst uw eigen tekst en foto\'s aan.' },
   'artikel-aanmelden': { title: 'Artikel aanmelden — dierenkliniek.nl', desc: 'Draag een onderwerp of volledig artikel aan voor de kennisbank van Dierenkliniek.nl.' },
+  'kliniek-voorstellen': { title: 'Dierenarts voorstellen — dierenkliniek.nl', desc: 'Staat uw dierenarts er nog niet bij? Draag de praktijk kosteloos voor en wij nemen contact op om de vermelding toe te voegen.' },
 };
 
 function navigate(view) {
@@ -8056,6 +8136,69 @@ function submitAanmelding(e) {
       ta.value = body;
       ta.style.width = '100%';
       ta.style.minHeight = '300px';
+      ta.style.marginTop = '16px';
+      ta.style.padding = '12px';
+      ta.style.fontFamily = 'monospace';
+      ta.style.fontSize = '12px';
+      ta.style.border = '2px solid #00A1E4';
+      ta.style.borderRadius = '8px';
+      btn.parentNode.insertBefore(ta, btn.nextSibling);
+      const note = document.createElement('p');
+      note.innerHTML = `Kopieer bovenstaande tekst en stuur deze handmatig naar <strong>${CONTACT_EMAIL}</strong> met onderwerp "<strong>${subject}</strong>".`;
+      note.style.cssText = 'margin-top: 12px; font-size: 14px; color: var(--ink-2);';
+      ta.parentNode.insertBefore(note, ta.nextSibling);
+      ta.select();
+    }
+  }, 1500);
+
+  setTimeout(() => {
+    btn.textContent = original;
+    btn.disabled = false;
+  }, 8000);
+}
+
+// ============ DIERENARTS VOORSTELLEN (consument draagt eigen dierenarts aan) ============
+function submitVoorstel(e) {
+  e.preventDefault();
+  const form = e.target;
+  const data = new FormData(form);
+
+  const kliniekNaam = data.get('kliniek_naam') || '(onbekend)';
+  const subject = `KLINIEK VOORSTELLEN — ${kliniekNaam}`;
+
+  const lines = [
+    `Voorstel voor nieuwe/aan te vullen vermelding via dierenkliniek.nl`,
+    `Datum: ${new Date().toLocaleDateString('nl-NL')}`,
+    '',
+    '═══ DIERENARTS ═══',
+    `Naam praktijk: ${data.get('kliniek_naam') || '-'}`,
+    `Telefoon: ${data.get('kliniek_telefoon') || '-'}`,
+    `Plaats: ${data.get('kliniek_plaats') || '-'}`,
+    `Postcode: ${data.get('kliniek_postcode') || '-'}`,
+    '',
+    '═══ VOORGEDRAGEN DOOR ═══',
+    `Naam: ${data.get('uw_naam') || '-'}`,
+    `E-mail: ${data.get('uw_email') || '-'}`,
+    '',
+    '─────────────────────',
+    'Verzonden via https://dierenkliniek.nl/?view=kliniek-voorstellen',
+  ];
+  const body = lines.join('\n');
+
+  const url = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  window.location.href = url;
+
+  const btn = form.querySelector('button[type="submit"]');
+  const original = btn.textContent;
+  btn.textContent = '✓ E-mail geopend in uw mailprogramma';
+  btn.disabled = true;
+
+  setTimeout(() => {
+    if (!confirm('Werd uw mailprogramma geopend? Klik OK als alles goed ging. Klik Annuleren om de tekst te kopiëren en zelf te versturen.')) {
+      const ta = document.createElement('textarea');
+      ta.value = body;
+      ta.style.width = '100%';
+      ta.style.minHeight = '220px';
       ta.style.marginTop = '16px';
       ta.style.padding = '12px';
       ta.style.fontFamily = 'monospace';
