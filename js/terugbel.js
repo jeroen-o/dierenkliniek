@@ -5,6 +5,14 @@
 // een rij. De aanvraag gaat naar het e-mailadres van de kliniek zelf (uit
 // data-kliniek-email op het formulier), niet naar dierenkliniek.nl — de
 // consument stuurt 'm met één klik vanuit het eigen mailprogramma.
+//
+// BCC naar het eigen adres: zonder backend is dit de enige manier om het
+// aantal verzonden aanvragen te kunnen tellen. De vaste "[Terugbelverzoek]"-
+// prefix in het onderwerp maakt dat in Gmail filterbaar/telbaar
+// (subject:"[Terugbelverzoek]"). De bcc staat gewoon zichtbaar in het
+// compose-venster van de afzender zelf — niets wordt heimelijk verstuurd.
+const TELLER_EMAIL = 'info@dierenkliniek.nl';
+
 function submitTerugbel(e) {
   e.preventDefault();
   const form = e.target;
@@ -12,7 +20,7 @@ function submitTerugbel(e) {
   const kliniekEmail = form.dataset.kliniekEmail;
   const kliniekNaam = form.dataset.kliniekNaam || 'uw kliniek';
 
-  const subject = `Contactaanvraag via Dierenkliniek.nl — ${data.get('uw_naam') || 'nieuwe aanvraag'}`;
+  const subject = `[Terugbelverzoek] ${kliniekNaam} — ${data.get('uw_naam') || 'nieuwe aanvraag'}`;
   const lines = [
     `Contactaanvraag voor ${kliniekNaam} via dierenkliniek.nl`,
     `Datum: ${new Date().toLocaleDateString('nl-NL')}`,
@@ -30,7 +38,7 @@ function submitTerugbel(e) {
   ];
   const body = lines.join('\n');
 
-  const url = `mailto:${kliniekEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  const url = `mailto:${kliniekEmail}?bcc=${encodeURIComponent(TELLER_EMAIL)}&subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   window.location.href = url;
 
   const btn = form.querySelector('button[type="submit"]');
@@ -46,7 +54,7 @@ function submitTerugbel(e) {
       btn.parentNode.insertBefore(ta, btn.nextSibling);
       const note = document.createElement('p');
       note.className = 'form-note';
-      note.innerHTML = `Kopieer bovenstaande tekst en stuur deze handmatig naar <strong>${kliniekEmail}</strong>.`;
+      note.innerHTML = `Kopieer bovenstaande tekst en stuur deze handmatig naar <strong>${kliniekEmail}</strong> (met <strong>${TELLER_EMAIL}</strong> in bcc).`;
       ta.parentNode.insertBefore(note, ta.nextSibling);
       ta.select();
     }
