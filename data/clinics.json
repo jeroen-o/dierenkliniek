@@ -22714,24 +22714,6 @@
     "tier": "basic"
   },
   {
-    "id": 1195,
-    "name": "Dierenkliniek Eisenhower",
-    "city": "Rijswijk",
-    "address": "Generaal Eisenhowerplein 8",
-    "postcode": "2284 XV",
-    "phone": "070-3933851",
-    "email": "info@leezer.nl",
-    "website": "https://www.dierenkliniekeisenhower.nl/",
-    "rating": 0,
-    "reviews": 0,
-    "specs": [],
-    "tags": [],
-    "lat": 52.04118976,
-    "lng": 4.3258271,
-    "desc": "Veterinaire kliniek in Rijswijk. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
-  },
-  {
     "id": 1196,
     "name": "Dierenartsenpraktijk Oer de Tjonger",
     "city": "Langelille",
