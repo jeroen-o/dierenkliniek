@@ -1,8 +1,8 @@
 # Dierenkliniek.nl
 
-> Dierenkliniek.nl is het onafhankelijke overzicht van alle 1317 dierenklinieken in Nederland. Huisdiereigenaren vinden er een dierenarts op postcode, plaats of provincie, plus 113 klinieken met 24/7 spoedhulp en een kennisbank van 507 artikelen. Geen betaalde voorrang in de zoekresultaten.
+> Dierenkliniek.nl is het onafhankelijke overzicht van alle 1317 dierenklinieken in Nederland. Huisdiereigenaren vinden er een dierenarts op postcode, plaats of provincie, plus 113 klinieken met 24/7 spoedhulp en een kennisbank van 514 artikelen. Geen betaalde voorrang in de zoekresultaten.
 
-Laatst bijgewerkt: 2026-10-13. Exploitant: Dierenkliniek.nl, Darthuizerberg 1, 3825 BK Amersfoort, info@dierenkliniek.nl, 06-59115265.
+Laatst bijgewerkt: 2026-10-14. Exploitant: Dierenkliniek.nl, Darthuizerberg 1, 3825 BK Amersfoort, info@dierenkliniek.nl, 06-59115265.
 
 Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaScript.
 
@@ -10,7 +10,7 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 - [Dierenarts zoeken op postcode](https://dierenkliniek.nl/): startpunt met postcodezoeker en kaart van alle 1317 klinieken
 - [Spoedhulp 24/7](https://dierenkliniek.nl/spoedhulp): 113 klinieken met een 24-uurs spoeddienst, per provincie, met telefoonnummer
-- [Kennisbank](https://dierenkliniek.nl/kennisbank): 507 artikelen over gezondheid, preventie, voeding, gedrag en spoed
+- [Kennisbank](https://dierenkliniek.nl/kennisbank): 514 artikelen over gezondheid, preventie, voeding, gedrag en spoed
 - [Veterinair glossarium](https://dierenkliniek.nl/glossarium): 40 medische termen in gewone taal
 - [Alle provincies](https://dierenkliniek.nl/provincies): klinieken gegroepeerd per provincie
 - [Specialismen](https://dierenkliniek.nl/specialismen): klinieken per aandachtsgebied
@@ -76,7 +76,7 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 - [Voeding & gewicht](https://dierenkliniek.nl/kennisbank/categorie-voeding): 18 artikelen
 - [Gedrag & welzijn](https://dierenkliniek.nl/kennisbank/categorie-gedrag): 22 artikelen
 - [Puppy, volwassen, senior](https://dierenkliniek.nl/kennisbank/categorie-levensfasen): 22 artikelen
-- [Praktische zaken](https://dierenkliniek.nl/kennisbank/categorie-praktisch): 272 artikelen
+- [Praktische zaken](https://dierenkliniek.nl/kennisbank/categorie-praktisch): 279 artikelen
 
 ## Kennisbank per diersoort
 
@@ -604,6 +604,13 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 - [Bijtincident met een hond: wat moet je direct doen?](https://dierenkliniek.nl/kennisbank/bijtincident-met-een-hond-wat-moet-je-direct-doen): Maak de wond schoon, zoek bij mensen medische hulp en laat de hond zo nodig door een dierenarts nakijken.
 - [Dierenambulance of dierenarts bellen: wat is het verschil?](https://dierenkliniek.nl/kennisbank/dierenambulance-of-dierenarts-bellen-wat-is-het-verschil): Bel de dierenambulance voor gewonde of zwerfdieren en vervoer, de dierenarts voor behandeling van je eigen huisdier.
 - [Gedragstherapeut inschakelen voor hond of kat: wanneer nodig?](https://dierenkliniek.nl/kennisbank/gedragstherapeut-inschakelen-voor-hond-of-kat-wanneer-nodig): Een gedragstherapeut is nodig bij aanhoudende agressie, extreme angst of destructief gedrag dat zelf aanpakken niet oplost.
+- [De uitvaart van uw huisdier: welke opties heeft u?](https://dierenkliniek.nl/kennisbank/de-uitvaart-van-uw-huisdier-welke-opties-heeft-u): Crematie, begraven of opzetten: een overzicht van de praktische mogelijkheden na het overlijden van uw huisdier.
+- [Crematie van een huisdier: hoe werkt het en wat zijn de opties?](https://dierenkliniek.nl/kennisbank/crematie-van-een-huisdier-hoe-werkt-het-en-wat-zijn-de-opties): Individuele of collectieve crematie van een huisdier: het verschil, het proces bij een dierencrematorium en wat u terugkrijgt.
+- [Een huisdier begraven: wat zijn de mogelijkheden?](https://dierenkliniek.nl/kennisbank/een-huisdier-begraven-wat-zijn-de-mogelijkheden): Begraven op eigen grond of op een dierenbegraafplaats: de verschillen en wat uw keuze beïnvloedt.
+- [Begraafplaats voor dieren: wat kunt u er verwachten?](https://dierenkliniek.nl/kennisbank/begraafplaats-voor-dieren-wat-kunt-u-er-verwachten): Hoe een dierenbegraafplaats werkt, wat een graf kost, en hoe u een geschikte begraafplaats vindt.
+- [Huisdier begraven op eigen grond: wat zijn de regels?](https://dierenkliniek.nl/kennisbank/huisdier-begraven-op-eigen-grond-wat-zijn-de-regels): De gemeentelijke regels voor het begraven van een huisdier in uw tuin, en wanneer dit niet is toegestaan.
+- [Een huisdier laten opzetten (taxidermie): hoe gaat dat?](https://dierenkliniek.nl/kennisbank/een-huisdier-laten-opzetten-taxidermie-hoe-gaat-dat): Taxidermie bij huisdieren: het proces, voor- en nadelen, en waar u op let bij het kiezen van een taxidermist.
+- [Urn voor een huisdier: soorten en hoe kiest u er een?](https://dierenkliniek.nl/kennisbank/urn-voor-een-huisdier-soorten-en-hoe-kiest-u-er-een): Overzicht van urnen voor huisdieren: materialen, waar u ze koopt en wat u met de as kunt doen.
 
 ## Voor klinieken
 
@@ -623,5 +630,5 @@ Alle onderstaande pagina's zijn statische HTML en volledig leesbaar zonder JavaS
 
 ## Optioneel
 
-- [Volledige tekst van de kennisbank](https://dierenkliniek.nl/llms-full.txt): alle 507 artikelen als platte tekst
+- [Volledige tekst van de kennisbank](https://dierenkliniek.nl/llms-full.txt): alle 514 artikelen als platte tekst
 - [Sitemap](https://dierenkliniek.nl/sitemap.xml): alle canonieke URL's
