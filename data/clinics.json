@@ -19820,7 +19820,9 @@
     "rating": 0,
     "reviews": 0,
     "specs": [],
-    "tags": ["spoed"],
+    "tags": [
+      "spoed"
+    ],
     "lat": 52.3098,
     "lng": 6.51947,
     "desc": "Veterinaire kliniek in Rijssen. Volledige zorg voor gezelschapsdieren.",
@@ -20694,24 +20696,6 @@
     "lat": 51.9719,
     "lng": 5.52979,
     "desc": "Veterinaire kliniek in Rhenen. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
-  },
-  {
-    "id": 1078,
-    "name": "Dierenkliniek Vathorst",
-    "city": "Amersfoort",
-    "address": "Wageningseberg 102",
-    "postcode": "3825 GR",
-    "phone": "033-2530112",
-    "email": "",
-    "website": "http://www.dierenarts-vathorst.nl",
-    "rating": 0,
-    "reviews": 0,
-    "specs": [],
-    "tags": [],
-    "lat": 52.1987,
-    "lng": 5.41723,
-    "desc": "Veterinaire kliniek in Amersfoort. Volledige zorg voor gezelschapsdieren.",
     "tier": "basic"
   },
   {
@@ -22479,24 +22463,6 @@
     "tier": "basic"
   },
   {
-    "id": 1181,
-    "name": "Dierenartsenpraktijk Andreas Stad",
-    "city": "Dordrecht",
-    "address": "Bilderdijkstraat 16",
-    "postcode": "3314 RD",
-    "phone": "078-6135779",
-    "email": "info@dapstad.nl",
-    "website": "http://dapstad.nl/",
-    "rating": 0,
-    "reviews": 0,
-    "specs": [],
-    "tags": [],
-    "lat": 51.80272653,
-    "lng": 4.66380797,
-    "desc": "Veterinaire kliniek in Dordrecht. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
-  },
-  {
     "id": 1182,
     "name": "Dierenartsenpraktijk AniMa",
     "city": "Nieuw-Beijerland",
@@ -22639,24 +22605,6 @@
     "lat": 52.94635161,
     "lng": 6.44250744,
     "desc": "Veterinaire kliniek in Smilde. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
-  },
-  {
-    "id": 1190,
-    "name": "Dierenartsenpraktijk Dier & Arts Goes",
-    "city": "Goes",
-    "address": "'s-Heer Hendrikskinderendijk 99",
-    "postcode": "4461 EA",
-    "phone": "0113-228866",
-    "email": "",
-    "website": "https://www.dierenartsgoes.nl/",
-    "rating": 0,
-    "reviews": 0,
-    "specs": [],
-    "tags": [],
-    "lat": 51.45816733,
-    "lng": 3.8966309,
-    "desc": "Veterinaire kliniek in 's-Gravenpolder. Volledige zorg voor gezelschapsdieren.",
     "tier": "basic"
   },
   {
@@ -23288,25 +23236,6 @@
     "instagram": "https://www.instagram.com/lingehoevemiddenzeeland"
   },
   {
-    "id": 1226,
-    "name": "Dierenartsenpraktijk Midden-Zeeland",
-    "city": "Heinkenszand",
-    "address": "Dorpsstraat 10A",
-    "postcode": "4451 BC",
-    "phone": "0113-561290",
-    "email": "",
-    "website": "",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 51.5077,
-    "lng": 3.7858,
-    "desc": "Dierenartspraktijk in Heinkenszand.",
-    "tier": "basic"
-  },
-  {
     "id": 1227,
     "name": "Oostermoer Dierenartsen",
     "city": "Gieten",
@@ -23591,26 +23520,6 @@
     "lng": 6.5625,
     "desc": "Dierenartspraktijk in Assen.",
     "tier": "basic"
-  },
-  {
-    "id": 1244,
-    "name": "Dierenartsenpraktijk Zuidwest-Drenthe",
-    "city": "Meppel",
-    "address": "Lepelaar 70",
-    "postcode": "7943 SH",
-    "phone": "0522-238508",
-    "email": "",
-    "website": "https://dierenartsenpraktijkmeppel.nl/",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.69155009,
-    "lng": 6.2247148,
-    "desc": "Dierenartspraktijk in Meppel.",
-    "tier": "basic",
-    "facebook": "https://www.facebook.com/DAPZWD"
   },
   {
     "id": 1245,
@@ -24333,27 +24242,6 @@
     "facebook": "https://www.facebook.com/DierenkliniekLochem"
   },
   {
-    "id": 1289,
-    "name": "De Graafschap Dierenartsen",
-    "city": "Velp",
-    "address": "Arnhemsestraatweg 2",
-    "postcode": "6881 NG",
-    "phone": "026-3634067",
-    "email": "",
-    "website": "https://www.degraafschapdierenartsen.nl",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.0023,
-    "lng": 5.9787,
-    "desc": "Dierenartspraktijk in Velp.",
-    "tier": "basic",
-    "facebook": "https://www.facebook.com/degraafschapdierenartsen",
-    "instagram": "https://www.instagram.com/degraafschapdierenartsen"
-  },
-  {
     "id": 1290,
     "name": "Dierenkliniek Peel en Maas",
     "city": "Maasbree",
@@ -24618,25 +24506,6 @@
     "lat": 51.583,
     "lng": 4.217,
     "desc": "Dierenartspraktijk in Nieuw-Vossemeer.",
-    "tier": "basic"
-  },
-  {
-    "id": 1306,
-    "name": "Dierenarts Obdam",
-    "city": "Obdam",
-    "address": "Dorpsstraat 76",
-    "postcode": "1713 HK",
-    "phone": "0226-451790",
-    "email": "",
-    "website": "https://dierenartsobdam.nl/",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.677,
-    "lng": 4.9045,
-    "desc": "Dierenartspraktijk in Obdam.",
     "tier": "basic"
   },
   {
@@ -24907,44 +24776,6 @@
     "lat": 52.15,
     "lng": 5.183,
     "desc": "Dierenartspraktijk in Maartensdijk.",
-    "tier": "basic"
-  },
-  {
-    "id": 1327,
-    "name": "Dierenartsenpraktijk Breukelen",
-    "city": "Breukelen",
-    "address": "G. van Nijenrodestraat 96",
-    "postcode": "3621 GM",
-    "phone": "0346-261415",
-    "email": "",
-    "website": "https://www.dierenartsbreukelen.nl/",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.1364,
-    "lng": 5.0411,
-    "desc": "Dierenartspraktijk in Maarssen.",
-    "tier": "basic"
-  },
-  {
-    "id": 1330,
-    "name": "Dierenkliniek Zeist",
-    "city": "Zeist",
-    "address": "Egelinglaan 8b",
-    "postcode": "3705 TC",
-    "phone": "030-8200900",
-    "email": "",
-    "website": "https://www.topzorgdierenklinieken.nl/surgeries/dierenkliniek-zeist",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.11083,
-    "lng": 5.25639,
-    "desc": "Dierenartspraktijk in Huis ter Heide.",
     "tier": "basic"
   },
   {
@@ -25496,26 +25327,6 @@
     "instagram": "https://www.instagram.com/pleegmerriesdennenoord"
   },
   {
-    "id": 1373,
-    "name": "GELRE Dierenartsen Eibergen",
-    "city": "Eibergen",
-    "address": "Botterweg 2",
-    "postcode": "7151 ED",
-    "phone": "0545-471390",
-    "email": "",
-    "website": "https://www.gelredierenartsen.nl/",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.1042,
-    "lng": 6.6261,
-    "desc": "Dierenartspraktijk in Eibergen.",
-    "tier": "basic",
-    "facebook": "https://www.facebook.com/oosthofdierenartsen"
-  },
-  {
     "id": 1374,
     "name": "Dierenkliniek Brandts",
     "city": "Geleen",
@@ -25837,25 +25648,6 @@
     "lat": 52.1255,
     "lng": 5.19987,
     "desc": "Dierenartspraktijk in Bilthoven.",
-    "tier": "basic"
-  },
-  {
-    "id": 1407,
-    "name": "Dierenkliniek Mijdrecht",
-    "city": "Mijdrecht",
-    "address": "Bozenhoven 69-71",
-    "postcode": "3641 AC",
-    "phone": "0297-293939",
-    "email": "",
-    "website": "https://www.dierenartsenpraktijkuithoorn-aalsmeer.nl/",
-    "specs": [
-      "Honden",
-      "Katten"
-    ],
-    "tags": [],
-    "lat": 52.2059,
-    "lng": 4.8597,
-    "desc": "Dierenartspraktijk in Mijdrecht.",
     "tier": "basic"
   },
   {
