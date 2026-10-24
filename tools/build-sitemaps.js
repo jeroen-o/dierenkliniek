@@ -83,10 +83,24 @@ const kb = [
 // Echte lastmod per kliniek i.p.v. overal de builddatum — zie clinic-dates.js:
 // dezelfde reden als bij de kennisbank hierboven (anders negeert Google het
 // signaal zodra het voor alle 1.300+ pagina's identiek is).
+//
+// Sitemap-priority gedifferentieerd naar datarijkdom: Search Console meldt
+// op deze schaal (1.300+ bijna-identieke kliniekpagina's) een substantieel
+// aantal "Gevonden, momenteel niet geïndexeerd" — verwacht gedrag bij
+// programmatische content, maar crawlbudget mag wel naar de rijkere
+// pagina's. Klinieken zonder website/e-mail/tags zijn de dunste variant
+// (kortste, meest generieke pagina) en krijgen een lagere priority.
+function clinicPriority(c) {
+  const rijk = Boolean(c.website) || Boolean(c.email) || Boolean((c.tags || []).length);
+  const compleet = Boolean(c.website) && Boolean(c.email) && Boolean((c.tags || []).length);
+  if (compleet) return '0.65';
+  if (rijk) return '0.6';
+  return '0.4';
+}
 const klinieken = CLINICS
   .filter(c => exists(L.clinicSlug(c) + '.html'))
   .sort((a, b) => L.clinicSlug(a).localeCompare(L.clinicSlug(b)))
-  .map(c => u('/' + L.clinicSlug(c), '0.6', 'monthly', CLINIC_DATES.datumsVoor(c.id, TODAY).dateModified));
+  .map(c => u('/' + L.clinicSlug(c), clinicPriority(c), 'monthly', CLINIC_DATES.datumsVoor(c.id, TODAY).dateModified));
 
 // Stadpagina's volgen de meest recente wijziging van hun eigen klinieken,
 // zodat een correctie aan een vermelding ook de stadpagina's lastmod optilt.
