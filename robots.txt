@@ -6,49 +6,35 @@ Allow: /
 # Tracking-parameters leveren alleen duplicaten op
 Disallow: /*?utm_
 Disallow: /*&utm_
-# Juridische/utility-views van de SPA (?view=...): geen eigen statische
-# pagina, geen content die op zichzelf hoort te ranken. Ze krijgen ook al
-# noindex via JS, maar dat vereist een renderpas; Disallow voorkomt dat
-# crawlers ze überhaupt ophalen en als "gecrawld, niet geïndexeerd" tellen.
-# artikel-claimen/artikel-aanmelden: pure formulierpagina's (mailto-only,
-# geen eigen content) — het &artikel=<slug>-deel zou anders voor elk van de
-# 250+ kennisbank-artikelen een bijna-identieke, dunne pagina opleveren.
-Disallow: /?view=privacy
-Disallow: /?view=voorwaarden
-Disallow: /?view=cookies
+# beslisboom/artikel-claimen/artikel-aanmelden: pure formulier- of
+# doorverwijspagina's van de SPA (?view=...), geen eigen content die op
+# zichzelf hoort te ranken — artikel-claimen/aanmelden zou via het
+# &artikel=<slug>-deel anders voor elk van de 250+ kennisbank-artikelen een
+# bijna-identieke, dunne pagina opleveren. Hier via Disallow geregeld, niet
+# via noindex: privacy/voorwaarden/cookies/vaccinatieplanner kregen eerder
+# zowel Disallow als noindex, waardoor Googlebot de noindex nooit kon lezen
+# (robots.txt voorkomt al dat de pagina wordt opgehaald) — voor die vier
+# is nu noindex via JS het enige signaal.
 Disallow: /?view=beslisboom
-Disallow: /?view=vaccinatieplanner
 Disallow: /?view=artikel-claimen
 Disallow: /?view=artikel-aanmelden
 
 # Zoekmachines
 User-agent: Googlebot
 Allow: /
-Disallow: /?view=privacy
-Disallow: /?view=voorwaarden
-Disallow: /?view=cookies
 Disallow: /?view=beslisboom
-Disallow: /?view=vaccinatieplanner
 Disallow: /?view=artikel-claimen
 Disallow: /?view=artikel-aanmelden
 
 User-agent: Bingbot
 Allow: /
-Disallow: /?view=privacy
-Disallow: /?view=voorwaarden
-Disallow: /?view=cookies
 Disallow: /?view=beslisboom
-Disallow: /?view=vaccinatieplanner
 Disallow: /?view=artikel-claimen
 Disallow: /?view=artikel-aanmelden
 
 User-agent: DuckDuckBot
 Allow: /
-Disallow: /?view=privacy
-Disallow: /?view=voorwaarden
-Disallow: /?view=cookies
 Disallow: /?view=beslisboom
-Disallow: /?view=vaccinatieplanner
 Disallow: /?view=artikel-claimen
 Disallow: /?view=artikel-aanmelden
 
@@ -129,31 +115,19 @@ Allow: /
 
 User-agent: Yandex
 Allow: /
-Disallow: /?view=privacy
-Disallow: /?view=voorwaarden
-Disallow: /?view=cookies
 Disallow: /?view=beslisboom
-Disallow: /?view=vaccinatieplanner
 Disallow: /?view=artikel-claimen
 Disallow: /?view=artikel-aanmelden
 
 User-agent: Seznam
 Allow: /
-Disallow: /?view=privacy
-Disallow: /?view=voorwaarden
-Disallow: /?view=cookies
 Disallow: /?view=beslisboom
-Disallow: /?view=vaccinatieplanner
 Disallow: /?view=artikel-claimen
 Disallow: /?view=artikel-aanmelden
 
 User-agent: Applebot
 Allow: /
-Disallow: /?view=privacy
-Disallow: /?view=voorwaarden
-Disallow: /?view=cookies
 Disallow: /?view=beslisboom
-Disallow: /?view=vaccinatieplanner
 Disallow: /?view=artikel-claimen
 Disallow: /?view=artikel-aanmelden
 

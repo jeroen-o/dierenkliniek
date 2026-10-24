@@ -28,16 +28,22 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Product",
+  "@type": "Service",
+  "serviceType": "Online vermelding voor dierenklinieken",
   "name": "Vermelding-pakketten voor dierenklinieken",
   "description": "Vier vermelding-pakketten voor dierenklinieken op Dierenkliniek.nl",
-  "brand": {"@type": "Organization", "name": "Dierenkliniek.nl"},
-  "offers": [
-    {"@type": "Offer", "name": "Gratis", "price": "0", "priceCurrency": "EUR", "description": "Basisvermelding met adres, kaart en telefoon"},
-    {"@type": "Offer", "name": "Basis", "price": "180", "priceCurrency": "EUR", "description": "+ website, e-mail, Google Reviews-link"},
-    {"@type": "Offer", "name": "Plus", "price": "395", "priceCurrency": "EUR", "description": "+ foto's, openingstijden, uitgebreide omschrijving"},
-    {"@type": "Offer", "name": "Premium", "price": "795", "priceCurrency": "EUR", "description": "Multi-vestiging, prioriteit-listing"}
-  ]
+  "provider": {"@type": "Organization", "name": "Dierenkliniek.nl", "url": "https://dierenkliniek.nl/"},
+  "areaServed": "NL",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Vermelding-pakketten",
+    "itemListElement": [
+      {"@type": "Offer", "name": "Gratis", "price": "0", "priceCurrency": "EUR", "description": "Basisvermelding met adres, kaart en telefoon"},
+      {"@type": "Offer", "name": "Basis", "price": "180", "priceCurrency": "EUR", "description": "+ website, e-mail, Google Reviews-link"},
+      {"@type": "Offer", "name": "Plus", "price": "395", "priceCurrency": "EUR", "description": "+ foto's, openingstijden, uitgebreide omschrijving"},
+      {"@type": "Offer", "name": "Premium", "price": "795", "priceCurrency": "EUR", "description": "Multi-vestiging, prioriteit-listing"}
+    ]
+  }
 }
 </script>
 
