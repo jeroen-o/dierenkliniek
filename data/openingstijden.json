@@ -1537,16 +1537,6 @@
     "zo": "gesloten",
     "onbevestigd": true
   },
-  "dierenkliniek-de-hagmolen-dierenarts-in-beckum": {
-    "ma": "08:00-19:00",
-    "di": "08:00-19:00",
-    "wo": "08:00-19:00",
-    "do": "08:00-19:00",
-    "vr": "08:00-19:00",
-    "za": "10:00-13:00",
-    "zo": "gesloten",
-    "bron": "opgave praktijk per e-mail, 2026-09-16"
-  },
   "dierenkliniek-de-kempen-dierenarts-in-bergeijk": {
     "ma": "12:30-17:00",
     "di": "09:00-17:00",
@@ -13978,5 +13968,15 @@
     "do": "08:00-20:00",
     "vr": "08:00-20:00",
     "bron": "webonderzoek (https://ommelander-dierenklinieken.nl/contact/), 2026-10-09"
+  },
+  "dierenkliniek-de-hagmolen-hengelo-dierenarts-in-beckum": {
+    "ma": "08:00-19:00",
+    "di": "08:00-19:00",
+    "wo": "08:00-19:00",
+    "do": "08:00-19:00",
+    "vr": "08:00-19:00",
+    "za": "10:00-13:00",
+    "zo": "gesloten",
+    "bron": "praktijk zelf, e-mail 16 sep 2026 en 25 okt 2026"
   }
 }
