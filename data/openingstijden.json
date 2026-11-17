@@ -13973,10 +13973,10 @@
     "ma": "08:00-19:00",
     "di": "08:00-19:00",
     "wo": "08:00-19:00",
-    "do": "08:00-19:00",
-    "vr": "08:00-19:00",
+    "do": "08:00-17:30",
+    "vr": "08:00-17:30",
     "za": "10:00-13:00",
     "zo": "gesloten",
-    "bron": "praktijk zelf, e-mail 16 sep 2026 en 25 okt 2026"
+    "bron": "praktijk zelf, e-mail 16 sep 2026, 25 okt 2026 en 13 nov 2026 (ingaand 30 nov 2026)"
   }
 }

@@ -19698,24 +19698,6 @@
     "tier": "basic"
   },
   {
-    "id": 1021,
-    "name": "De Kompaan Dierenarts-specialisten",
-    "city": "Ommen",
-    "address": "van Reeuwijkstraat 34",
-    "postcode": "7731 EH",
-    "phone": "0529-452580",
-    "email": "info@dekompaan.com",
-    "website": "http://www.dekompaan.com/",
-    "rating": 0,
-    "reviews": 0,
-    "specs": [],
-    "tags": [],
-    "lat": 52.5271,
-    "lng": 6.42218,
-    "desc": "Veterinaire kliniek in Ommen. Volledige zorg voor gezelschapsdieren.",
-    "tier": "basic"
-  },
-  {
     "id": 1022,
     "name": "Dierenarts. Combinatie Balkbrug - Nieuwleusen",
     "city": "Balkbrug",
